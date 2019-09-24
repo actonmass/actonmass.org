@@ -1,0 +1,14 @@
+# This file is *NOT* reloaded automatically when you use 'jekyll serve'.
+# If you change this file, please restart the server process.
+
+title: Jekyll Template
+baseurl: ""
+url: https://jekylltemplate.example
+
+
+include: ['_pages']
+
+exclude:
+  - README.md
+  - .circleci
+  - vendor
