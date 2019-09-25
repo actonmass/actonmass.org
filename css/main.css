@@ -1,0 +1,50 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+}
+
+a {
+    color: inherit;
+}
+
+#top-banner-container {
+    position: relative;
+    width: 100%;
+    background-image: url("../img/mastatehouse.jpg");
+    padding-bottom: 35%;  /* To set proportions for the top-banner block*/
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+}
+
+#top-banner-content {
+    position: absolute;
+	top: 0; bottom: 0; left: 0; right: 0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#top-banner-content p {
+    color:white;
+    background-color: black;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+#sign-up-form-container {
+    background-color: rgb(255, 190, 82);
+    display: flex;
+    justify-content: center;
+}
+
+#sign-up-form {
+    width: 60%;
+    background-color: rgb(255, 214, 146);
+    margin-top: 30px;
+    padding: 40px;
+    color: rgb(0, 56, 98)
+}
+
+#sign-up-form h2 {
+    font-size: 2em;
+}
