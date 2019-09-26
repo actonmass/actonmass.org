@@ -1,6 +1,35 @@
 ---
 permalink: /
 layout: home
+
+issues:
+  - title: Education
+    subtitle: Our outdated funding formula
+    page: ./education
+  - title: Climate
+    subtitle: 100% renewable by 2050 or sooner
+    page: ./climate
+  - title: Immigration
+    subtitle: Ending cooperation with ice
+    page: ./immigration
+  - title: Housing
+    subtitle: Tackle the housing crisis
+    page: ./housing
+  - title: Healthcare
+    subtitle: Medicare for all
+    page: ./health-care
+  - title: LGBTQ+ rights
+    subtitle: LGBTQ+ inclusive sex education
+    page: ./lgbtq-rights
+  - title: Voting rights
+    subtitle: Election Day Registration
+    page: ./voting-rights
+  - title: Criminal Justice Reform
+    subtitle: Mandatory minimums in MA
+    page: ./criminal-justice-reform
+  - title: Gender Equity
+    subtitle: Teach consent in sex education
+    page: ./gender-equity
 ---
 
 Year after year, popular bills about education, immigrant rights, climate change and more are killed by legislators who claim to support them.

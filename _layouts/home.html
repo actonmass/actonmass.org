@@ -21,5 +21,21 @@ layout: default
         </script>
     </div>
 </div>
-{{ content }}
+<div class="page-content-container">
+    <div class="page-content">
+        {{ content }}
+        <h3 class="issues-title">Issues</h3>
+        <div class="issues">
+            {% for issue in page.issues %}
+                <a href="{{issue.page}}" class="issue-container">
+                    <div class="issue-content" href="/">
+                        <h3>{{ issue.title }}</h3>
+                        <p>{{ issue.subtitle }}</p>
+                    </div>
+                </a>
+            {% endfor %}
+        </div>
+    </div>
+</div>
+
 
