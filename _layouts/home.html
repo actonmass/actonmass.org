@@ -1,11 +1,11 @@
 ---
-layout: default
+layout: base
 ---
 
 <div id="top-banner-container">
     <div id="top-banner-content">
         <p><a href="{{ page.call_to_action.page }}">{{ page.call_to_action.text }}</a></p>
-        <iframe width="560" height="315" src="{{ page.video }}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        {% include youtube-video.html src=page.video %}
     </div>
 </div>
 <div id="sign-up-form-container">
