@@ -1,3 +1,5 @@
+/* General Style */
+
 body {
     font-family: sans-serif;
     margin: 0;
@@ -15,6 +17,43 @@ a {
 .page-content {
     width: 60%;
 }
+
+/* Reused components */
+
+.donate-button {
+    display: block;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: rgb(0, 115, 200);
+    color: white;
+    font-weight: bold;
+    font-size: 1.3em;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+.social-media-link {
+    height: 2em;
+    margin-right: 10px;
+}
+
+.nav-ul {
+    list-style-type: none;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+.nav-ul a {
+    text-decoration: none;
+}
+
+.nav-ul a:hover {
+    text-decoration: underline;
+}
+
+/* Home page */
 
 #top-banner-container {
     width: 100%;
