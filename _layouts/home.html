@@ -4,14 +4,13 @@ layout: default
 
 <div id="top-banner-container">
     <div id="top-banner-content">
-        <p><a href="/">Have your Reps pledged to fight for transparency?</a></p>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/TRi1G-dmKhg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <p><a href="{{ page.call_to_action.page }}">{{ page.call_to_action.text }}</a></p>
+        <iframe width="560" height="315" src="{{ page.video }}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
 </div>
-
 <div id="sign-up-form-container">
     <div id="sign-up-form">
-        <h2>Stay informed on what's happening in the State House</h2>
+        <h2>{{ page.sign_up_text }}</h2>
         <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/shell.js"></script>
         <script>
         hbspt.forms.create({
@@ -24,7 +23,7 @@ layout: default
 <div class="page-content-container">
     <div class="page-content">
         {{ content }}
-        <h3 class="issues-title">Issues</h3>
+        <h3 id="issues" class="issues-title">Issues</h3>
         <div class="issues">
             {% for issue in page.issues %}
                 <a href="{{issue.page}}" class="issue-container">
@@ -37,9 +36,8 @@ layout: default
         </div>
     </div>
 </div>
-
 <div id="donate-banner">
-    <p>Act on Mass is a non-profit  organization that doesn't take money from corporations.  Please support our mission.</p>
-    <a href="/" class="donate-button">Donate</a>
+    <p>{{ page.donate_text }}</p>
+    {% include donate-button.html %}
 </div>
 

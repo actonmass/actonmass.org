@@ -1,10 +1,9 @@
 <footer id="footer-container">
     <div id="footer">
         <ul class="nav-ul footer-left-block">
-            <li><a href="/">Donate</a></li>
-            <li><a href="/">About us</a></li>
-            <li><a href="/">FAQs</a></li>
-            <li><a href="/">Privacy Policy</a></li>
+            {% for link in site.footer %}
+                <li><a href="{{link.page}}">{{link.title}}</a></li>
+            {% endfor %}
         </ul>
         <div class="footer-center-block">
             <p>Copyright © 2019, Act on Mass, Inc.</p>

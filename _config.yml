@@ -5,6 +5,27 @@ title: Act On Mass
 baseurl: ""
 url: https://jekylltemplate.example
 
+menu:
+  - title: Home
+    page: ./
+  - title: The pledge
+    page: ./pledge
+  - title: About us
+    page: ./about-us
+  - title: Issues
+    page: ./#issues
+  - title: Latest updates
+    page: ./latest-updates
+footer:
+  - title: Donate
+    page: https://secure.actblue.com/donate/act-on-mass
+  - title: About us
+    page: ./about-us
+  - title: FAQs
+    page: ./faq
+  - title: Privacy Policy
+    page: ./privacy
+donate_button_url: https://secure.actblue.com/donate/act-on-mass
 
 include: ['_pages']
 

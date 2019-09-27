@@ -2,6 +2,14 @@
 permalink: /
 layout: home
 
+call_to_action:
+  text: Have your Reps pledged to fight for transparency?
+  page: ./pledge
+
+video: https://www.youtube.com/embed/TRi1G-dmKhg
+
+sign_up_text: Stay informed on what's happening in the State House
+
 issues:
   - title: Education
     subtitle: Our outdated funding formula
@@ -30,6 +38,8 @@ issues:
   - title: Gender Equity
     subtitle: Teach consent in sex education
     page: ./gender-equity
+
+donate_text: Act on Mass is a non-profit  organization that doesn't take money from corporations.  Please support our mission.
 ---
 
 Year after year, popular bills about education, immigrant rights, climate change and more are killed by legislators who claim to support them.

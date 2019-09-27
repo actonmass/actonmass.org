@@ -4,15 +4,13 @@
     </div>
     <nav>
         <ul class="nav-ul">
-            <li><a href="/">Home</a></li>
-            <li><a href="/">The pledge</a></li>
-            <li><a href="/">About us</a></li>
-            <li><a href="/">Issues</a></li>
-            <li><a href="/">Latest updates</a></li>
+            {% for link in site.menu %}
+                <li><a href="{{link.page}}">{{link.title}}</a></li>
+            {% endfor %}
         </ul>
     </nav>
     <div id="header-right-block">
-        <a href="/" class="donate-button">Donate</a>
+        {% include donate-button.html %}
         <img class="social-media-link" src="img/fb.webp"/>
         <img class="social-media-link" src="img/twitter.webp"/>
     </div>
