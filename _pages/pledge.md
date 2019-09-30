@@ -12,7 +12,7 @@ Massachusetts’ legislature is one of the most secretive in the country.  Impor
 {% include youtube-video.html src="https://www.youtube.com/embed/TRi1G-dmKhg" %}
 
 [Politicians: Sign the Pledge](https://docs.google.com/forms/d/e/1FAIpQLSeM8Plqo4MUaGlb_kSfyYrt8E0u_c1Xda133m4xrMkJiBCRVg/viewform?usp=sf_link){:class="donate-button"}
-[Supporters: Take Action](/){:class="donate-button"}
+[Supporters: Take Action](/pledge-supporter){:class="donate-button"}
 {: style="text-align: center;"}
 
 ## The Voters Deserve to Know Pledge:

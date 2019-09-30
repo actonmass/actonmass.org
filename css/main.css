@@ -95,14 +95,14 @@ a {
     font-weight: bold;
 }
 
-#sign-up-form-container {
+.sign-up-form-container {
     background-color: rgb(255, 190, 82);
     display: flex;
     justify-content: center;
 }
 
-#sign-up-form {
-    width: 60%;
+.sign-up-form {
+    max-width: 80%;
     background-color: rgb(255, 214, 146);
     margin-top: 40px;
     margin-bottom: 40px;
@@ -110,7 +110,7 @@ a {
     color: rgb(0, 56, 98)
 }
 
-#sign-up-form h2 {
+.sign-up-form h2 {
     font-size: 2em;
 }
 
