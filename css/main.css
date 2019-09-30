@@ -57,6 +57,18 @@ a {
     justify-content: center;
 }
 
+.logo-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-self: center;
+}
+
+.logo-list img {
+    align-self: center;
+    margin: 1% 5% 1% 5%;
+}
+
 /* Home page */
 
 #top-banner-container {
