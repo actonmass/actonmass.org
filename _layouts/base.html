@@ -1,6 +1,11 @@
 <!DOCTYPE html>
 <html lang="en-US">
   <head>
+    {% if page.title %}
+      <title>{{ page.title }} | Act On Mass</title>
+    {% else %}
+      <title>Act On Mass</title>
+    {% endif %}
     <meta charset="UTF-8">
     <link rel="stylesheet" href="/css/main.css">
     <link rel="stylesheet" href="/css/header.css">

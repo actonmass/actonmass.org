@@ -1,6 +1,7 @@
 ---
 layout: default
 permalink: /pledge-supporter/
+title: Support the pledge
 ---
 
 # Voters Deserve To Know

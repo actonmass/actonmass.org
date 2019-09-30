@@ -1,6 +1,7 @@
 ---
 layout: default
 permalink: /about-us/
+title: About us
 
 team:
   - name: Erika Uyterhoeven

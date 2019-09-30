@@ -1,6 +1,7 @@
 ---
 layout: default
 permalink: /privacy/
+title: Privacy
 ---
 
 # Membership Policy
