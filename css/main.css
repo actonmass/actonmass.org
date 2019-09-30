@@ -173,3 +173,22 @@ a {
     text-align: center;
     font-weight: bold;
 }
+
+
+/* About us page */
+
+.team {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.person {
+    flex-basis: 20%;
+    text-align: center;
+    margin: 0 0.5em 0 0.5em;
+}
+
+.person p {
+    text-align: left;
+    padding: 0 0.5em 0 0.5em;
+}

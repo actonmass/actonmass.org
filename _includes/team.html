@@ -1,0 +1,9 @@
+<div class="team">
+{% for person in include.team %}
+    <div class="person">
+        <img title="{{person.name}}" src="{{ person.photo }}"/>
+        <h4>{{ person.name }}</h4>
+        <p>{{ person.text }}</p>
+    </div>
+{% endfor %}
+</div>
