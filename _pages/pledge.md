@@ -11,7 +11,8 @@ Massachusetts’ legislature is one of the most secretive in the country.  Impor
 
 {% include youtube-video.html src="https://www.youtube.com/embed/TRi1G-dmKhg" %}
 
-[Politicians: Sign the Pledge](https://docs.google.com/forms/d/e/1FAIpQLSeM8Plqo4MUaGlb_kSfyYrt8E0u_c1Xda133m4xrMkJiBCRVg/viewform?usp=sf_link){:class="donate-button"} [Supporters: Take Action](/){:class="donate-button"}
+[Politicians: Sign the Pledge](https://docs.google.com/forms/d/e/1FAIpQLSeM8Plqo4MUaGlb_kSfyYrt8E0u_c1Xda133m4xrMkJiBCRVg/viewform?usp=sf_link){:class="donate-button"}
+[Supporters: Take Action](/){:class="donate-button"}
 {: style="text-align: center;"}
 
 ## The Voters Deserve to Know Pledge:
@@ -63,6 +64,19 @@ The goal of the Pledge is to be:
 - **Effective** in putting pressure on leadership to shift the broken culture of legislating behind closed doors and preventing the public from holding their legislators accountable
 
 ## Endorsing Organizations
+
+![Progressive Massachusetts logo](/img/pledge-endorsements/prog-mass.webp)
+![AFT logo](/img/pledge-endorsements/AFT-MA.webp)
+![Sunrise Boston logo](/img/pledge-endorsements/Sunrise.webp)
+![UU MassAction logo](/img/pledge-endorsements/UUMassAction.webp)
+![Progressive Democrats of Massachusetts logo](/img/pledge-endorsements/PDM.webp)
+![Our Revolution Massachusetts logo](/img/pledge-endorsements/ORMA.webp)
+![Boston Democratic Socialists of America logo](/img/pledge-endorsements/DSA.webp)
+![Boston Teachers Union logo](/img/pledge-endorsements/BTU.webp)
+![Public higher education network of Massachusetts logo](/img/pledge-endorsements/PHENOM.webp)
+![Massachusetts education justice alliance logo](/img/pledge-endorsements/MEJA.webp)
+![Hildreth Institute logo](/img/pledge-endorsements/HI.webp)
+{: class="logo-list"}
 
 Does your organization want to endorse the pledge?  Please [click here](https://docs.google.com/forms/d/e/1FAIpQLSclngQNhXPAlUrZHgvy8oH8FPgCOsdrx0N8FIC3YSrCJ4OzBw/viewform?usp=sf_link).
 
