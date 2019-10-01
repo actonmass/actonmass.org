@@ -31,3 +31,17 @@ title: Blog
     </a>
   {% endfor %}
 </div>
+{% if paginator.total_pages > 1 %}
+<ul class="pager">
+  <li>
+    {% if paginator.previous_page %}
+      <a href="{{ paginator.previous_page_path }}">&larr; Newer Posts</a>
+    {% endif %}
+  </li>
+  <li>
+    {% if paginator.next_page %}
+      <a href="{{ paginator.next_page_path }}">Older Posts &rarr;</a>
+    {% endif %}
+    </li>
+</ul>
+{% endif %}

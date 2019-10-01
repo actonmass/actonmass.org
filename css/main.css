@@ -43,8 +43,12 @@ p {
 }
 
 .social-media-link {
-    height: 2em;
     margin-right: 10px;
+    text-decoration: none;
+}
+
+.social-media-link img {
+    height: 2em;
 }
 
 .nav-ul {
@@ -276,4 +280,10 @@ p {
 
 .post-preview-image + .post-preview-text { /* If there is an image, reduce size of text block */
     flex-basis: 60%;
+}
+
+.pager {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
 }

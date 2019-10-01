@@ -1,17 +1,29 @@
 ---
 layout: default
 ---
-
 <div class="post">
     <h1>{{ page.title }}</h1>
     <p class="post-date">Posted on {{ page.date | date_to_string }}</p>
     {{ content }}
     <hr/>
-    <a href="https://www.facebook.com/sharer.php?u={{ site.url }}{{ page.url }}&title={{ page.title }}" title="Share on Facebook" target="_blank">
-        <img class="social-media-link" src="/img/fb.webp"/>
+    <a class="social-media-link" href="https://www.facebook.com/sharer.php?u={{ site.url }}{{ page.url }}&title={{ page.title }}" title="Share on Facebook" target="_blank">
+        <img src="/img/fb.webp"/>
     </a>
-    <a href="https://twitter.com/intent/tweet?text={{ page.title }}&url={{ site.url }}{{ page.url }}" title="Share on Twitter" target="_blank">
-        <img class="social-media-link" src="/img/twitter.webp"/>
+    <a class="social-media-link" href="https://twitter.com/intent/tweet?text={{ page.title }}&url={{ site.url }}{{ page.url }}" title="Share on Twitter" target="_blank">
+        <img src="/img/twitter.webp"/>
     </a>
     <hr/>
 </div>
+<ul class="pager">
+    <li>
+        {% if page.previous.url %}
+            <a href="{{ page.previous.url }}" title="{{page.previous.title}}">&larr; Previous Post</a>
+        {% endif %}
+    </li>
+    <li><a href="/blog">All posts</a></li>
+    <li>
+        {% if page.next.url %}
+            <a href="{{ page.next.url }}" title="{{page.next.title}}">Next Post &rarr;</a>
+        {% endif %}
+    </li>
+</ul>
