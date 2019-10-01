@@ -9,6 +9,16 @@ a {
     color: inherit;
 }
 
+blockquote {
+    border-left: solid 2px rgb(0, 56, 98);
+    padding-left: 20px;
+    font-size: 1.3em;
+}
+
+p {
+    line-height: 1.8;
+}
+
 .page-content-container {
     display: flex;
     justify-content: center;
@@ -191,4 +201,31 @@ a {
 .person p {
     text-align: left;
     padding: 0 0.5em 0 0.5em;
+}
+
+/* Post */
+
+.post-date {
+    color: rgb(100, 100, 100);
+    font-style: italic;
+}
+
+.post-container {
+    display: flex;
+    justify-content: center;
+}
+
+.post {
+    max-width: 940px;
+}
+
+.centered-image {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.centered-image img {
+    display: block;
+    align-self: center;
 }
