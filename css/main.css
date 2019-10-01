@@ -219,7 +219,7 @@ p {
     max-width: 940px;
 }
 
-.post img {
+.small-image img {
     max-height: 400px;
 }
 
@@ -232,4 +232,12 @@ p {
 .centered-image > img, .centered-image > a {
     display: block;
     align-self: center;
+}
+
+.centered {
+    text-align: center;
+}
+
+.important {
+    font-size: 1.2em;
 }
