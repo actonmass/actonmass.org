@@ -25,7 +25,7 @@ p {
 }
 
 .page-content {
-    width: 60%;
+    max-width: 940px;
 }
 
 /* Reused components */
@@ -210,15 +210,6 @@ p {
     font-style: italic;
 }
 
-.post-container {
-    display: flex;
-    justify-content: center;
-}
-
-.post {
-    max-width: 940px;
-}
-
 .small-image img {
     max-height: 400px;
 }
@@ -240,4 +231,16 @@ p {
 
 .important {
     font-size: 1.2em;
+}
+
+/* Blog */
+
+.post-preview {
+    border: gray solid 1px;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+a article {
+    text-decoration: none;
 }
