@@ -6,8 +6,7 @@ body {
 }
 
 a {
-    color: inherit;
-    text-decoration: inherit;
+    color: rgb(0, 56, 98);;
 }
 
 blockquote {
@@ -52,6 +51,11 @@ p {
     list-style-type: none;
     font-weight: bold;
     font-size: 1.2em;
+}
+
+.nav-ul a {
+    text-decoration: none;
+    color: black;
 }
 
 .nav-ul a:hover {
@@ -99,6 +103,10 @@ p {
     background-color: black;
     font-size: 2em;
     font-weight: bold;
+}
+
+#top-banner-content a {
+    color: white;
 }
 
 .sign-up-form-container {
@@ -188,6 +196,11 @@ p {
     flex-wrap: wrap;
 }
 
+.team a {
+    text-decoration: none;
+    color: inherit;
+}
+
 .person {
     flex-basis: 20%;
     text-align: center;
@@ -235,6 +248,7 @@ p {
 
 .posts-list a {
     text-decoration: none;
+    color: inherit;
 }
 
 .post-preview {

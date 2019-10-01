@@ -2,7 +2,11 @@
 {% for person in include.team %}
     <div class="person">
         <img title="{{person.name}}" src="{{ person.photo }}"/>
-        <h4>{{ person.name }}</h4>
+        {% if person.link %}
+            <a href="{{ person.link }}"><h4>{{ person.name }}</h4></a>
+        {% else %}
+            <h4>{{ person.name }}</h4>
+        {% endif %}
         <p>{{ person.text }}</p>
     </div>
 {% endfor %}
