@@ -13,31 +13,31 @@ sign_up_text: Stay informed on what's happening in the State House
 issues:
   - title: Education
     subtitle: Our outdated funding formula
-    page: ./education
+    page: /issues/education
   - title: Climate
     subtitle: 100% renewable by 2050 or sooner
-    page: ./climate
+    page: /issues/climate
   - title: Immigration
     subtitle: Ending cooperation with ice
-    page: ./immigration
+    page: /issues/immigration
   - title: Housing
     subtitle: Tackle the housing crisis
-    page: ./housing
+    page: /issues/housing
   - title: Healthcare
     subtitle: Medicare for all
-    page: ./health-care
+    page: /issues/health-care
   - title: LGBTQ+ rights
     subtitle: LGBTQ+ inclusive sex education
-    page: ./lgbtq-rights
+    page: /issues/lgbtq-rights
   - title: Voting rights
     subtitle: Election Day Registration
-    page: ./voting-rights
+    page: /issues/voting-rights
   - title: Criminal Justice Reform
     subtitle: Mandatory minimums in MA
-    page: ./criminal-justice-reform
+    page: /issues/criminal-justice-reform
   - title: Gender Equity
     subtitle: Teach consent in sex education
-    page: ./gender-equity
+    page: /issues/gender-equity
 
 donate_text: Act on Mass is a non-profit  organization that doesn't take money from corporations.  Please support our mission.
 ---
