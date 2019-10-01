@@ -9,6 +9,8 @@ image: /img/posts/parent.webp
 
 If you’re a parent who wants to run for office in Massachusetts, you can’t use campaign funds to cover child care expenses. Your opponent can lease a fancy car to show up to an event in style, but you can’t spend money on a babysitter in order to make it there in the first place. Only about a quarter of our state legislators are women and it shows. The deck is stacked against single parents & working people who want to run for office.
 
+<!--more-->
+
 The Federal government fixed their rules last year so parents aren’t at a disadvantage running for office, and states like Texas and Alabama have too. The MA House had a chance to fix the law last week, but they whiffed. Hard.
 
 Instead of fixing the law, they set up a commission to “study” the issue, and the soonest you can expect the law to change is 2021.
