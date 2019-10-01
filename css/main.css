@@ -219,13 +219,17 @@ p {
     max-width: 940px;
 }
 
+.post img {
+    max-height: 400px;
+}
+
 .centered-image {
     text-align: center;
     display: flex;
     flex-direction: column;
 }
 
-.centered-image img {
+.centered-image > img, .centered-image > a {
     display: block;
     align-self: center;
 }
