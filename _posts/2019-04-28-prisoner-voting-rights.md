@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Bernie Sanders supports prisoner voting rights. Massachusetts took those rights away in 2001.
+image: /img/posts/bernie.jpg
 ---
 
 After Bernie Sanders was [asked about prisoner voting rights](https://www.youtube.com/watch?v=CgLYjbg1MJw) at a CNN town hall, Twitter erupted in debate over the issue. Many correctly pointed out that our prison system targets black, brown, and poor communities, and that using it to disenfranchise people is a form of structural racism and voter suppression. The debate got especially heated after Mayor Pete Buttigieg said that he does not believe prisoners should be allowed to vote.

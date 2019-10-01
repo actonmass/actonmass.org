@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Massachusetts can’t afford to fund basic necessities. How did we get here?
+image: /img/posts/pie-chart.webp
 ---
 
 
@@ -14,7 +15,7 @@ That’s $10 billion for transportation, plus $1.5 billion _every year_ for educ
 
 ![Pie graph showing that additional funding for education is only $179 million out of $1.5 billion needed. Pie chart includes an overlay of text that says "Final Grade: F."](/img/posts/pie-chart.webp)
 Source: MassBudget
-{: class="centered-image"}
+{: .centered-image .small-image}
 
 While trains are literally falling off the tracks and students are dropping out of school because they’ve run out of money, lawmakers talk about this lack of revenue as if it is something that they can’t control. The question, “How are we going to pay for it?” is constantly repeated by legislators, who are often more interested in holding up legislation than actually finding money to pay for things.
 
@@ -22,7 +23,7 @@ So why can’t we have nice things? It’s easy to blame our Republican Governor
 
 [![Bar graph showing that Massachusetts taxes have decreased by over 26%, more than 47 other states.](/img/posts/bar-chart.webp)](http://www.massbudget.org/report_window.php?loc=How-Has-the-Level-of-Taxes-in-Massachusetts-Changed-Compared-to-Other-States.html)
 Source: MassBudget
-{: class="centered-image"}
+{: .centered-image }
 
 Even after the Trump tax cuts, which resulted in an [**average tax cut of over $84,000**](https://www.masslive.com/politics/2018/01/lawmakers_ask_what_does_federa.html) **for the state’s top earners**, there hasn’t been much urgency to act. Just last year, Speaker DeLeo again [pledged not to raise taxes](https://www.wgbh.org/news/2018/01/31/politics-government/deleos-agenda-health-care-costs-civics-no-new-taxes) in a speech to the chamber. More recently, he has made vague promises to have a “conversation” on raising new revenue later. But that didn’t seem to be a high priority now: In this year’s budget, Democratic lawmakers, led by budget chief Aaron Michlewitz, [rejected tax increases on e-cigarette sales and opioids](https://www.wgbh.org/news/politics/2019/04/10/six-things-to-know-about-the-proposed-state-budget) proposed by Governor Baker and incorporated no new ideas of their own.
 

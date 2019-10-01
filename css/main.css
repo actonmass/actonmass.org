@@ -7,6 +7,7 @@ body {
 
 a {
     color: inherit;
+    text-decoration: inherit;
 }
 
 blockquote {
@@ -39,7 +40,6 @@ p {
     color: white;
     font-weight: bold;
     font-size: 1.3em;
-    text-decoration: none;
     margin-right: 10px;
 }
 
@@ -52,10 +52,6 @@ p {
     list-style-type: none;
     font-weight: bold;
     font-size: 1.2em;
-}
-
-.nav-ul a {
-    text-decoration: none;
 }
 
 .nav-ul a:hover {
@@ -214,15 +210,17 @@ p {
     max-height: 400px;
 }
 
-.centered-image {
-    text-align: center;
-    display: flex;
-    flex-direction: column;
+.full-width-image img {
+    max-width:100%;
 }
 
-.centered-image > img, .centered-image > a {
+.centered-image {
+    text-align: center;
+}
+
+.centered-image > img, .centered-image > a:first-child {
+    margin: 0 auto;
     display: block;
-    align-self: center;
 }
 
 .centered {
@@ -235,12 +233,33 @@ p {
 
 /* Blog */
 
+.posts-list a {
+    text-decoration: none;
+}
+
 .post-preview {
     border: gray solid 1px;
     margin-bottom: 20px;
-    padding: 10px;
+    display: flex;
 }
 
-a article {
-    text-decoration: none;
+.post-preview-image {
+    flex-basis: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.post-preview-image img {
+    max-width: 100%;
+    max-height: 250px;
+}
+
+.post-preview-text {
+    padding: 10px;
+    padding-left: 15px;
+}
+
+.post-preview-image + .post-preview-text { /* If there is an image, reduce size of text block */
+    flex-basis: 60%;
 }

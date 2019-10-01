@@ -3,8 +3,6 @@ layout: post
 title: MA legislators just voted again to disenfranchise people in prison. And the vote wasn't even public.
 ---
 
-FOR IMMEDIATE RELEASE
-
 Joint statement from Act on Mass, Progressive Massachusetts, and the Emancipation Initiative.
 
 ## Mass. legislature rejects voting rights for the incarcerated

@@ -1,9 +1,10 @@
 ---
 layout: post
 title: Why has MA failed to stand up to Trump on immigration?
+image: /img/posts/safe-communities-act-hearing.webp
 ---
 
-Ever since Donald Trump was elected President, progressives have been looking for ways to stand up to his racist & authoritarian immigration policies.  People have flooded to airports to protest his travel ban. Members of Congress have visited the camps on the Mexican border and decried the inhumane conditions there and Trump’s cruel policy of family separation.  Wayfair workers staged a walkout last month to protest their employer supplying furniture to Trump's border camps.  Closer to home, activists have worked to pass Sanctuary city ordinances in their hometowns to ensure that local police don’t cooperate with Trump’s ICE department.
+Ever since Donald Trump was elected President, progressives have been looking for ways to stand up to his racist and authoritarian immigration policies.  People have flooded to airports to protest his travel ban. Members of Congress have visited the camps on the Mexican border and decried the inhumane conditions there and Trump’s cruel policy of family separation.  Wayfair workers staged a walkout last month to protest their employer supplying furniture to Trump's border camps.  Closer to home, activists have worked to pass Sanctuary city ordinances in their hometowns to ensure that local police don’t cooperate with Trump’s ICE department.
 
 But the biggest policy that Massachusetts could pass to protect immigrants has made no progress in our legislature, which is 79% Democrat.  The “Safe Communities Act” has been the focus of activist energy for the past 3 years. The law would make Massachusetts a “Sanctuary State” like California, which [passed such a law in 2017](https://actonmass.us3.list-manage.com/track/click?u=9d7172aae8fc8ad02071aade3&id=87e3ef2202&e=0559a0ec66).  **Although our Republican governor has said he would veto such a law, Democrats have the votes to override any veto.**
 
