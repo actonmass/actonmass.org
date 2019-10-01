@@ -2,11 +2,15 @@
 <html lang="en-US">
   <head>
     {% if page.title %}
-      <title>{{ page.title }} | Act On Mass</title>
+      {% assign title = page.title | append: " | Act On Mass" %}
     {% else %}
-      <title>Act On Mass</title>
+      {% assign title = "Act On Mass" %}
     {% endif %}
+    <title>{{ title }}</title>
     <meta charset="UTF-8">
+    <meta property="og:title" content="{{ title }}">
+    <meta property="og:site_name" content="ActOnMass">
+    <meta property="og:type" content="website">
     <link rel="shortcut icon" href="/img/favicon.png" type="image/png">
     <link rel="stylesheet" href="/css/main.css">
     <link rel="stylesheet" href="/css/header.css">
