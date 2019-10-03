@@ -1,0 +1,116 @@
+#top-banner-container {
+    width: 100%;
+    background-image: url("../img/mastatehouse.jpg");
+    background-repeat: no-repeat;
+    /* background-size: 100% auto; */
+    background-size: cover;
+    background-position: center;
+    background-size:
+}
+
+#top-banner-content {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#top-banner-content p {
+    color:white;
+    background-color: black;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+#top-banner-content a {
+    color: white;
+}
+
+.sign-up-form-container {
+    background-color: rgb(255, 190, 82);
+    display: flex;
+    justify-content: center;
+}
+
+.sign-up-form {
+    max-width: 80%;
+    background-color: rgb(255, 214, 146);
+    margin-top: 40px;
+    margin-bottom: 40px;
+    padding: 40px;
+    color: rgb(0, 56, 98)
+}
+
+.sign-up-form h2 {
+    font-size: 2em;
+}
+
+.issues {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.issue-container {
+    position: relative;
+    padding-bottom: 20%;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    width: 30%;
+    margin: 5px;
+    background-image: url("../img/education.jpg");
+    background-color: rgb(100, 100, 100);
+    border: 1px rgb(255, 190, 82) solid;
+    display: block;
+    background-blend-mode: multiply;
+}
+
+@media (max-width: 600px) {
+    .issues {
+        justify-content: center;
+    }
+
+    .issue-container {
+        width: 80%;
+        padding-bottom: 53%;
+    }
+}
+
+.issue-content {
+    position: absolute;
+    top: 0; bottom: 0; left: 0; right: 0;
+    color: white;
+    text-align: center;
+    padding: 1em;
+}
+
+.issue-content h3 {
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 1.5em;
+}
+
+.issues-title {
+    font-size: 2em;
+    background-color: rgb(226, 147, 24);
+    border-radius: 25px 0 35px 0;
+    color: white;
+    padding: 0.3em;
+    padding-left: 1em
+}
+
+#donate-banner {
+    background-color: rgb(255, 190, 82);
+    color: rgb(0, 56, 98);
+    font-size: 1.5em;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 30px;
+    margin-top: 30px;
+}
+
+#donate-banner p {
+    max-width: 940px;
+    text-align: center;
+    font-weight: bold;
+}
