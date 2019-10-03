@@ -25,7 +25,7 @@
     padding: 0;
 }
 
-#mobile-menu-link {
+#mobile-menu-link, #mobile-menu {
     display: none;
 }
 
@@ -48,7 +48,6 @@
     }
 
     #mobile-menu {
-        display: none;
         margin-bottom: 1em;
     }
 }

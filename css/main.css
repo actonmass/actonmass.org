@@ -108,6 +108,7 @@ p {
 .team {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-around;
 }
 
 .team a {
@@ -117,6 +118,7 @@ p {
 
 .person {
     flex-basis: 20%;
+    flex: 1;
     text-align: center;
     margin: 0 0.5em 0 0.5em;
 }
@@ -202,5 +204,6 @@ p {
 .pager {
     list-style: none;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    padding-left: 0;
 }
