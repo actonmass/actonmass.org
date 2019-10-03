@@ -2,11 +2,7 @@
 #header {
     display: flex;
     margin-bottom: 10px;
-}
-
-#logo-block {
-    width: 30%;
-    text-align: center;
+    justify-content: space-evenly
 }
 
 #logo {
