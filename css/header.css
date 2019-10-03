@@ -1,5 +1,5 @@
 
-#header {
+#header-top-banner {
     display: flex;
     margin-bottom: 10px;
     justify-content: space-evenly
@@ -9,24 +9,46 @@
     height: 100px;
 }
 
-#header nav {
+#header #desktop-menu {
     display: flex;
     align-items: center;
-    width: 50%;
 }
 
-#header nav li {
+#header #desktop-menu li {
     display: inline;
     padding-right: 10px;
     padding-left: 10px;
 }
 
-#header nav ul {
+#header #desktop-menu ul {
     margin: 0;
     padding: 0;
 }
 
-#header-right-block {
-    display: flex;
-    align-items: center;
+#mobile-menu-link {
+    display: none;
+}
+
+@media (max-width: 600px) {
+    #header .donate-button {
+        display: none;
+    }
+
+    #header #desktop-menu {
+        display: none;
+    }
+
+    #mobile-menu-link {
+        font-size: 2em;
+        display: inherit;
+    }
+
+    #header #mobile-menu li {
+        display: block;
+    }
+
+    #mobile-menu {
+        display: none;
+        margin-bottom: 1em;
+    }
 }

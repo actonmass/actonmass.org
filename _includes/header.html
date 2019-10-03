@@ -1,19 +1,38 @@
 <header id="header">
-    <img id="logo" src="/img/logo.webp"/>
-    <nav>
-        <ul class="nav-ul">
-            {% for link in site.menu %}
+    <div id="header-top-banner">
+        <div id="mobile-menu-link" class="centered">
+            <a href="javascript:void(0);"><i class="fa fa-bars"></i></a>
+        </div>
+        <img id="logo" src="/img/logo.webp"/>
+        <nav id="desktop-menu">
+            <ul class="nav-ul">
+                {% for link in site.menu %}
                 <li><a href="{{link.page}}">{{link.title}}</a></li>
-            {% endfor %}
+                {% endfor %}
+            </ul>
+        </nav>
+        <div class="centered">
+            {% include donate-button.html %}
+            <a href="https://www.facebook.com/act.on.massachusetts" class="social-media-link" target="_blank"><img src="/img/fb.webp"/></a>
+            <a href="https://twitter.com/act_on_mass" class="social-media-link" target="_blank"><img src="/img/twitter.webp"/></a>
+        </div>
+    </div>
+    <nav id="mobile-menu">
+        <ul class="nav-ul">
+                {% for link in site.menu %}
+                <li><a href="{{link.page}}">{{link.title}}</a></li>
+                {% endfor %}
         </ul>
     </nav>
-    <div id="header-right-block">
-        {% include donate-button.html %}
-        <a href="https://www.facebook.com/act.on.massachusetts" class="social-media-link" target="_blank"><img src="/img/fb.webp"/></a>
-        <a href="https://twitter.com/act_on_mass" class="social-media-link" target="_blank"><img src="/img/twitter.webp"/></a>
-    </div>
 </header>
-
-<header id="mobile-header">
-
-</header>
+<script>
+    document.getElementById("mobile-menu-link").onclick = function() {
+        var menu = document.getElementById("mobile-menu");
+        var isHidden = menu.offsetParent === null;
+        if (isHidden) {
+            menu.style.display = "block";
+        } else {
+            menu.style.display = "none";
+        }
+    }
+</script>
