@@ -19,12 +19,17 @@ p {
     line-height: 1.8;
 }
 
+img {
+    max-width: 100%;
+  }
+
 .page-content-container {
     display: flex;
     justify-content: center;
 }
 
 .page-content {
+    width: 100%;
     max-width: 940px;
     padding: 15px;
 }
