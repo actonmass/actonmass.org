@@ -25,7 +25,7 @@ issues:
     page: /issues/housing
   - title: Healthcare
     subtitle: Medicare for all
-    page: /issues/health-care
+    page: /issues/healthcare
   - title: LGBTQ+ rights
     subtitle: LGBTQ+ inclusive sex education
     page: /issues/lgbtq-rights

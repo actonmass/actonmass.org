@@ -9,7 +9,7 @@ logo: check-square
 
 ### 16 states and DC have Same Day Voter Registration [1]
 
-#### Including most other New England states: Maine, New Hampshire, Vermont, Connecticut**
+#### Including most other New England states: Maine, New Hampshire, Vermont, Connecticut
 
 Yet Massachusetts requires **voters to register 20 days before election day to vote** [2]. This disenfranchises voters who move often: young people, people of color, and low-income people.
 

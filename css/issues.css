@@ -17,6 +17,10 @@
     padding-left: 1em
 }
 
+.issue h4 {
+    font-size: 1.2em;
+}
+
 .issue .fa {
     color: rgb(211, 137, 0);
     font-size: 2em;
@@ -55,4 +59,21 @@
         height: unset;
         margin-bottom: 1rem;
     }
+}
+
+.numbers-block {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 30% 70%);
+    row-gap: 1rem;
+}
+
+.numbers-block-number {
+    font-size: 2em;
+    font-weight: bolder;
+}
+
+.numbers-block-text {
+    font-size: 1.2em;
+    font-weight: bold;
+    max-width: 500px;
 }
