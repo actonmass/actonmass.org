@@ -28,6 +28,18 @@ p {
     max-width: 940px;
 }
 
+@media (min-width: 601px) {
+    .mobile-only {
+        display: none !important;
+    }
+}
+
+@media (max-width: 600px) {
+    .desktop-only {
+        display: none !important;
+    }
+}
+
 /* Reused components */
 
 .donate-button {
@@ -199,6 +211,7 @@ p {
 
 .post-preview-image + .post-preview-text { /* If there is an image, reduce size of text block */
     flex-basis: 60%;
+    flex-grow: 1;
 }
 
 .pager {

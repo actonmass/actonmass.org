@@ -9,17 +9,20 @@ title: Blog
       <article class="post-preview">
 
         {% if post.image %}
-          <div class="post-preview-image">
+          <div class="post-preview-image desktop-only">
             <img src="{{ post.image }}"/>
           </div>
         {% endif %}
         <div class="post-preview-text">
           <h2 class="post-title">{{ post.title }}</h2>
-
           <p class="post-date">
             Posted on {{ post.date | date_to_string }}
           </p>
-
+          {% if post.image %}
+            <div class="post-preview-image mobile-only">
+              <img src="{{ post.image }}"/>
+            </div>
+          {% endif %}
           <div class="post-entry-container">
             <div class="post-entry">
               {{ post.excerpt | strip_html | xml_escape | truncatewords: 30 }}
