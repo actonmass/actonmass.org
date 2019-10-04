@@ -89,6 +89,15 @@
     font-size: 1.5em;
 }
 
+.issue-content i {
+    font-size: 2em;
+    color: rgb(226, 147, 24);
+}
+
+.issue-content p {
+    margin: 0;
+}
+
 .issues-title {
     font-size: 2em;
     background-color: rgb(226, 147, 24);

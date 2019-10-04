@@ -15,38 +15,47 @@ issues:
     subtitle: Our outdated funding formula
     page: /issues/education
     img: /img/issue-education.jpg
+    logo: pen
   - title: Climate
     subtitle: 100% renewable by 2050 or sooner
     page: /issues/climate
     img: /img/issue-climate.jpg
+    logo: temperature-high
   - title: Immigration
     subtitle: Ending cooperation with ice
     page: /issues/immigration
     img: /img/issue-immigration.jpg
+    logo: random
   - title: Housing
     subtitle: Tackle the housing crisis
     page: /issues/housing
     img: /img/issue-housing.jpg
+    logo: home
   - title: Healthcare
     subtitle: Medicare for all
     page: /issues/healthcare
     img: /img/issue-healthcare.jpg
+    logo: heartbeat
   - title: LGBTQ+ rights
     subtitle: LGBTQ+ inclusive sex education
     page: /issues/lgbtq-rights
     img: /img/issue-lgbt.jpg
+    logo: equals
   - title: Voting rights
     subtitle: Election Day Registration
     page: /issues/voting-rights
     img: /img/issue-vote.jpg
+    logo: check-square
   - title: Criminal Justice Reform
     subtitle: Mandatory minimums in MA
     page: /issues/criminal-justice-reform
     img: /img/issue-crime.jpeg
+    logo: balance-scale
   - title: Gender Equity
     subtitle: Teach consent in sex education
     page: /issues/gender-equity
     img: /img/issue-gender.jpg
+    logo: transgender-alt
 
 donate_text: Act on Mass is a non-profit  organization that doesn't take money from corporations.  Please support our mission.
 ---

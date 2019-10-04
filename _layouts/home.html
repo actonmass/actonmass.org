@@ -22,6 +22,7 @@ layout: base
             {% for issue in page.issues %}
                 <a href="{{issue.page}}" class="issue-container" style="background-image: url('{{ issue.img }}');">
                     <div class="issue-content" href="/">
+                        <i class="fa fa-{{ issue.logo }}"></i>
                         <h3>{{ issue.title }}</h3>
                         <p>{{ issue.subtitle }}</p>
                     </div>
