@@ -58,8 +58,7 @@ img {
     color: white;
     font-weight: bold;
     font-size: 1.3em;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
+    margin: 1rem;
     text-decoration: none;
     transition: 0.5s;
     display: block;
@@ -98,7 +97,6 @@ img {
 .youtube-video-inner-container {
     width: 100%;
     max-width: 800px;
-    margin-bottom: 2em;
 }
 
 .youtube-video {
@@ -183,9 +181,14 @@ img {
 
 .centered {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     text-align: center;
     align-items: center;
+}
+
+.centered .button {  /* When several buttons are on a centered block, give them the same length */
+    flex-grow: 1;
 }
 
 .full-width {
