@@ -19,6 +19,7 @@
     background-color: black;
     font-size: 2em;
     font-weight: bold;
+    padding: 1rem;
 }
 
 #top-banner-content a {
@@ -31,7 +32,7 @@
     justify-content: center;
 }
 
-.sign-up-form {
+#sign-up-form {
     max-width: 80%;
     background-color: rgb(255, 214, 146);
     margin-top: 40px;
@@ -40,7 +41,7 @@
     color: rgb(0, 56, 98)
 }
 
-.sign-up-form h2 {
+#sign-up-form h2 {
     font-size: 2em;
 }
 
