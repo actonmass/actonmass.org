@@ -10,7 +10,7 @@ But the biggest policy that Massachusetts could pass to protect immigrants has m
 
 ![Safe Communities Act hearing, June 2017](/img/posts/safe-communities-act-hearing.webp)
 Safe Communities Act hearing, June 2017
-{: class="centered-image"}
+{: .centered-image }
 
 So what’s been happening?  On June 9th, 2017, hundreds of activists converged on Beacon Hill to testify in favor of the bill, packing the hearing room to overflow.  Testimony was heart-wrenching and activists asked the Public Safety Committee to continue advancing the bill. And then… a year later, on June 11th 2018, the committee chair, Rep. Harold Naughton (D-Clinton), send the bill to “study.”  **But the study order was just a distraction. The committee never completed any study, it was simply a way of killing the bill.   What’s worse, there was no recorded vote when the bill was sent to study: we only know that Sen. Chang-Diaz, Sen. Rush, and Rep. Matias opposed the action because they publicly dissented.  We don’t know how [the other 16 members of the committee](https://actonmass.us3.list-manage.com/track/click?u=9d7172aae8fc8ad02071aade3&id=5d77abaef3&e=0559a0ec66) voted.**
 
