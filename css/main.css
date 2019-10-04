@@ -222,6 +222,6 @@ p {
 .pager {
     list-style: none;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     padding-left: 0;
 }
