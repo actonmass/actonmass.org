@@ -30,7 +30,7 @@
 }
 
 @media (max-width: 600px) {
-    #header .donate-button {
+    #header .button {
         display: none;
     }
 

@@ -43,7 +43,7 @@ p {
 
 /* Reused components */
 
-.donate-button {
+.button {
     padding-top: 5px;
     padding-bottom: 5px;
     padding-left: 10px;
@@ -53,6 +53,7 @@ p {
     font-weight: bold;
     font-size: 1.3em;
     margin-right: 10px;
+    text-decoration: none;
 }
 
 .social-media-link {
@@ -178,6 +179,10 @@ p {
 
 .important {
     font-size: 1.2em;
+}
+
+.small {
+    font-size: 0.8em;
 }
 
 /* Blog */

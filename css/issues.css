@@ -1,0 +1,58 @@
+.issue h1 {
+    text-align: center;
+    color: rgb(211, 137, 0);
+}
+
+.issue  h3 {
+    font-size: 1.5em;
+    color:  rgba(230, 158, 25, 1);
+}
+
+.issue h2 {
+    font-size: 2em;
+    background-color: rgb(226, 147, 24);
+    border-radius: 25px 0 35px 0;
+    color: white;
+    padding: 0.3em;
+    padding-left: 1em
+}
+
+.issue .fa {
+    color: rgb(211, 137, 0);
+    font-size: 2em;
+}
+
+.our-power-content h4 {
+    height: 2em;
+    font-size: 1.5em;
+    margin-top: 0;
+    margin-bottom: 2rem;
+    padding-right: 25px;
+    padding-left: 25px;
+}
+
+.our-power-content {
+    display: flex;
+    max-width: 800px;
+}
+
+.our-power-content div {
+    margin-left: 1rem;
+    margin-right: 1rem;
+    max-width: 225px;
+}
+
+@media (max-width: 600px) {
+    .our-power-content {
+        flex-direction: column;
+    }
+
+    .our-power-content div {
+        max-width: none;
+    }
+
+    .our-power-content h4 {
+        height: unset;
+        margin-bottom: 1rem;
+    }
+}
