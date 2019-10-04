@@ -3,7 +3,7 @@ permalink: /
 layout: home
 
 call_to_action:
-  text: Have your Reps pledged to fight for transparency?
+  text: Do your reps fight for transparency?
   page: ./pledge
 
 video: https://www.youtube.com/embed/TRi1G-dmKhg
