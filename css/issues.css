@@ -74,10 +74,13 @@
 .numbers-block-number {
     font-size: 2em;
     font-weight: bolder;
+    grid-column-start: 1;
 }
 
 .numbers-block-text {
     font-size: 1.2em;
     font-weight: bold;
     max-width: 500px;
+    grid-column-start: 2;
+    padding: 5px;
 }
