@@ -20,7 +20,7 @@ layout: base
         <h3 id="issues" class="issues-title">Issues</h3>
         <div class="issues">
             {% for issue in page.issues %}
-                <a href="{{issue.page}}" class="issue-container">
+                <a href="{{issue.page}}" class="issue-container" style="background-image: url('{{ issue.img }}');">
                     <div class="issue-content" href="/">
                         <h3>{{ issue.title }}</h3>
                         <p>{{ issue.subtitle }}</p>
