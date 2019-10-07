@@ -24,7 +24,7 @@ As a Massachusetts state legislator, I believe in a strong democracy, accountabl
 2. **Move to make public all votes and testimony of committees of which I am Chair**, including electronic polls and study orders. If the committee rules prevent me from doing this, I will motion to amend the rules to make all votes and testimony public, and ask for a roll call vote on that motion.
 3. **Stand for roll** call when a member asks for a recorded vote on any bill or amendment which I have co-sponsored or which deals with substantively the same issue as a bill I have co-sponsored.
 
-Printable version: [CLICK HERE](assets/pledge.pdf){:target="_blank"}
+Printable version: [CLICK HERE](/assets/pledge.pdf){:target="_blank"}
 
 ## Has Your Rep Signed On?
 
@@ -77,7 +77,7 @@ The goal of the Pledge is to be:
 ![Public higher education network of Massachusetts logo](/img/pledge-endorsements/PHENOM.webp)
 ![Massachusetts education justice alliance logo](/img/pledge-endorsements/MEJA.webp)
 ![Hildreth Institute logo](/img/pledge-endorsements/HI.webp)
-{: class="logo-list"}
+{: .logo-list}
 
 Does your organization want to endorse the pledge?  Please [click here](https://docs.google.com/forms/d/e/1FAIpQLSclngQNhXPAlUrZHgvy8oH8FPgCOsdrx0N8FIC3YSrCJ4OzBw/viewform?usp=sf_link).
 

@@ -7,7 +7,7 @@ image: /img/posts/highest-income-taxpayer.webp
 
 **ASK YOUR STATE REP to co-sponsor** [**Amendment**](https://malegislature.gov/Bills/GetAmendmentContent/191/H3800/1357/House/Preview) [**#1357**](https://malegislature.gov/Bills/GetAmendmentContent/191/H3800/1357/House/Preview) **to H.3800 (House Budget)**
 
-_For more updates like this, sign up for our mailing list at_ [_www.ActOnMass.org_](http://www.actonmass.org/)
+_For more updates like this, [sign up for our mailing list](/#sign-up-form) at_
 
 TL; DR:
 
