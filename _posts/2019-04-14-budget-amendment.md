@@ -34,7 +34,7 @@ Everyone has heard the joke about "Taxachusetts" but the reality is far more com
 
 ### 1. Massachusetts has seen the third largest decrease in taxes of any state over the last 40 years.
 
-![](/img/posts/tax-decrease.webp)
+![MA among states with the largest tax decreases](/img/posts/tax-decrease.webp)
 From [MassBudget Report](http://www.massbudget.org/report_window.php?loc=How-Has-the-Level-of-Taxes-in-Massachusetts-Changed-Compared-to-Other-States.html)
 {: .centered-image }
 
@@ -43,7 +43,7 @@ From [MassBudget Report](http://www.massbudget.org/report_window.php?loc=How-Has
 
 The Top 20% of income earners have taken 67% of all the tax gains, and the poorest 20% have gotten almost no tax relief
 
-![](/img/posts/income-tax-cuts.webp)
+![Top 20% gets two thirds of income tax cuts benefits](/img/posts/income-tax-cuts.webp)
 From [MassBudget Report](http://www.massbudget.org/report_window.php?loc=Income-Tax-Cuts-Cost-Massachusetts-Over-$4-Billion-Annually.html)
 {: .centered-image }
 
@@ -58,7 +58,7 @@ MassBudget puts the situation in stark terms:
 
 Source: [MassBudget Report: 14 Options for Raising Progressive Revenue](http://massbudget.org/report_window.php?loc=14-Options-for-Raising-Progressive-Revenue.html)
 
-![](/img/posts/highest-income-taxpayer.webp)
+![Highest income taxpayers pay smaller share of income in state and local taxes](/img/posts/highest-income-taxpayer.webp)
 From [MassBudget Report](http://massbudget.org/report_window.php?loc=Who-Pays-Low-and-Middle-Earners-in-Massachusetts-Pay-Larger-Share-of-their-Incomes-in-Taxes.html)
 {: .centered-image }
 
