@@ -10,7 +10,7 @@ title: Blog
 
         {% if post.image %}
           <div class="post-preview-image desktop-only">
-            <img src="{{ post.image }}"/>
+            <img src="{{ post.image }}" alt=""/>
           </div>
         {% endif %}
         <div class="post-preview-text">
@@ -20,7 +20,7 @@ title: Blog
           </p>
           {% if post.image %}
             <div class="post-preview-image mobile-only">
-              <img src="{{ post.image }}"/>
+              <img src="{{ post.image }}" alt=""/>
             </div>
           {% endif %}
           <div class="post-entry-container">

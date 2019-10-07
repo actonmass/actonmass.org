@@ -6,12 +6,14 @@ layout: default
     <p class="post-date">Posted on {{ page.date | date_to_string }}</p>
     {{ content }}
     <hr/>
-    <a class="social-media-link" href="https://www.facebook.com/sharer.php?u={{ site.url }}{{ page.url }}&title={{ page.title }}" title="Share on Facebook" target="_blank">
-        <img src="/img/fb.webp"/>
-    </a>
-    <a class="social-media-link" href="https://twitter.com/intent/tweet?text={{ page.title }}&url={{ site.url }}{{ page.url }}" title="Share on Twitter" target="_blank">
-        <img src="/img/twitter.webp"/>
-    </a>
+    <div class="centered">
+        <a class="social-media-link" href="https://www.facebook.com/sharer.php?u={{ site.url | url_encode }}{{ page.url | url_encode }}&title={{ page.title | url_encode }}" title="Share on Facebook" target="_blank">
+            <img src="/img/fb.webp" alt="Facebook logo"/>
+        </a>
+        <a class="social-media-link" href="https://twitter.com/intent/tweet?text={{ page.title | url_encode }}&url={{ site.url | url_encode }}{{ page.url | url_encode }}" title="Share on Twitter" target="_blank">
+            <img src="/img/twitter.webp" alt="Twitter logo"/>
+        </a>
+    </div>
     <hr/>
 </div>
 <ul class="pager">
