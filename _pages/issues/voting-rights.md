@@ -15,7 +15,7 @@ Yet Massachusetts requires **voters to register 20 days before election day to v
 
 As the most diverse state in New England and our large student population, Same Day Voter Registration is a no-brainer that increases turnout [3].
 
-![Several states have already adopted same day voter registration](/img/us-map-voting-rights.webp)
+![Several states have already adopted same day voter registration](/img/us-map-voting-rights.png)
 {: .centered-image .small-image }
 
 ## Our choice

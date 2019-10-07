@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Massachusetts can’t afford to fund basic necessities. How did we get here?
-image: /img/posts/pie-chart.webp
+image: /img/posts/pie-chart.png
 ---
 
 
@@ -13,7 +13,7 @@ College students are suffering too: [student debt in Massachusetts is growing](h
 
 That’s $10 billion for transportation, plus $1.5 billion _every year_ for education. Now the legislature is on track to pass another woefully inadequate budget that will fail to address the problem. (Actually, they’re not on track: credit rating agency Moody’s cited “[governance weakness](https://www.governing.com/topics/finance/tns-moodys-weak-governance-late-budget-states.html)” as a risk in Massachusetts because our budget is over 2 weeks late.) The additional funding proposed for education is only about 1/8 of what is actually needed:
 
-![Pie graph showing that additional funding for education is only $179 million out of $1.5 billion needed. Pie chart includes an overlay of text that says "Final Grade: F."](/img/posts/pie-chart.webp)
+![Pie graph showing that additional funding for education is only $179 million out of $1.5 billion needed. Pie chart includes an overlay of text that says "Final Grade: F."](/img/posts/pie-chart.png)
 Source: MassBudget
 {: .centered-image .small-image}
 
@@ -21,7 +21,7 @@ While trains are literally falling off the tracks and students are dropping out 
 
 So why can’t we have nice things? It’s easy to blame our Republican Governor, Charlie Baker (who isn’t helping). But our legislature, which has a Democratic supermajority that could easily override a veto, actually has a track record of conservative tax policy. **From 1977 to 2016, Massachusetts cut taxes more than 47 other states,** with those cuts [disproportionately going to the wealthy](http://massbudget.org/report_window.php?loc=Income-Tax-Cuts-Cost-Massachusetts-Over-$4-Billion-Annually.html). This includes a decrease in the capital gains tax, which tends to apply to the state’s highest earners on transactions such as selling stock or flipping houses, from 6% to 5.05%. Since the late 1990s, we’ve passed a series of tax cuts that costs us over **$4 billion per year**.
 
-[![Bar graph showing that Massachusetts taxes have decreased by over 26%, more than 47 other states.](/img/posts/bar-chart.webp)](http://www.massbudget.org/report_window.php?loc=How-Has-the-Level-of-Taxes-in-Massachusetts-Changed-Compared-to-Other-States.html)
+[![Bar graph showing that Massachusetts taxes have decreased by over 26%, more than 47 other states.](/img/posts/bar-chart.png)](http://www.massbudget.org/report_window.php?loc=How-Has-the-Level-of-Taxes-in-Massachusetts-Changed-Compared-to-Other-States.html)
 Source: MassBudget
 {: .centered-image }
 
