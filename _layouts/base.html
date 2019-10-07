@@ -1,0 +1,30 @@
+{% if page.title %}
+  {% assign title = page.title | append: " | Act On Mass" %}
+{% else %}
+  {% assign title = "Act On Mass" %}
+{% endif %}
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <title>{{ title }}</title>
+    <meta charset="UTF-8">
+    <meta property="og:title" content="{{ title }}">
+    <meta property="og:site_name" content="ActOnMass">
+    <meta property="og:type" content="website">
+    <meta property="og:description" content="{{ site.description }}">
+    <meta property="og:image" content="{{ site.url }}{{ page.image | default: '/img/fb-thumbnail.png' }}">
+    <link rel="shortcut icon" href="/img/favicon.png" type="image/png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="stylesheet" href="/css/header.css">
+    <link rel="stylesheet" href="/css/footer.css">
+    <link rel="stylesheet" href="/css/home.css">
+    <link rel="stylesheet" href="/css/issues.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" rel="stylesheet" crossorigin="anonymous">
+  </head>
+  <body>
+      {% include header.html %}
+      {{content}}
+      {% include footer.html %}
+  </body>
+</html>

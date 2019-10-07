@@ -1,0 +1,31 @@
+---
+layout: default
+---
+<div class="post">
+    <h1>{{ page.title }}</h1>
+    <p class="post-date">Posted on {{ page.date | date_to_string }}</p>
+    {{ content }}
+    <hr/>
+    <div class="centered">
+        <a class="social-media-link" href="https://www.facebook.com/sharer.php?u={{ site.url | url_encode }}{{ page.url | url_encode }}&title={{ page.title | url_encode }}" title="Share on Facebook" target="_blank">
+            <img src="/img/fb.png" alt="Facebook logo"/>
+        </a>
+        <a class="social-media-link" href="https://twitter.com/intent/tweet?text={{ page.title | url_encode }}&url={{ site.url | url_encode }}{{ page.url | url_encode }}" title="Share on Twitter" target="_blank">
+            <img src="/img/twitter.png" alt="Twitter logo"/>
+        </a>
+    </div>
+    <hr/>
+</div>
+<ul class="pager">
+    <li>
+        {% if page.previous.url %}
+            <a href="{{ page.previous.url }}" title="{{page.previous.title}}">&larr; Previous Post</a>
+        {% endif %}
+    </li>
+    <li><a href="/blog">All posts</a></li>
+    <li>
+        {% if page.next.url %}
+            <a href="{{ page.next.url }}" title="{{page.next.title}}">Next Post &rarr;</a>
+        {% endif %}
+    </li>
+</ul>

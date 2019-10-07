@@ -1,0 +1,250 @@
+/* General Style */
+
+body {
+    font-family: sans-serif;
+    margin: 0;
+}
+
+a {
+    color: rgb(0, 56, 98);;
+}
+
+blockquote {
+    border-left: solid 2px rgb(0, 56, 98);
+    padding-left: 20px;
+    font-size: 1.3em;
+}
+
+p {
+    line-height: 1.8;
+}
+
+img {
+    max-width: 100%;
+  }
+
+.page-content-container {
+    display: flex;
+    justify-content: center;
+}
+
+.page-content {
+    width: 95%;
+    max-width: 940px;
+    padding: 15px;
+}
+
+@media (min-width: 601px) {
+    .mobile-only {
+        display: none !important;
+    }
+}
+
+@media (max-width: 600px) {
+    .desktop-only {
+        display: none !important;
+    }
+}
+
+/* Reused components */
+
+.button {
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: rgb(0, 115, 200);
+    border: solid rgb(189, 21, 21) 0px;
+    color: white;
+    font-weight: bold;
+    font-size: 1.3em;
+    margin: 1rem;
+    text-decoration: none;
+    transition: 0.5s;
+    display: block;
+    text-align: center;
+}
+
+.button:hover {
+    background-color: rgb(232, 158, 62);
+    transition: 0.3s;
+}
+
+.social-media-link {
+    margin-right: 10px;
+    text-decoration: none;
+}
+
+.social-media-link img {
+    height: 2em;
+}
+
+.nav-ul {
+    list-style-type: none;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+.nav-ul a {
+    text-decoration: none;
+    color: black;
+}
+
+.nav-ul a:hover {
+    text-decoration: underline;
+}
+
+.youtube-video-inner-container {
+    width: 100%;
+    max-width: 800px;
+}
+
+.youtube-video {
+    float: none;
+    clear: both;
+    width: 100%;
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 25px;
+    height: 0;
+}
+
+.youtube-video iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.logo-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-self: center;
+}
+
+.logo-list img {
+    align-self: center;
+    margin: 1% 5% 1% 5%;
+}
+
+
+/* About us page */
+
+.team {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.team a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.person {
+    flex-basis: 20%;
+    flex: 1;
+    text-align: center;
+    margin: 0 0.5em 0 0.5em;
+}
+
+.person p {
+    text-align: left;
+    padding: 0 0.5em 0 0.5em;
+}
+
+/* Post */
+
+.post-date {
+    color: rgb(100, 100, 100);
+    font-style: italic;
+}
+
+.small-image img {
+    max-height: 400px;
+}
+
+.full-width-image img {
+    max-width:100%;
+}
+
+.centered-image {
+    text-align: center;
+}
+
+.centered-image > img, .centered-image > a:first-child {
+    margin: 0 auto;
+    display: block;
+}
+
+.centered {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.centered .button {  /* When several buttons are on a centered block, give them the same length */
+    flex-grow: 1;
+}
+
+.full-width {
+    width: 100%;
+}
+
+.important {
+    font-size: 1.2em;
+}
+
+.small {
+    font-size: 0.8em;
+}
+
+/* Blog */
+
+.posts-list a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.post-preview {
+    border: gray solid 1px;
+    margin-bottom: 20px;
+    display: flex;
+}
+
+.post-preview-image {
+    flex-basis: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.post-preview-image img {
+    max-width: 100%;
+    max-height: 250px;
+}
+
+.post-preview-text {
+    padding: 10px;
+    padding-left: 15px;
+}
+
+.post-preview-image + .post-preview-text { /* If there is an image, reduce size of text block */
+    flex-basis: 60%;
+    flex-grow: 1;
+}
+
+.post-entry {
+    margin-top: 1em;
+}
+
+.pager {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 0;
+}

@@ -1,0 +1,6 @@
+<div class="numbers-block">
+    {% for number in include.numbers %}
+        <div class="numbers-block-number centered">{{ number.number }}</div>
+        <div class="numbers-block-text">{{ number.text }}</div>
+    {% endfor %}
+</div>

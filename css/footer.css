@@ -1,0 +1,32 @@
+#footer-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+    margin-bottom: 20px;
+}
+
+#footer {
+    width:100%;
+    max-width: 940px;
+    display: flex;
+}
+
+.footer-left-block, .footer-right-block {
+    flex: 1;
+}
+
+.footer-center-block {
+    text-align: center;
+}
+
+#footer ul {
+    line-height: 1.3em;
+    margin-bottom: 20px;
+}
+
+@media (max-width: 600px) {
+    #footer {
+        flex-direction: column;
+    }
+}
+

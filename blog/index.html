@@ -1,0 +1,50 @@
+---
+layout: default
+title: Blog
+---
+
+<div class="posts-list">
+  {% for post in paginator.posts %}
+    <a href="{{ post.url }}">
+      <article class="post-preview">
+
+        {% if post.image %}
+          <div class="post-preview-image desktop-only">
+            <img src="{{ post.image }}" alt=""/>
+          </div>
+        {% endif %}
+        <div class="post-preview-text">
+          <h2 class="post-title">{{ post.title }}</h2>
+          <p class="post-date">
+            Posted on {{ post.date | date_to_string }}
+          </p>
+          {% if post.image %}
+            <div class="post-preview-image mobile-only">
+              <img src="{{ post.image }}" alt=""/>
+            </div>
+          {% endif %}
+          <div class="post-entry-container">
+            <div class="post-entry">
+              {{ post.excerpt | strip_html | xml_escape | truncatewords: 30 }}
+            </div>
+          </div>
+        </div>
+
+      </article>
+    </a>
+  {% endfor %}
+</div>
+{% if paginator.total_pages > 1 %}
+<ul class="pager">
+  <li>
+    {% if paginator.next_page %}
+      <a href="{{ paginator.next_page_path }}">&larr; Older Posts</a>
+    {% endif %}
+    </li>
+  <li>
+    {% if paginator.previous_page %}
+      <a href="{{ paginator.previous_page_path }}">Newer Posts &rarr;</a>
+    {% endif %}
+  </li>
+</ul>
+{% endif %}
