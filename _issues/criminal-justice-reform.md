@@ -1,8 +1,12 @@
 ---
 layout: issue
 permalink: /issues/criminal-justice-reform/
+
 title: Criminal Justice Reform
+subtitle: Mandatory minimums in MA
 logo: balance-scale
+img: /img/issue-crime.jpeg
+order: 80
 ---
 
 ## Our challenge

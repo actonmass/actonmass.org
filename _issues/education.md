@@ -2,7 +2,10 @@
 layout: issue
 permalink: /issues/education/
 title: Education
+subtitle: Our outdated funding formula
 logo: pen
+img: /img/issue-education.jpg
+order: 10
 
 our_challenge_numbers:
     - number: 31%

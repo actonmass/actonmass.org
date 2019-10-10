@@ -1,8 +1,12 @@
 ---
 layout: issue
 permalink: /issues/climate/
+
 title: Climate
+subtitle: 100% renewable by 2050 or sooner
 logo: temperature-high
+img: /img/issue-climate.jpg
+order: 20
 
 our_challenge_numbers:
     - number: 12 years

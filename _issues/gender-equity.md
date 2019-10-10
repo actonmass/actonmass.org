@@ -1,8 +1,12 @@
 ---
 layout: issue
 permalink: /issues/gender-equity/
+
 title: Gender Equity
+subtitle: Teach consent in sex education
 logo: transgender-alt
+img: /img/issue-gender.jpg
+order: 90
 ---
 
 ## Our challenge

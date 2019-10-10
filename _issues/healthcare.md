@@ -1,8 +1,13 @@
 ---
 layout: issue
 permalink: /issues/healthcare/
+
 title: Healthcare
+subtitle: Medicare for all
 logo: heartbeat
+img: /img/issue-healthcare.jpg
+order: 50
+
 
 our_challenge_numbers:
     - number: 2nd
