@@ -245,6 +245,20 @@ img {
 .pager {
     list-style: none;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     padding-left: 0;
+}
+
+.pager li {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+}
+
+.pager li:first-child > a {
+    margin-right: auto;
+}
+
+.pager li:last-child > a {
+    margin-left: auto;
 }
