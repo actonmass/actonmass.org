@@ -19,8 +19,9 @@ layout: base
         {{ content }}
         <h3 id="issues" class="issues-title">Issues</h3>
         <div class="issues">
-            {% for issue in page.issues %}
-                <a href="{{issue.page}}" class="issue-container" style="background-image: url('{{ issue.img }}');">
+            {% assign issues = site.issues | sort: 'order' %}
+            {% for issue in issues %}
+                <a href="{{issue.url}}" class="issue-container" style="background-image: url('{{ issue.img }}');">
                     <div class="issue-content">
                         <i class="fa fa-{{ issue.logo }}"></i>
                         <h3>{{ issue.title }}</h3>

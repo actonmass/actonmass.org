@@ -1,8 +1,12 @@
 ---
 layout: issue
 permalink: /issues/voting-rights/
+
 title: Voting Rights
+subtitle: Election Day Registration
 logo: check-square
+img: /img/issue-vote.jpg
+order: 70
 ---
 
 ## Our challenge

@@ -1,8 +1,12 @@
 ---
 layout: issue
 permalink: /issues/housing/
+
 title: Housing
+subtitle: Tackle the housing crisis
 logo: home
+img: /img/issue-housing.jpg
+order: 40
 ---
 
 ## Our challenge

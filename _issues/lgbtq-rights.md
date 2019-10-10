@@ -1,8 +1,12 @@
 ---
 layout: issue
 permalink: /issues/lgbtq-rights/
+
 title: LGBTQ+ Rights
+subtitle: LGBTQ+ inclusive sex education
 logo: equals
+img: /img/issue-lgbt.jpg
+order: 60
 ---
 
 ## Our challenge

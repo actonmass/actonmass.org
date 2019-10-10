@@ -1,0 +1,14 @@
+{% if page.collection %}
+    {% assign links = site[page.collection] | sort: 'order' %}
+{% endif %}
+{% for link in links %}
+	{% if link.title == page.title %}
+		{% unless forloop.first %}
+			{% assign previous = tmpprev %}
+		{% endunless %}
+		{% unless forloop.last %}
+			{% assign next = links[forloop.index] %}
+		{% endunless %}
+	{% endif %}
+	{% assign tmpprev = link %}
+{% endfor %}

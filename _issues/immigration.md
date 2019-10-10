@@ -1,8 +1,12 @@
 ---
 layout: issue
 permalink: /issues/immigration/
+
 title: Immigration
+subtitle: Ending cooperation with ice
 logo: random
+img: /img/issue-immigration.jpg
+order: 30
 ---
 
 ## Our challenge
