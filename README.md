@@ -13,7 +13,7 @@ The website content is located in the following directories:
 
 ### Style edition
 
-Pages layout can be edited in the following places:
+Pages layout (HTML and CSS) can be edited in the following places:
 - [`_layouts`](/_layouts) for page layouts
 - [`blog/index.html`](/blog/index.html) for the [/blog](https://actonmass.org/blog/) page layout
 - [`css`](/css) for CSS stylesheets
