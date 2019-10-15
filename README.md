@@ -25,4 +25,4 @@ All branches are deployed on http://NAME_OF_BRANCH--actonmass.netlify.com.
 Branch deployment should not take more than 2 minutes. 
 If a deployment doesn't work, logs can be checked on:
 - [Netlify](https://app.netlify.com/sites/actonmass/deploys) for the build log (requires login)
-- [CircleCI] https://circleci.com/gh/fpagnoux/actonmass-website for general checks on the code
+- [CircleCI](https://circleci.com/gh/fpagnoux/actonmass-website) for general checks on the code
