@@ -155,6 +155,12 @@ img {
     padding: 0 0.5em 0 0.5em;
 }
 
+@media (max-width: 600px) {
+    .person {
+        flex-basis: 100%;
+    }
+}
+
 /* Post */
 
 .post-date {
