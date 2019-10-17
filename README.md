@@ -22,6 +22,7 @@ Pages layout (HTML and CSS) can be edited in the following places:
 ## Live deployment
 
 All branches (draft versions of the website) are automatically deployed to preview changes. A branch named `test` would be deployed on the domain https://test--actonmass.netlify.com/.
+
 Branch deployment should not take more than 2 minutes. 
 If a deployment doesn't work, logs can be checked on:
 - [Netlify](https://app.netlify.com/sites/actonmass/deploys) for the build log (requires login)
