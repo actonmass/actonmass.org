@@ -1,8 +1,8 @@
 # https://actonmass.org
 
-## Edition
+## Content edition
 
-### Content edition
+### What to edit
 
 The website content is located in the following directories:
 - [`_pages`](/_pages) for general pages
@@ -11,7 +11,41 @@ The website content is located in the following directories:
 - [`img`](/img) for images and pictures
 - [`assets`](/assets) for assets, such as PDF documents
 
-### Style edition
+### Syntax
+
+Page and posts content is written in [Markdown](https://www.markdownguide.org/basic-syntax/).
+
+On top of each page file, a "front matter" can also be found. It defines metadata about the page using the [YAML](https://lzone.de/cheat-sheet/YAML) format. 
+
+### Styling in Markdown
+
+While most page styling happens in CSS and templates, some basic pre-made instructions can be added to style a paragraph. 
+
+For instance, to apply the style `centered` to a paragraph, use the following syntax:
+
+```
+Text to center
+{: .centered }
+```
+
+Several instructions can be added on the same paragraph:
+
+```
+Important text to center
+{: .centered .important }
+```
+
+The following instructions are available:
+
+- `centered`: Center a paragraph
+- `small`: Use a smaller font size for text in the paragraph.
+- `important`: Use a bigger font size for text in the paragraph.
+- `centered-image`: Center an image and its legend.
+- `small-image`: Ensure that image height won't be more than 400px.
+
+More instructions can be built if necessary.
+
+## Style edition
 
 Pages layout (HTML and CSS) can be edited in the following places:
 - [`_layouts`](/_layouts) for page layouts
@@ -24,5 +58,4 @@ Pages layout (HTML and CSS) can be edited in the following places:
 All branches (draft versions of the website) are automatically deployed to preview changes. A branch named `test` would be deployed on the domain https://test--actonmass.netlify.com/.
 
 Branch deployment should not take more than 2 minutes. 
-If a deployment doesn't work, logs can be checked on:
-- [Netlify](https://app.netlify.com/sites/actonmass/deploys) for the deployment log (requires login)
+If a deployment doesn't work, logs can be checked on [Netlify](https://app.netlify.com/sites/actonmass/deploys) (requires login)
