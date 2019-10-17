@@ -172,10 +172,6 @@ img {
     max-height: 400px;
 }
 
-.full-width-image img {
-    max-width:100%;
-}
-
 .centered-image {
     text-align: center;
 }

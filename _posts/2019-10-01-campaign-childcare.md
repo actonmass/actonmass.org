@@ -5,7 +5,6 @@ image: /img/posts/parent.png
 ---
 
 ![Woman holding child](/img/posts/parent.png)
-{: .full-width-image }
 
 If you’re a parent who wants to run for office in Massachusetts, you can’t use campaign funds to cover child care expenses. Your opponent can lease a fancy car to show up to an event in style, but you can’t spend money on a babysitter in order to make it there in the first place. Only about a quarter of our state legislators are women and it shows. The deck is stacked against single parents & working people who want to run for office.
 
