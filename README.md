@@ -45,6 +45,29 @@ The following instructions are available:
 
 More instructions can be built if necessary.
 
+### Including reusable components
+
+Some pre-mades components can be added to a page or a post.
+
+- Include a Youtube video:
+  ```
+  {% include youtube-video.html src="https://www.youtube.com/embed/VIDEO_ID" %}
+  ```
+- Include the sign-up form:
+  ```
+  {% include signup-form.html %}
+  ```
+- Include the "Our power" slide, common to all issues:
+  ```
+  {% include issues/our-power.html %}
+  ```
+- Include a "Our challenge" slide highlighting key numbers:
+  ```
+  {% include issues/numbers.html numbers=page.our_challenge_numbers %}
+  ```
+  In that case, `our_challenge_numbers` must be defined in the page front matter, like [in this file](https://github.com/fpagnoux/actonmass-website/blob/adc9c288fb56c52f79b28e0edb57e0a8da3f4abd/_issues/climate.md).
+  
+
 ## Style edition
 
 Pages layout (HTML and CSS) can be edited in the following places:
