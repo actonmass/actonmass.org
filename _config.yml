@@ -34,7 +34,7 @@ permalink: /post/:year/:month/:day/:title  # for blog posts
 paginate: 10
 paginate_path: "/blog/:num/"
 excerpt_separator: <!--more-->
-include: ['_pages']
+include: ['_pages', '_redirects']
 exclude:
   - README.md
   - .circleci
