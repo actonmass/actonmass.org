@@ -1,0 +1,6 @@
+# Redirect domain aliases to primary domain
+https://actenmasse.org/* https://actonmass.org/:splat 301!
+https://www.actenmasse.org/* https://actonmass.org/:splat 301!
+
+# Optional: Redirect default Netlify subdomain to primary domain
+https://actonmass.netlify.com/* https://actonmass.org/:splat 301!
