@@ -30,6 +30,16 @@ donate_button_url: https://secure.actblue.com/donate/act-on-mass
 collections:
   issues:
     output: true
+  reps:
+    label: Representatives
+    output: true
+    permalink: /rep/:name
+defaults:
+  - scope:
+      path: ""
+      type: "reps"
+    values:
+      layout: "rep"
 permalink: /post/:year/:month/:day/:title  # for blog posts
 paginate: 10
 paginate_path: "/blog/:num/"
