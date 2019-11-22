@@ -2,5 +2,14 @@
 layout: default
 ---
 
-<h1>{{ page.first_name }} {{ page.last_name }}</h1>
-<pre>{{ page }}</pre>
+{% assign rep = page%}
+
+<h1>{{ rep.first_name }} {{ rep.last_name }}</h1>
+
+<img src="{{rep.picture}}"/>
+<dl>
+  <dt>District:</dt>
+  <dd>{{rep.district}}</dd>
+  <dt>Email:</dt>
+  <dd>{{rep.email}}</dd>
+</dl>

@@ -12,6 +12,17 @@ orgs:
   - SCA
   - MIRA
 lead_sponsors:
-  - RuthBalserRuthBalser
-  - LizMiranda
+  - ruth-balser
+  - liz-miranda
+co_sponsors:
+  - ruth-balser
+  - liz-miranda
+  - michael-moran
+  - carolyn-dykema
+  - william-driscoll
+  - louis-kafka
+  - carlos-gonzalez
+  - thomas-stanley
+  - dylan-fernandes
+  - paul-tucker
 ---

@@ -2,4 +2,38 @@
 layout: default
 ---
 
-<pre>{{ site.reps[0].name }}</pre>
+{% assign bill = page %}
+{% capture committee_id %}/committees/{{ bill.committee }}{% endcapture %}
+{% assign committee = site.committees | where: "id", committee_id | first %}
+
+
+<h1>{{bill.short_title}}</h1>
+<h2>{{bill.aom_title}}</h2>
+
+<hr/>
+
+<h3>{{ committee.title }}</h3>
+
+
+{% capture chair_id %}/reps/{{ committee.chair }}{% endcapture %}
+{% capture vice_chair_id %}/reps/{{ committee.vice_chair  }}{% endcapture %}
+{% assign chair = site.reps | where: "id", chair_id | first %}
+{% assign vice_chair = site.reps | where: "id", vice_chair_id | first %}
+
+<ul>
+  <li>Chair: {{ chair.first_name }} {{ chair.last_name }}</li>
+  <li>Vice-chair: {{ vice_chair.first_name }} {{ vice_chair.last_name }}</li>
+</ul>
+
+<ul>
+  {% for member in committee.members %}
+    {% capture rep_id %}/reps/{{ member }}{% endcapture %}
+    {% assign rep = site.reps | where: "id", rep_id | first %}
+    {% if bill.co_sponsors contains member %}
+      <li><span style="color: green">{{ rep.first_name }} {{ rep.last_name }}</span></li>
+    {% else %}
+    <li><span style="color: red">{{ rep.first_name }} {{ rep.last_name }}</span></li>
+    {% endif %}
+
+  {% endfor %}
+  </ul>
