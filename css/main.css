@@ -264,3 +264,17 @@ img {
 .pager li:last-child > a {
     margin-left: auto;
 }
+
+table {
+    margin-left: 20px;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+
+th, td {
+    max-width: 120px;
+    overflow-x: hidden;
+}
