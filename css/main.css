@@ -278,3 +278,13 @@ th, td {
     max-width: 120px;
     overflow-x: hidden;
 }
+
+.map-block {
+    height: 400px;
+}
+
+.rep-icon img {
+    height: 20px;
+    border-radius: 50%;
+    border: green solid 2px;
+}

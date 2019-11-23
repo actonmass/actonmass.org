@@ -34,6 +34,7 @@ layout: default
     {% else %}
     <li><span style="color: red">{{ rep.first_name }} {{ rep.last_name }}</span></li>
     {% endif %}
-
   {% endfor %}
-  </ul>
+</ul>
+
+{% include map.html co_sponsors = bill.co_sponsors %}
