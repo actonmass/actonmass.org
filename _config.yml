@@ -59,5 +59,7 @@ exclude:
   - README.md
   - .circleci
   - vendor
+  - node_modules
+  - src
 plugins:
   - jekyll-paginate

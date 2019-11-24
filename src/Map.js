@@ -1,8 +1,10 @@
-var defaultZoom = 11;
-var defaultCenter = [42.3587811, -71.0659988];
-var tileURL =
+import L from 'leaflet';
+
+const defaultZoom = 11;
+const defaultCenter = [42.3587811, -71.0659988];
+const tileURL =
   "https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpejY4NXVycTA2emYycXBndHRqcmZ3N3gifQ.rJcFIG214AriISLbB6B5aw";
-var attribution =
+const attribution =
   'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.mapbox.com/">Mapbox</a>';
 
 function renderMap(id, data) {
@@ -31,3 +33,5 @@ function renderMap(id, data) {
     L.marker([datum.lat, datum.lng], { icon: icon }).addTo(map);
   });
 }
+
+export default { renderMap };
