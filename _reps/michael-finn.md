@@ -1,8 +1,9 @@
 ---
-district: 6th Hampden
+district: 6th-hampden
 email: Michael.Finn@mahouse.gov
 facebook: https://www.facebook.com/michael.finn.1401
 first_name: Michael
+hometown: West Springfield
 house_url: https://malegislature.gov/Legislators/Profile/MJF1
 last_name: Finn
 party: D

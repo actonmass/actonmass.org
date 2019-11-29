@@ -1,8 +1,9 @@
 ---
-district: 8th Worcester
+district: 8th-worcester
 email: michael.soter@mahouse.gov
 facebook: ''
 first_name: Michael
+hometown: Bellingham
 house_url: ''
 last_name: Soter
 party: R

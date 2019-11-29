@@ -1,8 +1,9 @@
 ---
-district: 16th Worcester
+district: 16th-worcester
 email: Daniel.Donahue@mahouse.gov
 facebook: ''
 first_name: Daniel
+hometown: Worcester
 house_url: ''
 last_name: Donahue
 party: D

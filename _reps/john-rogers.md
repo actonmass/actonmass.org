@@ -1,8 +1,9 @@
 ---
-district: 12th Norfolk
+district: 12th-norfolk
 email: John.Rogers@mahouse.gov
 facebook: ''
 first_name: John
+hometown: Norwood
 house_url: ''
 last_name: Rogers
 party: D

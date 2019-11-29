@@ -1,8 +1,9 @@
 ---
-district: 18th Suffolk
+district: 18th-suffolk
 email: Michael.Moran@mahouse.gov
 facebook: ''
 first_name: Michael
+hometown: Boston
 house_url: ''
 last_name: Moran
 party: D

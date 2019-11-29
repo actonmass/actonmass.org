@@ -1,8 +1,9 @@
 ---
-district: 10th Bristol
+district: 10th-bristol
 email: William.Straus@mahouse.gov
 facebook: https://www.facebook.com/RepBillStraus
 first_name: William
+hometown: Mattapoisett
 house_url: https://malegislature.gov/Legislators/Profile/WMS1/District
 last_name: Straus
 party: D

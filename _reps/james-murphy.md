@@ -1,8 +1,9 @@
 ---
-district: 4th Norfolk
+district: 4th-norfolk
 email: James.Murphy@mahouse.gov
 facebook: ''
 first_name: James
+hometown: Weymouth
 house_url: ''
 last_name: Murphy
 party: D

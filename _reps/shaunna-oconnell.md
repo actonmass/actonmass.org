@@ -1,8 +1,9 @@
 ---
-district: 3rd Bristol
+district: 3rd-bristol
 email: Shaunna.O'Connell@mahouse.gov
 facebook: https://www.facebook.com/shaunna.oconnell.7?fref=nf
 first_name: Shaunna
+hometown: Taunton
 house_url: https://malegislature.gov/Legislators/Profile/SLO1
 last_name: O'Connell
 party: R

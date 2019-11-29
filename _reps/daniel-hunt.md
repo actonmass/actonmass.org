@@ -1,8 +1,9 @@
 ---
-district: 13th Suffolk
+district: 13th-suffolk
 email: Daniel.Hunt@mahouse.gov
 facebook: ''
 first_name: Daniel
+hometown: Boston
 house_url: ''
 last_name: Hunt
 party: D

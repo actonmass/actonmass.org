@@ -1,8 +1,9 @@
 ---
-district: 5th Bristol
+district: 5th-bristol
 email: Patricia.Haddad@mahouse.gov
 facebook: https://www.facebook.com/staterepresentativepathaddad/
 first_name: Patricia
+hometown: Somerset
 house_url: https://malegislature.gov/Legislators/Profile/PAH1
 last_name: Haddad
 party: D

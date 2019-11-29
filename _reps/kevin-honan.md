@@ -1,8 +1,9 @@
 ---
-district: 17th Suffolk
+district: 17th-suffolk
 email: Kevin.Honan@mahouse.gov
 facebook: ''
 first_name: Kevin
+hometown: Boston
 house_url: ''
 last_name: Honan
 party: D

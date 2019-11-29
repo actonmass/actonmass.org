@@ -1,8 +1,9 @@
 ---
-district: 5th Essex
+district: 5th-essex
 email: Ann-Margaret.Ferrante@mahouse.gov
 facebook: https://www.facebook.com/AnnMargaretFerrante/
 first_name: Ann-Margaret
+hometown: Gloucester
 house_url: https://malegislature.gov/Legislators/Profile/AMF1
 last_name: Ferrante
 party: D

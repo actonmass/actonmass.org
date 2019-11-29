@@ -1,8 +1,9 @@
 ---
-district: 16th Suffolk
+district: 16th-suffolk
 email: RoseLee.Vincent@mahouse.gov
 facebook: ''
 first_name: RoseLee
+hometown: Revere
 house_url: ''
 last_name: Vincent
 party: D

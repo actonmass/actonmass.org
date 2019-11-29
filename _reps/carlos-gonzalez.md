@@ -1,8 +1,9 @@
 ---
-district: 10th Hampden
+district: 10th-hampden
 email: Carlos.Gonzalez@mahouse.gov
 facebook: https://www.facebook.com/Carlos-Gonzalez-State-Representative-1651765781719357/
 first_name: Carlos
+hometown: Springfield
 house_url: https://malegislature.gov/Legislators/Profile/C_G1
 last_name: "Gonz\xE1lez"
 party: D

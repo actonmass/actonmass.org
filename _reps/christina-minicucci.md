@@ -1,8 +1,9 @@
 ---
-district: 14th Essex
+district: 14th-essex
 email: christina.minicucci@mahouse.gov
 facebook: https://www.facebook.com/christina4rep/
 first_name: Christina
+hometown: North Andover
 house_url: N/A
 last_name: Minicucci
 party: D

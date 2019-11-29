@@ -1,8 +1,9 @@
 ---
-district: 1st Norfolk
+district: 1st-norfolk
 email: Bruce.Ayers@mahouse.gov
 facebook: ''
 first_name: Bruce
+hometown: Quincy
 house_url: ''
 last_name: Ayers
 party: D

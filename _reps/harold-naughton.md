@@ -1,8 +1,9 @@
 ---
-district: 12th Worcester
+district: 12th-worcester
 email: Harold.Naughton@mahouse.gov
 facebook: ''
 first_name: Harold
+hometown: Clinton
 house_url: ''
 last_name: Naughton
 party: D

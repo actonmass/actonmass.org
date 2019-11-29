@@ -1,8 +1,9 @@
 ---
-district: 6th Suffolk
+district: 6th-suffolk
 email: Russell.Holmes@mahouse.gov
 facebook: ''
 first_name: Russell
+hometown: Boston
 house_url: ''
 last_name: Holmes
 party: D

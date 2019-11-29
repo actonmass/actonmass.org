@@ -1,8 +1,9 @@
 ---
-district: 12th Middlesex
+district: 12th-middlesex
 email: Ruth.Balser@mahouse.gov
 facebook: ''
 first_name: Ruth
+hometown: Newton
 house_url: ''
 last_name: Balser
 party: D

@@ -1,8 +1,9 @@
 ---
-district: 12th Suffolk
+district: 12th-suffolk
 email: Daniel.Cullinane@mahouse.gov
 facebook: ''
 first_name: Daniel
+hometown: Boston
 house_url: ''
 last_name: Cullinane
 party: D

@@ -1,8 +1,9 @@
 ---
-district: 10th Suffolk
+district: 10th-suffolk
 email: Edward.Coppinger@mahouse.gov
 facebook: ''
 first_name: Edward
+hometown: Boston
 house_url: ''
 last_name: Coppinger
 party: D

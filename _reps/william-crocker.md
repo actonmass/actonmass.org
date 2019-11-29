@@ -1,8 +1,9 @@
 ---
-district: 2nd Barnstable
+district: 2nd-barnstable
 email: William.Crocker@mahouse.gov
 facebook: https://www.facebook.com/StateRepWillCrocker/
 first_name: William
+hometown: Barnstable
 house_url: https://malegislature.gov/Legislators/Profile/WLC1
 last_name: Crocker
 party: R

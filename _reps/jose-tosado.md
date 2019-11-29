@@ -1,8 +1,9 @@
 ---
-district: 9th Hampden
+district: 9th-hampden
 email: Jose.Tosado@mahouse.gov
 facebook: https://www.facebook.com/JoseFTosado
 first_name: "Jos\xE9"
+hometown: Springfield
 house_url: https://malegislature.gov/People/Profile/JFT1
 last_name: Tosado
 party: D

@@ -1,8 +1,9 @@
 ---
-district: 1st Barnstable
+district: 1st-barnstable
 email: Timothy.Whelan@mahouse.gov
 facebook: https://www.facebook.com/votewhelan
 first_name: Timothy
+hometown: Brewster
 house_url: https://malegislature.gov/People/Profile/TRW1
 last_name: Whelan
 party: R

@@ -1,8 +1,9 @@
 ---
-district: 17th Middlesex
+district: 17th-middlesex
 email: David.Nangle@mahouse.gov
 facebook: ''
 first_name: David
+hometown: Lowell
 house_url: ''
 last_name: Nangle
 party: D

@@ -1,8 +1,9 @@
 ---
-district: 37th Middlesex
+district: 37th-middlesex
 email: Jennifer.Benson@mahouse.gov
 facebook: ''
 first_name: Jennifer
+hometown: Lunenburg
 house_url: ''
 last_name: Benson
 party: D

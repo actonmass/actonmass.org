@@ -1,8 +1,9 @@
 ---
-district: 5th Plymouth
+district: 5th-plymouth
 email: David.DeCoste@mahouse.gov
 facebook: ''
 first_name: David
+hometown: Norwell
 house_url: ''
 last_name: DeCoste
 party: R

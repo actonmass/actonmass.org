@@ -1,8 +1,9 @@
 ---
-district: 14th Bristol
+district: 14th-bristol
 email: Elizabeth.Poirier@mahouse.gov
 facebook: https://www.facebook.com/Representative-Elizabeth-Poirier-115052675238359/
 first_name: Elizabeth
+hometown: North Attleborough
 house_url: https://malegislature.gov/People/Profile/EAP1
 last_name: Poirier
 party: R

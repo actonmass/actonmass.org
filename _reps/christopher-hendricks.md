@@ -1,8 +1,9 @@
 ---
-district: 11th Bristol
+district: 11th-bristol
 email: Chris.Hendricks@mahouse.gov
 facebook: https://www.facebook.com/votehendricks/
 first_name: Christopher
+hometown: New Bedford
 house_url: N/A
 last_name: Hendricks
 party: D

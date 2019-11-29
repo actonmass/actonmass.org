@@ -1,8 +1,9 @@
 ---
-district: 22nd Middlesex
+district: 22nd-middlesex
 email: Marc.Lombardo@mahouse.gov
 facebook: ''
 first_name: Marc
+hometown: Billerica
 house_url: ''
 last_name: Lombardo
 party: R

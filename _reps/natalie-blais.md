@@ -1,8 +1,9 @@
 ---
-district: 1st Franklin
+district: 1st-franklin
 email: Natalie.Blais@mahouse.gov
 facebook: https://www.facebook.com/BlaisForMA/
 first_name: Natalie
+hometown: Sunderland
 house_url: N/A
 last_name: Blais
 party: D

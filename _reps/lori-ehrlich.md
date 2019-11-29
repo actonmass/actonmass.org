@@ -1,8 +1,9 @@
 ---
-district: 8th Essex
+district: 8th-essex
 email: Lori.Ehrlich@mahouse.gov
 facebook: https://www.facebook.com/reploriehrlich/
 first_name: Lori
+hometown: Marblehead
 house_url: https://malegislature.gov/People/Profile/LAE1
 last_name: Ehrlich
 party: D

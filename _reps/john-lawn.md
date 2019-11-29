@@ -1,8 +1,9 @@
 ---
-district: 10th Middlesex
+district: 10th-middlesex
 email: John.Lawn@mahouse.gov
 facebook: ''
 first_name: John
+hometown: Watertown
 house_url: ''
 last_name: Lawn
 party: D

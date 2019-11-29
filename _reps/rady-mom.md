@@ -1,8 +1,9 @@
 ---
-district: 18th Middlesex
+district: 18th-middlesex
 email: Rady.Mom@mahouse.gov
 facebook: ''
 first_name: Rady
+hometown: Lowell
 house_url: ''
 last_name: Mom
 party: D

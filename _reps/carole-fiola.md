@@ -1,8 +1,9 @@
 ---
-district: 6th Bristol
+district: 6th-bristol
 email: Carole.Fiola@mahouse.gov
 facebook: https://www.facebook.com/electcarole
 first_name: Carole
+hometown: Fall River
 house_url: https://malegislature.gov/Legislators/Profile/CAF1
 last_name: Fiola
 party: D

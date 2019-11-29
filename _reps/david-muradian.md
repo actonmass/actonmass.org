@@ -1,8 +1,9 @@
 ---
-district: 9th Worcester
+district: 9th-worcester
 email: David.Muradian@mahouse.gov
 facebook: ''
 first_name: David
+hometown: Grafton
 house_url: ''
 last_name: Muradian
 party: R

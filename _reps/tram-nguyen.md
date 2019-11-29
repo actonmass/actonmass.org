@@ -1,8 +1,9 @@
 ---
-district: 18th Essex
+district: 18th-essex
 email: tram.nguyen@mahouse.gov
 facebook: https://www.facebook.com/TeamTram.MA/
 first_name: Tram
+hometown: Andover
 house_url: N/A
 last_name: Nguyen
 party: D

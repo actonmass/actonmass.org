@@ -1,8 +1,9 @@
 ---
-district: 2nd Suffolk
+district: 2nd-suffolk
 email: Dan.Ryan@mahouse.gov
 facebook: ''
 first_name: Daniel
+hometown: Boston
 house_url: ''
 last_name: Ryan
 party: D

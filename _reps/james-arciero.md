@@ -1,8 +1,9 @@
 ---
-district: 2nd Middlesex
+district: 2nd-middlesex
 email: James.Arciero@mahouse.gov
 facebook: ''
 first_name: James
+hometown: Westford
 house_url: ''
 last_name: Arciero
 party: D

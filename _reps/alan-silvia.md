@@ -1,8 +1,9 @@
 ---
-district: 7th Bristol
+district: 7th-bristol
 email: Alan.Silvia@mahouse.gov
 facebook: https://www.facebook.com/CommitteeToElectAlanSilviaStateRepresentative/
 first_name: Alan
+hometown: Fall River
 house_url: https://malegislature.gov/People/Profile/A_S1
 last_name: Silvia
 party: D

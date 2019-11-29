@@ -1,8 +1,9 @@
 ---
-district: 18th Worcester
+district: 18th-worcester
 email: joseph.mckenna@mahouse.gov
 facebook: ''
 first_name: Joseph
+hometown: Webster
 house_url: ''
 last_name: McKenna
 party: R

@@ -1,8 +1,9 @@
 ---
-district: 2nd Essex
+district: 2nd-essex
 email: Leonard.Mirra@mahouse.gov
 facebook: https://www.facebook.com/LennyMirra
 first_name: Lenny
+hometown: West Newbury
 house_url: https://malegislature.gov/People/Profile/L_M1
 last_name: Mirra
 party: R

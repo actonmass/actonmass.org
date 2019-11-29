@@ -1,8 +1,9 @@
 ---
-district: 21st Middlesex
+district: 21st-middlesex
 email: Ken.Gordon@mahouse.gov
 facebook: ''
 first_name: Kenneth
+hometown: Bedford
 house_url: ''
 last_name: Gordon
 party: D

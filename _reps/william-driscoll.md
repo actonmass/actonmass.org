@@ -1,8 +1,9 @@
 ---
-district: 7th Norfolk
+district: 7th-norfolk
 email: William.Driscoll@mahouse.gov
 facebook: ''
 first_name: William
+hometown: Milton
 house_url: ''
 last_name: Driscoll
 party: D

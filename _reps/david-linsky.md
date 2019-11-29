@@ -1,8 +1,9 @@
 ---
-district: 5th Middlesex
+district: 5th-middlesex
 email: David.Linsky@mahouse.gov
 facebook: ''
 first_name: David
+hometown: Natick
 house_url: ''
 last_name: Linsky
 party: D

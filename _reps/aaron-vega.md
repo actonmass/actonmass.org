@@ -1,8 +1,9 @@
 ---
-district: 5th Hampden
+district: 5th-hampden
 email: Aaron.Vega@mahouse.gov
 facebook: https://www.facebook.com/aaronvegaStateRep
 first_name: Aaron
+hometown: Holyoke
 house_url: https://malegislature.gov/People/Profile/A_V1
 last_name: Vega
 party: D

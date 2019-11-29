@@ -1,8 +1,9 @@
 ---
-district: 6th Norfolk
+district: 6th-norfolk
 email: William.Galvin@mahouse.gov
 facebook: ''
 first_name: William
+hometown: Canton
 house_url: ''
 last_name: Galvin
 party: D

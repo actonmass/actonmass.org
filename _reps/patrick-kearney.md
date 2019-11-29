@@ -1,8 +1,9 @@
 ---
-district: 4th Plymouth
+district: 4th-plymouth
 email: patrick.kearney@mahouse.gov
 facebook: ''
 first_name: Patrick
+hometown: Scituate
 house_url: ''
 last_name: Kearney
 party: D

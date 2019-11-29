@@ -1,8 +1,9 @@
 ---
-district: 8th Middlesex
+district: 8th-middlesex
 email: Carolyn.Dykema@mahouse.gov
 facebook: ''
 first_name: Carolyn
+hometown: Holliston
 house_url: ''
 last_name: Dykema
 party: D

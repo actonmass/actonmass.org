@@ -1,8 +1,9 @@
 ---
-district: 23rd Middlesex
+district: 23rd-middlesex
 email: Sean.Garballey@mahouse.gov
 facebook: ''
 first_name: Sean
+hometown: Arlington
 house_url: ''
 last_name: Garballey
 party: D

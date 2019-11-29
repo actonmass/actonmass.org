@@ -1,8 +1,9 @@
 ---
-district: 10th Worcester
+district: 10th-worcester
 email: Brian.Murray@mahouse.gov
 facebook: ''
 first_name: Brian
+hometown: Milford
 house_url: ''
 last_name: Murray
 party: D

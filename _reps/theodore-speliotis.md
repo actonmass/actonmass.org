@@ -1,8 +1,9 @@
 ---
-district: 13th Essex
+district: 13th-essex
 email: Theodore.Speliotis@mahouse.gov
 facebook: https://www.facebook.com/reptedspeliotis/
 first_name: Theodore
+hometown: Danvers
 house_url: https://malegislature.gov/People/Profile/TCS1
 last_name: Speliotis
 party: D

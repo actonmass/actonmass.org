@@ -1,8 +1,9 @@
 ---
-district: 6th Essex
+district: 6th-essex
 email: Jerald.Parisella@mahouse.gov
 facebook: https://www.facebook.com/jerry.staterep
 first_name: Jerald
+hometown: Beverlyl
 house_url: https://malegislature.gov/People/Profile/JAP1
 last_name: Parisella
 party: D

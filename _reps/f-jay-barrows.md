@@ -1,8 +1,9 @@
 ---
-district: 1st Bristol
+district: 1st-bristol
 email: F.JayBarrows@mahouse.gov
 facebook: https://www.facebook.com/RepJayBarrows/
 first_name: F. Jay
+hometown: Mansfield
 house_url: https://malegislature.gov/Legislators/Profile/FJB1
 last_name: Barrows
 party: R

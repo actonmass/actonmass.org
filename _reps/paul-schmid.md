@@ -1,8 +1,9 @@
 ---
-district: 8th Bristol
+district: 8th-bristol
 email: Paul.Schmid@mahouse.gov
 facebook: https://www.facebook.com/statereppaulschmid/
 first_name: Paul
+hometown: Westport
 house_url: https://malegislature.gov/People/Profile/PAS1
 last_name: Schmid
 party: D

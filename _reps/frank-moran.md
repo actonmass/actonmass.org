@@ -1,8 +1,9 @@
 ---
-district: 17th Essex
+district: 17th-essex
 email: Frank.Moran@mahouse.gov
 facebook: N/A
 first_name: Frank
+hometown: Lawrence
 house_url: https://malegislature.gov/People/Profile/FAM1
 last_name: Moran
 party: D

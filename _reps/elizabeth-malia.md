@@ -1,8 +1,9 @@
 ---
-district: 11th Suffolk
+district: 11th-suffolk
 email: Liz.Malia@mahouse.gov
 facebook: ''
 first_name: Elizabeth
+hometown: Boston
 house_url: ''
 last_name: Malia
 party: D

@@ -1,8 +1,9 @@
 ---
-district: 2nd Hampshire
+district: 2nd-hampshire
 email: daniel.carey@mahouse.gov
 facebook: https://www.facebook.com/CareyforStateRep/
 first_name: Daniel
+hometown: Easthampton
 house_url: N/A
 last_name: Carey
 party: D

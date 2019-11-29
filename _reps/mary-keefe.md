@@ -1,8 +1,9 @@
 ---
-district: 15th Worcester
+district: 15th-worcester
 email: Mary.Keefe@mahouse.gov
 facebook: ''
 first_name: Mary
+hometown: Worcester
 house_url: ''
 last_name: Keefe
 party: D

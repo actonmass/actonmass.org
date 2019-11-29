@@ -1,8 +1,9 @@
 ---
-district: 8th Suffolk
+district: 8th-suffolk
 email: Jay.Livingstone@mahouse.gov
 facebook: ''
 first_name: Jay
+hometown: Boston
 house_url: ''
 last_name: Livingstone
 party: D

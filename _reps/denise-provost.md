@@ -1,8 +1,9 @@
 ---
-district: 27th Middlesex
+district: 27th-middlesex
 email: Denise.Provost@mahouse.gov
 facebook: ''
 first_name: Denise
+hometown: Somerville
 house_url: ''
 last_name: Provost
 party: D

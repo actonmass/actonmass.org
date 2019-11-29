@@ -1,8 +1,9 @@
 ---
-district: 3rd Suffolk
+district: 3rd-suffolk
 email: Aaron.M.Michlewitz@mahouse.gov
 facebook: ''
 first_name: Aaron
+hometown: Boston
 house_url: ''
 last_name: Michlewitz
 party: D

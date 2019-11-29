@@ -1,8 +1,9 @@
 ---
-district: 29th Middlesex
+district: 29th-middlesex
 email: Jonathan.Hecht@mahouse.gov
 facebook: ''
 first_name: Jonathan
+hometown: Watertown
 house_url: ''
 last_name: Hecht
 party: D

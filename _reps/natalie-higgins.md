@@ -1,8 +1,9 @@
 ---
-district: 4th Worcester
+district: 4th-worcester
 email: Natalie.Higgins@mahouse.gov
 facebook: ''
 first_name: Natalie
+hometown: Leominster
 house_url: ''
 last_name: Higgins
 party: D

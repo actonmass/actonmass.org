@@ -1,8 +1,9 @@
 ---
-district: 4th Hampden
+district: 4th-hampden
 email: john.velis@mahouse.gov
 facebook: https://www.facebook.com/repjohnvelis
 first_name: John
+hometown: Westfield
 house_url: https://malegislature.gov/Legislators/Profile/jcv1
 last_name: Velis
 party: D

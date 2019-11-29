@@ -1,8 +1,9 @@
 ---
-district: 3rd Worcester
+district: 3rd-worcester
 email: Stephan.Hay@mahouse.gov
 facebook: ''
 first_name: Stephan
+hometown: Fitchburg
 house_url: ''
 last_name: Hay
 party: D

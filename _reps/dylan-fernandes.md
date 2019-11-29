@@ -1,8 +1,9 @@
 ---
-district: Barnstable, Dukes and Nantucket
+district: barnstable-dukes-and-nantucket
 email: Dylan.Fernandes@mahouse.gov
 facebook: https://www.facebook.com/RepDylanFernandes/
 first_name: Dylan
+hometown: Falmouth
 house_url: https://malegislature.gov/Legislators/Profile/DAF1
 last_name: Fernandes
 party: D

@@ -1,8 +1,9 @@
 ---
-district: 10th Norfolk
+district: 10th-norfolk
 email: Jeffrey.Roy@mahouse.gov
 facebook: ''
 first_name: Jeffrey
+hometown: Franklin
 house_url: ''
 last_name: Roy
 party: D

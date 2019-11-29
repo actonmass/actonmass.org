@@ -1,8 +1,9 @@
 ---
-district: 8th Hampden
+district: 8th-hampden
 email: Joseph.Wagner@mahouse.gov
 facebook: https://www.facebook.com/repwagner/
 first_name: Joseph
+hometown: Chicopee
 house_url: https://malegislature.gov/People/Profile/JFW1
 last_name: Wagner
 party: D

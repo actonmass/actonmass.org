@@ -1,8 +1,9 @@
 ---
-district: 30th Middlesex
+district: 30th-middlesex
 email: richard.haggerty@mahouse.gov
 facebook: ''
 first_name: Richard
+hometown: Woburn
 house_url: ''
 last_name: Haggerty
 party: D

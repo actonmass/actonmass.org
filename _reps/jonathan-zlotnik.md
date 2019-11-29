@@ -1,8 +1,9 @@
 ---
-district: 2nd Worcester
+district: 2nd-worcester
 email: Jon.Zlotnik@mahouse.gov
 facebook: ''
 first_name: Jonathan
+hometown: Gardner
 house_url: ''
 last_name: Zlotnik
 party: D

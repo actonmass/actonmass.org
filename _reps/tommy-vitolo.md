@@ -1,8 +1,9 @@
 ---
-district: 15th Norfolk
+district: 15th-norfolk
 email: tommy.vitolo@mahouse.gov
 facebook: ''
 first_name: Tommy
+hometown: Brookline
 house_url: ''
 last_name: Vitolo
 party: D

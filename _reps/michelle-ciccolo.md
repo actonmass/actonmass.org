@@ -1,8 +1,9 @@
 ---
-district: 15th Middlesex
+district: 15th-middlesex
 email: michelle.ciccolo@mahouse.gov
 facebook: ''
 first_name: Michelle
+hometown: Lexington
 house_url: ''
 last_name: Ciccolo
 party: D

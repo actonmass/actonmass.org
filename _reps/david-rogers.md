@@ -1,8 +1,9 @@
 ---
-district: 24th Middlesex
+district: 24th-middlesex
 email: Dave.Rogers@mahouse.gov
 facebook: ''
 first_name: David
+hometown: Cambridge
 house_url: ''
 last_name: Rogers
 party: D

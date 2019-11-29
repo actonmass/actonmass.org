@@ -1,8 +1,9 @@
 ---
-district: 4th Suffolk
+district: 4th-suffolk
 email: David.Biele@mahouse.gov
 facebook: ''
 first_name: David
+hometown: Boston
 house_url: ''
 last_name: Biele
 party: D

@@ -1,8 +1,9 @@
 ---
-district: 14th Norfolk
+district: 14th-norfolk
 email: Alice.Peisch@mahouse.gov
 facebook: ''
 first_name: Alice
+hometown: Wellesley
 house_url: ''
 last_name: Peisch
 party: D

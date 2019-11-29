@@ -1,8 +1,9 @@
 ---
-district: 2nd Norfolk
+district: 2nd-norfolk
 email: Tackey.Chan@mahouse.gov
 facebook: ''
 first_name: Tackey
+hometown: Quincy
 house_url: ''
 last_name: Chan
 party: D

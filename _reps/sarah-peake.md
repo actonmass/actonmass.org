@@ -1,8 +1,9 @@
 ---
-district: 4th Barnstable
+district: 4th-barnstable
 email: Sarah.Peake@mahouse.gov
 facebook: https://www.facebook.com/sarah.peake.37
 first_name: Sarah
+hometown: Provincetown
 house_url: https://malegislature.gov/Legislators/Profile/SKP1
 last_name: Peake
 party: D

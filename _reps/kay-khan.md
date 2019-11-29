@@ -1,8 +1,9 @@
 ---
-district: 11th Middlesex
+district: 11th-middlesex
 email: Kay.Khan@mahouse.gov
 facebook: ''
 first_name: Kay
+hometown: Newton
 house_url: ''
 last_name: Khan
 party: D

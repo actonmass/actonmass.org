@@ -1,8 +1,9 @@
 ---
-district: 2nd Franklin
+district: 2nd-franklin
 email: Susannah.Whipps@mahouse.gov
 facebook: https://www.facebook.com/repwhipps/
 first_name: Susannah
+hometown: Athol
 house_url: https://malegislature.gov/People/Profile/SLG1
 last_name: Whipps
 party: I

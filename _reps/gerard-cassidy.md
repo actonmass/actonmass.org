@@ -1,8 +1,9 @@
 ---
-district: 9th Plymouth
+district: 9th-plymouth
 email: Gerard.Cassidy@mahouse.gov
 facebook: ''
 first_name: Gerard
+hometown: Brockton
 house_url: ''
 last_name: Cassidy
 party: D

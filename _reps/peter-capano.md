@@ -1,8 +1,9 @@
 ---
-district: 11th Essex
+district: 11th-essex
 email: peter.capano@mahouse.gov
 facebook: https://www.facebook.com/StateRepCapano/
 first_name: Peter
+hometown: Lynn
 house_url: N/A
 last_name: Capano
 party: D

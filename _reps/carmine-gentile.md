@@ -1,8 +1,9 @@
 ---
-district: 13th Middlesex
+district: 13th-middlesex
 email: carmine.gentile@mahouse.gov
 facebook: ''
 first_name: Carmine
+hometown: Sudbury
 house_url: ''
 last_name: Gentile
 party: D

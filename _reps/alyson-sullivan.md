@@ -1,8 +1,9 @@
 ---
-district: 7th Plymouth
+district: 7th-plymouth
 email: alyson.sullivan@mahouse.gov
 facebook: ''
 first_name: Alyson
+hometown: Abington
 house_url: ''
 last_name: Sullivan
 party: R

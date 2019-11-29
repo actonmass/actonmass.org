@@ -1,8 +1,9 @@
 ---
-district: 3rd Essex
+district: 3rd-essex
 email: andy.vargas@mahouse.gov
 facebook: https://www.facebook.com/RepAndyVargas/
 first_name: Andres
+hometown: Haverhill
 house_url: https://malegislature.gov/Legislators/Profile/AXV1
 last_name: Vargas
 party: D

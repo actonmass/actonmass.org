@@ -1,8 +1,9 @@
 ---
-district: 9th Suffolk
+district: 9th-suffolk
 email: jon.santiago@mahouse.gov
 facebook: ''
 first_name: Jon
+hometown: Boston
 house_url: ''
 last_name: Santiago
 party: D

@@ -1,8 +1,9 @@
 ---
-district: 15th Essex
+district: 15th-essex
 email: Linda.Campbell@mahouse.gov
 facebook: https://www.facebook.com/Replindadeancampbell
 first_name: Linda
+hometown: Methuen
 house_url: https://malegislature.gov/People/Profile/LDC1
 last_name: Campbell
 party: D

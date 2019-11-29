@@ -1,8 +1,9 @@
 ---
-district: 1st Suffolk
+district: 1st-suffolk
 email: Adrian.Madaro@mahouse.gov
 facebook: ''
 first_name: Adrian
+hometown: Boston
 house_url: ''
 last_name: Madaro
 party: D

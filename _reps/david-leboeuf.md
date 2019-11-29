@@ -1,8 +1,9 @@
 ---
-district: 17th Worcester
+district: 17th-worcester
 email: david.leboeuf@mahouse.gov
 facebook: ''
 first_name: David
+hometown: Worcester
 house_url: ''
 last_name: LeBoeuf
 party: D

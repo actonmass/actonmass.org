@@ -1,8 +1,9 @@
 ---
-district: 7th Essex
+district: 7th-essex
 email: Paul.Tucker@mahouse.gov
 facebook: https://www.facebook.com/PaulTuckerSalem
 first_name: Paul
+hometown: Salem
 house_url: https://malegislature.gov/People/Profile/PFT1
 last_name: Tucker
 party: D

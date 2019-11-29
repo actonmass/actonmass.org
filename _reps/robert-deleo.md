@@ -1,8 +1,9 @@
 ---
-district: 19th Suffolk
+district: 19th-suffolk
 email: Robert.DeLeo@mahouse.gov
 facebook: ''
 first_name: Robert
+hometown: Winthrop
 house_url: ''
 last_name: DeLeo
 party: D

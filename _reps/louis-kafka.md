@@ -1,8 +1,9 @@
 ---
-district: 8th Norfolk
+district: 8th-norfolk
 email: Louis.Kafka@mahouse.gov
 facebook: ''
 first_name: Louis
+hometown: Stoughton
 house_url: ''
 last_name: Kafka
 party: D

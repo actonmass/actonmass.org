@@ -1,8 +1,9 @@
 ---
-district: 12th Bristol
+district: 12th-bristol
 email: norman.orrall@mahouse.gov
 facebook: https://www.facebook.com/NormanOrrall/
 first_name: Norman
+hometown: Lakeville
 house_url: N/A
 last_name: Orrall
 party: R

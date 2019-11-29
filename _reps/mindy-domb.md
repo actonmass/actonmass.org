@@ -1,8 +1,9 @@
 ---
-district: 3rd Hampshire
+district: 3rd-hampshire
 email: mindy.domb@mahouse.gov
 facebook: https://www.facebook.com/MindyForMA/
 first_name: Mindy
+hometown: Amherst
 house_url: N/A
 last_name: Domb
 party: D

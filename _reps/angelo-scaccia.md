@@ -1,8 +1,9 @@
 ---
-district: 14th Suffolk
+district: 14th-suffolk
 email: Angelo.Scaccia@mahouse.gov
 facebook: ''
 first_name: Angelo
+hometown: Boston
 house_url: ''
 last_name: Scaccia
 party: D

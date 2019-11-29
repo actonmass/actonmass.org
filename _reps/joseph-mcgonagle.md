@@ -1,8 +1,9 @@
 ---
-district: 28th Middlesex
+district: 28th-middlesex
 email: Joseph.McGonagle@mahouse.gov
 facebook: ''
 first_name: Joseph
+hometown: Everett
 house_url: ''
 last_name: McGonagle
 party: D

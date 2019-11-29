@@ -1,8 +1,9 @@
 ---
-district: 11th Plymouth
+district: 11th-plymouth
 email: Claire.Cronin@mahouse.gov
 facebook: ''
 first_name: Claire
+hometown: Easton
 house_url: ''
 last_name: Cronin
 party: D

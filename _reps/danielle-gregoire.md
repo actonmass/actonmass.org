@@ -1,8 +1,9 @@
 ---
-district: 4th Middlesex
+district: 4th-middlesex
 email: Danielle.Gregoire@mahouse.gov
 facebook: ''
 first_name: Danielle
+hometown: Marlborough
 house_url: ''
 last_name: Gregoire
 party: D

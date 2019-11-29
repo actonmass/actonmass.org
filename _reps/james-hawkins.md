@@ -1,8 +1,9 @@
 ---
-district: 2nd Bristol
+district: 2nd-bristol
 email: james.hawkins@mahouse.gov
 facebook: https://www.facebook.com/JimHawkins4Rep/
 first_name: James
+hometown: Attleboro
 house_url: https://malegislature.gov/Legislators/Profile/JKH1
 last_name: Hawkins
 party: D

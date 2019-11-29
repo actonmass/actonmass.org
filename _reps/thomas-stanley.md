@@ -1,8 +1,9 @@
 ---
-district: 9th Middlesex
+district: 9th-middlesex
 email: Thomas.Stanley@mahouse.gov
 facebook: ''
 first_name: Thomas
+hometown: Waltham
 house_url: ''
 last_name: Stanley
 party: D

@@ -1,8 +1,9 @@
 ---
-district: 3rd Norfolk
+district: 3rd-norfolk
 email: Ronald.Mariano@mahouse.gov
 facebook: ''
 first_name: Ronald
+hometown: Quincy
 house_url: ''
 last_name: Mariano
 party: D

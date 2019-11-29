@@ -1,8 +1,9 @@
 ---
-district: 20th Middlesex
+district: 20th-middlesex
 email: Bradley.Jones@mahouse.gov
 facebook: ''
 first_name: Bradley
+hometown: North Reading
 house_url: ''
 last_name: Jones
 party: R

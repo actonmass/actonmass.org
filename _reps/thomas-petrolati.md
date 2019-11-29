@@ -1,8 +1,9 @@
 ---
-district: 7th Hampden
+district: 7th-hampden
 email: Thomas.Petrolati@mahouse.gov
 facebook: N/A
 first_name: Thomas
+hometown: Ludlow
 house_url: https://malegislature.gov/People/Profile/TMP1
 last_name: Petrolati
 party: D

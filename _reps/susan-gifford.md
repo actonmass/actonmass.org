@@ -1,8 +1,9 @@
 ---
-district: 2nd Plymouth
+district: 2nd-plymouth
 email: Susan.Gifford@mahouse.gov
 facebook: ''
 first_name: Susan
+hometown: Wareham
 house_url: ''
 last_name: Gifford
 party: R

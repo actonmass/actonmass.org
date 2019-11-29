@@ -1,8 +1,9 @@
 ---
-district: 5th Worcester
+district: 5th-worcester
 email: Donald.Berthiaume@mahouse.gov
 facebook: ''
 first_name: Donald
+hometown: Spencer
 house_url: ''
 last_name: Berthiaume
 party: R

@@ -1,8 +1,9 @@
 ---
-district: 10th Plymouth
+district: 10th-plymouth
 email: michelle.dubois@mahouse.gov
 facebook: ''
 first_name: Michelle
+hometown: Brockton
 house_url: ''
 last_name: DuBois
 party: D

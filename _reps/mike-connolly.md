@@ -1,8 +1,9 @@
 ---
-district: 26th Middlesex
+district: 26th-middlesex
 email: Mike.Connolly@mahouse.gov
 facebook: ''
 first_name: Mike
+hometown: Cambridge
 house_url: ''
 last_name: Connolly
 party: D

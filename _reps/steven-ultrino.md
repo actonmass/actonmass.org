@@ -1,8 +1,9 @@
 ---
-district: 33rd Middlesex
+district: 33rd-middlesex
 email: Steven.Ultrino@mahouse.gov
 facebook: ''
 first_name: Steven
+hometown: Malden
 house_url: ''
 last_name: Ultrino
 party: D

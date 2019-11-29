@@ -1,8 +1,9 @@
 ---
-district: 5th Suffolk
+district: 5th-suffolk
 email: liz.miranda@mahouse.gov
 facebook: ''
 first_name: Liz
+hometown: Boston
 house_url: ''
 last_name: Miranda
 party: D

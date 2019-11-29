@@ -1,8 +1,9 @@
 ---
-district: 31st Middlesex
+district: 31st-middlesex
 email: Michael.Day@mahouse.gov
 facebook: ''
 first_name: Michael
+hometown: Stoneham
 house_url: ''
 last_name: Day
 party: D

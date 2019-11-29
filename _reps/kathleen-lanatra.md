@@ -1,8 +1,9 @@
 ---
-district: 12th Plymouth
+district: 12th-plymouth
 email: kathleen.lanatra@mahouse.gov
 facebook: ''
 first_name: Kathleen
+hometown: Kingston
 house_url: ''
 last_name: LaNatra
 party: D

@@ -1,8 +1,9 @@
 ---
-district: 2nd Hampden
+district: 2nd-hampden
 email: Brian.Ashe@mahouse.gov
 facebook: https://www.facebook.com/repashe/
 first_name: Brian
+hometown: Longmeadow
 house_url: https://malegislature.gov/Legislators/Profile/BMA1
 last_name: Ashe
 party: D

@@ -1,8 +1,9 @@
 ---
-district: 13th Norfolk
+district: 13th-norfolk
 email: Denise.Garlick@mahouse.gov
 facebook: ''
 first_name: Denise
+hometown: Needham
 house_url: ''
 last_name: Garlick
 party: D

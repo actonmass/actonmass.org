@@ -1,8 +1,9 @@
 ---
-district: 1st Berkshire
+district: 1st-berkshire
 email: john.barrett@mahouse.gov
 facebook: https://www.facebook.com/JohnBarrettStateRep/
 first_name: John
+hometown: North Adams
 house_url: https://malegislature.gov/Legislators/Profile/J_B1
 last_name: Barrett
 party: D

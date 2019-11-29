@@ -1,8 +1,9 @@
 ---
-district: 3rd Middlesex
+district: 3rd-middlesex
 email: Kate.Hogan@mahouse.gov
 facebook: ''
 first_name: Kate
+hometown: Stow
 house_url: ''
 last_name: Hogan
 party: D

@@ -1,8 +1,9 @@
 ---
-district: 5th Norfolk
+district: 5th-norfolk
 email: Mark.Cusack@mahouse.gov
 facebook: ''
 first_name: Mark
+hometown: Braintree
 house_url: ''
 last_name: Cusack
 party: D

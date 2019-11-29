@@ -1,8 +1,9 @@
 ---
-district: 4th Bristol
+district: 4th-bristol
 email: Steven.Howitt@mahouse.gov
 facebook: https://www.facebook.com/StevenHowittforStateRepresentative/
 first_name: Steven
+hometown: Seekonk
 house_url: https://malegislature.gov/Legislators/Profile/SSH1
 last_name: Howitt
 party: R

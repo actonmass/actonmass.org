@@ -1,8 +1,9 @@
 ---
-district: 15th Suffolk
+district: 15th-suffolk
 email: nika.elugardo@mahouse.gov
 facebook: ''
 first_name: Nika
+hometown: Boston
 house_url: ''
 last_name: Elugardo
 party: D

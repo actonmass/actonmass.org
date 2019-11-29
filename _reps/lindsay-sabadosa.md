@@ -1,8 +1,9 @@
 ---
-district: 1st Hampshire
+district: 1st-hampshire
 email: lindsay.sabadosa@mahouse.gov
 facebook: https://www.facebook.com/LSabadosaMA/
 first_name: Lindsay
+hometown: Northampton
 house_url: N/A
 last_name: Sabadosa
 party: D

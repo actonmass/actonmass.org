@@ -1,8 +1,9 @@
 ---
-district: 6th Middlesex
+district: 6th-middlesex
 email: maria.robinson@mahouse.gov
 facebook: ''
 first_name: Maria
+hometown: Framingham
 house_url: ''
 last_name: Robinson
 party: D

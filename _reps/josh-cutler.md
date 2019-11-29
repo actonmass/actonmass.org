@@ -1,8 +1,9 @@
 ---
-district: 6th Plymouth
+district: 6th-plymouth
 email: Josh.Cutler@mahouse.gov
 facebook: ''
 first_name: Josh
+hometown: Duxbury
 house_url: ''
 last_name: Cutler
 party: D

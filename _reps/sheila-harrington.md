@@ -1,8 +1,9 @@
 ---
-district: 1st Middlesex
+district: 1st-middlesex
 email: Sheila.Harrington@mahouse.gov
 facebook: https://www.facebook.com/repharrington
 first_name: Sheila
+hometown: Groton
 house_url: https://malegislature.gov/Legislators/Profile/SCH1
 last_name: Harrington
 party: R

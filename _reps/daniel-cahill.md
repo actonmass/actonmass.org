@@ -1,8 +1,9 @@
 ---
-district: 10th Essex
+district: 10th-essex
 email: Daniel.Cahill@mahouse.gov
 facebook: https://www.facebook.com/RepDanCahill/
 first_name: Daniel
+hometown: Lynn
 house_url: https://malegislature.gov/Legislators/Profile/DFC1
 last_name: Cahill
 party: D

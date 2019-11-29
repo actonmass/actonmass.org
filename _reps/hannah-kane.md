@@ -1,8 +1,9 @@
 ---
-district: 11th Worcester
+district: 11th-worcester
 email: Hannah.Kane@mahouse.gov
 facebook: ''
 first_name: Hannah
+hometown: Shrewsbury
 house_url: ''
 last_name: Kane
 party: R

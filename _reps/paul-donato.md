@@ -1,8 +1,9 @@
 ---
-district: 35th Middlesex
+district: 35th-middlesex
 email: Paul.Donato@mahouse.gov
 facebook: ''
 first_name: Paul
+hometown: Medford
 house_url: ''
 last_name: Donato
 party: D

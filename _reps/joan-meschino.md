@@ -1,8 +1,9 @@
 ---
-district: 3rd Plymouth
+district: 3rd-plymouth
 email: Joan.Meschino@mahouse.gov
 facebook: ''
 first_name: Joan
+hometown: Hull
 house_url: ''
 last_name: Meschino
 party: D

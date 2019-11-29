@@ -1,8 +1,9 @@
 ---
-district: 13th Bristol
+district: 13th-bristol
 email: Antonio.Cabral@mahouse.gov
 facebook: https://www.facebook.com/RepTonyCabral/
 first_name: Antonio
+hometown: New Bedford
 house_url: https://malegislature.gov/People/Profile/AFC1?fbclid=IwAR1FgRjNg-Q3tpgHyZyoFTk5faX5OChiGTcQx5dGHgNlO5ALkkuKIqU69l0
 last_name: Cabral
 party: D

@@ -1,8 +1,9 @@
 ---
-district: 11th Hampden
+district: 11th-hampden
 email: Bud.Williams@mahouse.gov
 facebook: https://www.facebook.com/RepBudLWilliams
 first_name: Bud
+hometown: Springfield
 house_url: https://malegislature.gov/Legislators/Profile/BLW1
 last_name: Williams
 party: D

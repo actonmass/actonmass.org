@@ -1,8 +1,9 @@
 ---
-district: 16th Middlesex
+district: 16th-middlesex
 email: Thomas.Golden@mahouse.gov
 facebook: ''
 first_name: Thomas
+hometown: Lowell
 house_url: ''
 last_name: Golden
 party: D

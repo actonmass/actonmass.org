@@ -1,8 +1,9 @@
 ---
-district: 4th Berkshire
+district: 4th-berkshire
 email: rep.smitty@mahouse.gov
 facebook: https://www.facebook.com/RepWilliamSmittyPignatelli
 first_name: Smitty
+hometown: Lee
 house_url: https://malegislature.gov/Legislators/Profile/WSP1
 last_name: Pignatelli
 party: D
