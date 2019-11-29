@@ -2,13 +2,16 @@
 <script>
   var data = [
     // Generate this with Jekyll
-    {
-      href: "/reps/nika-elugardo",
-      img:
-        "https://www.jamaicaplainnews.com/wp-content/uploads/2018/03/ISz5WcYC_400x400.jpg",
-      lat: 42.3139576,
-      lng: -71.1362474
-    }
+    {%for leg_id in include.greens %}
+    {% assign leg = site.data.cache.legislator_by_id[leg_id] %}
+    {% assign district = site.data.cache.district_by_id[leg.district] %}
+      {
+        href: "/legislators/{{leg_id}}",
+        img: "{{ leg.square_picture }}",
+        lat: {{ district.lat }},
+        lng: {{ district.lng }},
+      },
+    {% endfor %}
   ];
   window.addEventListener("DOMContentLoaded", function() {
     AOM.renderMap("unique-id", data);

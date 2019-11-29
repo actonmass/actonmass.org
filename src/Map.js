@@ -1,7 +1,7 @@
 import L from 'leaflet';
 
 const defaultZoom = 11;
-const defaultCenter = [42.3587811, -71.0659988];
+const defaultCenter = [42.3587811, -71.2];
 const tileURL =
   "https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpejY4NXVycTA2emYycXBndHRqcmZ3N3gifQ.rJcFIG214AriISLbB6B5aw";
 const attribution =

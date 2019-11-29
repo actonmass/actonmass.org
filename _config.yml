@@ -39,6 +39,8 @@ collections:
     permalink: :collection/:name/
   committees:
     output: false
+  districts:
+    output: false
 defaults:
   - scope:
       path: ""
