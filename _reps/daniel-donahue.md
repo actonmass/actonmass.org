@@ -1,5 +1,5 @@
 ---
-district: 16th-worcester
+district: house-16th-worcester
 email: Daniel.Donahue@mahouse.gov
 end_date: ''
 facebook: ''

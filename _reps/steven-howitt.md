@@ -1,5 +1,5 @@
 ---
-district: 4th-bristol
+district: house-4th-bristol
 email: Steven.Howitt@mahouse.gov
 end_date: ''
 facebook: https://www.facebook.com/StevenHowittforStateRepresentative/

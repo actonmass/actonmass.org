@@ -1,5 +1,5 @@
 ---
-district: 4th-plymouth
+district: house-4th-plymouth
 email: patrick.kearney@mahouse.gov
 end_date: ''
 facebook: ''

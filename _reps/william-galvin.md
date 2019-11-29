@@ -1,5 +1,5 @@
 ---
-district: 6th-norfolk
+district: house-6th-norfolk
 email: William.Galvin@mahouse.gov
 end_date: ''
 facebook: ''

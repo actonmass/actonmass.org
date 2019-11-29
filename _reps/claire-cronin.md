@@ -1,5 +1,5 @@
 ---
-district: 11th-plymouth
+district: house-11th-plymouth
 email: Claire.Cronin@mahouse.gov
 end_date: ''
 facebook: ''

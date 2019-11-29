@@ -1,5 +1,5 @@
 ---
-district: 9th-essex
+district: house-9th-essex
 email: Donald.Wong@mahouse.gov
 end_date: ''
 facebook: https://www.facebook.com/Representative-Donald-H-Wong-142928589091517/

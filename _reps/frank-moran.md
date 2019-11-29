@@ -1,5 +1,5 @@
 ---
-district: 17th-essex
+district: house-17th-essex
 email: Frank.Moran@mahouse.gov
 end_date: ''
 facebook: N/A

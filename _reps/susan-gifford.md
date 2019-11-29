@@ -1,5 +1,5 @@
 ---
-district: 2nd-plymouth
+district: house-2nd-plymouth
 email: Susan.Gifford@mahouse.gov
 end_date: ''
 facebook: ''

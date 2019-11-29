@@ -1,5 +1,5 @@
 ---
-district: 3rd-worcester
+district: house-3rd-worcester
 email: Stephan.Hay@mahouse.gov
 end_date: ''
 facebook: ''

@@ -1,5 +1,5 @@
 ---
-district: 3rd-barnstable
+district: house-3rd-barnstable
 email: David.Vieira@mahouse.gov
 end_date: ''
 facebook: https://www.facebook.com/david.t.vieira.9

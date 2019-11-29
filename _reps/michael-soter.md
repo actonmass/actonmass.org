@@ -1,5 +1,5 @@
 ---
-district: 8th-worcester
+district: house-8th-worcester
 email: michael.soter@mahouse.gov
 end_date: ''
 facebook: ''

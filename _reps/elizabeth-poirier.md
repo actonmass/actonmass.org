@@ -1,5 +1,5 @@
 ---
-district: 14th-bristol
+district: house-14th-bristol
 email: Elizabeth.Poirier@mahouse.gov
 end_date: ''
 facebook: https://www.facebook.com/Representative-Elizabeth-Poirier-115052675238359/

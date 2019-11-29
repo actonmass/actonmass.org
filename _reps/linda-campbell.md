@@ -1,5 +1,5 @@
 ---
-district: 15th-essex
+district: house-15th-essex
 email: Linda.Campbell@mahouse.gov
 end_date: ''
 facebook: https://www.facebook.com/Replindadeancampbell

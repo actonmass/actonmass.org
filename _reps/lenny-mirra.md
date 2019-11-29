@@ -1,5 +1,5 @@
 ---
-district: 2nd-essex
+district: house-2nd-essex
 email: Leonard.Mirra@mahouse.gov
 end_date: ''
 facebook: https://www.facebook.com/LennyMirra

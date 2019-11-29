@@ -1,5 +1,5 @@
 ---
-district: 5th-norfolk
+district: house-5th-norfolk
 email: Mark.Cusack@mahouse.gov
 end_date: ''
 facebook: ''

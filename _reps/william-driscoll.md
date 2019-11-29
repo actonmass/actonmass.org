@@ -1,5 +1,5 @@
 ---
-district: 7th-norfolk
+district: house-7th-norfolk
 email: William.Driscoll@mahouse.gov
 end_date: ''
 facebook: ''

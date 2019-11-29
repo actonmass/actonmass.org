@@ -1,5 +1,5 @@
 ---
-district: 1st-middlesex
+district: house-1st-middlesex
 email: Sheila.Harrington@mahouse.gov
 end_date: ''
 facebook: https://www.facebook.com/repharrington

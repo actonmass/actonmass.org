@@ -1,5 +1,5 @@
 ---
-district: 12th-plymouth
+district: house-12th-plymouth
 email: kathleen.lanatra@mahouse.gov
 end_date: ''
 facebook: ''

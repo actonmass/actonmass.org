@@ -1,5 +1,5 @@
 ---
-district: 12th-worcester
+district: house-12th-worcester
 email: Harold.Naughton@mahouse.gov
 end_date: ''
 facebook: ''

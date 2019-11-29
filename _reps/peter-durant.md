@@ -1,5 +1,5 @@
 ---
-district: 6th-worcester
+district: house-6th-worcester
 email: Peter.Durant@mahouse.gov
 end_date: ''
 facebook: ''

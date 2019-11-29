@@ -1,5 +1,5 @@
 ---
-district: 22nd-middlesex
+district: house-22nd-middlesex
 email: Marc.Lombardo@mahouse.gov
 end_date: ''
 facebook: ''

@@ -1,5 +1,5 @@
 ---
-district: 16th-essex
+district: house-16th-essex
 email: marcos.devers@mahouse.gov
 end_date: ''
 facebook: https://www.facebook.com/staterepdevers

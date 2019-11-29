@@ -1,5 +1,5 @@
 ---
-district: 4th-barnstable
+district: house-4th-barnstable
 email: Sarah.Peake@mahouse.gov
 end_date: ''
 facebook: https://www.facebook.com/sarah.peake.37

@@ -1,5 +1,5 @@
 ---
-district: 11th-bristol
+district: house-11th-bristol
 email: Chris.Hendricks@mahouse.gov
 end_date: ''
 facebook: https://www.facebook.com/votehendricks/

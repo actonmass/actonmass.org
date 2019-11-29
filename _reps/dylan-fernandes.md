@@ -1,5 +1,5 @@
 ---
-district: barnstable-dukes-and-nantucket
+district: house-barnstable-dukes-and-nantucket
 email: Dylan.Fernandes@mahouse.gov
 end_date: ''
 facebook: https://www.facebook.com/RepDylanFernandes/

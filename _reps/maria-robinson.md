@@ -1,5 +1,5 @@
 ---
-district: 6th-middlesex
+district: house-6th-middlesex
 email: maria.robinson@mahouse.gov
 end_date: ''
 facebook: ''

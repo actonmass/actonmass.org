@@ -1,5 +1,5 @@
 ---
-district: 8th-essex
+district: house-8th-essex
 email: Lori.Ehrlich@mahouse.gov
 end_date: ''
 facebook: https://www.facebook.com/reploriehrlich/

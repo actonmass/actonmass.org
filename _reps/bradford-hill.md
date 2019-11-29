@@ -1,5 +1,5 @@
 ---
-district: 4th-essex
+district: house-4th-essex
 email: Brad.Hill@mahouse.gov
 end_date: ''
 facebook: https://www.facebook.com/repbradhill/

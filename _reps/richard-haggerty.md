@@ -1,5 +1,5 @@
 ---
-district: 30th-middlesex
+district: house-30th-middlesex
 email: richard.haggerty@mahouse.gov
 end_date: ''
 facebook: ''

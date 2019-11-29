@@ -1,5 +1,5 @@
 ---
-district: 8th-plymouth
+district: house-8th-plymouth
 email: Angelo.D'Emilia@mahouse.gov
 end_date: ''
 facebook: ''

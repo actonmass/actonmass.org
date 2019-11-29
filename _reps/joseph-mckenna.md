@@ -1,5 +1,5 @@
 ---
-district: 18th-worcester
+district: house-18th-worcester
 email: joseph.mckenna@mahouse.gov
 end_date: ''
 facebook: ''

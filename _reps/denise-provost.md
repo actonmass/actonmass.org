@@ -1,5 +1,5 @@
 ---
-district: 27th-middlesex
+district: house-27th-middlesex
 email: Denise.Provost@mahouse.gov
 end_date: ''
 facebook: ''

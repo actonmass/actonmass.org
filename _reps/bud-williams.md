@@ -1,5 +1,5 @@
 ---
-district: 11th-hampden
+district: house-11th-hampden
 email: Bud.Williams@mahouse.gov
 end_date: ''
 facebook: https://www.facebook.com/RepBudLWilliams

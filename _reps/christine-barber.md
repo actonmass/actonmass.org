@@ -1,5 +1,5 @@
 ---
-district: 34th-middlesex
+district: house-34th-middlesex
 email: Christine.Barber@mahouse.gov
 end_date: ''
 facebook: ''

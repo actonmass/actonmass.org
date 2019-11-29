@@ -1,5 +1,5 @@
 ---
-district: 7th-hampden
+district: house-7th-hampden
 email: Thomas.Petrolati@mahouse.gov
 end_date: ''
 facebook: N/A

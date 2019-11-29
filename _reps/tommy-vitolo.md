@@ -1,5 +1,5 @@
 ---
-district: 15th-norfolk
+district: house-15th-norfolk
 email: tommy.vitolo@mahouse.gov
 end_date: ''
 facebook: ''

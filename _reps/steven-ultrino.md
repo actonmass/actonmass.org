@@ -1,5 +1,5 @@
 ---
-district: 33rd-middlesex
+district: house-33rd-middlesex
 email: Steven.Ultrino@mahouse.gov
 end_date: ''
 facebook: ''

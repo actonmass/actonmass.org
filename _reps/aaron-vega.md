@@ -1,5 +1,5 @@
 ---
-district: 5th-hampden
+district: house-5th-hampden
 email: Aaron.Vega@mahouse.gov
 end_date: ''
 facebook: https://www.facebook.com/aaronvegaStateRep

@@ -1,5 +1,5 @@
 ---
-district: 35th-middlesex
+district: house-35th-middlesex
 email: Paul.Donato@mahouse.gov
 end_date: ''
 facebook: ''

@@ -1,5 +1,5 @@
 ---
-district: 10th-worcester
+district: house-10th-worcester
 email: Brian.Murray@mahouse.gov
 end_date: ''
 facebook: ''

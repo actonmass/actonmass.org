@@ -1,5 +1,5 @@
 ---
-district: 1st-bristol
+district: house-1st-bristol
 email: F.JayBarrows@mahouse.gov
 end_date: ''
 facebook: https://www.facebook.com/RepJayBarrows/

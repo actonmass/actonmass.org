@@ -1,5 +1,5 @@
 ---
-district: 10th-hampden
+district: house-10th-hampden
 email: Carlos.Gonzalez@mahouse.gov
 end_date: ''
 facebook: https://www.facebook.com/Carlos-Gonzalez-State-Representative-1651765781719357/

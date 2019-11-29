@@ -1,5 +1,5 @@
 ---
-district: 9th-hampden
+district: house-9th-hampden
 email: Jose.Tosado@mahouse.gov
 end_date: ''
 facebook: https://www.facebook.com/JoseFTosado

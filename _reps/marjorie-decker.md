@@ -1,5 +1,5 @@
 ---
-district: 25th-middlesex
+district: house-25th-middlesex
 email: Marjorie.Decker@mahouse.gov
 end_date: ''
 facebook: ''

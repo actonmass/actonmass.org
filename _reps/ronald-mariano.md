@@ -1,5 +1,5 @@
 ---
-district: 3rd-norfolk
+district: house-3rd-norfolk
 email: Ronald.Mariano@mahouse.gov
 end_date: ''
 facebook: ''

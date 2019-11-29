@@ -1,5 +1,5 @@
 ---
-district: 2nd-berkshire
+district: house-2nd-berkshire
 email: Paul.Mark@mahouse.gov
 end_date: ''
 facebook: https://www.facebook.com/Paul-Mark-310112786585/

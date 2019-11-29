@@ -1,5 +1,5 @@
 ---
-district: 9th-bristol
+district: house-9th-bristol
 email: Christopher.Markey@mahouse.gov
 end_date: ''
 facebook: https://www.facebook.com/State-Representative-Christopher-Markey-107315875962005/

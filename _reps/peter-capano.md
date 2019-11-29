@@ -1,5 +1,5 @@
 ---
-district: 11th-essex
+district: house-11th-essex
 email: peter.capano@mahouse.gov
 end_date: ''
 facebook: https://www.facebook.com/StateRepCapano/

@@ -1,5 +1,5 @@
 ---
-district: 7th-essex
+district: house-7th-essex
 email: Paul.Tucker@mahouse.gov
 end_date: ''
 facebook: https://www.facebook.com/PaulTuckerSalem

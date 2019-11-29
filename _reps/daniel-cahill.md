@@ -1,5 +1,5 @@
 ---
-district: 10th-essex
+district: house-10th-essex
 email: Daniel.Cahill@mahouse.gov
 end_date: ''
 facebook: https://www.facebook.com/RepDanCahill/

@@ -1,5 +1,5 @@
 ---
-district: 3rd-hampden
+district: house-3rd-hampden
 email: Nicholas.Boldyga@mahouse.gov
 end_date: ''
 facebook: https://www.facebook.com/RepNickBoldyga/

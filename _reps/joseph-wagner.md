@@ -1,5 +1,5 @@
 ---
-district: 8th-hampden
+district: house-8th-hampden
 email: Joseph.Wagner@mahouse.gov
 end_date: ''
 facebook: https://www.facebook.com/repwagner/

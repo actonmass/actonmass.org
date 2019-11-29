@@ -1,5 +1,5 @@
 ---
-district: 9th-suffolk
+district: house-9th-suffolk
 email: jon.santiago@mahouse.gov
 end_date: ''
 facebook: ''

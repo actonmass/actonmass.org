@@ -1,5 +1,5 @@
 ---
-district: 16th-suffolk
+district: house-16th-suffolk
 email: RoseLee.Vincent@mahouse.gov
 end_date: ''
 facebook: ''

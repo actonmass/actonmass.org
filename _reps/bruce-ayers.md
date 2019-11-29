@@ -1,5 +1,5 @@
 ---
-district: 1st-norfolk
+district: house-1st-norfolk
 email: Bruce.Ayers@mahouse.gov
 end_date: ''
 facebook: ''

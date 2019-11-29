@@ -1,5 +1,5 @@
 ---
-district: 20th-middlesex
+district: house-20th-middlesex
 email: Bradley.Jones@mahouse.gov
 end_date: ''
 facebook: ''

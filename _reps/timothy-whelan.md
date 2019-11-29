@@ -1,5 +1,5 @@
 ---
-district: 1st-barnstable
+district: house-1st-barnstable
 email: Timothy.Whelan@mahouse.gov
 end_date: ''
 facebook: https://www.facebook.com/votewhelan

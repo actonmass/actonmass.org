@@ -1,5 +1,5 @@
 ---
-district: 13th-worcester
+district: house-13th-worcester
 email: John.Mahoney@mahouse.gov
 end_date: ''
 facebook: ''

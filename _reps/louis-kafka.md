@@ -1,5 +1,5 @@
 ---
-district: 8th-norfolk
+district: house-8th-norfolk
 email: Louis.Kafka@mahouse.gov
 end_date: ''
 facebook: ''

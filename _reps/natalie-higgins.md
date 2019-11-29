@@ -1,5 +1,5 @@
 ---
-district: 4th-worcester
+district: house-4th-worcester
 email: Natalie.Higgins@mahouse.gov
 end_date: ''
 facebook: ''

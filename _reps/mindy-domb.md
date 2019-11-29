@@ -1,5 +1,5 @@
 ---
-district: 3rd-hampshire
+district: house-3rd-hampshire
 email: mindy.domb@mahouse.gov
 end_date: ''
 facebook: https://www.facebook.com/MindyForMA/

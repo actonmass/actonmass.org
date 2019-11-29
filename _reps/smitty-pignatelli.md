@@ -1,5 +1,5 @@
 ---
-district: 4th-berkshire
+district: house-4th-berkshire
 email: rep.smitty@mahouse.gov
 end_date: ''
 facebook: https://www.facebook.com/RepWilliamSmittyPignatelli

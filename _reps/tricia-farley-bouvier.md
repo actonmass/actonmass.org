@@ -1,5 +1,5 @@
 ---
-district: 3rd-berkshire
+district: house-3rd-berkshire
 email: Tricia.Farley-Bouvier@mahouse.gov
 end_date: ''
 facebook: https://www.facebook.com/triciaforstaterep/

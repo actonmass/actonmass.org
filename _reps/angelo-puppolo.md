@@ -1,5 +1,5 @@
 ---
-district: 12th-hampden
+district: house-12th-hampden
 email: Angelo.Puppolo@mahouse.gov
 end_date: ''
 facebook: https://www.facebook.com/angelo.puppolo

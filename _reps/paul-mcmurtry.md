@@ -1,5 +1,5 @@
 ---
-district: 11th-norfolk
+district: house-11th-norfolk
 email: Paul.McMurtry@mahouse.gov
 end_date: ''
 facebook: ''

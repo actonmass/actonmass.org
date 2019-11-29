@@ -1,5 +1,5 @@
 ---
-district: 3rd-essex
+district: house-3rd-essex
 email: andy.vargas@mahouse.gov
 end_date: ''
 facebook: https://www.facebook.com/RepAndyVargas/

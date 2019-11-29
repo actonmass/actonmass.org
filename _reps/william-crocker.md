@@ -1,5 +1,5 @@
 ---
-district: 2nd-barnstable
+district: house-2nd-barnstable
 email: William.Crocker@mahouse.gov
 end_date: ''
 facebook: https://www.facebook.com/StateRepWillCrocker/

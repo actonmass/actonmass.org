@@ -1,5 +1,5 @@
 ---
-district: 11th-middlesex
+district: house-11th-middlesex
 email: Kay.Khan@mahouse.gov
 end_date: ''
 facebook: ''

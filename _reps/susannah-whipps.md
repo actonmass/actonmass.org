@@ -1,5 +1,5 @@
 ---
-district: 2nd-franklin
+district: house-2nd-franklin
 email: Susannah.Whipps@mahouse.gov
 end_date: ''
 facebook: https://www.facebook.com/repwhipps/

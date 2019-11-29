@@ -1,5 +1,5 @@
 ---
-district: 31st-middlesex
+district: house-31st-middlesex
 email: Michael.Day@mahouse.gov
 end_date: ''
 facebook: ''

@@ -1,5 +1,5 @@
 ---
-district: 29th-middlesex
+district: house-29th-middlesex
 email: Jonathan.Hecht@mahouse.gov
 end_date: ''
 facebook: ''

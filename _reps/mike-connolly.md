@@ -1,5 +1,5 @@
 ---
-district: 26th-middlesex
+district: house-26th-middlesex
 email: Mike.Connolly@mahouse.gov
 end_date: ''
 facebook: ''

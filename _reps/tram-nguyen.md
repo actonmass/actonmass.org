@@ -1,5 +1,5 @@
 ---
-district: 18th-essex
+district: house-18th-essex
 email: tram.nguyen@mahouse.gov
 end_date: ''
 facebook: https://www.facebook.com/TeamTram.MA/

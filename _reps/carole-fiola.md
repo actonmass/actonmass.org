@@ -1,5 +1,5 @@
 ---
-district: 6th-bristol
+district: house-6th-bristol
 email: Carole.Fiola@mahouse.gov
 end_date: ''
 facebook: https://www.facebook.com/electcarole

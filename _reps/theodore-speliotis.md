@@ -1,5 +1,5 @@
 ---
-district: 13th-essex
+district: house-13th-essex
 email: Theodore.Speliotis@mahouse.gov
 end_date: ''
 facebook: https://www.facebook.com/reptedspeliotis/

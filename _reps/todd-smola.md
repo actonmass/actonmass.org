@@ -1,5 +1,5 @@
 ---
-district: 1st-hampden
+district: house-1st-hampden
 email: Todd.Smola@mahouse.gov
 end_date: ''
 facebook: https://www.facebook.com/todd.smola.7

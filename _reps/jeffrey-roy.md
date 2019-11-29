@@ -1,5 +1,5 @@
 ---
-district: 10th-norfolk
+district: house-10th-norfolk
 email: Jeffrey.Roy@mahouse.gov
 end_date: ''
 facebook: ''

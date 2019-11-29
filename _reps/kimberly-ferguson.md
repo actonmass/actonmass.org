@@ -1,5 +1,5 @@
 ---
-district: 1st-worcester
+district: house-1st-worcester
 email: Kimberly.Ferguson@mahouse.gov
 end_date: ''
 facebook: ''

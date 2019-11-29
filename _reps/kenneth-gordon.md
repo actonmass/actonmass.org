@@ -1,5 +1,5 @@
 ---
-district: 21st-middlesex
+district: house-21st-middlesex
 email: Ken.Gordon@mahouse.gov
 end_date: ''
 facebook: ''

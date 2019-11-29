@@ -1,5 +1,5 @@
 ---
-district: 4th-suffolk
+district: house-4th-suffolk
 email: David.Biele@mahouse.gov
 end_date: ''
 facebook: ''

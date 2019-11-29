@@ -1,5 +1,5 @@
 ---
-district: 11th-suffolk
+district: house-11th-suffolk
 email: Liz.Malia@mahouse.gov
 end_date: ''
 facebook: ''

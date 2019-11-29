@@ -1,5 +1,5 @@
 ---
-district: 17th-suffolk
+district: house-17th-suffolk
 email: Kevin.Honan@mahouse.gov
 end_date: ''
 facebook: ''

@@ -1,5 +1,5 @@
 ---
-district: 4th-hampden
+district: house-4th-hampden
 email: john.velis@mahouse.gov
 end_date: ''
 facebook: https://www.facebook.com/repjohnvelis

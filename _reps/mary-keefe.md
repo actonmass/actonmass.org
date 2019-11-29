@@ -1,5 +1,5 @@
 ---
-district: 15th-worcester
+district: house-15th-worcester
 email: Mary.Keefe@mahouse.gov
 end_date: ''
 facebook: ''

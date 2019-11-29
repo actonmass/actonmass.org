@@ -1,5 +1,5 @@
 ---
-district: 7th-suffolk
+district: house-7th-suffolk
 email: Chynah.Tyler@mahouse.gov
 end_date: ''
 facebook: ''

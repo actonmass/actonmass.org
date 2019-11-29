@@ -1,5 +1,5 @@
 ---
-district: 15th-middlesex
+district: house-15th-middlesex
 email: michelle.ciccolo@mahouse.gov
 end_date: ''
 facebook: ''

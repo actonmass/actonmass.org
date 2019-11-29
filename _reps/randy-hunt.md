@@ -1,5 +1,5 @@
 ---
-district: 5th-barnstable
+district: house-5th-barnstable
 email: Randy.Hunt@mahouse.gov
 end_date: ''
 facebook: https://www.facebook.com/randyhuntstaterep/

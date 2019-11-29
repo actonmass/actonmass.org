@@ -1,5 +1,5 @@
 ---
-district: 3rd-suffolk
+district: house-3rd-suffolk
 email: Aaron.M.Michlewitz@mahouse.gov
 end_date: ''
 facebook: ''

@@ -1,5 +1,5 @@
 ---
-district: 5th-worcester
+district: house-5th-worcester
 email: Donald.Berthiaume@mahouse.gov
 end_date: ''
 facebook: ''

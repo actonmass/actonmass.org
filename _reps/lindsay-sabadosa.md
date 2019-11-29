@@ -1,5 +1,5 @@
 ---
-district: 1st-hampshire
+district: house-1st-hampshire
 email: lindsay.sabadosa@mahouse.gov
 end_date: ''
 facebook: https://www.facebook.com/LSabadosaMA/

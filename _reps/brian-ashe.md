@@ -1,5 +1,5 @@
 ---
-district: 2nd-hampden
+district: house-2nd-hampden
 email: Brian.Ashe@mahouse.gov
 end_date: ''
 facebook: https://www.facebook.com/repashe/

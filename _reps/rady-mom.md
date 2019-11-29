@@ -1,5 +1,5 @@
 ---
-district: 18th-middlesex
+district: house-18th-middlesex
 email: Rady.Mom@mahouse.gov
 end_date: ''
 facebook: ''

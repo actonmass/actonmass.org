@@ -1,5 +1,5 @@
 ---
-district: 32nd-middlesex
+district: house-32nd-middlesex
 email: ''
 end_date: ''
 facebook: ''

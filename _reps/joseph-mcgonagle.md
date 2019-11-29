@@ -1,5 +1,5 @@
 ---
-district: 28th-middlesex
+district: house-28th-middlesex
 email: Joseph.McGonagle@mahouse.gov
 end_date: ''
 facebook: ''

@@ -1,5 +1,5 @@
 ---
-district: 3rd-plymouth
+district: house-3rd-plymouth
 email: Joan.Meschino@mahouse.gov
 end_date: ''
 facebook: ''

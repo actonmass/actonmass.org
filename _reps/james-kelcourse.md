@@ -1,5 +1,5 @@
 ---
-district: 1st-essex
+district: house-1st-essex
 email: james.kelcourse@mahouse.gov
 end_date: ''
 facebook: https://www.facebook.com/jamesmkelcourse/

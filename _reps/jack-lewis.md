@@ -1,5 +1,5 @@
 ---
-district: 7th-middlesex
+district: house-7th-middlesex
 email: Jack.Lewis@mahouse.gov
 end_date: ''
 facebook: ''

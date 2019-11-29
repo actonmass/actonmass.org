@@ -1,5 +1,5 @@
 ---
-district: 2nd-bristol
+district: house-2nd-bristol
 email: james.hawkins@mahouse.gov
 end_date: ''
 facebook: https://www.facebook.com/JimHawkins4Rep/

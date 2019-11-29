@@ -1,5 +1,5 @@
 ---
-district: 6th-hampden
+district: house-6th-hampden
 email: Michael.Finn@mahouse.gov
 end_date: ''
 facebook: https://www.facebook.com/michael.finn.1401

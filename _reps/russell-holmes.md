@@ -1,5 +1,5 @@
 ---
-district: 6th-suffolk
+district: house-6th-suffolk
 email: Russell.Holmes@mahouse.gov
 end_date: ''
 facebook: ''

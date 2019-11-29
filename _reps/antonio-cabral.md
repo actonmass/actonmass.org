@@ -1,5 +1,5 @@
 ---
-district: 13th-bristol
+district: house-13th-bristol
 email: Antonio.Cabral@mahouse.gov
 end_date: ''
 facebook: https://www.facebook.com/RepTonyCabral/

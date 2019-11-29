@@ -1,5 +1,5 @@
 ---
-district: 12th-norfolk
+district: house-12th-norfolk
 email: John.Rogers@mahouse.gov
 end_date: ''
 facebook: ''

@@ -1,5 +1,5 @@
 ---
-district: 5th-middlesex
+district: house-5th-middlesex
 email: David.Linsky@mahouse.gov
 end_date: ''
 facebook: ''

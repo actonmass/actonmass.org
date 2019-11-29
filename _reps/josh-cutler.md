@@ -1,5 +1,5 @@
 ---
-district: 6th-plymouth
+district: house-6th-plymouth
 email: Josh.Cutler@mahouse.gov
 end_date: ''
 facebook: ''

@@ -1,5 +1,5 @@
 ---
-district: 3rd-bristol
+district: house-3rd-bristol
 email: Shaunna.O'Connell@mahouse.gov
 end_date: ''
 facebook: https://www.facebook.com/shaunna.oconnell.7?fref=nf

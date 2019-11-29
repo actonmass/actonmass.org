@@ -1,5 +1,5 @@
 ---
-district: 6th-essex
+district: house-6th-essex
 email: Jerald.Parisella@mahouse.gov
 end_date: ''
 facebook: https://www.facebook.com/jerry.staterep

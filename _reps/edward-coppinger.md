@@ -1,5 +1,5 @@
 ---
-district: 10th-suffolk
+district: house-10th-suffolk
 email: Edward.Coppinger@mahouse.gov
 end_date: ''
 facebook: ''
