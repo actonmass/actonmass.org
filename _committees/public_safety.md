@@ -1,9 +1,9 @@
 ---
   title: Joint Committee on Public Safety and Homeland Security
   link: https://malegislature.gov/Committees/Detail/J22/191
-  chair: harold-naughton
-  vice_chair: alan-silvia
-  members: 
+  house_chair: harold-naughton
+  house_vice_chair: alan-silvia
+  house_members: 
     - thomas-walsh
     - bruce-ayers
     - paul-tucker
@@ -15,4 +15,8 @@
     - david-vieira
     - david-muradian
     - peter-durant
+  senate_chair: michael-moore
+  senate_vice_chair: paul-feeney
+  senate_members:
+    - sonia-chang-diaz
 ---
