@@ -283,6 +283,20 @@ th, td {
     height: 600px;
 }
 
+#find-my-reps {
+    height: 204px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #F1F5F8;
+}
+
+#find-my-reps input {
+    width: 300px;
+    padding: 5px;
+    margin-bottom: 2px;
+}
+
 .rep-icon img {
     height: 40px;
     width: 40px;

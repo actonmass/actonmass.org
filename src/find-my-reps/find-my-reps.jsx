@@ -24,15 +24,18 @@ const Form = ({onSubmitQuery}) => {
     const [streetAddress, setStreetAddress] = useState("");
     const [city, setCity] = useState("");
     return (
-        <div>
-            <input value={streetAddress} type="text" onChange={(e)=>{setStreetAddress(e.target.value)}} placeholder="Street Address"/>
-            <input value={city} type="text" onChange={(e)=>{setCity(e.target.value)}} placeholder="City"/>
-            <button onClick={()=>{
-                onSubmitQuery({
-                    streetAddress: streetAddress,
-                    citry: city
-                });
-            }}>Submit</button>
+        <div style={{display:"flex", textTransform:"uppercase", flexBasis:"50%"}}>
+            <div style={{width: 200, paddingRight:50}}>Please enter your address so we can help you contact your rep.</div>
+            <div style={{display:"flex", flexDirection:"column"}}>
+                <input value={streetAddress} type="text" onChange={(e)=>{setStreetAddress(e.target.value)}} placeholder="Street Address"/>
+                <input value={city} type="text" onChange={(e)=>{setCity(e.target.value)}} placeholder="City"/>
+                <button onClick={()=>{
+                    onSubmitQuery({
+                        streetAddress: streetAddress,
+                        citry: city
+                    });
+                }}>Submit</button>
+            </div>
         </div>
     );
 };
