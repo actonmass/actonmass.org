@@ -1,6 +1,7 @@
 ---
 district: 34th-middlesex
 email: Christine.Barber@mahouse.gov
+end_date: ''
 facebook: ''
 first_name: Christine
 hometown: Somerville
@@ -9,6 +10,7 @@ last_name: Barber
 party: D
 phone: (617) 722-2220
 picture: ''
+start_date: ''
 twitter: ''
 website: ''
 ---

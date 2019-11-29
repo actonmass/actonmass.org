@@ -1,6 +1,7 @@
 ---
 district: 14th-middlesex
 email: tami.gouveia@mahouse.gov
+end_date: ''
 facebook: ''
 first_name: Tami
 hometown: Acton
@@ -9,6 +10,7 @@ last_name: Gouveia
 party: D
 phone: (617) 722-2011
 picture: ''
+start_date: ''
 twitter: ''
 website: ''
 ---

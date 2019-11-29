@@ -1,6 +1,7 @@
 ---
 district: 19th-middlesex
 email: david.robertson@mahouse.gov
+end_date: ''
 facebook: ''
 first_name: David
 hometown: Tewksbury
@@ -9,6 +10,7 @@ last_name: Robertson
 party: D
 phone: (617) 722-2210
 picture: ''
+start_date: ''
 twitter: ''
 website: ''
 ---

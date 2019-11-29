@@ -1,6 +1,7 @@
 ---
 district: 4th-norfolk
 email: James.Murphy@mahouse.gov
+end_date: ''
 facebook: ''
 first_name: James
 hometown: Weymouth
@@ -9,6 +10,7 @@ last_name: Murphy
 party: D
 phone: (617) 722-2220
 picture: https://malegislature.gov/Legislators/Profile/170/JMM1.jpg
+start_date: ''
 twitter: ''
 website: ''
 ---

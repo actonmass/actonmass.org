@@ -1,6 +1,7 @@
 ---
 district: 8th-plymouth
 email: Angelo.D'Emilia@mahouse.gov
+end_date: ''
 facebook: ''
 first_name: Angelo
 hometown: Bridgewater
@@ -9,6 +10,7 @@ last_name: D'Emilia
 party: R
 phone: (617) 722-2488
 picture: ''
+start_date: ''
 twitter: ''
 website: ''
 ---

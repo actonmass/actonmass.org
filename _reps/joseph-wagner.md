@@ -1,6 +1,7 @@
 ---
 district: 8th-hampden
 email: Joseph.Wagner@mahouse.gov
+end_date: ''
 facebook: https://www.facebook.com/repwagner/
 first_name: Joseph
 hometown: Chicopee
@@ -9,6 +10,7 @@ last_name: Wagner
 party: D
 phone: (617) 722-2783
 picture: https://pbs.twimg.com/profile_images/816712460816285705/poGGzJAM_400x400.jpg
+start_date: ''
 twitter: https://twitter.com/repwagner
 website: N/A
 ---

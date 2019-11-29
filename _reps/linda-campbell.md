@@ -1,6 +1,7 @@
 ---
 district: 15th-essex
 email: Linda.Campbell@mahouse.gov
+end_date: ''
 facebook: https://www.facebook.com/Replindadeancampbell
 first_name: Linda
 hometown: Methuen
@@ -9,6 +10,7 @@ last_name: Campbell
 party: D
 phone: (617) 722-2380
 picture: https://scontent.fnyc1-1.fna.fbcdn.net/v/t1.0-9/11781816_1597817987145341_669329460613225817_n.jpg?_nc_cat=109&_nc_ht=scontent.fnyc1-1.fna&oh=ddd180d6d93598d1f4bfa8d31469bac2&oe=5C99533B
+start_date: ''
 twitter: https://twitter.com/rep_campbell
 website: http://www.statereplindacampbell.com/
 ---

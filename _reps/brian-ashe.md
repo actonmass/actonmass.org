@@ -1,6 +1,7 @@
 ---
 district: 2nd-hampden
 email: Brian.Ashe@mahouse.gov
+end_date: ''
 facebook: https://www.facebook.com/repashe/
 first_name: Brian
 hometown: Longmeadow
@@ -9,6 +10,7 @@ last_name: Ashe
 party: D
 phone: (617) 722-2430
 picture: https://malegislature.gov/Legislators/Profile/170/BMA1.jpg
+start_date: ''
 twitter: https://twitter.com/repashe
 website: https://www.votebrianashe.com/
 ---

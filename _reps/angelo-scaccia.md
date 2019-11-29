@@ -1,6 +1,7 @@
 ---
 district: 14th-suffolk
 email: Angelo.Scaccia@mahouse.gov
+end_date: ''
 facebook: ''
 first_name: Angelo
 hometown: Boston
@@ -9,6 +10,7 @@ last_name: Scaccia
 party: D
 phone: (617) 722-2230
 picture: https://malegislature.gov/Legislators/Profile/170/AMS1.jpg
+start_date: ''
 twitter: ''
 website: ''
 ---

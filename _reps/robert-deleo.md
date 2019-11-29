@@ -1,6 +1,7 @@
 ---
 district: 19th-suffolk
 email: Robert.DeLeo@mahouse.gov
+end_date: ''
 facebook: ''
 first_name: Robert
 hometown: Winthrop
@@ -9,6 +10,7 @@ last_name: DeLeo
 party: D
 phone: (617) 722-2500
 picture: ''
+start_date: ''
 twitter: ''
 website: ''
 ---

@@ -1,6 +1,7 @@
 ---
 district: 4th-barnstable
 email: Sarah.Peake@mahouse.gov
+end_date: ''
 facebook: https://www.facebook.com/sarah.peake.37
 first_name: Sarah
 hometown: Provincetown
@@ -9,6 +10,7 @@ last_name: Peake
 party: D
 phone: (617) 722-2040
 picture: https://www.facebook.com/photo.php?fbid=10207274430033286&set=a.1512275281091&type=3&theater
+start_date: '2017-01-04'
 twitter: https://twitter.com/skpeake
 website: https://www.sarahpeake.net/
 ---
