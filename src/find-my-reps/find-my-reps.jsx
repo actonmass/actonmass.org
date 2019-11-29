@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import {render} from 'react-dom';
 
 
@@ -39,14 +39,18 @@ const Form = ({onSubmitQuery}) => {
 
 
 const FindMyReps = ({onQueryReps}) => {
-    const [query, setQuery] = useState(null);
-    const [repInfo, setRepInfo] = useState(null);
+    const sessionQuery = JSON.parse(window.sessionStorage.getItem("repQuery"));
+    const [query, setQuery] = useState(sessionQuery !== null ? sessionQuery.query : null);
+    const [repInfo, setRepInfo] = useState(sessionQuery !== null ? sessionQuery.repInfo : null);
 
     function handleQueryReps(newQuery) {
         setQuery(newQuery);
         onQueryReps(newQuery).then((repInfo)=> {
             setRepInfo(repInfo);
-            window.sessionStorage.setItem("repQuery", newQuery);
+            window.sessionStorage.setItem("repQuery", JSON.stringify({
+                query: newQuery,
+                repInfo: repInfo
+            }));
         }).catch((err)=>{
             console.log("Failed to query rep:", newQuery);
         });
@@ -58,16 +62,6 @@ const FindMyReps = ({onQueryReps}) => {
         setQuery(null);
         setRepInfo(null);
     };
-
-
-    // Effect for injecting sessionQuery if we have one
-    useEffect(() => {
-        const sessionQuery = window.sessionStorage.getItem("repQuery", null);
-        // If we have a sessionQuery but no new query, use it
-        if (query === null && sessionQuery !== "null") {
-            handleQueryReps(sessionQuery);
-        }
-    });
 
     if (query === null) {
         return <Form onSubmitQuery={handleQueryReps} />;
