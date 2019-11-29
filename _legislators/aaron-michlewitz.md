@@ -10,6 +10,7 @@ last_name: Michlewitz
 party: D
 phone: (617) 722-2990
 picture: https://pbs.twimg.com/profile_images/1064653972332584961/uMKjX_mW_400x400.jpg
+square_picture: /img/legislators/square-pictures/aaron-michlewitz.jpg
 start_date: ''
 twitter: ''
 website: ''

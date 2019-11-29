@@ -10,6 +10,7 @@ last_name: Ferguson
 party: R
 phone: (617) 722-2263
 picture: ''
+square_picture: /img/legislators/square-pictures/kimberly-ferguson.jpg
 start_date: ''
 twitter: ''
 website: ''

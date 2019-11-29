@@ -10,6 +10,7 @@ last_name: Robertson
 party: D
 phone: (617) 722-2210
 picture: ''
+square_picture: /img/legislators/square-pictures/david-robertson.jpg
 start_date: ''
 twitter: ''
 website: ''

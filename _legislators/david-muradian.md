@@ -10,6 +10,7 @@ last_name: Muradian
 party: R
 phone: (617) 722-2240
 picture: ''
+square_picture: /img/legislators/square-pictures/david-muradian.jpg
 start_date: ''
 twitter: ''
 website: ''

@@ -10,6 +10,7 @@ last_name: Domb
 party: D
 phone: (617) 722-2400
 picture: https://pbs.twimg.com/profile_images/1074842118214963200/Fk7x1xH3_400x400.jpg
+square_picture: /img/legislators/square-pictures/mindy-domb.jpg
 start_date: ''
 twitter: https://twitter.com/MindyForMA
 website: https://www.mindydomb.com/

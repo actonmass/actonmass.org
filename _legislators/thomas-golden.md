@@ -10,6 +10,7 @@ last_name: Golden
 party: D
 phone: (617) 722-2263
 picture: https://malegislature.gov/Legislators/Profile/170/TAG1.jpg
+square_picture: /img/legislators/square-pictures/thomas-golden.jpg
 start_date: ''
 twitter: ''
 website: ''

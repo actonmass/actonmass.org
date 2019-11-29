@@ -10,6 +10,7 @@ last_name: Ehrlich
 party: D
 phone: (617) 722-2877
 picture: https://malegislature.gov/Legislators/Profile/170/LAE1.jpg
+square_picture: /img/legislators/square-pictures/lori-ehrlich.jpg
 start_date: ''
 twitter: https://twitter.com/loriehrlich
 website: https://www.loriehrlich.org/

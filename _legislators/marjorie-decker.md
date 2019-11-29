@@ -10,6 +10,7 @@ last_name: Decker
 party: D
 phone: (617) 722-2060
 picture: ''
+square_picture: /img/legislators/square-pictures/marjorie-decker.png
 start_date: ''
 twitter: ''
 website: ''

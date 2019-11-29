@@ -10,6 +10,7 @@ last_name: Nangle
 party: D
 phone: (617) 722-2520
 picture: https://malegislature.gov/Legislators/Profile/170/DMN1.jpg
+square_picture: /img/legislators/square-pictures/david-nangle.png
 start_date: ''
 twitter: ''
 website: ''

@@ -10,6 +10,7 @@ last_name: Lombardo
 party: R
 phone: (617) 722-2460
 picture: https://pbs.twimg.com/profile_images/1118217774264934400/4Es4Wp75_400x400.png
+square_picture: /img/legislators/square-pictures/marc-lombardo.png
 start_date: ''
 twitter: ''
 website: ''

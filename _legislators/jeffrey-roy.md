@@ -10,6 +10,7 @@ last_name: Roy
 party: D
 phone: (617) 722-2030
 picture: ''
+square_picture: /img/legislators/square-pictures/jeffrey-roy.jpeg
 start_date: ''
 twitter: ''
 website: ''

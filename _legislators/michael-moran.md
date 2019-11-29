@@ -10,6 +10,7 @@ last_name: Moran
 party: D
 phone: (617) 722-2014
 picture: ''
+square_picture: /img/legislators/square-pictures/michael-moran.jpg
 start_date: ''
 twitter: ''
 website: ''

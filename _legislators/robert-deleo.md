@@ -10,6 +10,7 @@ last_name: DeLeo
 party: D
 phone: (617) 722-2500
 picture: ''
+square_picture: /img/legislators/square-pictures/robert-deleo.jpeg
 start_date: ''
 twitter: ''
 website: ''

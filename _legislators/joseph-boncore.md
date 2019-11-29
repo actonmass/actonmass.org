@@ -7,4 +7,5 @@ house_url: https://malegislature.gov/Legislators/Profile/JAB0
 last_name: Boncore
 party: D
 phone: 617-722-1634
+square_picture: /img/legislators/square-pictures/joseph-wagner.jpg
 ---

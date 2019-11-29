@@ -10,6 +10,7 @@ last_name: Benson
 party: D
 phone: (617) 722-2430
 picture: https://malegislature.gov/Legislators/Profile/170/JEB1.jpg
+square_picture: /img/legislators/square-pictures/jennifer-benson.jpg
 start_date: ''
 twitter: ''
 website: ''

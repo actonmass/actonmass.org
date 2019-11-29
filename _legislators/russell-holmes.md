@@ -10,6 +10,7 @@ last_name: Holmes
 party: D
 phone: (617) 722-2220
 picture: https://malegislature.gov/Legislators/Profile/170/REH1.jpg
+square_picture: /img/legislators/square-pictures/russell-holmes.jpg
 start_date: ''
 twitter: ''
 website: ''

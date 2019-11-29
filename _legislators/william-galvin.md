@@ -10,6 +10,7 @@ last_name: Galvin
 party: D
 phone: (617) 722-2692
 picture: https://malegislature.gov/Legislators/Profile/170/WCG1.jpg
+square_picture: /img/legislators/square-pictures/william-galvin.jpg
 start_date: ''
 twitter: ''
 website: ''

@@ -10,6 +10,7 @@ last_name: Petrolati
 party: D
 phone: (617) 722-2575
 picture: https://malegislature.gov/Legislators/Profile/170/TMP1.jpg
+square_picture: /img/legislators/square-pictures/thomas-petrolati.jpg
 start_date: ''
 twitter: N/A
 website: N/A

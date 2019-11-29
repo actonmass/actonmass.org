@@ -10,6 +10,7 @@ last_name: Barrows
 party: R
 phone: (617) 722-2488
 picture: https://votebarrows.files.wordpress.com/2010/03/barrows-headshot.jpg
+square_picture: /img/legislators/square-pictures/f-jay-barrows.jpeg
 start_date: '2007-01-01'
 twitter: https://twitter.com/jay_barrows
 website: https://votebarrows.wordpress.com/

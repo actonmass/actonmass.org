@@ -10,6 +10,7 @@ last_name: Rogers
 party: D
 phone: (617) 722-2092
 picture: ''
+square_picture: /img/legislators/square-pictures/john-rogers.jpg
 start_date: ''
 twitter: ''
 website: ''

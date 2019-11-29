@@ -10,6 +10,7 @@ last_name: Madaro
 party: D
 phone: (617) 722-2400
 picture: https://malegislature.gov/Legislators/Profile/170/ACM1.jpg
+square_picture: /img/legislators/square-pictures/adrian-madaro.jpg
 start_date: ''
 twitter: ''
 website: ''

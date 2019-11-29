@@ -10,6 +10,7 @@ last_name: O'Day
 party: D
 phone: (617) 722-2090
 picture: ''
+square_picture: /img/legislators/square-pictures/james-oday.jpg
 start_date: ''
 twitter: ''
 website: ''

@@ -10,6 +10,7 @@ last_name: Murphy
 party: D
 phone: (617) 722-2220
 picture: https://malegislature.gov/Legislators/Profile/170/JMM1.jpg
+square_picture: /img/legislators/square-pictures/james-murphy.jpg
 start_date: ''
 twitter: ''
 website: ''

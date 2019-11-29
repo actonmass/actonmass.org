@@ -10,6 +10,7 @@ last_name: McGonagle
 party: D
 phone: (617) 722-2017
 picture: https://malegislature.gov/Legislators/Profile/170/jwm1.jpg
+square_picture: /img/legislators/square-pictures/joseph-mcgonagle.jpg
 start_date: ''
 twitter: ''
 website: ''

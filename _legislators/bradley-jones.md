@@ -10,6 +10,7 @@ last_name: Jones
 party: R
 phone: (617) 722-2100
 picture: ''
+square_picture: /img/legislators/square-pictures/bradley-jones.jpg
 start_date: ''
 twitter: ''
 website: ''

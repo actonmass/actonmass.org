@@ -10,6 +10,7 @@ last_name: Higgins
 party: D
 phone: (617) 722-2020
 picture: ''
+square_picture: /img/legislators/square-pictures/natalie-higgins.png
 start_date: ''
 twitter: ''
 website: ''

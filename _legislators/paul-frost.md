@@ -10,6 +10,7 @@ last_name: Frost
 party: R
 phone: (617) 722-2489
 picture: ''
+square_picture: /img/legislators/square-pictures/paul-frost.jpg
 start_date: ''
 twitter: ''
 website: ''

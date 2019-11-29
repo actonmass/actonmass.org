@@ -10,6 +10,7 @@ last_name: Provost
 party: D
 phone: (617) 722-2263
 picture: ''
+square_picture: /img/legislators/square-pictures/denise-provost.png
 start_date: ''
 twitter: ''
 website: ''

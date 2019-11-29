@@ -10,6 +10,7 @@ last_name: Malia
 party: D
 phone: (617) 722-2380
 picture: https://malegislature.gov/Legislators/Profile/170/EAM1.jpg
+square_picture: /img/legislators/square-pictures/elizabeth-malia.jpg
 start_date: ''
 twitter: ''
 website: ''

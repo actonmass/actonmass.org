@@ -10,6 +10,7 @@ last_name: DeCoste
 party: R
 phone: (617) 722-2460
 picture: ''
+square_picture: /img/legislators/square-pictures/david-decoste.jpg
 start_date: ''
 twitter: ''
 website: ''

@@ -10,6 +10,7 @@ last_name: Hecht
 party: D
 phone: (617) 722-2140
 picture: ''
+square_picture: /img/legislators/square-pictures/jonathan-hecht.jpg
 start_date: ''
 twitter: ''
 website: ''

@@ -10,6 +10,7 @@ last_name: Mariano
 party: D
 phone: (617) 722-2300
 picture: ''
+square_picture: /img/legislators/square-pictures/ronald-mariano.jpg
 start_date: ''
 twitter: ''
 website: ''

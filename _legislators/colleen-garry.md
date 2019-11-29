@@ -10,6 +10,7 @@ last_name: Garry
 party: D
 phone: (617) 722-2380
 picture: ''
+square_picture: /img/legislators/square-pictures/colleen-garry.jpg
 start_date: ''
 twitter: ''
 website: ''

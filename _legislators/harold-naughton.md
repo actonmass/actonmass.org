@@ -10,6 +10,7 @@ last_name: Naughton
 party: D
 phone: (617) 722-2230
 picture: https://malegislature.gov/Legislators/Profile/170/HPN1.jpg
+square_picture: /img/legislators/square-pictures/harold-naughton.jpg
 start_date: ''
 twitter: ''
 website: ''

@@ -10,6 +10,7 @@ last_name: Mahoney
 party: D
 phone: (617) 722-2130
 picture: ''
+square_picture: /img/legislators/square-pictures/john-mahoney.jpeg
 start_date: ''
 twitter: ''
 website: ''

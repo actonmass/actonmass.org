@@ -10,6 +10,7 @@ last_name: Rogers
 party: D
 phone: (617) 722-2637
 picture: https://malegislature.gov/Legislators/Profile/170/DMR1.jpg
+square_picture: /img/legislators/square-pictures/david-rogers.jpg
 start_date: ''
 twitter: ''
 website: ''

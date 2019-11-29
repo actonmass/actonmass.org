@@ -10,6 +10,7 @@ last_name: Barrett
 party: D
 phone: (617) 722-2305
 picture: https://malegislature.gov/Legislators/Profile/170/J_B1.jpg
+square_picture: /img/legislators/square-pictures/john-barrett.png
 start_date: '2017-01-04'
 twitter: N/A
 website: N/A

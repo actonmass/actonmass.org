@@ -10,6 +10,7 @@ last_name: Vincent
 party: D
 phone: (617) 722-2210
 picture: https://malegislature.gov/Legislators/Profile/170/r_v1.jpg
+square_picture: /img/legislators/square-pictures/roselee-vincent.jpg
 start_date: ''
 twitter: ''
 website: ''

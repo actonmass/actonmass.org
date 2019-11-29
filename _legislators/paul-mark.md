@@ -10,6 +10,7 @@ last_name: Mark
 party: D
 phone: (617) 722-2304
 picture: https://malegislature.gov/Legislators/Profile/170/PWM1.jpg
+square_picture: /img/legislators/square-pictures/paul-mark.png
 start_date: '2011-01-05'
 twitter: https://twitter.com/RepPaulMark
 website: http://www.paulwmark.com/

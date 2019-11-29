@@ -10,6 +10,7 @@ last_name: Dooley
 party: R
 phone: (617) 722-2810
 picture: ''
+square_picture: /img/legislators/square-pictures/shawn-dooley.jpg
 start_date: ''
 twitter: ''
 website: ''

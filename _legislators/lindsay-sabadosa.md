@@ -10,6 +10,7 @@ last_name: Sabadosa
 party: D
 phone: (617) 722-2460
 picture: https://pbs.twimg.com/profile_images/975587184475623424/z3rovQSm_400x400.jpg
+square_picture: /img/legislators/square-pictures/lindsay-sabadosa.png
 start_date: ''
 twitter: https://twitter.com/SabadosaMA
 website: https://www.lindsaysabadosa.com/

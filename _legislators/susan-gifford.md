@@ -10,6 +10,7 @@ last_name: Gifford
 party: R
 phone: (617) 722-2100
 picture: ''
+square_picture: /img/legislators/square-pictures/susan-gifford.jpg
 start_date: ''
 twitter: ''
 website: ''

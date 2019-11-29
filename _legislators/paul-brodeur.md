@@ -10,6 +10,7 @@ last_name: Brodeur
 party: D
 phone: ''
 picture: https://malegislature.gov/Legislators/Profile/170/P_B1.jpg
+square_picture: /img/legislators/square-pictures/paul-brodeur.jpg
 start_date: ''
 twitter: ''
 website: ''

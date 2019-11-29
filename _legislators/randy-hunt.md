@@ -10,6 +10,7 @@ last_name: Hunt
 party: R
 phone: (617) 722-2396
 picture: https://pbs.twimg.com/profile_images/2184267636/image_400x400.jpg
+square_picture: /img/legislators/square-pictures/randy-hunt.jpg
 start_date: '2011-01-05'
 twitter: https://twitter.com/RandyHuntCPA
 website: http://www.randyhuntstaterep.com/
