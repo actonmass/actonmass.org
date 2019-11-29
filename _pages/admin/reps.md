@@ -13,6 +13,7 @@ layout: admin
     <th>first_name</th>
     <th>house_url</th>
     <th>last_name</th>
+    <th>hometown</th>
     <th>party</th>
     <th>phone</th>
     <th>picture</th>
@@ -35,6 +36,7 @@ layout: admin
     <td>{{ rep.first_name }}</td>
     <td>{{ rep.house_url }}</td>
     <td>{{ rep.last_name }}</td>
+    <td>{{ rep.hometown }}</td>
     <td>{{ rep.party }}</td>
     <td>{{ rep.phone }}</td>
     <td>{{ rep.picture }}</td>
