@@ -1,0 +1,15 @@
+---
+layout: default
+---
+
+{% assign leg = page%}
+
+<h1>{{ leg.first_name }} {{ leg.last_name }}</h1>
+
+<img src="{{leg.picture}}"/>
+<dl>
+  <dt>District:</dt>
+  <dd>{{leg.district}}</dd>
+  <dt>Email:</dt>
+  <dd>{{leg.email}}</dd>
+</dl>

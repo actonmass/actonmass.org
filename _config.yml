@@ -31,7 +31,7 @@ collections:
   issues:
     output: true
     permalink: :collection/:name/
-  reps:
+  legislators:
     output: true
     permalink: :collection/:name/
   bills:
@@ -42,9 +42,9 @@ collections:
 defaults:
   - scope:
       path: ""
-      type: "reps"
+      type: "legislators"
     values:
-      layout: "rep"
+      layout: "legislator"
   - scope:
       path: ""
       type: "bills"
