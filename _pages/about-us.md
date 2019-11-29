@@ -22,6 +22,8 @@ team:
     text: Sean is co-founder and Clerk for Act on Mass. He has been involved in a volunteer and organizer capacity with a variety of local, state, and national electoral and advocacy campaigns. Sean lives in Cambridge.
 ---
 
+{% include find-my-reps.html %}
+
 # About us
 
 ## What we do
