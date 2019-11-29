@@ -57,8 +57,7 @@ const FindMyReps = ({onQueryReps}) => {
     }
 
     const clearQuery = () => {
-        window.sessionStorage.setItem("repQuery", null);
-        const sessionQuery = window.sessionStorage.getItem("repQuery", null);
+        window.sessionStorage.removeItem("repQuery");
         setQuery(null);
         setRepInfo(null);
     };
