@@ -4,7 +4,7 @@ We have to use CommonJS here, but other files should be written using ES6 module
 */
 
 const { renderMap } = require("./Map").default;
-const { renderFindMyReps } = require("./find-my-reps").default;
+const { renderFindMyReps } = require("./find-my-reps/find-my-reps").default;
 
 module.exports = {
   renderMap,

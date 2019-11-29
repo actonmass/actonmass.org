@@ -43,7 +43,6 @@ const FindMyReps = ({onQueryReps}) => {
     const [repInfo, setRepInfo] = useState(null);
 
     function handleQueryReps(newQuery) {
-        console.log("handling new Query");
         setQuery(newQuery);
         onQueryReps(newQuery).then((repInfo)=> {
             setRepInfo(repInfo);
@@ -82,6 +81,7 @@ const renderFindMyReps = (targetID, data) => {
 
     function handleQueryReps(query) {
         return new Promise((resolve, reject) =>{
+            setTimeout(()=>{
             resolve({
                 senator: {
                     name: "Test Senator"
@@ -89,7 +89,7 @@ const renderFindMyReps = (targetID, data) => {
                 representative: {
                     name: "Test Representative"
                 }
-            });
+            });}, 2000);
         });
     }
     render(<FindMyReps onQueryReps={handleQueryReps} {...data} />, targetEl);
