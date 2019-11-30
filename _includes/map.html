@@ -1,16 +1,27 @@
+{% assign map = include %}
 <div class="map-block" id="unique-id"></div>
 <script>
   var data = [
-    // Generate this with Jekyll
-    {%for leg_id in include.greens %}
-    {% assign leg = site.data.cache.legislator_by_id[leg_id] %}
+    {% for leg in site.legislators %}
     {% assign district = site.data.cache.district_by_id[leg.district] %}
-      {
-        href: "/legislators/{{leg_id}}",
-        img: "{{ leg.square_picture }}",
-        lat: {{ district.lat }},
-        lng: {{ district.lng }},
-      },
+    {% assign short_id = leg.id | replace: "/legislators/", "" %}
+    {% if map.greens contains short_id %}
+    {
+          href: "{{leg.id}}",
+          img: "{{ leg.square_picture }}",
+          lat: {{ district.lat }},
+          lng: {{ district.lng }},
+          style: "green"
+        },
+      {% else %}
+        {
+          href: "{{leg.id}}",
+          img: "{{ leg.square_picture }}",
+          lat: {{ district.lat }},
+          lng: {{ district.lng }},
+          style: "red"
+        },
+      {% endif %}
     {% endfor %}
   ];
   window.addEventListener("DOMContentLoaded", function() {

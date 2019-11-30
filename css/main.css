@@ -286,5 +286,13 @@ th, td {
 .rep-icon img {
     height: 40px;
     border-radius: 50%;
+
+}
+
+.rep-icon.green img {
     border: green solid 4px;
+}
+
+.rep-icon.red img {
+    border: red solid 4px;
 }

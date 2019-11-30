@@ -13,7 +13,6 @@ module Cache
       district_by_id = {}
       for district in site.collections['districts'].docs do
         id = district.id.delete_prefix("/districts/")
-        warn id
         district_by_id[id] = district
       end
       cache['district_by_id'] = district_by_id

@@ -7,6 +7,14 @@ const tileURL =
 const attribution =
   'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.mapbox.com/">Mapbox</a>';
 
+
+function getIconClass(datum) {
+  if (datum.style === 'green') {
+    return "rep-icon green"
+  }
+  return "rep-icon red"
+}
+
 function renderMap(id, data) {
   var map = L.map(id).setView(defaultCenter, defaultZoom);
 
@@ -20,7 +28,7 @@ function renderMap(id, data) {
 
   data.forEach(function(datum) {
     var icon = L.divIcon({
-      className: "rep-icon",
+      className: getIconClass(datum),
       html:
         '<a href="' +
         datum.href +
