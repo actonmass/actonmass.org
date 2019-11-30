@@ -1,5 +1,59 @@
 ---
 chamber: joint
+house_chair: aaron-michlewitz
+house_members:
+- elizabeth-malia
+- thomas-walsh
+- thomas-stanley
+- james-arciero
+- brian-ashe
+- sean-garballey
+- carolyn-dykema
+- russell-holmes
+- paul-schmid
+- josh-cutler
+- carole-fiola
+- mary-keefe
+- jay-livingstone
+- alan-silvia
+- daniel-hunt
+- john-velis
+- christine-barber
+- carlos-gonzalez
+- jose-tosado
+- gerard-cassidy
+- john-barrett
+- natalie-higgins
+- chynah-tyler
+- bud-williams
+- andres-vargas
+- todd-smola
+- angelo-demilia
+- donald-berthiaume
+- hannah-kane
+- james-kelcourse
+- david-muradian
+- timothy-whelan
+house_vice_chair: denise-garlick
 malegislature_url: https://malegislature.gov/Committees/Detail/J39
+senate_chair: michael-rodrigues
+senate_members:
+- jason-lewis
+- michael-barrett
+- joseph-boncore
+- michael-brady
+- nick-collins
+- barry-finegold
+- anne-gobi
+- adam-hinds
+- patricia-jehlen
+- eric-lesser
+- joan-lovely
+- michael-moore
+- michael-rush
+- viriato-demacedo
+- donald-humason
+- ryan-fattman
+senate_vice_chair: cindy-friedman
 title: Joint Committee on Ways and Means
 ---
