@@ -26,6 +26,11 @@ function renderMap(id, data) {
     accessToken: "your.mapbox.access.token"
   }).addTo(map);
 
+  map.setMaxBounds([
+    [40, -73],
+    [44, -70]
+  ]);
+
   data.forEach(function(datum) {
     var icon = L.divIcon({
       className: getIconClass(datum),
