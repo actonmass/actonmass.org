@@ -14,15 +14,90 @@ orgs:
 lead_sponsors:
   - ruth-balser
   - liz-miranda
-co_sponsors:
+co_sponsors: # Still missing the cosponsors for the equivalent senate bill!
   - ruth-balser
   - liz-miranda
+  - james-eldridge
   - michael-moran
   - carolyn-dykema
   - william-driscoll
   - louis-kafka
+  - jason-lewis
   - carlos-gonzalez
   - thomas-stanley
   - dylan-fernandes
+  - smitty-pignatelli
+  - david-linsky
+  - jennifer-benson
+  - sonia-chang-diaz
+  - aaron-vega
+  - john-lawn
+  - david-rogers
+  - sarah-peake
+  - tami-gouveia
+  - lindsay-sabadosa
+  - denise-provost
+  - christine-barber
+  - jose-tosado
+  - jack-lewis
+  - kevin-honan
+  - harriette-chandler
+  - mike-connolly
+  - tommy-vitolo
+  - sean-garballey
+  - tram-nguyen
+  - mary-keefe
+  - jonathan-hecht
+  - steven-ultrino
+  - adrian-madaro
+  - maria-robinson
+  - peter-capano
+  - james-oday
+  - carmine-gentile
+  - christina-minicucci
+  - michael-barrett
+  - gerard-cassidy
+  - frank-moran
+  - natalie-blais
+  - jay-livingstone
+  - denise-garlick
+  - kay-khan
+  - joseph-boncore
+  - natalie-higgins
+  - edward-coppinger
+  - bud-williams
+  - michelle-dubois
+  - marcos-devers
+  - daniel-ryan
+  - patricia-jehlen
+  - paul-mcmurtry
+  - russell-holmes
+  - paul-feeney
+  - elizabeth-malia
+  - sal-didomenico
+  - brendan-crighton
+  - daniel-hunt
+  - rady-mom
+  - john-mahoney
+  - tricia-farley-bouvier
+  - mindy-domb
+  - marjorie-decker
+  - daniel-cullinane
+  - antonio-cabral
+  - daniel-cahill
+  - joan-meschino
+  - david-leboeuf
+  - nika-elugardo
   - paul-tucker
+  - daniel-carey
+  - andres-vargas
+  - lori-ehrlich
+  - jon-santiago
+  - paul-mark
+  - michelle-ciccolo
+  - rebecca-rausch
+  - william-galvin
+  - john-rogers
+  - james-hawkins
+  - julian-cyr
 ---
