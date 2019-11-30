@@ -9,7 +9,7 @@ house_url: ''
 last_name: Dykema
 party: D
 phone: (617) 722-2680
-picture: http://www.hollistonreporter.com/pix/articles/2009/10/Dykema_headshot.jpg
+picture: ''
 square_picture: /img/legislators/square-pictures/carolyn-dykema.jpg
 start_date: ''
 twitter: ''
