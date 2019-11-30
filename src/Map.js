@@ -20,7 +20,7 @@ function renderMap(id, data) {
 
   L.tileLayer(tileURL, {
     attribution: attribution,
-    maxZoom: 15,
+    maxZoom: 12,
     minZoom: 8,
     id: "mapbox.streets",
     accessToken: "your.mapbox.access.token"
@@ -38,6 +38,9 @@ function renderMap(id, data) {
       iconSize: [30, 42],
       iconAnchor: [15, 42]
     });
+    if (datum.chamber == 'senate') {
+      return;
+    }
     L.marker([datum.lat, datum.lng], { icon: icon }).addTo(map);
   });
 }

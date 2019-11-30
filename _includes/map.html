@@ -3,25 +3,16 @@
 <script>
   var data = [
     {% for leg in site.legislators %}
-    {% assign district = site.data.cache.district_by_id[leg.district] %}
-    {% assign short_id = leg.id | replace: "/legislators/", "" %}
-    {% if map.greens contains short_id %}
-    {
-          href: "{{leg.id}}",
-          img: "{{ leg.square_picture }}",
-          lat: {{ district.lat }},
-          lng: {{ district.lng }},
-          style: "green"
-        },
-      {% else %}
-        {
-          href: "{{leg.id}}",
-          img: "{{ leg.square_picture }}",
-          lat: {{ district.lat }},
-          lng: {{ district.lng }},
-          style: "red"
-        },
-      {% endif %}
+      {% assign district = site.data.cache.district_by_id[leg.district] %}
+      {% assign short_id = leg.id | replace: "/legislators/", "" %}
+      {
+        href: "{{leg.id}}",
+        img: "{{ leg.square_picture }}",
+        lat: {{ district.lat }},
+        lng: {{ district.lng }},
+        style: {% if map.greens contains short_id %}"green"{% else %}"red"{% endif %},
+        chamber: "{{leg.district | split: "-" | first }}",
+      },
     {% endfor %}
   ];
   window.addEventListener("DOMContentLoaded", function() {
