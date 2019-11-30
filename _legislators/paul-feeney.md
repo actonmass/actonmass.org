@@ -7,4 +7,5 @@ house_url: https://malegislature.gov/Legislators/Profile/PRF0
 last_name: Feeney
 party: D
 phone: 617-722-1222
+square_picture: /img/legislators/square-pictures/paul-feeney.jpg
 ---

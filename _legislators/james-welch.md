@@ -7,4 +7,5 @@ house_url: https://malegislature.gov/Legislators/Profile/JTW0
 last_name: Welch
 party: D
 phone: 617-722-1660
+square_picture: /img/legislators/square-pictures/james-welch.jpg
 ---

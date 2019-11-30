@@ -7,4 +7,5 @@ house_url: https://malegislature.gov/Legislators/Profile/DFH0
 last_name: Humason
 party: R
 phone: 617-722-1415
+square_picture: /img/legislators/square-pictures/donald-humason.jpeg
 ---

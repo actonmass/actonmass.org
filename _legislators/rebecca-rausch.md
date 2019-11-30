@@ -7,4 +7,5 @@ house_url: https://malegislature.gov/Legislators/Profile/RLR0
 last_name: Rausch
 party: D
 phone: 617-722-1555
+square_picture: /img/legislators/square-pictures/rebecca-rausch.jpg
 ---

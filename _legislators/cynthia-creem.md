@@ -7,4 +7,5 @@ house_url: https://malegislature.gov/Legislators/Profile/CSC0
 last_name: Creem
 party: D
 phone: 617-722-1639
+square_picture: /img/legislators/square-pictures/cynthia-creem.jpeg
 ---

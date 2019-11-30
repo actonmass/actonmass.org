@@ -7,4 +7,5 @@ house_url: https://malegislature.gov/Legislators/Profile/EDJ0
 last_name: Kennedy
 party: D
 phone: 617-722-1630
+square_picture: /img/legislators/square-pictures/edward-kennedy.jpg
 ---

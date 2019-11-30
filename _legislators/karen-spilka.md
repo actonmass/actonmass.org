@@ -7,4 +7,5 @@ house_url: https://malegislature.gov/Legislators/Profile/KES0
 last_name: Spilka
 party: D
 phone: 617-722-1500
+square_picture: /img/legislators/square-pictures/karen-spilka.jpg
 ---

@@ -7,4 +7,5 @@ house_url: https://malegislature.gov/Legislators/Profile/PDJ0
 last_name: Jehlen
 party: D
 phone: 617-722-1578
+square_picture: /img/legislators/square-pictures/patricia-jehlen.jpg
 ---

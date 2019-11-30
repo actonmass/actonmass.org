@@ -7,4 +7,5 @@ house_url: https://malegislature.gov/Legislators/Profile/BPC0
 last_name: Crighton
 party: D
 phone: 617-722-1350
+square_picture: /img/legislators/square-pictures/brendan-crighton.jpg
 ---
