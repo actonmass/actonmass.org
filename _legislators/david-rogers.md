@@ -5,8 +5,8 @@ end_date: ''
 facebook: ''
 first_name: David
 hometown: Cambridge
-house_url: ''
 last_name: Rogers
+malegislature_url: https://malegislature.gov/Legislators/Profile/DMR1
 party: D
 phone: (617) 722-2637
 picture: https://malegislature.gov/Legislators/Profile/170/DMR1.jpg

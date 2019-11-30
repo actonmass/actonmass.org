@@ -5,8 +5,8 @@ end_date: ''
 facebook: https://www.facebook.com/repashe/
 first_name: Brian
 hometown: Longmeadow
-house_url: https://malegislature.gov/Legislators/Profile/BMA1
 last_name: Ashe
+malegislature_url: https://malegislature.gov/Legislators/Profile/BMA1
 party: D
 phone: (617) 722-2430
 picture: https://malegislature.gov/Legislators/Profile/170/BMA1.jpg

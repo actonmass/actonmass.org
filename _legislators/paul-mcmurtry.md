@@ -5,8 +5,8 @@ end_date: ''
 facebook: ''
 first_name: Paul
 hometown: Dedham
-house_url: ''
 last_name: McMurtry
+malegislature_url: https://malegislature.gov/Legislators/Profile/P_M1
 party: D
 phone: (617) 722-2015
 picture: ''

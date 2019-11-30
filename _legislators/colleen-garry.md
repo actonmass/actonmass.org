@@ -5,8 +5,8 @@ end_date: ''
 facebook: ''
 first_name: Colleen
 hometown: Dracut
-house_url: ''
 last_name: Garry
+malegislature_url: https://malegislature.gov/Legislators/Profile/CMG1
 party: D
 phone: (617) 722-2380
 picture: ''

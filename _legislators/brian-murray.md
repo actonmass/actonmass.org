@@ -5,8 +5,8 @@ end_date: ''
 facebook: ''
 first_name: Brian
 hometown: Milford
-house_url: ''
 last_name: Murray
+malegislature_url: https://malegislature.gov/Legislators/Profile/BWM1
 party: D
 phone: (617) 722-2396
 picture: ''

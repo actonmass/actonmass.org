@@ -5,8 +5,8 @@ end_date: ''
 facebook: ''
 first_name: David
 hometown: Worcester
-house_url: ''
 last_name: LeBoeuf
+malegislature_url: https://malegislature.gov/Legislators/Profile/DAL1
 party: D
 phone: (617) 722-2575
 picture: https://malegislature.gov/Legislators/Profile/170/DAL1.jpg

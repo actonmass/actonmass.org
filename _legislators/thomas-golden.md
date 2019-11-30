@@ -5,8 +5,8 @@ end_date: ''
 facebook: ''
 first_name: Thomas
 hometown: Lowell
-house_url: ''
 last_name: Golden
+malegislature_url: https://malegislature.gov/Legislators/Profile/TAG1
 party: D
 phone: (617) 722-2263
 picture: https://malegislature.gov/Legislators/Profile/170/TAG1.jpg

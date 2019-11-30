@@ -5,8 +5,8 @@ end_date: ''
 facebook: ''
 first_name: Mike
 hometown: Cambridge
-house_url: ''
 last_name: Connolly
+malegislature_url: https://malegislature.gov/Legislators/Profile/M_C1
 party: D
 phone: (617) 722-2060
 picture: ''

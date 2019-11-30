@@ -5,8 +5,8 @@ end_date: ''
 facebook: ''
 first_name: Carolyn
 hometown: Holliston
-house_url: ''
 last_name: Dykema
+malegislature_url: https://malegislature.gov/Legislators/Profile/CCD1
 party: D
 phone: (617) 722-2680
 picture: ''

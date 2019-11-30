@@ -5,8 +5,8 @@ end_date: ''
 facebook: https://www.facebook.com/LennyMirra
 first_name: Lenny
 hometown: West Newbury
-house_url: https://malegislature.gov/People/Profile/L_M1
 last_name: Mirra
+malegislature_url: https://malegislature.gov/Legislators/Profile/L_M1
 party: R
 phone: (617) 722-2488
 picture: https://malegislature.gov/Legislators/Profile/170/L_M1.jpg

@@ -5,8 +5,8 @@ end_date: ''
 facebook: https://www.facebook.com/todd.smola.7
 first_name: Todd
 hometown: Warren
-house_url: https://malegislature.gov/Legislators/Profile/TMS2
 last_name: Smola
+malegislature_url: https://malegislature.gov/Legislators/Profile/TMS2
 party: R
 phone: (617) 722-2100
 picture: https://malegislature.gov/Legislators/Profile/170/TMS2.jpg

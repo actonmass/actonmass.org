@@ -5,8 +5,8 @@ end_date: ''
 facebook: ''
 first_name: Tami
 hometown: Acton
-house_url: ''
 last_name: Gouveia
+malegislature_url: https://malegislature.gov/Legislators/Profile/TLG1
 party: D
 phone: (617) 722-2011
 picture: ''

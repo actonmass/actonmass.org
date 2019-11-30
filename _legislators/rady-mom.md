@@ -5,8 +5,8 @@ end_date: ''
 facebook: ''
 first_name: Rady
 hometown: Lowell
-house_url: ''
 last_name: Mom
+malegislature_url: https://malegislature.gov/Legislators/Profile/R_M2
 party: D
 phone: (617) 722-2637
 picture: ''

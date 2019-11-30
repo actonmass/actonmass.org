@@ -5,8 +5,8 @@ end_date: ''
 facebook: ''
 first_name: Steven
 hometown: Malden
-house_url: ''
 last_name: Ultrino
+malegislature_url: https://malegislature.gov/Legislators/Profile/S_G2
 party: D
 phone: (617) 722-2460
 picture: https://malegislature.gov/Legislators/Profile/170/S_G2.jpg

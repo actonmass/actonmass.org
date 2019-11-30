@@ -5,8 +5,8 @@ end_date: ''
 facebook: https://www.facebook.com/RepBillStraus
 first_name: William
 hometown: Mattapoisett
-house_url: https://malegislature.gov/Legislators/Profile/WMS1/District
 last_name: Straus
+malegislature_url: https://malegislature.gov/Legislators/Profile/WMS1
 party: D
 phone: (617) 722-2400
 picture: https://malegislature.gov/Legislators/Profile/170/WMS1.jpg

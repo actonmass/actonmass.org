@@ -5,8 +5,8 @@ end_date: ''
 facebook: ''
 first_name: Shawn
 hometown: Norfolk
-house_url: ''
 last_name: Dooley
+malegislature_url: https://malegislature.gov/Legislators/Profile/S_D1
 party: R
 phone: (617) 722-2810
 picture: ''

@@ -5,8 +5,8 @@ end_date: ''
 facebook: ''
 first_name: John
 hometown: Watertown
-house_url: ''
 last_name: Lawn
+malegislature_url: https://malegislature.gov/Legislators/Profile/JJL2
 party: D
 phone: (617) 722-2460
 picture: https://malegislature.gov/Legislators/Profile/170/JJL2.jpg

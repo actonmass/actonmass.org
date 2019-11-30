@@ -5,8 +5,8 @@ end_date: ''
 facebook: ''
 first_name: Jonathan
 hometown: Watertown
-house_url: ''
 last_name: Hecht
+malegislature_url: https://malegislature.gov/Legislators/Profile/J_H1
 party: D
 phone: (617) 722-2140
 picture: ''

@@ -5,8 +5,8 @@ end_date: ''
 facebook: ''
 first_name: Michael
 hometown: Boston
-house_url: ''
 last_name: Moran
+malegislature_url: https://malegislature.gov/Legislators/Profile/MJM1
 party: D
 phone: (617) 722-2014
 picture: ''

@@ -5,8 +5,8 @@ end_date: ''
 facebook: ''
 first_name: Marjorie
 hometown: Cambridge
-house_url: ''
 last_name: Decker
+malegislature_url: https://malegislature.gov/Legislators/Profile/MCD1
 party: D
 phone: (617) 722-2060
 picture: ''

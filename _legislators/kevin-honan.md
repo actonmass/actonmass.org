@@ -5,8 +5,8 @@ end_date: ''
 facebook: ''
 first_name: Kevin
 hometown: Boston
-house_url: ''
 last_name: Honan
+malegislature_url: https://malegislature.gov/Legislators/Profile/KGH1
 party: D
 phone: (617) 722-2470
 picture: ''

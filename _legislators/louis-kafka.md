@@ -5,8 +5,8 @@ end_date: ''
 facebook: ''
 first_name: Louis
 hometown: Stoughton
-house_url: ''
 last_name: Kafka
+malegislature_url: https://malegislature.gov/Legislators/Profile/LLK1
 party: D
 phone: (617) 722-2960
 picture: https://malegislature.gov/Legislators/Profile/170/LLK1.jpg

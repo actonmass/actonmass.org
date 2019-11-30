@@ -5,8 +5,8 @@ end_date: ''
 facebook: ''
 first_name: Daniel
 hometown: Boston
-house_url: ''
 last_name: Ryan
+malegislature_url: https://malegislature.gov/Legislators/Profile/djr1
 party: D
 phone: (617) 722-2370
 picture: https://malegislature.gov/Legislators/Profile/170/djr1.jpg

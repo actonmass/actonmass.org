@@ -5,7 +5,7 @@ end_date: ''
 facebook: ''
 first_name: Paul
 hometown: Melrose
-house_url: ''
+malegislature_url: ''
 last_name: Brodeur
 party: D
 phone: ''

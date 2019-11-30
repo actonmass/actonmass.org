@@ -5,8 +5,8 @@ end_date: ''
 facebook: ''
 first_name: Christine
 hometown: Somerville
-house_url: ''
 last_name: Barber
+malegislature_url: https://malegislature.gov/Legislators/Profile/CPB2
 party: D
 phone: (617) 722-2220
 picture: ''

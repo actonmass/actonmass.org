@@ -5,8 +5,8 @@ end_date: ''
 facebook: ''
 first_name: Denise
 hometown: Somerville
-house_url: ''
 last_name: Provost
+malegislature_url: https://malegislature.gov/Legislators/Profile/D_P1
 party: D
 phone: (617) 722-2263
 picture: ''

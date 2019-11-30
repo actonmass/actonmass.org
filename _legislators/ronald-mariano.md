@@ -5,8 +5,8 @@ end_date: ''
 facebook: ''
 first_name: Ronald
 hometown: Quincy
-house_url: ''
 last_name: Mariano
+malegislature_url: https://malegislature.gov/Legislators/Profile/R_M1
 party: D
 phone: (617) 722-2300
 picture: ''

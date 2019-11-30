@@ -5,8 +5,8 @@ end_date: ''
 facebook: https://www.facebook.com/angelo.puppolo
 first_name: Angelo
 hometown: Springfield
-house_url: https://malegislature.gov/Legislators/Profile/AJP1
 last_name: Puppolo
+malegislature_url: https://malegislature.gov/Legislators/Profile/AJP1
 party: D
 phone: (617) 722-2006
 picture: https://malegislature.gov/Legislators/Profile/170/AJP1.jpg

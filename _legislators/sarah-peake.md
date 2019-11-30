@@ -5,8 +5,8 @@ end_date: ''
 facebook: https://www.facebook.com/sarah.peake.37
 first_name: Sarah
 hometown: Provincetown
-house_url: https://malegislature.gov/Legislators/Profile/SKP1
 last_name: Peake
+malegislature_url: https://malegislature.gov/Legislators/Profile/SKP1
 party: D
 phone: (617) 722-2040
 picture: https://www.facebook.com/photo.php?fbid=10207274430033286&set=a.1512275281091&type=3&theater

@@ -5,8 +5,8 @@ end_date: ''
 facebook: ''
 first_name: Jack
 hometown: Framingham
-house_url: ''
 last_name: Lewis
+malegislature_url: https://malegislature.gov/Legislators/Profile/JPL1
 party: D
 phone: (617) 722-2030
 picture: ''

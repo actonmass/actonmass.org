@@ -5,8 +5,8 @@ end_date: ''
 facebook: https://www.facebook.com/david.t.vieira.9
 first_name: David
 hometown: Falmouth
-house_url: https://malegislature.gov/Legislators/Profile/DTV1
 last_name: Vieira
+malegislature_url: https://malegislature.gov/Legislators/Profile/DTV1
 party: R
 phone: (617) 722-2230
 picture: https://www.facebook.com/photo.php?fbid=918413064838351

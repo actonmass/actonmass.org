@@ -5,8 +5,8 @@ end_date: ''
 facebook: ''
 first_name: David
 hometown: Tewksbury
-house_url: ''
 last_name: Robertson
+malegislature_url: https://malegislature.gov/Legislators/Profile/D_R1
 party: D
 phone: (617) 722-2210
 picture: ''

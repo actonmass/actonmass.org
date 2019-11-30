@@ -5,8 +5,8 @@ end_date: ''
 facebook: ''
 first_name: Jeffrey
 hometown: Franklin
-house_url: ''
 last_name: Roy
+malegislature_url: https://malegislature.gov/Legislators/Profile/JNR1
 party: D
 phone: (617) 722-2030
 picture: ''

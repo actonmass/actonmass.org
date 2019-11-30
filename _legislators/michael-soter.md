@@ -5,8 +5,8 @@ end_date: ''
 facebook: ''
 first_name: Michael
 hometown: Bellingham
-house_url: ''
 last_name: Soter
+malegislature_url: https://malegislature.gov/Legislators/Profile/MJS1
 party: R
 phone: (617) 722-2460
 picture: ''

@@ -5,8 +5,8 @@ end_date: ''
 facebook: ''
 first_name: Danielle
 hometown: Marlborough
-house_url: ''
 last_name: Gregoire
+malegislature_url: https://malegislature.gov/Legislators/Profile/DWG1
 party: D
 phone: (617) 722-2140
 picture: https://malegislature.gov/Legislators/Profile/170/DWG1.jpg

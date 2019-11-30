@@ -5,8 +5,8 @@ end_date: ''
 facebook: ''
 first_name: John
 hometown: Norwood
-house_url: ''
 last_name: Rogers
+malegislature_url: https://malegislature.gov/Legislators/Profile/JHR1
 party: D
 phone: (617) 722-2092
 picture: ''

@@ -5,8 +5,8 @@ end_date: ''
 facebook: ''
 first_name: James
 hometown: Weymouth
-house_url: ''
 last_name: Murphy
+malegislature_url: https://malegislature.gov/Legislators/Profile/JMM1
 party: D
 phone: (617) 722-2220
 picture: https://malegislature.gov/Legislators/Profile/170/JMM1.jpg

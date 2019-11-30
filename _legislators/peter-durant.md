@@ -5,8 +5,8 @@ end_date: ''
 facebook: ''
 first_name: Peter
 hometown: Spencer
-house_url: ''
 last_name: Durant
+malegislature_url: https://malegislature.gov/Legislators/Profile/PJD2
 party: R
 phone: (617) 722-2060
 picture: ''

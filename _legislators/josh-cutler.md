@@ -5,8 +5,8 @@ end_date: ''
 facebook: ''
 first_name: Josh
 hometown: Duxbury
-house_url: ''
 last_name: Cutler
+malegislature_url: https://malegislature.gov/Legislators/Profile/JSC1
 party: D
 phone: (617) 722-2810
 picture: ''

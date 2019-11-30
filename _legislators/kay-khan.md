@@ -5,8 +5,8 @@ end_date: ''
 facebook: ''
 first_name: Kay
 hometown: Newton
-house_url: ''
 last_name: Khan
+malegislature_url: https://malegislature.gov/Legislators/Profile/K_K1
 party: D
 phone: (617) 722-2011
 picture: https://www.google.com/url?sa=i&source=images&cd=&ved=2ahUKEwiuk73Wj9jgAhUoTt8KHZdeByIQjRx6BAgBEAU&url=https%3A%2F%2Fthearcofmass.org%2Finsiders-view-kay-khan%2F&psig=AOvVaw2RT0RcvGAJ4nAvMSnDZCJU&ust=1551226633206963

@@ -5,8 +5,8 @@ end_date: ''
 facebook: ''
 first_name: Chynah
 hometown: Boston
-house_url: ''
 last_name: Tyler
+malegislature_url: https://malegislature.gov/Legislators/Profile/C_T1
 party: D
 phone: (617) 722-2450
 picture: https://malegislature.gov/Legislators/Profile/C_T1

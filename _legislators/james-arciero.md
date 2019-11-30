@@ -5,8 +5,8 @@ end_date: ''
 facebook: ''
 first_name: James
 hometown: Westford
-house_url: ''
 last_name: Arciero
+malegislature_url: https://malegislature.gov/Legislators/Profile/J_A1
 party: D
 phone: (617) 722-2012
 picture: ''

@@ -5,8 +5,8 @@ end_date: ''
 facebook: ''
 first_name: Daniel
 hometown: Worcester
-house_url: ''
 last_name: Donahue
+malegislature_url: https://malegislature.gov/Legislators/Profile/DMD1
 party: D
 phone: (617) 722-2014
 picture: ''

@@ -5,8 +5,8 @@ end_date: ''
 facebook: https://www.facebook.com/reploriehrlich/
 first_name: Lori
 hometown: Marblehead
-house_url: https://malegislature.gov/People/Profile/LAE1
 last_name: Ehrlich
+malegislature_url: https://malegislature.gov/Legislators/Profile/LAE1
 party: D
 phone: (617) 722-2877
 picture: https://malegislature.gov/Legislators/Profile/170/LAE1.jpg

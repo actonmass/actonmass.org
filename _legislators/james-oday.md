@@ -5,8 +5,8 @@ end_date: ''
 facebook: ''
 first_name: James
 hometown: West Boylston
-house_url: ''
 last_name: O'Day
+malegislature_url: https://malegislature.gov/Legislators/Profile/JJO1
 party: D
 phone: (617) 722-2090
 picture: ''

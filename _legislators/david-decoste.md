@@ -5,8 +5,8 @@ end_date: ''
 facebook: ''
 first_name: David
 hometown: Norwell
-house_url: ''
 last_name: DeCoste
+malegislature_url: https://malegislature.gov/Legislators/Profile/DFD1
 party: R
 phone: (617) 722-2460
 picture: ''

@@ -5,8 +5,8 @@ end_date: ''
 facebook: ''
 first_name: Paul
 hometown: Auburn
-house_url: ''
 last_name: Frost
+malegislature_url: https://malegislature.gov/Legislators/Profile/PKF1
 party: R
 phone: (617) 722-2489
 picture: ''

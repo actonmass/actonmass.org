@@ -5,8 +5,8 @@ end_date: ''
 facebook: ''
 first_name: Angelo
 hometown: Bridgewater
-house_url: ''
 last_name: D'Emilia
+malegislature_url: https://malegislature.gov/Legislators/Profile/ALD1
 party: R
 phone: (617) 722-2488
 picture: ''

@@ -5,8 +5,8 @@ end_date: ''
 facebook: ''
 first_name: Kathleen
 hometown: Kingston
-house_url: ''
 last_name: LaNatra
+malegislature_url: https://malegislature.gov/Legislators/Profile/KPL1
 party: D
 phone: (617) 722-2430
 picture: https://pbs.twimg.com/profile_images/1016703651409096705/FldEQjJQ_400x400.jpg

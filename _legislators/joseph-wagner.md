@@ -5,8 +5,8 @@ end_date: ''
 facebook: https://www.facebook.com/repwagner/
 first_name: Joseph
 hometown: Chicopee
-house_url: https://malegislature.gov/People/Profile/JFW1
 last_name: Wagner
+malegislature_url: https://malegislature.gov/Legislators/Profile/JFW1
 party: D
 phone: (617) 722-2783
 picture: https://pbs.twimg.com/profile_images/816712460816285705/poGGzJAM_400x400.jpg

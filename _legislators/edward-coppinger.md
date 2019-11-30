@@ -5,8 +5,8 @@ end_date: ''
 facebook: ''
 first_name: Edward
 hometown: Boston
-house_url: ''
 last_name: Coppinger
+malegislature_url: https://malegislature.gov/Legislators/Profile/E_C1
 party: D
 phone: (617) 722-2080
 picture: https://malegislature.gov/Legislators/Profile/170/E_C1.jpg

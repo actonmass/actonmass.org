@@ -11,7 +11,7 @@ layout: admin
     <th>email</th>
     <th>facebook</th>
     <th>first_name</th>
-    <th>house_url</th>
+    <th>malegislature_url</th>
     <th>last_name</th>
     <th>hometown</th>
     <th>party</th>
@@ -34,7 +34,7 @@ layout: admin
     <td>{{ rep.email }}</td>
     <td>{{ rep.facebook }}</td>
     <td>{{ rep.first_name }}</td>
-    <td>{{ rep.house_url }}</td>
+    <td>{{ rep.malegislature_url }}</td>
     <td>{{ rep.last_name }}</td>
     <td>{{ rep.hometown }}</td>
     <td>{{ rep.party }}</td>

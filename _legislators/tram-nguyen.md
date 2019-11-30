@@ -5,8 +5,8 @@ end_date: ''
 facebook: https://www.facebook.com/TeamTram.MA/
 first_name: Tram
 hometown: Andover
-house_url: N/A
 last_name: Nguyen
+malegislature_url: https://malegislature.gov/Legislators/Profile/TTN1
 party: D
 phone: (617) 722-2060
 picture: https://pbs.twimg.com/profile_images/1075610623424241664/MEZi_pKa_400x400.jpg

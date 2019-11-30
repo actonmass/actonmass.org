@@ -5,8 +5,8 @@ end_date: ''
 facebook: ''
 first_name: Donald
 hometown: Spencer
-house_url: ''
 last_name: Berthiaume
+malegislature_url: https://malegislature.gov/Legislators/Profile/DRB1
 party: R
 phone: (617) 722-2090
 picture: ''

@@ -5,8 +5,8 @@ end_date: ''
 facebook: ''
 first_name: Paul
 hometown: Medford
-house_url: ''
 last_name: Donato
+malegislature_url: https://malegislature.gov/Legislators/Profile/PJD1
 party: D
 phone: (617) 722-2180
 picture: https://malegislature.gov/Legislators/Profile/170/PJD1.jpg
