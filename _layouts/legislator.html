@@ -2,14 +2,23 @@
 layout: default
 ---
 
-{% assign leg = page%}
+{% assign leg = page %}
 
 <h1>{{ leg.first_name }} {{ leg.last_name }}</h1>
 
-<img src="{{leg.picture}}"/>
+<img src="{{leg.square_picture }}"/>
 <dl>
-  <dt>District:</dt>
-  <dd>{{leg.district}}</dd>
   <dt>Email:</dt>
   <dd>{{leg.email}}</dd>
 </dl>
+
+<h2>Committees</h2>
+
+{% for committee in leg.committees %}
+  <li>
+    {% if committee.role != "Member" %}
+      <strong>{{committee.role}}</strong>
+    {% endif %}
+    {{ committee.title }}
+  </li>
+{% endfor %}
