@@ -2,6 +2,11 @@ const axios = require('axios');
 
 const { OPEN_STATES_API_KEY } = process.env;
 
+const GetRepShortID = (info) => {
+    const firstName = info.givenName.normalize("NFD").replace(/[\u0300-\u036f]/g, "");
+    const lastName = info.familyName.normalize("NFD").replace(/[\u0300-\u036f]/g, "");
+    return `${firstName.toLowerCase()}-${lastName.toLowerCase()}`;
+}
 
 function geolocate(address) {
     return new Promise((resolve, reject) => {
@@ -43,6 +48,8 @@ query getLocalLegislators($latitude: Float, $longitude: Float) {
       node {
         id
         name
+        familyName
+        givenName
       }
     }
   }
@@ -51,6 +58,8 @@ query getLocalLegislators($latitude: Float, $longitude: Float) {
       node {
         id
         name
+        familyName
+        givenName
       }
     }
   }
@@ -79,13 +88,23 @@ exports.handler = async (event, context) => {
         }
       )
       .then(response => response.data)
-      .then((data) => ({
+      .then((data) => {
+        const senData = data.data.senator.edges[0].node
+        const repData = data.data.representative.edges[0].node
+        return {
           statusCode: 200,
           body: JSON.stringify({
-            senator: data.data.senator.edges[0].node,
-            representative: data.data.representative.edges[0].node,
+            senator: {
+              short_id: GetRepShortID(senData),
+              name: senData.name
+            },
+            representative: {
+              short_id: GetRepShortID(repData),
+              name: repData.name
+            }
           })
-      }))
+        };
+      })
       .catch(error => {
         console.log(error);
         return {statusCode: 400, body: String(error)}

@@ -1,9 +1,19 @@
-<div id="find-my-reps">
-</div>
+<div id="find-my-reps"></div>
 <script>
-    // Generate this with Jekyll
+    var all_legs = {
+    {% for leg in site.legislators %}
+      {% assign short_id = leg.id | replace: "/legislators/", "" %}
+      "{{short_id}}": {
+        party: "{{leg.party}}",
+        first_name: "{{leg.first_name}}",
+        last_name: "{{leg.last_name}}",
+        img: "{{ leg.square_picture }}",
+      },
+    {% endfor %}
+  };
+
   var data = {
-    test: "this is a test"
+    legislatorInfo: all_legs
   };
 
   window.addEventListener("DOMContentLoaded", function() {
