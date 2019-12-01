@@ -3,7 +3,8 @@
   "scripts": {
     "build": "webpack --mode=production && jekyll build",
     "serve": "webpack --mode=development && jekyll serve",
-    "watch-js": "webpack --watch --mode=development"
+    "watch-js": "webpack --watch --mode=development",
+    "dev": "env `cat .env` netlify dev"
   },
   "devDependencies": {
     "@babel/core": "^7.7.4",
@@ -11,6 +12,7 @@
     "@babel/preset-react": "^7.7.4",
     "babel-loader": "^8.0.6",
     "dotenv": "^8.2.0",
+    "netlify-cli": "^2.21.0",
     "webpack": "^4.41.2",
     "webpack-cli": "^3.3.10"
   },
