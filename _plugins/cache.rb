@@ -1,8 +1,8 @@
 module Cache
   class Generator < Jekyll::Generator
-    def generate(site)
-      cache = {}
 
+    def generate_cache(site)
+      cache = {}
       for collection in ["legislators", "districts", "committees"] do
         item_by_id = {}
         for item in site.collections[collection].docs do
@@ -11,7 +11,11 @@ module Cache
         end
         cache["#{collection}_by_id"] = item_by_id
       end
+      site.data["cache"] = cache
+    end
 
+    def generate_legislator_committees(site)
+      cache = site.data["cache"]
       for legislator in site.collections["legislators"].docs do
         legislator.data["committees"] = []
       end
@@ -31,7 +35,11 @@ module Cache
           end
         end
       end
-      site.data["cache"] = cache
+    end
+
+    def generate(site)
+      generate_cache(site)
+      generate_legislator_committees(site)
     end
   end
 end
