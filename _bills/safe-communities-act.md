@@ -97,6 +97,7 @@ co_sponsors: # Still missing the cosponsors for the equivalent senate bill!
   - rebecca-rausch
   - william-galvin
   - john-rogers
+  - james-hawkins
   - julian-cyr
 summary:
   - Limiting spending of local police resources on Trump’s policies
