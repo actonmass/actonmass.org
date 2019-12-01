@@ -3,7 +3,7 @@ layout: default
 ---
 
 {% assign bill = page %}
-{% assign committee = site.data.cache.committee_by_id[bill.committee] %}
+{% assign committee = site.data.cache.committees_by_id[bill.committee] %}
 
 
 
@@ -26,8 +26,8 @@ layout: default
 
     <h4>Senators</h4>
 
-    {% assign senate_chair = site.data.cache.legislator_by_id[committee.senate_chair] %}
-    {% assign senate_vice_chair = site.data.cache.legislator_by_id[committee.senate_vice_chair] %}
+    {% assign senate_chair = site.data.cache.legislators_by_id[committee.senate_chair] %}
+    {% assign senate_vice_chair = site.data.cache.legislators_by_id[committee.senate_vice_chair] %}
 
     <ul>
       <li>
@@ -45,7 +45,7 @@ layout: default
     <p>Members:</p>
     <ul>
       {% for member_id in committee.senate_members %}
-      {% assign rep = site.data.cache.legislator_by_id[member_id] %}
+      {% assign rep = site.data.cache.legislators_by_id[member_id] %}
         {% if bill.co_sponsors contains member_id %}
           <li><span style="color: green">{{ rep.first_name }} {{ rep.last_name }}</span></li>
         {% else %}
@@ -60,8 +60,8 @@ layout: default
     <h4>Reprentatives</h4>
 
 
-    {% assign house_chair = site.data.cache.legislator_by_id[committee.house_chair] %}
-    {% assign house_vice_chair = site.data.cache.legislator_by_id[committee.house_vice_chair] %}
+    {% assign house_chair = site.data.cache.legislators_by_id[committee.house_chair] %}
+    {% assign house_vice_chair = site.data.cache.legislators_by_id[committee.house_vice_chair] %}
 
     <ul>
       <li>
@@ -79,7 +79,7 @@ layout: default
     <p>Members:</p>
     <ul>
       {% for member_id in committee.house_members %}
-      {% assign rep = site.data.cache.legislator_by_id[member_id] %}
+      {% assign rep = site.data.cache.legislators_by_id[member_id] %}
         {% if bill.co_sponsors contains member_id %}
           <li><span style="color: green">{{ rep.first_name }} {{ rep.last_name }}</span></li>
         {% else %}

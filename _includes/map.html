@@ -3,7 +3,7 @@
 <script>
   var data = [
     {% for leg in site.legislators %}
-      {% assign district = site.data.cache.district_by_id[leg.district] %}
+      {% assign district = site.data.cache.districts_by_id[leg.district] %}
       {% assign short_id = leg.id | replace: "/legislators/", "" %}
       {
         href: "{{leg.id}}",
