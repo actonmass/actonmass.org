@@ -32,7 +32,7 @@ const Form = ({onSubmitQuery}) => {
                 <button onClick={()=>{
                     onSubmitQuery({
                         streetAddress: streetAddress,
-                        citry: city
+                        city: city
                     });
                 }}>Submit</button>
             </div>

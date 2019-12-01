@@ -36,7 +36,7 @@ function geolocate(address) {
 const API_ENDPOINT = 'https://openstates.org/graphql';
 
 
-const query = `
+const LEGISLATOR_QUERY = `
 query getLocalLegislators($latitude: Float, $longitude: Float) {
   senator: people(latitude: $latitude, longitude: $longitude, memberOf: "ocd-organization/1a75ab3a-669b-43fe-ac8d-31a2d6923d9a", first: 1) {
     edges {
@@ -58,15 +58,15 @@ query getLocalLegislators($latitude: Float, $longitude: Float) {
 `
 
 exports.handler = async (event, context) => {
-    const query = JSON.parse(event.body);
-    console.log("Requesting", query);
+    const address = JSON.parse(event.body);
+    console.log("Requesting Address", address);
 
-    return geolocate(query).then((location) => {
-      console.log("got location", location);
+    return geolocate(address).then((location) => {
+      console.log("Requesting Coordinates", location);
       return axios.post(
         API_ENDPOINT,
         {
-          query,
+          LEGISLATOR_QUERY,
           variables: {
             latitude: location.lat,
             longitude: location.lon,
