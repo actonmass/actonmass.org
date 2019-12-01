@@ -59,8 +59,10 @@ query getLocalLegislators($latitude: Float, $longitude: Float) {
 
 exports.handler = async (event, context) => {
     const query = JSON.parse(event.body);
+    console.log("Requesting", query);
 
     return geolocate(query).then((location) => {
+      console.log("got location", location);
       return axios.post(
         API_ENDPOINT,
         {

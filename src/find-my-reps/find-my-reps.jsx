@@ -55,7 +55,7 @@ const FindMyReps = ({onQueryReps}) => {
                 repInfo: repInfo
             }));
         }).catch((err)=>{
-            console.log("Failed to query rep:", newQuery);
+            console.error("Failed to query rep:", newQuery, err);
         });
     }
 
