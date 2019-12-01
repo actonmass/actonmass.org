@@ -66,7 +66,7 @@ exports.handler = async (event, context) => {
       return axios.post(
         API_ENDPOINT,
         {
-          LEGISLATOR_QUERY,
+          query: LEGISLATOR_QUERY,
           variables: {
             latitude: location.lat,
             longitude: location.lon,
@@ -78,12 +78,12 @@ exports.handler = async (event, context) => {
           },
         }
       )
-      .then(response => response.json())
+      .then(response => response.data)
       .then((data) => ({
           statusCode: 200,
           body: JSON.stringify({
-            senator: response.data.data.senator.edges[0].node,
-            representative: response.data.data.representative.edges[0].node,
+            senator: data.data.senator.edges[0].node,
+            representative: data.data.representative.edges[0].node,
           })
       }))
       .catch(error => {
