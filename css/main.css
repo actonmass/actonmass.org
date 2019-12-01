@@ -296,3 +296,12 @@ th, td {
 .rep-icon.red img {
     border: red solid 4px;
 }
+
+.committee-block {
+    display: flex;
+    justify-content: space-around;
+}
+
+.committee-block div {
+    width: 50%;
+}

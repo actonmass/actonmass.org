@@ -1,12 +1,11 @@
 ---
 short_title: Safe Communities Act
 full_title: An Act to Protect the Civil Rights and Safety of all MA Residents
-aom_title: Limit spending of local police resources on Trump’s policies
 house_no: H3573
 house_link: https://malegislature.gov/Bills/191/H3573
 senate_no: S1401
 senate_link: https://malegislature.gov/Bills/191/S1401
-committee: public_safety
+committee: joint-public-safety-and-homeland-security
 issue: immigration
 orgs:
   - SCA
@@ -100,4 +99,8 @@ co_sponsors: # Still missing the cosponsors for the equivalent senate bill!
   - john-rogers
   - james-hawkins
   - julian-cyr
+summary:
+  - Limiting spending of local police resources on Trump’s policies
+  - Prohibiting police from asking questions about immigration status
+  - Protecting people of color from racial profiling by police
 ---

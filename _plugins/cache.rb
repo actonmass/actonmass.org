@@ -17,6 +17,13 @@ module Cache
       end
       cache['district_by_id'] = district_by_id
 
+      committee_by_id = {}
+      for committee in site.collections['committees'].docs do
+        id = committee.id.delete_prefix("/committees/")
+        committee_by_id[id] = committee
+      end
+      cache['committee_by_id'] = committee_by_id
+
       site.data['cache'] = cache
     end
   end
