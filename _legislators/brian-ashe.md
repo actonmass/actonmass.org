@@ -1,4 +1,5 @@
 ---
+chamber: house
 district: house-2nd-hampden
 email: Brian.Ashe@mahouse.gov
 end_date: ''

@@ -1,12 +1,13 @@
 ---
+chamber: house
 district: house-32nd-middlesex
 email: ''
 end_date: ''
 facebook: ''
 first_name: Paul
 hometown: Melrose
-malegislature_url: ''
 last_name: Brodeur
+malegislature_url: ''
 party: D
 phone: ''
 picture: https://malegislature.gov/Legislators/Profile/170/P_B1.jpg

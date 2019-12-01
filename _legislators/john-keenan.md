@@ -1,4 +1,5 @@
 ---
+chamber: senate
 district: senate-norfolk-and-plymouth
 email: John.Keenan@masenate.gov
 first_name: John

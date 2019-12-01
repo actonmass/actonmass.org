@@ -1,4 +1,5 @@
 ---
+chamber: house
 district: house-3rd-middlesex
 email: Kate.Hogan@mahouse.gov
 end_date: ''

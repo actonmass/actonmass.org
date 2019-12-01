@@ -1,4 +1,5 @@
 ---
+chamber: senate
 district: senate-middlesex-and-worcester
 email: James.Eldridge@masenate.gov
 first_name: James

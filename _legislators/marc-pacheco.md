@@ -1,4 +1,5 @@
 ---
+chamber: senate
 district: senate-1st-plymouth-and-bristol
 email: Marc.Pacheco@masenate.gov
 first_name: Marc

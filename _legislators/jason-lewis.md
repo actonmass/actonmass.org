@@ -1,4 +1,5 @@
 ---
+chamber: senate
 district: senate-5th-middlesex
 email: Jason.Lewis@masenate.gov
 first_name: Jason

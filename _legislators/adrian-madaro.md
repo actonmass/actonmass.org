@@ -1,4 +1,5 @@
 ---
+chamber: house
 district: house-1st-suffolk
 email: Adrian.Madaro@mahouse.gov
 end_date: ''

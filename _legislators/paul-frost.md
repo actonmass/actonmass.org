@@ -1,4 +1,5 @@
 ---
+chamber: house
 district: house-7th-worcester
 email: Paul.Frost@mahouse.gov
 end_date: ''

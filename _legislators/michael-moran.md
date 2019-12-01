@@ -1,4 +1,5 @@
 ---
+chamber: house
 district: house-18th-suffolk
 email: Michael.Moran@mahouse.gov
 end_date: ''

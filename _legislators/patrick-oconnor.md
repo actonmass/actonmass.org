@@ -1,4 +1,5 @@
 ---
+chamber: senate
 district: senate-plymouth-and-norfolk
 email: Patrick.OConnor@masenate.gov
 first_name: Patrick

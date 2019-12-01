@@ -1,4 +1,5 @@
 ---
+chamber: house
 district: house-5th-bristol
 email: Patricia.Haddad@mahouse.gov
 end_date: ''

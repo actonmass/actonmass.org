@@ -1,4 +1,5 @@
 ---
+chamber: house
 district: house-8th-suffolk
 email: Jay.Livingstone@mahouse.gov
 end_date: ''

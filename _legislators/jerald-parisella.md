@@ -1,4 +1,5 @@
 ---
+chamber: house
 district: house-6th-essex
 email: Jerald.Parisella@mahouse.gov
 end_date: ''

@@ -1,4 +1,5 @@
 ---
+chamber: senate
 district: senate-worcester-hampden-hampshire-and-middlesex
 email: anne.gobi@masenate.gov
 first_name: Anne

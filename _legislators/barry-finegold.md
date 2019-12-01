@@ -1,4 +1,5 @@
 ---
+chamber: senate
 district: senate-2nd-essex-and-middlesex
 email: Barry.Finegold@masenate.gov
 first_name: Barry

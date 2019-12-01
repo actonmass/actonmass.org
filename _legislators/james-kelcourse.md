@@ -1,4 +1,5 @@
 ---
+chamber: house
 district: house-1st-essex
 email: james.kelcourse@mahouse.gov
 end_date: ''

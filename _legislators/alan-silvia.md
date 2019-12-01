@@ -1,4 +1,5 @@
 ---
+chamber: house
 district: house-7th-bristol
 email: Alan.Silvia@mahouse.gov
 end_date: ''

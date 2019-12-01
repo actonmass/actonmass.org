@@ -1,4 +1,5 @@
 ---
+chamber: senate
 district: senate-2nd-worcester
 email: Michael.Moore@masenate.gov
 first_name: Michael

@@ -1,4 +1,5 @@
 ---
+chamber: house
 district: house-1st-bristol
 email: F.JayBarrows@mahouse.gov
 end_date: ''

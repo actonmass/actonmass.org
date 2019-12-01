@@ -1,4 +1,5 @@
 ---
+chamber: senate
 district: senate-1st-essex
 email: Diana.DiZoglio@masenate.gov
 first_name: Diana

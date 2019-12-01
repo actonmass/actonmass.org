@@ -1,4 +1,5 @@
 ---
+chamber: house
 district: house-8th-middlesex
 email: Carolyn.Dykema@mahouse.gov
 end_date: ''

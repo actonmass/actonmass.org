@@ -1,4 +1,5 @@
 ---
+chamber: senate
 district: senate-2nd-essex
 email: Joan.Lovely@masenate.gov
 first_name: Joan

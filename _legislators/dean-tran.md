@@ -1,4 +1,5 @@
 ---
+chamber: senate
 district: senate-worcester-and-middlesex
 email: dean.tran@masenate.gov
 first_name: Dean

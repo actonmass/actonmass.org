@@ -1,4 +1,5 @@
 ---
+chamber: house
 district: house-7th-suffolk
 email: Chynah.Tyler@mahouse.gov
 end_date: ''

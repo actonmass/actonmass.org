@@ -1,4 +1,5 @@
 ---
+chamber: house
 district: house-11th-bristol
 email: Chris.Hendricks@mahouse.gov
 end_date: ''

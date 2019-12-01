@@ -1,4 +1,5 @@
 ---
+chamber: senate
 district: senate-1st-worcester
 email: Harriette.Chandler@masenate.gov
 first_name: Harriette

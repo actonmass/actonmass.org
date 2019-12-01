@@ -1,4 +1,5 @@
 ---
+chamber: house
 district: house-11th-middlesex
 email: Kay.Khan@mahouse.gov
 end_date: ''

@@ -1,4 +1,5 @@
 ---
+chamber: house
 district: house-11th-worcester
 email: Hannah.Kane@mahouse.gov
 end_date: ''

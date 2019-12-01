@@ -1,4 +1,5 @@
 ---
+chamber: house
 district: house-4th-norfolk
 email: James.Murphy@mahouse.gov
 end_date: ''

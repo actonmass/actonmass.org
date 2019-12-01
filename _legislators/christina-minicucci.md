@@ -1,4 +1,5 @@
 ---
+chamber: house
 district: house-14th-essex
 email: christina.minicucci@mahouse.gov
 end_date: ''

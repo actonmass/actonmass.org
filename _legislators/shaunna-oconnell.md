@@ -1,4 +1,5 @@
 ---
+chamber: house
 district: house-3rd-bristol
 email: Shaunna.O'Connell@mahouse.gov
 end_date: ''

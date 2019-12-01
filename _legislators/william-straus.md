@@ -1,4 +1,5 @@
 ---
+chamber: house
 district: house-10th-bristol
 email: William.Straus@mahouse.gov
 end_date: ''

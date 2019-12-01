@@ -1,4 +1,5 @@
 ---
+chamber: house
 district: house-6th-middlesex
 email: maria.robinson@mahouse.gov
 end_date: ''

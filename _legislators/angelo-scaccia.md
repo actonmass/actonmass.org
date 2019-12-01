@@ -1,4 +1,5 @@
 ---
+chamber: house
 district: house-14th-suffolk
 email: Angelo.Scaccia@mahouse.gov
 end_date: ''

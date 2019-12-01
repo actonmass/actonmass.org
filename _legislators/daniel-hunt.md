@@ -1,4 +1,5 @@
 ---
+chamber: house
 district: house-13th-suffolk
 email: Daniel.Hunt@mahouse.gov
 end_date: ''

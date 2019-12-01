@@ -1,4 +1,5 @@
 ---
+chamber: senate
 district: senate-middlesex-and-suffolk
 email: Sal.DiDomenico@masenate.gov
 first_name: Sal

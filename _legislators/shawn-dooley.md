@@ -1,4 +1,5 @@
 ---
+chamber: house
 district: house-9th-norfolk
 email: Shawn.Dooley@mahouse.gov
 end_date: ''

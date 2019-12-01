@@ -1,4 +1,5 @@
 ---
+chamber: senate
 district: senate-cape-and-islands
 email: julian.cyr@masenate.gov
 first_name: Julian

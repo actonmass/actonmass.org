@@ -1,4 +1,5 @@
 ---
+chamber: house
 district: house-10th-hampden
 email: Carlos.Gonzalez@mahouse.gov
 end_date: ''

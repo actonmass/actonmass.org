@@ -1,4 +1,5 @@
 ---
+chamber: house
 district: house-14th-norfolk
 email: Alice.Peisch@mahouse.gov
 end_date: ''

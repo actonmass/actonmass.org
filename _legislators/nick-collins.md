@@ -1,4 +1,5 @@
 ---
+chamber: senate
 district: senate-1st-suffolk
 email: Nick.Collins@masenate.gov
 first_name: Nick

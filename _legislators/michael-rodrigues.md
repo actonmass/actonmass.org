@@ -1,4 +1,5 @@
 ---
+chamber: senate
 district: senate-1st-bristol-and-plymouth
 email: Michael.Rodrigues@masenate.gov
 first_name: Michael

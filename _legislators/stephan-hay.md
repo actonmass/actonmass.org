@@ -1,4 +1,5 @@
 ---
+chamber: house
 district: house-3rd-worcester
 email: Stephan.Hay@mahouse.gov
 end_date: ''

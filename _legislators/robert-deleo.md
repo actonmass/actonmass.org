@@ -1,4 +1,5 @@
 ---
+chamber: house
 district: house-19th-suffolk
 email: Robert.DeLeo@mahouse.gov
 end_date: ''

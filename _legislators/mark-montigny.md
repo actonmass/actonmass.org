@@ -1,4 +1,5 @@
 ---
+chamber: senate
 district: senate-2nd-bristol-and-plymouth
 email: Mark.Montigny@masenate.gov
 first_name: Mark

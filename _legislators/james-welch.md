@@ -1,4 +1,5 @@
 ---
+chamber: senate
 district: senate-hampden
 email: James.Welch@masenate.gov
 first_name: James

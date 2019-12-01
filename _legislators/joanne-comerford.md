@@ -1,4 +1,5 @@
 ---
+chamber: senate
 district: senate-hampshire-franklin-and-worcester
 email: Jo.Comerford@masenate.gov
 first_name: Joanne

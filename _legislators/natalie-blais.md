@@ -1,4 +1,5 @@
 ---
+chamber: house
 district: house-1st-franklin
 email: Natalie.Blais@mahouse.gov
 end_date: ''

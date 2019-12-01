@@ -1,4 +1,5 @@
 ---
+chamber: house
 district: house-2nd-worcester
 email: Jon.Zlotnik@mahouse.gov
 end_date: ''

@@ -1,4 +1,5 @@
 ---
+chamber: house
 district: house-4th-essex
 email: Brad.Hill@mahouse.gov
 end_date: ''

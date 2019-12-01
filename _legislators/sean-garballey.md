@@ -1,4 +1,5 @@
 ---
+chamber: house
 district: house-23rd-middlesex
 email: Sean.Garballey@mahouse.gov
 end_date: ''

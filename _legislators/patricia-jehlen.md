@@ -1,4 +1,5 @@
 ---
+chamber: senate
 district: senate-2nd-middlesex
 email: Patricia.Jehlen@masenate.gov
 first_name: Patricia

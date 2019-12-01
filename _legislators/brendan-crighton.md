@@ -1,4 +1,5 @@
 ---
+chamber: senate
 district: senate-3rd-essex
 email: brendan.crighton@masenate.gov
 first_name: Brendan

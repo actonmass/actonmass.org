@@ -1,4 +1,5 @@
 ---
+chamber: house
 district: house-10th-plymouth
 email: michelle.dubois@mahouse.gov
 end_date: ''

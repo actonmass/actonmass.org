@@ -1,4 +1,5 @@
 ---
+chamber: house
 district: house-12th-essex
 email: Thomas.Walsh@mahouse.gov
 end_date: ''

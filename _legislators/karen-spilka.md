@@ -1,4 +1,5 @@
 ---
+chamber: senate
 district: senate-2nd-middlesex-and-norfolk
 email: Karen.Spilka@masenate.gov
 first_name: Karen

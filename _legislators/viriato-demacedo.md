@@ -1,4 +1,5 @@
 ---
+chamber: senate
 district: senate-plymouth-and-barnstable
 email: Vinny.deMacedo@masenate.gov
 first_name: Viriato

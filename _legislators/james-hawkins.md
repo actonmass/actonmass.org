@@ -1,4 +1,5 @@
 ---
+chamber: house
 district: house-2nd-bristol
 email: james.hawkins@mahouse.gov
 end_date: ''

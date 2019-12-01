@@ -1,4 +1,5 @@
 ---
+chamber: house
 district: house-8th-norfolk
 email: Louis.Kafka@mahouse.gov
 end_date: ''

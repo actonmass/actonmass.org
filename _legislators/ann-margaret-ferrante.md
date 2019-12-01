@@ -1,4 +1,5 @@
 ---
+chamber: house
 district: house-5th-essex
 email: Ann-Margaret.Ferrante@mahouse.gov
 end_date: ''
