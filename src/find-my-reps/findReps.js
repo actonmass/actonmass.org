@@ -4,11 +4,7 @@ function findReps(query) {
   return axios
     .post(
       '/.netlify/functions/findMyReps',
-      {
-        variables: {
-            query: query
-        },
-      }
+      query
     )
     .then(function(response) {
       if (!Object.keys(response.data).length) {

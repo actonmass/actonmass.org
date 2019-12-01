@@ -28,4 +28,4 @@ function geolocate(address) {
 };
 
 
-export default geoLocate;
+module.exports = geoLocate;

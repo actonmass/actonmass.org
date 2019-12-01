@@ -1,6 +1,5 @@
-const axios = require('axios').default;
-
-const geoLocate = require('./geoLocate').default;
+const axios = require('axios');
+const geoLocate = require('./geoLocate');
 
 const { OPEN_STATES_API_KEY } = process.env;
 
