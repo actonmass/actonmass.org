@@ -27,8 +27,8 @@ function renderMap(id, data) {
   }).addTo(map);
 
   map.setMaxBounds([
-    [40, -73],
-    [44, -70]
+    [41, -74],
+    [43, -69]
   ]);
 
   data.forEach(function(datum) {
