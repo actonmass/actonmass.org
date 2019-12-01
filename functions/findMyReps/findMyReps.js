@@ -86,7 +86,10 @@ exports.handler = async (event, context) => {
             representative: response.data.data.representative.edges[0].node,
           })
       }))
-      .catch(error => ({statusCode: 400, body: String(error)}));
+      .catch(error => {
+        console.log(error);
+        return {statusCode: 400, body: String(error)}
+      });
     });
 }
 
