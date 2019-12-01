@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import {render} from 'react-dom';
 
+import OpenStates from './open-states';
+
 
 const Rep = ({name}) => {
     return <div>{name}</div>;
@@ -74,21 +76,7 @@ const FindMyReps = ({onQueryReps}) => {
 
 const renderFindMyReps = (targetID, data) => {
     const targetEl = document.getElementById(targetID);
-
-    function handleQueryReps(query) {
-        return new Promise((resolve, reject) =>{
-            setTimeout(()=>{
-            resolve({
-                senator: {
-                    name: "Test Senator"
-                },
-                representative: {
-                    name: "Test Representative"
-                }
-            });}, 2000);
-        });
-    }
-    render(<FindMyReps onQueryReps={handleQueryReps} {...data} />, targetEl);
+    render(<FindMyReps onQueryReps={OpenStates.findReps} {...data} />, targetEl);
 }
 
 export default { renderFindMyReps };
