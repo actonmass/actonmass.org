@@ -1,8 +1,6 @@
 import React, { useState } from 'react';
 import {render} from 'react-dom';
-
-import OpenStates from './open-states';
-
+import findReps from './findReps';
 
 const Rep = ({name}) => {
     return <div>{name}</div>;
@@ -76,7 +74,7 @@ const FindMyReps = ({onQueryReps}) => {
 
 const renderFindMyReps = (targetID, data) => {
     const targetEl = document.getElementById(targetID);
-    render(<FindMyReps onQueryReps={OpenStates.findReps} {...data} />, targetEl);
+    render(<FindMyReps onQueryReps={findReps} {...data} />, targetEl);
 }
 
 export default { renderFindMyReps };
