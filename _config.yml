@@ -41,6 +41,8 @@ collections:
     output: false
   districts:
     output: false
+  bill_events:
+    output: false
 defaults:
   - scope:
       path: ""

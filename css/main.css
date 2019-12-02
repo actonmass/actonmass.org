@@ -306,3 +306,15 @@ th, td {
 .committee-block div {
     width: 50%;
 }
+
+.good-vote i {
+    color: green;
+}
+
+.bad-vote i {
+    color: red;
+}
+
+.unk-vote i {
+    color: grey;
+}

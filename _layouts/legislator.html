@@ -12,13 +12,42 @@ layout: default
   <dd>{{leg.email}}</dd>
 </dl>
 
-<h2>Committees</h2>
+{% if leg.committees.size > 0 %}
+  <h2>Committees</h2>
+{% endif %}
 
-{% for committee in leg.committees %}
+{% assign committees = leg.committees | sort: "priority" %}
+{% for committee in committees %}
   <li>
     {% if committee.role != "Member" %}
       <strong>{{committee.role}}</strong>
     {% endif %}
     {{ committee.title }}
   </li>
+{% endfor %}
+
+{% if leg.votes.size > 0 %}
+  <h2>Progressive bill history</h2>
+{% endif %}
+
+{% for vote in leg.votes %}
+  {% case vote.is_progressive %}
+    {% when true %}
+      <li class="good-vote"><i class="fas fa-check-square"></i> {{vote.date | date: "%Y" }} - {{ vote.description }}</li>
+    {% when false %}
+      <li class="bad-vote"><i class="fas fa-times"></i> {{vote.date | date: "%Y" }} - {{ vote.description }}</li>
+    {% else %}
+      <li class="unk-vote"><i class="fas fa-question-circle"></i> {{vote.date | date: "%Y" }} - {{ vote.description }}</li>
+  {% endcase %}
+{% endfor %}
+
+
+<h2> Co-sponsored bills</h2>
+
+{% for bill in site.bills %}
+  {% if leg.cosponsored_bills contains bill.id %}
+    <li class="good-vote"><i class="fas fa-check-square"></i> Co-sponsored {{bill.article}} {{bill.short_title}}</li>
+  {% else %}
+    <li class="bad-vote"><i class="fas fa-times"></i> Hasn't co-sponsored {{bill.article}} {{bill.short_title}}</li>
+  {% endif %}
 {% endfor %}
