@@ -57,9 +57,9 @@ Informal sessions are sparsely attended, typically just 2-5 Reps in the chamber 
 
 The legislature now faces three problems, all of their own making:.
 
-It’s hard to pass anything: Any Rep present in informal session can prevent the bill from advancing, which makes it hard to see how the bill could progress.  Any progressive Rep could stop a bill from moving if the corporate tax break remains in the bill.  Any conservative Rep could stop the bill from moving unless their own demands are met in the final text.
-The governor has more power:  The governor has the ability to veto individual line items in the budget, and now that the House can no longer meet in formal sessions, there is no way of holding a roll call vote to override the veto.  The governor does routinely use this power and might be expected to do so now that he has an opportunity to veto without override.
-The bill dies automatically at the end of the year:  All appropriations bills must be passed in the year they are created, so there’s no easy way to pass many of the funding measures included in this supplemental in January.  Those items would need a new bill and to go through the committee process from scratch.
+1. **It’s hard to pass anything**: Any Rep present in informal session can prevent the bill from advancing, which makes it hard to see how the bill could progress.  Any progressive Rep could stop a bill from moving if the corporate tax break remains in the bill.  Any conservative Rep could stop the bill from moving unless their own demands are met in the final text.
+2. **The governor has more power**:  The governor has the ability to veto individual line items in the budget, and now that the House can no longer meet in formal sessions, there is no way of holding a roll call vote to override the veto.  The governor does routinely use this power and might be expected to do so now that he has an opportunity to veto without override.
+3. **The bill dies automatically at the end of the year**:  All appropriations bills must be passed in the year they are created, so there’s no easy way to pass many of the funding measures included in this supplemental in January.  Those items would need a new bill and to go through the committee process from scratch.
 
 
 ## DeLeo’s Threat:
