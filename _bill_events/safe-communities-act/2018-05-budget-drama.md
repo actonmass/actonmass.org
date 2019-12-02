@@ -7,8 +7,8 @@ description: |
   3) Conference committee stripped from final budget  
 progressive_vote: yes
 vote_descriptions:
-  yes: Voted for including the Safe Communities Act in the Senate version of the budget
-  no: Voted against including the Safe Communities Act in the Senate version of the budget
+  yes: Voted for including the [Safe Communities Act](/bills/safe-communities-act/) in the Senate version of the budget
+  no: Voted against including the [Safe Communities Act](/bills/safe-communities-act/) in the Senate version of the budget
 votes:
   michael-barrett: yes
   adam-hinds: yes

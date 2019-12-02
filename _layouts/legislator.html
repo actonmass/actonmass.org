@@ -33,11 +33,20 @@ layout: default
 {% for vote in leg.votes %}
   {% case vote.is_progressive %}
     {% when true %}
-      <li class="good-vote"><i class="fas fa-check-square"></i> {{vote.date | date: "%Y" }} - {{ vote.description }}</li>
+      <li class="good-vote">
+        <i class="fas fa-check-square"></i>
+        {{vote.date | date: "%Y" }} - {{ vote.description | markdownify | remove: "<p>" | remove: "</p>" }}
+      </li>
     {% when false %}
-      <li class="bad-vote"><i class="fas fa-times"></i> {{vote.date | date: "%Y" }} - {{ vote.description }}</li>
+      <li class="bad-vote">
+        <i class="fas fa-times"></i>
+        {{vote.date | date: "%Y" }} - {{ vote.description | markdownify | remove: "<p>" | remove: "</p>" }}
+      </li>
     {% else %}
-      <li class="unk-vote"><i class="fas fa-question-circle"></i> {{vote.date | date: "%Y" }} - {{ vote.description }}</li>
+      <li class="unk-vote">
+        <i class="fas fa-question-circle"></i>
+        {{vote.date | date: "%Y" }} - {{ vote.description | markdownify | remove: "<p>" | remove: "</p>" }}
+      </li>
   {% endcase %}
 {% endfor %}
 
@@ -46,8 +55,8 @@ layout: default
 
 {% for bill in site.bills %}
   {% if leg.cosponsored_bills contains bill.id %}
-    <li class="good-vote"><i class="fas fa-check-square"></i> Co-sponsored {{bill.article}} {{bill.short_title}}</li>
+    <li class="good-vote"><i class="fas fa-check-square"></i> Co-sponsored {{bill.article}} <a href="{{bill.id}}">{{bill.short_title}}</a></li>
   {% else %}
-    <li class="bad-vote"><i class="fas fa-times"></i> Hasn't co-sponsored {{bill.article}} {{bill.short_title}}</li>
+    <li class="bad-vote"><i class="fas fa-times"></i> Hasn"t co-sponsored {{bill.article}} <a href="{{bill.id}}">{{bill.short_title}}</a></li>
   {% endif %}
 {% endfor %}

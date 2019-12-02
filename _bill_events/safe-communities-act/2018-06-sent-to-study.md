@@ -3,9 +3,9 @@ date: 2018-06-06
 description: Sent to study by the Public Safety Committee
 progressive_vote: no
 vote_descriptions:
-  yes: Voted to send the Safe Communities Act to study
-  unk: Won't tell us how they voted on the Safe Communities Act in committee
-  no: Voted against sending the Safe Communities Act to study
+  yes: Voted to send the [Safe Communities Act](/bills/safe-communities-act/) to study
+  unk: Won't tell us how they voted on the [Safe Communities Act](/bills/safe-communities-act/) in committee
+  no: Voted against sending the [Safe Communities Act](/bills/safe-communities-act/) to study
 votes:
   michael-moore: unk
   michael-rush: no

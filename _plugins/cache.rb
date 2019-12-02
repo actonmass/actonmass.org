@@ -90,7 +90,6 @@ module Cache
       generate_legislator_votes(site)
       generate_legislator_cosponsored_bills(site)
 
-      warn site.data["cache"]["legislators_by_id"]["liz-miranda"]["cosponsored_bills"]
     end
   end
 end
