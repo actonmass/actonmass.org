@@ -14,7 +14,7 @@ And what’s worse, by failing to act this year by November 20th, the legislatur
 
 And every day that the legislature fails to close out Fiscal Year 19, the state is losing an estimated $30,000 in interest it would have accrued had the books been completed.  The State Comptroller estimates this is going to cost the state $1.2M by Dec 11th.
 
-##How did we get into this mess?
+## How did we get into this mess?
 
 The main sticking point is a corporate tax break that the House chose to include in their version of the supplemental budget, but the Senate rejected.
 
@@ -74,7 +74,7 @@ Six legislators are on the conference committee that can still produce a comprom
 
 If your Rep isn’t on the list, then still call them and ask them to make their voice heard to Rep. Aaron Michlewitz.  Rep. Michlewitz is the chair of the House Ways & Means committee and he could ensure a compromise that doesn’t threaten critical funding for our state and doesn’t give the biggest corporations in Massachusetts a tax break.
 
-The House & Senate will meet in informal session today at 11AM.  The House may try to advance their version of the bill 
+The House & Senate will meet in informal session today at 11AM.  The House may try to advance their version of the bill.
 
 Conference Committee Members:
 
