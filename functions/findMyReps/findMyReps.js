@@ -1,6 +1,6 @@
 const axios = require('axios');
 
-const { OPEN_STATES_API_KEY } = process.env;
+const { OPEN_STATES_API_KEY, GOOGLE_API_KEY } = process.env;
 
 const GetRepShortID = (info) => {
     const firstName = info.givenName.normalize("NFD").replace(/[\u0300-\u036f]/g, "");
@@ -9,32 +9,26 @@ const GetRepShortID = (info) => {
 }
 
 function geolocate(address) {
-    return new Promise((resolve, reject) => {
-        resolve({
-            lat: "42.363969",
-            lon: "-71.113575",
-        });
+  return axios
+    .get('https://maps.googleapis.com/maps/api/geocode/json', {
+      params: {
+        address: `${address.streetAddress}, ${address.city}`,
+        key: GOOGLE_API_KEY,
+      },
+    })
+    .then(function(response) {
+      if (response.data.results.length) {
+        return response.data.results[0].geometry.location
+      } else {
+        // couldn't geolocate the address
+        throw new Error(
+          JSON.stringify({
+            name: "Couldn't locate that Massachusetts address.",
+            data: response.data,
+          })
+        )
+      }
     });
-  // return axios
-  //   .get('https://maps.googleapis.com/maps/api/geocode/json', {
-  //     params: {
-  //       address: address,
-  //       key: functions.config().keys.google_api_key,
-  //     },
-  //   })
-  //   .then(function(response) {
-  //     if (response.data.results.length) {
-  //       return response.data.results[0].geometry.location
-  //     } else {
-  //       // couldn't geolocate the address
-  //       throw new Error(
-  //         JSON.stringify({
-  //           name: "Couldn't locate that Massachusetts address.",
-  //           data: response.data,
-  //         })
-  //       )
-  //     }
-  //   })
 };
 
 
@@ -78,7 +72,7 @@ exports.handler = async (event, context) => {
           query: LEGISLATOR_QUERY,
           variables: {
             latitude: location.lat,
-            longitude: location.lon,
+            longitude: location.lng,
           },
         },
         {
@@ -89,6 +83,7 @@ exports.handler = async (event, context) => {
       )
       .then(response => response.data)
       .then((data) => {
+        console.log("Received", data);
         const senData = data.data.senator.edges[0].node
         const repData = data.data.representative.edges[0].node
         return {
