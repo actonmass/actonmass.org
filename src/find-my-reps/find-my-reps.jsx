@@ -47,9 +47,10 @@ const Reps = ({repInfo, onClearQuery, allLegislatorData}) => {
     );
 }
 
-const Form = ({onSubmitQuery}) => {
+const Form = ({onSubmitQuery, error}) => {
     const [streetAddress, setStreetAddress] = useState("");
     const [city, setCity] = useState("");
+    const errorText = error ? "We couldn't locate that address" : "";
     return (
         <div style={{position:"absolute", top:0, bottom:0, left: 0, right: 0, display:"flex", textTransform:"uppercase", justifyContent:"center", alignItems: "center"}}>
             <div style={{width: 200, paddingRight:50}}>Please enter your address so we can help you contact your rep.</div>
@@ -62,6 +63,7 @@ const Form = ({onSubmitQuery}) => {
                         city: city
                     });
                 }} disabled={!streetAddress || !city}>Submit</button>
+                <span style={{color:"red"}}>{errorText}</span>
             </div>
         </div>
     );
@@ -72,19 +74,7 @@ const FindMyReps = ({onQueryReps, legislatorInfo}) => {
     const sessionQuery = JSON.parse(window.sessionStorage.getItem("repQuery"));
     const [query, setQuery] = useState(sessionQuery !== null ? sessionQuery.query : null);
     const [repInfo, setRepInfo] = useState(sessionQuery !== null ? sessionQuery.repInfo : null);
-
-    function handleQueryReps(newQuery) {
-        setQuery(newQuery);
-        onQueryReps(newQuery).then((repInfo)=> {
-            setRepInfo(repInfo);
-            window.sessionStorage.setItem("repQuery", JSON.stringify({
-                query: newQuery,
-                repInfo: repInfo
-            }));
-        }).catch((err)=>{
-            console.error("Failed to query rep:", newQuery, err);
-        });
-    }
+    const [error, setError] = useState(false);
 
     const clearQuery = () => {
         window.sessionStorage.removeItem("repQuery");
@@ -92,8 +82,25 @@ const FindMyReps = ({onQueryReps, legislatorInfo}) => {
         setRepInfo(null);
     };
 
+    function handleQueryReps(newQuery) {
+        setQuery(newQuery);
+        setError(false);
+        onQueryReps(newQuery).then((repInfo)=> {
+            setRepInfo(repInfo);
+            window.sessionStorage.setItem("repQuery", JSON.stringify({
+                query: newQuery,
+                repInfo: repInfo
+            }));
+            setError(false);
+        }).catch((err)=>{
+            console.error("Query failed:", newQuery);
+            clearQuery();
+            setError(true);
+        });
+    }
+
     if (query === null) {
-        return <Form onSubmitQuery={handleQueryReps} />;
+        return <Form onSubmitQuery={handleQueryReps} error={error} />;
     }
     return <Reps repInfo={repInfo} onClearQuery={clearQuery} allLegislatorData={legislatorInfo}/>;
 };

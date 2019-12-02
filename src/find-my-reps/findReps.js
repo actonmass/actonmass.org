@@ -15,9 +15,6 @@ function findReps(query) {
         representative: response.data.representative,
       }
     })
-    .catch(function(error) {
-      console.error(error)
-    })
 }
 
 
