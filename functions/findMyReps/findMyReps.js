@@ -3,6 +3,9 @@ const axios = require('axios');
 const { OPEN_STATES_API_KEY, GOOGLE_API_KEY } = process.env;
 
 const GetRepShortID = (info) => {
+    console.log("Shorttening", info);
+    if (!info.givenName) { info.givenName = info.name.split(" ")[0]; }
+    if (!info.familyName) { info.familyName = info.name.split(" ").pop(); }
     const firstName = info.givenName.normalize("NFD").replace(/[\u0300-\u036f]/g, "");
     const lastName = info.familyName.normalize("NFD").replace(/[\u0300-\u036f]/g, "");
     return `${firstName.toLowerCase()}-${lastName.toLowerCase()}`;
