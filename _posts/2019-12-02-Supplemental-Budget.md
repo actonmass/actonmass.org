@@ -83,4 +83,5 @@ Conference Committee Members:
 - Rep. Todd Smola (R-Warren): 617.722.2100
 - Sen. Michael Rodrigues (D-Westport): 617.722.1114
 - Sen. Cindy Friedman (D-Arlington): 617.722.1432
-- Sen. Vinnie DeMacedo (R-Plymouth): 617.722.1330
+- ~~Sen. Vinnie DeMacedo (R-Plymouth): 617.722.1330~~ After publication, Sen. DeMacedo was replaced with Sen. Humason
+- Sen. Donald Humason (R-Westfield): 617.722.1415
