@@ -35,42 +35,56 @@ function getIcon(leg) {
   });
 }
 
-const LegislatorMap = ({ data }) => {
-  return (
-    <div>
-      <Map
-        center={defaultCenter}
-        zoom={defaultZoom}
-        maxZoom={12}
-        minZoom={8}
-        maxBounds={[
-          [41, -74],
-          [43, -69]
-        ]}
-      >
-        <TileLayer attribution={attribution} url={tileURL} />
-        {data.map(
-          leg =>
-            leg.chamber == "house" && (
-              <div>
-              <Marker
-                position={[leg.lat, leg.lng]}
-                icon={getIcon(leg)}
-                key={leg.href}
-              >
-                <Popup offset={[0, -20]}>
-                  <span>
-                    <a href={leg.href}>{leg.name}</a> - {leg.party}
-                  </span>
-                </Popup>
-              </Marker>
-              </div>
-            )
-        )}
-      </Map>
-    </div>
-  );
-};
+class LegislatorMap extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      chamber: "house"
+    };
+  }
+
+  render() {
+    const { data } = this.props;
+    return (
+      <div>
+        <ul>
+          <li><a href="JavaScript:void(0);" onClick={() => this.setState({chamber: "house"}) }>Representatives</a></li>
+          <li><a href="JavaScript:void(0);" onClick={() => this.setState({chamber: "senate"}) }>Senators</a></li>
+        </ul>
+        <Map
+          center={defaultCenter}
+          zoom={defaultZoom}
+          maxZoom={12}
+          minZoom={8}
+          maxBounds={[
+            [41, -74],
+            [43, -69]
+          ]}
+        >
+          <TileLayer attribution={attribution} url={tileURL} />
+          {data.map(
+            leg =>
+              leg.chamber == this.state.chamber && (
+                <div>
+                  <Marker
+                    position={[leg.lat, leg.lng]}
+                    icon={getIcon(leg)}
+                    key={leg.href}
+                  >
+                    <Popup offset={[0, -20]}>
+                      <span>
+                        <a href={leg.href}>{leg.name}</a> - {leg.party}
+                      </span>
+                    </Popup>
+                  </Marker>
+                </div>
+              )
+          )}
+        </Map>
+      </div>
+    );
+  }
+}
 
 function renderMap(targetID, data) {
   const targetEl = document.getElementById(targetID);
