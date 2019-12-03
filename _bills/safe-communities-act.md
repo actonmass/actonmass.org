@@ -15,9 +15,11 @@ summary:
 orgs:
   - SCA
   - MIRA
-lead_sponsors:
+house_lead_sponsors:
   - liz-miranda
   - ruth-balser
+senate_lead_sponsors:
+  - james-eldridge
 co_sponsors:
   - aaron-vega
   - adam-hinds
