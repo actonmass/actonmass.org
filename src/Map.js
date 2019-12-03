@@ -1,5 +1,6 @@
 import React from "react";
 import { render } from "react-dom";
+import ReactDOMServer from "react-dom/server";
 import L from "leaflet";
 import { Map, TileLayer, Marker, Popup } from "react-leaflet";
 
@@ -10,31 +11,33 @@ const tileURL =
 const attribution =
   'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.mapbox.com/">Mapbox</a>';
 
-function getIconClass(datum) {
-  if (datum.style === "green") {
+function getIconClass(leg) {
+  if (leg.style === "green") {
     return "rep-icon green";
   }
   return "rep-icon red";
 }
 
-function getIcon(datum) {
+const LegIcon = ({ leg }) => {
+  return (
+    // <a href={leg.href}>
+    <img src={leg.img} alt="Avatar" />
+    // </a>
+  );
+};
+
+function getIcon(leg) {
   return L.divIcon({
-    className: getIconClass(datum),
-    html:
-      '<a href="' +
-      datum.href +
-      '"><img src="' +
-      datum.img +
-      '" alt="Avatar"></a>',
-    iconSize: [30, 42],
-    iconAnchor: [15, 42]
+    className: getIconClass(leg),
+    html: ReactDOMServer.renderToStaticMarkup(<LegIcon leg={leg} />),
+    iconSize: [0, 0],
+    iconAnchor: [24, 28]
   });
 }
 
 const LegislatorMap = ({ data }) => {
   return (
     <div>
-      <h1>The map:</h1>
       <Map
         center={defaultCenter}
         zoom={defaultZoom}
@@ -47,22 +50,23 @@ const LegislatorMap = ({ data }) => {
       >
         <TileLayer attribution={attribution} url={tileURL} />
         {data.map(
-          datum =>
-            datum.chamber == "house" && (
+          leg =>
+            leg.chamber == "house" && (
+              <div>
               <Marker
-                position={[datum.lat, datum.lng]}
-                icon={getIcon(datum)}
-                key={datum.href}
-              ></Marker>
+                position={[leg.lat, leg.lng]}
+                icon={getIcon(leg)}
+                key={leg.href}
+              >
+                <Popup offset={[0, -20]}>
+                  <span>
+                    <a href={leg.href}>{leg.name}</a> - {leg.party}
+                  </span>
+                </Popup>
+              </Marker>
+              </div>
             )
         )}
-        <Marker position={defaultCenter}>
-          <Popup>
-            <span>
-              A pretty CSS3 popup. <br /> Easily customizable.
-            </span>
-          </Popup>
-        </Marker>
       </Map>
     </div>
   );
