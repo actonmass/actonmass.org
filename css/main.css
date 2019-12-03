@@ -285,6 +285,44 @@ th, td {
     margin-bottom: 20px;
 }
 
+#find-my-reps {
+    height: 204px;
+    position: relative;
+    background-color: #F1F5F8;
+}
+
+#find-my-reps input {
+    width: 300px;
+    padding: 5px;
+    margin-bottom: 2px;
+}
+
+.lds-dual-ring {
+  display: inline-block;
+  width: 80px;
+  height: 80px;
+}
+.lds-dual-ring:after {
+  content: " ";
+  display: block;
+  width: 64px;
+  height: 64px;
+  margin: 8px;
+  border-radius: 50%;
+  border: 6px solid #11447B;
+  border-color: #11447B transparent #11447B transparent;
+  animation: lds-dual-ring 1.2s linear infinite;
+}
+
+@keyframes lds-dual-ring {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
 .rep-icon img {
     border-radius: 50%;
 

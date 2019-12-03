@@ -82,3 +82,13 @@ All branches (draft versions of the website) are automatically deployed to previ
 
 Branch deployment should not take more than 2 minutes. 
 If a deployment doesn't work, logs can be checked on [Netlify](https://app.netlify.com/sites/actonmass/deploys) (requires login).
+
+
+# Development #
+
+To build and serve locally
+```
+npm install
+npm run dev
+```
+
