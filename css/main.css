@@ -281,6 +281,13 @@ th, td {
 
 .map-block {
     height: 600px;
+    margin-bottom: 20px;
+}
+
+.leaflet-container {
+    height: 600px;
+    width: 100%;
+    margin-bottom: 20px;
 }
 
 .rep-icon img {
