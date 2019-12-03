@@ -279,11 +279,6 @@ th, td {
     overflow-x: hidden;
 }
 
-.map-block {
-    height: 600px;
-    margin-bottom: 20px;
-}
-
 .leaflet-container {
     height: 600px;
     width: 100%;
@@ -291,18 +286,16 @@ th, td {
 }
 
 .rep-icon img {
-    height: 40px;
-    width: 40px;
     border-radius: 50%;
 
 }
 
 .rep-icon.green img {
-    border: green solid 4px;
+    border: green solid;
 }
 
 .rep-icon.red img {
-    border: red solid 4px;
+    border: red solid;
 }
 
 .committee-block {

@@ -18,20 +18,28 @@ function getIconClass(leg) {
   return "rep-icon red";
 }
 
-const LegIcon = ({ leg }) => {
+const LegIcon = ({ leg, size }) => {
   return (
     // <a href={leg.href}>
-    <img src={leg.img} alt="Avatar" />
+    <img
+      src={leg.img}
+      alt="Avatar"
+      width={`${40 * size}px`}
+      height={`${40 * size}px`}
+      style={{borderWidth: 4 * size}}
+    />
     // </a>
   );
 };
 
-function getIcon(leg) {
+function getIcon(leg, refSize) {
   return L.divIcon({
     className: getIconClass(leg),
-    html: ReactDOMServer.renderToStaticMarkup(<LegIcon leg={leg} />),
+    html: ReactDOMServer.renderToStaticMarkup(
+      <LegIcon leg={leg} size={refSize} />
+    ),
     iconSize: [0, 0],
-    iconAnchor: [24, 28]
+    iconAnchor: [24 * refSize, 28 * refSize]
   });
 }
 
@@ -39,19 +47,72 @@ class LegislatorMap extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      chamber: "house"
+      chamber: "house",
+      refSize: 1
     };
   }
 
+  getIconSize = zoomLevel => {
+    switch (zoomLevel) {
+      case 8:
+        return 0.5;
+      case 9:
+        return 0.5;
+      case 10:
+        return 1;
+      case 11:
+        return 1;
+      case 12:
+        return 1.5;
+    }
+  };
+
+  onZoomlevelschange = event => {
+    this.setState({ refSize: this.getIconSize(this.currentZoom) });
+  };
+
+  get currentZoom() {
+    return this.map.leafletElement.getZoom();
+  }
+
+  shouldComponentUpdate(nextProps, nextState) {
+    return JSON.stringify(this.state) != JSON.stringify(nextState)
+  }
+
   render() {
+    console.log("render");
     const { data } = this.props;
+    const refSize = this.state.refSize;
     return (
       <div>
         <ul>
-          <li><a href="JavaScript:void(0);" onClick={() => this.setState({chamber: "house"}) }>Representatives</a></li>
-          <li><a href="JavaScript:void(0);" onClick={() => this.setState({chamber: "senate"}) }>Senators</a></li>
+          <li>
+            <a
+              href="#"
+              onClick={e => {
+                e.preventDefault();
+                this.setState({ chamber: "house" });
+              }}
+            >
+              Representatives
+            </a>
+          </li>
+          <li>
+            <a
+              href="#"
+              onClick={e => {
+                e.preventDefault();
+                this.setState({ chamber: "senate" });
+              }}
+            >
+              Senators
+            </a>
+          </li>
         </ul>
         <Map
+          ref={ref => {
+            this.map = ref;
+          }}
           center={defaultCenter}
           zoom={defaultZoom}
           maxZoom={12}
@@ -60,24 +121,23 @@ class LegislatorMap extends React.Component {
             [41, -74],
             [43, -69]
           ]}
+          onZoomEnd={this.onZoomlevelschange}
         >
           <TileLayer attribution={attribution} url={tileURL} />
           {data.map(
             leg =>
               leg.chamber == this.state.chamber && (
-                <div>
-                  <Marker
-                    position={[leg.lat, leg.lng]}
-                    icon={getIcon(leg)}
-                    key={leg.href}
-                  >
-                    <Popup offset={[0, -20]}>
-                      <span>
-                        <a href={leg.href}>{leg.name}</a> - {leg.party}
-                      </span>
-                    </Popup>
-                  </Marker>
-                </div>
+                <Marker
+                  position={[leg.lat, leg.lng]}
+                  icon={getIcon(leg, refSize)}
+                  key={leg.href}
+                >
+                  <Popup offset={[0, -20 * refSize]}>
+                    <span>
+                      <a href={leg.href}>{leg.name}</a> - {leg.party}
+                    </span>
+                  </Popup>
+                </Marker>
               )
           )}
         </Map>
