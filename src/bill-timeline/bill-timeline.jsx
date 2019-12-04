@@ -1,7 +1,29 @@
-import React, { useState } from 'react';
+import React, { useLayoutEffect, useState, useEffect, useRef } from 'react';
 import {render} from 'react-dom';
 import moment from 'moment'; 
 
+
+function useTargetWidth() {
+    const targetRef = useRef();
+    const [dimensions, setDimensions] = useState({ width:0, height: 0 });
+    const handleResize = () => {
+        if (targetRef.current) {
+            setDimensions({
+              width: targetRef.current.offsetWidth,
+              height: targetRef.current.offsetHeight
+            });
+          }
+    };
+    useLayoutEffect(() => {handleResize();}, []);
+
+    useEffect(() => {
+        window.addEventListener('resize', handleResize);
+        return () => {
+            window.removeEventListener('resize', handleResize);
+        };
+    });
+    return {targetRef, dimensions};
+};
 
 const Symbol = ({symbol, x, lineLevel}) => {
     if (symbol === "small") {
@@ -15,20 +37,18 @@ const Symbol = ({symbol, x, lineLevel}) => {
             </g>
         );
     } else if (symbol === "big") {
-        return <circle cx={x} cy={lineLevel} r={9} style={{fill: "#e59626"}} />;
+        return <circle cx={x} cy={lineLevel} r={9} style={{fill: "#123e83"}} />;
     }
 };
 
-const Label = ({text, date, x, lineLevel, center}) => {
+const Label = ({text, date, x, lineLevel}) => {
     const textHeight = 12;
-    const margin = 16;
     const dateTextHeight = 8;
-    const dateMargin = 8;
     return (
-        <g>
-            <text x={x} y={lineLevel + textHeight + margin} style={{font: `bold ${textHeight}px sans-serif`}} textAnchor={center ? "middle" : "start"}>{text}</text>
-            <text x={x} y={lineLevel + textHeight + dateTextHeight + margin + dateMargin} style={{font: `${dateTextHeight}px sans-serif`}} textAnchor={center ? "middle" : "start"}>{date}</text>
-        </g>
+        <div style={{position:"absolute", left:x, top:0}}>
+            <div style={{fontSize: textHeight, fontWeight: 900}}>{text}</div>
+            <div style={{fontSize: dateTextHeight, fontWeight: 300}}>{date}</div>
+        </div>
     );
 };
 
@@ -48,7 +68,7 @@ const TimeSpan = ({x1, x2, lineLevel, text}) => {
 };
 
 
-const Timeline = ({width, height, margin, events}) => {
+const Timeline = ({width, margin, events}) => {
     const sortedEvents = [...events].sort((a, b)=>{
         moment(a.date) - moment(b.date);
     });
@@ -66,42 +86,62 @@ const Timeline = ({width, height, margin, events}) => {
     let spans = [];
     let labels = [];
 
-    const lineLevel = height * 0.4;
+    const lineLevel = 50;
+
 
     events.forEach((event, i) => {
         const dateMoment = moment(event.date);
         symbols.push(<Symbol key={i} x={dateToPixel(dateMoment)} lineLevel={lineLevel} {...event} />);
-        labels.push(<Label key={i} x={dateToPixel(dateMoment)} lineLevel={lineLevel} {...event} />);
+
         if (event.showDurationFromToday) {
             spans.push(<TimeSpan key={i} x1={dateToPixel(dateMoment)} x2={dateToPixel(today)} lineLevel={lineLevel} text={`${today.diff(dateMoment, "days")} days...`} />);
         }
     });
     symbols.push(<Symbol key={"today"} x={dateToPixel(today)} lineLevel={lineLevel} symbol="small" />);
-    labels.push(<Label key={"today"} text="Today" date={today.format("YYYY-MM-DD")} x={dateToPixel(today)} lineLevel={lineLevel} center={true} />);
+
+    let labelDetails = events.map((event) => ({
+        date: event.date,
+        x: dateToPixel(moment(event.date)) - 10,
+        text: event.text
+    }));
+    labelDetails.push({date: today.format("YYYY-MM-DD"), x: dateToPixel(today) -10, text: "Today"});
+    labelDetails.sort((a, b) => {return moment(a.date) - moment(b.date);}).reverse();
+
+    labelDetails.forEach((labelDetails, i) => {
+        const dateMoment = moment(labelDetails.date);
+        labels.push(<Label key={i} x={labelDetails.x} lineLevel={lineLevel} {...labelDetails} />);
+    });
 
     return (
-        <svg height={height} width={width + margin*2}>
-            <line x1={margin} y1={lineLevel} x2={width+margin} y2={lineLevel} style={{stroke:"#123e83", strokeWidth:4}} />
-            {labels}
-            {spans}
-            {symbols}
-        </svg> 
+        <div>
+            <svg height={65} width={width + margin*2}>
+                <line x1={margin} y1={lineLevel} x2={width+margin} y2={lineLevel} style={{stroke:"#123e83", strokeWidth:4}} />
+                {spans}
+                {symbols}
+            </svg> 
+            <div style={{width: width + margin*2, position:"relative", height: 80}}>
+                {labels}
+            </div>
+        </div>
     );
 };
 
 
 const BillTimeline = ({}) => {
+    const {targetRef, dimensions} = useTargetWidth();
+
     const events = [
-        {date: "2019-08", showDurationFromToday: true, text: "Bill Filed", symbol: "small", center: true},
-        {date: "2020-03-02", showDurationFromToday: false, text: "Hearing Scheduled", symbol: "target", center: false},
-        {date: "2020-07", showDurationFromToday: false, text: "Session Over", symbol: "big", center: true},
+        {date: "2019-08", showDurationFromToday: true, text: "Bill Filed", symbol: "small"},
+        {date: "2020-01-02", showDurationFromToday: false, text: "Hearing Scheduled", symbol: "target"},
+        {date: "2020-03-03", showDurationFromToday: false, text: "Session Over", symbol: "big"},
     ];
 
+
     return (
-        <div style={{background: "#a1beff", display:"flex", justifyContent:"center", alignItems:"center", flexDirection:"column"}}>
+        <div ref={targetRef} style={{background: "#a1beff", display:"flex", justifyContent:"center", alignItems:"center", flexDirection:"column"}}>
             <div>
                 <div style={{textTransform: "uppercase", fontWeight:600, marginTop:50}}>Timeline of Bill during this session:</div> 
-                <Timeline events={events} height={200} width={500} margin={50}/>
+                <Timeline events={events} width={dimensions.width * 0.7} margin={50}/>
             </div>
         </div>
     );
