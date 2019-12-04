@@ -165,6 +165,8 @@ layout: new-base
 </main>
 
 
+{% include bill-timeline.html timeline = bill.timeline %}
+
 <h2>History of the bill</h2>
 
 {% for event_ in bill.history%}

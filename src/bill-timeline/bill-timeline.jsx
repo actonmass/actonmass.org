@@ -91,7 +91,7 @@ const Timeline = ({width, margin, events}) => {
     const lineLevel = 50;
 
 
-    events.forEach((event, i) => {
+    sortedEvents.forEach((event, i) => {
         const dateMoment = moment(event.date);
         symbols.push(<Symbol key={i} x={dateToPixel(dateMoment)} lineLevel={lineLevel} {...event} />);
 
@@ -101,7 +101,7 @@ const Timeline = ({width, margin, events}) => {
     });
     symbols.push(<Symbol key={"today"} x={dateToPixel(today)} lineLevel={lineLevel} symbol="small" />);
 
-    let labelDetails = events.map((event) => ({
+    let labelDetails = sortedEvents.map((event) => ({
         date: event.date,
         x: dateToPixel(moment(event.date)) - 10,
         text: event.text
@@ -131,21 +131,22 @@ const Timeline = ({width, margin, events}) => {
 };
 
 
-const BillTimeline = ({}) => {
+const BillTimeline = ({filingDate, sessionEndDate, filingTitle, events}) => {
     const {targetRef, dimensions} = useTargetWidth();
 
-    const events = [
-        {date: "2019-08", showDurationFromToday: true, text: "Bill Filed", symbol: "small"},
-        {date: "2020-01-02", showDurationFromToday: false, text: "Hearing Scheduled", symbol: "target"},
-        {date: "2020-03-03", showDurationFromToday: false, text: "Session Over", symbol: "big"},
-    ];
+    let allEvents = events.map((event) => {
+        return {date: event.date, showDurationFromToday: false, text: event.text, symbol: "target"};
+    });
+    allEvents.unshift({date: filingDate, showDurationFromToday: true, text: `Filed as ${filingTitle}`, symbol: "small"});
+    allEvents.push({date: sessionEndDate, showDurationFromToday: false, text: "Session Over", symbol: "big"});
+
 
 
     return (
         <div ref={targetRef} style={{background: "#a1beff", display:"flex", justifyContent:"center", alignItems:"center", flexDirection:"column"}}>
             <div>
                 <div style={{textTransform: "uppercase", fontWeight:600, marginTop:50}}>Timeline of Bill during this session:</div> 
-                <Timeline events={events} width={dimensions.width * 0.7} margin={50}/>
+                <Timeline events={allEvents} width={dimensions.width * 0.7} margin={50}/>
             </div>
         </div>
     );

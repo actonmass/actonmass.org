@@ -119,6 +119,11 @@ co_sponsors:
   - william-brownsberger
   - william-driscoll
   - william-galvin
+timeline:
+  filing_title: Safe Communities Act - H3573
+  events:
+    - date: 2019-06
+      description: Example of a highlighted event 
 history:
   - date: 2019-01
     description: Filed as Safe Communities Act - H3573
