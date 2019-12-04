@@ -1,4 +1,4 @@
-{% assign bill = include %}
+{% assign bill_timeline = include %}
 <div id="bill-timeline"></div>
 <script>
     (()=>{
@@ -7,9 +7,9 @@
         const data = {
             filingDate: globalFilingDate,
             sessionEndDate: globalSessionEndDate,
-            filingTitle: "{{bill.timeline.filing_title}}",
+            filingTitle: "{{bill_timeline.timeline.filing_title}}",
             events: [
-                {% for event in bill.timeline.events %}
+                {% for event in bill_timeline.timeline.events %}
                 {
                     text: "{{ event.description }}",
                     date: "{{ event.date }}" 
