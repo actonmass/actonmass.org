@@ -41,13 +41,15 @@ const Symbol = ({symbol, x, lineLevel}) => {
     }
 };
 
-const Label = ({text, date, x, lineLevel}) => {
+const Label = ({text, date, x, boundary, lineLevel}) => {
     const textHeight = 12;
     const dateTextHeight = 8;
     return (
-        <div style={{position:"absolute", left:x, top:0}}>
-            <div style={{fontSize: textHeight, fontWeight: 900}}>{text}</div>
-            <div style={{fontSize: dateTextHeight, fontWeight: 300}}>{date}</div>
+        <div style={{position:"absolute", left:0, top:0, width:boundary}}>
+            <div style={{position:"absolute", left:x, top:0}}>
+                <div style={{fontSize: textHeight, fontWeight: 900}}>{text}</div>
+                <div style={{fontSize: dateTextHeight, fontWeight: 300}}>{date}</div>
+            </div>
         </div>
     );
 };
@@ -107,9 +109,11 @@ const Timeline = ({width, margin, events}) => {
     labelDetails.push({date: today.format("YYYY-MM-DD"), x: dateToPixel(today) -10, text: "Today"});
     labelDetails.sort((a, b) => {return moment(a.date) - moment(b.date);}).reverse();
 
+    let labelWidth = width + margin*2;
     labelDetails.forEach((labelDetails, i) => {
         const dateMoment = moment(labelDetails.date);
-        labels.push(<Label key={i} x={labelDetails.x} lineLevel={lineLevel} {...labelDetails} />);
+        labels.push(<Label key={i} x={labelDetails.x} boundary={labelWidth} lineLevel={lineLevel} {...labelDetails} />);
+        labelWidth = labelDetails.x
     });
 
     return (
