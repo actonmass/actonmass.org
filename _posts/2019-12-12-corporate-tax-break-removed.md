@@ -3,7 +3,7 @@ layout: post
 title: Victory! Corporate Tax Break defeated in final budget bill
 ---
 
-Yes, standing up to House leadership works and we have the proof! How activists across the state stopped a corporate giveway.<!--more-->
+Yes, standing up to House leadership works and we have the proof! How activists across the state stopped a corporate giveaway.<!--more-->
 
 The legislature missed multiple deadlines, but the final Supplemental Budget bill to close out FY2019 was finally passed late last night, and **thanks to your phone calls & advocacy, the House agreed to drop the $37M corporate tax break that it originally sought.**
 
