@@ -8,7 +8,7 @@ h1 {
 }
 
 h2 {
-  font-size: 4rem;
+  font-size: 3rem;
   color: #061729;
 }
 
@@ -230,22 +230,203 @@ p {
   width: 15rem;
 }
 
+/* --------------------- HOUSE FAILURES -----------------*/
+
 .failures {
   background-color: #F4F7FC;
   grid-area: 3 / 1 / 3 / 13;
+  display: grid;
+  grid-template-columns: repeat(12,1fr);
+  grid-template-rows: 5rem auto auto auto auto 5rem;
 }
 
+.failure_title {
+  grid-area: 2 / 3 / 2 / 8;
+  text-transform: uppercase;
+  margin-top: 1rem;
+}
+
+.rect {
+  height: .5rem;
+  width: 15rem;
+}
+
+.rect1 {
+  grid-area: 2 / 3;
+  background-color: #ECA632;
+}
+
+.rect2 {
+  background-color: #56CCF2;
+}
+
+.failures .immigration {
+  grid-area: 3 / 3 / 3 / 5;
+}
+
+.immigration .immig_title {
+  text-transform: uppercase;
+  margin-bottom: .5rem;
+}
+
+.immigration .immig_text {
+  margin-top: 1rem;
+}
+
+.failures .climate_change {
+  grid-area: 3 / 6 / 3 / 8;
+}
+
+.climate_change .climate_title {
+  text-transform: uppercase;
+  margin-bottom: .5rem;
+}
+
+.climate_change .climate_text {
+  margin-top: 1rem;
+}
+
+.failures .lgbt {
+  grid-area: 3 / 9 / 3 / 11;
+}
+
+.lgbt .lgbt_title {
+  text-transform: uppercase;
+  margin-bottom: .5rem;
+}
+
+.lgbt .lgbt_text {
+  margin-top: 1rem;
+}
+
+
+/*---------------- ISSUES --------------*/
 .issues {
   background-color: #11447B;
   grid-area: 4 / 1 / 4 / 13;
+  display: grid;
+  grid-template-columns: repeat(12,1fr);
+  grid-template-rows: 5rem auto auto auto auto 5rem;
 }
 
+.issues_title {
+  grid-area: 2 / 3 / 2 / 8;
+  text-transform: uppercase;
+  margin-top: 1rem;
+}
+
+/*-------------------- SEARCH ---------------*/
 .search {
   background-color: #F4F7FC;
   grid-area: 5 / 1 / 5 / 13;
+  display: grid;
+  grid-template-rows: 5rem auto auto auto auto 5rem;
+  grid-template-columns: repeat(12,1fr);
 }
+
+.search .search_title {
+  grid-area: 2 / 1 / 2 / 13;
+  justify-self: center;
+  text-transform: uppercase;
+  color: #11447B;
+  z-index: 3;
+  margin:0;
+}
+
+.search .search_title1 {
+  grid-area: 2 / 1 / 2 / 13;
+  justify-self: center;
+  text-transform: uppercase;
+  color: #6991BC;
+  padding-top: .3rem;
+  padding-left: .3rem;
+  margin:0;
+  z-index:2;
+}
+
+.search .rect3 {
+  grid-area: 2 / 1 / 2 / 13;
+  background-color: #6991BC;
+  justify-self: center;
+  align-self:end;
+  margin-bottom: 1.2rem;
+  width: 60rem;
+  z-index: 1;
+}
+
+.search .search_txt {
+  grid-area: 3 / 3 / 6 / 6;
+  text-transform: uppercase;
+  color: #061729;
+}
+
+/*----------------- ACCOUNTABILITY -----------*/
 
 .accountability {
   background-color: #11447B;
   grid-area: 6 / 1 / 6 / 13;
+  display: grid;
+  grid-template-columns: repeat(12,1fr);
+  grid-template-rows: 5rem auto auto auto auto 5rem;
+}
+
+.account_title {
+  grid-area: 2 / 3 / 2 / 8;
+  text-transform: uppercase;
+  padding-top: 1rem;
+  margin:0;
+}
+
+.dot {
+  height: 25px;
+  width: 25px;
+  background-color: #56CCF2;
+  border-radius: 50%;
+  display: inline-block;
+  margin: .4rem;
+}
+
+.accountability .dots_3 {
+  grid-area: 3 / 4 / 5 / 7;
+  display: grid;
+  grid-template-columns: repeat(5,auto);
+  grid-template-rows: repeat(5,auto);
+  margin-left: 13rem;
+  width: 20rem;
+  height: 20rem;
+}
+
+.accountability .dots_4 {
+  grid-area: 2 / 3 / 6 / 5;
+  display: grid;
+  grid-template-columns: repeat(5,auto);
+  grid-template-rows: repeat(5,auto);
+  height: 20rem;
+  width: 20rem;
+  margin-left: -3rem;
+  margin-top: 22rem;
+}
+
+.accountability .pledge_img1 {
+  grid-area: 3 / 3 / 6 / 6;
+  width: 40rem;
+  z-index: 1;
+  /*margin-top: -2rem;*/
+}
+
+.account_text {
+  grid-area: 3 / 8 / 5 / 11;
+}
+
+.account_text1 {
+  text-transform: uppercase;
+  color: #F4F7FC;
+}
+
+.account_text2 {
+  color: #F4F7FC;
+}
+
+.btn_pledge {
+  grid-area: 5 / 8 / 5 / 10;
 }
