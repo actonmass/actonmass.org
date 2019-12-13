@@ -80,7 +80,7 @@ p {
   width: 100%;
 }
 
-/*--------------------- HERO ------------------------*/
+/*--------------------- HOMEPAGE HERO ------------------------*/
 
 .hero {
   background-color: #11447B;
@@ -192,7 +192,7 @@ p {
   background-color: #56CCF2;
 }
 
-/* ------------- TAKE ACTION ------------- */
+/* ------------- HOMEPAGE TAKE ACTION ------------- */
 
 .take_action {
   background-color: #dfeafd;
@@ -230,7 +230,7 @@ p {
   width: 15rem;
 }
 
-/* --------------------- HOUSE FAILURES -----------------*/
+/* --------------------- HOMEPAGE HOUSE FAILURES -----------------*/
 
 .failures {
   background-color: #F4F7FC;
@@ -300,7 +300,7 @@ p {
 }
 
 
-/*---------------- ISSUES --------------*/
+/*---------------- HOMEPAGE ISSUES --------------*/
 .issues {
   background-color: #11447B;
   grid-area: 4 / 1 / 4 / 13;
@@ -315,7 +315,7 @@ p {
   margin-top: 1rem;
 }
 
-/*-------------------- SEARCH ---------------*/
+/*-------------------- HOMEPAGE SEARCH ---------------*/
 .search {
   background-color: #F4F7FC;
   grid-area: 5 / 1 / 5 / 13;
@@ -360,7 +360,7 @@ p {
   color: #061729;
 }
 
-/*----------------- ACCOUNTABILITY -----------*/
+/*----------------- HOMEPAGE ACCOUNTABILITY -----------*/
 
 .accountability {
   background-color: #11447B;
@@ -429,4 +429,132 @@ p {
 
 .btn_pledge {
   grid-area: 5 / 8 / 5 / 10;
+}
+
+/*--------------------- BILL PAGE ------------------*/
+
+.bill_hero {
+  background-color: #145396;
+  grid-area: 1 / 1 / 1 / 13;
+  display: grid;
+  grid-template-rows: 5rem auto auto auto auto auto 5rem;
+  grid-template-columns: repeat(12,1fr);
+}
+
+.bill_hero .bill_title {
+  grid-area: 3 / 1 / 3 / 13;
+  justify-self: center;
+  text-transform: uppercase;
+  color: #FEFBF8;
+  z-index: 3;
+  margin:0;
+}
+
+.bill_hero .bill_title1 {
+  grid-area: 3 / 1 / 3 / 13;
+  justify-self: center;
+  text-transform: uppercase;
+  color: #56CCF2;
+  padding-top: .3rem;
+  padding-left: .3rem;
+  margin:0;
+  z-index:2;
+}
+
+.bill_hero .rect4 {
+  grid-area: 3 / 1 / 3 / 13;
+  background-color: #56CCF2;
+  justify-self: center;
+  /*align-self:end;
+  margin-bottom: 1.2rem;*/
+  width: 65rem;
+  z-index: 1;
+  margin-top:4.5rem;
+}
+
+.bill_hero .dots_5 {
+  grid-area: 4 / 5 / 4 / 7;
+  display: grid;
+  grid-template-columns: repeat(5,auto);
+  grid-template-rows: repeat(5,auto);
+  margin-left: 9rem;
+  width: 20rem;
+  height: 20rem;
+}
+
+.bill_hero .dots_6 {
+  grid-area: 4 / 3 / 4 / 5;
+  display: grid;
+  grid-template-columns: repeat(5,auto);
+  grid-template-rows: repeat(5,auto);
+  height: 20rem;
+  width: 20rem;
+  margin-left: -3rem;
+  margin-top: 13rem;
+}
+
+.bill_hero .bill_summary {
+  grid-area: 4 / 8 / 4 / 11;
+}
+
+.bill_hero_img {
+  grid-area: 4 / 3 / 5 / 6;
+  z-index: 1;
+  width: 40rem;
+  margin-top: 4rem;
+  margin-left: 4rem;
+}
+
+li {
+  font-family: 'Roboto',sans-serif;
+  color: #F4F7FC;
+  font-size: 2.5rem;
+}
+
+.bill_summary1 {
+  color: #F4F7FC;
+}
+
+.bill_summary2 {
+  color: #F4F7FC;
+}
+
+.bill_summary3 {
+  color: #F4F7FC;
+}
+
+.breadcrumb {
+  grid-area: 2 / 3 / 2 / 6;
+}
+
+/* Style the list */
+ul.breadcrumb {
+  padding: 10px 16px;
+  list-style: none;
+  /*background-color: #eee;*/
+}
+
+/* Display list items side by side */
+ul.breadcrumb li {
+  display: inline;
+  font-size: 1.68rem;
+}
+
+/* Add a slash symbol (/) before/behind each list item */
+ul.breadcrumb li+li:before {
+  padding: 8px;
+  color: #F4F7FC;
+  content: "/\00a0";
+}
+
+/* Add a color to all links inside the list */
+ul.breadcrumb li a {
+  color: #F4F7FC;
+  text-decoration: none;
+}
+
+/* Add a color on mouse-over */
+ul.breadcrumb li a:hover {
+  color: #01447e;
+  text-decoration: underline;
 }
