@@ -38,11 +38,10 @@ As of now, 12 Reps are committed to standing for roll call on bills they have co
 
 If your Rep is not on the list above, call them and ask them to sign our pledge. Here are some [talking points to guide you](https://docs.google.com/document/d/1BqnRKvnVGrTCYOZceAadBwcih93t6wY4Te6PV1JrnL0/edit?usp=sharing&utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-_n0A-ifVjLenrEL7ESW-xTAic0k15Z105jABLurmvfcYJxqTL9asZ4fE8Pomal8RHVLNzw). Let us know how it goes! Find out more about our pledge [here](https://actonmass.org/pledge/?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-_n0A-ifVjLenrEL7ESW-xTAic0k15Z105jABLurmvfcYJxqTL9asZ4fE8Pomal8RHVLNzw).  And you can look up your Rep's number [here](https://malegislature.gov/Search/FindMyLegislator?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-_n0A-ifVjLenrEL7ESW-xTAic0k15Z105jABLurmvfcYJxqTL9asZ4fE8Pomal8RHVLNzw)
 
-Forward this email to a friend! Join our Email list!
+Join our Email list!
 ----------------------------------------------------
 
-We are grateful for you subscribing to our email updates.  If you find them informative and helpful, we would appreciate you forwarding this email to a friend and telling them why you are on our email list and encourage them to subscribe.
-
+This article was originally an email we sent out to our list.  If you find it informative and helpful, we would appreciate it if you forward this page to a friend and tell them why you are on our email list and encourage them to subscribe.
 
 When you forward the email they can use the form below to sign up to get email alerts from us. Thank you!
 
