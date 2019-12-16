@@ -3,16 +3,6 @@ layout: post
 title: It's harder to get a recorded vote in Massachusetts than in Texas, Ohio, Arizona and Florida  
 ---
 
-**It's harder to get a recorded vote in Massachusetts than in Texas, Ohio, Arizona and Florida  **
-
-It's why you don't know how your Reps vote
-
- |
-
-|
-
-Friend-
-
 In Massachusetts, it is exceptionally hard to get a recorded vote when bills are voted on by the full House. When comparable states only require 1 to 5 Reps to stand to get a recorded vote on the floor, **Massachusetts requires a whopping 16 Reps or 10% of the legislature.**
 
 Getting 16 Reps to coordinate is hard, and this [presents a challenge to Reps who want to get votes on the record](https://www.youtube.com/watch?v=xflRK0RWOZ4&utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-_OnzA8VEuG0DK-iDB_HYKehoTowvjwkF8BXeF2-EhqVSrMbggSoGvQYP3XDx5prPBo1H9h). This is why Massachusetts records so few meaningful votes. And when we do, it's almost always unanimous or straight down the party line. 
@@ -66,27 +56,10 @@ If your Rep is not on the list above, call them and ask them to sign our pledge.
 
 |
 
-Forward this email to a friend! Join our Email list!
-----------------------------------------------------
+**Forward this email to a friend! Join our Email list!**
 
 We are grateful for you subscribing to our email updates.  If you find them informative and helpful, we would appreciate you forwarding this email to a friend and telling them why you are on our email list and encourage them to subscribe.
-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 When you forward the email they can use the form below to sign up to get email alerts from us. Thank you!
----------------------------------------------------------------------------------------------------------
-
- |
-
-|
-
-|
-
-|
 
 | [Join our Email List!](https://share.hsforms.com/1XjukYzaVTTi6Sr30iofe4A3owzq?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-_OnzA8VEuG0DK-iDB_HYKehoTowvjwkF8BXeF2-EhqVSrMbggSoGvQYP3XDx5prPBo1H9h) |
-
- |
-
- |
-
- |
