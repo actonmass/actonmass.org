@@ -1,4 +1,7 @@
-|
+|---
+layout: post
+title: It's harder to get a recorded vote in Massachusetts than in Texas, Ohio, Arizona and Florida  
+---
 
 **It's harder to get a recorded vote in Massachusetts than in Texas, Ohio, Arizona and Florida  **
 
