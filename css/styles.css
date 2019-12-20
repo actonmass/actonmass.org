@@ -105,6 +105,8 @@ p {
   display: inline-block;
   max-width: 20rem;
   max-height: 5rem;
+  border-radius: 4px;
+  box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
 }
 
 /* On mouse-over */
@@ -112,7 +114,8 @@ p {
 
 .container{
   display: grid;
-  grid-template-columns: repeat(12, 1fr);
+  /*grid-template-columns: repeat(auto-fit, minmax(12rem, 1fr));*/
+  grid-template-columns: repeat(12,1fr);
   grid-template-rows: repeat(8, auto);
   overflow-x: hidden;
   max-width: none;
@@ -124,6 +127,10 @@ p {
     grid-template-columns: 1fr;
   }
 }
+
+/*.block {
+  grid-template-columns: repeat(auto-fit, minmax(12rem, 1fr));
+}*/
 
 /*--------------------- HOMEPAGE HERO ------------------------*/
 
@@ -141,6 +148,18 @@ p {
     display: grid;
     grid-template-columns: .5fr auto .5fr;
     grid-template-rows: 3rem auto auto auto 3rem;
+  }
+}
+
+.hero_left {
+  grid-area: 2 / 3 / 4 / 8;
+  display: grid;
+}
+
+@media (max-width: 767px) {
+  .hero .hero_left {
+    grid-area: 2 / 2 / 3 / 3;
+    display: grid;
   }
 }
 
@@ -206,7 +225,7 @@ p {
   .hero .smLine{
     grid-area: 3 / 2;
     margin-left: 3rem;
-    margin-top: .5rem;
+    margin-top: 2.5rem;
     justify-self: center;
   }
 }
@@ -317,7 +336,7 @@ p {
 @media (max-width: 767px) {
   .hero .hero_text{
     grid-area: 3 / 2 / 3 / 2;
-    padding: 0rem 0rem 1rem 3rem;
+    padding: 2rem 0rem 1rem 3rem;
     max-width: 23rem;
     justify-self: center;
   }
@@ -549,7 +568,7 @@ p {
 }
 
 @media (max-width: 767px) {
-   .immig_title {
+   .immigration .immig_title {
     padding-top:1rem;
   }
 }
@@ -559,7 +578,7 @@ p {
 }
 
 @media (max-width: 767px) {
-   .immig_title {
+   .immigration .immig_title {
     padding-top:1rem;
   }
 }
@@ -580,7 +599,7 @@ p {
 }
 
 @media (max-width: 767px) {
-   .climate_title {
+   .climate_change .climate_title {
     padding-top:1rem;
   }
 }
@@ -611,7 +630,7 @@ p {
 }
 
 @media (max-width: 767px) {
-   .lgbt_title {
+  .lgbt .lgbt_title {
     padding-top:1rem;
   }
 }
@@ -626,6 +645,107 @@ p {
   }
 }
 
+/* SCROLLING TEST */
+
+@media (min-width: 768px) and (max-width: 1024px){
+  .failures_sm {
+    display:none;
+  }
+}
+
+@media (max-width: 767px) {
+  :root {
+    --gutter: 20px;
+  }
+
+  .failures_sm {
+    padding: var(--gutter) 0;
+    display: grid;
+    grid-gap: var(--gutter) 0;
+    grid-template-columns: var(--gutter) 1fr var(--gutter);
+    align-content: start;
+    grid-area: 2 / 2;
+  }
+
+  .failures_sm > * {
+    grid-column: 2 / -2;
+  }
+
+  .failures_sm > .full {
+    grid-column: 1 / -1;
+  }
+
+  .hs {
+    display: grid;
+    grid-gap: calc(var(--gutter) / 2);
+    grid-template-columns: 10px;
+    grid-template-rows: minmax(150px, 1fr);
+    grid-auto-flow: column;
+    grid-auto-columns: calc(50% - var(--gutter) * 2);
+
+    overflow-x: scroll;
+    scroll-snap-type: x proximity;
+    padding-bottom: calc(.75 * var(--gutter));
+    margin-bottom: calc(-.25 * var(--gutter));
+  }
+
+  .hs:before,
+  .hs:after {
+    content: '';
+    width: 10px;
+  }
+
+
+  /* Demo styles */
+
+  html,
+  body {
+    height: 100%;
+  }
+
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+
+  h1,
+  h2,
+  h3 {
+    margin: 0;
+  }
+
+  .failures_sm {
+    grid-area: 3 / 2;
+    width: 375px;
+    height: 30rem;
+    /*background: #DBD0BC;*/
+    overflow-y: scroll;
+  }
+
+  .hs > li,
+  .item {
+    scroll-snap-align: center;
+    padding: calc(var(--gutter) / 2 * 1.5);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #fff;
+    border-radius: 8px;
+  }
+
+
+
+  .no-scrollbar {
+    scrollbar-width: none;
+    margin-bottom: 0;
+    padding-bottom: 0;
+  }
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+}
+
 
 /*---------------- HOMEPAGE ISSUES --------------*/
 .issues {
@@ -636,10 +756,23 @@ p {
   grid-template-rows: 5rem auto auto auto auto 5rem;
 }
 
+@media (max-width: 767px) {
+  .issues {
+    grid-template-columns: .5fr auto .5fr;
+    grid-template-rows: 3rem auto 3rem;
+  }
+}
+
 .issues_title {
   grid-area: 2 / 3 / 2 / 8;
   text-transform: uppercase;
   margin-top: 1rem;
+}
+
+@media (max-width: 767px) {
+  .issues_title {
+    grid-area: 2 / 2;
+  }
 }
 
 /*-------------------- HOMEPAGE SEARCH ---------------*/
@@ -651,6 +784,13 @@ p {
   grid-template-columns: repeat(12,1fr);
 }
 
+@media (max-width: 767px) {
+  .search {
+    grid-template-columns: .5fr auto .5fr;
+    grid-template-rows: 3rem auto auto 3rem;
+  }
+}
+
 .search_title {
   grid-area: 2 / 1 / 2 / 13;
   justify-self: center;
@@ -659,6 +799,13 @@ p {
   z-index: 3;
   margin:0;
 }
+
+@media (max-width: 767px) {
+  .search_title {
+    grid-area: 2 / 2 / 2/ 3;
+  }
+}
+
 
 .search_title1 {
   grid-area: 2 / 1 / 2 / 13;
@@ -671,6 +818,13 @@ p {
   z-index:2;
 }
 
+@media (max-width: 767px) {
+  .search_title1 {
+    grid-area: 2 / 2 / 2/ 3;
+  }
+}
+
+
 .rect3 {
   grid-area: 2 / 1 / 2 / 13;
   background-color: #6991BC;
@@ -681,10 +835,26 @@ p {
   z-index: 1;
 }
 
+@media (max-width: 767px) {
+  .rect3 {
+    grid-area: 2 / 2 / 2 / 3;
+    width:38rem;
+    margin:0;
+  }
+}
+
 .search_txt {
   grid-area: 3 / 3 / 6 / 6;
   text-transform: uppercase;
   color: #061729;
+}
+
+@media (max-width: 767px) {
+  .search_txt {
+    grid-area: 3 / 2 / 3 / 3;
+    max-width: 15rem;
+    margin: 1rem 1rem 1rem 0rem;
+  }
 }
 
 /*----------------- HOMEPAGE ACCOUNTABILITY -----------*/
@@ -697,11 +867,24 @@ p {
   grid-template-rows: 5rem auto auto auto auto 5rem;
 }
 
+@media (max-width: 767px) {
+  .accountability {
+    grid-template-columns: .5fr auto .5fr;
+    grid-template-rows: 3rem auto auto auto auto 3rem;
+  }
+}
+
 .account_title {
   grid-area: 2 / 3 / 2 / 8;
   text-transform: uppercase;
   padding-top: 1rem;
   margin:0;
+}
+
+@media (max-width: 767px) {
+  .account_title {
+    grid-area: 2 / 2;
+  }
 }
 
 .dot1 {
@@ -713,6 +896,13 @@ p {
   margin: .4rem;
 }
 
+@media (max-width: 767px) {
+  .dot1 {
+    height: 1rem;
+    width: 1rem;
+  }
+}
+
 .accountability .dots_3 {
   grid-area: 3 / 4 / 5 / 7;
   display: grid;
@@ -721,6 +911,17 @@ p {
   margin-left: 13rem;
   width: 20rem;
   height: 20rem;
+}
+
+@media (max-width: 767px) {
+  .accountability .dots_3{
+    justify-self: right;
+  /*padding: 2rem;*/
+    grid-area: 3 / 2 / 3 / 3;
+    width: 9rem;
+    height: 9rem;
+    padding-top: 2rem;
+  }
 }
 
 .accountability .dots_4 {
@@ -734,6 +935,18 @@ p {
   margin-top: 22rem;
 }
 
+@media (max-width: 767px) {
+  .accountability .dots_4{
+    justify-self: left;
+    align-self: end;
+    /*padding: 2rem;*/
+    grid-area: 3 / 2 / 3 / 4;
+    width: 9rem;
+    height: 9rem;
+    margin: 0;
+  }
+}
+
 .accountability .pledge_img1 {
   grid-area: 3 / 3 / 6 / 6;
   width: 40rem;
@@ -741,8 +954,27 @@ p {
   /*margin-top: -2rem;*/
 }
 
+@media (max-width: 767px) {
+  .accountability .pledge_img1 {
+    grid-area: 3 / 2 / 3 / 3;
+    width: 26rem;
+    z-index:1;
+    margin: 2rem;
+    align-self: center;
+    justify-self: center;
+  }
+}
+
 .account_text {
   grid-area: 3 / 8 / 5 / 11;
+}
+
+@media (max-width: 767px) {
+  .account_text{
+    grid-area: 4 / 2 / 4 / 3;
+    max-width:20rem;
+    justify-self: center;
+  }
 }
 
 .account_text1 {
@@ -756,6 +988,14 @@ p {
 
 .btn_pledge {
   grid-area: 5 / 8 / 5 / 10;
+}
+
+@media (max-width: 767px) {
+  .btn_pledge{
+    grid-area: 5 / 2 / 5 / 3;
+    justify-self: center;
+    align-self: center;
+  }
 }
 
 /*--------------------- BILL PAGE HERO ------------------*/
@@ -797,6 +1037,14 @@ p {
   width: 65rem;
   z-index: 1;
   margin-top:4.5rem;
+}
+
+.bill_hero .test1 {
+  grid-area: 4 / 3 / 4 / 7;
+}
+
+.bill_hero .test2 {
+  grid-area: 4 / 8 / 4 / 11;
 }
 
 .bill_hero .dots_5 {
@@ -964,11 +1212,42 @@ ul.breadcrumb li a:hover {
   grid-template-rows: repeat(6,auto);
 }
 
+.state_senators .senchair_1 {
+  grid-area: 1 / 1 / 1 / 2;
+  display: grid;
+  grid-template-rows: auto auto auto;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.state_senators .senchair_2 {
+  grid-area: 1 / 3 / 1 / 4;
+  display: grid;
+  grid-template-rows: auto auto auto;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
 .bill_sec1 .state_reps {
   grid-area: 6 / 7 / 6 / 11;
   display: grid;
   grid-template-columns: auto auto auto auto;
   grid-template-rows: repeat(10,auto);
+}
+
+.chair_img {
+  grid-area: 1 / 1 / 4 / 4;
+  border-radius: 50%;
+  height: 13rem;
+  border: 1rem solid #780116
+}
+
+.chair_no {
+  grid-area: 2 / 3 / 3 / 4;
+  height: 5rem;
+}
+
+.senchair_1 .chair_name {
+  grid-area: 3 / 1 / 4 / 4;
+  color: #F4F7FC;
 }
 
 .bill_sec1 .dot_chair {
@@ -1006,6 +1285,46 @@ ul.breadcrumb li a:hover {
   grid-area: 3 / 1 / 11 / 5;
 }
 
+.state_senators .committee_dots {
+  display: grid;
+}
+
+.committee_dots .dt1 {
+  grid-area: 1 / 1;
+  justify-self: center;
+  display: grid;
+}
+
+.committee_dots .dt2 {
+  grid-area: 1 / 2;
+  justify-self: center;
+  display: grid;
+}
+
+.committee_dots .dt3 {
+  grid-area: 1 / 3;
+  justify-self: center;
+  display: grid;
+}
+
+.committee_dots .dt4 {
+  grid-area: 2 / 1;
+  justify-self: center;
+  display: grid;
+}
+
+.committee_dots .dt5 {
+  grid-area: 2 / 2;
+  justify-self: center;
+  display: grid;
+}
+
+.committee_dots .dt6 {
+  grid-area: 2 / 3;
+  justify-self: center;
+  display: grid;
+}
+
 
 
 
@@ -1017,6 +1336,48 @@ ul.breadcrumb li a:hover {
 .bill_sec2 {
   grid-area: 4 / 1 / 4 / 13;
   background-color: #F4F7FC;
+}
+
+/* Style the tab */
+.tab {
+  overflow: hidden;
+  /*border: 1px solid #ccc;*/
+  background-color: #11447B;
+  border-radius: 10px 10px 0px 0px;
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+  background-color: #11447B;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size: 17px;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #145396;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+  background-color: #145396;
+  border-bottom: 4px solid #ECA632;
+  display: inline-block;
+  /*line-height: 0.85;*/
+}
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border: 5px solid #145396;
+  border-top: none;
+  border-radius: 0px 0px 10px 10px;
 }
 
 /* ------------------------- TIMELINE -----------------------*/
@@ -1040,8 +1401,13 @@ ul.breadcrumb li a:hover {
   background-color: #d8e5fd;
 }
 
-
 /* SCROLLING TEST */
+
+@media (min-width: 768px) and (max-width: 1024px){
+  .failures_sm {
+    display:none;
+  }
+}
 
 @media (max-width: 767px) {
   :root {
