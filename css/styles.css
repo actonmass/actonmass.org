@@ -1,58 +1,91 @@
+/* CSS Variables */
+
+:root {
+  --primary: #145396;
+  --dark: #061729;
+  --light: #F4F7FC;
+}
+
 html {
   font-size: 10px;
 }
 
+body {
+  background: ;
+  margin: 5rem 5rem;
+  line-height: 1.4;
+}
+
+@media (min-width: 700px) {
+  body {
+    background: ;
+    margin: 5rem 10rem;
+    line-height: 1.4;
+  }
+}
+
+p{
+  font-size: 1.2rem;
+}
 h1 {
-  font-size: 5rem;
-  color: #061729;
-}
-
-h2 {
   font-size: 3rem;
-  color: #061729;
 }
-
+h2 {
+  font-size: 2rem;
+}
 h3 {
-  font-size: 2.5rem;
-  color: #061729;
+  font-size: 1.5rem;
+  margin:0;
 }
 
 h4 {
-  font-size: 2rem;
-  color: #061729;
+  font-size: 1.2rem;
+  margin: 0;
 }
 
-h5 {
-  font-size: 1.4rem;
-  color: #061729;
+li {
+  font-size: 1.2rem;
 }
 
-p {
-  font-size: 1rem;
-  line-height: 1.6rem;
-  color: #061729;
-}
-
-@media (max-width: 767px) {
-  p{
-    font-size: 1.6rem;
-  }
+@media (min-width: 700px) {
   h1 {
-    font-size: 3rem;
+    font-size: 5rem;
+    color: #061729;
   }
+
   h2 {
-    font-size: 2rem;
-    /*padding: 1rem 1rem;*/
+    font-size: 3rem;
+    color: #061729;
   }
+
   h3 {
-    font-size: 1.5rem;
+    font-size: 2.5rem;
+    color: #061729;
   }
 
   h4 {
-    font-size: 1.2rem;
+    font-size: 2rem;
+    color: #061729;
+  }
+
+  /*h5 {
+    font-size: 1.4rem;
+    color: #061729;
+  }*/
+
+  p {
+    font-size: 1.6rem;
+    line-height: 1.6rem;
+    color: #061729;
+  }
+
+  li {
+    font-size: 2rem;
   }
 }
 
+
+/*
 @media (min-width: 768px) and (max-width: 1024px) {
       p{
         font-size: 1.6rem;
@@ -62,7 +95,6 @@ p {
       }
       h2 {
         font-size: 2.5rem;
-        /*padding: 1rem 1rem;*/
       }
       h3 {
         font-size: 1.5rem;
@@ -70,7 +102,7 @@ p {
       h4 {
         font-size: 1.2rem;
       }
-    }
+    }*/
 
 .fRaleway {
   font-family: 'Raleway', sans-serif;
@@ -94,6 +126,26 @@ p {
 
 .fExbold {
   font-weight: 800;
+}
+
+.fWhite {
+  color: #F4F7FC;
+}
+
+.fDark {
+  color: #061729;
+}
+
+.fMainColor {
+  color: #145396;
+}
+
+.fInactive {
+  color: #6991BC;
+}
+
+.fUppercase {
+  text-transform: uppercase;
 }
 
 .btn {
@@ -132,16 +184,239 @@ p {
   grid-template-columns: repeat(auto-fit, minmax(12rem, 1fr));
 }*/
 
-/*--------------------- HOMEPAGE HERO ------------------------*/
+/* NAVIGATION */
 
-.container .hero {
-  background-color: #11447B;
-  grid-area: 1 / 1 / 1 / 13;
+.main_header ul {
   display: grid;
-  grid-template-rows: 5rem auto auto 5rem;
-  grid-template-columns: repeat(12,1fr);
+  grid-column-gap: 3rem;
+  list-style: none;
+  grid-template-columns: 1fr repeat(6,auto);
+  align-items: center;
+  padding: 0;
+  margin: 0;
 }
 
+/*ul.main_header li {
+  align-self: center;
+}*/
+
+.main_header a {
+  text-decoration: none;
+  font-size: 1.6rem;
+}
+
+.head_logo {
+  max-height: 10rem;
+}
+
+/*.nav_text {
+  align-self: center;
+}*/
+
+.btn_header {
+  background-color: #56CCF2;
+}
+
+/* Dropdown Button */
+.dropbtn {
+  /*background-color: #4CAF50;
+  color: white;*/
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: var(--light);
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  border-radius: 0rem 0rem 1rem 1rem;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #145396;
+  color: #56CCF2;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+  /*color: var(--light);*/
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+/*.dropdown:hover {
+  background-color: #11447B;
+  color: var(--light);
+}*/
+
+/*
+.dropbtn:hover {
+  color: var(--light);
+}*/
+
+/*--------------------- HOMEPAGE HERO ------------------------*/
+
+.homepage_wrapper {
+  display:grid;
+  /*grid-gap: 2rem;*/
+  grid-template-areas:
+    "header"
+    "hero_left"
+    "hero_text"
+    "act"
+    "failures_sm"
+    "issues"
+    "search_left"
+    "search_right"
+    "pledge_left"
+    "account_text"
+}
+
+.homepage_wrapper .learn .volunteer .lgbt .climate_change .immigration {
+  display: none;
+}
+
+@media (min-width: 600px) {
+  .homepage_wrapper {
+    grid-template-columns: 3fr 3fr 3fr;
+    grid-template-areas:
+      "header header header"
+      "hero hero hero"
+      "take_action take_action take_action"
+      "failures failures failures"
+      "issues issues issues"
+      "search search search"
+      "accountability accountability accountability";
+  }
+}
+
+/*
+@media (min-width: 700px) {
+  .wrapper {
+    grid-template-columns: 2fr 2.5fr 2.5fr;
+    grid-template-areas:
+      "header header header"
+      "brdcrum brdcrum ."
+      "box-a box-b box-c"
+      "bottom-container bottom-container bottom-container ";
+  }
+}*/
+
+.homepage_wrapper .main_header {
+  grid-area: header;
+}
+
+.homepage_wrapper .hero {
+  grid-area: hero;
+  display: grid;
+  grid-template-columns: 3fr 1fr 2fr;
+  background-color: var(--primary);
+}
+
+/*
+.homepage_wrapper .hero_text {
+  grid-area: hero_text;
+}*/
+
+.homepage_wrapper .take_action {
+  grid-area: take_action;
+}
+
+.homepage_wrapper .failures {
+  grid-area: failures;
+  padding: 5rem;
+}
+
+
+.failures .immigration {
+  grid-area: 2 / 1;
+  padding-top: 5rem;
+  max-width: 25rem;
+}
+
+.failures .climate_change {
+  grid-area: 2 / 2;
+  padding-top: 5rem;
+  max-width: 25rem;
+}
+
+.failures .lgbt {
+  grid-area: 2 / 3;
+  padding-top: 5rem;
+  max-width: 25rem;
+}
+
+.homepage_wrapper .issues {
+  grid-area: issues;
+  padding: 5rem;
+}
+
+.homepage_wrapper .search {
+  grid-area: search;
+  padding: 5rem;
+}
+
+/*.homepage_wrapper .search_right {
+  grid-area: search;
+}*/
+
+.homepage_wrapper .accountability {
+  grid-area: accountability;
+  display: grid;
+  padding: 5rem;
+}
+
+/*
+.homepage_wrapper .account_text {
+  grid-area: account_text;
+}*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*.container .hero {
+  background-color: #11447B;
+  /*grid-area: 1 / 1 / 1 / 13;*/
+/*  display: grid;
+  grid-template-rows: 5rem auto auto 5rem;
+  grid-template-columns: repeat(12,1fr);
+}*/
+/*
 @media (max-width: 767px) {
   .container .hero {
     grid-area: 1 / 1;
@@ -149,42 +424,51 @@ p {
     grid-template-columns: .5fr auto .5fr;
     grid-template-rows: 3rem auto auto auto 3rem;
   }
-}
+}*/
 
-.hero_left {
-  grid-area: 2 / 3 / 4 / 8;
-  display: grid;
-}
-
+/*.hero_left {
+  /*grid-area: 2 / 3 / 4 / 8;*/
+  /*display: grid;
+}*/
+/*
 @media (max-width: 767px) {
   .hero .hero_left {
     grid-area: 2 / 2 / 3 / 3;
     display: grid;
   }
+}*/
+
+
+.hero .hero_left {
+  display: grid;
+  grid-area: 1 / 1;
 }
 
-.hero .header1 {
+/* do I need this anymore? */
+.hero_text .header1 {
   margin: 0;
   color: #FEFBF8;
 }
 
-.hero .header2 {
+.hero_text .header2 {
   margin: 0;
   color: #FEFBF8;
 }
 
-.hero .header3 {
+.hero_text .header3 {
   margin: 0;
   color: #FEFBF8;
 }
 
-.hero .header4 {
+.hero_text .header4 {
   margin: 0;
   color: #FEFBF8;
 }
 
-.hero .hero_img {
-  grid-area: 2 / 3 / 2 / 7;
+/*----------*/
+
+.hero_left .hero_img {
+  grid-area: 1 / 1 / 4 / 1;
   width: 36rem;
   z-index: 1;
   align-self: center;
@@ -192,17 +476,17 @@ p {
 }
 
 /* ------- PHONE -----------*/
-@media (max-width: 767px) {
+/*@media (max-width: 767px) {
   .hero .hero_img{
     grid-area: 2 / 2;
     width: 22rem;
     margin-bottom: 4rem;
     justify-self: center;
   }
-}
+}*/
 
 /* Portrait and Landscape */
-@media (min-width: 768px) and (max-width: 1024px){
+/*@media (min-width: 768px) and (max-width: 1024px){
     .hero .hero_img {
       grid-area: 2 / 3 / 2 / 7;
       width: 27rem;
@@ -212,15 +496,19 @@ p {
       align-self: center;
       padding-bottom: 4rem;
     }
+}*/
+
+.hero_text .smLine {
+  grid-area: 1 / 1;
+  align-self: center;
+  padding-left: 14rem;
 }
 
-.hero .smLine {
-  grid-area: 2 / 9;
-  margin-top: 9rem;
-  align-self: start;
-  justify-self: center;
+/* ---- do I need this? */
+.hero_text .header1 {
+  grid-area: 1 / 1;
 }
-
+/*
 @media (max-width: 767px) {
   .hero .smLine{
     grid-area: 3 / 2;
@@ -235,7 +523,7 @@ p {
       margin-bottom:12rem;
       align-self: center;
     }
-}
+}*/
 
 .dot {
   height: 25px;
@@ -245,7 +533,7 @@ p {
   display: inline-block;
   margin: .4rem;
 }
-
+/*
 @media (max-width: 767px) {
   .dot{
     height: 1rem;
@@ -259,17 +547,17 @@ p {
       width: 1.5rem;
     }
 }
-
-.hero .dots_1 {
-  grid-area: 2 / 5 / 2 / 7;
+*/
+.hero_left .dots_1 {
+  grid-area: 3 / 1;
   display: grid;
   grid-template-columns: repeat(5,auto);
   grid-template-rows: repeat(5,auto);
-  margin-left: 9rem;
-  width: 20rem;
-  height: 20rem;
+  margin: 2rem;
+  justify-self: left;
 }
 
+/*
 @media (max-width: 767px) {
   .hero .dots_1{
     grid-area: 2 / 2;
@@ -277,7 +565,7 @@ p {
     width: 9rem;
     height: 9rem;
     /*padding: 2rem;*/
-    justify-self: right;
+    /*justify-self: right;
     align-self: start;
   }
 }
@@ -291,26 +579,24 @@ p {
       align-self: center;
       justify-self: right;
     }
-}
+}*/
 
-.hero .dots_2 {
-  grid-area: 2 / 3 / 4 / 5;
+.hero_left .dots_2 {
+  grid-area: 1 / 1;
   display: grid;
   grid-template-columns: repeat(5,auto);
   grid-template-rows: repeat(5,auto);
-  height: 20rem;
-  width: 20rem;
-  margin-left: -3rem;
-  margin-top: 22rem;
+  justify-content:right;
+  margin: 2rem;
 }
-
+/*
 @media (max-width: 767px) {
   .hero .dots_2{
     grid-area: 2 / 2;
     width: 9rem;
     height: 9rem;
     /*padding: 2rem;*/
-    margin: 0;
+    /*margin: 0;
     justify-self: left;
     align-self: end;
   }
@@ -324,187 +610,91 @@ p {
       align-self: end;
       justify-self: left;
     }
-}
+}*/
 
 .hero .hero_text {
-  grid-area: 2 / 8 / 2 / 11;
-  text-transform: uppercase;
+  display: grid;
+  grid-area: 1 / 3;
+  /*text-transform: uppercase;*/
   color: #FEFBF8;
   align-self: center;
 }
 
-@media (max-width: 767px) {
-  .hero .hero_text{
-    grid-area: 3 / 2 / 3 / 2;
-    padding: 2rem 0rem 1rem 3rem;
-    max-width: 23rem;
-    justify-self: center;
-  }
-}
-
-@media (min-width: 768px) and (max-width: 1024px){
-    .hero .hero_text {
-      justify-self: center;
-      align-self: center;
-    }
-}
-
-.btn_issues {
-  grid-area: 3 / 8 / 3 / 10;
-  /*margin-top: 2rem;*/
-}
-
-@media (max-width: 767px) {
-  .btn_issues{
-    grid-area: 4 / 2;
-    margin: 2rem;
-    justify-self: center;
-  }
-}
-
-@media (min-width: 768px) and (max-width: 1024px){
-    .btn_issues {
-      grid-area: 2 / 8 / 2 / 10;
-      align-self: end;
-    }
-}
-
-.container .bridge {
-  grid-area: 1 / 1 / 3 / 13;
+.homepage_wrapper .rectangle {
+  grid-area: 2 / 2 / 4 / 2;
   z-index: 1;
   justify-self: center;
-  margin-top: 17rem;
-  align-self: center;
-}
-
-.container .bridge_text {
-  grid-area: 1 / 1 / 3 / 13;
-  z-index: 2;
-  justify-self: center;
-  margin-top: 19.5rem;
-  align-self: center;
-}
-
-@media (max-width: 767px) {
-  .container .bridge_text{
-    margin-top: 26.5rem;
-  }
-}
-
-.container .rectangle {
-  grid-area: 1 / 1 / 3 / 13;
-  z-index: 1;
-  justify-self: center;
-  margin-top: 17rem;
+  margin-top: 7rem;
   align-self: center;
   height: 5rem;
   width: 20rem ;
   background-color: #56CCF2;
 }
 
-@media (max-width: 767px) {
-  .container .rectangle {
-    margin-top: 25rem;
-    height: 3rem;
-  }
+.rectangle .bridge_text {
+  justify-self: center;
+  align-self: center;
 }
 
 /* ------------- HOMEPAGE TAKE ACTION ------------- */
 
 .take_action {
   background-color: #dfeafd;
-  grid-area: 2 / 1 / 2 / 13;
-  grid-area: 2 / 1 / 2 / 13;
+  /*grid-area: 2 / 1 / 2 / 13;
+  grid-area: 2 / 1 / 2 / 13;*/
   display: grid;
-  grid-template-columns: repeat(12,1fr);
-  grid-template-rows: 5rem auto auto auto 5rem;
-}
-
-@media (max-width: 767px) {
-  .take_action{
-    grid-area: 2 / 1;
-    grid-template-columns: 1fr;
-  }
+  padding: 5rem;
+  grid-column-gap: 2rem;
+  /*grid-template-columns: repeat(12,1fr);
+  grid-template-rows: 5rem auto auto auto 5rem;*/
 }
 
 
 .take_action .learn {
-  grid-area: 2 / 3 / 4 / 5;
+  grid-area: 2 / 1;
+  max-width:20rem;
+  justify-self: center;
+  display: grid;
 }
-
-@media (max-width: 767px) {
-  .take_action .learn{
-    display:none;
-  }
-}
-
 
 .take_action .btn_learn {
-  grid-area: 4 / 3;
-  width: 15rem;
-}
-
-@media (max-width: 767px) {
-  .take_action .btn_learn{
-    display:none;
-  }
+  align-self: end;
+  margin: 1rem;
 }
 
 .take_action .volunteer {
-  grid-area: 2 / 6 / 4 / 8;
+  grid-area: 2 / 2;
+  max-width:20rem;
+  justify-self: center;
+  display: grid;
 }
-
-@media (max-width: 767px) {
-  .take_action .volunteer{
-    display:none;
-  }
-}
-
 
 .take_action .btn_volunteer {
-  grid-area: 4 / 6;
-  width: 15rem;
+  align-self: end;
+  margin: 1rem;
 }
 
-@media (max-width: 767px) {
-  .take_action .btn_volunteer{
-    display:none;
-  }
-}
 
 .take_action .act {
-  grid-area: 2 / 9 / 4 / 11;
-}
-
-@media (max-width: 767px) {
-  .take_action .act{
-    grid-area: 2 / 1 / 4 / 1;
-    max-width: 15rem;
-    justify-self: center;
-  }
+  grid-area: 2 / 3;
+  max-width:20rem;
+  justify-self: center;
+  display: grid;
 }
 
 .take_action .btn_act {
-  grid-area: 4 / 9;
-  width: 15rem;
-  justify-self: center;
-}
-
-@media (max-width: 767px) {
-  .take_action .btn_act{
-    grid-area: 4 / 1;
-    justify-self:center;
-  }
+  align-self: end;
+  margin: 1rem;
 }
 
 /* --------------------- HOMEPAGE HOUSE FAILURES -----------------*/
 
 .failures {
   background-color: #F4F7FC;
-  grid-area: 3 / 1 / 3 / 13;
+/* grid-area: 3 / 1 / 3 / 13;*/
   display: grid;
-  grid-template-columns: repeat(12,1fr);
-  grid-template-rows: 5rem auto auto auto auto 5rem;
+  /*grid-template-columns: repeat(12,1fr);
+  grid-template-rows: 5rem auto auto auto auto 5rem;*/
 }
 
 @media (max-width: 767px) {
@@ -515,7 +705,7 @@ p {
 }
 
 .failure_title {
-  grid-area: 2 / 3 / 2 / 8;
+  grid-area: 1 / 1 / 1 / 3;
   text-transform: uppercase;
   margin-top: 1rem;
 }
@@ -532,7 +722,7 @@ p {
 }
 
 .rect1 {
-  grid-area: 2 / 3;
+  grid-area: 1 / 1;
   background-color: #ECA632;
 }
 
@@ -553,7 +743,7 @@ p {
 }
 
 .failures .immigration {
-  grid-area: 3 / 3 / 3 / 5;
+  /*grid-area: 3 / 3 / 3 / 5;*/
 }
 
 @media (max-width: 767px) {
@@ -584,7 +774,7 @@ p {
 }
 
 .failures .climate_change {
-  grid-area: 3 / 6 / 3 / 8;
+/*  grid-area: 3 / 6 / 3 / 8;*/
 }
 
 @media (max-width: 767px) {
@@ -621,7 +811,7 @@ p {
 }
 
 .failures .lgbt {
-  grid-area: 3 / 9 / 3 / 11;
+  /*grid-area: 3 / 9 / 3 / 11;*/
 }
 
 .lgbt .lgbt_title {
@@ -750,10 +940,10 @@ p {
 /*---------------- HOMEPAGE ISSUES --------------*/
 .issues {
   background-color: #11447B;
-  grid-area: 4 / 1 / 4 / 13;
+  /*grid-area: 4 / 1 / 4 / 13;*/
   display: grid;
-  grid-template-columns: repeat(12,1fr);
-  grid-template-rows: 5rem auto auto auto auto 5rem;
+  /*grid-template-columns: repeat(12,1fr);
+  grid-template-rows: 5rem auto auto auto auto 5rem;*/
 }
 
 @media (max-width: 767px) {
@@ -764,7 +954,7 @@ p {
 }
 
 .issues_title {
-  grid-area: 2 / 3 / 2 / 8;
+/*  grid-area: 2 / 3 / 2 / 8;*/
   text-transform: uppercase;
   margin-top: 1rem;
 }
@@ -778,10 +968,10 @@ p {
 /*-------------------- HOMEPAGE SEARCH ---------------*/
 .search {
   background-color: #F4F7FC;
-  grid-area: 5 / 1 / 5 / 13;
+/*  grid-area: 5 / 1 / 5 / 13;*/
   display: grid;
-  grid-template-rows: 5rem auto auto auto auto 5rem;
-  grid-template-columns: repeat(12,1fr);
+  /*grid-template-rows: 5rem auto auto auto auto 5rem;
+  grid-template-columns: repeat(12,1fr);*/
 }
 
 @media (max-width: 767px) {
@@ -791,24 +981,26 @@ p {
   }
 }
 
-.search_title {
-  grid-area: 2 / 1 / 2 / 13;
+.search .search_title {
+  grid-area: 1 / 1 / 1 / 3;
   justify-self: center;
   text-transform: uppercase;
   color: #11447B;
   z-index: 3;
   margin:0;
+  border-bottom: 1rem solid #6991BC;
 }
 
+/*
 @media (max-width: 767px) {
   .search_title {
     grid-area: 2 / 2 / 2/ 3;
   }
-}
+}*/
 
 
-.search_title1 {
-  grid-area: 2 / 1 / 2 / 13;
+.search .search_title1 {
+  grid-area: 1 / 1 / 1 / 3;
   justify-self: center;
   text-transform: uppercase;
   color: #6991BC;
@@ -818,22 +1010,23 @@ p {
   z-index:2;
 }
 
+/*
 @media (max-width: 767px) {
   .search_title1 {
     grid-area: 2 / 2 / 2/ 3;
   }
 }
-
-
+*/
+/*
 .rect3 {
-  grid-area: 2 / 1 / 2 / 13;
-  background-color: #6991BC;
+/*  grid-area: 2 / 1 / 2 / 13;*/
+  /*background-color: #6991BC;
   justify-self: center;
   align-self:end;
   margin-bottom: 1.2rem;
   width: 60rem;
   z-index: 1;
-}
+}*/
 
 @media (max-width: 767px) {
   .rect3 {
@@ -844,48 +1037,59 @@ p {
 }
 
 .search_txt {
-  grid-area: 3 / 3 / 6 / 6;
+  grid-area: 2 / 1 / 2 / 2;
   text-transform: uppercase;
   color: #061729;
+  justify-self: center;
+  max-width: 30rem;
+  margin: 3rem;
 }
 
+/*
 @media (max-width: 767px) {
   .search_txt {
     grid-area: 3 / 2 / 3 / 3;
     max-width: 15rem;
     margin: 1rem 1rem 1rem 0rem;
   }
-}
+}*/
 
 /*----------------- HOMEPAGE ACCOUNTABILITY -----------*/
 
 .accountability {
   background-color: #11447B;
-  grid-area: 6 / 1 / 6 / 13;
+/*  grid-area: 6 / 1 / 6 / 13;*/
   display: grid;
-  grid-template-columns: repeat(12,1fr);
-  grid-template-rows: 5rem auto auto auto auto 5rem;
+  /*grid-template-columns: repeat(12,1fr);
+  grid-template-rows: 5rem auto auto auto auto 5rem;*/
 }
 
+.accountability .pledge_left {
+  display: grid;
+  grid-area: 2 / 1 / 2 / 2;
+  padding: 2rem;
+}
+/*
 @media (max-width: 767px) {
   .accountability {
     grid-template-columns: .5fr auto .5fr;
     grid-template-rows: 3rem auto auto auto auto 3rem;
   }
-}
+}*/
 
 .account_title {
-  grid-area: 2 / 3 / 2 / 8;
+  grid-area: 1 / 1 / 1 / 3;
   text-transform: uppercase;
   padding-top: 1rem;
   margin:0;
 }
 
+/*
 @media (max-width: 767px) {
   .account_title {
     grid-area: 2 / 2;
   }
-}
+}*/
 
 .dot1 {
   height: 25px;
@@ -904,13 +1108,11 @@ p {
 }
 
 .accountability .dots_3 {
-  grid-area: 3 / 4 / 5 / 7;
+  grid-area: 1 / 3;
   display: grid;
   grid-template-columns: repeat(5,auto);
   grid-template-rows: repeat(5,auto);
-  margin-left: 13rem;
-  width: 20rem;
-  height: 20rem;
+  justify-self: right;
 }
 
 @media (max-width: 767px) {
@@ -925,14 +1127,11 @@ p {
 }
 
 .accountability .dots_4 {
-  grid-area: 2 / 3 / 6 / 5;
+  grid-area: 3 / 1;
   display: grid;
   grid-template-columns: repeat(5,auto);
   grid-template-rows: repeat(5,auto);
-  height: 20rem;
-  width: 20rem;
-  margin-left: -3rem;
-  margin-top: 22rem;
+  justify-self: left;
 }
 
 @media (max-width: 767px) {
@@ -948,10 +1147,11 @@ p {
 }
 
 .accountability .pledge_img1 {
-  grid-area: 3 / 3 / 6 / 6;
+  grid-area: 1 / 1 / 4 / 4;
   width: 40rem;
   z-index: 1;
-  /*margin-top: -2rem;*/
+  align-self: center;
+  justify-self: center;
 }
 
 @media (max-width: 767px) {
@@ -965,8 +1165,9 @@ p {
   }
 }
 
-.account_text {
-  grid-area: 3 / 8 / 5 / 11;
+.accountability .account_text {
+  grid-area: 2 / 3;
+  max-width: 35rem;
 }
 
 @media (max-width: 767px) {
@@ -977,17 +1178,17 @@ p {
   }
 }
 
-.account_text1 {
+.accountability .account_text1 {
   text-transform: uppercase;
   color: #F4F7FC;
 }
 
-.account_text2 {
+.accountability .account_text2 {
   color: #F4F7FC;
 }
 
-.btn_pledge {
-  grid-area: 5 / 8 / 5 / 10;
+.accountability .btn_pledge {
+/*  grid-area: 5 / 8 / 5 / 10;*/
 }
 
 @media (max-width: 767px) {
@@ -1082,8 +1283,8 @@ p {
 
 li {
   font-family: 'Roboto',sans-serif;
-  color: #F4F7FC;
-  font-size: 2.5rem;
+  /*color: #F4F7FC;*/
+  /*font-size: 2rem;*/
 }
 
 .bill_summary1 {
@@ -1125,7 +1326,7 @@ ul.breadcrumb li+li:before {
 
 /* Add a color to all links inside the list */
 ul.breadcrumb li a {
-  color: #F4F7FC;
+  /*color: #F4F7FC;*/
   text-decoration: none;
 }
 
@@ -1500,4 +1701,261 @@ ul.breadcrumb li a:hover {
   .no-scrollbar::-webkit-scrollbar {
     display: none;
   }
+}
+
+
+
+
+/*----------------------------------------------------------------------------*/
+/* ----------------------------- LEGISLATOR PAGE -----------------------------*/
+/*----------------------------------------------------------------------------*/
+
+/* -- LEGISTLATOR PAGE // defining the grid areas for responsiveness--*/
+.wrapper {
+  display:grid;
+  grid-gap: 2rem;
+  grid-template-areas:
+    "header"
+    "brdcrum"
+    "box-a"
+    "box-b"
+    "box-c"
+    "bottom-container"
+}
+
+@media (min-width: 600px) {
+  .wrapper {
+    grid-template-columns: 2fr 3fr;
+    grid-template-areas:
+      "header header"
+      "brdcrum brdcrum"
+      "box-a box-a"
+      "box-b box-c"
+      "bottom-container bottom-container";
+  }
+}
+
+@media (min-width: 700px) {
+  .wrapper {
+    grid-template-columns: 2fr 2.5fr 2.5fr;
+    grid-template-areas:
+      "header header header"
+      "brdcrum brdcrum ."
+      "box-a box-b box-c"
+      "bottom-container bottom-container bottom-container ";
+  }
+}
+
+/* -- LEGISTLATOR PAGE // defining the grid area names--*/
+
+.main_header {
+  grid-area: header;
+}
+
+.leg_breadcrumb {
+  grid-area: brdcrum;
+}
+
+.leg_top-container {
+  grid-area: top-container;
+}
+
+.leg_bottom-container {
+  grid-area: bottom-container;
+}
+
+.top-box-a {
+  grid-area: box-a;
+  text-align: center;
+  padding: 2rem;
+}
+
+.top-box-b {
+  grid-area: box-b;
+  padding: 4rem 2rem 4rem 2rem;
+}
+
+.top-box-c {
+  grid-area: box-c;
+  padding: 4rem 2rem 4rem 2rem;
+}
+
+/* -- LEGISTLATOR PAGE // breadcrumb--*/
+
+/* Style the list */
+ul.leg_breadcrumb {
+  padding: 10px 16px;
+  list-style: none;
+  /*background-color: #eee;*/
+}
+
+/* Display list items side by side */
+ul.leg_breadcrumb li {
+  display: inline;
+  font-size: 1.68rem;
+}
+
+/* Add a slash symbol (/) before/behind each list item */
+ul.leg_breadcrumb li+li:before {
+  padding: 8px;
+  /*color: #F4F7FC;*/
+  content: "/\00a0";
+}
+
+/* Add a color to all links inside the list */
+ul.leg_breadcrumb li a {
+  /*color: #F4F7FC;*/
+  text-decoration: none;
+}
+
+/* Add a color on mouse-over */
+ul.leg_breadcrumb li a:hover {
+  color: #01447e;
+  text-decoration: underline;
+}
+
+/* -- LEGISTLATOR PAGE // defining the grid area names--*/
+
+/* -- LEGISTLATOR PAGE // styling the boxes on the page--*/
+.top-box {
+  display: grid;
+  background-color: var(--primary);
+  justify-content: center;
+  /*align-self: center;*/
+  /*padding: 2rem;*/
+  border-radius: 1rem;
+}
+
+
+.icon {
+  margin: auto;
+  color: var(--light);
+}
+
+.top-box .icons {
+  display: flex;
+}
+
+.leg_bottom-container {
+  background-color: #11447B;
+  border-radius: 1rem;
+  /*padding: 2rem;*/
+}
+
+.leg_pledge {
+  padding-bottom: .1rem;
+  border-bottom: .3rem solid #56CCF2;
+  margin: 0;
+}
+
+.leg_committ {
+  padding-bottom: .1rem;
+  border-bottom: .3rem solid #56CCF2;
+  margin: 0;
+}
+
+/* -- LEGISTLATOR PAGE // styling the dark rect within box b--*/
+
+.rect6 {
+  display: flex;
+  background-color: #11447B;
+  margin: 1rem 0rem 1rem 0rem;
+  padding: 1rem;
+  border-radius: 1rem;
+  align-self:center;
+}
+
+/* -- LEGISTLATOR PAGE // styling the dark rect within box c--*/
+
+.rect7 {
+  /*display: flex;*/
+  background-color: #11447B;
+  margin: 1rem 0rem 1rem 0rem;
+  padding: 1rem;
+  border-radius: 1rem;
+  align-self:center;
+}
+
+/* -------------- LEGISTLATOR PAGE // format for bottom container-------------*/
+
+
+.red_x {
+  padding: 1rem;
+  height: 3rem;
+}
+
+.green_check {
+  padding: 1rem;
+  height: 3rem;
+}
+
+[data-tab-content] {
+  display: none;
+}
+
+.active[data-tab-content] {
+  display: flex;
+  flex-direction: column;
+}
+
+.tabs {
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  /*border-bottom: 1px solid black;*/
+  background-color: #145396;
+}
+
+.tab {
+  cursor: pointer;
+  padding: 10px;
+  background-color: #145396;
+  width: 33%;
+  text-align: center;
+}
+
+.tab.active {
+  /*background-color: #CCC;*/
+  border-bottom: .3rem solid #56CCF2;
+  color: var(--light);
+}
+
+.tab:hover {
+  /*background-color: #AAA;*/
+}
+
+.tab-content {
+  margin-left: 20px;
+  margin-right: 20px;
+  padding: 2rem;
+}
+
+@media (min-width: 700px) {
+  .tab-content {
+    padding: 5rem;
+  }
+}
+
+.btn_history {
+  margin: 0 auto;
+  max-width: 30rem;
+}
+
+/* --- LEGISTLATOR PAGE // format for "yes & no vote history" lines -------*/
+.item_1 {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  padding: 1rem 0rem 1rem 3rem;
+}
+
+/* --- LEGISLATOR PAGE // format for "rep says quotes"--*/
+.quote_text {
+  max-width: 60%;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
 }
