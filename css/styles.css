@@ -17,15 +17,19 @@ body {
 
 p{
   font-size: 1.2rem;
+  margin: 0;
 }
+
 h1 {
-  font-size: 3rem;
+  font-size: 2rem;
   margin:0;
 }
+
 h2 {
   font-size: 2rem;
   margin: 0;
 }
+
 h3 {
   font-size: 1.5rem;
   margin:0;
@@ -33,6 +37,12 @@ h3 {
 
 h4 {
   font-size: 1.2rem;
+  margin: 0;
+}
+
+h5 {
+  font-size: 1rem;
+  color: #061729;
   margin: 0;
 }
 
@@ -44,21 +54,31 @@ li {
   h1 {
     font-size: 5rem;
     color: #061729;
+    margin: 0;
   }
 
   h2 {
     font-size: 3rem;
     color: #061729;
+    margin: 0;
   }
 
   h3 {
     font-size: 2.5rem;
     color: #061729;
+    margin: 0;
   }
 
   h4 {
     font-size: 2rem;
     color: #061729;
+    margin: 0;
+  }
+
+  h5 {
+    font-size: 1.2rem;
+    color: #061729;
+    margin: 0;
   }
 
   /*h5 {
@@ -70,6 +90,7 @@ li {
     font-size: 1.6rem;
     line-height: 1.6rem;
     color: #061729;
+    margin: 0;
   }
 
   li {
@@ -146,9 +167,11 @@ li {
   background-color: #ECA632;
   padding: 14px 28px;
   font-size: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
   cursor: pointer;
   display: inline-block;
-  max-width: 20rem;
+  max-width: 25rem;
   max-height: 5rem;
   border-radius: 4px;
   box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
@@ -157,7 +180,7 @@ li {
 /* On mouse-over */
 .btn:hover {background: #eee;}
 
-.container{
+.container {
   display: grid;
   /*grid-template-columns: repeat(auto-fit, minmax(12rem, 1fr));*/
   grid-template-columns: repeat(12,1fr);
@@ -276,15 +299,30 @@ li {
 
 /* Style the list */
 ul.main_breadcrumb {
-  padding: 5rem 20rem;
+  /*padding: 5rem 20rem;*/
   list-style: none;
-  /*background-color: #eee;*/
+}
+
+@media (min-width: 700px){
+  ul.main_breadcrumb {
+    padding: 5rem 20rem;
+    list-style: none;
+    /*background-color: #eee;*/
+  }
 }
 
 /* Display list items side by side */
+
 ul.main_breadcrumb li {
   display: inline;
-  font-size: 1.68rem;
+  font-size: .8rem;
+}
+
+@media (min-width: 700px){
+  ul.main_breadcrumb li {
+    display: inline;
+    font-size: 1.68rem;
+  }
 }
 
 /* Add a slash symbol (/) before/behind each list item */
@@ -396,12 +434,23 @@ ul.main_breadcrumb li a:hover {
 }
 
 .dot {
-  height: 25px;
-  width: 25px;
+  height: 1.5rem;
+  width: 1.5rem;
   background-color: #56CCF2;
   border-radius: 50%;
   display: inline-block;
   margin: .4rem;
+}
+
+@media (min-width: 700px){
+  .dot {
+    height: 25px;
+    width: 25px;
+    background-color: #56CCF2;
+    border-radius: 50%;
+    display: inline-block;
+    margin: .4rem;
+  }
 }
 
 .hero_left .dots_1 {
@@ -633,12 +682,20 @@ ul.main_breadcrumb li a:hover {
 
 .search_rect {
   height: 5rem;
-  width: 50rem;
+  width: 30rem;
   border-radius: 4px;
   border: solid 1px var(--dark);
   margin-bottom: 1rem;
   background-color: white;
+  display: flex;
 }
+
+@media (min-width: 700px){
+  .search_rect {
+    width: 45rem;
+  }
+}
+
 
 .search_field {
   grid-area: 2 / 3;
@@ -648,6 +705,7 @@ ul.main_breadcrumb li a:hover {
 
 .search_text {
   margin-left: 1rem;
+  align-self: center;
 }
 
 /*
@@ -1583,7 +1641,7 @@ li {
 
 .main_breadcrumb {
   grid-area: breadcrumb;
-  padding: 5rem 20rem;
+  /*padding: 5rem 20rem;*/
 }
 
 .search_top_container {
@@ -1634,4 +1692,529 @@ li {
   justify-content: space-around;
   align-items: center;
   margin: 2rem 0rem 0rem 0rem;
+}
+
+/*--------------------------------------------------------------------*/
+/*--------------------------------------------------------------------*/
+/* -------------------------- PLEDGE PAGE ----------------------------*/
+/*--------------------------------------------------------------------*/
+/*-------------------------------------------------------------------*/
+
+.pledge_wrapper {
+  display: grid;
+  grid-template-areas:
+    /*"header"*/
+    "breadcrumb"
+    "hero_box_a"
+    "hero_box_b"
+    "pledge_box_a"
+    "pledge_box_b"
+    "search_box_a"
+    "search_box_b"
+    "pledge_reps"
+    "pledge_endorse";
+}
+
+@media (min-width: 700px) {
+  .pledge_wrapper {
+    display: grid;
+    grid-template-areas:
+      "header header"
+      "breadcrumb breadcrumb"
+      "hero_box_a hero_box_b"
+      "pledge_box_a pledge_box_b"
+      "search_box_a search_box_b"
+      "pledge_reps pledge_reps"
+      "pledge_endorse pledge_endorse";
+      grid-column-gap: 5rem;
+  }
+}
+
+/* ----------------- Hero Color Background --------------*/
+
+.pledge_hero_background {
+  background-color: var(--primary);
+  grid-area: 2 / 1 / 4 / 1;
+  z-index: -1;
+}
+
+@media (min-width: 700px) {
+  .pledge_hero_background {
+    grid-area: 2 / 1 / 4 / 3;
+  }
+}
+
+/* ----------------- Hero Titles --------------*/
+
+.pledge_wrapper .pledge_title {
+  grid-area: 2 / 1 / 2 / 2;
+  justify-self: center;
+  text-transform: uppercase;
+  color: var(--light);
+  z-index: 1;
+  padding-top: 2rem;
+}
+
+@media (min-width: 700px){
+  .pledge_wrapper .pledge_title {
+    grid-area: 3 / 1 / 3 / 3;
+    padding: 0;
+  }
+}
+
+.pledge_wrapper .pledge_title1 {
+  grid-area: 2 / 1 / 2 / 2;
+  justify-self: center;
+  padding: 2.3rem .3rem;
+  text-transform: uppercase;
+  color: #56CCF2;
+}
+
+@media (min-width: 700px){
+  .pledge_wrapper .pledge_title1 {
+    grid-area: 3 / 1 / 3 / 3;
+    padding: .3rem .3rem;
+  }
+}
+
+/*---------- PLEDGE PG / HERO UNIT / left side of hero unit -----------*/
+.hero_box_a {
+  grid-area: hero_box_a;
+  padding: 7rem 0rem 0rem 0rem;
+  display: grid;
+  grid-template-rows: 1fr 0rem 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  max-width: 30rem;
+  justify-self: center;
+}
+
+@media (min-width: 700px){
+  .hero_box_a {
+    padding: 10rem 0rem 5rem 20rem;
+    max-width: 50rem;
+  }
+}
+
+.hero_box_a .dots_1 {
+  display: grid;
+  grid-template-columns: repeat(5,auto);
+  grid-template-rows: repeat(5,auto);
+  /*justify-content: left;*/
+  grid-area: 3 / 1;
+  max-width: 10rem;
+}
+
+@media (min-width: 700px){
+  .hero_box_a .dots_1 {
+    max-width: 15rem;
+  }
+}
+
+.hero_box_a .dots_2 {
+  display: grid;
+  grid-template-columns: repeat(5,auto);
+  grid-template-rows: repeat(5,auto);
+  /*justify-content: right;*/
+  grid-area: 1 / 3;
+  max-width: 10rem;
+}
+
+@media (min-width: 700px){
+  .hero_box_a .dots_2 {
+    max-width: 15rem;
+  }
+}
+
+.hero_box_a .pledge_img {
+  align-self: center;
+  justify-self: center;
+  z-index: 1;
+  grid-area: 1 / 1 / 4 / 4;
+  max-height: 19rem;
+  padding:0rem 0rem 3rem 0rem;
+}
+
+@media (min-width: 700px){
+  .hero_box_a .pledge_img {
+    max-height: 33rem;
+    padding:0rem 6rem 7rem 0rem;
+  }
+}
+
+/*---------- PLEDGE PG / HERO UNIT / right side of hero unit -------*/
+
+.hero_box_b {
+  grid-area: hero_box_b;
+  padding: 0rem 0rem 5rem 0rem;
+  max-width: 30rem;
+  display: grid;
+  justify-self: center;
+}
+
+@media (min-width: 700px) {
+  .hero_box_b {
+    grid-area: hero_box_b;
+    padding: 10rem 20rem 5rem 0rem;
+    max-width: 45rem;
+    display: grid;
+  }
+}
+
+.hero_box_b .pledge_hero_text {
+  display: grid;
+  grid-template-rows: auto auto;
+  /*padding: 5rem 0rem 0rem 0rem;*/
+  align-content: center;
+}
+
+.hero_box_b .hero_quote {
+  opacity: 30%;
+  font-size: 6em;
+  align-self: end;
+  justify-self: right;
+}
+
+.hero_box_b .hero_quote_txt {
+  align-self:center;
+  text-align:right;
+  max-width: 33rem;
+  justify-self: right;
+}
+
+/*---------- left side of pledge unit -----------*/
+
+.pledge_box_a {
+  grid-area: pledge_box_a;
+  display: grid;
+  padding: 5rem 0rem 5rem 0rem;
+  max-width: 30rem;
+  justify-self: center;
+}
+
+@media (min-width: 700px){
+  .pledge_box_a {
+    grid-area: pledge_box_a;
+    display: grid;
+    padding: 5rem 5rem 5rem 20rem;
+    max-width: 50rem;
+  }
+}
+
+.pledge_box_a .pledge {
+  justify-self:center;
+  max-height: 40rem;
+}
+
+/*---------- right side of pledge unit -----------*/
+
+.pledge_box_b {
+  grid-area: pledge_box_b;
+  display: grid;
+  grid-template-rows: repeat(4,auto);
+  grid-template-columns: 1fr;
+  padding: 0rem 0rem 5rem 0rem;
+  max-width: 30rem;
+  justify-self: center;
+}
+
+@media (min-width: 700px){
+  .pledge_box_b {
+    padding: 5rem 20rem 5rem 0rem;
+    max-width: 45rem;
+  }
+}
+
+.pledge_box_b .small_rect {
+  height: .5rem;
+  width: 10rem;
+  margin: 1rem 0rem 1rem 0rem;
+  background-color: #ECA632;
+  align-self: end;
+}
+
+@media (min-width: 700px){
+  .pledge_box_b .small_rect {
+    height: 1rem;
+    width: 10rem;
+    background-color: #ECA632;
+    align-self: end;
+  }
+}
+
+.btn_trans_pledge {
+  justify-self: center;
+  align-self: center;
+  margin: 1rem 0rem 1rem 0rem;
+}
+
+/*---------- PLEDGE PG / PLEDGE UNIT / background -----------*/
+
+.pledge_pledge_background {
+  background-color: #AFCBFF;
+  grid-area: 4 / 1 /  / 2;
+  z-index: -1;
+}
+
+@media (min-width: 700px) {
+  .pledge_pledge_background {
+    background-color: #AFCBFF;
+    grid-area: 4 / 1 / 4 / 3;
+    z-index: -1;
+  }
+}
+
+/*---------- PLEDGE PG / SEARCH UNIT / background ----------*/
+
+.pledge_search_background {
+  background-color: var(--primary);
+  grid-area: 6 / 1 / 8 / 2;
+  z-index: -1;
+}
+
+@media (min-width: 700px){
+  .pledge_search_background {
+    background-color: var(--primary);
+    grid-area: 5 / 1 / 5 / 3;
+    z-index: -1;
+  }
+}
+
+/*---------- PLEDGE PG / SEARCH UNIT / left side ----------*/
+
+.search_box_a {
+  grid-area: search_box_a;
+  display: grid;
+  padding: 5rem 0rem 2rem 0rem;
+  max-width: 30rem;
+  justify-self: center;
+}
+
+@media (min-width: 700px) {
+  .search_box_a {
+    padding: 10rem 0rem 5rem 20rem;
+    max-width: 50rem;
+  }
+}
+
+.pledge_txt {
+  text-transform: uppercase;
+  justify-self: center;
+  padding-top: 5rem;
+  max-width: 30rem;
+  color: var(--light);
+}
+
+/*---------- PLEDGE PG / SEARCH UNIT / right side ----------*/
+
+.search_box_b {
+  grid-area: search_box_b;
+  padding: 0rem 0rem 5rem 0rem;
+  display: grid;
+  max-width: 30rem;
+  justify-self: center;
+}
+
+@media (min-width: 700px){
+  .search_box_b {
+    grid-area: search_box_b;
+    padding: 15rem 20rem 5rem 0rem;
+    display: grid;
+    max-width: 45rem;
+  }
+}
+
+/*---------- PLEDGE PG / SEARCH UNIT / title ----------*/
+
+.pledge_search_title {
+  grid-area: 6 / 1 / 6 / 2;
+  justify-self: center;
+  text-transform: uppercase;
+  color: #56ccf2;
+  padding: 5rem 0rem 5rem 0rem;
+}
+
+@media (min-width: 700px){
+  .pledge_search_title {
+    grid-area: 5 / 1 / 5 / 3;
+    justify-self: center;
+    text-transform: uppercase;
+    color: #56ccf2;
+    padding: 5rem 0rem 5rem 0rem;
+  }
+}
+
+.pledge_search_title1 {
+  grid-area: 6 / 1 / 6 / 2;
+  justify-self: center;
+  text-transform: uppercase;
+  margin: .3rem .3rem;
+  color: var(--light);
+  padding: 5rem 0rem 5rem 0rem;
+}
+
+@media (min-width: 700px){
+  .pledge_search_title1 {
+    grid-area: 5 / 1 / 5 / 3;
+    justify-self: center;
+    text-transform: uppercase;
+    margin: .3rem .3rem;
+    color: var(--light);
+    padding: 5rem 0rem 5rem 0rem;
+  }
+}
+
+/*-- PLEDGE PG / WHO HAS SIGNED? UNIT/ Legislator Circle Section ---*/
+
+.pledge_reps {
+  grid-area: pledge_reps;
+  display: grid;
+  grid-gap: 1rem;
+  grid-template-rows: repeat(9,auto);
+  grid-template-columns: repeat(3,auto);
+  padding: 5rem 0rem 5rem 0rem;
+  max-width: 30rem;
+  justify-self: center;
+}
+
+@media (min-width: 700px){
+  .pledge_reps {
+    grid-gap: 1rem;
+    grid-template-rows: repeat(8,auto);
+    grid-template-columns: repeat(5,1fr);
+    padding: 5rem 20rem 5rem 20rem;
+    max-width: none;
+  }
+}
+
+.leg_circ {
+  justify-self: center;
+  align-self: center;
+  text-align: center;
+  display: grid;
+  grid-template-rows: auto auto auto;
+  grid-template-columns: auto;
+  grid-gap: .2rem;
+  max-width: 7rem;
+}
+
+.leg_circ_img {
+  border-radius: 50%;
+  border: solid .5rem #5FAD41;
+  max-width: 6rem;
+  grid-area: 1 / 1;
+}
+
+@media (min-width: 700px){
+  .leg_circ_img {
+    border-radius: 50%;
+    border: solid 1rem #5FAD41;
+    max-width: 10rem;
+    grid-area: 1 / 1;
+  }
+}
+
+.leg_circ_check {
+  border-radius: 50%;
+  background-color: #5FAD41;
+  max-width: 2rem;
+  grid-area: 1 / 1;
+  align-self: end;
+  justify-self: right;
+  max-width: 2.5rem;
+}
+
+@media (min-width: 700px){
+  .leg_circ_check {
+    border-radius: 50%;
+    background-color: #5FAD41;
+    grid-area: 1 / 1;
+    align-self: end;
+    justify-self: right;
+    max-width: 4rem;
+  }
+}
+
+.pledge_leg_title {
+  grid-area: 1 / 1 / 1 / 4;
+  padding-bottom: 2rem;
+}
+
+@media (min-width: 700px){
+  .pledge_leg_title {
+    grid-area: 1 / 1 / 1 / 6;
+    padding-bottom: 2rem;
+  }
+}
+
+.pledge_leg_title1 {
+  grid-area: 2 / 1 / 2 / 4;
+}
+
+@media (min-width: 700px){
+  .pledge_leg_title1 {
+    grid-area: 2 / 1 / 2 / 6;
+  }
+}
+
+.pledge_leg_title2 {
+  grid-area: 6 / 1 / 6 / 4;
+}
+
+@media (min-width: 700px){
+  .pledge_leg_title2 {
+    grid-area: 6 / 1 / 6 / 6;
+  }
+}
+
+.Rebecca_Rausch {
+  grid-area: 7 / 1;
+}
+
+.James_Eldridge {
+  grid-area: 7 / 2;
+}
+
+/*--------------- PLEDGE PG / ENDORSEMENTS ----------------*/
+
+.pledge_endorse {
+  display: grid;
+  grid-template-rows: repeat(5,auto);
+  grid-template-columns: repeat(2,auto);
+  padding: 0rem 0rem 5rem 0rem;
+  grid-gap: 1rem;
+  grid-area: pledge_endorse;
+}
+
+@media (min-width: 700px) {
+  .pledge_endorse {
+    grid-template-columns: repeat(3,auto);
+    padding: 5rem 20rem 5rem 20rem;
+    grid-gap: 2rem;
+  }
+}
+
+.pledge_endorse_title {
+  grid-area: 1 / 1 / 1 / 3;
+}
+
+@media (min-width: 700px){
+  .pledge_endorse_title {
+    grid-area: 1 / 1 / 1 / 4;
+  }
+}
+
+.endorse_img {
+  max-width: 15rem;
+  max-height: 10rem;
+  align-self: center;
+  justify-self: center;
+}
+
+@media (min-width: 700px){
+  .endorse_img {
+    max-width: 20rem;
+    max-height: 15rem;
+    align-self: center;
+    justify-self: center;
+  }
 }
