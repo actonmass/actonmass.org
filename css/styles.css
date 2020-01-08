@@ -13,6 +13,7 @@ html {
 body {
   background: #F4F7FC ;
   line-height: 1.4;
+  overflow-x: hidden;
 }
 
 p{
@@ -196,53 +197,43 @@ li {
   }
 }
 
-/*.block {
-  grid-template-columns: repeat(auto-fit, minmax(12rem, 1fr));
-}*/
-
-/* NAVIGATION */
-
+/*------ iPHONE SCREEN NAVIGATION --------*/
 .main_header ul {
   display: grid;
-  grid-column-gap: 3rem;
+  grid-column-gap: 1rem;
   list-style: none;
-  grid-template-columns: 1fr repeat(6,auto);
+  grid-template-columns: 1fr repeat(3,auto);
   align-items: center;
-  padding: 0;
+  padding: 0rem 1rem 0rem 1rem;
   margin: 0;
 }
 
-/*ul.main_header li {
-  align-self: center;
-}*/
-
 .main_header a {
   text-decoration: none;
-  font-size: 1.6rem;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.main_header a:hover {
+  border-bottom: solid .5rem #56CCF2;
 }
 
 .head_logo {
-  max-height: 10rem;
+  max-height: 8rem;
 }
-
-/*.nav_text {
-  align-self: center;
-}*/
 
 .btn_header {
   background-color: #56CCF2;
 }
 
-/* Dropdown Button */
 .dropbtn {
   /*background-color: #4CAF50;
   color: white;*/
-  padding: 16px;
-  font-size: 16px;
+  padding: .5rem;
+  font-size: 1rem;
   border: none;
 }
 
-/* The container <div> - needed to position the dropdown content */
 .dropdown {
   position: relative;
   display: inline-block;
@@ -255,7 +246,7 @@ li {
   background-color: var(--light);
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
+  z-index: 2;
   border-radius: 0rem 0rem 1rem 1rem;
 }
 
@@ -279,16 +270,121 @@ li {
   /*color: var(--light);*/
 }
 
-/* Change the background color of the dropdown button when the dropdown content is shown */
-/*.dropdown:hover {
-  background-color: #11447B;
-  color: var(--light);
-}*/
+.main_header .btn_header {
+  display: none;
+}
 
-/*
-.dropbtn:hover {
-  color: var(--light);
-}*/
+.main_header .fa-facebook-f {
+  display: none;
+}
+
+.main_header .fa-twitter {
+  display: none;
+}
+
+/*------ FULL SCREEN NAVIGATION --------*/
+@media (min-width: 700px){
+  .main_header ul {
+    display: grid;
+    grid-column-gap: 3rem;
+    list-style: none;
+    grid-template-columns: 1fr repeat(6,auto);
+    align-items: center;
+    padding: 0;
+    margin: 0;
+  }
+
+  /*ul.main_header li {
+    align-self: center;
+  }*/
+
+  .main_header a {
+    text-decoration: none;
+    font-size: 1.6rem;
+  }
+
+  .head_logo {
+    max-height: 10rem;
+  }
+
+  /*.nav_text {
+    align-self: center;
+  }*/
+
+  .btn_header {
+    background-color: #56CCF2;
+  }
+
+  /* Dropdown Button */
+  .dropbtn {
+    /*background-color: #4CAF50;
+    color: white;*/
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+  }
+
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: var(--light);
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    border-radius: 0rem 0rem 1rem 1rem;
+  }
+
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {
+    background-color: #145396;
+    color: #56CCF2;
+  }
+
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {
+    display: block;
+    /*color: var(--light);*/
+  }
+
+  .main_header .btn_header {
+    display: inherit;
+  }
+
+  .main_header .fa-facebook-f {
+    display: inherit;
+  }
+
+  .main_header .fa-twitter {
+    display: inherit;
+  }
+
+  /* Change the background color of the dropdown button when the dropdown content is shown */
+  /*.dropdown:hover {
+    background-color: #11447B;
+    color: var(--light);
+  }*/
+
+  /*
+  .dropbtn:hover {
+    color: var(--light);
+  }*/
+}
+
 
 /*-------------------------- BREADCRUMB -----------------*/
 .breadcrumb {
@@ -1703,7 +1799,7 @@ li {
 .pledge_wrapper {
   display: grid;
   grid-template-areas:
-    /*"header"*/
+    "header"
     "breadcrumb"
     "hero_box_a"
     "hero_box_b"
@@ -1712,7 +1808,8 @@ li {
     "search_box_a"
     "search_box_b"
     "pledge_reps"
-    "pledge_endorse";
+    "pledge_endorse"
+    "footer";
 }
 
 @media (min-width: 700px) {
@@ -1725,7 +1822,8 @@ li {
       "pledge_box_a pledge_box_b"
       "search_box_a search_box_b"
       "pledge_reps pledge_reps"
-      "pledge_endorse pledge_endorse";
+      "pledge_endorse pledge_endorse"
+      "footer footer";
       grid-column-gap: 5rem;
   }
 }
@@ -1734,7 +1832,7 @@ li {
 
 .pledge_hero_background {
   background-color: var(--primary);
-  grid-area: 2 / 1 / 4 / 1;
+  grid-area: 2 / 1 / 5 / 1;
   z-index: -1;
 }
 
@@ -1747,33 +1845,37 @@ li {
 /* ----------------- Hero Titles --------------*/
 
 .pledge_wrapper .pledge_title {
-  grid-area: 2 / 1 / 2 / 2;
+  grid-area: 3 / 1 / 3 / 2;
   justify-self: center;
   text-transform: uppercase;
   color: var(--light);
   z-index: 1;
   padding-top: 2rem;
+  font-size: 1.8rem;
 }
 
 @media (min-width: 700px){
   .pledge_wrapper .pledge_title {
     grid-area: 3 / 1 / 3 / 3;
     padding: 0;
+    font-size: 3rem;
   }
 }
 
 .pledge_wrapper .pledge_title1 {
-  grid-area: 2 / 1 / 2 / 2;
+  grid-area: 3 / 1 / 3 / 2;
   justify-self: center;
-  padding: 2.3rem .3rem;
+  padding: 2.2rem .3rem;
   text-transform: uppercase;
   color: #56CCF2;
+  font-size: 1.8rem;
 }
 
 @media (min-width: 700px){
   .pledge_wrapper .pledge_title1 {
     grid-area: 3 / 1 / 3 / 3;
     padding: .3rem .3rem;
+    font-size: 3rem;
   }
 }
 
@@ -1951,7 +2053,7 @@ li {
 
 .pledge_pledge_background {
   background-color: #AFCBFF;
-  grid-area: 4 / 1 /  / 2;
+  grid-area: 5 / 1 / 7 / 2;
   z-index: -1;
 }
 
@@ -1967,7 +2069,7 @@ li {
 
 .pledge_search_background {
   background-color: var(--primary);
-  grid-area: 6 / 1 / 8 / 2;
+  grid-area: 7 / 1 / 9 / 2;
   z-index: -1;
 }
 
@@ -2026,7 +2128,7 @@ li {
 /*---------- PLEDGE PG / SEARCH UNIT / title ----------*/
 
 .pledge_search_title {
-  grid-area: 6 / 1 / 6 / 2;
+  grid-area: 7 / 1 / 7 / 2;
   justify-self: center;
   text-transform: uppercase;
   color: #56ccf2;
@@ -2044,7 +2146,7 @@ li {
 }
 
 .pledge_search_title1 {
-  grid-area: 6 / 1 / 6 / 2;
+  grid-area: 7 / 1 / 7 / 2;
   justify-self: center;
   text-transform: uppercase;
   margin: .3rem .3rem;
@@ -2083,6 +2185,7 @@ li {
     grid-template-columns: repeat(5,1fr);
     padding: 5rem 20rem 5rem 20rem;
     max-width: none;
+    justify-self: normal;
   }
 }
 
@@ -2183,6 +2286,7 @@ li {
   padding: 0rem 0rem 5rem 0rem;
   grid-gap: 1rem;
   grid-area: pledge_endorse;
+  justify-self: center;
 }
 
 @media (min-width: 700px) {
@@ -2190,6 +2294,7 @@ li {
     grid-template-columns: repeat(3,auto);
     padding: 5rem 20rem 5rem 20rem;
     grid-gap: 2rem;
+    justify-self: normal;
   }
 }
 
@@ -2217,4 +2322,41 @@ li {
     align-self: center;
     justify-self: center;
   }
+}
+
+/*--------------- PLEDGE PG / FOOTER ----------------*/
+
+.main_footer {
+  grid-area: footer;
+  display: grid;
+}
+
+.footer_top {
+  background-color: #ECA632;
+  text-align: center;
+  padding: 5rem 0rem 5rem 0rem;
+  display: grid;
+}
+
+.main_footer .footer_txt {
+  text-transform: uppercase;
+  max-width: 30rem;
+  justify-self: center;
+}
+
+@media (min-width: 700px){
+  .main_footer .footer_txt {
+    max-width: 60rem;
+  }
+}
+
+.btn_footer {
+  background-color: #145396;
+  margin-top: 4rem;
+  color: var(--light);
+  justify-self: center;
+}
+
+.footer_bottom {
+  padding: 2rem 0rem 5rem 0rem;
 }
