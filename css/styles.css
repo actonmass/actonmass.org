@@ -337,7 +337,7 @@ li {
     background-color: var(--light);
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
+    z-index: 2;
     border-radius: 0rem 0rem 1rem 1rem;
   }
 
@@ -454,6 +454,7 @@ ul.main_breadcrumb li a:hover {
     "issues"
     "search"
     "accountability"
+    "footer";
 }
 
 @media (min-width: 600px) {
@@ -467,6 +468,7 @@ ul.main_breadcrumb li a:hover {
       "issues issues issues"
       "search search search"
       "accountability accountability accountability"
+      "footer footer footer";
   }
 }
 
@@ -582,7 +584,7 @@ ul.main_breadcrumb li a:hover {
   display: grid;
   z-index: 1;
   justify-self: center;
-  margin-top: 17rem;
+  margin-top: 28rem;
   align-self: center;
   height: 5rem;
   width: 20rem ;
@@ -605,7 +607,7 @@ ul.main_breadcrumb li a:hover {
 
 @media (min-width: 600px) {
   .homepage_wrapper .take_action {
-    padding: 5rem 5rem;
+    /*padding: 5rem 5rem;*/
   }
 }
 
@@ -1369,7 +1371,8 @@ li {
     "box-a"
     "box-b"
     "box-c"
-    "bottom-container";
+    "bottom-container"
+    "footer";
 }
 
 @media (min-width: 700px) {
@@ -1381,19 +1384,21 @@ li {
       "breadcrumb breadcrumb"
       "box-a box-a"
       "box-b box-c"
-      "bottom-container bottom-container";
+      "bottom-container bottom-container"
+      "footer footer";
   }
 }
 
 @media (min-width: 900px) {
   .leg_wrapper {
-    grid-template-columns: 2fr 2.5fr 2.5fr;
-    margin: 0rem 20rem 0rem 20rem;
+    grid-template-columns: 2fr 2fr 2.5fr;
+    /*margin: 0rem 20rem 0rem 20rem;*/
     grid-template-areas:
       "header header header"
       "breadcrumb breadcrumb ."
       "box-a box-b box-c"
-      "bottom-container bottom-container bottom-container";
+      "bottom-container bottom-container bottom-container"
+      "footer footer footer";
   }
 }
 
@@ -1419,6 +1424,7 @@ li {
   grid-area: box-a;
   text-align: center;
   padding: 2rem;
+  margin: 0rem 0rem 0rem 20rem;
 }
 
 .top-box-b {
@@ -1429,6 +1435,7 @@ li {
 .top-box-c {
   grid-area: box-c;
   padding: 4rem 2rem 4rem 2rem;
+  margin: 0rem 20rem 0rem 0rem;
 }
 
 
@@ -1457,7 +1464,7 @@ li {
 .leg_bottom-container {
   background-color: #11447B;
   border-radius: 1rem;
-  /*padding: 2rem;*/
+  margin: 2rem 20rem;
 }
 
 .leg_pledge {
@@ -1591,7 +1598,8 @@ li {
     "top_box_a"
     "top_box_b"
     "top_box_c"
-    "bot_container";
+    "bot_container"
+    "footer";
 }
 /*
 .about_wrapper {
@@ -1611,7 +1619,8 @@ li {
     grid-template-areas:
       "header header header"
       "top_box_a top_box_b top_box_c "
-      "bot_container bot_container bot_container";
+      "bot_container bot_container bot_container"
+      "footer footer footer";
     }
   }
 
@@ -1724,6 +1733,8 @@ li {
     "header"
     "breadcrumb"
     "top_container"
+    "bottom_container"
+    "footer"
 }
 
 .main_header {
@@ -1775,6 +1786,7 @@ li {
 }
 
 .search_bottom_container {
+  grid-area: bottom_container;
   display: grid;
   padding: 5rem 20rem;
   justify-self: center;
@@ -2940,7 +2952,7 @@ ul.issues_bills_bullets li {
 }
 
 /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
-.active, .accordion:hover {
+.accordion:hover {
   background-color: #F4F7FC;
 }
 
@@ -3092,4 +3104,19 @@ ul.issues_references_list li{
 ul.issues_references_list li p:hover {
   color: #01447e;
   text-decoration: underline;
+}
+
+
+
+
+/*-----------------------------------------------------------------------*/
+/*--------------------- BILLS PG (list of bills) ------------------------*/
+/*-----------------------------------------------------------------------*/
+
+.bills_wrapper {
+
+}
+
+.bills_background {
+  background-color: var(--primary);
 }
