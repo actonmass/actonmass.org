@@ -401,7 +401,7 @@ ul.main_breadcrumb {
 
 @media (min-width: 700px){
   ul.main_breadcrumb {
-    padding: 5rem 20rem;
+    padding: 2rem 20rem;
     list-style: none;
     /*background-color: #eee;*/
   }
@@ -432,6 +432,7 @@ ul.main_breadcrumb li+li:before {
 ul.main_breadcrumb li a {
   /*color: #F4F7FC;*/
   text-decoration: none;
+  font-size: 1.2rem;
 }
 
 /* Add a color on mouse-over */
@@ -540,12 +541,12 @@ ul.main_breadcrumb li a:hover {
 
 @media (min-width: 700px){
   .dot {
-    height: 25px;
-    width: 25px;
+    height: 2.5rem;
+    width: 2.5rem;
     background-color: #56CCF2;
     border-radius: 50%;
     display: inline-block;
-    margin: .4rem;
+    margin: 1rem;
   }
 }
 
@@ -2358,7 +2359,13 @@ li {
 }
 
 .footer_bottom {
-  padding: 2rem 0rem 5rem 0rem;
+  padding: 2rem 2rem;
+}
+
+@media (min-width: 700px){
+  .footer_bottom {
+    padding: 5rem 0rem 5rem 20rem;
+  }
 }
 
 /*--------------------------------------------------------*/
@@ -2371,9 +2378,9 @@ li {
     "breadcrumb"
     "issues_hero_a"
     "issues_hero_c"
-    "issues_bills_a"
-    "issues_bills_b"
-    "issues_bills_c"
+    "issues_bill_a"
+    "issues_bill_b"
+    "issues_bill_c"
     "issues_fail_a"
     "issues_fail_b"
     "issues_fail_c"
@@ -2397,8 +2404,8 @@ li {
       "issues_hero_a issues_hero_a issues_hero_c"
       "issues_bill_a issues_bill_b issues_bill_c"
       "issues_fail_a issues_fail_b issues_fail_c"
-      "issues_signup_a issues_signup_a issues_signup_c"
-      "issues_faq_a issues_faq_b issues_faq_c"
+      "issues_signup_a issues_signup_c ."
+      "issues_faq_a issues_faq_a issues_faq_c"
       "issues_learn_a issues_learn_b issues_learn_c"
       "issues_ref issues_ref issues_ref"
       "footer footer footer"
@@ -2418,37 +2425,37 @@ li {
 }
 
 .hero_title {
-  grid-area: 3 / 1 / 3 / 2;
+  grid-area: 3 / 1 / 3 / 1;
   justify-self: center;
   text-transform: uppercase;
   color: var(--light);
   z-index: 1;
   padding-top: 2rem;
-  font-size: 1.8rem;
+  font-size: 2rem;
 }
 
 @media (min-width: 700px){
   .hero_title {
     grid-area: 3 / 1 / 3 / 4;
     padding: 0;
-    font-size: 3rem;
+    font-size: 5rem;
   }
 }
 
 .hero_title1 {
-  grid-area: 3 / 1 / 3 / 2;
+  grid-area: 3 / 1 / 3 / 1;
   justify-self: center;
   padding: 2.2rem .3rem;
   text-transform: uppercase;
   color: #56CCF2;
-  font-size: 1.8rem;
+  font-size: 2rem;
 }
 
 @media (min-width: 700px){
   .hero_title1 {
     grid-area: 3 / 1 / 3 / 4;
     padding: .3rem .3rem;
-    font-size: 3rem;
+    font-size: 5rem;
   }
 }
 
@@ -2464,8 +2471,9 @@ li {
 
 @media (min-width: 700px){
   .issues_hero_a {
-    padding: 10rem 0rem 5rem 20rem;
-    max-width: 50rem;
+    padding: 10rem 0rem 10rem 20rem;
+    max-width: 58rem;
+    justify-self: inherit;
   }
 }
 
@@ -2473,14 +2481,14 @@ li {
   display: grid;
   grid-template-columns: repeat(5,auto);
   grid-template-rows: repeat(5,auto);
-  /*justify-content: left;*/
+  /*justify-self: right;*/
   grid-area: 3 / 1;
-  max-width: 10rem;
+  max-width: 11rem;
 }
 
 @media (min-width: 700px){
   .issues_hero_a .dots_1 {
-    max-width: 15rem;
+    max-width: 23rem;
   }
 }
 
@@ -2488,14 +2496,14 @@ li {
   display: grid;
   grid-template-columns: repeat(5,auto);
   grid-template-rows: repeat(5,auto);
-  /*justify-content: right;*/
+  justify-self: right;
   grid-area: 1 / 3;
-  max-width: 10rem;
+  max-width: 11rem;
 }
 
 @media (min-width: 700px){
   .issues_hero_a .dots_2 {
-    max-width: 15rem;
+    max-width: 23rem;
   }
 }
 
@@ -2504,18 +2512,19 @@ li {
   justify-self: center;
   z-index: 1;
   grid-area: 1 / 1 / 4 / 4;
-  max-height: 19rem;
-  padding:0rem 0rem 3rem 0rem;
+  max-height: 15rem;
+  /*padding:0rem 0rem 3rem 0rem;*/
 }
 
 @media (min-width: 700px){
   .issues_hero_a .pledge_img {
-    max-height: 33rem;
-    padding:0rem 6rem 7rem 0rem;
+    max-height: 29rem;
+    padding: 0;
+    justify-self: center;
   }
 }
 
-/*---------- PLEDGE PG / HERO UNIT / right side of hero unit -------*/
+/*---------- ISSUES PG / HERO UNIT / right side of hero unit -------*/
 
 .issues_hero_c {
   grid-area: issues_hero_c;
@@ -2543,14 +2552,544 @@ li {
 
 .issues_hero_c .hero_quote {
   opacity: 30%;
-  font-size: 6em;
+  font-size: 4em;
   align-self: end;
   justify-self: right;
+}
+
+@media (min-width: 700px){
+  .issues_hero_c .hero_quote {
+    font-size: 6em;
+  }
 }
 
 .issues_hero_c .hero_quote_txt {
   align-self:start;
   text-align:right;
   max-width: 33rem;
+  justify-self: center;
+  font-size: 2.5rem;
+}
+
+@media (min-width: 700px){
+  .issues_hero_c .hero_quote_txt {
+    justify-self: right;
+    font-size: 4rem;
+  }
+}
+
+/* -------------- issues bills ---------------*/
+
+.issues_bill_a {
+  grid-area: issues_bill_a;
+  padding: 10rem 0rem 3rem 0rem;
+  max-width: 25rem;
+  justify-self: center;
+}
+
+@media (min-width: 700px) {
+  .issues_bill_a {
+    padding: 15rem 0rem 5rem 20rem;
+    justify-self: inherit;
+  }
+}
+
+.issues_bill_b {
+  grid-area: issues_bill_b;
+  padding: 3rem 0rem 3rem 0rem;
+  max-width: 25rem;
+  justify-self: center;
+}
+
+@media (min-width: 700px) {
+  .issues_bill_b {
+    padding: 15rem 0rem 5rem 0rem;
+    justify-self: inherit;
+  }
+}
+
+.issues_bill_c {
+  grid-area: issues_bill_c;
+  padding: 3rem 0rem 3rem 0rem;
+  max-width: 25rem;
+  justify-self: center;
+}
+
+@media (min-width: 700px){
+  .issues_bill_c {
+    padding: 15rem 20rem 5rem 0rem;
+    justify-self: inherit;
+  }
+}
+
+.issues_bill_header {
+  grid-area: 5 / 1;
+  justify-self: center;
+  padding: 3rem 0rem;
+  max-width: 33rem;
+}
+
+@media (min-width: 700px) {
+  .issues_bill_header {
+    grid-area: 4 / 1 / 4 / 4;
+    justify-self: left;
+    padding: 5rem 20rem;
+    max-width: none;
+  }
+}
+
+.bill_icon {
+  max-width: 8rem;
+  justify-self: left;
+}
+
+.issues_bill_title {
+  /*border-bottom: solid .3rem #56CCF2;*/
+}
+
+.rect_underline {
+  height: .5rem;
+  width: 15rem;
+  background-color: #56CCF2;
+}
+
+.issues_bills_bullets {
+  padding: 0;
+}
+
+ul.issues_bills_bullets li {
+  padding: .5rem 0rem .5rem 0rem;
+}
+
+/*--------- ISSUES PG / FAILURES (SECTION 3) -------------------*/
+
+.issues_fail_a {
+  grid-area: issues_fail_a;
+  padding: 15rem 0rem 3rem 2rem;
+  max-width: 25rem;
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-self: left;
+}
+
+@media (min-width: 700px) {
+  .issues_fail_a {
+    padding: 15rem 0rem 5rem 20rem;
+    justify-self: inherit;
+  }
+}
+
+.issues_fail_b {
+  grid-area: issues_fail_b;
+  padding: 2rem 0rem 3rem 2rem;
+  max-width: 25rem;
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-self: left;
+}
+
+@media (min-width: 700px){
+  .issues_fail_b {
+    padding: 15rem 0rem 5rem 0rem;
+    justify-self: inherit;
+  }
+}
+
+.issues_fail_c {
+  grid-area: issues_fail_c;
+  padding: 3rem 0rem 3rem 2rem;
+  max-width: 25rem;
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-self: left;
+}
+
+@media (min-width: 700px) {
+  .issues_fail_c {
+    padding: 15rem 20rem 5rem 0rem;
+    justify-self: inherit;
+  }
+}
+
+.issues_failure_header {
+  grid-area: 8 / 1;
+  padding: 3rem 2rem;
+  max-width: 36rem;
+  justify-self: center;
+}
+
+@media (min-width: 700px) {
+  .issues_failure_header {
+    grid-area: 5 / 1 / 5 / 4;
+    padding: 5rem 20rem;
+    max-width: none;
+  }
+}
+
+.issues_fail_background {
+  grid-area: 8 / 1 / 11 / 1;
+  background-color: var(--primary);
+  z-index: -1;
+}
+
+@media (min-width: 700px) {
+  .issues_fail_background {
+    grid-area: 5 / 1 / 5 / 4;
+  }
+}
+
+.rect_sideline {
+  width: .3rem;
+  height: 10rem;
+  background-color: #56CCF2;
+  margin: 0rem 1rem 0rem 0rem;
+}
+
+/*--------------- ISSUES / SIGN UP (SECTION 4) -----------------*/
+
+.issues_signup_a {
+  grid-area: issues_signup_a;
+  padding: 3rem;
+  display: grid;
+  justify-self: center;
+}
+
+@media (min-width: 700px) {
+  .issues_signup_a {
+    padding: 5rem 1rem 5rem 20rem;
+  }
+}
+
+.issues_signup_c {
+  grid-area: issues_signup_c;
+  padding: 2rem;
+  display: grid;
+  justify-self:center;
+}
+
+@media (min-width: 700px) {
+  .issues_signup_c {
+    grid-area: issues_signup_c;
+    padding: 5rem 0rem 5rem 0rem;
+    display: grid;
+    justify-self: inherit;
+  }
+}
+
+.act1 {
+  grid-area: 1 / 1;
+  font-size: 10rem;
+  padding: .5rem .5rem;
+  color: #56CCF2;
+  line-height: 10rem;
+}
+
+@media (min-width: 700px){
+  .act1 {
+    grid-area: 1 / 1;
+    font-size: 14rem;
+    padding: .5rem .5rem;
+    color: #56CCF2;
+    line-height: 10rem;
+  }
+}
+
+.now1 {
+  grid-area: 2 / 1;
+  font-size: 10rem;
+  padding: .5rem .5rem;
+  color: #56CCF2;
+  line-height: 10rem;
+}
+
+@media (min-width: 700px){
+  .now1 {
+    grid-area: 2 / 1;
+    font-size: 14rem;
+    padding: .5rem .5rem;
+    color: #56CCF2;
+    line-height: 10rem;
+  }
+}
+
+.act2 {
+  grid-area: 1 / 1;
+  font-size: 10rem;
+  /*padding: .5rem .5rem;*/
+  color: var(--primary);
+  line-height: 10rem;
+}
+
+@media (min-width: 700px){
+  .act2 {
+    grid-area: 1 / 1;
+    font-size: 14rem;
+    /*padding: .5rem .5rem;*/
+    color: var(--primary);
+    line-height: 10rem;
+  }
+}
+
+.now2 {
+  grid-area: 2 / 1;
+  font-size: 10rem;
+  color: var(--primary);
+  line-height: 10rem;
+}
+
+@media (min-width: 700px){
+  .now2 {
+    grid-area: 2 / 1;
+    font-size: 14rem;
+    color: var(--primary);
+    line-height: 10rem;
+  }
+}
+
+.issues_signup_rect {
+  height: 5rem;
+  width: 30rem;
+  border-radius: .4rem;
+  border: solid .1rem var(--dark);
+  background-color: white;
+  margin: 1rem 0rem 1rem 0rem;
+}
+
+@media (min-width: 700px){
+  .issues_signup_rect {
+    height: 5rem;
+    width: 36rem;
+    border-radius: .4rem;
+    border: solid .1rem var(--dark);
+    background-color: white;
+    margin: 1rem 0rem 1rem 0rem;
+  }
+}
+
+.issues_signup_rect_sm {
+  height: 2rem;
+  width: 2rem;
+  border-radius: .4rem;
+  border: solid .1rem var(--dark);
+  background-color: white;
+  margin: 1rem 0rem 1rem 0rem;
+  grid-area: 4 / 1;
+  align-self: center;
+}
+
+.signup_volunteer {
+  max-width: 37rem;
+  line-height: 2rem;
+}
+
+.signup_volunteer1 {
+  grid-area: 4 / 1;
+  padding: 0rem 0rem 0rem 3rem;
+  align-self: center;
+}
+
+.issues_signup_btn {
+  margin: 1rem 0rem 1rem 0rem;
+}
+
+/*--------------- ISSUES / COMMON QUESTIONS (SECTION 5) -----------------*/
+
+.issues_faq_a {
+  grid-area: issues_faq_a;
+  padding: 5rem;
+  justify-self: center;
+  max-width: 32rem;
+}
+
+@media (min-width: 700px){
+  .issues_faq_a {
+    grid-area: issues_faq_a;
+    padding: 10rem 0rem 5rem 20rem;
+    max-width: none;
+  }
+}
+
+.issues_faq_background {
+  background-color: #AFCBFF;
+  z-index: -1;
+  grid-area: 13 / 1 / 15 / 1;
+}
+
+@media (min-width: 700px) {
+  .issues_faq_background {
+    background-color: #AFCBFF;
+    z-index: -1;
+    grid-area: 7 / 1 / 7 / 4;
+  }
+}
+
+/* Style the buttons that are used to open and close the accordion panel */
+.accordion {
+  background-color: transparent;
+  color: var(--dark);
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  text-align: left;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+  border-bottom: solid .2rem var(--dark);
+  display: grid;
+  max-width: 59rem;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active, .accordion:hover {
+  background-color: #F4F7FC;
+}
+
+/* Style the accordion panel. Note: hidden by default */
+.panel {
+  padding: 1rem 0rem 2rem 1rem;
+  /*background-color: white;*/
+  display: none;
+  overflow: hidden;
+  max-width: 47rem;
+  line-height: 2rem;
+}
+
+.plus {
+  grid-area: 1 / 2;
   justify-self: right;
+}
+
+/* statue of liberty */
+
+.issues_faq_c {
+  grid-area: issues_faq_c;
+  display: none;
+}
+
+@media (min-width: 700px) {
+  .issues_faq_c {
+    grid-area: issues_faq_c;
+    display: inherit;
+    padding: 5rem 20rem 0rem 0rem;
+    justify-self: center;
+    display: grid;
+  }
+}
+
+.sca_faq_icon {
+  max-height: 37rem;
+  align-self: end;
+}
+
+/*--------------- ISSUES / Learn More (SECTION 6) -----------------*/
+
+.issues_learn_background {
+  grid-area: 15 / 1 / 18 / 1;
+  z-index: -1;
+  background-color: #AFCBFF;
+  opacity: 30%
+}
+
+@media (min-width: 700px) {
+  .issues_learn_background {
+    grid-area: 8 / 1 / 8 / 4;
+    z-index: -1;
+    background-color: #AFCBFF;
+    opacity: 30%
+  }
+}
+
+.issues_learn_header {
+  grid-area: 15 / 1;
+  padding: 3rem 2rem;
+}
+
+@media (min-width: 700px){
+  .issues_learn_header {
+    grid-area: 8 / 1 / 8 / 4;
+    padding: 5rem 20rem;
+  }
+}
+
+.issues_learn_a {
+  grid-area: issues_learn_a;
+  padding: 10rem 0rem 3rem 0rem;
+  justify-self: center;
+}
+
+@media (min-width: 700px){
+  .issues_learn_a {
+    grid-area: issues_learn_a;
+    padding: 15rem 0rem 5rem 20rem;
+  }
+}
+
+.issues_learn_b {
+  grid-area: issues_learn_b;
+  padding: 3rem 0rem 3rem 0rem;
+  justify-self: center;
+}
+
+@media (min-width: 700px){
+  .issues_learn_b {
+    grid-area: issues_learn_b;
+    padding: 15rem 0rem 5rem 0rem;
+  }
+}
+
+.issues_learn_c {
+  grid-area: issues_learn_c;
+  padding: 3rem 0rem 5rem 0rem;
+  justify-self: center;
+}
+
+@media (min-width: 700px){
+  .issues_learn_c {
+    grid-area: issues_learn_c;
+    padding: 15rem 20rem 5rem 0rem;
+  }
+}
+
+.sca_learn_icon {
+  max-width: 25rem;
+
+}
+
+/* ------- references --------- */
+
+.issues_ref {
+  grid-area: issues_ref;
+  padding: 5rem 0rem 5rem 0rem;
+}
+
+.issues_ref_header {
+  padding: 2rem 2rem;
+}
+
+@media (min-width: 700px){
+  .issues_ref {
+    grid-area: issues_ref;
+    padding: 5rem 20rem 5rem 20rem;
+  }
+}
+
+ul.issues_references_list{
+  list-style: none;
+  max-width: 28rem;
+}
+
+@media (min-width: 700px){
+  ul.issues_references_list{
+    list-style: none;
+    max-width: none;
+  }
+}
+
+ul.issues_references_list li{
+  padding: 1rem 0rem 1rem 0rem;
+}
+
+ul.issues_references_list li p:hover {
+  color: #01447e;
+  text-decoration: underline;
 }
