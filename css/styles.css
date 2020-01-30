@@ -497,7 +497,7 @@ ul.main_breadcrumb li a:hover {
   .homepage_wrapper .hero {
     grid-template-columns: 3fr 1fr 2fr;
     grid-template-rows: 1fr;
-    padding: 5rem 20rem;
+    padding: 10rem 20rem;
   }
 }
 
@@ -549,7 +549,8 @@ ul.main_breadcrumb li a:hover {
   .hero_text .smLine {
     grid-area: 1 / 1;
     align-self: center;
-    padding-left: 14rem;
+    margin-left: 14rem;
+    background-color: #56CCF2;
   }
 }
 
@@ -691,7 +692,7 @@ ul.main_breadcrumb li a:hover {
     grid-area: take_action;
     background-color: #dfeafd;
     display: grid;
-    padding: 5rem 20rem;
+    padding: 10rem 20rem;
     grid-column-gap: 2rem;
   }
 }
@@ -778,7 +779,7 @@ ul.main_breadcrumb li a:hover {
 @media (min-width: 700px){
   .homepage_wrapper .failures {
     grid-area: failures;
-    padding: 5rem 20rem;
+    padding: 10rem 20rem;
     display: grid;
   }
 }
@@ -868,7 +869,7 @@ ul.main_breadcrumb li a:hover {
 
 @media (min-width: 600px) {
   .homepage_wrapper .issues {
-    padding: 5rem 20rem;
+    padding: 10rem 20rem;
   }
 }
 
@@ -917,7 +918,7 @@ ul.main_breadcrumb li a:hover {
 @media (min-width: 700px){
   .homepage_wrapper .search {
     grid-area: search;
-    padding: 5rem 20rem;
+    padding: 10rem 20rem;
     display: grid;
   }
 }
@@ -1075,7 +1076,7 @@ ul.main_breadcrumb li a:hover {
   .homepage_wrapper .accountability {
     grid-area: accountability;
     display: grid;
-    padding: 5rem 20rem;
+    padding: 10rem 20rem;
     background-color: #11447B;
   }
 }
