@@ -303,7 +303,30 @@
           <h5 class="fRoboto fWhite fLight">City</h5>
         </div>
       </div>
-      <button class="btn fUppercase btn_hold_vote">request they hold a vote</button>
+      <button class="btn fUppercase btn_hold_vote open-button" onclick="openForm2()">request they hold a vote</button>
+      <div class="form-popup" id="myForm2">
+        <form class="form-container">
+          <h3 class="popup_title fRaleway fWhite fBold">Contact Legislator</h3><br><br>
+          <i class="fas fa-times fa-2x" onclick="closeForm2()"></i>
+          <button class="btn fUppercase btn1 open-button" onclick="openForm3()">get script for call</button>
+          <button class="btn fUppercase btn1 open-button" onclick="openForm3()">get script for email</button>
+          <button class="btn fUppercase btn1 open-button" onclick="openForm3()">send a tweet</button>
+        </form>
+      </div>
+      <div class="form-popup" id="myForm3">
+        <form class="form-container">
+          <h3 class="popup_title fRaleway fWhite fBold">Contact Legislator</h3>
+          <h4 class="popup_txt fRaleway fWhite fBold">Call Rep Hank Naughton</h4>
+          <h4 class="popup_txt fRaleway fWhite fBold">(617) 722 - 2230</h4>
+          <h4 class="popup_txt fRaleway fWhite fRegular">Script:</h4>
+          <p class="popup_txt fRoboto fWhite">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+          <h4 class="popup_txt fRaleway fWhite fRegular">FAQ:</h4>
+          <p class="popup_txt fRoboto fWhite">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+          <i class="fas fa-times fa-2x" onclick="closeForm3()"></i>
+          <button class="btn fUppercase btn1 open-button" onclick="closeForm3()">I called my legislator!</button>
+        </form>
+      </div>
+
       <div class="decision_background"></div>
       <h3 class="billpg_map_header fUppercase fRaleway fExbold">Who has co-sponsored:</h3>
       <div class="billpg_map">

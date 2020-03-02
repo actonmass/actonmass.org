@@ -1455,6 +1455,7 @@ a.btn_learn {
 
 .popup_title {
   margin-bottom: 2rem;
+  text-align: center;
 }
 
 /* Full-width input fields */
@@ -1492,6 +1493,21 @@ a.btn_learn {
 /* Add some hover effects to buttons */
 .form-container .btn:hover, .open-button:hover {
   opacity: 1;
+}
+
+.form-container .btn1 {
+  background-color: #ECA632;
+  opacity: 100%;
+  color: var(--dark);
+  justify-self: center;
+}
+
+.form-container .btn1:hover {
+  background-color: var(--light);
+}
+
+.popup_txt {
+  margin: 0rem 2rem 2rem 2rem;
 }
 
 /*--------------------- BILL PAGE HERO ------------------*/
@@ -4466,8 +4482,32 @@ ul.billpg_hero_b li{
   grid-area: 5 / 1 / 5 / 3;
   align-self: end;
   justify-self: center;
-  margin: 0rem 0rem 10rem 0rem;
+  margin: 0rem 0rem 13rem 0rem;
   max-width: 30rem;
+}
+
+.hold_vote_txt {
+  grid-area: 5 / 1 / 5 / 3;
+  align-self: end;
+  justify-self: center;
+  margin: 0rem 0rem 10rem 0rem;
+}
+
+
+.hold_vote_txt1 {
+  align-self: end;
+  justify-self: center;
+  margin: 0rem 0rem 10rem 0rem;
+}
+
+
+.btn_inactive {
+  background-color: #BDBDBD;
+  color: #4F4F4F;
+}
+
+.btn_inactive:hover {
+  background-color: #BDBDBD;
 }
 
 /*----------- BILL PAGE / DECISION MAKERS (senators) ------------------------*/
