@@ -35,3 +35,21 @@ for (i = 0; i < acc.length; i++) {
     }
   });
 }
+
+/* script for pop-up forms */
+
+function openForm() {
+  document.getElementById("myForm").style.display = "block";
+}
+
+function closeForm() {
+  document.getElementById("myForm").style.display = "none";
+}
+
+function openForm() {
+  document.getElementById("myForm1").style.display = "block";
+}
+
+function closeForm() {
+  document.getElementById("myForm1").style.display = "none";
+}

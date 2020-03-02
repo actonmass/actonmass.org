@@ -2,7 +2,9 @@
 <html>
   <head>
     <title>Act on Mass</title>
+    <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <script src="script.js" defer></script>
     <link href="https://fonts.googleapis.com/css?family=Raleway:500,700,800|Roboto:300,400,500,700&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/e83d8d605f.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
@@ -137,12 +139,44 @@
         <div class="volunteer">
           <h3 class="take_action_txt fRaleway fExbold">VOLUNTEER</h3>
           <h4 class="take_action_txt fRoboto fLight">Get notified for upcoming events and how you can help</h4>
-          <button class="btn btn_volunteer">SIGN UP</button>
+          <button class="btn btn_volunteer open-button" onclick="openForm()">sign up</button>
+          <div class="form-popup" id="myForm">
+            <form action="/action_page.php" class="form-container">
+              <h3 class="popup_title fRaleway fWhite fBold">Volunteer</h3><br><br>
+              <i class="fas fa-times fa-2x" onclick="closeForm()"></i>
+              <label for="email"><p class="fRoboto fWhite">Name</p></label>
+              <input type="text" placeholder="Enter Name" name="email" required>
+
+              <label for="psw"><p class="fRoboto fWhite">Email</p></label>
+              <input type="password" placeholder="Enter Email" name="psw" required>
+              <button type="submit" class="btn" onclick="closeForm()">Submit</button>
+              <!--
+              <button type="button" class="btn cancel" onclick="closeForm()">Close</button>-->
+            </form>
+          </div>
         </div>
         <div class="act">
           <h3 class="take_action_txt fRaleway fExbold">ACT NOW</h3>
           <h4 class="take_action_txt fRoboto fLight">Sign up for text and email notifications so we can contact you when your voice is needed</h4>
-          <button class="btn btn_act">SIGN UP</button>
+          <button class="btn btn_act open-button" onclick="openForm()">sign up</button>
+          <div class="form-popup" id="myForm1">
+            <form action="/action_page.php" class="form-container">
+              <h3 class="popup_title fRaleway fWhite fBold">Act Now</h3><br><br>
+              <i class="fas fa-times fa-2x" onclick="closeForm()"></i>
+              <label for="email"><p class="fRoboto fWhite">Name</p></label>
+              <input type="text" placeholder="Enter Name" name="email" required>
+
+              <label for="psw"><p class="fRoboto fWhite">Email</p></label>
+              <input type="password" placeholder="Enter Email" name="psw" required>
+
+              <label for="email"><p class="fRoboto fWhite">Phone Number</p></label>
+              <input type="text" placeholder="Enter Phone Number" name="email" required>
+
+              <button type="submit" class="btn" onclick="closeForm()">Submit</button>
+              <!--
+              <button type="button" class="btn cancel" onclick="closeForm()">Close</button>-->
+            </form>
+          </div>
         </div>
       </section>
       <section class="failures">
@@ -177,7 +211,9 @@
           <img class="issues_img hvr-float" src="images/issues/gender.png" alt="gender">
           <img class="issues_img hvr-float" src="images/issues/healthcare.png" alt="healthcare">
           <img class="issues_img hvr-float" src="images/issues/housing.png" alt="housing">
-          <img class="issues_img hvr-float" src="images/issues/immigration.png" alt="immigration">
+          <a class="issues_img" href="issues.html">
+            <img class="issues_img hvr-float" src="images/issues/immigration.png" alt="immigration">
+          </a>
           <img class="issues_img hvr-float" src="images/issues/LGBTQ.png" alt="LGBTQ">
           <img class="issues_img hvr-float" src="images/issues/voting.png" alt="voting">
       </section>
@@ -185,22 +221,21 @@
         <h1 class="search_title fRaleway fExbold">legislator search</h1>
         <!--<div class="rect rect3"></div>-->
         <div class="search_field">
-          <div class="entry_1">
-            <p class="search_text fRoboto fLight">email</p>
-            <div class="search_rect">
+          <form action="/search_result.html#results">
+            <div class="entry_1">
+              <label class="search_text fRoboto fLight" for="email">Email</label>
+              <input class="search_rect" type="text" id="email" name"email">
             </div>
-          </div>
-          <div class="entry_2">
-            <p class="search_text fRoboto fLight">street address</p>
-            <div class="search_rect">
+            <div class="entry_2">
+              <label class="search_text fRoboto fLight" for="address">Street Address</label>
+              <input class="search_rect" type="text" id="address" name"address">
             </div>
-          </div>
-          <div class="entry_3">
-            <p class="search_text fRoboto fLight">city</p>
-            <div class="search_rect">
+            <div class="entry_3">
+              <label class="search_text fRoboto fLight" for="city">City</label>
+              <input class="search_rect" type="text" id="city" name"city">
             </div>
-          </div>
-          <button class="btn btn_search">SUBMIT</button>
+            <input type="submit" class="btn btn_search" value="Submit">
+          </form>
         </div>
       </section>
       <!--<section class="accountability">-->
@@ -267,7 +302,7 @@
         <div class="account_text">
           <h3 class="account_text1 fRaleway fUppercase fWhite fExbold">Together we can create change.</h3>
           <h4 class="account_text2 fRoboto fWhite fLight">We can ask our elected legislators to take action to create transparency today so important progressive bills don’t die in darkness.</h4>
-          <button class="btn btn_pledge">THE PLEDGE</button>
+          <a href="pledge.html" class="fRoboto fExbold fUppercase btn btn_pledge">the pledge</a>
         </div>
       </section>
       <footer class="main_footer">
