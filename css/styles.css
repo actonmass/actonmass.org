@@ -1103,7 +1103,7 @@ a.btn_learn {
 
 
 .search_field {
-  grid-area: 3 / 1;
+  /*grid-area: 3 / 1;*/
   align-self: center;
   /*padding: 3rem 0rem 3rem 0rem;*/
   justify-self: center;
@@ -1111,7 +1111,7 @@ a.btn_learn {
 
 @media (min-width: 700px){
   .search_field {
-    grid-area: 1 / 2;
+    /*grid-area: 1 / 2;*/
     justify-self: inherit;
   }
 }
@@ -2703,7 +2703,7 @@ li {
 .search_box_b {
   grid-area: search_box_b;
   padding: 0rem 0rem 5rem 0rem;
-  display: grid;
+  /*display: grid;*/
   max-width: 30rem;
   justify-self: center;
   box-sizing: unset;
@@ -2716,9 +2716,9 @@ li {
     display: grid;
     /*max-width: 45rem;*/
     justify-self: left;
-    grid-template-columns: repeat(2,1fr);
+    /*grid-template-columns: repeat(2,1fr);
     grid-template-rows: repeat(4,auto);
-    grid-column-gap: 1rem;
+    grid-column-gap: 1rem;*/
     max-width: none;
   }
 }
@@ -2748,9 +2748,8 @@ li {
 /*---------- PLEDGE PG / SEARCH UNIT / title ----------*/
 
 .pledge_search_title {
-  grid-area: 7 / 1 / 7 / 2;
+  /*grid-area: 7 / 1 / 7 / 2;*/
   justify-self: center;
-  text-transform: uppercase;
   color: var(--light);
   padding: 5rem 0rem 5rem 0rem;
   align-self: center;
@@ -2758,9 +2757,8 @@ li {
 
 @media (min-width: 700px){
   .pledge_search_title {
-    grid-area: 5 / 1 / 5 / 3;
+    /*grid-area: 5 / 1 / 5 / 3;*/
     justify-self: center;
-    text-transform: uppercase;
     padding: 5rem 0rem 5rem 0rem;
   }
 }
@@ -2814,8 +2812,8 @@ li {
 @media (min-width: 700px){
   .leg_circ_img {
     border-radius: 50%;
-    border: solid 1rem #5FAD41;
-    max-width: 10rem;
+    border: solid .75rem #5FAD41;
+    max-width: 7rem;
     grid-area: 1 / 1;
   }
 }
@@ -4182,16 +4180,16 @@ ul.billpg_hero_b li{
 .billpg_hero_a {
   grid-area: billpg_hero_a;
   display: grid;
-  grid-template-rows: 1fr 0rem 1fr;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
   max-width: 30rem;
   justify-self: center;
 }
 
 @media (min-width: 700px) {
   .billpg_hero_a {
-    padding: 10rem 20rem 10rem 0rem;
-    max-width: 58rem;
+    padding: 5rem 20rem 10rem 0rem;
+    max-width: 72rem;
     justify-self: inherit;
   }
 }
@@ -4201,22 +4199,20 @@ ul.billpg_hero_b li{
   justify-self: center;
   align-self: center;
   z-index: 1;
-  max-width: 43rem;
+  max-width: 44rem;
 }
 
 .billpg_hero_a .dots_1 {
   margin: 0;
   max-height: 23rem;
-  max-width: 23rem;
   grid-area: 2 / 1;
-  padding: 0rem 0rem 0rem 2rem;
+  padding: 0;
 }
 
 .billpg_hero_a .dots_2 {
   margin: 0;
   max-height: 23rem;
-  max-width: 23rem;
-  padding: 2rem 0rem 0rem 2rem;
+  padding: 0;
   grid-area: 1 / 2;
 }
 
@@ -4230,15 +4226,20 @@ ul.billpg_hero_b li{
 @media (min-width: 700px){
   .billpg_hero_b {
     grid-area: billpg_hero_b;
-    padding: 10rem 0rem 10rem 20rem;
+    padding: 5rem 0rem 10rem 20rem;
     align-self: center;
-    max-width: 36rem;
+    max-width: 50rem;
     box-sizing: unset;
   }
 }
 
-ul.billpg_hero_b li{
+.billpg_hero_b li{
   color: var(--light);
+  margin: 0rem 0rem 2rem 0rem;
+}
+
+.billpg_hero_b ul{
+  max-width: 40rem;
 }
 
 .billpg_hero_background {
@@ -4252,21 +4253,61 @@ ul.billpg_hero_b li{
 .billpg_search_a {
   grid-area: billpg_search_a;
   display: grid;
+  padding: 10rem 0rem 10rem 20rem;
+  text-align: left;
 }
 
 .billpg_search_a .billpg_txt {
-  text-transform: uppercase;
-  justify-self: center;
   align-self: center;
   max-width: 30rem;
   color: var(--dark);
+  font-size: 4rem;
+  padding: 0rem 0rem 7rem 0rem;
 }
 
 .billpg_search_b {
   grid-area: billpg_search_b;
   display: grid;
-  padding: 5rem 20rem 5rem 0rem;
+  padding: 10rem 20rem 10rem 0rem;
 }
+
+.billpg_search_b .search_rect {
+  width: 32vw;
+  max-width: 50rem;
+  display: grid;
+}
+
+.billpg_search_b .search_field {
+  grid-area: unset;
+}
+
+/*--------------------- BILL PAGE / SEARCH RESULTS------------------------*/
+
+.leg_img {
+  height: 15rem;
+}
+
+.billpg_result_rep {
+  padding-top: 10rem;
+  justify-self: center;
+}
+
+.billpg_result_sen {
+  padding-top: 10rem;
+  justify-self: center;
+}
+
+.fa-check-circle {
+  margin: 0rem 1rem 0rem 0rem;
+  color: #5FAD41;
+}
+
+.fa-times-circle {
+  margin: 0rem 1rem 0rem 0rem;
+  color: #780116;
+}
+
+
 
 /*--------------------- BILL PAGE / DECISION MAKERS ------------------------*/
 
@@ -4279,7 +4320,7 @@ ul.billpg_hero_b li{
 .billpg_decision_header1 {
   grid-area: 5 / 1 / 5 / 3;
   justify-self: center;
-  padding: 10rem 0rem 2rem 0rem;
+  padding: 11rem 0rem 0rem 0rem;
 }
 
 .billpg_decision_header2 {
@@ -4293,7 +4334,15 @@ ul.billpg_hero_b li{
   background-color: #56CCF2;
   grid-area: 5 / 1 / 5 / 3;
   justify-self: center;
-  margin-top: 14rem;
+  margin-top: 17rem;
+}
+
+.btn_hold_vote {
+  grid-area: 5 / 1 / 5 / 3;
+  align-self: end;
+  justify-self: center;
+  margin: 0rem 0rem 10rem 0rem;
+  max-width: 30rem;
 }
 
 /*----------- BILL PAGE / DECISION MAKERS (senators) ------------------------*/
@@ -4301,11 +4350,21 @@ ul.billpg_hero_b li{
 .billpg_sen_a {
   grid-area: billpg_sen_a;
   display: grid;
-  padding: 25rem 10rem 10rem 20rem;
+  padding: 25rem 10rem 15rem 20rem;
   grid-template-rows: auto auto 1fr 1fr 1fr;
   grid-template-columns: auto auto auto;
-  grid-column-gap: 2rem;
+  grid-column-gap: 1rem;
+  grid-row-gap: 1rem;
 }
+
+.billpg_wrapper .leg_circ_img .red-x {
+  border: solid .75rem #780116;
+}
+/*
+.billpg_wrapper .leg_circ_img {
+  border: solid .75rem #5FAD41;
+}*/
+
 
 .decision_sen {
   grid-area: 1 / 1 / 1 / 4;
@@ -4347,7 +4406,7 @@ ul.billpg_hero_b li{
 }
 
 .red-x {
-  border: solid 1rem #780116;
+  border: solid .75rem #780116;
 }
 
 .leg_circ_x {
@@ -4364,10 +4423,11 @@ ul.billpg_hero_b li{
 .billpg_reps_b {
   grid-area: billpg_reps_b;
   display: grid;
-  padding: 25rem 20rem 10rem 0rem;
+  padding: 25rem 20rem 25rem 0rem;
   grid-template-rows: auto auto 1fr 1fr 1fr;
   grid-template-columns: auto auto auto auto;
-  grid-column-gap: 2rem;
+  grid-column-gap: 1rem;
+  grid-row-gap: 1rem;
 }
 
 .decision_background {
@@ -4399,12 +4459,12 @@ ul.billpg_hero_b li{
 .map_container {
   background-color: var(--primary);
   border-radius: 1rem;
-  margin: 10rem 20rem;
+  margin: 15rem 20rem 5rem 20rem;
 }
 
 .btn_map {
   justify-self: center;
-  margin-bottom: 5rem;
+  margin-bottom: 10rem;
   max-width: 30rem;
 }
 
@@ -4417,7 +4477,7 @@ ul.billpg_hero_b li{
 
 .billpg_timeln_header {
   grid-area: 7 / 1 / 7 / 3;
-  padding: 5rem 20rem;
+  padding: 10rem 20rem 0rem 20rem;
 }
 
 .billpg_timeln_background {
@@ -4429,7 +4489,7 @@ ul.billpg_hero_b li{
 .timeline {
   display: grid;
   grid-template-columns: repeat(6,1fr);
-  grid-template-rows: auto auto;
+  grid-template-rows: auto auto auto;
   padding: 5rem 20rem 15rem 20rem;
 }
 
@@ -4439,7 +4499,7 @@ ul.billpg_hero_b li{
   background-color: var(--dark);
   justify-self: center;
   align-self: center;
-  grid-area: 1 / 1 / 1 / 7;
+  grid-area: 2 / 1 / 2 / 7;
 }
 
 .timeln_dot1 {
@@ -4449,8 +4509,10 @@ ul.billpg_hero_b li{
   width: 2rem;
   justify-self: right;
   margin-right: 5rem;
-  grid-area: 1 / 1;
+  grid-area: 2 / 1;
   align-self: center;
+  animation-duration: 3s;
+  animation-delay: 1s;
 }
 
 .timeln_dot2 {
@@ -4460,21 +4522,32 @@ ul.billpg_hero_b li{
   width: 2rem;
   justify-self: left;
   margin-right: 2rem;
-  grid-area: 1 / 4;
+  grid-area: 2 / 4;
   align-self: center;
+  animation-duration: 2s;
+  animation-delay: 2s;
+}
+
+.timeln_txt {
+  grid-area: 1 / 2 / 1 / 3;
+  justify-self: center;
+  animation-duration: 2s;
+  animation-delay: 1s;
 }
 
 .timeln_dot5 {
   border-radius: 50%;
   background-color: #D8E5FD;
-  height: 3rem;
-  width: 3rem;
+  height: 4rem;
+  width: 4rem;
   justify-self: left;
   /*margin-right: 2rem;*/
-  grid-area: 1 / 5;
+  grid-area: 2 / 5;
   border: solid 1rem #ECA632;
+  animation-duration: 3s;
+  animation-delay: 2s;
 }
-
+/*
 .timeln_dot3 {
   border-radius: 50%;
   background-color: #ECA632;
@@ -4485,7 +4558,7 @@ ul.billpg_hero_b li{
   grid-area: 1 / 5;
   z-index:1;
   align-self: center;
-}
+}*/
 
 .timeln_dot4 {
   border-radius: 50%;
@@ -4494,30 +4567,38 @@ ul.billpg_hero_b li{
   width: 2rem;
   justify-self: left;
   margin-left: 5rem;
-  grid-area: 1 / 6;
+  grid-area: 2 / 6;
   align-self: center;
+  animation-duration: 3s;
+  animation-delay: 4s;
 }
 
 .timeln_bill1 {
-  grid-area: 2 / 1;
+  grid-area: 3 / 1;
   justify-self: left;
   margin-left: 9rem;
 }
 
 .timeln_bill2 {
-  grid-area: 2 / 4;
+  grid-area: 3 / 4;
   justify-self: left;
 }
 
 .timeln_bill3 {
-  grid-area: 2 / 5;
+  grid-area: 3 / 5;
   justify-self: right;
 
 }
 
 .timeln_bill4 {
-  grid-area: 2 / 6;
+  grid-area: 3 / 6;
   justify-self: right;
+}
+
+.marker {
+  color: var(--primary);
+  grid-area: 1 / 4;
+  animation-duration: 3s;
 }
 
 
@@ -4538,7 +4619,13 @@ ul.billpg_hero_b li{
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;*/
-  padding: 10rem 20rem 5rem 20rem;
+  padding: 10rem 20rem 10rem 20rem;
+  display: grid;
+}
+
+.fa-map-marker-alt {
+  color: var(--primary);
+  margin: 0rem 1rem 0rem 0rem;
 }
 
 .billpg_flow_header {
@@ -4566,6 +4653,7 @@ ul.billpg_hero_b li{
 }*/
  #wrapper {
 	 position: relative;
+   margin: 0rem 0rem 0rem 10rem;
 }
  .branch {
 	 position: relative;
@@ -4657,7 +4745,7 @@ ul.billpg_hero_b li{
   display: grid;
   grid-template-columns: repeat(3,1fr);
   grid-template-rows: auto repeat(14,1fr);
-  padding: 5rem 20rem 5rem 20rem;
+  padding: 10rem 20rem 10rem 20rem;
 }
 
 .billpg_hist_background {
@@ -4711,7 +4799,7 @@ ul.billpg_hero_b li{
 }
 
 .billpg_hist .rect3 {
-  grid-area: 6 / 2
+  grid-area: 6 / 2;
 }
 
 .billpg_hist .rect4 {
@@ -4777,6 +4865,14 @@ ul.billpg_hero_b li{
   justify-self: center;
   text-align: left;
   padding: 1rem;
+  background-color: #780116;
+}
+
+.fa-skull-crossbones {
+  color: #56CCF2;
+  justify-self: right;
+  align-self: center;
+  grid-area: 1 / 1 / 3 / 3;
 }
 
 .billpg_hist .cir4 {
@@ -4819,6 +4915,7 @@ ul.billpg_hero_b li{
   justify-self: center;
   text-align: left;
   padding: 1rem;
+  background-color: #780116;
 }
 
 .billpg_hist .cir7 {
@@ -4861,6 +4958,7 @@ ul.billpg_hero_b li{
   justify-self: center;
   text-align: left;
   padding: 1rem;
+  background-color: #780116;
 }
 
 .billpg_hist .cir10 {
@@ -4875,7 +4973,7 @@ ul.billpg_hero_b li{
   justify-self: center;
   text-align: left;
   padding: 1rem;
-  height: 13rem;
+  height: 14rem;
 }
 
 .billpg_hist .cir11 {
@@ -4911,4 +5009,13 @@ ul.billpg_hero_b li{
   width: 36rem;
   background-color: var(--light);
   border-radius: 1rem;
+  display: grid;
+}
+
+.sent_txt {
+  grid-area: 1 / 1 / 1 / 3;
+}
+
+.sent_txt2 {
+  grid-area: 2 / 1 / 2 / 3;
 }

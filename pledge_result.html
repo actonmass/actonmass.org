@@ -135,25 +135,41 @@
         <button class="btn fUppercase btn_trans_pledge">ask your rep to sign</button>
       </div>
       <div class="pledge_pledge_background"></div>
-      <div class="search_box_a">
-        <h1 class="pledge_search_title fRaleway fBold">legislator<br>search</h1>
+      <div id="result" class="search_box_a">
+        <h2 class="pledge_search_title fRaleway fBold">Success!<br>Scroll down to see your results</h2>
+        <div class="billpg_result_rep">
+          <h4 class="fRaleway fUppercase fExbold fWhite">your rep :</h4><br>
+          <img class="leg_img" src="images/legislators/harold-naughton.jpg" alt="rep image"><br><br>
+          <p class="fRoboto fRegular fWhite">Hank Naughton (D)</p><br>
+          <p class="fRoboto fRegular fUppercase fWhite"><i class="fas fa-times-circle fa-2x"></i>Did not sign the pledge</p>
+          <button class="btn fUppercase btn_trans_pledge2">Ask your Rep to sign</button>
+        </div>
       </div>
       <div class="search_box_b">
-        <form action="/pledge_result.html#result">
-          <div class="entry_1">
-            <label class="search_text fRoboto fLight" for="email">Email</label>
-            <input class="search_rect" type="text" id="email" name"email">
-          </div>
-          <div class="entry_2">
-            <label class="search_text fRoboto fLight" for="address">Street Address</label>
-            <input class="search_rect" type="text" id="address" name"address">
-          </div>
-          <div class="entry_3">
-            <label class="search_text fRoboto fLight" for="city">City</label>
-            <input class="search_rect" type="text" id="city" name"city">
-          </div>
-          <input type="submit" class="btn btn_search" value="Submit">
-        </form>
+        <div class="search_field">
+          <form action="/billpg_result.html#result">
+            <div class="entry_1">
+              <label class="search_text fRoboto fLight" for="email">Email</label>
+              <input class="search_rect" type="text" id="email" name"email">
+            </div>
+            <div class="entry_2">
+              <label class="search_text fRoboto fLight" for="address">Street Address</label>
+              <input class="search_rect" type="text" id="address" name"address">
+            </div>
+            <div class="entry_3">
+              <label class="search_text fRoboto fLight" for="city">City</label>
+              <input class="search_rect" type="text" id="city" name"city">
+            </div>
+            <input type="submit" class="btn btn_search" value="Submit">
+          </form>
+        </div>
+        <div class="billpg_result_sen">
+          <h4 class="fRaleway fUppercase fExbold fWhite">your senator :</h4><br>
+          <img class="leg_img" src="images/legislators/harriette-chandler.jpg" alt="senator image"><br><br>
+          <p class="fRoboto fRegular fWhite">Harriette L. Chandler (D)</p><br>
+          <p class="fRoboto fRegular fUppercase fWhite"><i class="fas fa-check-circle fa-2x"></i>yes did sign the pledge</p>
+          <button class="btn fUppercase btn_trans_pledge2">Thank your Senator</button>
+        </div>
       </div>
       <div class="pledge_search_background"></div>
       <section class="pledge_reps">
