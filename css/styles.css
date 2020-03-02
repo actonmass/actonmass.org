@@ -2392,15 +2392,44 @@ li {
 .leg_circ_res {
   border-radius: 50%;
   border: solid .5rem #5FAD41;
-  max-width: 6rem;
+  max-width: 10rem;
   grid-area: 1 / 1;
-  margin: 0rem 1rem 0rem 1rem;
+  margin: 0rem 1rem 1rem 1rem;
   box-sizing: unset;
 }
 
 .senator_res {
   display: grid;
-  grid-template-columns: repeat(5,auto);
+  grid-template-columns: 1fr 1fr auto 1fr 1fr;
+  max-width: 70vw;
+  margin-bottom: 5rem;
+  grid-column-gap: 5rem;
+  align-items:center;
+}
+
+.senator_res:hover {
+  background-color: #dfeafd;
+}
+
+.rep_res:hover {
+  background-color: #dfeafd;
+}
+
+.rep_res {
+  display: grid;
+  grid-template-columns: 1fr 1fr auto 1fr 1fr;
+  max-width: 70vw;
+  grid-column-gap: 5rem;
+  align-items:center;
+}
+
+.towns {
+  max-width: 20rem;
+  justify-self: center;
+}
+
+.fa-democrat {
+  color: var(--primary);
 }
 
 
