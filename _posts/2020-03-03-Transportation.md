@@ -3,13 +3,6 @@ layout: post
 title: "Underwhelming" investment in Massachusetts transportation
 ---
 
-|
-
-
-
- |
-
-|
 
 Friend-
 
@@ -17,13 +10,10 @@ This past Wednesday, the MA House leadership unveiled their plans for investing 
 
 When the bills were released, the legislature probably expected a huge groundswell of public praise. Instead, the plans were labelled "underwhelming" by former Secretary of Transportation Jim Aloisi.
 
- |
+![image4](https://hs-6201350.f.hubspotstarter.net/hub/6201350/hubfs/image4.png?upscale=true&width=1120&upscale=true&name=image4.png) |
 
-| ![image4](https://hs-6201350.f.hubspotstarter.net/hub/6201350/hubfs/image4.png?upscale=true&width=1120&upscale=true&name=image4.png) |
+![image1](https://hs-6201350.f.hubspotstarter.net/hub/6201350/hubfs/image1.png?upscale=true&width=1120&upscale=true&name=image1.png) |
 
-| ![image1](https://hs-6201350.f.hubspotstarter.net/hub/6201350/hubfs/image1.png?upscale=true&width=1120&upscale=true&name=image1.png) |
-
-|
 
 **Our transportation system is falling apart**
 
@@ -31,11 +21,9 @@ Like other public services such as education & healthcare, we've seen a lack of 
 
 A [recent report](https://www.abettercity.org/assets/images/ABC_Funding_Transportation_Solutions_November_2019II.pdf?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz--6z4b6SpJHJt2jc9fUmfQKn63hbDSwHOTGKQRCtjjni2f35dF-l55yl3SI5dYhVspe-OAF) stated that Massachusetts needs to invest $50B in our transportation system over the next 20 years. That includes a [$10 billion backlog of investment just needed to maintain the train & highway infrastructure we have today](https://www.wbur.org/news/2019/05/13/mbta-repair-costs-transit?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz--6z4b6SpJHJt2jc9fUmfQKn63hbDSwHOTGKQRCtjjni2f35dF-l55yl3SI5dYhVspe-OAF). But more people than ever are using our roads and trains, and whether it's congested highways or gridlocked subway lines, we have urgent needs to make the system reliable for commuters.
 
- |
 
-| ![image2](https://hs-6201350.f.hubspotstarter.net/hub/6201350/hubfs/image2.png?upscale=true&width=1120&upscale=true&name=image2.png) |
+![image2](https://hs-6201350.f.hubspotstarter.net/hub/6201350/hubfs/image2.png?upscale=true&width=1120&upscale=true&name=image2.png) |
 
-|
 
 [https://twitter.com/tonyphamdesign/status/1228829365733142533](https://twitter.com/tonyphamdesign/status/1228829365733142533?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz--6z4b6SpJHJt2jc9fUmfQKn63hbDSwHOTGKQRCtjjni2f35dF-l55yl3SI5dYhVspe-OAF)
 
@@ -68,11 +56,9 @@ This new corporate tax will require larger companies to pay more in taxes. If a 
 
 This tax is expected to raise $100M to $150M per year, but that only amounts to about 19%, according to conservative estimates offered by House leadership.  (And the high-end estimate provided by House leadership only clocks in at around 25%).
 
- |
 
-| ![image5](https://hs-6201350.f.hubspotstarter.net/hub/6201350/hubfs/image5.png?upscale=true&width=780&upscale=true&name=image5.png) |
+![image5](https://hs-6201350.f.hubspotstarter.net/hub/6201350/hubfs/image5.png?upscale=true&width=780&upscale=true&name=image5.png) |
 
-|
 
 The largest component of the package is a 5-cent tax on gasoline that everyone will pay at the pump, a regressive tax. Now, Massachusetts gas taxes are [actually lower than 29 other states](https://en.wikipedia.org/wiki/Fuel_taxes_in_the_United_States?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz--6z4b6SpJHJt2jc9fUmfQKn63hbDSwHOTGKQRCtjjni2f35dF-l55yl3SI5dYhVspe-OAF), and even with this increase we'll still be paying about half the tax of states such as California. Gas taxes have other benefits such as encouraging the use of public transportation, and they ensure that those who use roads the most contribute to their upkeep.
 
@@ -86,11 +72,9 @@ A corporation that earns $1M a year will pay $1500 per year, or an effective tax
 
 The Massachusetts Department of Revenue stated that there were 403 billion-dollar corporations in the state in 2016.  **If we tweaked the top corporate tier up just to $250,000 per corporation, that would be an additional $40M in revenue per year.**
 
- |
 
-| ![image6](https://hs-6201350.f.hubspotstarter.net/hub/6201350/hubfs/image6.png?upscale=true&width=1120&upscale=true&name=image6.png) |
+![image6](https://hs-6201350.f.hubspotstarter.net/hub/6201350/hubfs/image6.png?upscale=true&width=1120&upscale=true&name=image6.png) |
 
-|
 
 **What's Next**
 
@@ -99,5 +83,3 @@ These transportation bills were released to the public on Wednesday, and they're
 However, legislators only had 2 days to file amendments to the bills. House Republicans tried to extend that deadline until Monday, but the motion was defeated.
 
 That's a very real way in which debate and discussion are squelched in the House. You try reading 70+ pages of dense legalese and understanding the implications of the language in order to identify important improvements to the bill.
-
- |
