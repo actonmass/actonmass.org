@@ -19,7 +19,7 @@ When the bills were released, the legislature probably expected a huge groundswe
 
  |
 
-| ![image4](https://hs-6201350.f.hubspotstarter.net/hub/6201350/hubfs/image4.png?upscale=true&width=1120&upscale=true&name=image4.png =100x25) |
+| ![image4](https://hs-6201350.f.hubspotstarter.net/hub/6201350/hubfs/image4.png?upscale=true&width=1120&upscale=true&name=image4.png) |
 
 | ![image1](https://hs-6201350.f.hubspotstarter.net/hub/6201350/hubfs/image1.png?upscale=true&width=1120&upscale=true&name=image1.png) |
 
