@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Underwhelming" investment in Massachusetts transportation
+title: \"Underwhelming\" investment in Massachusetts transportation
 ---
 
 
