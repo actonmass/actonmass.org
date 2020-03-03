@@ -1430,14 +1430,15 @@ a.btn_learn {
   display: none;
   position: fixed;
   bottom: 2rem;
-  right: 55rem;
+  right: 30%;
   /*border: 3px solid #f1f1f1;*/
   z-index: 9;
+  left: 30%;
 }
 
 /* Add styles to the form container */
 .form-container {
-  max-width: 300px;
+  /*max-width: 300px;*/
   padding: 10px;
   background-color: #145396;
   color: white;
@@ -4629,7 +4630,7 @@ ul.billpg_hero_b li{
 
 .btn_map {
   justify-self: center;
-  margin-bottom: 10rem;
+  margin-bottom: 3rem;
   max-width: 30rem;
 }
 
