@@ -81,3 +81,27 @@ These transportation bills were released to the public on Wednesday, and they're
 However, legislators only had 2 days to file amendments to the bills. House Republicans tried to extend that deadline until Monday, but the motion was defeated.
 
 That's a very real way in which debate and discussion are squelched in the House. You try reading 70+ pages of dense legalese and understanding the implications of the language in order to identify important improvements to the bill.
+
+
+***Update March 4th****
+
+**Call your State Rep** to support amendments that improve the bill to make sure more of the taxes hit the wealthiest corporations in our state - not just residents at the gas pump.
+
+**Ask your State Rep to support these amendments and stand for a recorded roll call vote:**
+
+**Amendments #17, #68, and #70 - More progressive revenue**
+
+-   **✅SUPPORT #17 - Increases the corporate tax rate on the largest 403 corporations in MA **- This would only affect the richest 403 corporations that earn over $1 Billion per year in annual sales.  It would increase the corporate minimum tax from $150,000 to $250,000.  This is only an increase of 0.01% in the effective tax rate for these corporations, and would raise approximately $40M / year to fund transportation projects.
+-   **✅SUPPORT #68 - Creates a transportation excise fee on the largest corporations**- This tax would raise $150M / year by assessing an excise tax on corporations of over 100 employees.  It's a progressive tax, so smaller companies would pay less than larger companies, and estimates based on 2017 employee data show that it would be about $50 per employee for the smallest companies.  This is a *very modest* tax on employers who depend on our transportation system to get their employees to work.
+-   **✅SUPPORT #70 - Maintains a tax that currently exists on rolling stock **- The current draft of H.4508 includes a tax break worth $9-11M per year for the transportation industry.  This amendment removes that tax break.
+
+**Amendments #72 and #60 - Free & reduced fares for residents**
+
+-   **✅SUPPORT #72 - Free & Reduced fairs **- Dedicates the $9M-11M in revenue saved through amendment #70 to be used to give residents reduced or free fairs on MBTA, commuter rail, and regional transportation systems. The amendment prioritizes Environmental Justice & low income communities.
+-   **✅SUPPORT #60 - Free bus fares (Boston & Regional Bus Networks) **- This amendment dedicates a fifth of the gas tax revenue to providing free bus service to people using the MBTA, and another fifth of the gas tax revenue to providing free bus service to riders of RTAs in different regions of the state outside Boston.  This helps low income people & the environment.  It's win win!
+
+You can look up your State Rep here: <https://malegislature.gov/Search/FindMyLegislator>
+
+***Sample Script:***
+
+*"Hi, my name is _______ and I live at ________(address). I'm a constituent of Rep. _________ and I'm calling about the transportation revenue bill H.4508 to ask that s/he SUPPORT amendments to make the taxes more progressive, and fund reduce/free transportation prices.  I support amendments #17, 68, and 72 to raise more progressive revenue from corporations. Only about a quarter of revenue in the bill currently proposed come from corporations, and that's not ok.  I also support amendments #60 & #72 to dedicate some of this revenue to providing reduce or free transit fares for low income people.  It's not fair that bus fares continue to increase, when we need to be incenting people to ride clean public transit!  Thank you."*
