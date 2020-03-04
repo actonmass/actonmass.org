@@ -10,6 +10,7 @@ This past Wednesday, the MA House leadership unveiled their plans for investing 
 
 When the bills were released, the legislature probably expected a huge groundswell of public praise. Instead, the plans were labelled "underwhelming" by former Secretary of Transportation Jim Aloisi.
 
+<img src="https://hs-6201350.f.hubspotstarter.net/hub/6201350/hubfs/image4.png" height="40" width="200">
 ![image4](https://hs-6201350.f.hubspotstarter.net/hub/6201350/hubfs/image4.png?upscale=true&width=1120&upscale=true&name=image4.png) |
 
 ![image1](https://hs-6201350.f.hubspotstarter.net/hub/6201350/hubfs/image1.png?upscale=true&width=1120&upscale=true&name=image1.png) |
