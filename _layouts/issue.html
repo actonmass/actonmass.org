@@ -3,7 +3,7 @@ layout: default
 ---
 
 <div class="issue">
-    <h1>{{ page.title }}</h1>
+    <h1>{{ page.title | smartify }}</h1>
     {% include liquid/prev-next-collection.html %}
     <div class="centered"><i class="fa fa-{{ page.logo }}"></i></div>
     {{ content }}
@@ -11,13 +11,13 @@ layout: default
     <ul class="pager">
         <li>
             {% if previous.url %}
-                <a href="{{ previous.url }}" title="{{previous.title}}">&larr; {{ previous.title }}</a>
+                <a href="{{ previous.url }}" title="{{previous.title}}">&larr; {{ previous.title | smartify }}</a>
             {% endif %}
         </li>
         <li><a href="/#issues">All issues</a></li>
         <li>
             {% if next.url %}
-                <a href="{{ next.url }}" title="{{next.title}}"> {{ next.title }} &rarr;</a>
+                <a href="{{ next.url }}" title="{{next.title}}"> {{ next.title | smartify }} &rarr;</a>
             {% endif %}
         </li>
     </ul>
