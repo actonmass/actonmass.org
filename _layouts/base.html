@@ -7,9 +7,9 @@
 <html lang="en-US">
   <head>
     {% include google-analytics.html %}
-    <title>{{ title }}</title>
+    <title>{{ title | smartify }}</title>
     <meta charset="UTF-8">
-    <meta property="og:title" content="{{ title }}">
+    <meta property="og:title" content="{{ title | smartify}}">
     <meta property="og:site_name" content="ActOnMass">
     <meta property="og:type" content="website">
     <meta property="og:description" content="{{ site.description }}">

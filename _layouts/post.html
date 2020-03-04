@@ -2,7 +2,7 @@
 layout: default
 ---
 <div class="post">
-    <h1>{{ page.title }}</h1>
+    <h1>{{ page.title | smartify }}</h1>
     <p class="post-date">Posted on {{ page.date | date_to_string }}</p>
     {{ content }}
     <hr/>
@@ -19,13 +19,13 @@ layout: default
 <ul class="pager">
     <li>
         {% if page.previous.url %}
-            <a href="{{ page.previous.url }}" title="{{page.previous.title}}">&larr; Previous Post</a>
+            <a href="{{ page.previous.url }}" title="{{page.previous.title | smartify}}">&larr; Previous Post</a>
         {% endif %}
     </li>
     <li><a href="/blog">All posts</a></li>
     <li>
         {% if page.next.url %}
-            <a href="{{ page.next.url }}" title="{{page.next.title}}">Next Post &rarr;</a>
+            <a href="{{ page.next.url }}" title="{{page.next.title | smartify}}">Next Post &rarr;</a>
         {% endif %}
     </li>
 </ul>

@@ -24,8 +24,8 @@ layout: base
                 <a href="{{issue.url}}" class="issue-container" style="background-image: url('{{ issue.img }}');">
                     <div class="issue-content">
                         <i class="fa fa-{{ issue.logo }}"></i>
-                        <h3>{{ issue.title }}</h3>
-                        <p>{{ issue.subtitle }}</p>
+                        <h3>{{ issue.title | smartify }}</h3>
+                        <p>{{ issue.subtitle | smartify }}</p>
                     </div>
                 </a>
             {% endfor %}
