@@ -4,8 +4,6 @@ title: '"Underwhelming" investment in Massachusetts transportation'
 ---
 
 
-Friend-
-
 This past Wednesday, the MA House leadership unveiled their plans for investing in transportation in our state. For months now, we've heard that the legislature was going to tackle our transportation infrastructure crisis in a big way, and legislators have talked to the press about how [impressed with the process they have been](https://www.bostonglobe.com/2020/01/27/metro/ive-never-participated-meeting-like-that-inside-houses-great-transportation-debate/?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz--6z4b6SpJHJt2jc9fUmfQKn63hbDSwHOTGKQRCtjjni2f35dF-l55yl3SI5dYhVspe-OAF) (Leadership actually held meetings with them, instead of ignoring rank and file legislators! Imagine!)
 
 When the bills were released, the legislature probably expected a huge groundswell of public praise. Instead, the plans were labelled "underwhelming" by former Secretary of Transportation Jim Aloisi.
@@ -73,7 +71,7 @@ A corporation that earns $1M a year will pay $1500 per year, or an effective tax
 The Massachusetts Department of Revenue stated that there were 403 billion-dollar corporations in the state in 2016.  **If we tweaked the top corporate tier up just to $250,000 per corporation, that would be an additional $40M in revenue per year.**
 
 <img src="https://hs-6201350.f.hubspotstarter.net/hub/6201350/hubfs/image6.png" height="240" width="404">
-|
+
 
 
 **What's Next**
