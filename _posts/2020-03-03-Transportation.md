@@ -21,8 +21,8 @@ Like other public services such as education & healthcare, we've seen a lack of 
 
 A [recent report](https://www.abettercity.org/assets/images/ABC_Funding_Transportation_Solutions_November_2019II.pdf?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz--6z4b6SpJHJt2jc9fUmfQKn63hbDSwHOTGKQRCtjjni2f35dF-l55yl3SI5dYhVspe-OAF) stated that Massachusetts needs to invest $50B in our transportation system over the next 20 years. That includes a [$10 billion backlog of investment just needed to maintain the train & highway infrastructure we have today](https://www.wbur.org/news/2019/05/13/mbta-repair-costs-transit?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz--6z4b6SpJHJt2jc9fUmfQKn63hbDSwHOTGKQRCtjjni2f35dF-l55yl3SI5dYhVspe-OAF). But more people than ever are using our roads and trains, and whether it's congested highways or gridlocked subway lines, we have urgent needs to make the system reliable for commuters.
 
+<img src="https://hs-6201350.f.hubspotstarter.net/hub/6201350/hubfs/image2.png" height="371" width="529">
 
-![image2](https://hs-6201350.f.hubspotstarter.net/hub/6201350/hubfs/image2.png?upscale=true&width=1120&upscale=true&name=image2.png) |
 
 
 [https://twitter.com/tonyphamdesign/status/1228829365733142533](https://twitter.com/tonyphamdesign/status/1228829365733142533?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz--6z4b6SpJHJt2jc9fUmfQKn63hbDSwHOTGKQRCtjjni2f35dF-l55yl3SI5dYhVspe-OAF)
@@ -72,8 +72,8 @@ A corporation that earns $1M a year will pay $1500 per year, or an effective tax
 
 The Massachusetts Department of Revenue stated that there were 403 billion-dollar corporations in the state in 2016.  **If we tweaked the top corporate tier up just to $250,000 per corporation, that would be an additional $40M in revenue per year.**
 
-
-![image6](https://hs-6201350.f.hubspotstarter.net/hub/6201350/hubfs/image6.png?upscale=true&width=1120&upscale=true&name=image6.png) |
+<img src="https://hs-6201350.f.hubspotstarter.net/hub/6201350/hubfs/image6.png" height="240" width="404">
+|
 
 
 **What's Next**
