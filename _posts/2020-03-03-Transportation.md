@@ -8,8 +8,8 @@ This past Wednesday, the MA House leadership unveiled their plans for investing 
 
 When the bills were released, the legislature probably expected a huge groundswell of public praise. Instead, the plans were labelled "underwhelming" by former Secretary of Transportation Jim Aloisi.
 
-<img src="https://hs-6201350.f.hubspotstarter.net/hub/6201350/hubfs/image4.png" height="192" width="537">
-<img src="https://hs-6201350.f.hubspotstarter.net/hub/6201350/hubfs/image1.png" height="443" width="526">
+<img alt="The #mapoli House has issued its transportation funding proposal... And all I can say right now is this: it's underwhelming" src="https://hs-6201350.f.hubspotstarter.net/hub/6201350/hubfs/image4.png" height="192" width="537">
+<img alt="We can't settle for small steps. We can't accept the status quo. We can't provide #mapoli residents with the quality of life they deserve without meaningful change and meaningful new revenue to make the investments the system needs." src="https://hs-6201350.f.hubspotstarter.net/hub/6201350/hubfs/image1.png" height="443" width="526">
 
 
 
@@ -19,7 +19,7 @@ Like other public services such as education & healthcare, we've seen a lack of 
 
 A [recent report](https://www.abettercity.org/assets/images/ABC_Funding_Transportation_Solutions_November_2019II.pdf?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz--6z4b6SpJHJt2jc9fUmfQKn63hbDSwHOTGKQRCtjjni2f35dF-l55yl3SI5dYhVspe-OAF) stated that Massachusetts needs to invest $50B in our transportation system over the next 20 years. That includes a [$10 billion backlog of investment just needed to maintain the train & highway infrastructure we have today](https://www.wbur.org/news/2019/05/13/mbta-repair-costs-transit?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz--6z4b6SpJHJt2jc9fUmfQKn63hbDSwHOTGKQRCtjjni2f35dF-l55yl3SI5dYhVspe-OAF). But more people than ever are using our roads and trains, and whether it's congested highways or gridlocked subway lines, we have urgent needs to make the system reliable for commuters.
 
-<img src="https://hs-6201350.f.hubspotstarter.net/hub/6201350/hubfs/image2.png" height="371" width="529">
+<img alt="I love when the MBTA sets on fire to keep me warm from the cold <3" src="https://hs-6201350.f.hubspotstarter.net/hub/6201350/hubfs/image2.png" height="371" width="529">
 
 
 
@@ -55,7 +55,7 @@ This new corporate tax will require larger companies to pay more in taxes. If a 
 This tax is expected to raise $100M to $150M per year, but that only amounts to about 19%, according to conservative estimates offered by House leadership.  (And the high-end estimate provided by House leadership only clocks in at around 25%).
 
 
-![image5](https://hs-6201350.f.hubspotstarter.net/hub/6201350/hubfs/image5.png?upscale=true&width=780&upscale=true&name=image5.png) |
+![Revenue by source pie chart](https://hs-6201350.f.hubspotstarter.net/hub/6201350/hubfs/image5.png?upscale=true&width=780&upscale=true&name=image5.png) |
 
 
 The largest component of the package is a 5-cent tax on gasoline that everyone will pay at the pump, a regressive tax. Now, Massachusetts gas taxes are [actually lower than 29 other states](https://en.wikipedia.org/wiki/Fuel_taxes_in_the_United_States?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz--6z4b6SpJHJt2jc9fUmfQKn63hbDSwHOTGKQRCtjjni2f35dF-l55yl3SI5dYhVspe-OAF), and even with this increase we'll still be paying about half the tax of states such as California. Gas taxes have other benefits such as encouraging the use of public transportation, and they ensure that those who use roads the most contribute to their upkeep.
@@ -70,7 +70,7 @@ A corporation that earns $1M a year will pay $1500 per year, or an effective tax
 
 The Massachusetts Department of Revenue stated that there were 403 billion-dollar corporations in the state in 2016.  **If we tweaked the top corporate tier up just to $250,000 per corporation, that would be an additional $40M in revenue per year.**
 
-<img src="https://hs-6201350.f.hubspotstarter.net/hub/6201350/hubfs/image6.png" height="240" width="404">
+<img alt="Minimum corporate tax tiers" src="https://hs-6201350.f.hubspotstarter.net/hub/6201350/hubfs/image6.png" height="240" width="404">
 
 
 
