@@ -483,8 +483,8 @@ ul.main_breadcrumb li a:hover {
       "take_action take_action take_action"
       "failures failures failures"
       "issues issues issues"
-      "search search search"
       "accountability accountability accountability"
+      "search search search"
       "footer footer footer";
   }
 }
@@ -974,7 +974,7 @@ a.btn_learn {
 .homepage_wrapper .issues {
   grid-area: issues;
   padding: 5rem 5rem;
-  background-color: #11447B;
+  /*background-color: #11447B;*/
   display: grid;
 }
 
