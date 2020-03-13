@@ -22,10 +22,12 @@
     <link rel="stylesheet" href="/css/home.css">
     <link rel="stylesheet" href="/css/issues.css">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" rel="stylesheet" crossorigin="anonymous">
+    <script type="text/javascript" src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
   </head>
   <body>
       {% include header.html %}
       {{content}}
       {% include footer.html %}
+      <div data-netlify-identity-button>Login with Netlify Identity</div>
   </body>
 </html>
