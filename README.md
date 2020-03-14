@@ -19,7 +19,7 @@ On top of each page file, a "front matter" can also be found. It defines metadat
 
 ### Styling in Markdown
 
-While most page styling happens in CSS and templates, some basic pre-made instructions can be added to style a paragraph. 
+While most page styling happens in CSS and templates, some basic pre-made styles can be added to style a paragraph. 
 
 For instance, to apply the style `centered` to a paragraph, use the following syntax:
 
@@ -28,14 +28,14 @@ Text to center
 {: .centered }
 ```
 
-Several instructions can be added on the same paragraph:
+Several styles can be added on the same paragraph:
 
 ```
 Important text to center
 {: .centered .important }
 ```
 
-The following instructions are available:
+The following styles are available:
 
 - `centered`: Center a paragraph
 - `small`: Use a smaller font size for text in the paragraph.
@@ -43,7 +43,7 @@ The following instructions are available:
 - `centered-image`: Center an image and its legend.
 - `small-image`: Ensure that image height won't be more than 400px.
 
-More instructions can be built if necessary.
+More styles can be built if necessary.
 
 ### Including reusable components
 
