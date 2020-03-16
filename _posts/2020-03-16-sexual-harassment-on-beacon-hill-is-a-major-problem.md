@@ -3,21 +3,11 @@ layout: post
 title: Sexual Harassment on Beacon Hill is a Major Problem
 date: 2020-02-03T17:16:45.913Z
 ---
-\|
-
-\| ![_AOM logo for fb v3](https://hs-6201350.f.hubspotstarter.net/hub/6201350/hubfs/_AOM%20logo%20for%20fb%20v3.png?upscale=true&width=300&upscale=true&name=_AOM%20logo%20for%20fb%20v3.png) |
-
-\| ![crop_nda](https://hs-6201350.f.hubspotstarter.net/hub/6201350/hubfs/crop_nda.jpg?upscale=true&width=1120&upscale=true&name=crop_nda.jpg) |
-
-\|
+ ![_AOM logo for fb v3](https://hs-6201350.f.hubspotstarter.net/hub/6201350/hubfs/_AOM%20logo%20for%20fb%20v3.png?upscale=true&width=300&upscale=true&name=_AOM%20logo%20for%20fb%20v3.png)![crop_nda](https://hs-6201350.f.hubspotstarter.net/hub/6201350/hubfs/crop_nda.jpg?upscale=true&width=1120&upscale=true&name=crop_nda.jpg) 
 
 **Sexual Harassment on Beacon Hill is a Major Problem**
 
 Just two days left for committees to act
-
-\|
-
-\|
 
 Friend-
 
@@ -54,45 +44,15 @@ You can look up your Reps & their contact info here:
 
 [https://malegislature.gov/Search/FindMyLegislator](https://malegislature.gov/Search/FindMyLegislator?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-8l514lCdzsBGpOY-VN0zrxYgDc4MnbEbgojPyeu2ZNJ8rLRmVRO4_cZYJt73IuOCXb6nCW)
 
-\|
-
-\|
-
-\|   |   |   |
-
-\|
-
-\|
-
 ## Forward this email to a friend! Join our email list!
 
 ## We are grateful to you for subscribing to our email updates.  If you find them informative and helpful, we would appreciate your forwarding this email to a friend and telling them why you are on our email list and encourage them to subscribe.
 
 ## When you forward the email they can use the form below to sign up to get email alerts from us. Thank you!
 
-\|
+[Join our Email List!](https://share.hsforms.com/1XjukYzaVTTi6Sr30iofe4A3owzq?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-8l514lCdzsBGpOY-VN0zrxYgDc4MnbEbgojPyeu2ZNJ8rLRmVRO4_cZYJt73IuOCXb6nCW)
 
-\|
 
-\|
-
-\|
-
-\| [Join our Email List!](https://share.hsforms.com/1XjukYzaVTTi6Sr30iofe4A3owzq?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-8l514lCdzsBGpOY-VN0zrxYgDc4MnbEbgojPyeu2ZNJ8rLRmVRO4_cZYJt73IuOCXb6nCW) |
-
-\|
-
-\|
-
-\|
-
-\|
-
-\|   |   |   |
-
-\|
-
-\|
 
 ## Please support our work
 
@@ -100,48 +60,8 @@ Act on Mass depends on people like you to donate & support our work. Whether it'
 
 The best way to help us is with a recurring monthly donation to support the work we do, and help us forecast what our budget will be.  If you are able to make a sustaining monthly donation of $25, $20, $15, $10, or any amount that works for you please click the button below.
 
-\|
-
-\|
-
-\|
-
-\|
-
-\| [Make a Monthly Sustaining Donation](https://secure.actblue.com/donate/act-on-mass?recurring=1&utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-8l514lCdzsBGpOY-VN0zrxYgDc4MnbEbgojPyeu2ZNJ8rLRmVRO4_cZYJt73IuOCXb6nCW) |
-
-\|
-
-\|
-
-\|
-
-\|
+[Make a Monthly Sustaining Donation](https://secure.actblue.com/donate/act-on-mass?recurring=1&utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-8l514lCdzsBGpOY-VN0zrxYgDc4MnbEbgojPyeu2ZNJ8rLRmVRO4_cZYJt73IuOCXb6nCW)
 
 Or, if you can only give a single donation please click here.
 
-\|
-
-\|
-
-\|
-
-\|
-
-\| [Make a One-time Donation](https://secure.actblue.com/donate/act-on-mass?recurring=0&utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-8l514lCdzsBGpOY-VN0zrxYgDc4MnbEbgojPyeu2ZNJ8rLRmVRO4_cZYJt73IuOCXb6nCW) |
-
-\|
-
-\|
-
-\|
-
-\|
-
-Act on Mass, Inc., 1223 Walnut St., Newton, MA 02461
-
-[Unsubscribe](https://hs-6201350.s.hubspotstarter.net/email-unsubscribe/email?product=emailStarter&checkSubscriptions=all&d=VmYj6F72MZvPVKgD3Q3_YlyBW2m3bL73_YlyBN1JxwY5GKd_PV20N8F3YTJrYN7hg84DmGYBzN8x2rCH1lhjR1&v=2&email=example%40example.com&utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-8l514lCdzsBGpOY-VN0zrxYgDc4MnbEbgojPyeu2ZNJ8rLRmVRO4_cZYJt73IuOCXb6nCW)
-
-\|
-
-\|
+[Make a One-time Donation](https://secure.actblue.com/donate/act-on-mass?recurring=0&utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-8l514lCdzsBGpOY-VN0zrxYgDc4MnbEbgojPyeu2ZNJ8rLRmVRO4_cZYJt73IuOCXb6nCW)
