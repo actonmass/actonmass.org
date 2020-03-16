@@ -1,19 +1,19 @@
 ---
 id: paul-brodeur
-chamber: house
-district: house-32nd-middlesex
-email: ''
-end_date: ''
-facebook: ''
 first_name: Paul
-hometown: Melrose
 last_name: Brodeur
-malegislature_url: ''
+district: house-32nd-middlesex
 party: D
 phone: ''
-picture: https://malegislature.gov/Legislators/Profile/170/P_B1.jpg
+email: ''
+hometown: Melrose
+picture: 'https://malegislature.gov/Legislators/Profile/170/P_B1.jpg'
 square_picture: /img/legislators/square-pictures/paul-brodeur.jpg
+end_date: '2019-11-18'
 start_date: ''
-twitter: ''
+malegislature_url: ''
 website: ''
+facebook: ''
+twitter: ''
+chamber: house
 ---
