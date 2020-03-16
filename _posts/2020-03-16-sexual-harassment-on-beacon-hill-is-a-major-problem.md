@@ -2,8 +2,9 @@
 layout: post
 title: Sexual Harassment on Beacon Hill is a Major Problem
 date: 2020-02-03T17:16:45.913Z
+image: /img/crop_nda.jpg
 ---
- ![_AOM logo for fb v3](https://hs-6201350.f.hubspotstarter.net/hub/6201350/hubfs/_AOM%20logo%20for%20fb%20v3.png?upscale=true&width=300&upscale=true&name=_AOM%20logo%20for%20fb%20v3.png)![crop_nda](https://hs-6201350.f.hubspotstarter.net/hub/6201350/hubfs/crop_nda.jpg?upscale=true&width=1120&upscale=true&name=crop_nda.jpg) 
+![crop_nda](https://hs-6201350.f.hubspotstarter.net/hub/6201350/hubfs/crop_nda.jpg?upscale=true&width=1120&upscale=true&name=crop_nda.jpg) 
 
 **Sexual Harassment on Beacon Hill is a Major Problem**
 
@@ -51,8 +52,6 @@ You can look up your Reps & their contact info here:
 ## When you forward the email they can use the form below to sign up to get email alerts from us. Thank you!
 
 [Join our Email List!](https://share.hsforms.com/1XjukYzaVTTi6Sr30iofe4A3owzq?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-8l514lCdzsBGpOY-VN0zrxYgDc4MnbEbgojPyeu2ZNJ8rLRmVRO4_cZYJt73IuOCXb6nCW)
-
-
 
 ## Please support our work
 
