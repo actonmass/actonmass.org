@@ -20,12 +20,12 @@ layout: admin
     <th>twitter</th>
     <th>website</th>
  </tr>
-  {% for rep in site.reps %}
-  {% capture rep_id %}{{ rep.id | replace: "/reps/", "" }}{% endcapture %}
+  {% for rep in site.legislators %}
+  {% capture rep_id %}{{ rep.id | replace: "/legislators/", "" }}{% endcapture %}
   {% assign committee = site.committees | where: "id", committee_id | first %}
    <tr>
     <td>
-      <a href="https://github.com/fpagnoux/actonmass-website/edit/rel/_reps/{{rep_id}}.md">
+      <a href="https://next--actonmass.netlify.com/admin/#/collections/legislators/entries/{{rep_id}}">
         Edit <i class="fas fa-edit"></i>
       </a>
     </td>
