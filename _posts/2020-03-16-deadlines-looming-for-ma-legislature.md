@@ -3,19 +3,15 @@ layout: post
 title: Deadlines Looming for MA Legislature
 date: 2020-01-01T17:10:41.316Z
 ---
-\|
 
-\| ![_AOM logo for fb v3](https://hs-6201350.f.hubspotstarter.net/hub/6201350/hubfs/_AOM%20logo%20for%20fb%20v3.png?upscale=true&width=300&upscale=true&name=_AOM%20logo%20for%20fb%20v3.png) |
 
-\|
+ ![_AOM logo for fb v3](https://hs-6201350.f.hubspotstarter.net/hub/6201350/hubfs/_AOM%20logo%20for%20fb%20v3.png?upscale=true&width=300&upscale=true&name=_AOM%20logo%20for%20fb%20v3.png)
 
 **Deadlines looming for legislature**
 
 MA State legislative session is almost two-thirds finished.
 
-\|
 
-\|
 
 Friend-
 
@@ -41,10 +37,6 @@ Here are some of the main bills we're following, that still haven't been voted o
 * **Safe Communities Act - H.3573** - a bill to prevent state police from being deputized as ICE agents and participating in Trump's cruel and racist immigration policies.  A hearing will be held on Jan 24th.
 * **Tenant Protections - H.3573** - a bill to enable local options for tenant protections to help tackle the housing crisis in Massachusetts.  A hearing has been scheduled for Jan 14th.
 
-\|
-
-\|
-
 ## **The legislature shouldn't operate in secret**
 
 It's really important that these committees act before the Feb 6th deadline, or else these important pieces of legislation will die.
@@ -65,17 +57,9 @@ Popular progressive legislation is killed year after year (sometimes for decades
 
 If your Rep is not on the list below, call them and ask them to sign our pledge. Here are some [talking points to guide you](https://docs.google.com/document/d/1BqnRKvnVGrTCYOZceAadBwcih93t6wY4Te6PV1JrnL0/edit?usp=sharing&utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-94KhBPklay3Y-VXRAQ1uFg9yAFGBpUM8MtzKBq-Xl1ofho4LsUI643McW0835Bd_qMGoIr). Let us know how it goes! Find out more about our pledge [here](https://actonmass.org/pledge/?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-94KhBPklay3Y-VXRAQ1uFg9yAFGBpUM8MtzKBq-Xl1ofho4LsUI643McW0835Bd_qMGoIr).  And you can look up your Rep's number [here](https://malegislature.gov/Search/FindMyLegislator?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-94KhBPklay3Y-VXRAQ1uFg9yAFGBpUM8MtzKBq-Xl1ofho4LsUI643McW0835Bd_qMGoIr)
 
-\|
+ ![Pledge signers](https://hs-6201350.f.hubspotstarter.net/hub/6201350/hubfs/Pledge%20signers.png?upscale=true&width=1120&upscale=true&name=Pledge%20signers.png)
 
-\| ![Pledge signers](https://hs-6201350.f.hubspotstarter.net/hub/6201350/hubfs/Pledge%20signers.png?upscale=true&width=1120&upscale=true&name=Pledge%20signers.png) |
 
-\|
-
-\|   |   |   |
-
-\|
-
-\|
 
 ## Forward this email to a friend! Join our Email list!
 
@@ -83,29 +67,10 @@ If your Rep is not on the list below, call them and ask them to sign our pledge.
 
 ## When you forward the email they can use the form below to sign up to get email alerts from us. Thank you!
 
-\|
 
-\|
+[Join our Email List!](https://share.hsforms.com/1XjukYzaVTTi6Sr30iofe4A3owzq?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-94KhBPklay3Y-VXRAQ1uFg9yAFGBpUM8MtzKBq-Xl1ofho4LsUI643McW0835Bd_qMGoIr)
 
-\|
 
-\|
-
-\| [Join our Email List!](https://share.hsforms.com/1XjukYzaVTTi6Sr30iofe4A3owzq?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-94KhBPklay3Y-VXRAQ1uFg9yAFGBpUM8MtzKBq-Xl1ofho4LsUI643McW0835Bd_qMGoIr) |
-
-\|
-
-\|
-
-\|
-
-\|
-
-\|   |   |   |
-
-\|
-
-\|
 
 ## Please support our work
 
@@ -113,46 +78,8 @@ Act on Mass depends on people like you to donate & support our work. Whether it'
 
 The best way to help us is with a recurring monthly donation to support the work we do, and help us forecast what our budget will be.  If you are able to make a sustaining monthly donation of $25, $20, $15, $10, or any amount that works for you please click the button below.
 
-\|
-
-\|
-
-\|
-
-\|
-
-\| [Make a Monthly Sustaining Donation](https://secure.actblue.com/donate/act-on-mass?recurring=1&utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-94KhBPklay3Y-VXRAQ1uFg9yAFGBpUM8MtzKBq-Xl1ofho4LsUI643McW0835Bd_qMGoIr) |
-
-\|
-
-\|
-
-\|
-
-\|
+ [Make a Monthly Sustaining Donation](https://secure.actblue.com/donate/act-on-mass?recurring=1&utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-94KhBPklay3Y-VXRAQ1uFg9yAFGBpUM8MtzKBq-Xl1ofho4LsUI643McW0835Bd_qMGoIr) 
 
 Or, if you can only give a single donation please click here.
 
-\|
-
-\|
-
-\|
-
-\|
-
-\| [Make a One-time Donation](https://secure.actblue.com/donate/act-on-mass?recurring=0&utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-94KhBPklay3Y-VXRAQ1uFg9yAFGBpUM8MtzKBq-Xl1ofho4LsUI643McW0835Bd_qMGoIr) |
-
-\|
-
-\|
-
-\|
-
-\|
-
-
-
-\|
-
-\|
+[Make a One-time Donation](https://secure.actblue.com/donate/act-on-mass?recurring=0&utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-94KhBPklay3Y-VXRAQ1uFg9yAFGBpUM8MtzKBq-Xl1ofho4LsUI643McW0835Bd_qMGoIr) 
