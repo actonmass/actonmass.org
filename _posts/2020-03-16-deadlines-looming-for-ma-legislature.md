@@ -5,7 +5,7 @@ date: 2020-01-01T17:10:41.316Z
 ---
 
 
- ![_AOM logo for fb v3](https://hs-6201350.f.hubspotstarter.net/hub/6201350/hubfs/_AOM%20logo%20for%20fb%20v3.png?upscale=true&width=300&upscale=true&name=_AOM%20logo%20for%20fb%20v3.png) |
+ ![_AOM logo for fb v3](https://hs-6201350.f.hubspotstarter.net/hub/6201350/hubfs/_AOM%20logo%20for%20fb%20v3.png?upscale=true&width=300&upscale=true&name=_AOM%20logo%20for%20fb%20v3.png)
 
 **Deadlines looming for legislature**
 
