@@ -1,9 +1,10 @@
 {
   "name": "actonmass",
   "scripts": {
-    "build": "webpack --mode=production && jekyll build",
-    "serve": "webpack --mode=development && jekyll serve",
+    "build": "webpack --mode=production && bundle exec jekyll build --safe",
+    "serve": "webpack --mode=development && bundle exec jekyll serve",
     "watch-js": "webpack --watch --mode=development",
+    "netlify-cms": "netlify-cms-proxy-server",
     "dev": "env `cat .env` netlify dev"
   },
   "devDependencies": {
@@ -14,6 +15,7 @@
     "babel-loader": "^8.0.6",
     "dotenv": "^8.2.0",
     "netlify-cli": "^2.21.0",
+    "netlify-cms-proxy-server": "^1.2.1",
     "webpack": "^4.41.2",
     "webpack-cli": "^3.3.10"
   },

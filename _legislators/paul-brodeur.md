@@ -1,4 +1,5 @@
 ---
+id: paul-brodeur
 chamber: house
 district: house-32nd-middlesex
 email: ''

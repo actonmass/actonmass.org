@@ -1,4 +1,6 @@
 ---
+id: house-18th-essex
+chamber: house
 lat: 42.628037
 lng: -71.1325551
 name: 18th Essex

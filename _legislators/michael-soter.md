@@ -1,4 +1,5 @@
 ---
+id: michael-soter
 chamber: house
 district: house-8th-worcester
 email: michael.soter@mahouse.gov

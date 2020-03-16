@@ -1,4 +1,5 @@
 ---
+id: senate-redistricting
 chamber: senate
 malegislature_url: https://malegislature.gov/Committees/Detail/S54
 senate_chair: william-brownsberger

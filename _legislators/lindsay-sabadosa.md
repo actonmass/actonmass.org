@@ -1,4 +1,5 @@
 ---
+id: lindsay-sabadosa
 chamber: house
 district: house-1st-hampshire
 email: lindsay.sabadosa@mahouse.gov

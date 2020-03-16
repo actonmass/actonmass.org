@@ -1,4 +1,5 @@
 ---
+id: joint-export-development
 chamber: joint
 house_chair: lori-ehrlich
 house_members:

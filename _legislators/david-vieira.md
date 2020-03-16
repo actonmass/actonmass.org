@@ -1,4 +1,5 @@
 ---
+id: david-vieira
 chamber: house
 district: house-3rd-barnstable
 email: David.Vieira@mahouse.gov

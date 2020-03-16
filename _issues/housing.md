@@ -1,4 +1,5 @@
 ---
+id: housing
 layout: issue
 permalink: /issues/housing/
 

@@ -1,4 +1,5 @@
 ---
+id: kimberly-ferguson
 chamber: house
 district: house-1st-worcester
 email: Kimberly.Ferguson@mahouse.gov

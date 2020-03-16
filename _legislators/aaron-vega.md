@@ -1,4 +1,5 @@
 ---
+id: aaron-vega
 chamber: house
 district: house-5th-hampden
 email: Aaron.Vega@mahouse.gov

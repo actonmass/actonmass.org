@@ -1,4 +1,5 @@
 ---
+id: joint-public-safety-and-homeland-security
 chamber: joint
 house_chair: harold-naughton
 house_members:

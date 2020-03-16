@@ -1,4 +1,5 @@
 ---
+id: climate
 layout: issue
 permalink: /issues/climate/
 

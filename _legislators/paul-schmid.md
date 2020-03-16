@@ -1,4 +1,5 @@
 ---
+id: paul-schmid
 chamber: house
 district: house-8th-bristol
 email: Paul.Schmid@mahouse.gov

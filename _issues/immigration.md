@@ -1,4 +1,5 @@
 ---
+id: immigration
 layout: issue
 permalink: /issues/immigration/
 

@@ -1,4 +1,5 @@
 ---
+id: joint-higher-education
 chamber: joint
 house_chair: jeffrey-roy
 house_members:

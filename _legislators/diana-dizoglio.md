@@ -1,4 +1,5 @@
 ---
+id: diana-dizoglio
 chamber: senate
 district: senate-1st-essex
 email: Diana.DiZoglio@masenate.gov

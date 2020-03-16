@@ -1,4 +1,5 @@
 ---
+id: joint-health-care-financing
 chamber: joint
 house_chair: jennifer-benson
 house_members:

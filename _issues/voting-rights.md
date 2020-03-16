@@ -1,4 +1,5 @@
 ---
+id: voting-rights
 layout: issue
 permalink: /issues/voting-rights/
 

@@ -16,7 +16,7 @@ layout: default
   <h2>Committees</h2>
 {% endif %}
 
-{% assign committees = leg.committees | sort: "priority" %}
+{% assign committees = leg.committees %}
 {% for committee in committees %}
   <li>
     {% if committee.role != "Member" %}

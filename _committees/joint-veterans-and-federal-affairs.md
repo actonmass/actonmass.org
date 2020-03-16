@@ -1,4 +1,5 @@
 ---
+id: joint-veterans-and-federal-affairs
 chamber: joint
 house_chair: linda-campbell
 house_members:

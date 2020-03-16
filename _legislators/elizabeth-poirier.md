@@ -1,4 +1,5 @@
 ---
+id: elizabeth-poirier
 chamber: house
 district: house-14th-bristol
 email: Elizabeth.Poirier@mahouse.gov

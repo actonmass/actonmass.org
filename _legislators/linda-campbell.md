@@ -1,4 +1,5 @@
 ---
+id: linda-campbell
 chamber: house
 district: house-15th-essex
 email: Linda.Campbell@mahouse.gov

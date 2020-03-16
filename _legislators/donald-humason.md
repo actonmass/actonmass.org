@@ -1,4 +1,5 @@
 ---
+id: donald-humason
 chamber: senate
 district: senate-2nd-hampden-and-hampshire
 email: Donald.Humason@masenate.gov

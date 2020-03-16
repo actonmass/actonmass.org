@@ -1,4 +1,5 @@
 ---
+id: claire-cronin
 chamber: house
 district: house-11th-plymouth
 email: Claire.Cronin@mahouse.gov

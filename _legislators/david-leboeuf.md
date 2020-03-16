@@ -1,4 +1,5 @@
 ---
+id: david-leboeuf
 chamber: house
 district: house-17th-worcester
 email: david.leboeuf@mahouse.gov

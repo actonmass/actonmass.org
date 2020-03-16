@@ -1,4 +1,5 @@
 ---
+id: jose-tosado
 chamber: house
 district: house-9th-hampden
 email: Jose.Tosado@mahouse.gov

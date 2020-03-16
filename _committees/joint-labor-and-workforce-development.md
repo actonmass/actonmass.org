@@ -1,4 +1,5 @@
 ---
+id: joint-labor-and-workforce-development
 chamber: joint
 house_chair: stephan-hay
 house_members:

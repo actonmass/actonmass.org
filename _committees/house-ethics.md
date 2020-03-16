@@ -1,4 +1,5 @@
 ---
+id: house-ethics
 chamber: house
 house_chair: christopher-markey
 house_members:

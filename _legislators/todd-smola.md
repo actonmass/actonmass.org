@@ -1,4 +1,5 @@
 ---
+id: todd-smola
 chamber: house
 district: house-1st-hampden
 email: Todd.Smola@mahouse.gov

@@ -1,4 +1,6 @@
 ---
+id: house-19th-suffolk
+chamber: house
 lat: 42.3955421
 lng: -70.9874719
 name: 19th Suffolk

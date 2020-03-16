@@ -1,4 +1,5 @@
 ---
+id: education
 layout: issue
 permalink: /issues/education/
 title: Education

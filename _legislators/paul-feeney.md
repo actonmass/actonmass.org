@@ -1,4 +1,5 @@
 ---
+id: paul-feeney
 chamber: senate
 district: senate-bristol-and-norfolk
 email: paul.feeney@masenate.gov

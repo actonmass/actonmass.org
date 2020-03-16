@@ -1,4 +1,5 @@
 ---
+id: ryan-fattman
 chamber: senate
 district: senate-worcester-and-norfolk
 email: Ryan.Fattman@masenate.gov

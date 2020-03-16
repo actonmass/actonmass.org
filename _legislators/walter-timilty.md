@@ -1,4 +1,5 @@
 ---
+id: walter-timilty
 chamber: senate
 district: senate-norfolk-bristol-and-plymouth
 email: Walter.Timilty@masenate.gov

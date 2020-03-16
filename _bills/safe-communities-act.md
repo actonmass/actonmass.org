@@ -1,4 +1,5 @@
 ---
+id: safe-communities-act
 short_title: Safe Communities Act
 full_title: An Act to Protect the Civil Rights and Safety of all MA Residents
 article: the
@@ -120,18 +121,18 @@ co_sponsors:
 history:
   - date: 2019-01
     description: Filed as Safe Communities Act - H3573
-  - bill_event: safe-communities-act/2018-05-budget-drama
-  - bill_event: safe-communities-act/2018-06-sent-to-study
+  - bill_event: safe-communities-act-2018-06-sent-to-study
+  - bill_event: safe-communities-act-2018-05-budget-drama
   - date: 2017-06
     description: Hearing in Public Safety Committee
   - date: 2017-01
     description: Filed as Safe Communities Act - H3269
-  - bill_event: safe-communities-act/2016-09-sent-to-study
+  - bill_event: safe-communities-act-2016-09-sent-to-study
   - date: 2015-09
     description: Hearing in Judiciary Committee
   - date: 2015-01
     description: Filed as Trust Act H1228
-  - bill_event: safe-communities-act/2014-06-sent-to-study
+  - bill_event: safe-communities-act-2014-06-sent-to-study
   - date: 2013-07
     description: Judiciary Committee Hearing
   - date: 2013-01

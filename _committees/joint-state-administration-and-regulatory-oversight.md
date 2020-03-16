@@ -1,4 +1,5 @@
 ---
+id: joint-state-administration-and-regulatory-oversight
 chamber: joint
 house_chair: danielle-gregoire
 house_members:

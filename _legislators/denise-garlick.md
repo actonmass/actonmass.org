@@ -1,4 +1,5 @@
 ---
+id: denise-garlick
 chamber: house
 district: house-13th-norfolk
 email: Denise.Garlick@mahouse.gov

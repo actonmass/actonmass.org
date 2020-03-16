@@ -1,4 +1,5 @@
 ---
+id: house-personnel-and-administration
 chamber: house
 house_chair: frank-moran
 house_members:

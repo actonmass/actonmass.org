@@ -1,4 +1,6 @@
 ---
+id: house-6th-essex
+chamber: house
 lat: 42.5648536
 lng: -70.8688833
 name: 6th Essex

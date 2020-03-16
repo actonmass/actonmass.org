@@ -1,4 +1,5 @@
 ---
+id: roselee-vincent
 chamber: house
 district: house-16th-suffolk
 email: RoseLee.Vincent@mahouse.gov

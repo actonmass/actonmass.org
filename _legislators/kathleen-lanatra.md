@@ -1,4 +1,5 @@
 ---
+id: kathleen-lanatra
 chamber: house
 district: house-12th-plymouth
 email: kathleen.lanatra@mahouse.gov

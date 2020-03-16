@@ -1,4 +1,5 @@
 ---
+id: joint-public-health
 chamber: joint
 house_chair: john-mahoney
 house_members:

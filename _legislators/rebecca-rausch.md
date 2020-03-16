@@ -1,4 +1,5 @@
 ---
+id: rebecca-rausch
 chamber: senate
 district: senate-norfolk-bristol-and-middlesex
 email: Becca.Rausch@masenate.gov

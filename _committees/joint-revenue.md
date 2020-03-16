@@ -1,4 +1,5 @@
 ---
+id: joint-revenue
 chamber: joint
 house_chair: mark-cusack
 house_members:

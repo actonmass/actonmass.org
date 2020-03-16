@@ -107,6 +107,6 @@ layout: default
   <h5>
   {{ event.date | append: "-01" | date: "%B %Y"}}
   </h5>
-  <p>{{ event.description | markdownify }}</p>
+  {{ event.description | markdownify }}
   <hr/>
 {% endfor %}

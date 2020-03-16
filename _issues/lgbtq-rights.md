@@ -1,4 +1,5 @@
 ---
+id: lgbtq-rights
 layout: issue
 permalink: /issues/lgbtq-rights/
 
