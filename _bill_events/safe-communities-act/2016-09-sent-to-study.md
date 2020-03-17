@@ -1,12 +1,19 @@
 ---
 id: safe-communities-act-2016-09-sent-to-study
-date: 2016-09-15
+date: 2016-09-15T00:00:00.000Z
 description: Sent to study by the Public Safety Committee
 bill: safe-communities-act
+progressive_vote: 'no'
 vote_descriptions:
-  yes: Voted to send the [Safe Communities Act](/bills/safe-communities-act/) to study
-  unk: Won't tell us how they voted on the [Safe Communities Act](/bills/safe-communities-act/) in committee
-  no: Voted against sending the [Safe Communities Act](/bills/safe-communities-act/) to study
+  'yes': >-
+    Voted to send the [Safe Communities Act](/bills/safe-communities-act/) to
+    study
+  unk: >-
+    Won't tell us how they voted on the [Safe Communities
+    Act](/bills/safe-communities-act/) in committee
+  'no': >-
+    Voted against sending the [Safe Communities
+    Act](/bills/safe-communities-act/) to study
 votes:
   - legislator: james-timilty
     vote: unk
