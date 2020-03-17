@@ -13,42 +13,44 @@ layout: default
 </dl>
 
 {% if leg.committees.size > 0 %}
-  <h2>Committees</h2>
-{% endif %}
 
-{% assign committees = leg.committees %}
-{% for committee in committees %}
-  <li>
-    {% if committee.role != "Member" %}
-      <strong>{{committee.role}}</strong>
-    {% endif %}
-    {{ committee.title }}
-  </li>
-{% endfor %}
+  <h2>Committees</h2>
+
+  {% assign committees = leg.committees | sort: "priority" %}
+  {% for committee in committees %}
+    <li>
+      {% if committee.role != "Member" %}
+        <strong>{{committee.role}}</strong>
+      {% endif %}
+      {{ committee.title }}
+    </li>
+  {% endfor %}
+{% endif %}
 
 {% if leg.votes.size > 0 %}
   <h2>Progressive bill history</h2>
-{% endif %}
 
-{% for vote in leg.votes %}
-  {% case vote.is_progressive %}
-    {% when true %}
-      <li class="good-vote">
-        <i class="fas fa-check-square"></i>
-        {{vote.date | date: "%Y" }} - {{ vote.description | markdownify | remove: "<p>" | remove: "</p>" }}
-      </li>
-    {% when false %}
-      <li class="bad-vote">
-        <i class="fas fa-times"></i>
-        {{vote.date | date: "%Y" }} - {{ vote.description | markdownify | remove: "<p>" | remove: "</p>" }}
-      </li>
-    {% else %}
-      <li class="unk-vote">
-        <i class="fas fa-question-circle"></i>
-        {{vote.date | date: "%Y" }} - {{ vote.description | markdownify | remove: "<p>" | remove: "</p>" }}
-      </li>
-  {% endcase %}
-{% endfor %}
+  {% for vote in leg.votes %}
+    {% case vote.is_progressive %}
+      {% when true %}
+        <li class="good-vote">
+          <i class="fas fa-check-square"></i>
+          {{vote.date | date: "%Y" }} - {{ vote.description | markdownify | remove: "<p>" | remove: "</p>" }}
+        </li>
+      {% when false %}
+        <li class="bad-vote">
+          <i class="fas fa-times"></i>
+          {{vote.date | date: "%Y" }} - {{ vote.description | markdownify | remove: "<p>" | remove: "</p>" }}
+        </li>
+      {% else %}
+        <li class="unk-vote">
+          <i class="fas fa-question-circle"></i>
+          {{vote.date | date: "%Y" }} - {{ vote.description | markdownify | remove: "<p>" | remove: "</p>" }}
+        </li>
+    {% endcase %}
+  {% endfor %}
+
+{% endif %}
 
 
 <h2> Co-sponsored bills</h2>
@@ -57,6 +59,6 @@ layout: default
   {% if leg.cosponsored_bills contains bill.id %}
     <li class="good-vote"><i class="fas fa-check-square"></i> Co-sponsored {{bill.article}} <a href="{{bill.id}}">{{bill.short_title}}</a></li>
   {% else %}
-    <li class="bad-vote"><i class="fas fa-times"></i> Hasn"t co-sponsored {{bill.article}} <a href="{{bill.id}}">{{bill.short_title}}</a></li>
+    <li class="bad-vote"><i class="fas fa-times"></i> Hasn't co-sponsored {{bill.article}} <a href="{{bill.id}}">{{bill.short_title}}</a></li>
   {% endif %}
 {% endfor %}

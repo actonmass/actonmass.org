@@ -6,7 +6,7 @@ module Cache
       for collection in ["legislators", "districts", "committees", "bill_events"] do
         item_by_id = {}
         for item in site.collections[collection].docs do
-          id = item.id.delete_prefix("/#{collection}/")
+          id = item['id']
           item_by_id[id] = item
         end
         cache["#{collection}_by_id"] = item_by_id
@@ -25,9 +25,13 @@ module Cache
         for chamber in  ["house","senate"] do
           if [chamber, "joint"].include? committee["chamber"] then
             chair = legislators[committee["#{chamber}_chair"]]
-            chair.data["committees"].push({"role" => "Chair", "title" => title, "priority" => 1})
+            if (chair != nil) then
+              chair.data["committees"].push({"role" => "Chair", "title" => title, "priority" => 1})
+            end
             vice_chair = legislators[committee["#{chamber}_vice_chair"]]
-            vice_chair.data["committees"].push({"role" => "Vice-chair", "title" => title, "priority" => 2})
+            if (chair != nil) then
+              vice_chair.data["committees"].push({"role" => "Vice-chair", "title" => title, "priority" => 2})
+            end
             for member_id in committee["#{chamber}_members"] do
               member = legislators[member_id]
               member.data["committees"].push({"role" => "Member", "title" => title, "priority" => 3})
@@ -48,8 +52,9 @@ module Cache
         if (votes == nil) then
           next
         end
-        votes.each do |leg_id, vote|
-          leg = legislators[leg_id]
+        votes.each do |vote_object|
+          leg = legislators[vote_object['legislator']]
+          vote = vote_object['vote']
           if (leg == nil) then
             next  # Ignore legislators that are not in our DB
           end
