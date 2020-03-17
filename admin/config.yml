@@ -124,6 +124,7 @@ collections:
         widget: datetime
         format: YYYY-MM-DD
         timeFormat: false
+        default: null
       - <<: *date-picker
         label: Start date
         name: start_date
@@ -348,7 +349,6 @@ collections:
             displayFields:
               - id
           - <<: *date-picker
-            default: null
             required: false
             label: Date (fill only if no detailed bill event)
             name: date
