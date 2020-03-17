@@ -10,6 +10,41 @@ issue: gender-equity
 orgs:
 - PM
 summary: []
-co_sponsors: []
+co_sponsors:
+- lindsay-sabadosa
+- rebecca-rausch
+- maria-robinson
+- christina-minicucci
+- joanne-comerford
+- mike-connolly
+- james-eldridge
+- nika-elugardo
+- carmine-gentile
+- tami-gouveia
+- jonathan-hecht
+- natalie-higgins
+- patricia-jehlen
+- david-leboeuf
+- jack-lewis
+- jason-lewis
+- denise-provost
+- rebecca-rausch
+- lindsay-sabadosa
+- james-eldridge
+- maria-robinson
+- tami-gouveia
+- joanne-comerford
+- mike-connolly
+- eric-lesser
+- jack-lewis
+- james-welch
+- david-leboeuf
+- jose-tosado
+- nika-elugardo
+- adam-hinds
+- patrick-kearney
+- jason-lewis
+- russell-holmes
+- marcos-devers
 history: []
 ---
