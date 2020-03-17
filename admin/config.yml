@@ -382,6 +382,14 @@ collections:
         displayFields:
           - short_title
         valueField: id
+      - label: Progressive vote
+        name: progressive_vote
+        widget: select
+        options:
+          - label: Yes
+            value: yes
+          - label: No
+            value: no
       - label: Vote descriptions
         name: vote_descriptions
         widget: object
