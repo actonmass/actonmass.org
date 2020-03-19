@@ -3,3 +3,4 @@ _site
 .env
 node_modules
 js/bundle.js
+.sass-cache
