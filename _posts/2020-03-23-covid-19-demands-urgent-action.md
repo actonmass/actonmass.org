@@ -3,6 +3,7 @@ layout: post
 title: Covid-19 Demands Urgent Action
 date: 2020-03-23T12:16:34.502Z
 image: /img/covid19ma.jpg
+permalink: /covid19
 ---
 ![](/img/covid19ma.jpg)
 
