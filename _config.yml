@@ -41,3 +41,4 @@ exclude:
   - vendor
 plugins:
   - jekyll-paginate
+  - jekyll-redirect-from
