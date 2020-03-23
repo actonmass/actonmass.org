@@ -3,10 +3,11 @@ layout: post
 title: Covid-19 Demands Urgent Action
 date: 2020-03-23T12:16:34.502Z
 image: /img/covid19ma.jpg
+permalink: /covid19
 ---
 ![](/img/covid19ma.jpg)
 
-From <https://covidactnow.org/>
+From [https://covidactnow.org](https://covidactnow.org/)
 
 \
 Since Gov. Baker declared a state of emergency on March 10th, legislators have passed two bills related to the crisis: they waived the one-week waiting period for those newly unemployed to begin receiving benefits, and they allocated $15M into a fund for the administration to deal with this crisis.
@@ -32,8 +33,6 @@ The $15M that the legislature has allocated to fight coronavirus is a drop in th
 ![Unemployment during Covid-19](/img/covidunemployment.jpg)
 
 Source: [New York Times](https://www.nytimes.com/interactive/2020/03/19/upshot/coronavirus-jobless-claims-states.html?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-8_RyZ66dxQZgSfTDAeTdxmjOOhKDRT7c04ySIYLtAwiK2Rcchb-29diWdjzbI8t7JUhecI)
-
-
 
 Unlike previous recessions which ramped up more gradually, this economic crisis will have immediate & disastrous consequences for many in our state. The $15M which the legislature appropriated for this crisis isn't enough. We need to see bold action by our legislature THIS WEEK in order to blunt the damaging effects this crisis will have on the vulnerable in our state.
 
