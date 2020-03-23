@@ -10,7 +10,7 @@ redirect_from:
 
 From [https://covidactnow.org](https://covidactnow.org/)
 
-\
+
 Since Gov. Baker declared a state of emergency on March 10th, legislators have passed two bills related to the crisis: they waived the one-week waiting period for those newly unemployed to begin receiving benefits, and they allocated $15M into a fund for the administration to deal with this crisis.
 
 These are positive steps, but **they do not remotely meet the urgency of this crisis we face.** We are looking at a public health emergency that will claim many lives, and a devastating economic crash that will affect us all for years to come.
@@ -26,6 +26,8 @@ MA has suffered two deaths from coronavirus, and the number of infected is about
 The Governor has repeatedly stated at press conferences over the past week that he does not intend to issue a Shelter in place order. But the optional, individualized efforts currently being promoted [aren't working](https://www.boston25news.com/news/local/marshfield-police-chief-says-small-group-people-continue-act-reckless-putting-others-risk/HDYNU2UVJJDCFMJH2SNA56HZJQ/?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-8_RyZ66dxQZgSfTDAeTdxmjOOhKDRT7c04ySIYLtAwiK2Rcchb-29diWdjzbI8t7JUhecI). We need to act fast. 
 
 Sign the petition: [Link](https://www.change.org/p/massachusetts-governor-charlie-baker-shutdownmass-to-minimize-the-spread-of-coronavirus?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-8_RyZ66dxQZgSfTDAeTdxmjOOhKDRT7c04ySIYLtAwiK2Rcchb-29diWdjzbI8t7JUhecI)
+
+Update: Today, Gov. Baker issued a Stay at Home "advisory" today, and an order for non-essential businesses to close effective tomorrow. These are positive steps, but the advisory still falls short of an order, so we recommend you still sign the petition to express the urgency this issue demands.
 
 ## 2. Demand Legislative Action NOW
 
