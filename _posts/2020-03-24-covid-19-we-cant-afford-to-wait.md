@@ -4,9 +4,8 @@ title: 'Covid-19: We can''t afford to wait'
 date: 2020-03-24T18:36:32.027Z
 redirect_from:
   - /covid19a
+image: /img/covidunemployment.jpg
 ---
-![]()
-
 ## Massachusetts isn't doing enough
 
 Since Gov. Baker declared a state of Emergency this month, our state legislature has passed a handful of bills:
