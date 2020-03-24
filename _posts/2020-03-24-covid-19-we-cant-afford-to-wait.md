@@ -28,7 +28,7 @@ A number of legislators have filed bills to address various aspects of the crisi
 
 ## What should the legislature do?
 
-* **✅Cash payments to residents:** HD.4945 by Rep. Gouveia & HD.4950 by Rep. Miranda would provide for cash payments to most residents in the state, helping blunt the impact of job loss, caring for sick relatives, and more. Something to get cash into people's hands urgently is needed.
+* **✅Cash payments to residents:** HD.4945 by Rep. Gouveia & HD.4950 by Rep. Miranda would provide for cash payments to most residents in the state, helping blunt the impact of job loss, caring for sick relatives, and more. Something to get cash into people's hands urgently is needed. These bills both include means testing, but we would urge the legislature to not means test these payments, as it is not just families in deep poverty who are at risk.
 * **✅Eviction/foreclosure moratorium:** HD.4935 by Rep. Connolly & Rep. Honan ensures no evictions or foreclosures happen during the state of emergency. (The MA Housing Court has taken some action, but there are still many people not covered by that action)
 * **✅Unemployment insurance:** HD.4958 by Rep Mark & Rep. Sabadosa to expand who is eligible for unemployment insurance to cover people like tipped workers & others.
 * **✅Paid Sick Time:** We must expand the current paid sick leave law to ensure all employees have an additional 15 days of paid sick time to self-isolate or care for sick relatives. No one should be forced to choose between having money for rent and taking care of their health.
@@ -58,10 +58,10 @@ You should contact four people:
 
 *"Hi, my name is **___** and I live at **\_\_\_\_**(address). I'm writing to ask that the legislature take bold action to deal with the coronavirus. I'm asking your office to support bold, progressive policies to protect the most vulnerable in our society during this crisis, including support for:*
 
-* *cash payments to residents similar to HD.4945 & HD.4950*
+* *cash payments to residents similar to HD.4945 & HD.4950, WITHOUT any means testing*
 * *a moratorium on evictions and foreclosures like HD.4935*
 * *expanded unemployment insurance like outlined in HD.4958*
-* *15 days additional paid sick time*
+* *15 days additional paid sick time for all residents*
 * *protections for those in our prison system, HD.4963*
 
 *I urge the legislature to act big and to do so quickly, to help blunt the serious consequences residents of the commonwealth will face. Please work with your colleagues to ensure we have increased funding for, and expand eligibility for programs that many residents are going to need, including:*
