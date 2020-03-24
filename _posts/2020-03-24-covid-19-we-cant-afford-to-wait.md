@@ -4,7 +4,7 @@ title: 'Covid-19: We can''t afford to wait'
 date: 2020-03-24T18:36:32.027Z
 image: /img/covidunemployment.jpg
 redirect_from:
-  - /covid19
+  - /covid19a
 ---
 ![]()
 
