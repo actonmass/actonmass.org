@@ -1,0 +1,16 @@
+<div class="dotted_image">
+  <img
+    src="{{include.img}}"
+    alt="{{include.alt}}"
+  />
+  <div class="bottom-left-dots">
+    {% for i in (1..25) %}
+    <span class="dot"></span>
+    {% endfor %}
+  </div>
+  <div class="top-right-dots">
+    {% for i in (1..25) %}
+    <span class="dot"></span>
+    {% endfor %}
+  </div>
+</div>
