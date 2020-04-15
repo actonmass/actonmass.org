@@ -2,15 +2,16 @@
 ---
 
 // Pages
-@import "home";
-@import "about";
-@import "pledge";
+@import "pages/home";
+@import "pages/about";
+@import "pages/pledge";
+@import "pages/legislator-search";
 
 // Components
-@import "header";
-@import "footer";
-@import "hero-image";
-@import "legislator-search";
+@import "components/header";
+@import "components/footer";
+@import "components/hero-image";
+@import "components/legislator-search";
 
 // Common
 
