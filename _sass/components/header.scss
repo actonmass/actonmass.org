@@ -97,6 +97,12 @@
     align-self: center;
   }*/
 
+  @media (min-width: 700px) {
+    .main_header {
+      padding: 0rem 20rem;
+    }
+  }
+
   .main_header a {
     text-decoration: none;
     font-size: 1.6rem;
