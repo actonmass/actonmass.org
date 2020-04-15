@@ -4,7 +4,7 @@
   display: grid;
   grid-template-rows: auto auto auto;
   grid-template-columns: 1fr;
-  padding: 3rem 2rem 0rem 2rem;
+  padding: 3rem 2rem 3rem 2rem;
 
   &.dark {
     background-color: var(--primary);
