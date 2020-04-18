@@ -5,27 +5,43 @@ local_backend: true
 # publish_mode: editorial_workflow  # Deactivate on next since we are still collection data and don't want to go through a PR for each change
 media_folder: "img"
 collections:
-  - name: posts
-    label: Posts
-    folder: _posts/
-    create: true
-    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
-    editor:
-      preview: false
-    fields:
-      - label: Layout
-        name: layout
-        widget: hidden
-        default: post
-      - label: Title
-        name: title
+- name: blog
+  label: Blog post
+  sort: 'date:desc'
+  folder: _posts/
+  create: true
+  slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
+  editor:
+    preview: false
+  fields:
+    - label: Layout
+      name: layout
+      widget: hidden
+      default: post
+    - label: Title
+      name: title
+      widget: string
+    - label: Publish Date
+      name: date
+      widget: datetime
+    - label: Redirect from
+      name: redirect_from
+      required: false
+      widget: list
+      collapsed: false
+      field:
+        label: Redirection
+        name: redirection
         widget: string
-      - label: Publish Date
-        name: date
-        widget: datetime
-      - label: Body
-        name: body
-        widget: markdown
+        default: 'Example: /covid'
+    - label: Image
+      name: image
+      widget: image
+      required: false
+    - label: Body
+      name: body
+      widget: markdown
+
   - name: issues
     label: Issues
     folder: _issues/
