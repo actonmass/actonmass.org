@@ -215,20 +215,9 @@ section.map {
 
 /*----------- BILL PAGE / TIMELINE ------------------------*/
 
-.billpg_timeln {
-  grid-area: billpg_timeln;
-  /*display: grid;*/
-}
-
 .billpg_timeln_header {
   grid-area: 7 / 1 / 7 / 3;
   padding: 10rem 20rem 0rem 20rem;
-}
-
-.billpg_timeln_background {
-  background-color: #d8e5fd;
-  z-index: -1;
-  grid-area: 7 / 1 / 7 / 3;
 }
 
 .timeline {
