@@ -63,3 +63,4 @@ exclude:
   - src
 plugins:
   - jekyll-paginate
+  - jekyll-redirect-from
