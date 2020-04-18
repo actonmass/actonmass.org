@@ -24,6 +24,8 @@ layout: new-base
   <section>
     {% include legislator-search.html text='Please enter your address so we can help you contact your legislator.' %}
   </section>
+
+  {% if committee %}
   <section class="decision-makers dark">
     <h2 class="billpg_decision_header fRaleway fWhite fBold fUppercase">the decision makers</h2>
     <h3 class="billpg_decision_header1  fWhite fRaleway fRegular">{{committee.title}}</h3>
@@ -119,6 +121,7 @@ layout: new-base
       <p class="hold_vote_txt fRoboto fWhite fBold">*Please enter your address above</p>
     </div>
   </section>
+  {% endif %}
 
   <section class="map">
     <h3 class="billpg_map_header fUppercase fRaleway fExbold">Who has co-sponsored:</h3>
