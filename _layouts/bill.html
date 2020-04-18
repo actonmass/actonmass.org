@@ -133,7 +133,13 @@ layout: new-base
       <p class="fRoboto fBold">*Please enter your address above</p>
     </div>
   </section>
+
+  <section class="timeline light-blue">
+    <h3 class="billpg_timeln_header fUppercase fRaleway fExbold">Timeline of bill during this session:</h3>
+    {% include bill-timeline.html timeline = bill.timeline %}
+  </section>
 </main>
+
 
 
 <h2>History of the bill</h2>

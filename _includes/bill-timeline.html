@@ -1,0 +1,24 @@
+{% assign bill_timeline = include %}
+<div id="bill-timeline"></div>
+<script>
+    (()=>{
+        const globalFilingDate = "2019-01-02";
+        const globalSessionEndDate = "2020-07-31";
+        const data = {
+            filingDate: globalFilingDate,
+            sessionEndDate: globalSessionEndDate,
+            events: [
+                {% for event in bill_timeline.timeline.events %}
+                {
+                    text: "{{ event.description }}",
+                    date: "{{ event.date }}"
+                },
+                {% endfor %}
+            ],
+        };
+
+        window.addEventListener("DOMContentLoaded", function() {
+            AOM.renderBillTimeline("bill-timeline", data);
+        });
+    })();
+</script>
