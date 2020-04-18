@@ -11,6 +11,12 @@
     "pledge_reps"
     "pledge_endorse"
     "footer";
+
+  // The image already has transparent padding included
+  .dotted-image .image-container {
+    padding-top: 0;
+    padding-left: 0;
+  }
 }
 
 @media (min-width: 700px) {
@@ -271,57 +277,6 @@
 
   @media (min-width: 700px) {
     grid-template-columns: repeat(5, 1fr);
-  }
-}
-
-.leg_circ {
-  justify-self: center;
-  align-self: start;
-  text-align: center;
-  display: grid;
-  grid-template-rows: auto auto auto;
-  grid-template-columns: auto;
-  grid-gap: 0.5rem;
-  max-width: 13rem;
-  box-sizing: unset;
-}
-
-.leg_circ_img {
-  border-radius: 50%;
-  border: solid 0.5rem #5fad41;
-  max-width: 6rem;
-  grid-area: 1 / 1;
-  margin: 0rem 1rem 0rem 1rem;
-  box-sizing: unset;
-}
-
-@media (min-width: 700px) {
-  .leg_circ_img {
-    border-radius: 50%;
-    border: solid 0.75rem #5fad41;
-    max-width: 7rem;
-    grid-area: 1 / 1;
-  }
-}
-
-.leg_circ_check {
-  border-radius: 50%;
-  background-color: #5fad41;
-  max-width: 2rem;
-  grid-area: 1 / 1;
-  align-self: end;
-  justify-self: right;
-  max-width: 2.5rem;
-}
-
-@media (min-width: 700px) {
-  .leg_circ_check {
-    border-radius: 50%;
-    background-color: #5fad41;
-    grid-area: 1 / 1;
-    align-self: end;
-    justify-self: right;
-    max-width: 4rem;
   }
 }
 

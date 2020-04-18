@@ -1,98 +1,137 @@
 ---
-layout: default
+layout: new-base
 ---
 
 {% assign bill = page %}
 {% assign committee = site.data.cache.committees_by_id[bill.committee] %}
 
-
-
-<h1>{{bill.short_title}}</h1>
-
-<ul>
-{% for point in bill.summary %}
-  <li>{{ point }}</li>
-{% endfor %}
-</ul>
-
-<hr/>
-
-
-<h2>The decision makers</h2>
-<h3>{{ committee.title }}</h3>
-
-<div class="committee-block">
-  <div class="committee-senators">
-
-    <h4>Senators</h4>
-
-    {% assign senate_chair = site.data.cache.legislators_by_id[committee.senate_chair] %}
-    {% assign senate_vice_chair = site.data.cache.legislators_by_id[committee.senate_vice_chair] %}
-
-    <ul>
-      <li>
-        Chair: <span style="{% if bill.co_sponsors contains committee.senate_chair %}color: green{% else %}color: red{% endif %}">
-          {{ senate_chair.first_name }} {{ senate_chair.last_name }}
-        </span>
-      </li>
-      <li>
-        Vice-chair: <span style="{% if bill.co_sponsors contains committee.senate_vice_chair %}color: green{% else %}color: red{% endif %}">
-          {{ senate_vice_chair.first_name }} {{ senate_vice_chair.last_name }}
-        </span>
-      </li>
-    </ul>
-
-    <p>Members:</p>
-    <ul>
-      {% for member_id in committee.senate_members %}
-      {% assign rep = site.data.cache.legislators_by_id[member_id] %}
-        {% if bill.co_sponsors contains member_id %}
-          <li><span style="color: green">{{ rep.first_name }} {{ rep.last_name }}</span></li>
-        {% else %}
-        <li><span style="color: red">{{ rep.first_name }} {{ rep.last_name }}</span></li>
-        {% endif %}
-      {% endfor %}
-    </ul>
-  </div>
-
-  <div class="committee-reps">
-
-    <h4>Reprentatives</h4>
-
-
-    {% assign house_chair = site.data.cache.legislators_by_id[committee.house_chair] %}
-    {% assign house_vice_chair = site.data.cache.legislators_by_id[committee.house_vice_chair] %}
-
-    <ul>
-      <li>
-        Chair: <span style="{% if bill.co_sponsors contains committee.house_chair %}color: green{% else %}color: red{% endif %}">
-          {{ house_chair.first_name }} {{ house_chair.last_name }}
-        </span>
-      </li>
-      <li>
-        Vice-chair: <span style="{% if bill.co_sponsors contains committee.house_vice_chair %}color: green{% else %}color: red{% endif %}">
-          {{ house_vice_chair.first_name }} {{ house_vice_chair.last_name }}
-        </span>
-      </li>
-    </ul>
-
-    <p>Members:</p>
-    <ul>
-      {% for member_id in committee.house_members %}
-      {% assign rep = site.data.cache.legislators_by_id[member_id] %}
-        {% if bill.co_sponsors contains member_id %}
-          <li><span style="color: green">{{ rep.first_name }} {{ rep.last_name }}</span></li>
-        {% else %}
-        <li><span style="color: red">{{ rep.first_name }} {{ rep.last_name }}</span></li>
-        {% endif %}
-      {% endfor %}
-    </ul>
+<main class="bill-page">
+  <section class="headline dark">
+    <div class="billpg_hero_a">
+      {% include hero-image.html img=bill.img alt='' %}
     </div>
-</div>
+    <div class="billpg_hero_b">
+      <h2 class="billpg_title fRaleway fExbold">{{bill.short_title}}</h2>
+      <ul>
+        {% for point in bill.summary %}
+          <li>
+            <h4 class="fRaleway fWhite fRegular">{{point}}</h4>
+          </li>
+        {% endfor %}
+      </ul>
+    </div>
+  </section>
+  <section>
+    {% include legislator-search.html text='Please enter your address so we can help you contact your legislator.' %}
+  </section>
+  <section class="decision-makers dark">
+    <h2 class="billpg_decision_header fRaleway fWhite fBold fUppercase">the decision makers</h2>
+    <h3 class="billpg_decision_header1  fWhite fRaleway fRegular">{{committee.title}}</h3>
+    <div class="centered-block">
+      <div class="rect_underline1"></div>
+    </div>
+    <h4 class="billpg_decision_header2 fUppercase fWhite fRaleway fBold">Who on committee has co-sponsored:</h4>
+    <div class="committee-block">
+      <div class="senators vbox">
+        <h4 class="fUppercase fWhite fRaleway fRegular">state senators:</h4>
+        {% assign senate_chair = site.data.cache.legislators_by_id[committee.senate_chair] %}
+        {% if  bill.co_sponsors contains committee.senate_chair %}
+            {% assign senate_chair_status = 'ok' %}
+        {% else %}
+            {% assign senate_chair_status = 'ko' %}
+        {% endif %}
 
-<h2>Who has co-sponsored</h2>
+        {% assign senate_vice_chair = site.data.cache.legislators_by_id[committee.senate_vice_chair] %}
+        {% if  bill.co_sponsors contains committee.senate_vice_chair %}
+        {% assign senate_vice_chair_status = 'ok' %}
+        {% else %}
+        {% assign senate_vice_chair_status = 'ko' %}
+        {% endif %}
 
-{% include map.html greens = bill.co_sponsors %}
+        <div class="chairs hbox">
+          <div class="vbox">
+            {% include leg-circle.html rep=senate_chair status=senate_chair_status size='L' %}
+            <p class="fRoboto fWhite fBold fUppercase">chair</p>
+          </div>
+          <div class="vbox">
+            {% include leg-circle.html rep=senate_vice_chair status=senate_vice_chair_status size='L' %}
+            <p class="fRoboto fWhite fBold fUppercase">vice-chair</p>
+          </div>
+        </div>
+
+        <div class="members">
+          {% for member_id in committee.senate_members %}
+          {% assign rep = site.data.cache.legislators_by_id[member_id] %}
+            {% if bill.co_sponsors contains member_id %}
+              {% assign status = 'ok' %}
+            {% else %}
+              {% assign status = 'ko' %}
+            {% endif %}
+            {% include leg-circle.html rep=rep status=status %}
+          {% endfor %}
+        </div>
+      </div>
+      <div class="reps vbox">
+        <h4 class="fUppercase fWhite fRaleway fRegular">state representatives:</h4>
+
+        {% assign house_chair = site.data.cache.legislators_by_id[committee.house_chair] %}
+        {% if  bill.co_sponsors contains committee.house_chair %}
+            {% assign house_chair_status = 'ok' %}
+        {% else %}
+            {% assign house_chair_status = 'ko' %}
+        {% endif %}
+
+        {% assign house_vice_chair = site.data.cache.legislators_by_id[committee.house_vice_chair] %}
+        {% if  bill.co_sponsors contains committee.house_vice_chair %}
+        {% assign house_vice_chair_status = 'ok' %}
+        {% else %}
+        {% assign house_vice_chair_status = 'ko' %}
+        {% endif %}
+
+        <div class="chairs hbox">
+          <div class="vbox">
+            {% include leg-circle.html rep=house_chair status=house_chair_status size='L' %}
+            <p class="fRoboto fWhite fBold fUppercase">chair</p>
+          </div>
+          <div class="vbox">
+            {% include leg-circle.html rep=house_vice_chair status=house_vice_chair_status size='L' %}
+            <p class="fRoboto fWhite fBold fUppercase">vice-chair</p>
+          </div>
+        </div>
+
+        <div class="members">
+          {% for member_id in committee.house_members %}
+          {% assign rep = site.data.cache.legislators_by_id[member_id] %}
+            {% if bill.co_sponsors contains member_id %}
+              {% assign status = 'ok' %}
+            {% else %}
+              {% assign status = 'ko' %}
+            {% endif %}
+            {% include leg-circle.html rep=rep status=status %}
+          {% endfor %}
+
+        </div>
+
+      </div>
+    </div>
+    <div class="centered-block">
+      <button class="btn btn_inactive fUppercase">request they hold a vote</button>
+      <p class="hold_vote_txt fRoboto fWhite fBold">*Please enter your address above</p>
+    </div>
+  </section>
+
+  <section class="map">
+    <h3 class="billpg_map_header fUppercase fRaleway fExbold">Who has co-sponsored:</h3>
+    <div class="map-block dark">
+      {% include map.html greens = bill.co_sponsors %}
+    </div>
+    <div class="centered-block">
+      <button class="btn btn_inactive fUppercase">request co-sponsorship</button>
+      <p class="fRoboto fBold">*Please enter your address above</p>
+    </div>
+  </section>
+</main>
+
 
 <h2>History of the bill</h2>
 

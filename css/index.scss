@@ -1,18 +1,17 @@
 ---
 ---
 
-// Pages
 @import "pages/home";
 @import "pages/about";
 @import "pages/pledge";
 @import "pages/legislator-search";
+@import "pages/bills";
+@import "pages/bill";
 
-// Components
 @import "components/header";
 @import "components/footer";
 @import "components/hero-image";
 @import "components/legislator-search";
-
-// Common
+@import "components/leg-circle";
 
 @import "common";

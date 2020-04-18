@@ -44,26 +44,18 @@ layout: new-base
       state representatives:
     </h4>
     <div class="legislator-grid">
-      {% for rep_id in page.signatories.house %} {% assign rep = site.data.cache.legislators_by_id[rep_id] %}
-        <div class="leg_circ">
-          <img class="leg_circ_img" src="{{rep.square_picture}}" alt="{{rep.first_name}} {{rep.last_name}}" />
-          <img class="leg_circ_check" src="/img/green_check.png" alt="green check" />
-          <p class="fRoboto fLight">{{rep.first_name}} {{rep.last_name}}</p>
-          <h5 class="fRoboto fLight">{{rep.hometown}}</h5>
-        </div>
+      {% for rep_id in page.signatories.house %}
+        {% assign rep = site.data.cache.legislators_by_id[rep_id] %}
+        {% include leg-circle.html rep=rep status='ok' %}
       {% endfor %}
     </div>
     <h4 class="pledge_leg_subtitle fRaleway fUppercase fRegular">
       state senators:
     </h4>
     <div class="legislator-grid">
-      {% for rep_id in page.signatories.senate %} {% assign rep = site.data.cache.legislators_by_id[rep_id] %}
-        <div class="leg_circ">
-          <img class="leg_circ_img" src="{{rep.square_picture}}" alt="{{rep.first_name}} {{rep.last_name}}" />
-          <img class="leg_circ_check" src="/img/green_check.png" alt="green check" />
-          <p class="fRoboto fLight">{{rep.first_name}} {{rep.last_name}}</p>
-          <h5 class="fRoboto fLight">{{rep.hometown}}</h5>
-        </div>
+      {% for rep_id in page.signatories.senate %}
+        {% assign rep = site.data.cache.legislators_by_id[rep_id] %}
+        {% include leg-circle.html rep=rep status='ok' %}
       {% endfor %}
     </div>
     <div class="centered-block">

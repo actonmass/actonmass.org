@@ -1,5 +1,19 @@
-<section class="search {{include.class}}">
-  <h1 class="search_title fRaleway fExbold">legislator search</h1>
+{% if include.title %}
+  {% assign title = include.title %}
+{% elsif include.text %}
+  {% assign text = include.text %}
+{% else %}
+  {% assign title = 'legislator search' %}
+{% endif %}
+
+
+<div class="search {{include.class}}">
+  {% if title %}
+    <h1 class="search_title fRaleway fExbold">{{ title }}</h1>
+  {% endif %}
+  {% if text %}
+    <h3 class="billpg_txt fRaleway fExbold">{{include.text}}</h3>
+  {% endif %}
   <div class="search_field">
     <form action="/search_result.html#results">
       <div class="entry_2">
@@ -13,4 +27,4 @@
       <input type="submit" class="btn btn_search" value="Submit" />
     </form>
   </div>
-</section>
+</div>

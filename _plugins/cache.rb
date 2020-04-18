@@ -3,7 +3,7 @@ module Cache
 
     def generate_cache(site)
       cache = {}
-      for collection in ["legislators", "districts", "committees", "bill_events"] do
+      for collection in ["legislators", "districts", "committees", "bill_events", "issues" ,"bills"] do
         item_by_id = {}
         for item in site.collections[collection].docs do
           id = item['id']
@@ -84,7 +84,22 @@ module Cache
         co_sponsors = bill.data["co_sponsors"]
         for leg_id in co_sponsors do
           leg = legislators[leg_id]
-          leg.data["cosponsored_bills"].push(bill.id)
+          leg.data["cosponsored_bills"].push(bill['id'])
+        end
+      end
+    end
+
+    def generate_issue_bills(site)
+      cache = site.data["cache"]
+      for issue in site.collections["issues"].docs do
+        issue.data["bills"] = []
+      end
+      issues = cache["issues_by_id"]
+      for bill in site.collections["bills"].docs do
+        issue_id = bill.data["issue"]
+        issue = issues[issue_id]
+        if issue != nil
+          issue.data["bills"].push(bill['id'])
         end
       end
     end
@@ -94,6 +109,7 @@ module Cache
       generate_legislator_committees(site)
       generate_legislator_votes(site)
       generate_legislator_cosponsored_bills(site)
+      generate_issue_bills(site)
 
     end
   end

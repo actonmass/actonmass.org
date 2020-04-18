@@ -1,0 +1,38 @@
+.bills-page {
+  background-color: var(--primary);
+  padding-top: 2rem;
+
+  h1 {
+    text-align: center;
+    color: #fefbf8;
+  }
+
+  .list-bills {
+    grid-area: list_bills;
+    padding: 2rem 0rem 5rem 5rem;
+    justify-self: center;
+    display: grid;
+
+    @media (min-width: 700px) {
+      padding: 2rem 0rem 10rem 20rem;
+      justify-self: inherit;
+    }
+
+    .issue-title {
+      margin: 1rem 0rem 1rem 0rem;
+    }
+
+    a {
+      color: inherit;
+      text-decoration: none;
+    }
+
+    .bill {
+      margin: 1rem 0rem 1rem 3rem;
+
+      a:hover {
+        color: #56ccf2;
+      }
+    }
+  }
+}

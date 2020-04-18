@@ -309,15 +309,6 @@ td {
   border: red solid;
 }
 
-.committee-block {
-  display: flex;
-  justify-content: space-around;
-}
-
-.committee-block div {
-  width: 50%;
-}
-
 .good-vote i {
   color: green;
 }
