@@ -215,16 +215,16 @@ section.map {
 
 /*----------- BILL PAGE / TIMELINE ------------------------*/
 
+.timeline {
+  padding-bottom: 10rem;
+  text {
+    font-size: 1.6rem;
+  }
+}
+
 .billpg_timeln_header {
   grid-area: 7 / 1 / 7 / 3;
   padding: 10rem 20rem 0rem 20rem;
-}
-
-.timeline {
-  display: grid;
-  grid-template-columns: repeat(6, 1fr);
-  grid-template-rows: auto auto auto;
-  padding: 5rem 20rem 15rem 20rem;
 }
 
 .timeln_rect {
@@ -258,8 +258,33 @@ section.map {
   margin-right: 2rem;
   grid-area: 2 / 4;
   align-self: center;
-  animation-duration: 2s;
+}
+
+@keyframes buttonTransition {
+  0% {
+    r: 10;
+  }
+  14% {
+    r: 13;
+  }
+  28% {
+    r: 10;
+  }
+  42% {
+    r: 13;
+  }
+  70% {
+    r: 10;
+  }
+}
+
+.today-dot {
   animation-delay: 2s;
+  animation-duration: 2s;
+  animation-fill-mode: both;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-name: buttonTransition;
 }
 
 .timeln_txt {

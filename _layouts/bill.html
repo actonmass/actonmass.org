@@ -134,38 +134,13 @@ layout: new-base
     </div>
   </section>
 
-  <section class="light-blue">
+  <section class="timeline light-blue">
     <h3 class="billpg_timeln_header fUppercase fRaleway fExbold">Timeline of bill during this session:</h3>
-    <div class="timeline">
-      <div class="timeln_rect"></div>
-      <div class="timeln_dot1 animated fadeInLeft"></div>
-      <p class="timeln_txt fRoboto animated fadeInLeft">300 days...</p>
-      <div class="timeln_dot2 animated heartBeat infinite"></div>
-      <div class="timeln_dot3"></div>
-      <div class="timeln_dot5 animated fadeInLeft"></div>
-      <div class="timeln_dot4 animated fadeInLeft"></div>
-      <div class="timeln_bill1">
-        <h4 class="fRoboto fRegular">Bill Filed</h4>
-        <p class="fRoboto fLight">01.2019</p>
-      </div>
-      <div class="timeln_bill2">
-        <h4 class="fRoboto fRegular">Today</h4>
-        <p class="fRoboto fLight">11.2019</p>
-      </div>
-      <div class="timeln_bill3">
-        <h4 class="fRoboto fRegular">Hearing Scheduled</h4>
-        <p class="fRoboto fLight">12.2.2019</p>
-      </div>
-      <div class="timeln_bill4">
-        <h4 class="fRoboto fRegular">Session Over</h4>
-        <p class="fRoboto fLight">07.2020</p>
-      </div>
-    </div>
+    {% include bill-timeline.html timeline = bill.timeline %}
   </section>
 </main>
 
 
-{% include bill-timeline.html timeline = bill.timeline %}
 
 <h2>History of the bill</h2>
 

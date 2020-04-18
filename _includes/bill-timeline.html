@@ -3,16 +3,15 @@
 <script>
     (()=>{
         const globalFilingDate = "2019-01-02";
-        const globalSessionEndDate = "2019-12-31";
+        const globalSessionEndDate = "2020-07-31";
         const data = {
             filingDate: globalFilingDate,
             sessionEndDate: globalSessionEndDate,
-            filingTitle: "{{bill_timeline.timeline.filing_title}}",
             events: [
                 {% for event in bill_timeline.timeline.events %}
                 {
                     text: "{{ event.description }}",
-                    date: "{{ event.date }}" 
+                    date: "{{ event.date }}"
                 },
                 {% endfor %}
             ],
