@@ -1,6 +1,35 @@
 .bill-page {
   .headline {
+    .headline-container {
+      display: grid;
+      grid-template-areas:
+        "hero_title"
+        "hero_a"
+        "hero_b";
+
+      @media (min-width: 700px) {
+        grid-template-areas:
+          "hero_title hero_a "
+          "hero_b hero_a ";
+      }
+    }
+
+    .billpg_title {
+      grid-area: hero_title;
+      align-self: end;
+      padding: 0;
+      text-transform: uppercase;
+      z-index: 1;
+      text-align: center;
+
+      @media (min-width: 700px) {
+        margin-bottom: 0;
+        text-align: left;
+      }
+    }
+
     .billpg_hero_a {
+      grid-area: hero_a;
       max-width: 30rem;
       justify-self: center;
 
@@ -11,27 +40,17 @@
     }
 
     .billpg_hero_b {
+      grid-area: hero_b;
       align-self: center;
-      max-width: 36rem;
+      margin-bottom: -2rem;
 
       @media (min-width: 700px) {
-        max-width: 50rem;
+        max-width: 40rem;
         box-sizing: unset;
       }
 
-      .billpg_title {
-        padding: 0;
-        justify-self: center;
-        text-transform: uppercase;
-        z-index: 1;
-      }
-
       li {
-        margin: 0rem 0rem 2rem 0rem;
-      }
-
-      ul {
-        max-width: 40rem;
+        margin-bottom: 2rem;
       }
     }
   }
@@ -165,7 +184,6 @@
 }
 
 section.map {
-
   h3 {
     margin-bottom: 1.5rem;
 
@@ -225,7 +243,9 @@ section.map {
   padding-bottom: 3rem;
 
   @media (min-width: 700px) {
-    padding: left 20rem right 20rem bottom 5rem;
+    padding-left: 20rem;
+    padding-right: 20rem;
+    padding-bottom: 5rem;
     text-align: left;
   }
 }

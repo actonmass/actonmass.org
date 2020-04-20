@@ -7,20 +7,18 @@ layout: new-base
 
 <main class="bill-page">
   <section class="headline dark cbox">
-    <div class="w1400 two-blocks rev">
+    <div class="w1400 headline-container">
+      <h2 class="billpg_title fRaleway fExbold">{{bill.short_title}}</h2>
       <div class="billpg_hero_a">
         {% include hero-image.html img=bill.img alt='' %}
       </div>
-      <div class="billpg_hero_b">
-        <h2 class="billpg_title fRaleway fExbold">{{bill.short_title}}</h2>
-        <ul>
-          {% for point in bill.summary %}
-            <li>
-              <h4 class="fRaleway fWhite fRegular">{{point}}</h4>
-            </li>
-          {% endfor %}
-        </ul>
-      </div>
+      <ul class="billpg_hero_b">
+        {% for point in bill.summary %}
+          <li>
+            <h4 class="fRaleway fWhite fRegular">{{point}}</h4>
+          </li>
+        {% endfor %}
+      </ul>
     </div>
   </section>
   <section class="cbox">

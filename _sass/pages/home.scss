@@ -541,6 +541,25 @@ a.btn_issues {
   padding: 0;
   background-color: #11447b;
   padding: 3rem 2rem 3rem 2rem;
+
+  .pledge_left {
+    grid-area: 2 / 1 / 2 / 2;
+
+    @media (min-width: 700px) {
+      justify-self: center;
+      max-width: 60rem;
+    }
+
+    .dotted-image .image-container {
+      padding-top: 0;
+      padding-left: 0;
+
+      @media (min-width: 700px) {
+        padding-left: 5rem;
+        padding-right: 10rem;
+      }
+    }
+  }
 }
 
 @media (min-width: 700px) {
@@ -549,16 +568,6 @@ a.btn_issues {
     display: grid;
     padding: 10rem 20rem;
     background-color: #11447b;
-  }
-}
-
-.accountability .pledge_left {
-  grid-area: 2 / 1 / 2 / 2;
-}
-
-@media (min-width: 700px) {
-  .accountability .pledge_left {
-    grid-area: 2 / 1 / 2 / 2;
   }
 }
 

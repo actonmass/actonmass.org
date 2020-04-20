@@ -7,10 +7,10 @@ layout: new-base
 <main class="issue-page">
   <section class="headline dark cbox">
     <div class="w1400 headline-container">
+      <h1 class="hero_title fRaleway fBold">{{issue.title}}</h1>
       <div class="issues_hero_a">
         {% include hero-image.html img=issue.page_img alt='' %}
       </div>
-      <h1 class="hero_title fRaleway fBold">{{issue.title}}</h1>
       <div class="issues_hero_c">
         <h2 class="hero_quote_txt fRaleway fWhite fRegular">
           {{issue.catchphrase}}
