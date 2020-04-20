@@ -18,11 +18,11 @@ highlighted_bills:
 failures_block_title: Massachusetts has failed to protect vulnerable immigrants.
 failures:
     - title: Ice custody
-      text: Every day we hear horror stories about families ripped apart [1](#reference-1), toddlers dying of dehydration in ICE custody [2](#reference-2), and the federal government setting up a Muslim registry [3](#reference-3).
+      text: Every day we hear horror stories about families ripped apart[1](#reference-1), toddlers dying of dehydration in ICE custody[2](#reference-2), and the federal government setting up a Muslim registry[3](#reference-3).
     - title: Sanctuary cities
       text: "Many cities have responded by becoming sanctuary cities: This protects immigrants and prevents spending our taxpayers’ money on Trump’s draconian policies. Instead our police force focuses on public safety."
     - title: Trump rating
-      text: MA has one of the lowest levels of support for Trump [4](#reference-4). Our state legislature should reflect the will of voters and stand up to Trump’s racist immigration policy too.
+      text: MA has one of the lowest levels of support for Trump[4](#reference-4). Our state legislature should reflect the will of voters and stand up to Trump’s racist immigration policy too.
 questions:
     - title: Will dangerous criminals be released without punishment because of SCA?
       text: No. The Act merely provides some due process protections for all residents. Those who are deemed a threat to public safety will not be released, just like under current law. Law enforcement will still be able to work with ICE to make arrests and detain people, as long as a judge issues a warrant. The Act was carefully crafted to allow law enforcement to go after criminals, while still respecting the civil rights of everyone.

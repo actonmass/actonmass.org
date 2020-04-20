@@ -159,7 +159,41 @@
         p {
           font-size: 1.8rem;
           line-height: 1.4;
+
+          a {
+            vertical-align: super;
+            font-size: smaller;
+            text-decoration: none;
+          }
         }
+      }
+    }
+  }
+
+  .references {
+    padding: 5rem 0;
+
+    a {
+      color: #061729;
+      text-decoration: none;
+      font-size: 1.6rem;
+
+      &:hover {
+        color: #01447e;
+        text-decoration: underline;
+      }
+    }
+
+    li {
+      padding: 0.5rem 0rem;
+    }
+
+    ul.issues_references_list {
+      list-style: none;
+      max-width: 28rem;
+
+      @media (min-width: 700px) {
+        max-width: none;
       }
     }
   }
@@ -455,43 +489,4 @@
 
 .sca_learn_icon {
   max-width: 25rem;
-}
-
-/* ------- references --------- */
-
-.issues_ref {
-  grid-area: issues_ref;
-  padding: 5rem 0rem 5rem 0rem;
-}
-
-.issues_ref_header {
-  padding: 2rem 2rem;
-}
-
-@media (min-width: 700px) {
-  .issues_ref {
-    grid-area: issues_ref;
-    padding: 5rem 20rem 5rem 20rem;
-  }
-}
-
-ul.issues_references_list {
-  list-style: none;
-  max-width: 28rem;
-}
-
-@media (min-width: 700px) {
-  ul.issues_references_list {
-    list-style: none;
-    max-width: none;
-  }
-}
-
-ul.issues_references_list li {
-  padding: 1rem 0rem 1rem 0rem;
-}
-
-ul.issues_references_list li p:hover {
-  color: #01447e;
-  text-decoration: underline;
 }
