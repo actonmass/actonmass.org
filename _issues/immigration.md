@@ -12,8 +12,6 @@ page_img: /img/bills/sca_hero_img.png
 bills_to_support_title: Immigration reform
 highlighted_bills:
   - safe-communities-act
-  - safe-communities-act
-  - safe-communities-act
   - driver-license-regardless-immigration-status
 failures_block_title: Massachusetts has failed to protect vulnerable immigrants.
 failures:

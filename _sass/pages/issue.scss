@@ -170,6 +170,136 @@
     }
   }
 
+  .signup {
+    .signup-container {
+      display: grid;
+      grid-template-areas:
+        "issues_signup_a"
+        "issues_signup_c";
+
+      @media (min-width: 700px) {
+        grid-template-areas: "issues_signup_a issues_signup_c";
+      }
+    }
+    .issues_signup_a {
+      grid-area: issues_signup_a;
+      padding: 3rem;
+      display: grid;
+      justify-self: center;
+
+      @media (min-width: 700px) {
+        justify-self: left;
+        padding: 10rem 0rem 10rem 0rem;
+      }
+    }
+
+    .issues_signup_c {
+      grid-area: issues_signup_c;
+      padding: 2rem;
+      display: grid;
+      justify-self: center;
+      grid-template-columns: 1fr;
+
+      @media (min-width: 700px) {
+        grid-area: issues_signup_c;
+        padding: 10rem 0 10rem 0rem;
+        display: grid;
+        justify-self: center;
+      }
+    }
+
+    .act1 {
+      grid-area: 1 / 1;
+      font-size: 10rem;
+      padding: 0.5rem 0.5rem;
+      color: var(--primary);
+      line-height: 10rem;
+
+      @media (min-width: 700px) {
+        grid-area: 1 / 1;
+        font-size: 14rem;
+        padding: 0.5rem 0.5rem;
+        color: var(--primary);
+        line-height: 12rem;
+      }
+    }
+
+    .now1 {
+      grid-area: 2 / 1;
+      font-size: 10rem;
+      padding: 0.5rem 0.5rem;
+      color: var(--primary);
+      line-height: 10rem;
+
+      @media (min-width: 700px) {
+        grid-area: 2 / 1;
+        font-size: 14rem;
+        padding: 0.5rem 0.5rem;
+        color: var(--primary);
+        line-height: 12rem;
+      }
+    }
+
+    .issues_signup_rect {
+      height: 5rem;
+      width: 30rem;
+      border-radius: 0.4rem;
+      border: solid 0.1rem var(--dark);
+      background-color: white;
+      margin: 1rem 0rem 1rem 0rem;
+
+      @media (min-width: 700px) {
+        height: 5rem;
+        width: 36rem;
+        border-radius: 0.4rem;
+        border: solid 0.1rem var(--dark);
+        background-color: white;
+        margin: 1rem 0rem 1rem 0rem;
+      }
+    }
+
+    .issues_signup_rect_sm {
+      height: 2rem;
+      width: 2rem;
+      border-radius: 0.4rem;
+      border: solid 0.1rem var(--dark);
+      background-color: white;
+      margin: 1rem 0rem 1rem 0rem;
+      grid-area: 3 / 1;
+      align-self: center;
+    }
+
+    .issues_signup_c .search_field {
+      grid-area: 3 / 1;
+      align-self: center;
+      padding: 1rem 0rem 0rem 0rem;
+      justify-self: center;
+    }
+
+    @media (min-width: 700px) {
+      .issues_signup_c .search_field {
+        grid-area: 2 / 1;
+        justify-self: left;
+      }
+    }
+
+    .signup_volunteer {
+      max-width: 37rem;
+      line-height: 2rem;
+    }
+
+    .signup_volunteer1 {
+      grid-area: 3 / 1 / 3 / 2;
+      padding: 0rem 0rem 0rem 3rem;
+      align-self: center;
+    }
+
+    .issues_signup_btn {
+      margin: 1rem 0rem 1rem 0rem;
+      grid-area: 4 / 1 / 4 / 2;
+    }
+  }
+
   .references {
     padding: 5rem 0;
 
@@ -197,135 +327,6 @@
       }
     }
   }
-}
-
-/*--------------- ISSUES / SIGN UP (SECTION 4) -----------------*/
-
-.issues_signup_a {
-  grid-area: issues_signup_a;
-  padding: 3rem;
-  display: grid;
-  justify-self: center;
-}
-
-@media (min-width: 700px) {
-  .issues_signup_a {
-    padding: 10rem 0rem 10rem 14rem;
-  }
-}
-
-.issues_signup_c {
-  grid-area: issues_signup_c;
-  padding: 2rem;
-  display: grid;
-  justify-self: center;
-  grid-template-columns: 1fr;
-}
-
-@media (min-width: 700px) {
-  .issues_signup_c {
-    grid-area: issues_signup_c;
-    padding: 10rem 20rem 10rem 0rem;
-    display: grid;
-    justify-self: center;
-  }
-}
-
-.act1 {
-  grid-area: 1 / 1;
-  font-size: 10rem;
-  padding: 0.5rem 0.5rem;
-  color: var(--primary);
-  line-height: 10rem;
-}
-
-@media (min-width: 700px) {
-  .act1 {
-    grid-area: 1 / 1;
-    font-size: 14rem;
-    padding: 0.5rem 0.5rem;
-    color: var(--primary);
-    line-height: 12rem;
-  }
-}
-
-.now1 {
-  grid-area: 2 / 1;
-  font-size: 10rem;
-  padding: 0.5rem 0.5rem;
-  color: var(--primary);
-  line-height: 10rem;
-}
-
-@media (min-width: 700px) {
-  .now1 {
-    grid-area: 2 / 1;
-    font-size: 14rem;
-    padding: 0.5rem 0.5rem;
-    color: var(--primary);
-    line-height: 12rem;
-  }
-}
-
-.issues_signup_rect {
-  height: 5rem;
-  width: 30rem;
-  border-radius: 0.4rem;
-  border: solid 0.1rem var(--dark);
-  background-color: white;
-  margin: 1rem 0rem 1rem 0rem;
-}
-
-@media (min-width: 700px) {
-  .issues_signup_rect {
-    height: 5rem;
-    width: 36rem;
-    border-radius: 0.4rem;
-    border: solid 0.1rem var(--dark);
-    background-color: white;
-    margin: 1rem 0rem 1rem 0rem;
-  }
-}
-
-.issues_signup_rect_sm {
-  height: 2rem;
-  width: 2rem;
-  border-radius: 0.4rem;
-  border: solid 0.1rem var(--dark);
-  background-color: white;
-  margin: 1rem 0rem 1rem 0rem;
-  grid-area: 3 / 1;
-  align-self: center;
-}
-
-.issues_signup_c .search_field {
-  grid-area: 3 / 1;
-  align-self: center;
-  padding: 1rem 0rem 0rem 0rem;
-  justify-self: center;
-}
-
-@media (min-width: 700px) {
-  .issues_signup_c .search_field {
-    grid-area: 2 / 1;
-    justify-self: left;
-  }
-}
-
-.signup_volunteer {
-  max-width: 37rem;
-  line-height: 2rem;
-}
-
-.signup_volunteer1 {
-  grid-area: 3 / 1 / 3 / 2;
-  padding: 0rem 0rem 0rem 3rem;
-  align-self: center;
-}
-
-.issues_signup_btn {
-  margin: 1rem 0rem 1rem 0rem;
-  grid-area: 4 / 1 / 4 / 2;
 }
 
 /*--------------- ISSUES / COMMON QUESTIONS (SECTION 5) -----------------*/
