@@ -1,9 +1,14 @@
+section {
+  @media (min-width: 700px) {
+    padding: 10rem 0;
+  }
+}
+
 .centered-block {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  text-align: center;
 }
 
 .vbox {
@@ -14,6 +19,12 @@
 .hbox {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.w1400 {
+  max-width: 1400px;
+  min-width: min(1400px, 90%);
 }
 
 .dark {
@@ -34,4 +45,8 @@
 
 .light-blue {
   background-color: #d8e5fd;
+}
+
+.medium-blue {
+  background-color: #afcbff;
 }

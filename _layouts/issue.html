@@ -1,24 +1,130 @@
 ---
-layout: default
+layout: new-base
 ---
 
-<div class="issue">
-    <h1>{{ page.title | smartify }}</h1>
-    {% include liquid/prev-next-collection.html %}
-    <div class="centered"><i class="fa fa-{{ page.logo }}"></i></div>
-    {{ content }}
-    <div class="centered"><i class="fa fa-{{ page.logo }}"></i></div>
-    <ul class="pager">
-        <li>
-            {% if previous.url %}
-                <a href="{{ previous.url }}" title="{{previous.title}}">&larr; {{ previous.title | smartify }}</a>
-            {% endif %}
+{% assign issue = page %}
+
+<main class="issue-page">
+  <section class="headline dark">
+    <div class="issues_hero_a">
+      {% include hero-image.html img=issue.page_img alt='' %}
+    </div>
+    <div class="issues_hero_c">
+      <h1 class="hero_title fRaleway fBold">immigration</h1>
+      <h2 class="hero_quote_txt fRaleway fWhite fRegular">
+        Every day we hear horror stories about families being ripped apart
+      </h2>
+    </div>
+  </section>
+  <section class="bills centered-block">
+    <div class="w1400">
+      <h3 class="issues_bill_header fRaleway fUppercase fExbold">bills to support {{issue.bills_to_support_title}}</h3>
+      <div class="bill-container">
+        {% for bill_id in issue.highlighted_bills%}
+        <div class="bill vbox">
+          {% assign bill = site.data.cache.bills_by_id[bill_id] %}
+          <div class="bill-text">
+            <h4 class="issues_bill_title fRaleway fExbold fUppercase">{{bill.short_title}}</h4>
+            <div class="rect_underline"></div>
+            <ul class="issues_bills_bullets">
+              {% for point in bill.summary %}
+              <li><p class="fRoboto fRegular">{{point}}</p></li>
+              {% endfor %}
+            </ul>
+          </div>
+          <div class="bill-btn-container">
+            <a href="{{bill.id}}" class="btn billbtn fRoboto fBold fUppercase">read more</a>
+          </div>
+        </div>
+        {% endfor %}
+      </div>
+    </div>
+  </section>
+  <section class="failures dark centered-block">
+    <div class="w1400">
+      <h3 class="fRaleway fWhite fExbold fUppercase">
+        {{issue.failures_block_title}}
+      </h3>
+      <div class="failures-container hbox">
+        {% for failure in issue.failures %}
+        <div class="failure">
+          <div class="rect_sideline"></div>
+          <h4 class="fRoboto fBold fWhite fUppercase">{{ failure.title }}</h4>
+          <p class="fRoboto fLight fWhite">
+            {{ failure.text | markdownify | remove: "<p>" | remove: "</p>" }}
+          </p>
+        </div>
+        {% endfor %}
+      </div>
+    </div>
+  </section>
+  <section class="signup centered-block">
+    <div class="signup-container w1400">
+      <div class="issues_signup_a">
+        <h1 class="act1 fRaleway fExbold fUppercase">act</h1>
+        <h1 class="now1 fRaleway fExbold fUppercase">now</h1>
+      </div>
+      <div class="issues_signup_c">
+        <p class="signup_volunteer fRoboto fLight">Sign up for email notifications so we can contact you when your voice is needed</p>
+        <div class="search_field">
+          <div class="entry_1">
+            <p class="search_text fRoboto fLight">email</p>
+            <div class="search_rect">
+            </div>
+          </div>
+          <div class="entry_2">
+            <p class="search_text fRoboto fLight">street address</p>
+            <div class="search_rect">
+            </div>
+          </div>
+          <div class="entry_3">
+            <p class="search_text fRoboto fLight">city</p>
+            <div class="search_rect">
+            </div>
+          </div>
+        </div>
+        <div class="issues_signup_rect_sm"></div>
+        <p class="signup_volunteer1 fRoboto fLight">would you like to volunteer?</p>
+        <button class="btn issues_signup_btn fRoboto fBold fUppercase">submit</button>
+      </div>
+    </div>
+  </section>
+  <section class="questions centered-block medium-blue">
+    <div class="w1400">
+      <h3 class="issues_faq_header fRaleway fExbold fUppercase">common questions:</h3>
+      {% for question in issue.questions %}
+        <button class="accordion">
+          <h4 class="accordian_question fRaleway fRegular">{{ question.title }}</h4>
+          <i class="plus fas fa-plus fa-2x"></i>
+        </button>
+        <div class="panel">
+          <p class="fRoboto fLight">{{ question.text }}</p>
+        </div>
+      {% endfor %}
+    </div>
+  </section>
+  <section class="learn-more centered-block light-blue">
+    <div class="w1400">
+      <h3 class="issues_learn_header fRaleway fExbold fUppercase">learn more:</h3>
+      <div class="hbox learn-more-container">
+        {% for learn_more_link in issue.learn_more %}
+        <div>
+          <a href="{{learn_more_link.link}}"><img class="sca_learn_icon" src="{{learn_more_link.img}}" alt="{{learn_more_link.title}}"></a>
+        </div>
+        {% endfor %}
+      </div>
+    </div>
+  </section>
+  <section class="references centered-block">
+    <div class="w1400">
+      <h3 class="issues_ref_header fRaleway fExbold fUppercase">References:</h3>
+      <ul class="issues_references_list">
+        {% for reference in issue.references %}
+        <li id="reference-{{ reference.key }}" class="fRoboto fLight">
+          <a href="{{ reference.link }}">{{ reference.key }}. {{ reference.title }}</a>
         </li>
-        <li><a href="/#issues">All issues</a></li>
-        <li>
-            {% if next.url %}
-                <a href="{{ next.url }}" title="{{next.title}}"> {{ next.title | smartify }} &rarr;</a>
-            {% endif %}
-        </li>
-    </ul>
-</div>
+        {% endfor %}
+      </ul>
+    </div>
+  </section>
+</main>
