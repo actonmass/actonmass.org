@@ -9,12 +9,10 @@
   &.dark {
     background-color: var(--primary);
   }
-}
 
-@media (min-width: 700px) {
-  .search {
+  @media (min-width: 700px) {
     grid-area: search;
-    padding: 10rem 20rem;
+    padding: 0 20rem;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-column-gap: 10rem;

@@ -20,30 +20,6 @@
 
 /*--------------------- HOMEPAGE HERO ------------------------*/
 
-.homepage_wrapper {
-  display: grid;
-  grid-template-areas:
-    "hero"
-    "take_action"
-    "failures"
-    "issues"
-    "search"
-    "accountability";
-}
-
-@media (min-width: 600px) {
-  .homepage_wrapper {
-    /*grid-template-columns: 3fr 3fr 3fr;*/
-    grid-template-areas:
-      "hero hero hero"
-      "take_action take_action take_action"
-      "failures failures failures"
-      "issues issues issues"
-      "accountability accountability accountability"
-      "search search search";
-  }
-}
-
 .homepage_wrapper .hero {
   grid-template-columns: 1fr;
   grid-template-rows: 1fr auto;

@@ -2,7 +2,7 @@
 layout: new-base
 ---
 
-<div class="homepage_wrapper">
+<main class="homepage_wrapper">
   <section class="hero">
     <div class="hero_left">
       <img class="hero_img" src="/img/hero_img.png" alt="women protesting" />
@@ -29,6 +29,7 @@ layout: new-base
       <a href="#issues" class="fRoboto fExbold fUppercase btn btn_issues">VIEW ISSUES</a>
     </div>
   </section>
+
   <section class="take_action">
     <div class="learn">
       <h3 class="take_action_txt fRaleway fExbold">LEARN</h3>
@@ -78,6 +79,7 @@ layout: new-base
       </div>
     </div>
   </section>
+
   <section id="issues" class="issues">
     <div class="rect rect1"></div>
     <h2 class="issues_title fUppercase fRaleway">key progressive issues:</h2>
@@ -98,8 +100,6 @@ layout: new-base
     </div>
   </section>
 
-  {% include legislator-search.html class="light" %}
-
   <section class="accountability">
     <div class="rect rect1"></div>
     <h2 class="account_title fUppercase fWhite fRaleway">the transparency pledge:</h2>
@@ -115,4 +115,9 @@ layout: new-base
       <a href="/pledge" class="fRoboto fExbold fUppercase btn btn_pledge">the pledge</a>
     </div>
   </section>
-</div>
+
+  <section>
+    {% include legislator-search.html class="light" %}
+  </section>
+
+</main>

@@ -1,3 +1,9 @@
+section {
+  @media (min-width: 700px) {
+    padding: 10rem 0;
+  }
+}
+
 .centered-block {
   display: flex;
   flex-direction: column;
@@ -38,4 +44,8 @@
 
 .light-blue {
   background-color: #d8e5fd;
+}
+
+.medium-blue {
+  background-color: #afcbff;
 }

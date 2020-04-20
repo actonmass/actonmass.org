@@ -92,7 +92,7 @@
   }
 
   .billpg_decision_header {
-    padding: 5rem 0rem 1rem 0rem;
+    padding: 0 0rem 1rem 0rem;
   }
 
   .billpg_decision_header2 {
@@ -175,13 +175,7 @@
   background-color: #bdbdbd;
 }
 
-/*----------- BILL PAGE / DECISION MAKERS (senators) ------------------------*/
-
-/*----------- BILL PAGE / CO-SPONSORSHIP MAP ------------------------*/
-
 section.map {
-  margin-bottom: 10rem;
-
   .map-block {
     border-radius: 1rem;
     margin: 0rem 20rem 5rem 20rem;
@@ -210,7 +204,7 @@ section.map {
 }
 
 .billpg_map_header {
-  padding: 5rem 20rem;
+  padding: 0 20rem;
 }
 
 /*----------- BILL PAGE / TIMELINE ------------------------*/
@@ -224,7 +218,7 @@ section.map {
 
 .billpg_timeln_header {
   grid-area: 7 / 1 / 7 / 3;
-  padding: 10rem 20rem 0rem 20rem;
+  padding: 0 20rem;
 }
 
 .timeln_rect {

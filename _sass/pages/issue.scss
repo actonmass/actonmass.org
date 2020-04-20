@@ -16,8 +16,7 @@
       justify-self: center;
 
       @media (min-width: 700px) {
-        grid-area: issues_hero_c;
-        padding: 15rem 0rem 5rem 0rem;
+        padding: 5rem 0rem 5rem 0rem;
         box-sizing: unset;
         max-width: 50rem;
       }
@@ -56,7 +55,7 @@
       justify-self: center;
 
       @media (min-width: 700px) {
-        padding: 10rem 20rem 10rem 9rem;
+        padding: 0 20rem 0 9rem;
         max-width: 72rem;
         justify-self: inherit;
       }
@@ -69,7 +68,7 @@
       max-width: 33rem;
 
       @media (min-width: 700px) {
-        padding: 10rem 20rem;
+        padding: 0 20rem;
         max-width: none;
       }
     }
@@ -78,7 +77,6 @@
       display: grid;
       grid-template-columns: repeat(3, auto);
       grid-row-gap: 5rem;
-      padding-bottom: 10rem;
 
       .bill {
         justify-self: center;
@@ -189,7 +187,6 @@
 
       @media (min-width: 700px) {
         justify-self: left;
-        padding: 10rem 0rem 10rem 0rem;
       }
     }
 
@@ -202,7 +199,6 @@
 
       @media (min-width: 700px) {
         grid-area: issues_signup_c;
-        padding: 10rem 0 10rem 0rem;
         display: grid;
         justify-self: center;
       }
