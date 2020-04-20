@@ -12,11 +12,13 @@ page_img: /img/bills/sca_hero_img.png
 bills_to_support_title: Immigration reform
 highlighted_bills:
   - safe-communities-act
+  - safe-communities-act
+  - safe-communities-act
   - driver-license-regardless-immigration-status
-details_block_title: Massachusetts has failed to protect vulnerable immigrants.
+failures_block_title: Massachusetts has failed to protect vulnerable immigrants.
 failures:
     - title: Ice custody
-      text: Every day we hear horror stories about families ripped apart [1](#reference-1), toddlers dying of dehydration in ICE custody [1](#reference-2), and the federal government setting up a Muslim registry [3](#reference-3).
+      text: Every day we hear horror stories about families ripped apart [1](#reference-1), toddlers dying of dehydration in ICE custody [2](#reference-2), and the federal government setting up a Muslim registry [3](#reference-3).
     - title: Sanctuary cities
       text: "Many cities have responded by becoming sanctuary cities: This protects immigrants and prevents spending our taxpayers’ money on Trump’s draconian policies. Instead our police force focuses on public safety."
     - title: Trump rating

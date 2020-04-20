@@ -3,7 +3,6 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  text-align: center;
 }
 
 .vbox {
@@ -14,6 +13,11 @@
 .hbox {
   display: flex;
   flex-direction: row;
+}
+
+.w1400 {
+  max-width: 1400px;
+  min-width: min(1400px, 90%);
 }
 
 .dark {

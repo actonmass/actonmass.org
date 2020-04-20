@@ -16,10 +16,11 @@ layout: new-base
       </h2>
     </div>
   </section>
-  <section class="bills">
-    <h3 class="issues_bill_header fRaleway fUppercase fExbold">bills to support {{issue.bills_to_support_title}}</h3>
-    <div class="bill-container">
-      {% for bill_id in issue.highlighted_bills%}
+  <section class="bills centered-block">
+    <div class="w1400">
+      <h3 class="issues_bill_header fRaleway fUppercase fExbold">bills to support {{issue.bills_to_support_title}}</h3>
+      <div class="bill-container">
+        {% for bill_id in issue.highlighted_bills%}
         <div class="bill vbox">
           {% assign bill = site.data.cache.bills_by_id[bill_id] %}
           <div class="bill-text">
@@ -27,7 +28,7 @@ layout: new-base
             <div class="rect_underline"></div>
             <ul class="issues_bills_bullets">
               {% for point in bill.summary %}
-                <li><p class="fRoboto fRegular">{{point}}</p></li>
+              <li><p class="fRoboto fRegular">{{point}}</p></li>
               {% endfor %}
             </ul>
           </div>
@@ -35,10 +36,26 @@ layout: new-base
             <a href="{{bill.id}}" class="btn billbtn fRoboto fBold fUppercase">read more</a>
           </div>
         </div>
-      {% endfor %}
+        {% endfor %}
+      </div>
     </div>
   </section>
-  <section class="failures">
-
+  <section class="failures dark centered-block">
+    <div class="w1400">
+      <h3 class="fRaleway fWhite fExbold fUppercase">
+        {{issue.failures_block_title}}
+      </h3>
+      <div class="failures-container hbox">
+        {% for failure in issue.failures %}
+        <div class="failure">
+          <div class="rect_sideline"></div>
+          <h4 class="fRoboto fBold fWhite fUppercase">{{ failure.title }}</h4>
+          <p class="fRoboto fLight fWhite">
+            {{ failure.text | markdownify | remove: "<p>" | remove: "</p>" }}
+          </p>
+        </div>
+        {% endfor %}
+      </div>
+    </div>
   </section>
 </main>
