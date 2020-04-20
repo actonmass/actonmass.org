@@ -296,6 +296,61 @@
     }
   }
 
+  .questions {
+    .accordion {
+      background-color: transparent;
+      color: var(--dark);
+      cursor: pointer;
+      padding: 18px;
+      width: 100%;
+      text-align: left;
+      border: none;
+      outline: none;
+      transition: 0.4s;
+      border-bottom: solid 0.2rem var(--dark);
+      display: grid;
+      max-width: 59rem;
+
+      &:hover {
+        /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+        background-color: #f4f7fc;
+      }
+    }
+
+    /* Style the accordion panel. Note: hidden by default */
+    .panel {
+      padding: 1rem 0rem 2rem 1rem;
+      /*background-color: white;*/
+      display: none;
+      overflow: hidden;
+      max-width: 47rem;
+      line-height: 2rem;
+    }
+
+    .plus {
+      grid-area: 1 / 2;
+      justify-self: right;
+    }
+  }
+
+  .learn-more {
+    .issues_learn_header {
+      padding: 3rem 2rem;
+
+      @media (min-width: 700px) {
+        padding: 0 0;
+      }
+    }
+    .learn-more-container {
+      margin-top: 5rem;
+      justify-content: space-evenly;
+    }
+
+    .sca_learn_icon {
+      max-width: 25rem;
+    }
+  }
+
   .references {
     padding: 5rem 0;
 
@@ -323,167 +378,4 @@
       }
     }
   }
-}
-
-/*--------------- ISSUES / COMMON QUESTIONS (SECTION 5) -----------------*/
-
-.issues_faq_a {
-  grid-area: issues_faq_a;
-  padding: 5rem;
-  justify-self: center;
-  max-width: 32rem;
-}
-
-@media (min-width: 700px) {
-  .issues_faq_a {
-    grid-area: issues_faq_a;
-    padding: 10rem 0rem 10rem 20rem;
-    max-width: none;
-    justify-self: left;
-  }
-}
-
-.issues_faq_background {
-  background-color: #afcbff;
-  z-index: -1;
-  grid-area: 13 / 1 / 15 / 1;
-}
-
-@media (min-width: 700px) {
-  .issues_faq_background {
-    background-color: #afcbff;
-    z-index: -1;
-    grid-area: 7 / 1 / 7 / 4;
-  }
-}
-
-/* Style the buttons that are used to open and close the accordion panel */
-.accordion {
-  background-color: transparent;
-  color: var(--dark);
-  cursor: pointer;
-  padding: 18px;
-  width: 100%;
-  text-align: left;
-  border: none;
-  outline: none;
-  transition: 0.4s;
-  border-bottom: solid 0.2rem var(--dark);
-  display: grid;
-  max-width: 59rem;
-}
-
-/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
-.accordion:hover {
-  background-color: #f4f7fc;
-}
-
-/* Style the accordion panel. Note: hidden by default */
-.panel {
-  padding: 1rem 0rem 2rem 1rem;
-  /*background-color: white;*/
-  display: none;
-  overflow: hidden;
-  max-width: 47rem;
-  line-height: 2rem;
-}
-
-.plus {
-  grid-area: 1 / 2;
-  justify-self: right;
-}
-
-/* statue of liberty */
-
-.issues_faq_c {
-  grid-area: issues_faq_c;
-  display: none;
-}
-
-@media (min-width: 700px) {
-  .issues_faq_c {
-    grid-area: issues_faq_c;
-    display: inherit;
-    padding: 5rem 20rem 0rem 0rem;
-    justify-self: center;
-    display: grid;
-  }
-}
-
-.sca_faq_icon {
-  max-height: 37rem;
-  align-self: end;
-}
-
-/*--------------- ISSUES / Learn More (SECTION 6) -----------------*/
-
-.issues_learn_background {
-  grid-area: 15 / 1 / 18 / 1;
-  z-index: -1;
-  background-color: #afcbff;
-  opacity: 30%;
-}
-
-@media (min-width: 700px) {
-  .issues_learn_background {
-    grid-area: 8 / 1 / 8 / 4;
-    z-index: -1;
-    background-color: #afcbff;
-    opacity: 30%;
-  }
-}
-
-.issues_learn_header {
-  grid-area: 15 / 1;
-  padding: 3rem 2rem;
-}
-
-@media (min-width: 700px) {
-  .issues_learn_header {
-    grid-area: 8 / 1 / 8 / 4;
-    padding: 10rem 20rem;
-  }
-}
-
-.issues_learn_a {
-  grid-area: issues_learn_a;
-  padding: 10rem 0rem 3rem 0rem;
-  justify-self: center;
-}
-
-@media (min-width: 700px) {
-  .issues_learn_a {
-    grid-area: issues_learn_a;
-    padding: 20rem 0rem 5rem 20rem;
-  }
-}
-
-.issues_learn_b {
-  grid-area: issues_learn_b;
-  padding: 3rem 0rem 3rem 0rem;
-  justify-self: center;
-}
-
-@media (min-width: 700px) {
-  .issues_learn_b {
-    grid-area: issues_learn_b;
-    padding: 20rem 0rem 5rem 0rem;
-  }
-}
-
-.issues_learn_c {
-  grid-area: issues_learn_c;
-  padding: 3rem 0rem 5rem 0rem;
-  justify-self: center;
-}
-
-@media (min-width: 700px) {
-  .issues_learn_c {
-    grid-area: issues_learn_c;
-    padding: 20rem 20rem 5rem 0rem;
-  }
-}
-
-.sca_learn_icon {
-  max-width: 25rem;
 }

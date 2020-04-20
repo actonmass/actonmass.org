@@ -101,6 +101,19 @@ layout: new-base
           <p class="fRoboto fLight">{{ question.text }}</p>
         </div>
       {% endfor %}
+    </div>
+  </section>
+  <section class="learn-more centered-block light-blue">
+    <div class="w1400">
+      <h3 class="issues_learn_header fRaleway fExbold fUppercase">learn more:</h3>
+      <div class="hbox learn-more-container">
+        {% for learn_more_link in issue.learn_more %}
+        <div>
+          <a href="{{learn_more_link.link}}"><img class="sca_learn_icon" src="{{learn_more_link.img}}" alt="{{learn_more_link.title}}"></a>
+        </div>
+        {% endfor %}
+      </div>
+    </div>
   </section>
   <section class="references centered-block">
     <div class="w1400">

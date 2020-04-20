@@ -30,10 +30,16 @@ questions:
       text: |
         Unlikely. Trump has ordered that federal funds be withheld from sanctuary jurisdictions, but he probably doesn’t have this power. Its constitutionality is being challenged in court, and a federal court issued a temporary nationwide halt against enforcement of the order. So it looks like the threat to cut funding is an empty one.
         And, the “Sanctuary” status that they would like to punish is VERY specific, and Safe Communities does not conform to those features. So, there’s zero worry here.
-supporting_orgs:
-  - MIRA
-  - PMSCA
-  - ACLU
+learn_more:
+  - title: ACLU Massachusetts
+    img: /img/orgs/aclu.png
+    link: https://www.aclum.org/en/press-releases/safe-communities-act-addresses-one-nations-most-pressing-issues
+  - title: MIRA
+    img: /img/orgs/mira.png
+    link: https://www.miracoalition.org/
+  - title: Progressive Massachusetts on Safe Communities Act
+    img: /img/orgs/safecom.png
+    link: https://www.progressivemass.com/sca
 references:
   - key: "1"
     title: Cramer, Maria, “ICE arrested 7 people as they sought permanent status in Mass., R.I.,” Boston Globe, February 21, 2018.
