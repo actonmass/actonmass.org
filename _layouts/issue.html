@@ -10,9 +10,9 @@ layout: new-base
       {% include hero-image.html img=issue.page_img alt='' %}
     </div>
     <div class="issues_hero_c">
-      <h1 class="hero_title fRaleway fBold">immigration</h1>
+      <h1 class="hero_title fRaleway fBold">{{issue.title}}</h1>
       <h2 class="hero_quote_txt fRaleway fWhite fRegular">
-        Every day we hear horror stories about families being ripped apart
+        {{issue.catchphrase}}
       </h2>
     </div>
   </section>
