@@ -1,37 +1,50 @@
 .issue-page {
   .headline {
-    display: grid;
-    grid-template-areas:
-      "issues_hero_a"
-      "issues_hero_c";
-
     @media (min-width: 700px) {
-      grid-template-areas: "issues_hero_c issues_hero_a ";
+      padding-top: 5rem;
+      padding-bottom: 5rem;
+    }
+
+    .headline-container {
+      display: grid;
+      grid-template-areas:
+        "hero_title"
+        "issues_hero_a"
+        "issues_hero_c";
+
+      @media (min-width: 700px) {
+        grid-template-areas:
+          "hero_title issues_hero_a "
+          "issues_hero_c issues_hero_a ";
+      }
+    }
+
+    .hero_title {
+      text-align: center;
+      grid-area: hero_title;
+      text-transform: uppercase;
+      margin-bottom: 2rem;
+      font-size: 2.5rem;
+
+      @media (min-width: 700px) {
+        align-self: end;
+        text-align: left;
+        padding-left: 10rem;
+        font-size: 5rem;
+        margin-bottom: 0;
+      }
     }
 
     .issues_hero_c {
       grid-area: issues_hero_c;
-      padding: 0rem 0rem 5rem 0rem;
       max-width: 30rem;
       justify-self: center;
 
       @media (min-width: 700px) {
-        padding: 5rem 0rem 5rem 0rem;
+        justify-self: left;
+        padding: 5rem 0;
         box-sizing: unset;
         max-width: 50rem;
-      }
-
-      .hero_title {
-        justify-self: left;
-        text-transform: uppercase;
-        z-index: 1;
-        margin-bottom: 2rem;
-        font-size: 2rem;
-
-        @media (min-width: 700px) {
-          padding-left: 10rem;
-          font-size: 5rem;
-        }
       }
 
       .hero_quote_txt {
@@ -50,12 +63,10 @@
 
     .issues_hero_a {
       grid-area: issues_hero_a;
-      padding: 7rem 0rem 0rem 0rem;
-      max-width: 30rem;
       justify-self: center;
 
       @media (min-width: 700px) {
-        padding: 0 20rem 0 9rem;
+        padding: 0 10rem 0 9rem;
         max-width: 72rem;
         justify-self: inherit;
       }
@@ -64,19 +75,24 @@
 
   .bills {
     .issues_bill_header {
-      padding: 3rem 0rem;
-      max-width: 33rem;
+      text-align: center;
+      padding-top: 0;
+      padding-bottom: 3rem;
 
       @media (min-width: 700px) {
-        padding: 0 20rem;
+        text-align: left;
         max-width: none;
       }
     }
 
     .bill-container {
       display: grid;
-      grid-template-columns: repeat(3, auto);
+      grid-template-columns: auto;
       grid-row-gap: 5rem;
+
+      @media (min-width: 700px) {
+        grid-template-columns: repeat(3, auto);
+      }
 
       .bill {
         justify-self: center;
@@ -114,16 +130,14 @@
   }
 
   .failures {
-    padding-bottom: 10rem;
-
     h3 {
       text-align: center;
-      padding: 3rem 2rem;
+      padding-bottom: 3rem;
       max-width: 36rem;
       justify-self: center;
 
       @media (min-width: 700px) {
-        padding: 10rem 0rem;
+        padding-bottom: 5rem;
         max-width: none;
       }
     }
@@ -174,6 +188,7 @@
       grid-template-areas:
         "issues_signup_a"
         "issues_signup_c";
+      grid-row-gap: 3rem;
 
       @media (min-width: 700px) {
         grid-template-areas: "issues_signup_a issues_signup_c";
@@ -181,118 +196,85 @@
     }
     .issues_signup_a {
       grid-area: issues_signup_a;
-      padding: 3rem;
       display: grid;
       justify-self: center;
 
       @media (min-width: 700px) {
         justify-self: left;
+      }
+
+      .act1 {
+        grid-area: 1 / 1;
+        font-size: 10rem;
+        padding: 0.5rem 0.5rem;
+        color: var(--primary);
+        line-height: 10rem;
+
+        @media (min-width: 700px) {
+          grid-area: 1 / 1;
+          font-size: 14rem;
+          padding: 0.5rem 0.5rem;
+          color: var(--primary);
+          line-height: 12rem;
+        }
+      }
+
+      .now1 {
+        grid-area: 2 / 1;
+        font-size: 10rem;
+        padding: 0.5rem 0.5rem;
+        color: var(--primary);
+        line-height: 10rem;
+
+        @media (min-width: 700px) {
+          grid-area: 2 / 1;
+          font-size: 14rem;
+          padding: 0.5rem 0.5rem;
+          color: var(--primary);
+          line-height: 12rem;
+        }
       }
     }
 
     .issues_signup_c {
       grid-area: issues_signup_c;
-      padding: 2rem;
-      display: grid;
       justify-self: center;
-      grid-template-columns: 1fr;
 
-      @media (min-width: 700px) {
-        grid-area: issues_signup_c;
-        display: grid;
-        justify-self: center;
-      }
-    }
-
-    .act1 {
-      grid-area: 1 / 1;
-      font-size: 10rem;
-      padding: 0.5rem 0.5rem;
-      color: var(--primary);
-      line-height: 10rem;
-
-      @media (min-width: 700px) {
-        grid-area: 1 / 1;
-        font-size: 14rem;
-        padding: 0.5rem 0.5rem;
-        color: var(--primary);
-        line-height: 12rem;
-      }
-    }
-
-    .now1 {
-      grid-area: 2 / 1;
-      font-size: 10rem;
-      padding: 0.5rem 0.5rem;
-      color: var(--primary);
-      line-height: 10rem;
-
-      @media (min-width: 700px) {
-        grid-area: 2 / 1;
-        font-size: 14rem;
-        padding: 0.5rem 0.5rem;
-        color: var(--primary);
-        line-height: 12rem;
-      }
-    }
-
-    .issues_signup_rect {
-      height: 5rem;
-      width: 30rem;
-      border-radius: 0.4rem;
-      border: solid 0.1rem var(--dark);
-      background-color: white;
-      margin: 1rem 0rem 1rem 0rem;
-
-      @media (min-width: 700px) {
-        height: 5rem;
-        width: 36rem;
+      .issues_signup_rect_sm {
+        height: 2rem;
+        width: 2rem;
         border-radius: 0.4rem;
         border: solid 0.1rem var(--dark);
         background-color: white;
-        margin: 1rem 0rem 1rem 0rem;
       }
-    }
 
-    .issues_signup_rect_sm {
-      height: 2rem;
-      width: 2rem;
-      border-radius: 0.4rem;
-      border: solid 0.1rem var(--dark);
-      background-color: white;
-      margin: 1rem 0rem 1rem 0rem;
-      grid-area: 3 / 1;
-      align-self: center;
-    }
-
-    .issues_signup_c .search_field {
-      grid-area: 3 / 1;
-      align-self: center;
-      padding: 1rem 0rem 0rem 0rem;
-      justify-self: center;
-    }
-
-    @media (min-width: 700px) {
-      .issues_signup_c .search_field {
-        grid-area: 2 / 1;
-        justify-self: left;
+      .signup_volunteer {
+        max-width: 37rem;
+        line-height: 2rem;
       }
-    }
 
-    .signup_volunteer {
-      max-width: 37rem;
-      line-height: 2rem;
-    }
+      .signup_volunteer1 {
+        padding: 1rem 0;
+        p {
+          padding-left: 1.5rem;
+          align-self: center;
+        }
+      }
 
-    .signup_volunteer1 {
-      grid-area: 3 / 1 / 3 / 2;
-      padding: 0rem 0rem 0rem 3rem;
-      align-self: center;
-    }
+      .button-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
 
-    .issues_signup_btn {
-      margin: 1rem 0rem 1rem 0rem;
-      grid-area: 4 / 1 / 4 / 2;
+        @media (min-width: 700px) {
+          justify-content: start;
+        }
+
+        .issues_signup_btn {
+          width: 25rem;
+          margin: 1rem 0rem 1rem 0rem;
+        }
+      }
     }
   }
 
@@ -334,16 +316,13 @@
   }
 
   .learn-more {
-    .issues_learn_header {
-      padding: 3rem 2rem;
+    .learn-more-container {
+      margin-top: 2rem;
+      justify-content: space-evenly;
 
       @media (min-width: 700px) {
-        padding: 0 0;
+        margin-top: 5rem;
       }
-    }
-    .learn-more-container {
-      margin-top: 5rem;
-      justify-content: space-evenly;
     }
 
     .sca_learn_icon {
@@ -370,8 +349,8 @@
     }
 
     ul.issues_references_list {
+      padding: 0 2rem;
       list-style: none;
-      max-width: 28rem;
 
       @media (min-width: 700px) {
         max-width: none;

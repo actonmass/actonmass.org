@@ -5,15 +5,17 @@ layout: new-base
 {% assign issue = page %}
 
 <main class="issue-page">
-  <section class="headline dark">
-    <div class="issues_hero_a">
-      {% include hero-image.html img=issue.page_img alt='' %}
-    </div>
-    <div class="issues_hero_c">
+  <section class="headline dark centered-block">
+    <div class="w1400 headline-container">
+      <div class="issues_hero_a">
+        {% include hero-image.html img=issue.page_img alt='' %}
+      </div>
       <h1 class="hero_title fRaleway fBold">{{issue.title}}</h1>
-      <h2 class="hero_quote_txt fRaleway fWhite fRegular">
-        {{issue.catchphrase}}
-      </h2>
+      <div class="issues_hero_c">
+        <h2 class="hero_quote_txt fRaleway fWhite fRegular">
+          {{issue.catchphrase}}
+        </h2>
+      </div>
     </div>
   </section>
   <section class="bills centered-block">
@@ -83,9 +85,13 @@ layout: new-base
             </div>
           </div>
         </div>
-        <div class="issues_signup_rect_sm"></div>
-        <p class="signup_volunteer1 fRoboto fLight">would you like to volunteer?</p>
-        <button class="btn issues_signup_btn fRoboto fBold fUppercase">submit</button>
+        <div class="signup_volunteer1 hbox">
+          <div class="issues_signup_rect_sm"></div>
+          <p class="fRoboto fLight">Would you like to volunteer?</p>
+        </div>
+        <div class="button-container">
+          <button class="btn issues_signup_btn fRoboto fBold fUppercase">submit</button>
+        </div>
       </div>
     </div>
   </section>

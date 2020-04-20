@@ -7,7 +7,7 @@ subtitle: Ending cooperation with ice
 logo: random
 img: /img/issue-immigration.jpg
 order: 30
-headline_catchphrase: Every day we hear horror stories about families being ripped apart
+catchphrase: Every day we hear horror stories about families being ripped apart
 page_img: /img/bills/sca_hero_img.png
 bills_to_support_title: Immigration reform
 highlighted_bills:

@@ -6,19 +6,21 @@ layout: new-base
 {% assign committee = site.data.cache.committees_by_id[bill.committee] %}
 
 <main class="bill-page">
-  <section class="headline dark">
-    <div class="billpg_hero_a">
-      {% include hero-image.html img=bill.img alt='' %}
-    </div>
-    <div class="billpg_hero_b">
-      <h2 class="billpg_title fRaleway fExbold">{{bill.short_title}}</h2>
-      <ul>
-        {% for point in bill.summary %}
-          <li>
-            <h4 class="fRaleway fWhite fRegular">{{point}}</h4>
-          </li>
-        {% endfor %}
-      </ul>
+  <section class="headline dark centered-block">
+    <div class="w1400 two-blocks rev">
+      <div class="billpg_hero_a">
+        {% include hero-image.html img=bill.img alt='' %}
+      </div>
+      <div class="billpg_hero_b">
+        <h2 class="billpg_title fRaleway fExbold">{{bill.short_title}}</h2>
+        <ul>
+          {% for point in bill.summary %}
+            <li>
+              <h4 class="fRaleway fWhite fRegular">{{point}}</h4>
+            </li>
+          {% endfor %}
+        </ul>
+      </div>
     </div>
   </section>
   <section>

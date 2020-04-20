@@ -1,41 +1,25 @@
 .bill-page {
   .headline {
-    display: grid;
-    grid-template-areas:
-      "billpg_hero_a"
-      "billpg_hero_b";
-
-    @media (min-width: 700px) {
-      grid-template-areas: "billpg_hero_b billpg_hero_a";
-    }
-
     .billpg_hero_a {
-      grid-area: billpg_hero_a;
       max-width: 30rem;
       justify-self: center;
 
       @media (min-width: 700px) {
-        padding: 5rem 20rem 5rem 0rem;
-        max-width: 72rem;
+        max-width: 50rem;
         justify-self: inherit;
       }
     }
 
     .billpg_hero_b {
-      grid-area: billpg_hero_b;
-      padding: 10rem 20rem 10rem 5rem;
       align-self: center;
       max-width: 36rem;
 
       @media (min-width: 700px) {
-        grid-area: billpg_hero_b;
-        padding: 5rem 0rem 10rem 20rem;
         max-width: 50rem;
         box-sizing: unset;
       }
 
       .billpg_title {
-        grid-area: 3 / 1 / 3 / 3;
         padding: 0;
         justify-self: center;
         text-transform: uppercase;
