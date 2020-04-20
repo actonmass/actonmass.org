@@ -155,8 +155,10 @@
 
       .failure {
         grid-area: issues_fail_a;
-        padding: 0rem 5rem;
-        max-width: 25rem;
+        padding-top: 0;
+        padding-bottom: 0;
+        padding-left: 4rem;
+        padding-right: 2.5rem;
         display: grid;
         grid-template-columns: auto auto;
         justify-self: left;
