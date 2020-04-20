@@ -2,74 +2,91 @@
 layout: new-base
 ---
 
-<div class="pledge_wrapper">
-  <h1 class="pledge_title fRaleway fBold">voters deserve to know pledge</h1>
-  <div class="hero_box_a">
-    {% include hero-image.html img="/img/pledge_img.png" alt="Rep Gouveia signed the pledge!" %}
-  </div>
-  <div class="hero_box_b">
-    <div class="pledge_hero_text">
-      <h2 class="hero_quote_txt fRaleway fWhite fRegular">
-        Massachusetts’ legislature is one of the most secretive in the country.
-      </h2>
-    </div>
-  </div>
-  <div class="pledge_hero_background"></div>
-  <div class="pledge_box_a">
-    <img class="pledge" src="/img/pledge-doc.png" alt="pledge print" />
-  </div>
-  <div class="pledge_box_b">
-    <div class="small_rect"></div>
-    <h3 class="fRaleway fUppercase fDark fBold">the transparency pledge:</h3>
-    <h4 class="fRoboto fLight fDark">
-      Massachusetts’ legislature is one of the most secretive in the country. Important progressive legislation is
-      killed year after year in back rooms without any public record. But together we can change this. We can ask our
-      elected legislators to take action to create transparency today so important progressive bills don’t die in
-      darkness.
-    </h4>
-    <button class="btn fUppercase btn_trans_pledge">
-      ask your rep to sign
-    </button>
-  </div>
-  <div class="pledge_pledge_background"></div>
-
-  {% include legislator-search.html class="dark" %}
-
-  <div class="pledge_search_background"></div>
-  <section class="pledge_reps">
-    <h6 class="pledge_leg_title fRaleway fUppercase fExbold">
-      Did your legislator sign the “voters deserve to know” pledge?
-    </h6>
-    <h4 class="pledge_leg_subtitle fRaleway fUppercase fRegular">
-      state representatives:
-    </h4>
-    <div class="legislator-grid">
-      {% for rep_id in page.signatories.house %}
-        {% assign rep = site.data.cache.legislators_by_id[rep_id] %}
-        {% include leg-circle.html rep=rep status='ok' %}
-      {% endfor %}
-    </div>
-    <h4 class="pledge_leg_subtitle fRaleway fUppercase fRegular">
-      state senators:
-    </h4>
-    <div class="legislator-grid">
-      {% for rep_id in page.signatories.senate %}
-        {% assign rep = site.data.cache.legislators_by_id[rep_id] %}
-        {% include leg-circle.html rep=rep status='ok' %}
-      {% endfor %}
-    </div>
-    <div class="centered-block">
-      <button class="btn fUppercase btn_trans_pledge2">
-        ask your rep to sign
-      </button>
+<main class="pledge-page">
+  <section class="headline dark centered-block">
+    <div class="w1400">
+      <h1 class="pledge_title fRaleway fBold">voters deserve to know pledge</h1>
+      <div class="two-blocks rev">
+        <div class="hero_box_a">
+          {% include hero-image.html img="/img/pledge_img.png" alt="Rep Gouveia signed the pledge!" %}
+        </div>
+        <div class="hero_box_b">
+          <div class="pledge_hero_text">
+            <h2 class="hero_quote_txt fRaleway fWhite fRegular">
+              Massachusetts’ legislature is one of the most secretive in the country.
+            </h2>
+          </div>
+        </div>
+      </div>
     </div>
   </section>
-  <section class="pledge_endorse">
-    <h3 class="pledge_endorse_title fRaleway fUppercase fBold">
-      endorsing organizations:
-    </h3>
-    {% for org in page.endorsing_orgs %}
-      <img class="endorse_img" src="{{org.img}}" alt="{{org.title}}" />
-    {% endfor %}
+
+  <section class="the-pledge medium-blue centered-block">
+    <div class="w1400 two-blocks">
+      <div class="pledge_box_a">
+        <img class="pledge" src="/img/pledge-doc.png" alt="pledge print" />
+      </div>
+      <div class="pledge_box_b">
+        <div class="small_rect"></div>
+        <h3 class="fRaleway fUppercase fDark fBold">the transparency pledge:</h3>
+        <h4 class="fRoboto fLight fDark">
+          Massachusetts’ legislature is one of the most secretive in the country. Important progressive legislation is
+          killed year after year in back rooms without any public record. But together we can change this. We can ask our
+          elected legislators to take action to create transparency today so important progressive bills don’t die in
+          darkness.
+        </h4>
+        <button class="btn fUppercase btn_trans_pledge">
+          ask your rep to sign
+        </button>
+      </div>
+    </div>
   </section>
-</div>
+
+  <section class="dark">
+    {% include legislator-search.html %}
+  </section>
+
+  <section class="pledge_reps centered-block light-blue">
+    <div class="w1400">
+      <h6 class="pledge_leg_title fRaleway fUppercase fExbold">
+        Did your legislator sign the “voters deserve to know” pledge?
+      </h6>
+      <h4 class="pledge_leg_subtitle fRaleway fUppercase fRegular">
+        state representatives:
+      </h4>
+      <div class="legislator-grid">
+        {% for rep_id in page.signatories.house %}
+          {% assign rep = site.data.cache.legislators_by_id[rep_id] %}
+          {% include leg-circle.html rep=rep status='ok' %}
+        {% endfor %}
+      </div>
+      <h4 class="pledge_leg_subtitle fRaleway fUppercase fRegular">
+        state senators:
+      </h4>
+      <div class="legislator-grid">
+        {% for rep_id in page.signatories.senate %}
+          {% assign rep = site.data.cache.legislators_by_id[rep_id] %}
+          {% include leg-circle.html rep=rep status='ok' %}
+        {% endfor %}
+      </div>
+      <div class="centered-block">
+        <button class="btn fUppercase btn_trans_pledge2">
+          ask your rep to sign
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <section class="pledge_endorse centered-block">
+    <div class="w1400">
+      <h3 class="pledge_endorse_title fRaleway fUppercase fBold">
+        endorsing organizations:
+      </h3>
+      <div class="pledge-endorse-container">
+        {% for org in page.endorsing_orgs %}
+          <img class="endorse_img" src="{{org.img}}" alt="{{org.title}}" />
+        {% endfor %}
+      </div>
+    </div>
+  </section>
+</main>

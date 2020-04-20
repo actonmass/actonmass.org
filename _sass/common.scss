@@ -1,4 +1,5 @@
 section {
+  padding: 5rem 0;
   @media (min-width: 700px) {
     padding: 10rem 0;
   }
@@ -22,9 +23,32 @@ section {
   flex-wrap: wrap;
 }
 
+.two-blocks {
+  display: grid;
+  grid-template-areas:
+    "block_1"
+    "block_2";
+
+  @media (min-width: 700px) {
+    grid-template-areas: "block_1 block_2";
+  }
+
+  & > div:nth-child(1) {
+    grid-area: block_1;
+  }
+  & > div:nth-child(2) {
+    grid-area: block_2;
+  }
+
+  &.rev {
+    @media (min-width: 700px) {
+      grid-template-areas: "block_2 block_1";
+    }
+  }
+}
+
 .w1400 {
-  max-width: 1400px;
-  min-width: min(1400px, 90%);
+  width: min(1400px, 90%);
 }
 
 .dark {
@@ -38,7 +62,8 @@ section {
   h5,
   h6,
   p,
-  a {
+  a,
+  label {
     color: inherit;
   }
 }

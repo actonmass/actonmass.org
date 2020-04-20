@@ -141,3 +141,21 @@
   font-size: 4rem;
   padding: 0rem 0rem 7rem 0rem;
 }
+
+.btn_search {
+  grid-area: 4 / 1 / 4 / 3;
+  margin: 1rem 0rem 1rem 0rem;
+  width: 20rem;
+}
+
+.entry_1 {
+  grid-area: 1 / 1 / 1 / 3;
+}
+
+.entry_2 {
+  grid-area: 2 / 1 / 2 / 3;
+}
+
+.entry_3 {
+  grid-area: 3 / 1 / 3 / 3;
+}
