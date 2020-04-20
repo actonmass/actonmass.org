@@ -19,39 +19,26 @@ layout: new-base
   <section class="bills">
     <h3 class="issues_bill_header fRaleway fUppercase fExbold">bills to support {{issue.bills_to_support_title}}</h3>
     <div class="bill-container">
-      <div class="issues_bill_a">
-        <img class="bill_icon" src="images/icons/immigration1.png" alt="bill icon" />
-        <h4 class="issues_bill_title fRaleway fExbold fUppercase">safe communities act</h4>
-        <div class="rect_underline"></div>
-        <ul class="issues_bills_bullets">
-          <li><p class="fRoboto fRegular">Limit spending of local police resources on Trump’s policies</p></li>
-          <li><p class="fRoboto fRegular">Prohibiting police from asking questions about immigration status</p></li>
-          <li><p class="fRoboto fRegular">Protecting people of color from racial profiling by police</p></li>
-        </ul>
-        <a href="billpg.html" class="btn billbtn fRoboto fBold fUppercase">read more</a>
-      </div>
-      <div class="issues_bill_b">
-        <img class="bill_icon" src="images/icons/immigration1.png" alt="bill icon" />
-        <h4 class="issues_bill_title fRaleway fExbold fUppercase">driving ma forward</h4>
-        <div class="rect_underline"></div>
-        <ul class="issues_bills_bullets">
-          <li><p class="fRoboto fRegular">Limit spending of local police resources on Trump’s policies</p></li>
-          <li><p class="fRoboto fRegular">Prohibiting police from asking questions about immigration status</p></li>
-          <li><p class="fRoboto fRegular">Protecting people of color from racial profiling by police</p></li>
-        </ul>
-        <button class="btn fRoboto fBold fUppercase">read more</button>
-      </div>
-      <div class="issues_bill_c">
-        <img class="bill_icon" src="images/icons/immigration1.png" alt="bill icon" />
-        <h4 class="issues_bill_title fRaleway fExbold fUppercase">safe communities act</h4>
-        <div class="rect_underline"></div>
-        <ul class="issues_bills_bullets">
-          <li><p class="fRoboto fRegular">Limit spending of local police resources on Trump’s policies</p></li>
-          <li><p class="fRoboto fRegular">Prohibiting police from asking questions about immigration status</p></li>
-          <li><p class="fRoboto fRegular">Protecting people of color from racial profiling by police</p></li>
-        </ul>
-        <button class="btn fRoboto fBold fUppercase">read more</button>
-      </div>
+      {% for bill_id in issue.highlighted_bills%}
+        <div class="bill vbox">
+          {% assign bill = site.data.cache.bills_by_id[bill_id] %}
+          <div class="bill-text">
+            <h4 class="issues_bill_title fRaleway fExbold fUppercase">{{bill.short_title}}</h4>
+            <div class="rect_underline"></div>
+            <ul class="issues_bills_bullets">
+              {% for point in bill.summary %}
+                <li><p class="fRoboto fRegular">{{point}}</p></li>
+              {% endfor %}
+            </ul>
+          </div>
+          <div class="bill-btn-container">
+            <a href="{{bill.id}}" class="btn billbtn fRoboto fBold fUppercase">read more</a>
+          </div>
+        </div>
+      {% endfor %}
     </div>
+  </section>
+  <section class="failures">
+
   </section>
 </main>

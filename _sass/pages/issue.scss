@@ -62,103 +62,60 @@
       }
     }
   }
-}
 
-/*---------- ISSUES PG / HERO UNIT / right side of hero unit -------*/
+  .bills {
+    .issues_bill_header {
+      padding: 3rem 0rem;
+      max-width: 33rem;
 
-/* -------------- issues bills ---------------*/
+      @media (min-width: 700px) {
+        padding: 10rem 20rem;
+        max-width: none;
+      }
+    }
 
-.issues_bill_a {
-  grid-area: issues_bill_a;
-  padding: 10rem 0rem 3rem 0rem;
-  max-width: 25rem;
-  justify-self: center;
-  box-sizing: unset;
-}
+    .bill-container {
+      display: grid;
+      grid-template-columns: repeat(3, auto);
+      grid-row-gap: 5rem;
+      padding-left: 20rem;
+      padding-right: 20rem;
+      padding-bottom: 10rem;
 
-@media (min-width: 700px) {
-  .issues_bill_a {
-    padding: 20rem 0rem 10rem 20rem;
-    max-width: 33rem;
+      .bill {
+        justify-self: center;
+        justify-content: space-between;
+
+        .issues_bill_title {
+          padding: 1rem 0rem 1rem 0rem;
+        }
+
+        .rect_underline {
+          height: 0.5rem;
+          width: 15rem;
+          background-color: #56ccf2;
+        }
+
+        .issues_bills_bullets {
+          padding: 0;
+        }
+
+        ul.issues_bills_bullets li {
+          padding: 0.5rem 0rem 0.5rem 0rem;
+          max-width: 25rem;
+        }
+
+        .bill-btn-container {
+          padding-top: 1rem;
+
+          a.billbtn {
+            text-decoration: none;
+            color: var(--dark);
+          }
+        }
+      }
+    }
   }
-}
-
-.issues_bill_b {
-  grid-area: issues_bill_b;
-  padding: 3rem 0rem 3rem 0rem;
-  max-width: 25rem;
-  justify-self: center;
-  box-sizing: unset;
-}
-
-@media (min-width: 700px) {
-  .issues_bill_b {
-    padding: 20rem 0rem 10rem 0rem;
-    max-width: 33rem;
-  }
-}
-
-.issues_bill_c {
-  display: none;
-  grid-area: issues_bill_c;
-  padding: 3rem 0rem 3rem 0rem;
-  max-width: 25rem;
-  justify-self: center;
-  box-sizing: unset;
-}
-
-@media (min-width: 700px) {
-  .issues_bill_c {
-    display: none;
-    padding: 20rem 20rem 10rem 0rem;
-    max-width: 33rem;
-  }
-}
-
-.issues_bill_header {
-  grid-area: 5 / 1;
-  justify-self: center;
-  padding: 3rem 0rem;
-  max-width: 33rem;
-}
-
-@media (min-width: 700px) {
-  .issues_bill_header {
-    grid-area: 4 / 1 / 4 / 4;
-    justify-self: left;
-    padding: 10rem 20rem;
-    max-width: none;
-  }
-}
-
-.bill_icon {
-  max-width: 8rem;
-  justify-self: left;
-}
-
-.issues_bill_title {
-  padding: 1rem 0rem 1rem 0rem;
-  /*border-bottom: solid .3rem #56CCF2;*/
-}
-
-.rect_underline {
-  height: 0.5rem;
-  width: 15rem;
-  background-color: #56ccf2;
-}
-
-.issues_bills_bullets {
-  padding: 0;
-}
-
-ul.issues_bills_bullets li {
-  padding: 0.5rem 0rem 0.5rem 0rem;
-  max-width: 25rem;
-}
-
-a.billbtn {
-  text-decoration: none;
-  color: var(--dark);
 }
 
 /*--------- ISSUES PG / FAILURES (SECTION 3) -------------------*/
