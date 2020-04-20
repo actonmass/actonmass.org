@@ -6,7 +6,7 @@ layout: new-base
 {% assign committee = site.data.cache.committees_by_id[bill.committee] %}
 
 <main class="bill-page">
-  <section class="headline dark centered-block">
+  <section class="headline dark cbox">
     <div class="w1400 two-blocks rev">
       <div class="billpg_hero_a">
         {% include hero-image.html img=bill.img alt='' %}
@@ -23,122 +23,130 @@ layout: new-base
       </div>
     </div>
   </section>
-  <section>
-    {% include legislator-search.html text='Please enter your address so we can help you contact your legislator.' %}
+  <section class="cbox">
+    <div class="w1400">
+      {% include legislator-search.html text='Please enter your address so we can help you contact your legislator.' %}
+    </div>
   </section>
 
   {% if committee %}
-  <section class="decision-makers dark">
-    <h2 class="billpg_decision_header fRaleway fWhite fBold fUppercase">the decision makers</h2>
-    <h3 class="billpg_decision_header1  fWhite fRaleway fRegular">{{committee.title}}</h3>
-    <div class="centered-block">
-      <div class="rect_underline1"></div>
-    </div>
-    <h4 class="billpg_decision_header2 fUppercase fWhite fRaleway fBold">Who on committee has co-sponsored:</h4>
-    <div class="committee-block">
-      <div class="senators vbox">
-        <h4 class="fUppercase fWhite fRaleway fRegular">state senators:</h4>
-        {% assign senate_chair = site.data.cache.legislators_by_id[committee.senate_chair] %}
-        {% if  bill.co_sponsors contains committee.senate_chair %}
-            {% assign senate_chair_status = 'ok' %}
-        {% else %}
-            {% assign senate_chair_status = 'ko' %}
-        {% endif %}
+  <section class="decision-makers dark cbox">
+    <div class="w1400">
+      <h2 class="billpg_decision_header fRaleway fWhite fBold fUppercase">the decision makers</h2>
+      <h3 class="billpg_decision_header1  fWhite fRaleway fRegular">{{committee.title}}</h3>
+      <div class="cbox">
+        <div class="rect_underline1"></div>
+      </div>
+      <h4 class="billpg_decision_header2 fUppercase fWhite fRaleway fBold">Who on committee has co-sponsored:</h4>
+      <div class="committee-block">
+        <div class="senators vbox">
+          <h4 class="fUppercase fWhite fRaleway fRegular">state senators:</h4>
+          {% assign senate_chair = site.data.cache.legislators_by_id[committee.senate_chair] %}
+          {% if  bill.co_sponsors contains committee.senate_chair %}
+              {% assign senate_chair_status = 'ok' %}
+          {% else %}
+              {% assign senate_chair_status = 'ko' %}
+          {% endif %}
 
-        {% assign senate_vice_chair = site.data.cache.legislators_by_id[committee.senate_vice_chair] %}
-        {% if  bill.co_sponsors contains committee.senate_vice_chair %}
-        {% assign senate_vice_chair_status = 'ok' %}
-        {% else %}
-        {% assign senate_vice_chair_status = 'ko' %}
-        {% endif %}
+          {% assign senate_vice_chair = site.data.cache.legislators_by_id[committee.senate_vice_chair] %}
+          {% if  bill.co_sponsors contains committee.senate_vice_chair %}
+          {% assign senate_vice_chair_status = 'ok' %}
+          {% else %}
+          {% assign senate_vice_chair_status = 'ko' %}
+          {% endif %}
 
-        <div class="chairs hbox">
-          <div class="vbox">
-            {% include leg-circle.html rep=senate_chair status=senate_chair_status size='L' %}
-            <p class="fRoboto fWhite fBold fUppercase">chair</p>
+          <div class="chairs hbox">
+            <div class="vbox">
+              {% include leg-circle.html rep=senate_chair status=senate_chair_status size='L' %}
+              <p class="fRoboto fWhite fBold fUppercase">chair</p>
+            </div>
+            <div class="vbox">
+              {% include leg-circle.html rep=senate_vice_chair status=senate_vice_chair_status size='L' %}
+              <p class="fRoboto fWhite fBold fUppercase">vice-chair</p>
+            </div>
           </div>
-          <div class="vbox">
-            {% include leg-circle.html rep=senate_vice_chair status=senate_vice_chair_status size='L' %}
-            <p class="fRoboto fWhite fBold fUppercase">vice-chair</p>
+
+          <div class="members">
+            {% for member_id in committee.senate_members %}
+            {% assign rep = site.data.cache.legislators_by_id[member_id] %}
+              {% if bill.co_sponsors contains member_id %}
+                {% assign status = 'ok' %}
+              {% else %}
+                {% assign status = 'ko' %}
+              {% endif %}
+              {% include leg-circle.html rep=rep status=status %}
+            {% endfor %}
           </div>
         </div>
+        <div class="reps vbox">
+          <h4 class="fUppercase fWhite fRaleway fRegular">state representatives:</h4>
 
-        <div class="members">
-          {% for member_id in committee.senate_members %}
-          {% assign rep = site.data.cache.legislators_by_id[member_id] %}
-            {% if bill.co_sponsors contains member_id %}
-              {% assign status = 'ok' %}
-            {% else %}
-              {% assign status = 'ko' %}
-            {% endif %}
-            {% include leg-circle.html rep=rep status=status %}
-          {% endfor %}
+          {% assign house_chair = site.data.cache.legislators_by_id[committee.house_chair] %}
+          {% if  bill.co_sponsors contains committee.house_chair %}
+              {% assign house_chair_status = 'ok' %}
+          {% else %}
+              {% assign house_chair_status = 'ko' %}
+          {% endif %}
+
+          {% assign house_vice_chair = site.data.cache.legislators_by_id[committee.house_vice_chair] %}
+          {% if  bill.co_sponsors contains committee.house_vice_chair %}
+          {% assign house_vice_chair_status = 'ok' %}
+          {% else %}
+          {% assign house_vice_chair_status = 'ko' %}
+          {% endif %}
+
+          <div class="chairs hbox">
+            <div class="vbox">
+              {% include leg-circle.html rep=house_chair status=house_chair_status size='L' %}
+              <p class="fRoboto fWhite fBold fUppercase">chair</p>
+            </div>
+            <div class="vbox">
+              {% include leg-circle.html rep=house_vice_chair status=house_vice_chair_status size='L' %}
+              <p class="fRoboto fWhite fBold fUppercase">vice-chair</p>
+            </div>
+          </div>
+
+          <div class="members">
+            {% for member_id in committee.house_members %}
+            {% assign rep = site.data.cache.legislators_by_id[member_id] %}
+              {% if bill.co_sponsors contains member_id %}
+                {% assign status = 'ok' %}
+              {% else %}
+                {% assign status = 'ko' %}
+              {% endif %}
+              {% include leg-circle.html rep=rep status=status %}
+            {% endfor %}
+
+          </div>
+
         </div>
       </div>
-      <div class="reps vbox">
-        <h4 class="fUppercase fWhite fRaleway fRegular">state representatives:</h4>
-
-        {% assign house_chair = site.data.cache.legislators_by_id[committee.house_chair] %}
-        {% if  bill.co_sponsors contains committee.house_chair %}
-            {% assign house_chair_status = 'ok' %}
-        {% else %}
-            {% assign house_chair_status = 'ko' %}
-        {% endif %}
-
-        {% assign house_vice_chair = site.data.cache.legislators_by_id[committee.house_vice_chair] %}
-        {% if  bill.co_sponsors contains committee.house_vice_chair %}
-        {% assign house_vice_chair_status = 'ok' %}
-        {% else %}
-        {% assign house_vice_chair_status = 'ko' %}
-        {% endif %}
-
-        <div class="chairs hbox">
-          <div class="vbox">
-            {% include leg-circle.html rep=house_chair status=house_chair_status size='L' %}
-            <p class="fRoboto fWhite fBold fUppercase">chair</p>
-          </div>
-          <div class="vbox">
-            {% include leg-circle.html rep=house_vice_chair status=house_vice_chair_status size='L' %}
-            <p class="fRoboto fWhite fBold fUppercase">vice-chair</p>
-          </div>
-        </div>
-
-        <div class="members">
-          {% for member_id in committee.house_members %}
-          {% assign rep = site.data.cache.legislators_by_id[member_id] %}
-            {% if bill.co_sponsors contains member_id %}
-              {% assign status = 'ok' %}
-            {% else %}
-              {% assign status = 'ko' %}
-            {% endif %}
-            {% include leg-circle.html rep=rep status=status %}
-          {% endfor %}
-
-        </div>
-
+      <div class="cbox">
+        <button class="btn btn_inactive fUppercase">request they hold a vote</button>
+        <p class="hold_vote_txt fRoboto fWhite fBold">*Please enter your address above</p>
       </div>
-    </div>
-    <div class="centered-block">
-      <button class="btn btn_inactive fUppercase">request they hold a vote</button>
-      <p class="hold_vote_txt fRoboto fWhite fBold">*Please enter your address above</p>
     </div>
   </section>
   {% endif %}
 
-  <section class="map">
-    <h3 class="billpg_map_header fUppercase fRaleway fExbold">Who has co-sponsored:</h3>
-    <div class="map-block dark">
-      {% include map.html greens = bill.co_sponsors %}
-    </div>
-    <div class="centered-block">
-      <button class="btn btn_inactive fUppercase">request co-sponsorship</button>
-      <p class="fRoboto fBold">*Please enter your address above</p>
+  <section class="map cbox">
+    <div class="w1400">
+      <h3 class="fUppercase fRaleway fExbold">Who has co-sponsored:</h3>
+      <div class="map-block dark">
+        {% include map.html greens = bill.co_sponsors %}
+      </div>
+      <div class="cbox">
+        <button class="btn btn_inactive fUppercase">request co-sponsorship</button>
+        <p class="fRoboto fBold">*Please enter your address above</p>
+      </div>
     </div>
   </section>
 
-  <section class="timeline light-blue">
-    <h3 class="billpg_timeln_header fUppercase fRaleway fExbold">Timeline of bill during this session:</h3>
-    {% include bill-timeline.html timeline = bill.timeline %}
+  <section class="timeline light-blue cbox">
+    <div class="w1400">
+      <h3 class="billpg_timeln_header fUppercase fRaleway fExbold">Timeline of bill during this session:</h3>
+      {% include bill-timeline.html timeline = bill.timeline %}
+    </div>
   </section>
 </main>
 

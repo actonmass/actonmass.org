@@ -7,15 +7,14 @@
 {% endif %}
 
 
-<div class="search {{include.class}}">
+<div class="legislator-search">
   {% if title %}
-    <h1 class="search_title fRaleway fExbold">{{ title }}</h1>
+    <h1 class="fRaleway fExbold">{{ title }}</h1>
   {% endif %}
   {% if text %}
-    <h3 class="billpg_txt fRaleway fExbold">{{include.text}}</h3>
+    <h3 class="text fRaleway fExbold">{{include.text}}</h3>
   {% endif %}
-  <div class="search_field">
-    <form action="/search_result.html#results">
+    <form class="form-block" action="/search_result.html#results">
       <div class="entry_2">
         <label class="search_text fRoboto fLight" for="address">Street Address</label>
         <input class="search_rect" type="text" id="address" name"address">
@@ -24,7 +23,8 @@
         <label class="search_text fRoboto fLight" for="city">City</label>
         <input class="search_rect" type="text" id="city" name"city">
       </div>
-      <input type="submit" class="btn btn_search" value="Submit" />
+      <div class="cbox btn-container">
+        <input type="submit" class="btn btn_search" value="Submit" />
+      </div>
     </form>
-  </div>
 </div>

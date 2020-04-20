@@ -5,7 +5,7 @@ import L from "leaflet";
 import { Map, TileLayer, Marker, Popup } from "react-leaflet";
 
 const defaultZoom = 11;
-const defaultCenter = [42.3587811, -71.2];
+const defaultCenter = screen.width >= 700 ? [42.3587811, -71.2] : [42.3587811, -71.1];
 const tileURL =
   "https://api.tiles.mapbox.com/v4/mapbox.streets/{z}/{x}/{y}.png?access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpejY4NXVycTA2emYycXBndHRqcmZ3N3gifQ.rJcFIG214AriISLbB6B5aw";
 const attribution =
@@ -20,7 +20,6 @@ function getIconClass(leg) {
 
 const LegIcon = ({ leg, size }) => {
   return (
-    // <a href={leg.href}>
     <img
       src={leg.img}
       alt="Avatar"
@@ -28,7 +27,6 @@ const LegIcon = ({ leg, size }) => {
       height={`${40 * size}px`}
       style={{ borderWidth: 4 * size }}
     />
-    // </a>
   );
 };
 

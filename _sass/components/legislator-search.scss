@@ -1,77 +1,41 @@
-.search {
-  grid-area: search;
-  padding: 0;
+.legislator-search {
   display: grid;
   grid-template-rows: auto auto auto;
   grid-template-columns: 1fr;
-  padding: 3rem 2rem 3rem 2rem;
-
-  &.dark {
-    background-color: var(--primary);
-  }
 
   @media (min-width: 700px) {
-    grid-area: search;
-    padding: 0 20rem;
-    display: grid;
     grid-template-columns: 1fr 1fr;
     grid-column-gap: 10rem;
   }
-}
 
-.search.light {
-  .search_title {
-    color: var(--primary);
-  }
-
-  .search_title1 {
-    color: #6991bc;
-  }
-}
-
-.search.dark {
-  .search_title,
-  .search_text {
-    color: var(--light);
-  }
-
-  .search_title1 {
-    color: #6991bc;
-  }
-}
-
-.search .search_title {
-  grid-area: 1 / 1;
-  justify-self: center;
-  text-transform: uppercase;
-  z-index: 3;
-  margin: 0;
-}
-
-@media (min-width: 700px) {
-  .search .search_title {
+  h1 {
     grid-area: 1 / 1;
+    justify-self: center;
+    text-transform: uppercase;
+    z-index: 3;
+    margin: 0;
+
+    @media (min-width: 700px) {
+      grid-area: 1 / 1;
+      align-self: center;
+    }
+  }
+
+  .text {
     align-self: center;
+    color: var(--dark);
+    font-size: 4rem;
+    padding: 0rem 1rem 7rem 1rem;
+
+    @media (min-width: 700px) {
+      justify-self: center;
+      max-width: 30rem;
+      padding: 0;
+    }
   }
+
 }
 
-.search .search_title1 {
-  grid-area: 1 / 1;
-  justify-self: center;
-  text-transform: uppercase;
-  padding-top: 0.2rem;
-  padding-left: 0.2rem;
-  margin: 0;
-  z-index: 2;
-}
-
-@media (min-width: 700px) {
-  .search .search_title1 {
-    grid-area: 1 / 1 / 1 / 4;
-    padding-top: 0.3rem;
-    padding-left: 0.3rem;
-  }
-}
 
 .search_rect {
   height: 4rem;
@@ -82,16 +46,24 @@
   background-color: white;
   display: flex;
   box-sizing: unset;
-}
 
-@media (min-width: 700px) {
-  .search_rect {
+  @media (min-width: 700px) {
     min-width: 35rem;
   }
 }
 
-.search_field {
+.form-block {
   padding-top: 1.5rem;
+
+  @media (min-width: 700px) {
+    max-width: 35rem;
+  }
+
+  .btn-container {
+    @media (min-width: 700px) {
+      align-items: start;
+    }
+  }
 }
 
 .search_text {
@@ -112,28 +84,18 @@
 
 .search_txt {
   grid-area: 2 / 1;
-  /*text-transform: uppercase;*/
   color: #061729;
   justify-self: center;
-  max-width: 30rem;
   padding-top: 3rem;
-}
 
-@media (min-width: 700px) {
-  .search_txt {
+  @media (min-width: 700px) {
     grid-area: 2 / 1 / 2 / 2;
     padding-top: 5rem;
     max-width: 35rem;
   }
 }
 
-.billpg_txt {
-  align-self: center;
-  max-width: 30rem;
-  color: var(--dark);
-  font-size: 4rem;
-  padding: 0rem 0rem 7rem 0rem;
-}
+
 
 .btn_search {
   grid-area: 4 / 1 / 4 / 3;

@@ -5,7 +5,7 @@ layout: new-base
 {% assign issue = page %}
 
 <main class="issue-page">
-  <section class="headline dark centered-block">
+  <section class="headline dark cbox">
     <div class="w1400 headline-container">
       <div class="issues_hero_a">
         {% include hero-image.html img=issue.page_img alt='' %}
@@ -18,7 +18,7 @@ layout: new-base
       </div>
     </div>
   </section>
-  <section class="bills centered-block">
+  <section class="bills cbox">
     <div class="w1400">
       <h3 class="issues_bill_header fRaleway fUppercase fExbold">bills to support {{issue.bills_to_support_title}}</h3>
       <div class="bill-container">
@@ -42,7 +42,7 @@ layout: new-base
       </div>
     </div>
   </section>
-  <section class="failures dark centered-block">
+  <section class="failures dark cbox">
     <div class="w1400">
       <h3 class="fRaleway fWhite fExbold fUppercase">
         {{issue.failures_block_title}}
@@ -60,30 +60,26 @@ layout: new-base
       </div>
     </div>
   </section>
-  <section class="signup centered-block">
+  <section class="signup cbox">
     <div class="signup-container w1400">
       <div class="issues_signup_a">
         <h1 class="act1 fRaleway fExbold fUppercase">act</h1>
         <h1 class="now1 fRaleway fExbold fUppercase">now</h1>
       </div>
-      <div class="issues_signup_c">
+      <form class="issues_signup_c">
         <p class="signup_volunteer fRoboto fLight">Sign up for email notifications so we can contact you when your voice is needed</p>
-        <div class="search_field">
+        <div class="form-block">
           <div class="entry_1">
             <p class="search_text fRoboto fLight">email</p>
-            <div class="search_rect">
-            </div>
+            <input class="search_rect"/>
           </div>
           <div class="entry_2">
             <p class="search_text fRoboto fLight">street address</p>
-            <div class="search_rect">
-            </div>
+            <input class="search_rect"/>
           </div>
           <div class="entry_3">
             <p class="search_text fRoboto fLight">city</p>
-            <div class="search_rect">
-            </div>
-          </div>
+            <input class="search_rect"/>
         </div>
         <div class="signup_volunteer1 hbox">
           <div class="issues_signup_rect_sm"></div>
@@ -92,10 +88,10 @@ layout: new-base
         <div class="button-container">
           <button class="btn issues_signup_btn fRoboto fBold fUppercase">submit</button>
         </div>
-      </div>
+      </form>
     </div>
   </section>
-  <section class="questions centered-block medium-blue">
+  <section class="questions cbox medium-blue">
     <div class="w1400">
       <h3 class="issues_faq_header fRaleway fExbold fUppercase">common questions:</h3>
       {% for question in issue.questions %}
@@ -109,7 +105,7 @@ layout: new-base
       {% endfor %}
     </div>
   </section>
-  <section class="learn-more centered-block light-blue">
+  <section class="learn-more cbox light-blue">
     <div class="w1400">
       <h3 class="issues_learn_header fRaleway fExbold fUppercase">learn more:</h3>
       <div class="hbox learn-more-container">
@@ -121,7 +117,7 @@ layout: new-base
       </div>
     </div>
   </section>
-  <section class="references centered-block">
+  <section class="references cbox">
     <div class="w1400">
       <h3 class="issues_ref_header fRaleway fExbold fUppercase">References:</h3>
       <ul class="issues_references_list">

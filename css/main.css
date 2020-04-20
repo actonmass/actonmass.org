@@ -253,12 +253,6 @@ td {
   overflow-x: hidden;
 }
 
-.leaflet-container {
-  height: 600px;
-  width: 100%;
-  margin-bottom: 20px;
-}
-
 #find-my-reps {
   height: 204px;
   position: relative;

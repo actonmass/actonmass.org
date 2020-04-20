@@ -3,7 +3,7 @@ layout: new-base
 ---
 
 <main class="pledge-page">
-  <section class="headline dark centered-block">
+  <section class="headline dark cbox">
     <div class="w1400">
       <h1 class="pledge_title fRaleway fBold">voters deserve to know pledge</h1>
       <div class="two-blocks rev">
@@ -21,7 +21,7 @@ layout: new-base
     </div>
   </section>
 
-  <section class="the-pledge medium-blue centered-block">
+  <section class="the-pledge medium-blue cbox">
     <div class="w1400 two-blocks">
       <div class="pledge_box_a">
         <img class="pledge" src="/img/pledge-doc.png" alt="pledge print" />
@@ -42,11 +42,13 @@ layout: new-base
     </div>
   </section>
 
-  <section class="dark">
-    {% include legislator-search.html %}
+  <section class="dark cbox">
+    <div class="w1400">
+      {% include legislator-search.html %}
+    </div>
   </section>
 
-  <section class="pledge_reps centered-block light-blue">
+  <section class="pledge_reps cbox light-blue">
     <div class="w1400">
       <h6 class="pledge_leg_title fRaleway fUppercase fExbold">
         Did your legislator sign the “voters deserve to know” pledge?
@@ -69,7 +71,7 @@ layout: new-base
           {% include leg-circle.html rep=rep status='ok' %}
         {% endfor %}
       </div>
-      <div class="centered-block">
+      <div class="cbox">
         <button class="btn fUppercase btn_trans_pledge2">
           ask your rep to sign
         </button>
@@ -77,7 +79,7 @@ layout: new-base
     </div>
   </section>
 
-  <section class="pledge_endorse centered-block">
+  <section class="pledge_endorse cbox">
     <div class="w1400">
       <h3 class="pledge_endorse_title fRaleway fUppercase fBold">
         endorsing organizations:

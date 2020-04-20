@@ -46,11 +46,6 @@
       max-width: 2.5rem;
 
       @media (min-width: 700px) {
-        border-radius: 50%;
-        background-color: #5fad41;
-        grid-area: 1 / 1;
-        align-self: end;
-        justify-self: right;
         max-width: 4rem;
       }
     }
@@ -65,10 +60,17 @@
   }
 
   &.L {
-    max-width: 18rem;
+    max-width: 15rem;
+
+    @media (min-width: 700px) {
+      max-width: 18rem;
+    }
 
     .leg_circ_img {
-      width: 12rem;
+      width: 9rem;
+      @media (min-width: 700px) {
+        width: 12rem;
+      }
     }
   }
 }
