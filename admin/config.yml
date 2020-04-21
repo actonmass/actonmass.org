@@ -68,8 +68,20 @@ collections:
         name: logo
         widget: string
         required: false
-      - label: Image
+      - label: Homepage image
         name: img
+        widget: image
+        required: false
+      - label: Catchphrase (appears on the headline)
+        name: catchphrase
+        widget: string
+        required: false
+      - label: Issue page image
+        name: page_img
+        widget: image
+        required: false
+      - label: Bills section title (completes the sentence "Bills to support...")
+        name: bills_to_support_title
         widget: string
         required: false
       - label: Order
