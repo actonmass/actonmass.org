@@ -100,7 +100,7 @@ layout: new-base
           <i class="plus fas fa-plus fa-2x"></i>
         </button>
         <div class="panel">
-          <p class="fRoboto fLight">{{ question.text }}</p>
+          <p class="fRoboto fLight">{{ question.text | markdownify }}</p>
         </div>
       {% endfor %}
     </div>

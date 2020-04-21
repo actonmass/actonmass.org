@@ -9,7 +9,7 @@ img: /img/issue-immigration.jpg
 order: 30
 catchphrase: Every day we hear horror stories about families being ripped apart
 page_img: /img/bills/sca_hero_img.png
-bills_to_support_title: Immigration reform
+bills_to_support_title: Immigration Reform
 highlighted_bills:
   - safe-communities-act
   - driver-license-regardless-immigration-status
