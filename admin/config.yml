@@ -84,14 +84,89 @@ collections:
         name: bills_to_support_title
         widget: string
         required: false
+      - label: Bill
+        name: highlighted_bills
+        widget: relation
+        collection: bills
+        multiple: true
+        searchFields:
+          - short_title
+        displayFields:
+          - short_title
+        valueField: id
+      - label: “Failures“ section title
+        name: failures_block_title
+        widget: string
+        required: false
+      - label: Failures
+        name: failures
+        required: false
+        collapsed: false
+        widget: list
+        fields:
+          - label: Title
+            name: title
+            required: true
+            widget: string
+          - label: Text
+            name: text
+            required: true
+            widget: markdown
+      - label: Questions
+        name: questions
+        required: false
+        collapsed: true
+        widget: list
+        fields:
+          - label: Question
+            name: title
+            required: true
+            widget: string
+          - label: Answer
+            name: text
+            required: true
+            widget: markdown
+      - label: Learn more links
+        name: learn_more
+        required: false
+        collapsed: true
+        widget: list
+        fields:
+          - label: Title
+            name: title
+            required: true
+            widget: string
+          - label: Image
+            name: img
+            required: false
+            widget: image
+          - label: Answer
+            name: link
+            required: false
+            widget: string
+      - label: References
+        name: references
+        required: false
+        collapsed: true
+        widget: list
+        fields:
+          - label: "Key (can be used to add a link to the reference)"
+            name: key
+            required: true
+            widget: string
+          - label: Title
+            name: title
+            required: true
+            widget: string
+          - label: Link
+            name: link
+            required: false
+            widget: string
       - label: Order
         name: order
         widget: number
         valueType: int
         required: false
-      - label: Body
-        name: body
-        widget: markdown
   - name: legislators
     label: Legislators
     folder: _legislators/
