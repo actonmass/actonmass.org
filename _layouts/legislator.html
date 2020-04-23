@@ -71,7 +71,8 @@ layout: new-base
       <div class="tab-content darker">
         <div id="tab1" data-tab-content class="active">
           <button class="fUppercase btn btn_history">request transparency</button>
-          {% for vote in leg.votes %}
+          {% assign votes = leg.votes | sort:"date" | reverse %}
+          {% for vote in votes %}
           <div class="item_1">
           {% case vote.is_progressive %}
             {% when true %}
