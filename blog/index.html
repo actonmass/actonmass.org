@@ -3,46 +3,45 @@ layout: base
 title: Blog
 ---
 
-<main class="blog-page ">
-  <section class="medium-blue cbox">
-    <div class="w1400">
-      <h1 class="blog_title fUppercase fRaleway fExbold">latest updates</h1>
-      <div class="posts-container hbox">
-        {% for post in paginator.posts %}
-        <div class="blog-post">
-          {% if post.image %}
-            <img class="blog_img" src="{{ post.image }}" alt="">
-          {% endif %}
-          <div class="date_rect">
-            <p class="blog_date fRoboto fLight fWhite">Posted on {{ post.date | date: '%B %d, %Y' }}</p>
-          </div>
-          <a href="{{ post.url }}" class="post-text dark">
-            <div class="post-text-container">
-              <div class="title-container">
-                <h4 class="blog_post_title fUppercase fWhite fRaleway fRegular">{{ post.title | smartify}}</h4>
-                <div class="blog_title_rect"></div>
-              </div>
-              <p class="fRoboto fWhite fLight">{{ post.excerpt | strip_html | truncatewords: 50 }}.</p>
-            </div>
-          </a>
+<main class="blog-page medium-blue cbox">
+  <div class="w1400">
+    {% include breadcrum.html %}
+    <h1 class="blog_title fUppercase fRaleway fExbold">latest updates</h1>
+    <div class="posts-container hbox">
+      {% for post in paginator.posts %}
+      <div class="blog-post">
+        {% if post.image %}
+          <img class="blog_img" src="{{ post.image }}" alt="">
+        {% endif %}
+        <div class="date_rect">
+          <p class="blog_date fRoboto fLight fWhite">Posted on {{ post.date | date: '%B %d, %Y' }}</p>
         </div>
-        {% endfor %}
+        <a href="{{ post.url }}" class="post-text dark">
+          <div class="post-text-container">
+            <div class="title-container">
+              <h4 class="blog_post_title fUppercase fWhite fRaleway fRegular">{{ post.title | smartify}}</h4>
+              <div class="blog_title_rect"></div>
+            </div>
+            <p class="fRoboto fWhite fLight">{{ post.excerpt | strip_html | truncatewords: 50 }}.</p>
+          </div>
+        </a>
       </div>
-      {% if paginator.total_pages > 1 %}
-      <ul class="pager">
-        <li>
-          {% if paginator.previous_page %}
-            <a href="{{ paginator.previous_page_path }}">&larr; Newer Posts</a>
-          {% endif %}
-        </li>
-        <li>
-          {% if paginator.next_page %}
-            <a href="{{ paginator.next_page_path }}">Older Posts &rarr;</a>
-          {% endif %}
-          </li>
-      </ul>
-      {% endif %}
+      {% endfor %}
     </div>
-  </section>
+    {% if paginator.total_pages > 1 %}
+    <ul class="pager">
+      <li>
+        {% if paginator.previous_page %}
+          <a href="{{ paginator.previous_page_path }}">&larr; Newer Posts</a>
+        {% endif %}
+      </li>
+      <li>
+        {% if paginator.next_page %}
+          <a href="{{ paginator.next_page_path }}">Older Posts &rarr;</a>
+        {% endif %}
+        </li>
+    </ul>
+    {% endif %}
+  </div>
 </main>
 

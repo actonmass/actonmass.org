@@ -10,6 +10,8 @@
   <li><a href="{{issue.id}}">{{issue.title | upcase}}</a></li>
 {% when "legislator" %}
   <li><a href="/legislator-search">LEGISLATOR SEARCH</a></li>
+{% when "post" %}
+  <li><a href="/blog">BLOG</a></li>
 {% endcase %}
 <li><a href="#">{{page.title | upcase}}</a></li>
 </ul>

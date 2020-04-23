@@ -1,45 +1,30 @@
 #about_wrapper {
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-gap: 2rem;
-  grid-template-areas:
-    "top_box_a"
-    "top_box_b"
-    "top_box_c"
-    "bot_container"
-    "footer";
-
-  @media (min-width: 700px) {
-    grid-template-columns: 2fr 2fr 2fr;
-    grid-template-areas:
-      "top_box_a top_box_b top_box_c "
-      "bot_container bot_container bot_container"
-      "footer footer footer";
+  .headline {
+    padding-top: 0;
   }
-
-  .about_top_background {
-    background-color: var(--primary);
-    grid-area: 1 / 1 / 4 / 2;
-    z-index: -1;
+  .top-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 2rem;
+    grid-template-areas:
+      "top_box_a"
+      "top_box_b"
+      "top_box_c";
 
     @media (min-width: 700px) {
-      grid-area: 1 / 1 / 2 / 4;
+      grid-template-columns: 2fr 2fr 2fr;
+      grid-template-areas: "top_box_a top_box_b top_box_c ";
     }
   }
 
   .about_top {
-    padding-top: 10rem;
     justify-self: center;
+    align-self: start;
     max-width: 20rem;
-
-    @media (min-width: 700px) {
-      padding: 15rem 0rem 10rem 0rem !important; // overrides mobile padding
-    }
   }
 
   .top_box_1 {
     grid-area: top_box_a;
-    padding: 6rem 0rem 0rem 2rem;
 
     @media (min-width: 700px) {
       justify-self: right;
@@ -48,7 +33,6 @@
 
   .top_box_2 {
     grid-area: top_box_b;
-    padding: 2rem 0rem 0rem 2rem;
 
     @media (min-width: 700px) {
       justify-self: center;
@@ -57,7 +41,6 @@
 
   .top_box_3 {
     grid-area: top_box_c;
-    padding: 2rem 0rem 3rem 2rem;
 
     @media (min-width: 700px) {
       justify-self: left;
@@ -67,12 +50,10 @@
   .who_title {
     grid-area: 4 / 1;
     align-self: start;
-    padding: 2rem;
 
     @media (min-width: 700px) {
       grid-area: 2 / 1 / 3 / 3;
       align-self: start;
-      padding: 5rem 20rem;
     }
   }
 
@@ -80,11 +61,11 @@
     grid-area: bot_container;
     display: grid;
     grid-row-gap: 2rem;
-    padding: 7rem 0rem 3rem 0rem;
+    padding: 2rem 0rem 3rem 0rem;
 
     @media (min-width: 700px) {
       grid-column-gap: 5rem;
-      padding: 15rem 20rem;
+      padding: 2rem 0;
     }
 
     .person {
@@ -135,7 +116,6 @@
     @media (min-width: 700px) {
       grid-area: 1 / 1 / 2 / 3;
       align-self: start;
-      margin: 5rem 20rem;
     }
   }
 

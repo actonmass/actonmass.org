@@ -2,12 +2,13 @@
 layout: base
 ---
 
-<main class="default-page">
-  <section class="cbox light-blue">
-    <div class="w1200 cbox">
-      <div class="w1000 content">
-        {{ content }}
-      </div>
+<main class="default-page cbox light-blue">
+  <div class="w1400">
+    {% include breadcrum.html %}
+  </div>
+  <div class="w1200 cbox">
+    <div class="w1000 content">
+      {{ content }}
     </div>
-  </section>
+  </div>
 </main>

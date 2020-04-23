@@ -3,30 +3,40 @@ layout: base
 ---
 
 <div id="about_wrapper">
-  <h2 class="about_title fRaleway fWhite fRegular fUppercase">what we do:</h2>
-  {% for section in page.header %}
-    <div class="about_top top_box_{{forloop.index}}">
-      <div class="about_rect">
-        <i class="about_icon fas fa-{{section.icon}} fa-3x"></i>
-        <h3 class="fWhite fRaleway fRegular fUppercase">{{section.title}}</h3>
-        <div class="about_rect1"></div>
-        <h4 class="fWhite fLight fRoboto">
-          {{section.description}}
-        </h4>
+  <section class="headline dark cbox">
+    <div class="w1400">
+      {% include breadcrum.html %}
+      <h2 class="about_title fRaleway fWhite fRegular fUppercase">what we do:</h2>
+      <div class="top-container">
+        {% for section in page.header %}
+          <div class="about_top top_box_{{forloop.index}}">
+            <div class="about_rect">
+              <i class="about_icon fas fa-{{section.icon}} fa-3x"></i>
+              <h3 class="fWhite fRaleway fRegular fUppercase">{{section.title}}</h3>
+              <div class="about_rect1"></div>
+              <h4 class="fWhite fLight fRoboto">
+                {{section.description}}
+              </h4>
+            </div>
+          </div>
+        {% endfor %}
       </div>
     </div>
-  {% endfor %}
-  <div class="about_top_background"></div>
-  <h2 class="who_title fRaleway fRegular fUppercase">our team:</h2>
-  <div id="bot_container">
-    {% for person in page.team %}
-      <div class="person">
-        <img src="{{person.photo}}" alt="{{person.name}}" />
-        <p class="fRoboto fBold fUppercase">{{person.name}}</p>
-        <p class="fRoboto fLight">
-          {{person.text}}
-        </p>
+  </section>
+  <section class="cbox">
+    <div class="w1400">
+      <h2 class="who_title fRaleway fRegular fUppercase">our team:</h2>
+      <div id="bot_container">
+        {% for person in page.team %}
+          <div class="person">
+            <img src="{{person.photo}}" alt="{{person.name}}" />
+            <p class="fRoboto fBold fUppercase">{{person.name}}</p>
+            <p class="fRoboto fLight">
+              {{person.text}}
+            </p>
+          </div>
+        {% endfor %}
       </div>
-    {% endfor %}
-  </div>
+    </div>
+  </section>
 </div>
