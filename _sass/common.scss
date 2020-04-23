@@ -81,6 +81,14 @@ form {
 
 .dark {
   background-color: var(--primary);
+}
+
+.darker {
+  background-color: #11447b;
+}
+
+.dark,
+.darker {
   color: var(--light);
 
   h1,

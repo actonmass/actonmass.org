@@ -1,0 +1,203 @@
+.legislator-page {
+  .top-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 2rem;
+    grid-template-areas:
+      "box-a"
+      "box-b"
+      "box-c";
+
+    @media (min-width: 700px) {
+      grid-template-columns: 2fr 3fr;
+      margin: 0rem 5rem 0rem 5rem;
+      grid-template-areas:
+        "box-a box-a"
+        "box-b box-c";
+    }
+
+    @media (min-width: 900px) {
+      grid-template-columns: 2fr 2fr 2.5fr;
+      grid-template-areas: "box-a box-b box-c";
+    }
+
+    .top-box {
+      justify-content: center;
+      border-radius: 1rem;
+    }
+
+    .rep-info {
+      grid-area: box-a;
+      text-align: center;
+      padding: 2rem;
+
+      .rep-info-container {
+        display: grid;
+        grid-template-rows: auto 1fr 1fr;
+        grid-row-gap: 1rem;
+      }
+
+      img {
+        border-radius: 5%;
+        width: 16rem;
+      }
+
+      .icons {
+        display: flex;
+        justify-content: space-evenly;
+      }
+    }
+
+    .top-box-b {
+      grid-area: box-b;
+      padding: 4rem 2rem 4rem 2rem;
+      display: grid;
+      grid-template-rows: auto 1fr;
+
+      .rect6 {
+        align-items: center;
+        display: flex;
+        background-color: #11447b;
+        margin: 2rem 0rem 2rem 0rem;
+        padding: 1rem;
+        border-radius: 1rem;
+      }
+
+      .leg_pledge {
+        padding-bottom: 0.1rem;
+        border-bottom: 0.3rem solid #56ccf2;
+        margin: 0;
+      }
+
+      .leg_pledge_txt {
+        align-self: center;
+        padding: 1rem;
+      }
+    }
+
+    .top-box-c {
+      grid-area: box-c;
+      padding: 4rem 2rem 4rem 2rem;
+      display: grid;
+      grid-template-rows: auto 1fr;
+
+      .rect7 {
+        display: flex;
+        background-color: #11447b;
+        flex-direction: column;
+        padding: 1rem;
+        margin: 0.3rem;
+        border-radius: 1rem;
+        align-self: center;
+        grid-row-gap: 1rem;
+
+        &:first-of-type {
+          margin-top: 1rem;
+        }
+
+        &.chair {
+          padding: 2rem;
+        }
+      }
+
+      .leg_committ {
+        padding-bottom: 0.1rem;
+        border-bottom: 0.3rem solid #56ccf2;
+        margin: 0;
+        grid-area: 1 / 1;
+      }
+    }
+  }
+
+  .bottom-container {
+    border-radius: 1rem;
+    margin: 2rem 20rem;
+
+    .btn_history {
+      margin: 0rem auto 2.5rem auto;
+      max-width: 30rem;
+    }
+  }
+
+  .red_x,
+  .green_check {
+    padding: 1rem;
+    height: 3rem;
+    box-sizing: unset;
+  }
+
+  .grey_question {
+    padding: 1rem;
+    font-size: 30px;
+    color: grey;
+  }
+}
+
+/* -------------- LEGISTLATOR PAGE // format for bottom container-------------*/
+
+[data-tab-content] {
+  display: none;
+}
+
+.active[data-tab-content] {
+  display: flex;
+  flex-direction: column;
+}
+
+.tabs {
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: #145396;
+}
+
+.tab {
+  cursor: pointer;
+  padding: 10px;
+  background-color: #145396;
+  width: 33%;
+  text-align: center;
+}
+
+.tab.active {
+  border-bottom: 0.3rem solid #56ccf2;
+  color: var(--light);
+}
+
+.tab-content {
+  padding: 2rem;
+
+  h3:first-of-type {
+    margin-top: 0;
+  }
+}
+
+@media (min-width: 700px) {
+  .tab-content {
+    padding: 5rem;
+  }
+}
+
+/* --- LEGISTLATOR PAGE // format for "yes & no vote history" lines -------*/
+.item_1 {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  padding: 1rem 0rem 1rem 3rem;
+}
+
+.cosponsor_title {
+  margin: 2rem 0rem 2rem 3rem;
+  text-transform: capitalize;
+}
+
+/* --- LEGISLATOR PAGE // format for "rep says quotes"--*/
+.quote_text {
+  max-width: 60%;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+}

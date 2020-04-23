@@ -536,3 +536,28 @@ collections:
                 value: "no"
               - label: Unknown
                 value: unk
+  - name: "site_data"
+    label: "Other data"
+    editor:
+      preview: false
+    files:
+      - label: "Pledge signatories"
+        name: "pledge_signatories"
+        file: "_data/pledge_signatories.yml"
+        fields:
+          - label: House signatories
+            name: house
+            widget: list
+            collapsed: false
+            field:
+              <<: *legislator-picker
+              label: Rep
+              name: rep
+          - label: Senate signatories
+            name: senate
+            widget: list
+            collapsed: false
+            field:
+              <<: *legislator-picker
+              label: Senator
+              name: senator

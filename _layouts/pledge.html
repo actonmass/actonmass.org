@@ -57,7 +57,7 @@ layout: new-base
         state representatives:
       </h4>
       <div class="legislator-grid">
-        {% for rep_id in page.signatories.house %}
+        {% for rep_id in site.data.pledge_signatories.house %}
           {% assign rep = site.data.cache.legislators_by_id[rep_id] %}
           {% include leg-circle.html rep=rep status='ok' %}
         {% endfor %}
@@ -66,7 +66,7 @@ layout: new-base
         state senators:
       </h4>
       <div class="legislator-grid">
-        {% for rep_id in page.signatories.senate %}
+        {% for rep_id in site.data.pledge_signatories.senate %}
           {% assign rep = site.data.cache.legislators_by_id[rep_id] %}
           {% include leg-circle.html rep=rep status='ok' %}
         {% endfor %}

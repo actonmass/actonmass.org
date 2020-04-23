@@ -2,23 +2,6 @@
 layout: pledge
 permalink: /pledge/
 title: The pledge
-signatories:
-  house:
-    - maria-robinson
-    - lindsay-sabadosa
-    - tami-gouveia
-    - nika-elugardo
-    - denise-provost
-    - jack-lewis
-    - jonathan-hecht
-    - mike-connolly
-    - natalie-higgins
-    - patrick-kearney
-    - john-rogers
-    - russell-holmes
-  senate:
-    - rebecca-rausch
-    - james-eldridge
 endorsing_orgs:
   - title: Progressive Massachusetts logo
     img: /img/orgs/prog-mass.png

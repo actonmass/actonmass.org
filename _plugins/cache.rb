@@ -89,6 +89,19 @@ module Cache
       end
     end
 
+    def generate_legislator_pledge(site)
+      cache = site.data["cache"]
+      for legislator in site.collections["legislators"].docs do
+        legislator.data["pledge"] = false
+      end
+      legislators = cache["legislators_by_id"]
+      signatories = site.data["pledge_signatories"]["house"] + site.data["pledge_signatories"]["senate"]
+      for leg_id in signatories
+        leg = legislators[leg_id]
+        leg.data["pledge"] = true
+      end
+    end
+
     def generate_issue_bills(site)
       cache = site.data["cache"]
       for issue in site.collections["issues"].docs do
@@ -110,7 +123,7 @@ module Cache
       generate_legislator_votes(site)
       generate_legislator_cosponsored_bills(site)
       generate_issue_bills(site)
-
+      generate_legislator_pledge(site)
     end
   end
 end

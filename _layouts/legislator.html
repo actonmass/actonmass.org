@@ -1,64 +1,120 @@
 ---
-layout: default
+layout: new-base
 ---
 
 {% assign leg = page %}
-
-<h1>{{ leg.first_name }} {{ leg.last_name }}</h1>
-
-<img src="{{leg.square_picture }}"/>
-<dl>
-  <dt>Email:</dt>
-  <dd>{{leg.email}}</dd>
-</dl>
-
-{% if leg.committees.size > 0 %}
-
-  <h2>Committees</h2>
-
-  {% assign committees = leg.committees | sort: "priority" %}
-  {% for committee in committees %}
-    <li>
-      {% if committee.role != "Member" %}
-        <strong>{{committee.role}}</strong>
-      {% endif %}
-      {{ committee.title }}
-    </li>
-  {% endfor %}
+{% if leg.chamber == 'house' %}
+{% assign leg_title = 'Rep.' %}
+{% else %}
+{% assign leg_title = 'Sen.' %}
 {% endif %}
 
-{% if leg.votes.size > 0 %}
-  <h2>Progressive bill history</h2>
+<main class="legislator-page">
+  <div class="cbox">
+    <div class="w1400 top-container">
+      <section class="rep-info top-box dark cbox">
+        <div class="rep-info-container">
+          <img src="{{leg.square_picture}}" alt="{{leg.first_name}} {{leg.last_name}}" />
+          <p class="fRoboto fLight fWhite">{{leg_title}} {{leg.first_name}} {{leg.last_name}}</p>
+          <div class="icons">
+            {% if leg.email and leg.email != "" %}<a href="mailto:{{leg.email}}"><i class="icon far fa-envelope fa-2x"></i></a>{% endif %}
+            {% if leg.facebook and leg.facebook != "" %}<a href="{{leg.facebook}}"><i class="icon fab fa-facebook-f fa-2x"></i></a>{% endif %}
+            {% if leg.twitter and leg.twitter != "" %}<a href="{{leg.twitter}}"><i class="icon fab fa-twitter fa-2x"></i></a>{% endif %}
+            {% if leg.website and leg.website != "" %}<a href="{{leg.website}}"><i class="icon far fa-window-maximize fa-2x"></i></a>{% endif %}
+            {% if leg.phone and leg.phone != "" %}<a href="tel:{{leg.phone}}"><i class="icon fas fa-phone fa-2x"></i></a>{% endif %}
+          </div>
+        </div>
+      </section>
+      <section class="top-box top-box-b dark">
+        <h4 class="leg_pledge fUppercase fWhite fRaleway fRegular">transparency pledge</h4>
+        <div class="rect6">
+          {% if leg.pledge == false %}
+          <img class="red_x" src="/img/red_x.png" alt="red X" />
+          <h5 class="leg_pledge_txt fWhite fRoboto fLight">Ask {{leg_title}} {{leg.last_name}} to sign the pledge!</h5>
+          {% else %}
+          <img class="green_check" src="/img/green_check.png " alt="green check" />
+          <h5 class="leg_pledge_txt fWhite fRoboto fLight">{{leg_title}} {{leg.last_name}} signed the pledge!</h5>
+          {% endif %}
+        </div>
+        {% if leg.pledge == false %}
+        <button class="btn">contact rep.</button>
+        {% endif %}
+      </section>
+      <section class="top-box top-box-c dark">
+        <h4 class="leg_committ fRaleway fWhite fUppercase fRegular">Committees</h4>
+        {% if leg.committees.size > 0 %}
+        {% assign committees = leg.committees | sort: "priority" %}
+        {% for committee in committees %}
+        {% if committee.role != "Member" %}
+          <div class="rect7 chair">
+            <p class="fWhite fRoboto fRegular">{{committee.role}}</p>
+            <h5 class="fWhite fRoboto fLight">{{ committee.title }}</h5>
+          </div>
+        {% else %}
+          <div class="rect7">
+            <h5 class="fWhite fRoboto fLight">{{ committee.title }}</h5>
+          </div>
+        {% endif %}
+        {% endfor %}
+        {% endif %}
+      </section>
+    </div>
+  </div>
+  <div class="cbox">
+    <div class="w1400 bottom-container">
+      <ul class="tabs dark">
+        <li data-tab-target="#tab1" class="fInactive fUppercase fRaleway active tab dark">Progressive History</li>
+        <li data-tab-target="#tab2" class="fInactive fUppercase fRaleway tab dark">Co-Sponsored Bills</li>
+        <li data-tab-target="#tab3" class="fInactive fUppercase fRaleway tab dark">{{leg.first_name}} Says...</li>
+      </ul>
 
-  {% for vote in leg.votes %}
-    {% case vote.is_progressive %}
-      {% when true %}
-        <li class="good-vote">
-          <i class="fas fa-check-square"></i>
-          {{vote.date | date: "%Y" }} - {{ vote.description | markdownify | remove: "<p>" | remove: "</p>" }}
-        </li>
-      {% when false %}
-        <li class="bad-vote">
-          <i class="fas fa-times"></i>
-          {{vote.date | date: "%Y" }} - {{ vote.description | markdownify | remove: "<p>" | remove: "</p>" }}
-        </li>
-      {% else %}
-        <li class="unk-vote">
-          <i class="fas fa-question-circle"></i>
-          {{vote.date | date: "%Y" }} - {{ vote.description | markdownify | remove: "<p>" | remove: "</p>" }}
-        </li>
-    {% endcase %}
-  {% endfor %}
+      <div class="tab-content darker">
+        <div id="tab1" data-tab-content class="active">
+          <button class="fUppercase btn btn_history">request transparency</button>
+          {% for vote in leg.votes %}
+          <div class="item_1">
+          {% case vote.is_progressive %}
+            {% when true %}
+              <img class="green_check" src="/img/green_check.png" alt="green check">
+              <p class="fWhite fRoboto fLight">{{vote.date | date: "%Y" }} - {{ vote.description | markdownify | remove: "<p>" | remove: "</p>" }}</p>
+            {% when false %}
+              <img class="red_x" src="/img/red_x.png" alt="red x">
+              <p class="fWhite fRoboto fLight">{{vote.date | date: "%Y" }} - {{ vote.description | markdownify | remove: "<p>" | remove: "</p>" }}</p>
+            {% else %}
+              <div class="grey_question">
+                <i class="fas fa-question-circle"></i>
+              </div>
+              <p class="fWhite fRoboto fLight">{{vote.date | date: "%Y" }} - {{ vote.description | markdownify | remove: "<p>" | remove: "</p>" }}</p>
+          {% endcase %}
+          </div>
+          {% endfor %}
+        </div>
+        <div id="tab2" data-tab-content>
+          <button class="fUppercase btn btn_history">request co-sponsorship</button>
+          {% for issue in site.issues %}
+          {% assign short_id = issue.id | replace: "/issues/", "" %}
+          {% assign bills = site.data.cache.issues_by_id[short_id].bills %}
+          {% if bills %}
+            <h3 class="cosponsor_title fWhite fRoboto fRegular">{{issue.title}}</h3>
+            {% for bill_id in bills %}
+            {% assign bill = site.data.cache.bills_by_id[bill_id] %}
+            <div class="item_1">
+              {% if leg.cosponsored_bills contains bill_id %}
+                <img class="green_check" src="/img/green_check.png" alt="green check">
+              {% else %}
+                <img class="red_x" src="/img/red_x.png" alt="red x">
+              {% endif %}
+              <p class="fWhite fRoboto fLight"><a href="{{bill.id}}">{{bill.short_title}}</a></p>
+            </div>
+            {% endfor %}
+          {% endif %}
+          {% endfor %}
+        </div>
+        <div id="tab3" data-tab-content>
+          <p class="quote_text fWhite fRoboto fRegular">No quote yet!</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</main>
 
-{% endif %}
-
-
-<h2> Co-sponsored bills</h2>
-
-{% for bill in site.bills %}
-  {% if leg.cosponsored_bills contains bill.id %}
-    <li class="good-vote"><i class="fas fa-check-square"></i> Co-sponsored {{bill.article}} <a href="{{bill.id}}">{{bill.short_title}}</a></li>
-  {% else %}
-    <li class="bad-vote"><i class="fas fa-times"></i> Hasn't co-sponsored {{bill.article}} <a href="{{bill.id}}">{{bill.short_title}}</a></li>
-  {% endif %}
-{% endfor %}

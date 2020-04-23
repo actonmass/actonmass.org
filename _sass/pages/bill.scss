@@ -329,18 +329,6 @@ section.map {
   animation-duration: 3s;
   animation-delay: 2s;
 }
-/*
-.timeln_dot3 {
-  border-radius: 50%;
-  background-color: #ECA632;
-  height: 2rem;
-  width: 2rem;
-  justify-self: left;
-  margin-left: 1.5rem;
-  grid-area: 1 / 5;
-  z-index:1;
-  align-self: center;
-}*/
 
 .timeln_dot4 {
   border-radius: 50%;
@@ -391,11 +379,6 @@ section.map {
   padding: 50px;
   color: var(--dark);
   font: 16px Roboto, sans-serif;
-  /*background: #2e6ba7;*/
-  /*-webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;*/
   padding: 10rem 20rem 10rem 20rem;
   display: grid;
 }
@@ -416,19 +399,7 @@ section.map {
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
-/*
- body {
-	 min-width: 1200px;
-	 margin: 0;
-	 padding: 50px;
-	 color: #eee9dc;
-	 font: 16px Verdana, sans-serif;
-	 background: #2e6ba7;
-	 -webkit-user-select: none;
-	 -moz-user-select: none;
-	 -ms-user-select: none;
-	 user-select: none;
-}*/
+
 #wrapper {
   position: relative;
   margin: 0rem 0rem 0rem 10rem;
