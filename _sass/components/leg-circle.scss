@@ -15,7 +15,7 @@
     .leg_circ_img {
       border-radius: 50%;
       border: solid 0.5rem grey;
-      width: 6rem;
+      width: 8rem;
       grid-area: 1 / 1;
       margin: 0rem 1rem 0rem 1rem;
       box-sizing: unset;
@@ -23,7 +23,7 @@
       @media (min-width: 700px) {
         border-radius: 50%;
         border: solid 0.75rem #5fad41;
-        width: 7rem;
+        width: 10rem;
         grid-area: 1 / 1;
       }
 
@@ -67,9 +67,9 @@
     }
 
     .leg_circ_img {
-      width: 9rem;
+      width: 10rem;
       @media (min-width: 700px) {
-        width: 12rem;
+        width: 14rem;
       }
     }
   }

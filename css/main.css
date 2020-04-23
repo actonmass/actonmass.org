@@ -6,7 +6,7 @@ body {
 }
 
 a {
-  color: rgb(0, 56, 98);
+  color: inherit;
 }
 
 blockquote {

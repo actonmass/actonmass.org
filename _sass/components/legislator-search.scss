@@ -33,9 +33,7 @@
       padding: 0;
     }
   }
-
 }
-
 
 .search_rect {
   height: 4rem;
@@ -69,7 +67,6 @@
 .search_text {
   align-self: center;
   margin: 0rem 0rem 0.5rem 0rem;
-  color: var(--dark);
   text-transform: capitalize;
   font-size: 1.4rem;
 }
@@ -84,7 +81,6 @@
 
 .search_txt {
   grid-area: 2 / 1;
-  color: #061729;
   justify-self: center;
   padding-top: 3rem;
 
@@ -94,8 +90,6 @@
     max-width: 35rem;
   }
 }
-
-
 
 .btn_search {
   grid-area: 4 / 1 / 4 / 3;

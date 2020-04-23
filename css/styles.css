@@ -43,7 +43,6 @@ h4 {
 
 h5 {
   font-size: 1rem;
-  color: #061729;
   margin: 0;
 }
 
@@ -58,48 +57,36 @@ li {
 @media (min-width: 700px) {
   h1 {
     font-size: 6rem;
-    color: #061729;
     margin: 0;
   }
 
   h2 {
     font-size: 4rem;
-    color: #061729;
     margin: 0;
   }
 
   h3 {
     font-size: 3rem;
-    color: #061729;
     margin: 0;
   }
 
   h4 {
     font-size: 1.8rem;
-    color: #061729;
     margin: 0;
   }
 
   h5 {
     font-size: 1.2rem;
-    color: #061729;
     margin: 0;
   }
 
   h6 {
     font-size: 2.5rem;
-    color: #061729;
   }
-
-  /*h5 {
-    font-size: 1.4rem;
-    color: #061729;
-  }*/
 
   p {
     font-size: 1.6rem;
     line-height: 1.9rem;
-    color: #061729;
     margin: 0;
   }
 
@@ -107,25 +94,6 @@ li {
     font-size: 2rem;
   }
 }
-
-/*
-@media (min-width: 768px) and (max-width: 1024px) {
-      p{
-        font-size: 1.6rem;
-      }
-      h1 {
-        font-size: 3rem;
-      }
-      h2 {
-        font-size: 2.5rem;
-      }
-      h3 {
-        font-size: 1.5rem;
-      }
-      h4 {
-        font-size: 1.2rem;
-      }
-    }*/
 
 .fRaleway {
   font-family: "Raleway", sans-serif;
@@ -206,17 +174,6 @@ li {
     grid-template-columns: 1fr;
   }
 }
-
-/* Change the background color of the dropdown button when the dropdown content is shown */
-/*.dropdown:hover {
-    background-color: #11447B;
-    color: var(--light);
-  }*/
-
-/*
-  .dropbtn:hover {
-    color: var(--light);
-  }*/
 
 /*-------------------------- BREADCRUMB -----------------*/
 .breadcrumb {

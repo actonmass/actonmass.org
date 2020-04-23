@@ -36,7 +36,8 @@ layout: new-base
         <div class="rect_underline1"></div>
       </div>
       <h4 class="billpg_decision_header2 fUppercase fWhite fRaleway fBold">Who on committee has co-sponsored:</h4>
-      <div class="committee-block">
+      <div class="committee-block {{committee.chamber}}">
+        {% if committee.chamber != "house" %}
         <div class="senators vbox">
           <h4 class="fUppercase fWhite fRaleway fRegular">state senators:</h4>
           {% assign senate_chair = site.data.cache.legislators_by_id[committee.senate_chair] %}
@@ -64,6 +65,7 @@ layout: new-base
             </div>
           </div>
 
+
           <div class="members">
             {% for member_id in committee.senate_members %}
             {% assign rep = site.data.cache.legislators_by_id[member_id] %}
@@ -76,6 +78,8 @@ layout: new-base
             {% endfor %}
           </div>
         </div>
+        {% endif %}
+        {% if committee.chamber != "senate" %}
         <div class="reps vbox">
           <h4 class="fUppercase fWhite fRaleway fRegular">state representatives:</h4>
 
@@ -118,6 +122,7 @@ layout: new-base
           </div>
 
         </div>
+        {% endif %}
       </div>
       <div class="cbox">
         <button class="btn btn_inactive fUppercase">request they hold a vote</button>

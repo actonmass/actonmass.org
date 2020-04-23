@@ -40,23 +40,25 @@ layout: new-base
         <button class="btn">contact rep.</button>
         {% endif %}
       </section>
-      <section class="top-box top-box-c dark">
-        <h4 class="leg_committ fRaleway fWhite fUppercase fRegular">Committees</h4>
-        {% if leg.committees.size > 0 %}
-        {% assign committees = leg.committees | sort: "priority" %}
-        {% for committee in committees %}
-        {% if committee.role != "Member" %}
-          <div class="rect7 chair">
-            <p class="fWhite fRoboto fRegular">{{committee.role}}</p>
-            <h5 class="fWhite fRoboto fLight">{{ committee.title }}</h5>
-          </div>
-        {% else %}
-          <div class="rect7">
-            <h5 class="fWhite fRoboto fLight">{{ committee.title }}</h5>
-          </div>
-        {% endif %}
-        {% endfor %}
-        {% endif %}
+      <section class="top-box leg-committees cbox dark">
+        <div class="leg-committees-container">
+          <h4 class="leg_committ fRaleway fWhite fUppercase fRegular">Committees</h4>
+          {% if leg.committees.size > 0 %}
+          {% assign committees = leg.committees | sort: "priority" %}
+          {% for committee in committees %}
+          {% if committee.role != "Member" %}
+            <div class="rect7 chair">
+              <p class="fWhite fRoboto fRegular">{{committee.role}}</p>
+              <h5 class="fWhite fRoboto fLight">{{ committee.title }}</h5>
+            </div>
+          {% else %}
+            <div class="rect7">
+              <h5 class="fWhite fRoboto fLight">{{ committee.title }}</h5>
+            </div>
+          {% endif %}
+          {% endfor %}
+          {% endif %}
+        </div>
       </section>
     </div>
   </div>

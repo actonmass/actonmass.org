@@ -115,14 +115,35 @@
   }
 
   .committee-block {
-    display: grid;
+    &.joint {
+      display: grid;
 
-    grid-template-areas:
-      "senators"
-      "reps";
+      grid-template-areas:
+        "senators"
+        "reps";
 
-    @media (min-width: 700px) {
-      grid-template-areas: "senators reps";
+      .senators,
+      .reps {
+        .members {
+          grid-template-columns: auto auto auto;
+        }
+      }
+      @media (min-width: 700px) {
+        grid-template-areas: "senators reps";
+
+        .senators {
+          grid-area: senators;
+          padding-right: 10rem;
+        }
+
+        .reps {
+          grid-area: reps;
+        }
+
+        .reps .members {
+          grid-template-columns: auto auto auto auto;
+        }
+      }
     }
 
     h4 {
@@ -148,26 +169,15 @@
         grid-column-gap: 1rem;
         grid-row-gap: 1rem;
         grid-template-columns: auto auto auto;
-      }
-    }
 
-    .senators {
-      grid-area: senators;
-
-      @media (min-width: 700px) {
-        padding-right: 10rem;
+        @media (min-width: 700px) {
+          grid-template-columns: repeat(6, auto);
+        }
       }
     }
 
     .reps {
-      grid-area: reps;
       padding-left: 0rem;
-
-      .members {
-        @media (min-width: 700px) {
-          grid-template-columns: auto auto auto auto;
-        }
-      }
     }
   }
 }
@@ -222,10 +232,6 @@ section.map {
       }
       width: 100%;
       margin-bottom: 20px;
-    }
-
-    .leaflet-bar a {
-      color: black;
     }
   }
 }

@@ -59,7 +59,7 @@ layout: new-base
       <div class="legislator-grid">
         {% for rep_id in site.data.pledge_signatories.house %}
           {% assign rep = site.data.cache.legislators_by_id[rep_id] %}
-          {% include leg-circle.html rep=rep status='ok' %}
+          {% include leg-circle.html rep=rep size='L' status='ok' %}
         {% endfor %}
       </div>
       <h4 class="pledge_leg_subtitle fRaleway fUppercase fRegular">
@@ -68,7 +68,7 @@ layout: new-base
       <div class="legislator-grid">
         {% for rep_id in site.data.pledge_signatories.senate %}
           {% assign rep = site.data.cache.legislators_by_id[rep_id] %}
-          {% include leg-circle.html rep=rep status='ok' %}
+          {% include leg-circle.html rep=rep size='L' status='ok' %}
         {% endfor %}
       </div>
       <div class="cbox">
