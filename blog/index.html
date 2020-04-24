@@ -11,7 +11,7 @@ title: Blog
         {% for post in paginator.posts %}
         <div class="blog-post">
           {% if post.image %}
-            <img class="blog_img" src="{{ post.image }}" alt="" href="blogpost.html">
+            <img class="blog_img" src="{{ post.image }}" alt="">
           {% endif %}
           <div class="date_rect">
             <p class="blog_date fRoboto fLight fWhite">Posted on {{ post.date | date: '%B %d, %Y' }}</p>

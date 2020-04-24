@@ -17,6 +17,10 @@
     &:hover {
       border-bottom: solid 0.5rem #56ccf2;
     }
+
+    &.btn {
+      font-weight: 700;
+    }
   }
 
   .btn_header,

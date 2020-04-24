@@ -40,7 +40,7 @@ references:
     link: http://www.bu.edu/sph/2015/03/08/health-and-the-city/
   - key: 4b
     title: "Additional life expectancy disparities within MA (not within Boston): “Disparities in life expectancy in Massachusetts driven by societal factors,” Harvard T. H. Chan School of Public Health, 2018"
-    link: https://www.hsph.harvard.edu/news/hsph-in-the-news/life-expectancy-disparities-massachusetts-societal-factors/](https://www.hsph.harvard.edu/news/hsph-in-the-news/life-expectancy-disparities-massachusetts-societal-factors/
+    link: https://www.hsph.harvard.edu/news/hsph-in-the-news/life-expectancy-disparities-massachusetts-societal-factors/
   - key: 5
     title: "“Health Insurance: Premiums and Increases” National Conference of State Legislatures, 12/4/2018"
     link: http://www.ncsl.org/research/health/health-insurance-premiums.aspx

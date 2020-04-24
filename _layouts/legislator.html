@@ -23,7 +23,7 @@ layout: base
             {% if leg.facebook and leg.facebook != "" %}<a href="{{leg.facebook}}"><i class="icon fab fa-facebook-f fa-2x"></i></a>{% endif %}
             {% if leg.twitter and leg.twitter != "" %}<a href="{{leg.twitter}}"><i class="icon fab fa-twitter fa-2x"></i></a>{% endif %}
             {% if leg.website and leg.website != "" %}<a href="{{leg.website}}"><i class="icon far fa-window-maximize fa-2x"></i></a>{% endif %}
-            {% if leg.phone and leg.phone != "" %}<a href="tel:{{leg.phone}}"><i class="icon fas fa-phone fa-2x"></i></a>{% endif %}
+            {% if leg.phone and leg.phone != "" %}<a href="tel:{{leg.phone | uri_escape}}"><i class="icon fas fa-phone fa-2x"></i></a>{% endif %}
           </div>
         </div>
       </section>

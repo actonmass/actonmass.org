@@ -98,10 +98,10 @@ layout: base
     <div class="w1400">
       <h3 class="issues_faq_header fRaleway fExbold fUppercase">common questions:</h3>
       {% for question in issue.questions %}
-        <button class="accordion">
+        <a class="accordion">
           <h4 class="accordian_question fRaleway fRegular">{{ question.title }}</h4>
           <i class="plus fas fa-plus fa-2x"></i>
-        </button>
+        </a>
         <div class="panel">
           <div class="fRoboto fLight">{{ question.text | markdownify }}</div>
         </div>

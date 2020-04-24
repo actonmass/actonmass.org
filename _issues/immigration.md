@@ -58,13 +58,13 @@ references:
     link: https://malegislature.gov/Bills/191/SD926
   - key: "6"
     title: Engelbrecht, Cora, “Fewer Immigrants Are Reporting Domestic Abuse. Police Blame Fear of Deportation,” New York Times, June 3, 2018
-    link: https://www.nytimes.com/2018/06/03/us/immigrants-houston-domestic-violence.html](https://www.nytimes.com/2018/06/03/us/immigrants-houston-domestic-violence.html
+    link: https://www.nytimes.com/2018/06/03/us/immigrants-houston-domestic-violence.html
   - key: "7"
     title: Parker, Claire, “Officials, residents pack State House hearing to debate immigration bill,” Boston Globe, JUNE 10, 2017
     link: https://www.bostonglobe.com/metro/2017/06/09/officials-residents-pack-state-house-hearing-debate-immigration-bill/gITZCJDHf5Dnh0TeQwbuLO/story.html
   - key: "8"
     title: Cheng, Alice, Guillaume, Kristine, “Thousands Protest Immigration Order in Boston” Harvard Crimson, January 30, 2017
-    link: https://www.thecrimson.com/article/2017/1/30/boston-protests-immigration-order/](https://www.thecrimson.com/article/2017/1/30/boston-protests-immigration-order/
+    link: https://www.thecrimson.com/article/2017/1/30/boston-protests-immigration-order/
   - key: "9"
     title: Young, Colin, “After Tense Debate, Mass. Senate Adopts Safe Communities Amendment,” WBUR, May 24, 2018
     link: https://www.wbur.org/news/2018/05/24/mass-senate-safe-communities-amendment
