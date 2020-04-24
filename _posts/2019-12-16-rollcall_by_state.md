@@ -1,6 +1,7 @@
 ---
 layout: post
 title: It's harder to get a recorded vote in Massachusetts than in Texas, Ohio, Arizona and Florida  
+image: https://hs-6201350.f.hubspotstarter.net/hub/6201350/hubfs/Roll%20call%20other%20states%20table.png?upscale=true&width=1120&upscale=true&name=Roll%20call%20other%20states%20table.png
 ---
 
 In Massachusetts, it is exceptionally hard to get a recorded vote when bills are voted on by the full House. When comparable states only require 1 to 5 Reps to stand to get a recorded vote on the floor, **Massachusetts requires a whopping 16 Reps or 10% of the legislature.**
@@ -54,8 +55,8 @@ Act on Mass depends on people like you to donate & support our work. Whether it'
 
 The best way to help us is with a recurring monthly donation to support the work we do, and help us forecast what our budget will be.  If you are able to make a sustaining monthly donation of $25, $20, $15, $10, or any amount that works for you please click the button below.
 
-[Make a Monthly Sustaining Donation](https://secure.actblue.com/donate/act-on-mass?recurring=1&utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-_n0A-ifVjLenrEL7ESW-xTAic0k15Z105jABLurmvfcYJxqTL9asZ4fE8Pomal8RHVLNzw) 
+[Make a Monthly Sustaining Donation](https://secure.actblue.com/donate/act-on-mass?recurring=1&utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-_n0A-ifVjLenrEL7ESW-xTAic0k15Z105jABLurmvfcYJxqTL9asZ4fE8Pomal8RHVLNzw)
 
 Or, if you can only give a single donation please click here.
 
-[Make a One-time Donation](https://secure.actblue.com/donate/act-on-mass?recurring=0&utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-_n0A-ifVjLenrEL7ESW-xTAic0k15Z105jABLurmvfcYJxqTL9asZ4fE8Pomal8RHVLNzw) 
+[Make a One-time Donation](https://secure.actblue.com/donate/act-on-mass?recurring=0&utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-_n0A-ifVjLenrEL7ESW-xTAic0k15Z105jABLurmvfcYJxqTL9asZ4fE8Pomal8RHVLNzw)

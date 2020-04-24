@@ -1,6 +1,7 @@
 ---
 layout: post
 title: '"Underwhelming" investment in Massachusetts transportation'
+image: https://hs-6201350.f.hubspotstarter.net/hub/6201350/hubfs/image2.png
 ---
 
 

@@ -2,6 +2,7 @@
 layout: post
 title: Deadlines Looming for MA Legislature
 date: 2020-01-01T17:10:41.316Z
+image: https://hs-6201350.f.hubspotstarter.net/hub/6201350/hubfs/Pledge%20signers.png?upscale=true&width=1120&upscale=true&name=Pledge%20signers.png
 ---
 
 
@@ -78,8 +79,8 @@ Act on Mass depends on people like you to donate & support our work. Whether it'
 
 The best way to help us is with a recurring monthly donation to support the work we do, and help us forecast what our budget will be.  If you are able to make a sustaining monthly donation of $25, $20, $15, $10, or any amount that works for you please click the button below.
 
- [Make a Monthly Sustaining Donation](https://secure.actblue.com/donate/act-on-mass?recurring=1&utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-94KhBPklay3Y-VXRAQ1uFg9yAFGBpUM8MtzKBq-Xl1ofho4LsUI643McW0835Bd_qMGoIr) 
+ [Make a Monthly Sustaining Donation](https://secure.actblue.com/donate/act-on-mass?recurring=1&utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-94KhBPklay3Y-VXRAQ1uFg9yAFGBpUM8MtzKBq-Xl1ofho4LsUI643McW0835Bd_qMGoIr)
 
 Or, if you can only give a single donation please click here.
 
-[Make a One-time Donation](https://secure.actblue.com/donate/act-on-mass?recurring=0&utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-94KhBPklay3Y-VXRAQ1uFg9yAFGBpUM8MtzKBq-Xl1ofho4LsUI643McW0835Bd_qMGoIr) 
+[Make a One-time Donation](https://secure.actblue.com/donate/act-on-mass?recurring=0&utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-94KhBPklay3Y-VXRAQ1uFg9yAFGBpUM8MtzKBq-Xl1ofho4LsUI643McW0835Bd_qMGoIr)
