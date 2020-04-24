@@ -15,5 +15,5 @@ picture: https://pbs.twimg.com/profile_images/816712460816285705/poGGzJAM_400x40
 square_picture: /img/legislators/square-pictures/joseph-wagner.jpg
 start_date: ''
 twitter: https://twitter.com/repwagner
-website: N/A
+website:
 ---

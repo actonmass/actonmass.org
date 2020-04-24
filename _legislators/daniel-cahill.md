@@ -15,5 +15,5 @@ picture: https://malegislature.gov/Legislators/Profile/170/DFC1.jpg
 square_picture: /img/legislators/square-pictures/daniel-cahill.jpg
 start_date: ''
 twitter: https://twitter.com/RepDanCahill
-website: N/A
+website:
 ---

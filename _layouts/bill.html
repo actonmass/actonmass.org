@@ -10,7 +10,9 @@ layout: base
     <div class="w1400 headline-container">
       <h2 class="billpg_title fRaleway fExbold">{{bill.short_title}}</h2>
       <div class="billpg_hero_a">
+        {% if bill.img %}
         {% include hero-image.html img=bill.img alt='' %}
+        {% endif %}
       </div>
       <ul class="billpg_hero_b">
         {% for point in bill.summary %}

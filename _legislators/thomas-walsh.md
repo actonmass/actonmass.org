@@ -15,5 +15,5 @@ picture: https://malegislature.gov/Legislators/Profile/170/TJW1.jpg
 square_picture: /img/legislators/square-pictures/thomas-walsh.jpg
 start_date: ''
 twitter: https://twitter.com/WalshForPeabody
-website: N/A
+website:
 ---

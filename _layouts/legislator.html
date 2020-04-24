@@ -14,7 +14,9 @@ layout: base
     <div class="w1400 top-container">
       <section class="rep-info top-box dark cbox">
         <div class="rep-info-container">
+          {% if leg.square_picture %}
           <img src="{{leg.square_picture}}" alt="{{leg.first_name}} {{leg.last_name}}" />
+          {% endif %}
           <p class="fRoboto fLight fWhite">{{leg_title}} {{leg.first_name}} {{leg.last_name}}</p>
           <div class="icons">
             {% if leg.email and leg.email != "" %}<a href="mailto:{{leg.email}}"><i class="icon far fa-envelope fa-2x"></i></a>{% endif %}

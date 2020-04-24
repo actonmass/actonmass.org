@@ -15,5 +15,5 @@ picture: https://pbs.twimg.com/profile_images/449633203209240577/rCjThOgR_400x40
 square_picture: /img/legislators/square-pictures/paul-tucker.png
 start_date: ''
 twitter: https://twitter.com/paultuckersalem
-website: N/A
+website:
 ---

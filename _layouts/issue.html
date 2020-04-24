@@ -9,7 +9,9 @@ layout: base
     <div class="w1400 headline-container">
       <h1 class="hero_title fRaleway fBold">{{issue.title}}</h1>
       <div class="issues_hero_a">
+        {% if issue.page_img %}
         {% include hero-image.html img=issue.page_img alt='' %}
+        {% endif %}
       </div>
       <div class="issues_hero_c">
         <h2 class="hero_quote_txt fRaleway fWhite fRegular">
@@ -80,6 +82,7 @@ layout: base
           <div class="entry_3">
             <p class="search_text fRoboto fLight">city</p>
             <input class="search_rect"/>
+          </div>
         </div>
         <div class="signup_volunteer1 hbox">
           <div class="issues_signup_rect_sm"></div>
@@ -100,7 +103,7 @@ layout: base
           <i class="plus fas fa-plus fa-2x"></i>
         </button>
         <div class="panel">
-          <p class="fRoboto fLight">{{ question.text | markdownify }}</p>
+          <div class="fRoboto fLight">{{ question.text | markdownify }}</div>
         </div>
       {% endfor %}
     </div>
@@ -111,7 +114,13 @@ layout: base
       <div class="hbox learn-more-container">
         {% for learn_more_link in issue.learn_more %}
         <div>
-          <a href="{{learn_more_link.link}}"><img class="sca_learn_icon" src="{{learn_more_link.img}}" alt="{{learn_more_link.title}}"></a>
+          <a href="{{learn_more_link.link}}">
+            {% if learn_more_link.img %}
+            <img class="sca_learn_icon" src="{{learn_more_link.img}}" alt="{{learn_more_link.title}}"/>
+            {% else %}
+            <p>{{learn_more_link.title}}</p>
+            {% endif %}
+          </a>
         </div>
         {% endfor %}
       </div>

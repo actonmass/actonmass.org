@@ -15,5 +15,5 @@ picture: https://pbs.twimg.com/profile_images/766289137196490752/6RVoR1ug_400x40
 square_picture: /img/legislators/square-pictures/antonio-cabral.png
 start_date: '1981-01-01'
 twitter: https://twitter.com/RepTonyCabral
-website: N/A
+website:
 ---

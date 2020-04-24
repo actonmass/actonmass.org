@@ -14,6 +14,6 @@ phone: (617) 722-2100
 picture: https://malegislature.gov/Legislators/Profile/170/TMS2.jpg
 square_picture: /img/legislators/square-pictures/todd-smola.jpg
 start_date: ''
-twitter: N/A
+twitter:
 website: http://www.reptoddsmola.org/
 ---
