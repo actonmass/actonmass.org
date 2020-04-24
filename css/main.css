@@ -23,29 +23,6 @@ img {
   max-width: 100%;
 }
 
-.page-content-container {
-  display: flex;
-  justify-content: center;
-}
-
-.page-content {
-  width: 95%;
-  max-width: 940px;
-  padding: 15px;
-}
-
-@media (min-width: 601px) {
-  .mobile-only {
-    display: none !important;
-  }
-}
-
-@media (max-width: 600px) {
-  .desktop-only {
-    display: none !important;
-  }
-}
-
 /* Reused components */
 
 .button {
@@ -68,30 +45,6 @@ img {
 .button:hover {
   background-color: rgb(232, 158, 62);
   transition: 0.3s;
-}
-
-.social-media-link {
-  margin-right: 10px;
-  text-decoration: none;
-}
-
-.social-media-link img {
-  height: 2em;
-}
-
-.nav-ul {
-  list-style-type: none;
-  font-weight: bold;
-  font-size: 1.2em;
-}
-
-.nav-ul a {
-  text-decoration: none;
-  color: black;
-}
-
-.nav-ul a:hover {
-  text-decoration: underline;
 }
 
 .youtube-video-inner-container {

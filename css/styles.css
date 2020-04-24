@@ -162,7 +162,6 @@ li {
 
 .container {
   display: grid;
-  /*grid-template-columns: repeat(auto-fit, minmax(12rem, 1fr));*/
   grid-template-columns: repeat(12, 1fr);
   grid-template-rows: repeat(8, auto);
   overflow-x: hidden;
@@ -379,7 +378,6 @@ ul.main_breadcrumb li a:hover {
   background-color: #145396;
   border-bottom: 4px solid #eca632;
   display: inline-block;
-  /*line-height: 0.85;*/
 }
 
 /* ------------------------- TIMELINE -----------------------*/
@@ -449,7 +447,3 @@ ul.main_breadcrumb li a:hover {
 .fa-democrat {
   color: var(--primary);
 }
-
-/*-----------------------------------------------------------------------*/
-/*--------------------- BLOG Post PG (blog posts) ------------------------*/
-/*-----------------------------------------------------------------------*/

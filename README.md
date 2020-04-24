@@ -15,11 +15,11 @@ The website content is located in the following directories:
 
 Page and posts content is written in [Markdown](https://www.markdownguide.org/basic-syntax/).
 
-On top of each page file, a "front matter" can also be found. It defines metadata about the page using the [YAML](https://lzone.de/cheat-sheet/YAML) format. 
+On top of each page file, a "front matter" can also be found. It defines metadata about the page using the [YAML](https://lzone.de/cheat-sheet/YAML) format.
 
 ### Styling in Markdown
 
-While most page styling happens in CSS and templates, some basic pre-made styles can be added to style a paragraph. 
+While most page styling happens in CSS and templates, some basic pre-made styles can be added to style a paragraph.
 
 For instance, to apply the style `centered` to a paragraph, use the following syntax:
 
@@ -66,7 +66,7 @@ Some pre-mades components can be added to a page or a post.
   {% include issues/numbers.html numbers=page.our_challenge_numbers %}
   ```
   In that case, `our_challenge_numbers` must be defined in the page front matter, like [in this file](https://github.com/fpagnoux/actonmass-website/blob/adc9c288fb56c52f79b28e0edb57e0a8da3f4abd/_issues/climate.md).
-  
+
 
 ## Style edition
 
@@ -80,7 +80,7 @@ Pages layout (HTML and CSS) can be edited in the following places:
 
 All branches (draft versions of the website) are automatically deployed to preview changes. A branch named `test` would be deployed on the domain https://test--actonmass.netlify.com/.
 
-Branch deployment should not take more than 2 minutes. 
+Branch deployment should not take more than 2 minutes.
 If a deployment doesn't work, logs can be checked on [Netlify](https://app.netlify.com/sites/actonmass/deploys) (requires login).
 
 

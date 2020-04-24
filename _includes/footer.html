@@ -1,17 +1,13 @@
-<footer id="footer-container">
-    <div id="footer">
-        <ul class="nav-ul footer-left-block">
-            {% for link in site.footer %}
-                <li><a href="{{link.page}}">{{link.title}}</a></li>
-            {% endfor %}
-        </ul>
-        <div class="footer-center-block">
-            <div>
-                <a href="https://www.facebook.com/act.on.massachusetts" class="social-media-link" target="_blank"><img src="/img/fb.png" alt="Facebook logo"/></a>
-                <a href="https://twitter.com/act_on_mass" class="social-media-link" target="_blank"><img src="/img/twitter.png" alt="Twitter logo"/></a>
-            </div>
-            <p>Copyright © 2019, Act on Mass, Inc.</p>
-        </div>
-        <div class="footer-right-block"></div>
-    </div>
+<footer class="main_footer">
+  <div class="footer_top">
+    <h3 class="footer_txt fRaleway fBold">Act on Mass is a non-profit organization that doesn't take money from corporations. Please support our mission.</h3>
+    <a href="https://secure.actblue.com/donate/act-on-mass">
+      <button class="btn btn_footer fLight fRoboto fBold fUppercase">donate</button>
+    </a>
+  </div>
+  <div class="footer_bottom">
+    {% for link in site.footer %}
+        <h4 class="fRoboto fUppercase fRegular"><a href="{{link.page}}">{{link.title}}</a></h4>
+    {% endfor %}
+  </div>
 </footer>
