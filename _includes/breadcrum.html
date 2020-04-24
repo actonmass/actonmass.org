@@ -1,0 +1,15 @@
+<ul class="main_breadcrumb">
+  <li><a href="/">HOME</a></li>
+{% case page.layout %}
+
+{% when "issue" %}
+  <li><a href="/#issues">ISSUES</a></li>
+{% when "bill" %}
+  {% assign issue = site.data.cache.issues_by_id[page.issue] %}
+  <li><a href="/bills">BILLS</a></li>
+  <li><a href="{{issue.id}}">{{issue.title | upcase}}</a></li>
+{% when "legislator" %}
+  <li><a href="/legislator-search">LEGISLATOR SEARCH</a></li>
+{% endcase %}
+<li><a href="#">{{page.title | upcase}}</a></li>
+</ul>

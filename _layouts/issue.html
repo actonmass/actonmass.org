@@ -6,17 +6,20 @@ layout: base
 
 <main class="issue-page">
   <section class="headline dark cbox">
-    <div class="w1400 headline-container">
-      <h1 class="hero_title fRaleway fBold">{{issue.title}}</h1>
-      <div class="issues_hero_a">
-        {% if issue.page_img %}
-        {% include hero-image.html img=issue.page_img alt='' %}
-        {% endif %}
-      </div>
-      <div class="issues_hero_c">
-        <h2 class="hero_quote_txt fRaleway fWhite fRegular">
-          {{issue.catchphrase}}
-        </h2>
+    <div class="w1400">
+      {% include breadcrum.html %}
+      <div class="headline-container">
+        <h1 class="hero_title fRaleway fBold">{{issue.title}}</h1>
+        <div class="issues_hero_a">
+          {% if issue.page_img %}
+          {% include hero-image.html img=issue.page_img alt='' %}
+          {% endif %}
+        </div>
+        <div class="issues_hero_c">
+          <h2 class="hero_quote_txt fRaleway fWhite fRegular">
+            {{issue.catchphrase}}
+          </h2>
+        </div>
       </div>
     </div>
   </section>

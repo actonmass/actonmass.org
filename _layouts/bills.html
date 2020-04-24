@@ -3,8 +3,9 @@ layout: base
 ---
 
 <main class="bills-page">
-  <section class="dark cbox">
+  <section class="dark cbox headline">
     <div class="w1400">
+      {% include breadcrum.html %}
       <h1 class="fUppercase fRaleway fBold">progressive bills</h1>
       <div class="list-bills">
         {% for issue in site.issues %}

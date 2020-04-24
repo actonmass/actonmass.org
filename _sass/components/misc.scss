@@ -113,3 +113,41 @@
 .rep-icon.red img {
   border: red solid;
 }
+
+/* Style the list */
+ul.main_breadcrumb {
+  padding: 0.5rem 0 0.5rem 0;
+  list-style: none;
+
+  @media (min-width: 700px) {
+    padding: 2rem 0;
+  }
+
+  li {
+    display: inline;
+    font-size: 0.8rem;
+
+    @media (min-width: 700px) {
+      font-size: 1.68rem;
+    }
+  }
+
+  /* Add a slash symbol (/) before/behind each list item */
+  li + li:before {
+    padding: 8px;
+    content: "/\00a0";
+  }
+
+  li a {
+    text-decoration: none;
+    font-size: 0.8rem;
+
+    @media (min-width: 700px) {
+      font-size: 1.2rem;
+    }
+  }
+
+  li a:hover {
+    text-decoration: underline;
+  }
+}

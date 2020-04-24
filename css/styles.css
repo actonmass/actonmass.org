@@ -176,64 +176,8 @@ li {
 }
 
 /*-------------------------- BREADCRUMB -----------------*/
-.breadcrumb {
-  grid-area: 2 / 3 / 2 / 6;
-}
 
 /* -- LEGISTLATOR PAGE // breadcrumb--*/
-
-/* Style the list */
-ul.main_breadcrumb {
-  padding: 0.5rem 1rem 0.5rem 1rem;
-  list-style: none;
-}
-
-@media (min-width: 700px) {
-  ul.main_breadcrumb {
-    padding: 2rem 20rem;
-    list-style: none;
-    /*background-color: #eee;*/
-  }
-}
-
-/* Display list items side by side */
-
-ul.main_breadcrumb li {
-  display: inline;
-  font-size: 0.8rem;
-}
-
-@media (min-width: 700px) {
-  ul.main_breadcrumb li {
-    display: inline;
-    font-size: 1.68rem;
-  }
-}
-
-/* Add a slash symbol (/) before/behind each list item */
-ul.main_breadcrumb li + li:before {
-  padding: 8px;
-  content: "/\00a0";
-}
-
-/* Add a color to all links inside the list */
-ul.main_breadcrumb li a {
-  text-decoration: none;
-  font-size: 0.8rem;
-}
-
-@media (min-width: 700px) {
-  ul.main_breadcrumb li a {
-    text-decoration: none;
-    font-size: 1.2rem;
-  }
-}
-
-/* Add a color on mouse-over */
-ul.main_breadcrumb li a:hover {
-  color: #01447e;
-  text-decoration: underline;
-}
 
 /* ---------------------- pop-up forms ------------------*/
 

@@ -7,20 +7,23 @@ layout: base
 
 <main class="bill-page">
   <section class="headline dark cbox">
-    <div class="w1400 headline-container">
-      <h2 class="billpg_title fRaleway fExbold">{{bill.short_title}}</h2>
-      <div class="billpg_hero_a">
-        {% if bill.img %}
-        {% include hero-image.html img=bill.img alt='' %}
-        {% endif %}
+    <div class="w1400">
+      {% include breadcrum.html %}
+      <div class="headline-container"">
+        <h2 class="billpg_title fRaleway fExbold">{{bill.short_title}}</h2>
+        <div class="billpg_hero_a">
+          {% if bill.img %}
+          {% include hero-image.html img=bill.img alt='' %}
+          {% endif %}
+        </div>
+        <ul class="billpg_hero_b">
+          {% for point in bill.summary %}
+            <li>
+              <h4 class="fRaleway fWhite fRegular">{{point}}</h4>
+            </li>
+          {% endfor %}
+        </ul>
       </div>
-      <ul class="billpg_hero_b">
-        {% for point in bill.summary %}
-          <li>
-            <h4 class="fRaleway fWhite fRegular">{{point}}</h4>
-          </li>
-        {% endfor %}
-      </ul>
     </div>
   </section>
   <section class="cbox">
