@@ -1,3 +1,26 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+}
+
+a {
+  color: inherit;
+}
+
+blockquote {
+  border-left: solid 2px rgb(0, 56, 98);
+  padding-left: 20px;
+  font-size: 1.3em;
+}
+
+p {
+  line-height: 1.8;
+}
+
+img {
+  max-width: 100%;
+}
+
 section {
   padding: 5rem 0;
   @media (min-width: 700px) {
@@ -9,6 +32,23 @@ form {
   .search_rect {
     width: 100%;
   }
+}
+
+table {
+  margin-left: 20px;
+  border-collapse: collapse;
+}
+
+table,
+th,
+td {
+  border: 1px solid black;
+}
+
+th,
+td {
+  max-width: 120px;
+  overflow-x: hidden;
 }
 
 /* Layouts */
@@ -106,4 +146,40 @@ form {
 
 .medium-blue {
   background-color: #afcbff;
+}
+
+/* Markdown tools */
+
+.small-image img {
+  max-height: 400px;
+}
+
+.centered-image {
+  text-align: center;
+}
+
+.centered-image > img,
+.centered-image > a:first-child {
+  margin: 0 auto;
+  display: block;
+}
+
+.centered {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+
+.full-width {
+  width: 100%;
+}
+
+.important {
+  font-size: 1.2em;
+}
+
+.small {
+  font-size: 0.8em;
 }

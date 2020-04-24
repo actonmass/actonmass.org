@@ -213,20 +213,17 @@ ul.main_breadcrumb li {
 /* Add a slash symbol (/) before/behind each list item */
 ul.main_breadcrumb li + li:before {
   padding: 8px;
-  /*color: #F4F7FC;*/
   content: "/\00a0";
 }
 
 /* Add a color to all links inside the list */
 ul.main_breadcrumb li a {
-  /*color: #F4F7FC;*/
   text-decoration: none;
   font-size: 0.8rem;
 }
 
 @media (min-width: 700px) {
   ul.main_breadcrumb li a {
-    /*color: #F4F7FC;*/
     text-decoration: none;
     font-size: 1.2rem;
   }
@@ -262,7 +259,6 @@ ul.main_breadcrumb li a:hover {
 
 /* Add styles to the form container */
 .form-container {
-  /*max-width: 300px;*/
   padding: 10px;
   background-color: #145396;
   color: white;
