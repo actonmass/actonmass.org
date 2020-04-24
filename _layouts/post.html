@@ -1,34 +1,26 @@
 ---
-layout: new-base
+layout: default
 ---
 
-<main class="blog-post-page">
-  <section class="cbox light-blue">
-    <div class="w1200 cbox">
-      <div class="w1000">
-        <div class="post">
-          <div class="post-header">
-            <h2 class="fUppercase fRaleway fExbold">{{ page.title | smartify }}</h2>
-            <p class="post-date fRoboto fLight">Posted on {{ page.date | date: '%B %d, %Y' }}</p>
-          </div>
-          <div class="post-content">
-            {{ content }}
-          </div>
-        </div>
-        <ul class="pager">
-          <li>
-            {% if page.next.url %}
-            <a href="{{ page.next.url }}" title="{{page.next.title | smartify}}">&larr; Next Post</a>
-            {% endif %}
-          </li>
-          <li><a href="/blog">All posts</a></li>
-          <li>
-            {% if page.previous.url %}
-            <a href="{{ page.previous.url }}" title="{{page.previous.title | smartify}}">Previous Post &rarr;</a>
-            {% endif %}
-          </li>
-        </ul>
-      </div>
-    </div>
-  </section>
-</main>
+<div class="blog-post">
+  <div class="post-header">
+    <h2 class="fUppercase fRaleway fExbold">{{ page.title | smartify }}</h2>
+    <p class="post-date fRoboto fLight">Posted on {{ page.date | date: '%B %d, %Y' }}</p>
+  </div>
+  <div class="post-content">
+    {{ content }}
+  </div>
+</div>
+<ul class="pager">
+  <li>
+    {% if page.next.url %}
+    <a href="{{ page.next.url }}" title="{{page.next.title | smartify}}">&larr; Next Post</a>
+    {% endif %}
+  </li>
+  <li><a href="/blog">All posts</a></li>
+  <li>
+    {% if page.previous.url %}
+    <a href="{{ page.previous.url }}" title="{{page.previous.title | smartify}}">Previous Post &rarr;</a>
+    {% endif %}
+  </li>
+</ul>

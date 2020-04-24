@@ -216,6 +216,7 @@ img {
 }
 
 .pager {
+  margin-top: 3rem;
   list-style: none;
   display: flex;
   justify-content: center;
