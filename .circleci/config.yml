@@ -66,8 +66,7 @@ jobs:
 
       - run:
           name: Validate HTML spec compliance
-          command: echo "Skipping HTML validation for now"
-          # command: $HOME/.local/bin/html5validator --root _site --ignore iframe
+          command: $HOME/.local/bin/html5validator --root _site --ignore iframe
 
       - run:
           name: Start server
