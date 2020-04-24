@@ -4,11 +4,9 @@ title: Sexual Harassment on Beacon Hill is a Major Problem
 date: 2020-02-03T17:16:45.913Z
 image: /img/crop_nda.jpg
 ---
-![crop_nda](https://hs-6201350.f.hubspotstarter.net/hub/6201350/hubfs/crop_nda.jpg?upscale=true&width=1120&upscale=true&name=crop_nda.jpg) 
+![crop_nda](https://hs-6201350.f.hubspotstarter.net/hub/6201350/hubfs/crop_nda.jpg?upscale=true&width=1120&upscale=true&name=crop_nda.jpg)
 
-**Sexual Harassment on Beacon Hill is a Major Problem**
-
-Just two days left for committees to act
+# Just two days left for committees to act
 
 Friend-
 
@@ -47,7 +45,7 @@ You can look up your Reps & their contact info here:
 
 ## Forward this email to a friend! Join our email list!
 
-## We are grateful to you for subscribing to our email updates.  If you find them informative and helpful, we would appreciate your forwarding this email to a friend and telling them why you are on our email list and encourage them to subscribe.
+**We are grateful to you for subscribing to our email updates.  If you find them informative and helpful, we would appreciate your forwarding this email to a friend and telling them why you are on our email list and encourage them to subscribe.**
 
 ## When you forward the email they can use the form below to sign up to get email alerts from us. Thank you!
 

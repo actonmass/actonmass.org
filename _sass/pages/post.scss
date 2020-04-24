@@ -1,0 +1,41 @@
+.blog-post-page {
+  .w1200 {
+    background-color: #f4f7fc;
+  }
+  .post-header {
+    padding-bottom: 2rem;
+    text-align: center;
+
+    h2 {
+      color: #11447b;
+    }
+
+    .post-date {
+      padding: 1rem 0rem 1rem 0rem;
+    }
+  }
+
+  .post-content {
+    h1,
+    h2,
+    h3 {
+      color: #11447b;
+    }
+
+    p {
+      margin-top: 1em;
+      margin-bottom: 1em;
+      line-height: 1.8em;
+      font-weight: 300;
+      font-family: "Roboto", sans-serif;
+    }
+
+    h1 {
+      font-size: 3.5rem;
+    }
+
+    h2 {
+      font-size: 2.5rem;
+    }
+  }
+}

@@ -56,7 +56,7 @@ This new corporate tax will require larger companies to pay more in taxes. If a 
 This tax is expected to raise $100M to $150M per year, but that only amounts to about 19%, according to conservative estimates offered by House leadership.  (And the high-end estimate provided by House leadership only clocks in at around 25%).
 
 
-![Revenue by source pie chart](https://hs-6201350.f.hubspotstarter.net/hub/6201350/hubfs/image5.png?upscale=true&width=780&upscale=true&name=image5.png) |
+![Revenue by source pie chart](https://hs-6201350.f.hubspotstarter.net/hub/6201350/hubfs/image5.png?upscale=true&width=780&upscale=true&name=image5.png)
 
 
 The largest component of the package is a 5-cent tax on gasoline that everyone will pay at the pump, a regressive tax. Now, Massachusetts gas taxes are [actually lower than 29 other states](https://en.wikipedia.org/wiki/Fuel_taxes_in_the_United_States?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz--6z4b6SpJHJt2jc9fUmfQKn63hbDSwHOTGKQRCtjjni2f35dF-l55yl3SI5dYhVspe-OAF), and even with this increase we'll still be paying about half the tax of states such as California. Gas taxes have other benefits such as encouraging the use of public transportation, and they ensure that those who use roads the most contribute to their upkeep.
@@ -92,14 +92,14 @@ That's a very real way in which debate and discussion are squelched in the House
 
 **Amendments #17, #68, and #70 - More progressive revenue**
 
--   **✅SUPPORT #17 - Increases the corporate tax rate on the largest 403 corporations in MA **- This would only affect the richest 403 corporations that earn over $1 Billion per year in annual sales.  It would increase the corporate minimum tax from $150,000 to $250,000.  This is only an increase of 0.01% in the effective tax rate for these corporations, and would raise approximately $40M / year to fund transportation projects.
--   **✅SUPPORT #68 - Creates a transportation excise fee on the largest corporations**- This tax would raise $150M / year by assessing an excise tax on corporations of over 100 employees.  It's a progressive tax, so smaller companies would pay less than larger companies, and estimates based on 2017 employee data show that it would be about $50 per employee for the smallest companies.  This is a *very modest* tax on employers who depend on our transportation system to get their employees to work.
--   **✅SUPPORT #70 - Maintains a tax that currently exists on rolling stock **- The current draft of H.4508 includes a tax break worth $9-11M per year for the transportation industry.  This amendment removes that tax break.
+-   **✅ SUPPORT #17 - Increases the corporate tax rate on the largest 403 corporations in MA **- This would only affect the richest 403 corporations that earn over $1 Billion per year in annual sales.  It would increase the corporate minimum tax from $150,000 to $250,000.  This is only an increase of 0.01% in the effective tax rate for these corporations, and would raise approximately $40M / year to fund transportation projects.
+-   **✅ SUPPORT #68 - Creates a transportation excise fee on the largest corporations**- This tax would raise $150M / year by assessing an excise tax on corporations of over 100 employees.  It's a progressive tax, so smaller companies would pay less than larger companies, and estimates based on 2017 employee data show that it would be about $50 per employee for the smallest companies.  This is a *very modest* tax on employers who depend on our transportation system to get their employees to work.
+-   **✅ SUPPORT #70 - Maintains a tax that currently exists on rolling stock **- The current draft of H.4508 includes a tax break worth $9-11M per year for the transportation industry.  This amendment removes that tax break.
 
 **Amendments #72 and #60 - Free & reduced fares for residents**
 
--   **✅SUPPORT #72 - Free & Reduced fairs **- Dedicates the $9M-11M in revenue saved through amendment #70 to be used to give residents reduced or free fairs on MBTA, commuter rail, and regional transportation systems. The amendment prioritizes Environmental Justice & low income communities.
--   **✅SUPPORT #60 - Free bus fares (Boston & Regional Bus Networks) **- This amendment dedicates a fifth of the gas tax revenue to providing free bus service to people using the MBTA, and another fifth of the gas tax revenue to providing free bus service to riders of RTAs in different regions of the state outside Boston.  This helps low income people & the environment.  It's win win!
+-   **✅ SUPPORT #72 - Free & Reduced fairs **- Dedicates the $9M-11M in revenue saved through amendment #70 to be used to give residents reduced or free fairs on MBTA, commuter rail, and regional transportation systems. The amendment prioritizes Environmental Justice & low income communities.
+-   **✅ SUPPORT #60 - Free bus fares (Boston & Regional Bus Networks) **- This amendment dedicates a fifth of the gas tax revenue to providing free bus service to people using the MBTA, and another fifth of the gas tax revenue to providing free bus service to riders of RTAs in different regions of the state outside Boston.  This helps low income people & the environment.  It's win win!
 
 You can look up your State Rep here: <https://malegislature.gov/Search/FindMyLegislator>
 

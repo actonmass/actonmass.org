@@ -11,6 +11,7 @@ html {
 }
 
 body {
+  color: #061729;
   background: #f4f7fc;
   line-height: 1.4;
   overflow-x: hidden;
@@ -449,87 +450,6 @@ ul.main_breadcrumb li a:hover {
   color: var(--primary);
 }
 
-/*--------------------------------------------------------*/
-/*--------------------- ISSUES PG ------------------------*/
-/*--------------------------------------------------------*/
-
 /*-----------------------------------------------------------------------*/
 /*--------------------- BLOG Post PG (blog posts) ------------------------*/
 /*-----------------------------------------------------------------------*/
-
-.blogpg_wrapper {
-  display: grid;
-  grid-template-areas:
-    "header"
-    "breadcrumb"
-    "blogpg_title"
-    "blogpg_img"
-    "blogtxt_wrapper"
-    "footer";
-}
-
-.blogpg_title {
-  grid-area: blogpg_title;
-  padding: 2rem;
-  justify-self: center;
-  display: grid;
-  color: var(--primary);
-}
-
-@media (min-width: 700px) {
-  .blogpg_title {
-    padding: 3rem 20rem 0rem 20rem;
-  }
-}
-
-.blogpg_img {
-  grid-area: blogpg_img;
-  justify-self: center;
-  width: 30rem;
-}
-
-@media (min-width: 700px) {
-  .blogpg_img {
-    width: 60rem;
-    padding: 5rem 0rem 0rem 0rem;
-  }
-}
-
-.blogtxt_wrapper {
-  grid-area: blogtxt_wrapper;
-  padding: 2rem;
-  justify-self: center;
-  max-width: 64rem;
-}
-
-@media (min-width: 700px) {
-  .blogtxt_wrapper {
-    /*padding: 5rem 20rem 5rem 20rem;*/
-    max-width: 50rem;
-  }
-}
-
-.blogpg_txt {
-  line-height: 2rem;
-  padding: 1rem 0rem 1rem 0rem;
-}
-
-.blogpg_header {
-  color: var(--primary);
-}
-
-.blog_header {
-  color: var(--primary);
-}
-
-.blog_header_date {
-  justify-self: left;
-  padding: 1rem 0rem 1rem 0rem;
-  color: #11447b;
-}
-
-@media (min-width: 700px) {
-  .blog_header_date {
-    justify-self: center;
-  }
-}

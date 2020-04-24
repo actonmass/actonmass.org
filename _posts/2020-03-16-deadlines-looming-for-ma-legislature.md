@@ -5,14 +5,7 @@ date: 2020-01-01T17:10:41.316Z
 image: https://hs-6201350.f.hubspotstarter.net/hub/6201350/hubfs/Pledge%20signers.png?upscale=true&width=1120&upscale=true&name=Pledge%20signers.png
 ---
 
-
- ![_AOM logo for fb v3](https://hs-6201350.f.hubspotstarter.net/hub/6201350/hubfs/_AOM%20logo%20for%20fb%20v3.png?upscale=true&width=300&upscale=true&name=_AOM%20logo%20for%20fb%20v3.png)
-
-**Deadlines looming for legislature**
-
 MA State legislative session is almost two-thirds finished.
-
-
 
 Friend-
 
@@ -64,7 +57,7 @@ If your Rep is not on the list below, call them and ask them to sign our pledge.
 
 ## Forward this email to a friend! Join our Email list!
 
-## We are grateful to you for subscribing to our email updates.  If you find them informative and helpful, we would appreciate if you forward this email to a friend and tell them why you are on our email list and encourage them to subscribe.
+**We are grateful to you for subscribing to our email updates.  If you find them informative and helpful, we would appreciate if you forward this email to a friend and tell them why you are on our email list and encourage them to subscribe.**
 
 ## When you forward the email they can use the form below to sign up to get email alerts from us. Thank you!
 

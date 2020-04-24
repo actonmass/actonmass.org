@@ -1,31 +1,34 @@
 ---
-layout: default
+layout: new-base
 ---
-<div class="post">
-    <h1>{{ page.title | smartify }}</h1>
-    <p class="post-date">Posted on {{ page.date | date_to_string }}</p>
-    {{ content }}
-    <hr/>
-    <div class="centered">
-        <a class="social-media-link" href="https://www.facebook.com/sharer.php?u={{ site.url | url_encode }}{{ page.url | url_encode }}&title={{ page.title | url_encode }}" title="Share on Facebook" target="_blank">
-            <img src="/img/fb.png" alt="Facebook logo"/>
-        </a>
-        <a class="social-media-link" href="https://twitter.com/intent/tweet?text={{ page.title | url_encode }}&url={{ site.url | url_encode }}{{ page.url | url_encode }}" title="Share on Twitter" target="_blank">
-            <img src="/img/twitter.png" alt="Twitter logo"/>
-        </a>
+
+<main class="blog-post-page">
+  <section class="cbox light-blue">
+    <div class="w1200 cbox">
+      <div class="w1000">
+        <div class="post">
+          <div class="post-header">
+            <h2 class="fUppercase fRaleway fExbold">{{ page.title | smartify }}</h2>
+            <p class="post-date fRoboto fLight">Posted on {{ page.date | date: '%B %d, %Y' }}</p>
+          </div>
+          <div class="post-content">
+            {{ content }}
+          </div>
+        </div>
+        <ul class="pager">
+          <li>
+            {% if page.next.url %}
+            <a href="{{ page.next.url }}" title="{{page.next.title | smartify}}">&larr; Next Post</a>
+            {% endif %}
+          </li>
+          <li><a href="/blog">All posts</a></li>
+          <li>
+            {% if page.previous.url %}
+            <a href="{{ page.previous.url }}" title="{{page.previous.title | smartify}}">Previous Post &rarr;</a>
+            {% endif %}
+          </li>
+        </ul>
+      </div>
     </div>
-    <hr/>
-</div>
-<ul class="pager">
-    <li>
-        {% if page.previous.url %}
-            <a href="{{ page.previous.url }}" title="{{page.previous.title | smartify}}">&larr; Previous Post</a>
-        {% endif %}
-    </li>
-    <li><a href="/blog">All posts</a></li>
-    <li>
-        {% if page.next.url %}
-            <a href="{{ page.next.url }}" title="{{page.next.title | smartify}}">Next Post &rarr;</a>
-        {% endif %}
-    </li>
-</ul>
+  </section>
+</main>
