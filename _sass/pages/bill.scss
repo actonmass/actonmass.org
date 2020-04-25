@@ -127,6 +127,7 @@
 
     .event-description {
       grid-area: 1 / 1;
+      justify-self: center;
       width: min(36rem, 100%);
       padding: 1rem;
       background-color: var(--light);
@@ -160,7 +161,9 @@
 
     .event-container + .event-container {
       .event-description {
-        margin-top: 0;
+        @media (max-width: 699px) {
+          margin-top: 0;
+        }
       }
     }
   }
