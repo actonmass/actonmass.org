@@ -4,6 +4,7 @@ We have to use CommonJS here, but other files should be written using ES6 module
 */
 
 const { renderMap } = require("./Map").default;
+const { renderHistory } = require("./History").default;
 const { renderFindMyReps } = require("./find-my-reps/find-my-reps").default;
 const { renderBillTimeline } = require("./bill-timeline/bill-timeline").default;
 
@@ -11,4 +12,5 @@ module.exports = {
   renderMap,
   renderFindMyReps,
   renderBillTimeline,
+  renderHistory,
 };

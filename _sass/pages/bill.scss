@@ -56,6 +56,115 @@
     }
   }
 
+  .history {
+    h2 {
+      margin-bottom: 2rem;
+    }
+    .event-container,
+    .year-container {
+      display: grid;
+      grid-template-columns: 1fr;
+
+      @media (min-width: 700px) {
+        grid-template-columns: 2fr 1fr 2fr;
+      }
+    }
+
+    .year-rect {
+      background-color: var(--primary);
+      border-radius: 1rem;
+      text-align: center;
+      padding: 1rem;
+      justify-self: center;
+      box-sizing: unset;
+      height: 3rem;
+      width: 20rem;
+      font-size: 2rem;
+
+      @media (min-width: 700px) {
+        grid-column-start: 2;
+      }
+
+      &.small {
+        width: 10rem;
+        height: 2rem;
+      }
+    }
+
+    .history-line {
+      display: grid;
+      min-height: 5rem;
+      grid-area: 1 / 1;
+
+      @media (min-width: 700px) {
+        grid-column-start: 2;
+      }
+
+      .cbox {
+        grid-area: 1 / 1;
+        width: 100%;
+        height: 100%;
+      }
+
+      .bill_hist_circ {
+        height: 3rem;
+        width: 3rem;
+        background-color: #eca632;
+        border-radius: 50%;
+        display: none;
+
+        @media (min-width: 700px) {
+          display: initial;
+        }
+      }
+
+      .hist_line {
+        width: 0.5rem;
+        height: 100%;
+        background-color: #eca632;
+      }
+    }
+
+    .event-description {
+      grid-area: 1 / 1;
+      width: min(36rem, 100%);
+      padding: 1rem;
+      background-color: var(--light);
+      border-radius: 1rem;
+      flex-wrap: nowrap;
+      justify-content: space-between;
+      margin: 4rem 0;
+
+      @media (min-width: 700px) {
+        grid-column-start: 1;
+        justify-self: end;
+      }
+
+      .event-text,
+      i {
+        margin: 0;
+      }
+
+      &.death {
+        background-color: #780116;
+        color: var(--light);
+      }
+    }
+
+    .event-container.odd .event-description {
+      @media (min-width: 700px) {
+        grid-column-start: 3;
+        justify-self: start;
+      }
+    }
+
+    .event-container + .event-container {
+      .event-description {
+        margin-top: 0;
+      }
+    }
+  }
+
   .btn {
     margin-bottom: 3rem;
     max-width: 30rem;
@@ -508,42 +617,6 @@ section.map {
   grid-area: 9 / 1 / 10 / 3;
 }
 
-.hist_header {
-  grid-area: 1 / 1 / 1 / 4;
-  justify-self: left;
-  padding: 5rem 0rem 10rem 0rem;
-}
-
-.hist_line {
-  width: 0.5rem;
-  height: 300rem;
-  background-color: #eca632;
-  justify-self: center;
-  grid-area: 2 / 2 / 16 / 2;
-}
-
-.hist_rect_sm {
-  width: 10rem;
-  height: 2rem;
-  background-color: var(--primary);
-  border-radius: 1rem;
-  text-align: center;
-  padding: 1rem;
-  justify-self: center;
-  box-sizing: unset;
-}
-
-.hist_rect_lg {
-  height: 3rem;
-  width: 20rem;
-  background-color: var(--primary);
-  border-radius: 1rem;
-  text-align: center;
-  padding: 1rem;
-  justify-self: center;
-  box-sizing: unset;
-}
-
 .billpg_hist .rect1 {
   grid-area: 2 / 2;
 }
@@ -574,13 +647,6 @@ section.map {
 
 .billpg_hist .rect8 {
   grid-area: 16 / 2;
-}
-
-.bill_hist_circ {
-  height: 3rem;
-  width: 3rem;
-  background-color: #eca632;
-  border-radius: 50%;
 }
 
 .billpg_hist .cir1 {
@@ -756,14 +822,6 @@ section.map {
   justify-self: center;
   text-align: left;
   padding: 1rem;
-}
-
-.bill_hist_txt {
-  height: 7rem;
-  width: 36rem;
-  background-color: var(--light);
-  border-radius: 1rem;
-  display: grid;
 }
 
 .sent_txt {

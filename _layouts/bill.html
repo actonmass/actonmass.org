@@ -156,22 +156,10 @@ layout: base
       {% include bill-timeline.html timeline = bill.timeline %}
     </div>
   </section>
+  <section class="history medium-blue cbox">
+    <div class="w1400">
+      <h2 class="fUppercase fRaleway fExbold">History of the bill</h2>
+      {% include bill-history.html bill = bill %}
+    </div>
+  </section>
 </main>
-
-{% if false %}
-<h2>History of the bill</h2>
-  {% for event_ in bill.history%}
-
-    {% if event_.bill_event %}
-      {% assign event = site.data.cache.bill_events_by_id[event_.bill_event] %}
-    {% else %}
-      {% assign event = event_ %}
-    {% endif %}
-
-    <h5>
-    {{ event.date | append: "-01" | date: "%B %Y"}}
-    </h5>
-    {{ event.description | markdownify }}
-    <hr/>
-  {% endfor %}
-{% endif %}

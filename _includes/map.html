@@ -1,7 +1,8 @@
 {% assign map = include %}
 <div id="unique-id"></div>
 <script>
-  var data = [
+  window.addEventListener("DOMContentLoaded", function() {
+    var data = [
     {% for leg in site.legislators %}
       {% assign district = site.data.cache.districts_by_id[leg.district] %}
       {% assign short_id = leg.id | replace: "/legislators/", "" %}
@@ -17,7 +18,6 @@
       },
     {% endfor %}
   ];
-  window.addEventListener("DOMContentLoaded", function() {
     AOM.renderMap("unique-id", data);
   });
 </script>

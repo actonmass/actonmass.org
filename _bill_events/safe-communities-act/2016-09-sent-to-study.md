@@ -4,6 +4,7 @@ date: 2016-09-15T00:00:00.000Z
 description: Sent to study by the Public Safety Committee
 bill: safe-communities-act
 progressive_vote: 'no'
+type: death
 vote_descriptions:
   'yes': >-
     Voted to send the [Safe Communities Act](/bills/safe-communities-act/) to
