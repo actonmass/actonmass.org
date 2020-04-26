@@ -2,7 +2,7 @@
 id: climate
 layout: issue
 title: Climate
-subtitle: 100% renewable by 2050 or sooner
+subtitle: 100% renewable by 2045 or sooner
 logo: temperature-high
 img: /img/issue-climate.jpg
 catchphrase: "Climate change is real and our environment is in crisis. The
