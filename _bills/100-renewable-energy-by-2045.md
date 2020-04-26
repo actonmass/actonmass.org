@@ -8,6 +8,8 @@ house_link: https://malegislature.gov/Bills/191/H2836
 senate_no: S1958
 committee: joint-telecommunications-utilities-and-energy
 issue: climate
+summary:
+  - Electricity from fully renewable sources by 2035
 orgs:
   - MA Power Forward
   - CWA
@@ -16,7 +18,6 @@ house_lead_sponsors:
   - sean-garballey
 senate_lead_sponsors:
   - james-eldridge
-summary: []
 co_sponsors:
   - marjorie-decker
   - sean-garballey
