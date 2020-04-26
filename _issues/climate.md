@@ -5,8 +5,7 @@ title: Climate
 subtitle: 100% renewable by 2045 or sooner
 logo: temperature-high
 img: /img/issue-climate.jpg
-catchphrase: "Climate change is real and our environment is in crisis. The
-  science is clear: we are running out of time to address climate change"
+catchphrase: "The science is clear: we are running out of time to address climate change"
 highlighted_bills:
   - 100-renewable-energy-by-2045
   - environmental-justice
