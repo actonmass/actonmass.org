@@ -9,7 +9,9 @@ senate_no: S1958
 committee: joint-telecommunications-utilities-and-energy
 issue: climate
 summary:
-  - Electricity from fully renewable sources by 2035
+  - All energy needs met with renewables by 2045 (electricity by 2035)
+  - Improve energy efficiency to reduce consumption
+  - Prioritize a just transition for impacted workers & front line communities
 orgs:
   - MA Power Forward
   - CWA
