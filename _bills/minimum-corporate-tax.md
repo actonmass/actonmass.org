@@ -1,6 +1,6 @@
 ---
 id: minimum-corporate-tax
-short_title: Minimum corporate tax
+title: Minimum corporate tax
 full_title: ''
 house_no: H2424
 house_link: https://malegislature.gov/Bills/191/H2424

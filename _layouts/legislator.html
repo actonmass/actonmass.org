@@ -22,7 +22,7 @@ layout: base
           {% if leg.square_picture %}
           <img src="{{leg.square_picture}}" alt="{{leg.first_name}} {{leg.last_name}}" />
           {% endif %}
-          <p class="fRoboto fLight fWhite">{{leg_title}} {{leg.first_name}} {{leg.last_name}}</p>
+          <p class="fRoboto fLight fWhite">{{leg_title}} {{leg.first_name}} {{leg.last_name}} - {{leg.party}}</p>
           <div class="icons">
             {% if leg.email and leg.email != "" %}<a href="mailto:{{leg.email}}"><i class="icon far fa-envelope fa-2x"></i></a>{% endif %}
             {% if leg.facebook and leg.facebook != "" %}<a href="{{leg.facebook}}"><i class="icon fab fa-facebook-f fa-2x"></i></a>{% endif %}
@@ -114,7 +114,7 @@ layout: base
               {% else %}
                 <img class="red_x" src="/img/red_x.png" alt="red x">
               {% endif %}
-              <p class="fWhite fRoboto fLight"><a href="{{bill.id}}">{{bill.short_title}}</a></p>
+              <p class="fWhite fRoboto fLight"><a href="{{bill.id}}">{{bill.title}}</a></p>
             </div>
             {% endfor %}
           {% endif %}

@@ -138,6 +138,10 @@ td {
 .dark,
 .darker {
   color: var(--light);
+
+  a:hover {
+    color: #56ccf2;
+  }
 }
 
 .light-blue {

@@ -5,7 +5,7 @@
 <div class="leg_circ {{size}}">
   <div class="cbox">
     <div class="image-with-check">
-      <img class="leg_circ_img {{status}}" src="{{rep.square_picture}}" alt="{{rep.first_name}} {{rep.last_name}}" />
+      <a href="{{rep.id}}" class="leg_circ_img {{status}}"><img src="{{rep.square_picture}}" alt="{{rep.first_name}} {{rep.last_name}}" /></a>
       {% if status == 'ok' %}
         <img class="leg_circ_check" src="/img/green_check.png" alt="green check" />
       {% endif %}

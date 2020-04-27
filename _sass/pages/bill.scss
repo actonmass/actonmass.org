@@ -19,13 +19,16 @@
       grid-area: hero_title;
       align-self: end;
       padding: 0;
-      text-transform: uppercase;
       z-index: 1;
       text-align: center;
 
       @media (min-width: 700px) {
         margin-bottom: 0;
         text-align: left;
+      }
+
+      h2 {
+        text-transform: uppercase;
       }
     }
 

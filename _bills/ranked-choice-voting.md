@@ -1,6 +1,6 @@
 ---
 id: ranked-choice-voting
-short_title: Ranked Choice Voting
+title: Ranked Choice Voting
 full_title: An Act to Use of Ranked Choice Voting in Elections
 house_no: H719
 house_link: https://malegislature.gov/Bills/191/H719

@@ -1,6 +1,6 @@
 ---
 id: driver-license-regardless-immigration-status
-short_title: Driving ma forward
+title: Driving ma forward
 full_title: The Work and Family Mobility Act
 house_no: H3012
 house_link: https://malegislature.gov/Bills/191/H3012

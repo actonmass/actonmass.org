@@ -90,9 +90,9 @@ collections:
         collection: bills
         multiple: true
         searchFields:
-          - short_title
+          - title
         displayFields:
-          - short_title
+          - title
         valueField: id
       - label: “Failures“ section title
         name: failures_block_title
@@ -347,15 +347,15 @@ collections:
     label: Bills
     folder: _bills/
     create: true
-    slug: "{{short_title}}"
-    identifier_field: short_title
+    slug: "{{title}}"
+    identifier_field: title
     editor:
       preview: false
     fields:
       - <<: *id-field
         default: "Exemple: safe-communities-act"
       - label: Short title
-        name: short_title
+        name: title
         widget: string
       - label: Full title
         name: full_title
@@ -485,9 +485,9 @@ collections:
         widget: relation
         collection: bills
         searchFields:
-          - short_title
+          - title
         displayFields:
-          - short_title
+          - title
         valueField: id
       - label: Progressive vote
         name: progressive_vote

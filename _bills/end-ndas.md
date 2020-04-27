@@ -1,6 +1,6 @@
 ---
 id: end-ndas
-short_title: End NDAs
+title: End NDAs
 full_title: ''
 house_no: ''
 house_link: ''

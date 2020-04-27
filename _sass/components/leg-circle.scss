@@ -14,25 +14,27 @@
 
     .leg_circ_img {
       border-radius: 50%;
-      border: solid 0.5rem grey;
-      width: 8rem;
       grid-area: 1 / 1;
-      margin: 0rem 1rem 0rem 1rem;
       box-sizing: unset;
 
-      @media (min-width: 700px) {
-        border-radius: 50%;
-        border: solid 0.75rem #5fad41;
-        width: 10rem;
-        grid-area: 1 / 1;
-      }
-
-      &.ok {
+      &.ok img {
         border-color: #5fad41;
       }
 
-      &.ko {
+      &.ko img {
         border-color: #780116;
+      }
+
+      img {
+        margin: 0rem 0.5rem;
+        width: 8rem;
+        border: solid 0.5rem grey;
+        border-radius: 50%;
+
+        @media (min-width: 700px) {
+          width: 10rem;
+          border-width: 0.75rem;
+        }
       }
     }
 
@@ -66,11 +68,15 @@
       max-width: 18rem;
     }
 
-    .leg_circ_img {
-      width: 10rem;
+    .leg_circ_img img {
+      width: 9rem;
       @media (min-width: 700px) {
         width: 14rem;
       }
     }
   }
+}
+
+a .leg_circ {
+  text-decoration: none;
 }

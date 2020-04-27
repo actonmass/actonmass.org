@@ -31,7 +31,7 @@ layout: base
         <div class="bill vbox">
           {% assign bill = site.data.cache.bills_by_id[bill_id] %}
           <div class="bill-text">
-            <h4 class="issues_bill_title fRaleway fExbold fUppercase">{{bill.short_title}}</h4>
+            <h4 class="issues_bill_title fRaleway fExbold fUppercase">{{bill.title}}</h4>
             <div class="rect_underline"></div>
             <ul class="issues_bills_bullets">
               {% for point in bill.summary %}

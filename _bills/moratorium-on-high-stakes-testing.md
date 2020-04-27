@@ -1,6 +1,6 @@
 ---
 id: moratorium-on-high-stakes-testing
-short_title: Moratorium on high stakes testing
+title: Moratorium on high stakes testing
 full_title: An Act to place a moratorium on high stakes testing
 house_no: H431
 house_link: https://malegislature.gov/Bills/191/H431

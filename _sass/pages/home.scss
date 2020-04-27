@@ -185,31 +185,29 @@ a.btn_issues {
 .take_action {
   grid-area: take_action;
   background-color: var(--primary);
-  display: grid;
   padding: 0;
-  grid-column-gap: 2rem;
+  display: flex;
+  justify-content: center;
 
   @media (min-width: 700px) {
     grid-area: take_action;
     display: grid;
+    justify-content: normal;
+    grid-column-gap: 2rem;
     padding: 5rem 20rem 5rem 20rem;
     grid-column-gap: 2rem;
   }
 
   .learn {
-    grid-area: 2 / 1;
-    max-width: 20rem;
-    justify-self: center;
-    display: grid;
     display: none;
-    line-height: 2.4rem;
-    grid-template-rows: auto 1fr auto;
 
     @media (min-width: 700px) {
       grid-area: 2 / 1;
+      line-height: 2.4rem;
       max-width: 20rem;
       justify-self: center;
       display: grid;
+      grid-template-rows: auto 1fr auto;
       display: inherit;
       text-align: left;
       color: var(--light);
@@ -220,7 +218,7 @@ a.btn_issues {
       justify-self: left;
       height: 3rem;
       width: 15rem;
-      padding-top: 0.5rem;
+      padding: 0;
       margin-top: 1rem;
       color: var(--dark);
       text-decoration: none;
@@ -229,20 +227,15 @@ a.btn_issues {
   }
 
   .volunteer {
-    /*grid-area: 2 / 2;*/
-    max-width: 20rem;
-    justify-self: center;
-    display: grid;
-    padding: 5rem 0rem 5rem 0rem;
-    line-height: 2.4rem;
-    grid-template-rows: auto 1fr auto;
+    display: none;
 
     @media (min-width: 700px) {
+      line-height: 2.4rem;
       grid-area: 2 / 2;
       max-width: 20rem;
       justify-self: center;
       display: grid;
-      padding: 0;
+      grid-template-rows: auto 1fr auto;
       text-align: left;
     }
 
@@ -257,17 +250,17 @@ a.btn_issues {
   }
 
   .act {
-    grid-area: 2 / 3;
     max-width: 20rem;
     justify-self: center;
     display: grid;
-    display: none;
+    padding: 5rem 0rem 5rem 0rem;
     line-height: 2.4rem;
     grid-template-rows: auto 1fr auto;
 
     @media (min-width: 700px) {
       grid-area: 2 / 3;
       max-width: 20rem;
+      padding: 0;
       justify-self: center;
       display: grid;
       display: inherit;

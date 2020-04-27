@@ -1,6 +1,6 @@
 ---
 id: capital-gains
-short_title: Capital gains
+title: Capital gains
 full_title: ''
 house_no: H2610
 house_link: https://malegislature.gov/Bills/191/H2610

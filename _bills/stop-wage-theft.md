@@ -1,6 +1,6 @@
 ---
 id: stop-wage-theft
-short_title: Stop wage theft
+title: Stop wage theft
 full_title: An Act to prevent wage theft, promote employer accountability, and enhance
   public enforcement
 house_no: H1610
