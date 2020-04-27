@@ -120,9 +120,8 @@ co_sponsors:
   - william-driscoll
   - william-galvin
 timeline:
-  events:
-    - date: "2019-12-02"
-      description: Hearing
+  - date: "2019-12-02"
+    description: Hearing
 history:
   - date: 2019-01
     description: Filed as Safe Communities Act - H3573

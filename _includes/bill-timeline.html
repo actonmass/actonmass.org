@@ -8,7 +8,7 @@
             filingDate: globalFilingDate,
             sessionEndDate: globalSessionEndDate,
             events: [
-                {% for event in bill_timeline.timeline.events %}
+                {% for event in bill_timeline.timeline %}
                 {
                     text: "{{ event.description }}",
                     date: "{{ event.date }}"

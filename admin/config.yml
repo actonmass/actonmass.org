@@ -438,7 +438,7 @@ collections:
         name: co_sponsors
         multiple: true
         required: false
-      - label: Bill events
+      - label: Bill history events
         name: history
         required: false
         collapsed: false
@@ -462,6 +462,29 @@ collections:
             required: false
             name: description
             widget: text
+          - label: Type of event (fill only if no detailed bill event)
+            required: false
+            name: type
+            widget: select
+            options:
+              - label: Normal
+                value: null
+              - label: Death
+                value: death
+      - label: Bill timeline events
+        name: timeline
+        required: false
+        collapsed: false
+        widget: list
+        fields:
+          - <<: *date-picker
+            required: false
+            label: Date
+            name: date
+          - label: Description
+            required: false
+            name: description
+            widget: string
   - name: bill_events
     path: "{{bill}}/{{description}}"
     label: Detailed bill events
@@ -497,6 +520,15 @@ collections:
             value: yes
           - label: No
             value: no
+      - label: Type of event (will render event differently in history)
+        required: false
+        name: type
+        widget: select
+        options:
+          - label: Normal
+            value: null
+          - label: Death
+            value: death
       - label: Vote descriptions
         name: vote_descriptions
         widget: object
