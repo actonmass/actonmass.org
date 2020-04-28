@@ -140,26 +140,6 @@ li {
   text-transform: uppercase;
 }
 
-.btn {
-  border: none;
-  background-color: #eca632;
-  padding: 14px 28px;
-  font-size: 16px;
-  font-weight: 700;
-  text-transform: uppercase;
-  cursor: pointer;
-  display: inline-block;
-  max-width: 25rem;
-  max-height: 5rem;
-  border-radius: 4px;
-  box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.5);
-}
-
-/* On mouse-over */
-.btn:hover {
-  background: #eee;
-}
-
 .container {
   display: grid;
   grid-template-columns: repeat(12, 1fr);

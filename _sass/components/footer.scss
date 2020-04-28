@@ -1,6 +1,17 @@
 .main_footer {
   grid-area: footer;
   display: grid;
+
+  .btn_footer {
+    background-color: #145396;
+    margin-top: 4rem;
+    color: var(--light);
+    justify-self: center;
+
+    &:hover {
+      color: inherit;
+    }
+  }
 }
 
 .footer_top {
@@ -19,17 +30,6 @@
   .main_footer .footer_txt {
     max-width: 60rem;
   }
-}
-
-.btn_footer {
-  background-color: #145396;
-  margin-top: 4rem;
-  color: var(--light);
-  justify-self: center;
-}
-
-.btn_footer:hover {
-  color: inherit;
 }
 
 .footer_bottom {
