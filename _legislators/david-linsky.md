@@ -16,4 +16,5 @@ square_picture: /img/legislators/square-pictures/david-linsky.jpg
 start_date: ''
 twitter: ''
 website: ''
+ocd_id: ocd-person/06867e5f-9de5-4cb2-a3ae-a039e890718c
 ---

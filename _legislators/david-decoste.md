@@ -16,4 +16,5 @@ square_picture: /img/legislators/square-pictures/david-decoste.jpg
 start_date: ''
 twitter: ''
 website: ''
+ocd_id: ocd-person/cf295962-4f8d-427a-84e9-c7615ff94c8c
 ---

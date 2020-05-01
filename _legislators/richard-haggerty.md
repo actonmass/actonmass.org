@@ -16,4 +16,5 @@ square_picture: /img/legislators/square-pictures/richard-haggerty.jpg
 start_date: ''
 twitter: ''
 website: ''
+ocd_id: ocd-person/521620ea-1e5b-4a0c-94f8-abe888370e05
 ---

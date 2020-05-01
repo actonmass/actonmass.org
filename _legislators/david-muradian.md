@@ -16,4 +16,5 @@ square_picture: /img/legislators/square-pictures/david-muradian.jpg
 start_date: ''
 twitter: ''
 website: ''
+ocd_id: ocd-person/b601dee7-1ad1-4f36-b585-b0fb5077fd89
 ---

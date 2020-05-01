@@ -16,4 +16,5 @@ square_picture: /img/legislators/square-pictures/nicholas-boldyga.jpg
 start_date: ''
 twitter: https://twitter.com/RepNickBoldyga
 website: http://nickboldyga.com/
+ocd_id: ocd-person/0e72fc19-89be-49b9-8baf-5f35f938ec87
 ---

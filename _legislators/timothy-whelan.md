@@ -16,4 +16,5 @@ square_picture: /img/legislators/square-pictures/timothy-whelan.jpg
 start_date: '2015-01-07'
 twitter: https://twitter.com/TRWhelan
 website: https://timwhelan.org/
+ocd_id: ocd-person/46d663c3-6d1a-42d6-8ae4-db406f20af8a
 ---

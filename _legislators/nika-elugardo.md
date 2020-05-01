@@ -16,4 +16,5 @@ square_picture: /img/legislators/square-pictures/nika-elugardo.jpg
 start_date: ''
 twitter: ''
 website: ''
+ocd_id: ocd-person/c8fe117c-4c65-45c7-bdf1-fec80bd0f344
 ---

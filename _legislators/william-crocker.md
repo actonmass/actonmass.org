@@ -16,4 +16,5 @@ square_picture: /img/legislators/square-pictures/william-crocker.jpg
 start_date: '2017-01-04'
 twitter: https://twitter.com/WillCrockerJr
 website: http://www.electwillcrocker.com/
+ocd_id: ocd-person/3577fe5d-44ba-4ab8-ab2b-40524dac3755
 ---

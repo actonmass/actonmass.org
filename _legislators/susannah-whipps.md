@@ -16,4 +16,5 @@ square_picture: /img/legislators/square-pictures/susannah-whipps.jpg
 start_date: ''
 twitter: https://twitter.com/repwhipps
 website: https://www.repwhipps.com/
+ocd_id: ocd-person/76b07f35-1876-4259-9c0a-bdf595541c39
 ---

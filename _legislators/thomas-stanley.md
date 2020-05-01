@@ -16,4 +16,5 @@ square_picture: /img/legislators/square-pictures/thomas-stanley.jpg
 start_date: ''
 twitter: ''
 website: ''
+ocd_id: ocd-person/2becbe4e-5b5e-4b42-be87-b4abf57550c7
 ---

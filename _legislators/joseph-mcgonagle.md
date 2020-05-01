@@ -16,4 +16,5 @@ square_picture: /img/legislators/square-pictures/joseph-mcgonagle.jpg
 start_date: ''
 twitter: ''
 website: ''
+ocd_id: ocd-person/6c3b63a2-ef13-43e5-b6de-d5e0901aa65a
 ---

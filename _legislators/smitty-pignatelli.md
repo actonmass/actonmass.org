@@ -15,5 +15,6 @@ picture: https://scontent.fnyc1-1.fna.fbcdn.net/v/t1.0-9/10449935_50831280930182
 square_picture: /img/legislators/square-pictures/smitty-pignatelli.png
 start_date: '2003-01-01'
 twitter: https://twitter.com/repsmitty
-website:
+website: null
+ocd_id: ocd-person/88e0ae45-75e7-48b6-880a-1a4c039d4373
 ---

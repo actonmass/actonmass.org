@@ -16,4 +16,5 @@ square_picture: /img/legislators/square-pictures/jerald-parisella.png
 start_date: ''
 twitter: https://twitter.com/JerryParisella
 website: http://www.jerryparisella.com/main.html
+ocd_id: ocd-person/67833a9e-e086-4494-a364-fecdcd6aa609
 ---

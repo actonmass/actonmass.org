@@ -16,4 +16,5 @@ square_picture: /img/legislators/square-pictures/mindy-domb.jpg
 start_date: ''
 twitter: https://twitter.com/MindyForMA
 website: https://www.mindydomb.com/
+ocd_id: ocd-person/65617e1a-1834-4ec8-9f19-4ac801ce9764
 ---

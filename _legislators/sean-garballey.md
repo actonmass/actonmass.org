@@ -16,4 +16,5 @@ square_picture: /img/legislators/square-pictures/sean-garballey.jpg
 start_date: ''
 twitter: ''
 website: ''
+ocd_id: ocd-person/1e9d742c-c20b-45cf-9e22-e7752189fa7a
 ---

@@ -16,4 +16,5 @@ square_picture: /img/legislators/square-pictures/david-nangle.png
 start_date: ''
 twitter: ''
 website: ''
+ocd_id: ocd-person/6eb6d59e-8df1-4a69-9335-391b8c30e7ea
 ---

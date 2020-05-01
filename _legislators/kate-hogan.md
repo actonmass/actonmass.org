@@ -16,4 +16,5 @@ square_picture: /img/legislators/square-pictures/kate-hogan.jpg
 start_date: ''
 twitter: ''
 website: ''
+ocd_id: ocd-person/3d709a64-6cd2-49c6-ad0d-b007e834bfec
 ---

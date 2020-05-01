@@ -16,4 +16,5 @@ square_picture: /img/legislators/square-pictures/tackey-chan.jpg
 start_date: ''
 twitter: ''
 website: ''
+ocd_id: ocd-person/6b420d2a-f12d-40ca-a13f-04cf9061a66b
 ---

@@ -16,4 +16,5 @@ square_picture: /img/legislators/square-pictures/robert-deleo.jpeg
 start_date: ''
 twitter: ''
 website: ''
+ocd_id: ocd-person/7e081a6a-1b40-40e8-bf6d-bb2fc39c812f
 ---

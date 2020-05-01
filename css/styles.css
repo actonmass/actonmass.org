@@ -8,6 +8,7 @@
 
 html {
   font-size: 10px;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -307,63 +308,11 @@ li {
   background-color: #d8e5fd;
 }
 
-/* ------------------------- BILL PROCESS -------------------*/
-
-.bill_sec4 {
-  grid-area: 6 / 1 / 6 / 13;
-  background-color: #f4f7fc;
-}
-
-/* ------------------------- BILL HISTORY -------------------*/
-
-.bill_sec5 {
-  grid-area: 7 / 1 / 7 / 13;
-  background-color: #d8e5fd;
-}
-
 /*------------------------------------------------------------------*/
 /*------------------------------ SEARCH ----------------------------*/
 /*------------------------------------------------------------------*/
 
-.leg_circ_res {
-  border-radius: 50%;
-  border: solid 0.5rem #5fad41;
-  max-width: 10rem;
-  grid-area: 1 / 1;
-  margin: 0rem 1rem 1rem 1rem;
-  box-sizing: unset;
-}
-
-.senator_res {
-  display: grid;
-  grid-template-columns: 1fr 1fr auto 1fr 1fr;
-  max-width: 70vw;
-  margin-bottom: 5rem;
-  grid-column-gap: 5rem;
-  align-items: center;
-}
-
-.senator_res:hover {
-  background-color: #dfeafd;
-}
-
-.rep_res:hover {
-  background-color: #dfeafd;
-}
-
-.rep_res {
-  display: grid;
-  grid-template-columns: 1fr 1fr auto 1fr 1fr;
-  max-width: 70vw;
-  grid-column-gap: 5rem;
-  align-items: center;
-}
-
 .towns {
   max-width: 20rem;
   justify-self: center;
-}
-
-.fa-democrat {
-  color: var(--primary);
 }

@@ -16,4 +16,5 @@ square_picture: /img/legislators/square-pictures/colleen-garry.jpg
 start_date: ''
 twitter: ''
 website: ''
+ocd_id: ocd-person/0e38852a-52b0-4aac-8a65-fa3fc964c88e
 ---

@@ -16,4 +16,5 @@ square_picture: /img/legislators/square-pictures/denise-garlick.jpg
 start_date: ''
 twitter: ''
 website: ''
+ocd_id: ocd-person/7be05b7f-d3dd-4a0f-b7d0-f29144d47f92
 ---

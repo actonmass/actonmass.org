@@ -16,4 +16,5 @@ square_picture: /img/legislators/square-pictures/paul-mcmurtry.jpg
 start_date: ''
 twitter: ''
 website: ''
+ocd_id: ocd-person/d0e66289-022e-4a99-ac8c-f20fb7557e7f
 ---

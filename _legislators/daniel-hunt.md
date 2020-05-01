@@ -16,4 +16,5 @@ square_picture: /img/legislators/square-pictures/daniel-hunt.jpg
 start_date: ''
 twitter: ''
 website: ''
+ocd_id: ocd-person/2990f236-cb76-4d93-af19-7792fa77290b
 ---

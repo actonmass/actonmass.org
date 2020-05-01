@@ -16,4 +16,5 @@ square_picture: /img/legislators/square-pictures/christine-barber.jpg
 start_date: ''
 twitter: ''
 website: ''
+ocd_id: ocd-person/35396516-6096-4336-ab74-80d6d8e53bcd
 ---

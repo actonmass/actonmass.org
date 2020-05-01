@@ -3,34 +3,10 @@ layout: base
 ---
 
 <div class="search-page">
-  <section class="headline dark cbox">
+  <section class="breadcrum dark cbox">
     <div class="w1400">
       {% include breadcrum.html %}
-      {% include legislator-search.html %}
     </div>
   </section>
-  <section class="results-container cbox">
-    <div class="w1400">
-      <div class="results">
-        <h2 class="fRaleway fUppercase fRegular">results</h2>
-        <div class="search_rect1">
-          <h4 class="fUppercase fRaleway">name</h4>
-          <h4 class="fUppercase fRaleway">pledge</h4>
-          <h4 class="fUppercase fRaleway">cities/towns</h4>
-          <h4 class="fUppercase fRaleway">party</h4>
-          <h4 class="fUppercase fRaleway">chamber</h4>
-        </div>
-        <div class="empty_state_container">
-          <div class="empty_state">
-            <i class="fas empt_st fa-search-location fa-10x"></i>
-            <h4 class="fRaleway fUppercase">no results</h4>
-            <p class="fRaleway">
-              Enter your address above to <br />
-              see your legislators
-            </p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
+  {% include legislator-search.html theme="dark" resultStyle="full" %}
 </div>

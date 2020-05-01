@@ -16,4 +16,5 @@ square_picture: /img/legislators/square-pictures/natalie-blais.jpg
 start_date: ''
 twitter: https://twitter.com/BlaisForMA
 website: https://www.blaisforma.org/
+ocd_id: ocd-person/173c7e47-c770-4c5a-9794-4db19f9f5dce
 ---

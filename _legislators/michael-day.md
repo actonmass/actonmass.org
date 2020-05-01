@@ -16,4 +16,5 @@ square_picture: /img/legislators/square-pictures/michael-day.jpg
 start_date: ''
 twitter: ''
 website: ''
+ocd_id: ocd-person/2e198563-4aeb-499b-8333-b4a46b605491
 ---

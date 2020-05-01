@@ -16,4 +16,5 @@ square_picture: /img/legislators/square-pictures/daniel-cullinane.jpg
 start_date: ''
 twitter: ''
 website: ''
+ocd_id: ocd-person/2c809d40-ca4d-47e4-bfe5-14eaa37ecf43
 ---

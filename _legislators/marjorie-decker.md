@@ -16,4 +16,5 @@ square_picture: /img/legislators/square-pictures/marjorie-decker.png
 start_date: ''
 twitter: ''
 website: ''
+ocd_id: ocd-person/b9019024-899b-41b3-a283-69c50866fabd
 ---

@@ -14,6 +14,7 @@ phone: (617) 722-2305
 picture: https://scontent.fnyc1-1.fna.fbcdn.net/v/t1.0-9/31818054_375942796256521_567798984383397888_n.png?_nc_cat=101&_nc_ht=scontent.fnyc1-1.fna&oh=cd18e9401161fc89785634c1341a447d&oe=5C976371
 square_picture: /img/legislators/square-pictures/christopher-hendricks.png
 start_date: '2019-01-02'
-twitter:
+twitter: null
 website: https://www.votehendricks.com
+ocd_id: ocd-person/9750bdb4-4dce-4003-85ec-672185a3a5a4
 ---

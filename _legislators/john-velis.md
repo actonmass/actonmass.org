@@ -16,4 +16,5 @@ square_picture: /img/legislators/square-pictures/john-velis.jpg
 start_date: ''
 twitter: https://twitter.com/repjohnvelis
 website: https://www.velisforwestfield.com/
+ocd_id: ocd-person/a37a3f66-83a2-4a7e-90e3-8de41be7262d
 ---

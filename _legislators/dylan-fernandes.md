@@ -16,4 +16,5 @@ square_picture: /img/legislators/square-pictures/dylan-fernandes.png
 start_date: '2017-01-04'
 twitter: https://twitter.com/RepDylan
 website: http://www.dylanfernandes.com/
+ocd_id: ocd-person/cd05a88c-19f0-4fc5-bc3b-d339572842b7
 ---

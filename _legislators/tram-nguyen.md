@@ -16,4 +16,5 @@ square_picture: /img/legislators/square-pictures/tram-nguyen.jpg
 start_date: ''
 twitter: https://twitter.com/TeamTram
 website: https://votetram.com/
+ocd_id: ocd-person/1e7b8d51-56fa-4faf-93e6-9b485812ddf9
 ---

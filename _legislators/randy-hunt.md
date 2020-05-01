@@ -16,4 +16,5 @@ square_picture: /img/legislators/square-pictures/randy-hunt.jpg
 start_date: '2011-01-05'
 twitter: https://twitter.com/RandyHuntCPA
 website: http://www.randyhuntstaterep.com/
+ocd_id: ocd-person/11811997-cc3d-49e1-a9de-685b9021af9a
 ---

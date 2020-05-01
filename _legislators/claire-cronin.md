@@ -16,4 +16,5 @@ square_picture: /img/legislators/square-pictures/claire-cronin.jpg
 start_date: ''
 twitter: ''
 website: ''
+ocd_id: ocd-person/8535e83a-df7d-4c14-9a19-1f32fd2147cb
 ---

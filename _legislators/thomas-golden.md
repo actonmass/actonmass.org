@@ -16,4 +16,5 @@ square_picture: /img/legislators/square-pictures/thomas-golden.jpg
 start_date: ''
 twitter: ''
 website: ''
+ocd_id: ocd-person/c51da7d7-aaf6-4621-a544-6910d5113fc2
 ---

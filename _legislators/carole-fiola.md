@@ -16,4 +16,5 @@ square_picture: /img/legislators/square-pictures/carole-fiola.png
 start_date: '2013-09-25'
 twitter: https://twitter.com/CaroleFiola
 website: http://electcarole.com/
+ocd_id: ocd-person/af41924a-7c46-4b6b-b71b-bba683c62c5f
 ---

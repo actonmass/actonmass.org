@@ -53,6 +53,8 @@ collections:
         label: ID
         name: id
         widget: string
+      - name: ocd_id
+        widget: hidden
       - label: Layout
         name: layout
         widget: hidden

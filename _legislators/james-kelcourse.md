@@ -16,4 +16,5 @@ square_picture: /img/legislators/square-pictures/james-kelcourse.jpg
 start_date: ''
 twitter: https://twitter.com/jameskelcourse
 website: https://jameskelcourse.com/
+ocd_id: ocd-person/b2e82b19-68d5-4f18-88a3-c4c399252a58
 ---

@@ -16,4 +16,5 @@ square_picture: /img/legislators/square-pictures/michael-finn.jpg
 start_date: ''
 twitter: https://twitter.com/MichaelJFinn
 website: http://www.repfinn.com/
+ocd_id: ocd-person/b61922e8-c775-4c74-8ecb-557d79162195
 ---

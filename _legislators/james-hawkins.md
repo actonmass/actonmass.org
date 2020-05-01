@@ -16,4 +16,5 @@ square_picture: /img/legislators/square-pictures/james-hawkins.png
 start_date: '2018-04-11'
 twitter: https://twitter.com/JimHawkins4Rep
 website: https://www.hawkins4rep.com/
+ocd_id: ocd-person/c8936e7c-f0f5-4dc4-b9e9-774e38638787
 ---

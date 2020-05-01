@@ -16,4 +16,5 @@ square_picture: /img/legislators/square-pictures/patricia-haddad.png
 start_date: '2000-01-01'
 twitter: https://twitter.com/patriciahaddad5
 website: http://www.reppathaddad.com/
+ocd_id: ocd-person/d2f16a1f-415d-4e60-b905-2f4c71959e0f
 ---

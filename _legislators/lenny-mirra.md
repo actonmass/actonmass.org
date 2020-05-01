@@ -16,4 +16,5 @@ square_picture: /img/legislators/square-pictures/lenny-mirra.jpg
 start_date: ''
 twitter: https://twitter.com/LennyMirra
 website: https://lennymirra.com/
+ocd_id: ocd-person/06d8e7f7-fc49-4dcf-bf23-33d36a6dcb38
 ---

@@ -10,4 +10,5 @@ malegislature_url: https://malegislature.gov/Legislators/Profile/EPL0
 party: D
 phone: 617-722-1291
 square_picture: /img/legislators/square-pictures/eric-lesser.jpg
+ocd_id: ocd-person/7bec754e-f2bf-41bc-8af4-9f11bde144d4
 ---

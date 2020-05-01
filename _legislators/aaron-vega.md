@@ -16,4 +16,5 @@ square_picture: /img/legislators/square-pictures/aaron-vega.png
 start_date: ''
 twitter: https://twitter.com/AaronMVega
 website: http://www.aaronvega.org/
+ocd_id: ocd-person/445ac849-5e68-4714-adda-759425ad72cf
 ---

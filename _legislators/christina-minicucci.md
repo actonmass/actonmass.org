@@ -16,4 +16,5 @@ square_picture: /img/legislators/square-pictures/christina-minicucci.jpg
 start_date: ''
 twitter: https://twitter.com/christina4rep
 website: https://www.christina4rep.com/
+ocd_id: ocd-person/6c91e5b9-b66a-4cb4-9fe3-ff4f5f1724e3
 ---

@@ -1,116 +1,225 @@
-import React, { useState } from 'react';
-import {render} from 'react-dom';
-import findReps from './findReps';
-
-
-const GetPartyName = (shortName) => {
-    return {
-        D: "Democrat",
-        R: "Republican"
-    }[shortName]
-};
-
-const Rep = ({type, info, allLegislatorData}) => {
-    const localInfo = allLegislatorData[info.short_id];
-    return (
-        <div >
-            <div style={{textTransform: "uppercase", marginBottom: 10}}>Your {type}:</div>
-            <div style={{display:"flex"}}>
-                <img src={localInfo.img} width={100} height={100}/>
-                <div style={{marginLeft: 10}}>
-                    <div>{info.name}</div>
-                    <br/>
-                    <div>{GetPartyName(localInfo.party)}</div>
-                </div>
-            </div>
-        </div>
-    );
-};
-
-const Reps = ({repInfo, onClearQuery, allLegislatorData}) => {
-    if (repInfo === null){
-        return (
-            <div style={{position:"absolute", top:0, bottom:0, left: 0, right: 0, display:"flex", justifyContent:"space-around", alignItems:"center"}}>
-                <div className="lds-dual-ring"/> 
-            </div>
-        );
-    }
-
-    return (
-        <div>
-            <div style={{position:"absolute", top:0, bottom:0, left: 0, right: 0, display:"flex", justifyContent:"space-around", alignItems:"center"}}>
-                <Rep type="Senator" info={repInfo.senator} allLegislatorData={allLegislatorData} />
-                <Rep type="Rep" info={repInfo.representative} allLegislatorData={allLegislatorData} />
-            </div>
-            <button style={{position:"absolute", bottom:0, right:0 }} onClick={onClearQuery}>x</button>
-        </div>
-    );
-}
-
-const Form = ({onSubmitQuery, error}) => {
-    const [streetAddress, setStreetAddress] = useState("");
-    const [city, setCity] = useState("");
-    const errorText = error ? "We couldn't locate that address" : "";
-    return (
-        <div style={{position:"absolute", top:0, bottom:0, left: 0, right: 0, display:"flex", textTransform:"uppercase", justifyContent:"center", alignItems: "center"}}>
-            <div style={{width: 200, paddingRight:50}}>Please enter your address so we can help you contact your rep.</div>
-            <div style={{display:"flex", flexDirection:"column"}}>
-                <input value={streetAddress} type="text" onChange={(e)=>{setStreetAddress(e.target.value)}} placeholder="Street Address"/>
-                <input value={city} type="text" onChange={(e)=>{setCity(e.target.value)}} placeholder="City"/>
-                <button onClick={()=>{
-                    onSubmitQuery({
-                        streetAddress: streetAddress,
-                        city: city
-                    });
-                }} disabled={!streetAddress || !city}>Submit</button>
-                <span style={{color:"red"}}>{errorText}</span>
-            </div>
-        </div>
-    );
-};
-
-
-const FindMyReps = ({onQueryReps, legislatorInfo}) => {
-    const sessionQuery = JSON.parse(window.sessionStorage.getItem("repQuery"));
-    const [query, setQuery] = useState(sessionQuery !== null ? sessionQuery.query : null);
-    const [repInfo, setRepInfo] = useState(sessionQuery !== null ? sessionQuery.repInfo : null);
-    const [error, setError] = useState(false);
-
-    const clearQuery = () => {
-        window.sessionStorage.removeItem("repQuery");
-        setQuery(null);
-        setRepInfo(null);
-    };
-
-    function handleQueryReps(newQuery) {
-        setQuery(newQuery);
-        setError(false);
-        onQueryReps(newQuery).then((repInfo)=> {
-            setRepInfo(repInfo);
-            window.sessionStorage.setItem("repQuery", JSON.stringify({
-                query: newQuery,
-                repInfo: repInfo
-            }));
-            setError(false);
-        }).catch((err)=>{
-            console.error("Query failed:", newQuery);
-            clearQuery();
-            setError(true);
-        });
-    }
-
-    if (query === null) {
-        return <Form onSubmitQuery={handleQueryReps} error={error} />;
-    }
-    return <Reps repInfo={repInfo} onClearQuery={clearQuery} allLegislatorData={legislatorInfo}/>;
-};
-
-
-const renderFindMyReps = (targetID, data) => {
-    const targetEl = document.getElementById(targetID);
-    render(<FindMyReps onQueryReps={findReps} {...data} />, targetEl);
-}
+import React, { useState } from "react";
+import { render } from "react-dom";
+import findReps from "./findReps";
+import { findRepsMock } from "./findReps";
 
 export default { renderFindMyReps };
 
+function renderFindMyReps(targetID, data) {
+  const targetEl = document.getElementById(targetID);
+  render(<FindMyReps onQueryReps={findRepsMock} {...data} />, targetEl);
+}
 
+function FindMyReps({ onQueryReps, legislatorsInfo, title, text, resultStyle, theme }) {
+  console.log(resultStyle);
+  const sessionQuery = JSON.parse(window.sessionStorage.getItem("repQuery"));
+  const [query, setQuery] = useState(sessionQuery !== null ? sessionQuery.query : null);
+  const [repInfo, setRepInfo] = useState(sessionQuery !== null ? sessionQuery.repInfo : null);
+  const [error, setError] = useState(false);
+
+  const clearQuery = () => {
+    window.sessionStorage.removeItem("repQuery");
+    setQuery(null);
+    setRepInfo(null);
+  };
+
+  function handleQueryReps(newQuery) {
+    setQuery(newQuery);
+    setError(false);
+    onQueryReps(newQuery)
+      .then((repInfo) => {
+        setRepInfo(repInfo);
+        persistQueryResults(newQuery, repInfo);
+        setError(false);
+        scrollTo("leg-search-results");
+      })
+      .catch((err) => {
+        console.error("Query failed:", newQuery);
+        clearQuery();
+        setError(true);
+      });
+  }
+
+  return (
+    <>
+      <Form title={title} text={text} onSubmit={handleQueryReps} theme={theme} />
+      <Results legInfo={repInfo} legislatorsInfo={legislatorsInfo} resultStyle={resultStyle} />
+    </>
+  );
+}
+
+function Form({ title, text, onSubmit, theme }) {
+  const [streetAddress, setStreetAddress] = useState("");
+  const [city, setCity] = useState("");
+
+  const handleSubmit = (event) => {
+    event.preventDefault();
+    onSubmit({ city, streetAddress });
+  };
+
+  return (
+    <section className={`${theme || ""} cbox leg-search`}>
+      <div className="w1400">
+        <div className="legislator-search">
+          {title && <h1 className="fRaleway fExbold">{title}</h1>}
+          {text && <h3 className="text fRaleway fExbold">{text}</h3>}
+          <form className="form-block" onSubmit={handleSubmit}>
+            <div className="entry_2">
+              <label className="search_text fRoboto fLight" htmlFor="address">
+                Street Address
+              </label>
+              <input
+                className="search_rect"
+                type="text"
+                id="address"
+                name="address"
+                value={streetAddress}
+                onChange={(e) => {
+                  setStreetAddress(e.target.value);
+                }}
+              />
+            </div>
+            <div className="entry_3">
+              <label className="search_text fRoboto fLight" htmlFor="city">
+                City
+              </label>
+              <input
+                className="search_rect"
+                type="text"
+                id="city"
+                name="city"
+                value={city}
+                onChange={(e) => {
+                  setCity(e.target.value);
+                }}
+              />
+            </div>
+            <div className="cbox btn-container">
+              <input type="submit" className="btn btn_search" value="Submit" />
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+  );
+}
+
+function Results({ legInfo, legislatorsInfo, resultStyle }) {
+  const rep = legInfo && legislatorsInfo[legInfo.representative];
+  const senator = legInfo && legislatorsInfo[legInfo.senator];
+
+  if (resultStyle != "full") {
+    return null; // TODO: Handle other style
+  }
+  return (
+    <section className="results-container cbox">
+      <div className="w1400">
+        <div className="results">
+          <h2 className="fRaleway fUppercase fRegular" id="leg-search-results">
+            Your legislators
+          </h2>
+          {resultStyle === "full" && (
+            <div className="search_rect1">
+              <h4 className="fUppercase fRaleway">name</h4>
+              <h4 className="fUppercase fRaleway">pledge</h4>
+              <h4 className="fUppercase fRaleway">District</h4>
+              <h4 className="fUppercase fRaleway">party</h4>
+              <h4 className="fUppercase fRaleway">chamber</h4>
+            </div>
+          )}
+          {legInfo ? (
+            <div className="legislators">
+              <Legislator leg={rep} chamber="House" resultStyle={resultStyle} />
+              <Legislator leg={senator} chamber="Senate" resultStyle={resultStyle} />
+            </div>
+          ) : (
+            <EmptyResults />
+          )}
+        </div>
+      </div>
+    </section>
+  );
+}
+
+function EmptyResults() {
+  return (
+    <div className="empty_state_container">
+      <div className="empty_state">
+        <i className="fas empt_st fa-search-location fa-10x"></i>
+        <h4 className="fRaleway fUppercase">no results</h4>
+        <p className="fRaleway">
+          Enter your address above to <br />
+          see your legislators
+        </p>
+      </div>
+    </div>
+  );
+}
+
+function Legislator({ leg, chamber, resultStyle }) {
+  const imgClass = leg.pledge ? "" : "red-x";
+  const iconClass = leg.pledge ? "fas fa-check-circle fa-4x" : "fas fa-times-circle fa-4x";
+  const partyIconClass = leg.party == "D" ? "fas fa-democrat fa-4x" : "fas fa-republican fa-4x";
+
+  return (
+    <a href={leg.href} className="legislator">
+      <LegCircle leg={leg} />
+      <i className={iconClass}></i>
+      <h4 className="towns fRoboto">{leg.district}</h4>
+      <i className={getPartyIcon(leg.party)}></i>
+      <p className="fRoboto fUppercase">{chamber}</p>
+    </a>
+  );
+}
+
+function LegCircle({ leg }) {
+  const status = leg.pledge ? "ok" : "ko";
+  const icon = leg.pledge ? (
+    <img className="leg_circ_check" src="/img/green_check.png" alt="green check" />
+  ) : (
+    <img className="leg_circ_x" src="/img/red_x.png" alt="red x" />
+  );
+
+  return (
+    <div className="leg_circ L">
+      <div className="cbox">
+        <div className="image-with-check">
+          <div className={`leg_circ_img ${status}`}>
+            <img src={leg.img} alt={getFullName(leg)} />
+          </div>
+          {icon}
+        </div>
+      </div>
+      <p className="fRoboto fLight">{getFullName(leg)}</p>
+    </div>
+  );
+}
+
+function getFullName(leg) {
+  return `${leg.first_name} ${leg.last_name}`;
+}
+
+function getPartyIcon(party) {
+  switch (party) {
+    case "D":
+      return "fas fa-democrat fa-4x";
+    case "R":
+      return "fas fa-republican fa-4x";
+    default:
+      return "";
+  }
+}
+
+function scrollTo(hashName) {
+  document.getElementById(hashName).scrollIntoView({ behavior: "smooth" });
+}
+
+function persistQueryResults(query, repInfo) {
+  window.sessionStorage.setItem(
+    "repQuery",
+    JSON.stringify({
+      query,
+      repInfo,
+    })
+  );
+}

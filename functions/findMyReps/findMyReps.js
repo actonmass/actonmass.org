@@ -1,27 +1,18 @@
-const axios = require('axios');
+const axios = require("axios");
 
 const { OPEN_STATES_API_KEY, GOOGLE_API_KEY } = process.env;
 
-const GetRepShortID = (info) => {
-    console.log("Shorttening", info);
-    if (!info.givenName) { info.givenName = info.name.split(" ")[0]; }
-    if (!info.familyName) { info.familyName = info.name.split(" ").pop(); }
-    const firstName = info.givenName.normalize("NFD").replace(/[\u0300-\u036f]/g, "");
-    const lastName = info.familyName.normalize("NFD").replace(/[\u0300-\u036f]/g, "");
-    return `${firstName.toLowerCase()}-${lastName.toLowerCase()}`;
-}
-
 function geolocate(address) {
   return axios
-    .get('https://maps.googleapis.com/maps/api/geocode/json', {
+    .get("https://maps.googleapis.com/maps/api/geocode/json", {
       params: {
         address: `${address.streetAddress}, ${address.city}`,
         key: GOOGLE_API_KEY,
       },
     })
-    .then(function(response) {
+    .then(function (response) {
       if (response.data.results.length) {
-        return response.data.results[0].geometry.location
+        return response.data.results[0].geometry.location;
       } else {
         // couldn't geolocate the address
         throw new Error(
@@ -29,14 +20,12 @@ function geolocate(address) {
             name: "Couldn't locate that Massachusetts address.",
             data: response.data,
           })
-        )
+        );
       }
     });
-};
+}
 
-
-const API_ENDPOINT = 'https://openstates.org/graphql';
-
+const API_ENDPOINT = "https://openstates.org/graphql";
 
 const LEGISLATOR_QUERY = `
 query getLocalLegislators($latitude: Float, $longitude: Float) {
@@ -61,15 +50,16 @@ query getLocalLegislators($latitude: Float, $longitude: Float) {
     }
   }
 }
-`
+`;
 
 exports.handler = async (event, context) => {
-    const address = JSON.parse(event.body);
-    console.log("Requesting Address", address);
+  const address = JSON.parse(event.body);
+  console.log("Requesting Address", address);
 
-    return geolocate(address).then((location) => {
-      console.log("Requesting Coordinates", location);
-      return axios.post(
+  return geolocate(address).then((location) => {
+    console.log("Requesting Coordinates", location);
+    return axios
+      .post(
         API_ENDPOINT,
         {
           query: LEGISLATOR_QUERY,
@@ -80,34 +70,27 @@ exports.handler = async (event, context) => {
         },
         {
           headers: {
-            'X-API-KEY': OPEN_STATES_API_KEY,
+            "X-API-KEY": OPEN_STATES_API_KEY,
           },
         }
       )
-      .then(response => response.data)
+      .then((response) => response.data)
       .then((data) => {
-        console.log("Received", data);
-        const senData = data.data.senator.edges[0].node
-        const repData = data.data.representative.edges[0].node
+        console.log("Received:");
+        console.log(JSON.stringify(data));
+        const senData = data.data.senator.edges[0].node;
+        const repData = data.data.representative.edges[0].node;
         return {
           statusCode: 200,
           body: JSON.stringify({
-            senator: {
-              short_id: GetRepShortID(senData),
-              name: senData.name
-            },
-            representative: {
-              short_id: GetRepShortID(repData),
-              name: repData.name
-            }
-          })
+            senator: senData.id,
+            representative: repData.id,
+          }),
         };
       })
-      .catch(error => {
+      .catch((error) => {
         console.log(error);
-        return {statusCode: 400, body: String(error)}
+        return { statusCode: 400, body: String(error) };
       });
-    });
-}
-
-
+  });
+};

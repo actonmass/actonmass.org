@@ -16,4 +16,5 @@ square_picture: /img/legislators/square-pictures/kimberly-ferguson.jpg
 start_date: ''
 twitter: ''
 website: ''
+ocd_id: ocd-person/888457ba-c348-4826-b2c6-450dba5e38bd
 ---

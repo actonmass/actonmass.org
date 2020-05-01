@@ -16,4 +16,5 @@ square_picture: /img/legislators/square-pictures/lindsay-sabadosa.png
 start_date: ''
 twitter: https://twitter.com/SabadosaMA
 website: https://www.lindsaysabadosa.com/
+ocd_id: ocd-person/05f9b238-283f-4529-8989-ff7d1bda60a8
 ---

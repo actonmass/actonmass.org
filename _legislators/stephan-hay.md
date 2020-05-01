@@ -16,4 +16,5 @@ square_picture: /img/legislators/square-pictures/stephan-hay.jpg
 start_date: ''
 twitter: ''
 website: ''
+ocd_id: ocd-person/706d94f1-3c2e-4f39-8386-e159b8de775e
 ---

@@ -16,4 +16,5 @@ square_picture: /img/legislators/square-pictures/tricia-farley-bouvier.png
 start_date: '2011-01-05'
 twitter: https://twitter.com/reptricia
 website: http://triciafarleybouvier.com/
+ocd_id: ocd-person/1f444dfe-d3b3-4852-ab10-0682206d773d
 ---

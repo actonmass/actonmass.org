@@ -81,7 +81,7 @@
       padding: 4rem 2rem 4rem 2rem;
 
       .leg-committees-container {
-        width: 40rem;
+        width: min(40rem, 100%);
       }
 
       .rect7 {

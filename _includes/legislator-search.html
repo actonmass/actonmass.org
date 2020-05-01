@@ -7,24 +7,34 @@
 {% endif %}
 
 
-<div class="legislator-search">
-  {% if title %}
-    <h1 class="fRaleway fExbold">{{ title }}</h1>
-  {% endif %}
-  {% if text %}
-    <h3 class="text fRaleway fExbold">{{include.text}}</h3>
-  {% endif %}
-    <form class="form-block" action="/search_result.html#results">
-      <div class="entry_2">
-        <label class="search_text fRoboto fLight" for="address">Street Address</label>
-        <input class="search_rect" type="text" id="address" name="address">
-      </div>
-      <div class="entry_3">
-        <label class="search_text fRoboto fLight" for="city">City</label>
-        <input class="search_rect" type="text" id="city" name="city">
-      </div>
-      <div class="cbox btn-container">
-        <input type="submit" class="btn btn_search" value="Submit" />
-      </div>
-    </form>
-</div>
+<div id="find-my-reps"></div>
+<script>
+  window.addEventListener("DOMContentLoaded", function() {
+    var all_legs = {
+    {% for leg in site.legislators %}
+      {% assign district = site.data.cache.districts_by_id[leg.district].name %}
+      {% if leg.ocd_id%}
+      "{{leg.ocd_id}}": {
+        party: "{{leg.party}}",
+        first_name: "{{leg.first_name}}",
+        last_name: "{{leg.last_name}}",
+        href: "{{leg.id}}",
+        district: "{{district}}",
+        img: "{{ leg.square_picture }}",
+        pledge: {{ leg.pledge }},
+      },
+      {% endif %}
+    {% endfor %}
+  };
+
+  var data = {
+    legislatorsInfo: all_legs,
+    title: "{{title}}",
+    text: "{{text}}",
+    resultStyle: "{{include.resultStyle}}",
+    theme: "{{include.theme}}",
+  };
+
+    AOM.renderFindMyReps("find-my-reps", data);
+  });
+</script>

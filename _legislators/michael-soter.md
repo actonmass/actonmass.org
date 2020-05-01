@@ -16,4 +16,5 @@ square_picture: /img/legislators/square-pictures/michael-soter.jpg
 start_date: ''
 twitter: ''
 website: ''
+ocd_id: ocd-person/4cec2aa4-c17b-4749-b0e9-58a25695bf2f
 ---

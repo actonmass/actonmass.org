@@ -15,5 +15,6 @@ picture: https://pbs.twimg.com/profile_images/497387003483156480/RCktUnlJ_400x40
 square_picture: /img/legislators/square-pictures/elizabeth-poirier.jpg
 start_date: '1999-01-01'
 twitter: https://twitter.com/BettyPoirierMA
-website:
+website: null
+ocd_id: ocd-person/c4e46af4-a67d-4f8a-96ba-bf2a95efbe24
 ---

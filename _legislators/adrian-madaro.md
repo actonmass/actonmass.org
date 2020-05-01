@@ -16,4 +16,5 @@ square_picture: /img/legislators/square-pictures/adrian-madaro.jpg
 start_date: ''
 twitter: ''
 website: ''
+ocd_id: ocd-person/f8772f1e-29f7-42e2-8a8c-ab4005153b05
 ---

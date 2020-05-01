@@ -16,4 +16,5 @@ square_picture: /img/legislators/square-pictures/susan-gifford.jpg
 start_date: ''
 twitter: ''
 website: ''
+ocd_id: ocd-person/adb172f4-64c0-4c96-8097-71bd125fc2e0
 ---

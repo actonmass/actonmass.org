@@ -16,4 +16,5 @@ square_picture: /img/legislators/square-pictures/kenneth-gordon.jpg
 start_date: ''
 twitter: ''
 website: ''
+ocd_id: ocd-person/47c42957-b618-41b7-a557-5d24c33568cf
 ---

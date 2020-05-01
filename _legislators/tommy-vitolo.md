@@ -16,4 +16,5 @@ square_picture: /img/legislators/square-pictures/tommy-vitolo.jpg
 start_date: ''
 twitter: ''
 website: ''
+ocd_id: ocd-person/7a234dbf-2f9f-466f-8db1-44ac0f3975a8
 ---

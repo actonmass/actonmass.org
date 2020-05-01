@@ -10,4 +10,5 @@ malegislature_url: https://malegislature.gov/Legislators/Profile/KES0
 party: D
 phone: 617-722-1500
 square_picture: /img/legislators/square-pictures/karen-spilka.jpg
+ocd_id: ocd-person/e48879ef-ed74-4f93-8e5b-c0f3752d4fd7
 ---

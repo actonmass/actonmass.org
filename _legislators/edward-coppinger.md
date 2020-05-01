@@ -16,4 +16,5 @@ square_picture: /img/legislators/square-pictures/edward-coppinger.jpg
 start_date: ''
 twitter: ''
 website: ''
+ocd_id: ocd-person/24929c64-96a3-41f9-b97f-dcf06024b8de
 ---

@@ -14,6 +14,7 @@ phone: (617) 722-2230
 picture: https://www.facebook.com/photo.php?fbid=918413064838351
 square_picture: /img/legislators/square-pictures/david-vieira.png
 start_date: '2011-01-05'
-twitter:
+twitter: null
 website: http://www.votevieira.com/
+ocd_id: ocd-person/5c798735-2f95-40a6-9ef7-4cd25eb638f6
 ---

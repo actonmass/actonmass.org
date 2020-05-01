@@ -16,4 +16,5 @@ square_picture: /img/legislators/square-pictures/chynah-tyler.jpg
 start_date: ''
 twitter: ''
 website: ''
+ocd_id: ocd-person/3b92fb1f-d268-40d8-8a4e-851f11fe81ff
 ---

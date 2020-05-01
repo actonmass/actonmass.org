@@ -16,4 +16,5 @@ square_picture: /img/legislators/square-pictures/james-arciero.jpg
 start_date: ''
 twitter: ''
 website: ''
+ocd_id: ocd-person/70e42c78-89e1-43cb-bc65-7d0da132daa2
 ---

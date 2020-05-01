@@ -16,4 +16,5 @@ square_picture: /img/legislators/square-pictures/gerard-cassidy.jpg
 start_date: ''
 twitter: ''
 website: ''
+ocd_id: ocd-person/3a1863b5-ca54-44d8-9afb-55f48623fd47
 ---

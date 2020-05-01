@@ -16,4 +16,5 @@ square_picture: /img/legislators/square-pictures/angelo-scaccia.jpg
 start_date: ''
 twitter: ''
 website: ''
+ocd_id: ocd-person/09ed2b39-bf07-455f-a60c-72cb36a11c27
 ---

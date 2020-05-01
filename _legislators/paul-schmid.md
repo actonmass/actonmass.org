@@ -16,4 +16,5 @@ square_picture: /img/legislators/square-pictures/paul-schmid.png
 start_date: '2011-01-01'
 twitter: https://twitter.com/RepPaulSchmid
 website: https://www.reppaulschmid.com/
+ocd_id: ocd-person/51c2533b-95e0-45c5-9100-0c6d68efb192
 ---

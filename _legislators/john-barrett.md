@@ -14,6 +14,7 @@ phone: (617) 722-2305
 picture: https://malegislature.gov/Legislators/Profile/170/J_B1.jpg
 square_picture: /img/legislators/square-pictures/john-barrett.png
 start_date: '2017-01-04'
-twitter:
-website:
+twitter: null
+website: null
+ocd_id: ocd-person/da8051b7-de05-4c30-9d37-5d7223906356
 ---

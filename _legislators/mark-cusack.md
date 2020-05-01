@@ -16,4 +16,5 @@ square_picture: /img/legislators/square-pictures/mark-cusack.jpg
 start_date: ''
 twitter: ''
 website: ''
+ocd_id: ocd-person/b51c5c27-7da0-42f5-b67b-22085173af7a
 ---

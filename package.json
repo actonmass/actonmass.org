@@ -16,6 +16,7 @@
     "dotenv": "^8.2.0",
     "netlify-cli": "^2.21.0",
     "netlify-cms-proxy-server": "^1.2.1",
+    "netlify-lambda": "^1.6.3",
     "webpack": "^4.41.2",
     "webpack-cli": "^3.3.10"
   },

@@ -16,4 +16,5 @@ square_picture: /img/legislators/square-pictures/roselee-vincent.jpg
 start_date: ''
 twitter: ''
 website: ''
+ocd_id: ocd-person/2de2c3a2-84f4-495d-89a3-fd4ee36fb29b
 ---

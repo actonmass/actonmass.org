@@ -16,4 +16,5 @@ square_picture: /img/legislators/square-pictures/ruth-balser.jpg
 start_date: ''
 twitter: ''
 website: ''
+ocd_id: ocd-person/0df5de43-f3a3-4988-82fb-7f951fa02753
 ---

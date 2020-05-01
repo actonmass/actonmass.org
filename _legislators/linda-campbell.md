@@ -16,4 +16,5 @@ square_picture: /img/legislators/square-pictures/linda-campbell.jpg
 start_date: ''
 twitter: https://twitter.com/rep_campbell
 website: http://www.statereplindacampbell.com/
+ocd_id: ocd-person/b38a106c-7659-493e-a27f-fed4c6456b3c
 ---
