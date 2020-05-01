@@ -27,4 +27,9 @@
       color: #11447b;
     }
   }
+
+  padding-bottom: 5rem;
+  @media (min-width: 700px) {
+    padding-bottom: 10rem;
+  }
 }
