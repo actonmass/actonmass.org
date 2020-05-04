@@ -5,7 +5,7 @@ date: 2020-05-04T13:52:52.774Z
 redirect_from: []
 image: /img/hallway-with-window-1309902.jpg
 ---
-**Death Penalty by Default**
+**Death Penalty by Default**
 
 Stand up for Basic Human Rights
 
@@ -34,4 +34,4 @@ These aren't Massachusetts values. We need to take a stand to protect the people
 2.  Ask your Rep & Senator to co-sponsor this bill: You can look up their contact info [here](https://malegislature.gov/Search/FindMyLegislator?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-8tvvKIJWztvg8ii2dXl9r_2H6cVCuWnH9gsaYP5RdhjK8iwwhg9MIqPkAd5mx4b7A47cPU). You can simply forward your testimony to your legislators with a note at the top asking them to co-sponsor the bill.
 
 3.  **Call Governor Baker** and ask him to use his executive and emergency powers to take action to reduce overcrowding and unsafe conditions in correctional facilities now, and to ask him to support an investigation into Sheriff Thomas Hodgson who is flagrantly putting people's lives at risk. **(617) 725-4005**
-
+
