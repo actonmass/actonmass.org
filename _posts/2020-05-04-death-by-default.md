@@ -8,7 +8,7 @@ image: /img/hallway-with-window-1309902.jpg
 **Death Penalty by Default**
 
 Stand up for Basic Human Rights
-
+
 Friend-
 
 Massachusetts doesn't have the death penalty anymore. The last execution happened back in 1947. However, with the rapid spread of Covid-19 through the correctional system, it's becoming clear that **we are by default imposing a death penalty of sorts on every single person incarcerated in this state **by subjecting them to unsafe conditions**.**
