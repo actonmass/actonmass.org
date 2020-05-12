@@ -3,6 +3,7 @@ permalink: /vol/
 layout: default
 title: Volunteer for Climate & Democracy in MA
 ---
+# Volunteer for Climate & Democracy in MA
 
 <iframe
   id="responsive-iframe"
