@@ -48,16 +48,18 @@ collections:
     editor:
       preview: false
     fields:
-      - label: Body
-        name: body
-        widget: markdown
-      - label: Layout
-        name: layout
-        widget: hidden
-        default: default
       - label: URL
         name: permalink
         widget: string
       - label: Title
         name: title
         widget: string
+        required: false
+      - label: Body
+        name: body
+        widget: markdown
+        required: false
+      - label: Layout
+        name: layout
+        widget: hidden
+        default: default
