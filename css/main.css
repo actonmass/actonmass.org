@@ -264,3 +264,9 @@ img {
 .pager li:last-child > a {
     margin-left: auto;
 }
+
+.cbox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
