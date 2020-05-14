@@ -67,3 +67,7 @@ Candidates will be given 4 minutes to answer each question and will be prompted 
 * Endorsement decisions will be made by the Act on Mass board
 
 Any questions should be directed to [matt@actonmass.org](mailto:matt@actonmass.org)
+
+
+
+Note: We will **NOT** be endorsing in the 27th Middlesex Race
