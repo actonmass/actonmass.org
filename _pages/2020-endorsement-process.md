@@ -9,16 +9,12 @@ Act on Mass will be endorsing candidates for State Representative in the 2020 el
 
 The endorsement process will have 2 components:
 
-1. Written questionnaire that will be made public on
+1. Written questionnaire that will be made public. Covers progressive issues, transparency rules, and candidate's commitment to running a grassroots campaign (will not be made public)
+2. Zoom interview understanding the candidate's theory of change, character, and willingness to stand up to leadership and the broken culture of the Massachusetts State House. 
 
-   * Progressive issues 
-   * Transparency rules
-   * Commitment to running a grassroots campaign (not public)
-2. Zoom interview understanding the candidate's:
+Want to apply? Request a questionnaire by emailing [matt@actonmass.org](mailto:matt@actonmass.org)
 
-   * Theory of change
-   * Character
-   * Willingness to stand up to leadership and the broken culture of the Massachusetts State House. 
+
 
 # 1. Written Questionnaire
 
@@ -68,6 +64,4 @@ Candidates will be given 4 minutes to answer each question and will be prompted 
 
 Any questions should be directed to [matt@actonmass.org](mailto:matt@actonmass.org)
 
-
-
-Note: We will **NOT** be endorsing in the 27th Middlesex Race
+Note: We will **NOT** be endorsing in the 27th Middlesex District
