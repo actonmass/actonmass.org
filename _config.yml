@@ -30,15 +30,16 @@ donate_button_url: https://secure.actblue.com/donate/act-on-mass
 collections:
   issues:
     output: true
-permalink: /post/:year/:month/:day/:title  # for blog posts
+permalink: /post/:year/:month/:day/:title # for blog posts
 paginate: 10
 paginate_path: "/blog/:num/"
 excerpt_separator: <!--more-->
-include: ['_pages', '_redirects']
+include: ["_pages", "_redirects"]
 exclude:
   - README.md
   - .circleci
   - vendor
+  - node_modules
 plugins:
   - jekyll-paginate
   - jekyll-redirect-from

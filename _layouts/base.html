@@ -21,6 +21,9 @@
     <link rel="stylesheet" href="/css/footer.css">
     <link rel="stylesheet" href="/css/home.css">
     <link rel="stylesheet" href="/css/issues.css">
+    {% for style in page.styles %}
+      <link rel="stylesheet" href="{{style}}">
+    {% endfor %}
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" rel="stylesheet" crossorigin="anonymous">
     <script type="text/javascript" src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
   </head>

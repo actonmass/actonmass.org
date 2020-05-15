@@ -3,7 +3,7 @@ version: 2
 jobs:
   build:
     docker:
-       - image: circleci/ruby:2.6.2-browsers  # use the browsers variant image to have Java preinstalled as it is a dependency of html5validator
+      - image: circleci/ruby:2.6.2-browsers # use the browsers variant image to have Java preinstalled as it is a dependency of html5validator
 
     steps:
       - checkout
@@ -49,7 +49,8 @@ jobs:
 
       - run:
           name: Validate HTML spec compliance
-          command: $HOME/.local/bin/html5validator --root _site --ignore iframe
+          # anima-src ignored for ballot page
+          command: $HOME/.local/bin/html5validator --root _site --ignore iframe anima-src
 
       - run:
           name: Start server
