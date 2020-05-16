@@ -34,7 +34,7 @@ In November, you will get a chance to vote on the question, in as many districts
 
 Massachusetts has waited too long for common sense legislation. 
 
-## ❌Election Day Registration 
+## ❌ Election Day Registration 
 
 * Has been killed in committee for over 14 years. No record of who voted it down.
 * 21 states plus DC already have Election Day Registration.
