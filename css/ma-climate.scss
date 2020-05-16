@@ -84,7 +84,6 @@ div {
   }
 
   .staterepresentative {
-    width: 648px;
     margin: 0;
     font-family: "AvenirNext-Bold", Helvetica, Arial, serif;
     font-size: 24px;
@@ -116,11 +115,6 @@ div {
 .actonmass section.voting {
   background-color: rgba(224, 244, 251, 0.72);
   padding: 60px 0;
-
-  .section-container {
-    display: flex;
-    flex-direction: row;
-  }
 
   .transparentvoting {
     margin: 0;
@@ -207,7 +201,6 @@ div {
 
   .thenboldclimatea {
     top: 943px;
-    width: 462px;
     margin: 0;
     left: 281px;
     font-family: "AvenirNext-Medium", Helvetica, Arial, serif;
@@ -218,10 +211,6 @@ div {
   }
 
   .thesewillpasswith {
-    top: 905px;
-    width: 675px;
-    margin: 0;
-    left: 175px;
     font-family: "AvenirNext-Medium", Helvetica, Arial, serif;
     font-size: 21px;
     color: rgba(0, 0, 0, 1);
@@ -311,7 +300,6 @@ div {
   }
 
   .completeyourform {
-    width: 687px;
     font-family: "AvenirNext-Regular", Helvetica, Arial, serif;
     font-size: 24px;
     color: rgba(255, 255, 255, 1);
@@ -450,29 +438,9 @@ div {
 }
 
 .actonmass section.logos {
-  padding: 30px;
+  padding: 30px 0;
   background-color: #2e3361;
   justify-content: center;
-}
-
-.actonmass .group {
-  background-color: rgba(255, 255, 255, 0);
-  top: 1430px;
-  height: 101px;
-  width: 301px;
-  position: absolute;
-  margin: 0;
-  left: 589px;
-}
-
-.actonmass .group .rectangle5 {
-  background-color: rgba(255, 255, 255, 1);
-  top: 0px;
-  height: 101px;
-  width: 9px;
-  position: absolute;
-  margin: 0;
-  left: 292px;
 }
 
 .actonmass .group3 {
