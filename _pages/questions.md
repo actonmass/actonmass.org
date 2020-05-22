@@ -10,12 +10,10 @@ A bill to move Massachusetts to 100% Renewable Energy hasn't made any progress i
 To pass this climate bill, we need to make the legislative committee process more transparent. You deserve to know how your elected representatives are voting!
 
 1. ## **Climate**\
+
    \
-   <!--StartFragment-->
 
    **Shall the representative for this district be instructed to vote in favor of legislation that would require Massachusetts to achieve 100% renewable energy use within the next two decades, starting immediately and making significant progress within the first five years while protecting impacted workers and businesses?**
-
-   <!--EndFragment-->
 2. ## **Democracy**
 
 <!--StartFragment-->
