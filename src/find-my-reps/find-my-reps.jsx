@@ -10,7 +10,7 @@ function renderFindMyReps(targetID, data) {
   render(<FindMyReps onQueryReps={findRepsMock} {...data} />, targetEl);
 }
 
-function FindMyReps({ onQueryReps, legislatorsInfo, title, text, theme, mode }) {
+function FindMyReps({ onQueryReps, legislatorsInfo, title, text, theme, mode, showResultIfEmpty }) {
   const sessionQuery = JSON.parse(window.sessionStorage.getItem("repQuery"));
   const [query, setQuery] = useState(sessionQuery !== null ? sessionQuery.query : null);
   const [repInfo, setRepInfo] = useState(sessionQuery !== null ? sessionQuery.repInfo : null);
@@ -42,7 +42,13 @@ function FindMyReps({ onQueryReps, legislatorsInfo, title, text, theme, mode }) 
   return (
     <>
       <Form title={title} text={text} onSubmit={handleQueryReps} theme={theme} />
-      <Results legInfo={repInfo} legislatorsInfo={legislatorsInfo} mode={mode} theme={theme} />
+      <Results
+        legInfo={repInfo}
+        legislatorsInfo={legislatorsInfo}
+        mode={mode}
+        theme={theme}
+        showResultIfEmpty={showResultIfEmpty}
+      />
     </>
   );
 }
@@ -103,10 +109,12 @@ function Form({ title, text, onSubmit, theme }) {
   );
 }
 
-function Results({ legInfo, legislatorsInfo, mode, theme }) {
+function Results({ legInfo, legislatorsInfo, mode, theme, showResultIfEmpty }) {
   const rep = legInfo && legislatorsInfo[legInfo.representative];
   const senator = legInfo && legislatorsInfo[legInfo.senator];
-
+  if (!legInfo && !showResultIfEmpty) {
+    return null;
+  }
   return (
     <section className={`results-container cbox ${theme !== "dark" ? "light-blue" : ""}`}>
       <div className="w1400">

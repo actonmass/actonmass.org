@@ -35,7 +35,8 @@
     title: "{{title}}",
     text: "{{text}}",
     theme: "{{include.theme}}",
-    mode: "{% if include.bill %}bill{% else %}pledge{% endif %}"
+    mode: "{% if include.bill %}bill{% else %}pledge{% endif %}",
+    showResultIfEmpty: {% if include.showResultsIfEmpty == "true" %}true{% else %}false{% endif %}
   };
 
     AOM.renderFindMyReps("find-my-reps", data);
