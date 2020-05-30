@@ -111,6 +111,8 @@ class LegislatorMap extends React.Component {
             }}
             center={defaultCenter}
             zoom={defaultZoom}
+            dragging={!L.Browser.mobile}
+            tap={!L.Browser.mobile}
             maxZoom={12}
             minZoom={8}
             maxBounds={[
