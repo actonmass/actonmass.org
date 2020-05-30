@@ -10,8 +10,7 @@ function renderFindMyReps(targetID, data) {
   render(<FindMyReps onQueryReps={findRepsMock} {...data} />, targetEl);
 }
 
-function FindMyReps({ onQueryReps, legislatorsInfo, title, text, resultStyle, theme }) {
-  console.log(resultStyle);
+function FindMyReps({ onQueryReps, legislatorsInfo, title, text, theme }) {
   const sessionQuery = JSON.parse(window.sessionStorage.getItem("repQuery"));
   const [query, setQuery] = useState(sessionQuery !== null ? sessionQuery.query : null);
   const [repInfo, setRepInfo] = useState(sessionQuery !== null ? sessionQuery.repInfo : null);
@@ -43,7 +42,7 @@ function FindMyReps({ onQueryReps, legislatorsInfo, title, text, resultStyle, th
   return (
     <>
       <Form title={title} text={text} onSubmit={handleQueryReps} theme={theme} />
-      <Results legInfo={repInfo} legislatorsInfo={legislatorsInfo} resultStyle={resultStyle} />
+      <Results legInfo={repInfo} legislatorsInfo={legislatorsInfo} />
     </>
   );
 }
@@ -104,13 +103,10 @@ function Form({ title, text, onSubmit, theme }) {
   );
 }
 
-function Results({ legInfo, legislatorsInfo, resultStyle }) {
+function Results({ legInfo, legislatorsInfo }) {
   const rep = legInfo && legislatorsInfo[legInfo.representative];
   const senator = legInfo && legislatorsInfo[legInfo.senator];
 
-  if (resultStyle != "full") {
-    return null; // TODO: Handle other style
-  }
   return (
     <section className="results-container cbox">
       <div className="w1400">
@@ -118,19 +114,10 @@ function Results({ legInfo, legislatorsInfo, resultStyle }) {
           <h2 className="fRaleway fUppercase fRegular" id="leg-search-results">
             Your legislators
           </h2>
-          {resultStyle === "full" && (
-            <div className="search_rect1">
-              <h4 className="fUppercase fRaleway">name</h4>
-              <h4 className="fUppercase fRaleway">pledge</h4>
-              <h4 className="fUppercase fRaleway">District</h4>
-              <h4 className="fUppercase fRaleway">party</h4>
-              <h4 className="fUppercase fRaleway">chamber</h4>
-            </div>
-          )}
           {legInfo ? (
             <div className="legislators">
-              <Legislator leg={rep} chamber="House" resultStyle={resultStyle} />
-              <Legislator leg={senator} chamber="Senate" resultStyle={resultStyle} />
+              <Legislator leg={rep} chamber="House" />
+              <Legislator leg={senator} chamber="Senate" />
             </div>
           ) : (
             <EmptyResults />
@@ -156,18 +143,28 @@ function EmptyResults() {
   );
 }
 
-function Legislator({ leg, chamber, resultStyle }) {
+function Legislator({ leg, chamber }) {
   const imgClass = leg.pledge ? "" : "red-x";
-  const iconClass = leg.pledge ? "fas fa-check-circle fa-4x" : "fas fa-times-circle fa-4x";
-  const partyIconClass = leg.party == "D" ? "fas fa-democrat fa-4x" : "fas fa-republican fa-4x";
+  const legTitle = chamber === "House" ? "rep" : "senator";
+  const legTitleShort = chamber === "House" ? "rep" : "sen.";
+  const iconClass = leg.pledge ? "fas fa-check-circle fa-2x" : "fas fa-times-circle fa-2x";
 
   return (
     <a href={leg.href} className="legislator">
+      <h3 className="fUppercase fRegular">Your {legTitle}:</h3>
       <LegCircle leg={leg} />
-      <i className={iconClass}></i>
-      <h4 className="towns fRoboto">{leg.district}</h4>
-      <i className={getPartyIcon(leg.party)}></i>
-      <p className="fRoboto fUppercase">{chamber}</p>
+      <p className="fRoboto fLight">{leg.district}</p>
+      <p className="fUppercase">
+        <i className={iconClass}></i>
+        {leg.pledge ? "Signed the pledge" : "Did not sign the pledge"}
+      </p>
+      <div className="cbox btn-container">
+        <input
+          type="submit"
+          className="btn"
+          value={leg.pledge ? `Thank your ${legTitleShort}` : `Tell your ${legTitleShort} to sign!`}
+        />
+      </div>
     </a>
   );
 }
@@ -181,7 +178,7 @@ function LegCircle({ leg }) {
   );
 
   return (
-    <div className="leg_circ L">
+    <div className="leg_circ XL">
       <div className="cbox">
         <div className="image-with-check">
           <div className={`leg_circ_img ${status}`}>
@@ -190,7 +187,9 @@ function LegCircle({ leg }) {
           {icon}
         </div>
       </div>
-      <p className="fRoboto fLight">{getFullName(leg)}</p>
+      <h4 className="fRoboto fBold">
+        {getFullName(leg)} ({leg.party})
+      </h4>
     </div>
   );
 }
