@@ -1,5 +1,5 @@
 ---
-id: house-2nd-norfolk
+uid: house-2nd-norfolk
 chamber: house
 lat: 42.2562545
 lng: -70.9967062

@@ -1,5 +1,5 @@
 ---
-id: house-11th-plymouth
+uid: house-11th-plymouth
 chamber: house
 lat: 42.0536598
 lng: -71.0873434

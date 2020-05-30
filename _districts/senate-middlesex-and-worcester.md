@@ -1,5 +1,5 @@
 ---
-id: senate-middlesex-and-worcester
+uid: senate-middlesex-and-worcester
 chamber: senate
 lat: 42.40736
 lng: -71.53102

@@ -1,5 +1,5 @@
 ---
-id: house-20th-middlesex
+uid: house-20th-middlesex
 chamber: house
 lat: 42.5529743
 lng: -71.0649442

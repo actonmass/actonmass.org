@@ -1,5 +1,5 @@
 ---
-id: house-7th-plymouth
+uid: house-7th-plymouth
 chamber: house
 lat: 42.0779813
 lng: -70.940981

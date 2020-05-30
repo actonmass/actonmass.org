@@ -1,5 +1,5 @@
 ---
-id: environmental-justice
+uid: environmental-justice
 title: Environmental Justice
 full_title: An Act relative to environmental justice and toxics reduction in the Commonwealth
 house_no: H761

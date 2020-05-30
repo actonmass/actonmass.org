@@ -1,5 +1,5 @@
 ---
-id: christine-barber
+uid: christine-barber
 chamber: house
 district: house-34th-middlesex
 email: Christine.Barber@mahouse.gov

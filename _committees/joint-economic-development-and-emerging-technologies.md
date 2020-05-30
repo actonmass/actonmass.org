@@ -1,5 +1,5 @@
 ---
-id: joint-economic-development-and-emerging-technologies
+uid: joint-economic-development-and-emerging-technologies
 chamber: joint
 house_chair: ann-margaret-ferrante
 house_members:

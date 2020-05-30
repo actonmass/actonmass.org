@@ -1,5 +1,5 @@
 ---
-id: independent-commission-to-investigate-sexual-harassment-in-the-legislature
+uid: independent-commission-to-investigate-sexual-harassment-in-the-legislature
 title: Independent commission to investigate sexual harassment in the legislature
 full_title: An Act promoting equality and respect in the legislature
 house_no: H3572

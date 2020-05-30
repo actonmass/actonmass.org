@@ -1,5 +1,5 @@
 ---
-id: john-keenan
+uid: john-keenan
 chamber: senate
 district: senate-norfolk-and-plymouth
 email: John.Keenan@masenate.gov

@@ -1,5 +1,5 @@
 ---
-id: minimum-corporate-tax
+uid: minimum-corporate-tax
 title: Minimum corporate tax
 full_title: ''
 house_no: H2424

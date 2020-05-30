@@ -1,5 +1,5 @@
 ---
-id: capital-gains
+uid: capital-gains
 title: Capital gains
 full_title: ''
 house_no: H2610

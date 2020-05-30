@@ -1,5 +1,5 @@
 ---
-id: house-17th-essex
+uid: house-17th-essex
 chamber: house
 lat: 42.670965
 lng: -71.1771871

@@ -1,5 +1,5 @@
 ---
-id: senate-2nd-middlesex-and-norfolk
+uid: senate-2nd-middlesex-and-norfolk
 chamber: senate
 lat: 42.22829
 lng: -71.47109

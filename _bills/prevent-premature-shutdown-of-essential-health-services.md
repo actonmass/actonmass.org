@@ -1,5 +1,5 @@
 ---
-id: prevent-premature-shutdown-of-essential-health-services
+uid: prevent-premature-shutdown-of-essential-health-services
 title: Prevent premature shutdown of essential health services
 full_title: An Act Relative to the Closing of Hospital Essential Services
 house_no: H1139

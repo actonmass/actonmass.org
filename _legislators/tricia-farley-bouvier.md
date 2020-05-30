@@ -1,5 +1,5 @@
 ---
-id: tricia-farley-bouvier
+uid: tricia-farley-bouvier
 chamber: house
 district: house-3rd-berkshire
 email: Tricia.Farley-Bouvier@mahouse.gov

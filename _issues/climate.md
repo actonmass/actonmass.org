@@ -1,5 +1,5 @@
 ---
-id: climate
+uid: climate
 layout: issue
 title: Climate
 subtitle: 100% renewable by 2045 or sooner

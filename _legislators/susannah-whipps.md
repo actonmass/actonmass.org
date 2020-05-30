@@ -1,5 +1,5 @@
 ---
-id: susannah-whipps
+uid: susannah-whipps
 chamber: house
 district: house-2nd-franklin
 email: Susannah.Whipps@mahouse.gov

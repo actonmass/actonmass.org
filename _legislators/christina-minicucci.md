@@ -1,5 +1,5 @@
 ---
-id: christina-minicucci
+uid: christina-minicucci
 chamber: house
 district: house-14th-essex
 email: christina.minicucci@mahouse.gov

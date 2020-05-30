@@ -1,5 +1,5 @@
 ---
-id: house-2nd-suffolk
+uid: house-2nd-suffolk
 chamber: house
 lat: 42.3869209
 lng: -71.0499567

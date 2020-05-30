@@ -1,5 +1,5 @@
 ---
-id: sonia-chang-diaz
+uid: sonia-chang-diaz
 chamber: senate
 district: senate-2nd-suffolk
 email: Sonia.Chang-Diaz@masenate.gov

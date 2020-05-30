@@ -1,5 +1,5 @@
 ---
-id: safe-communities-act-2018-05-budget-drama
+uid: safe-communities-act-2018-05-budget-drama
 date: 2018-05-03
 description: |
   Budget drama:

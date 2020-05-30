@@ -22,6 +22,9 @@
         district: "{{district}}",
         img: "{{ leg.square_picture }}",
         pledge: {{ leg.pledge }},
+        {% if include.bill %}
+        sponsored: {% if bill.co_sponsors contains leg.uid %}true{% else %}false{% endif %},
+        {% endif %}
       },
       {% endif %}
     {% endfor %}
@@ -31,8 +34,9 @@
     legislatorsInfo: all_legs,
     title: "{{title}}",
     text: "{{text}}",
-    resultStyle: "{{include.resultStyle}}",
     theme: "{{include.theme}}",
+    mode: "{% if include.bill %}bill{% else %}pledge{% endif %}",
+    showResultIfEmpty: {% if include.showResultsIfEmpty == "true" %}true{% else %}false{% endif %}
   };
 
     AOM.renderFindMyReps("find-my-reps", data);

@@ -1,5 +1,5 @@
 ---
-id: angelo-puppolo
+uid: angelo-puppolo
 chamber: house
 district: house-12th-hampden
 email: Angelo.Puppolo@mahouse.gov

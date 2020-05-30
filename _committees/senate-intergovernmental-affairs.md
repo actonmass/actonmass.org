@@ -1,5 +1,5 @@
 ---
-id: senate-intergovernmental-affairs
+uid: senate-intergovernmental-affairs
 chamber: senate
 malegislature_url: https://malegislature.gov/Committees/Detail/S55
 senate_chair: michael-rush

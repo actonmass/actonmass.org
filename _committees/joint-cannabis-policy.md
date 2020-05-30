@@ -1,5 +1,5 @@
 ---
-id: joint-cannabis-policy
+uid: joint-cannabis-policy
 chamber: joint
 house_chair: david-rogers
 house_members:

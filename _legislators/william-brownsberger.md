@@ -1,5 +1,5 @@
 ---
-id: william-brownsberger
+uid: william-brownsberger
 chamber: senate
 district: senate-2nd-suffolk-and-middlesex
 email: William.Brownsberger@masenate.gov

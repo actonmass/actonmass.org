@@ -1,5 +1,5 @@
 ---
-id: house-13th-norfolk
+uid: house-13th-norfolk
 chamber: house
 lat: 42.2811522
 lng: -71.239092

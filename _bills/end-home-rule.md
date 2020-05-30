@@ -1,5 +1,5 @@
 ---
-id: end-home-rule
+uid: end-home-rule
 title: End Home Rule
 full_title: An Act enabling local options for tenant protections
 house_no: H3924

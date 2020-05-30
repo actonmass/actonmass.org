@@ -1,5 +1,5 @@
 ---
-id: louis-kafka
+uid: louis-kafka
 chamber: house
 district: house-8th-norfolk
 email: Louis.Kafka@mahouse.gov

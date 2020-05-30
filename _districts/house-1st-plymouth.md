@@ -1,5 +1,5 @@
 ---
-id: house-1st-plymouth
+uid: house-1st-plymouth
 chamber: house
 lat: 41.8785417
 lng: -70.6025716

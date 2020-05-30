@@ -1,17 +1,15 @@
 import React, { useState } from "react";
 import { render } from "react-dom";
-import findReps from "./findReps";
-import { findRepsMock } from "./findReps";
+import { findReps } from "./findReps";
 
 export default { renderFindMyReps };
 
 function renderFindMyReps(targetID, data) {
   const targetEl = document.getElementById(targetID);
-  render(<FindMyReps onQueryReps={findRepsMock} {...data} />, targetEl);
+  render(<FindMyReps onQueryReps={findReps} {...data} />, targetEl);
 }
 
-function FindMyReps({ onQueryReps, legislatorsInfo, title, text, resultStyle, theme }) {
-  console.log(resultStyle);
+function FindMyReps({ onQueryReps, legislatorsInfo, title, text, theme, mode, showResultIfEmpty }) {
   const sessionQuery = JSON.parse(window.sessionStorage.getItem("repQuery"));
   const [query, setQuery] = useState(sessionQuery !== null ? sessionQuery.query : null);
   const [repInfo, setRepInfo] = useState(sessionQuery !== null ? sessionQuery.repInfo : null);
@@ -43,7 +41,13 @@ function FindMyReps({ onQueryReps, legislatorsInfo, title, text, resultStyle, th
   return (
     <>
       <Form title={title} text={text} onSubmit={handleQueryReps} theme={theme} />
-      <Results legInfo={repInfo} legislatorsInfo={legislatorsInfo} resultStyle={resultStyle} />
+      <Results
+        legInfo={repInfo}
+        legislatorsInfo={legislatorsInfo}
+        mode={mode}
+        theme={theme}
+        showResultIfEmpty={showResultIfEmpty}
+      />
     </>
   );
 }
@@ -104,33 +108,23 @@ function Form({ title, text, onSubmit, theme }) {
   );
 }
 
-function Results({ legInfo, legislatorsInfo, resultStyle }) {
+function Results({ legInfo, legislatorsInfo, mode, theme, showResultIfEmpty }) {
   const rep = legInfo && legislatorsInfo[legInfo.representative];
   const senator = legInfo && legislatorsInfo[legInfo.senator];
-
-  if (resultStyle != "full") {
-    return null; // TODO: Handle other style
+  if (!legInfo && !showResultIfEmpty) {
+    return null;
   }
   return (
-    <section className="results-container cbox">
+    <section className={`results-container cbox ${theme !== "dark" ? "light-blue" : ""}`}>
       <div className="w1400">
         <div className="results">
           <h2 className="fRaleway fUppercase fRegular" id="leg-search-results">
             Your legislators
           </h2>
-          {resultStyle === "full" && (
-            <div className="search_rect1">
-              <h4 className="fUppercase fRaleway">name</h4>
-              <h4 className="fUppercase fRaleway">pledge</h4>
-              <h4 className="fUppercase fRaleway">District</h4>
-              <h4 className="fUppercase fRaleway">party</h4>
-              <h4 className="fUppercase fRaleway">chamber</h4>
-            </div>
-          )}
           {legInfo ? (
             <div className="legislators">
-              <Legislator leg={rep} chamber="House" resultStyle={resultStyle} />
-              <Legislator leg={senator} chamber="Senate" resultStyle={resultStyle} />
+              <Legislator leg={rep} mode={mode} chamber="House" />
+              <Legislator leg={senator} mode={mode} chamber="Senate" />
             </div>
           ) : (
             <EmptyResults />
@@ -156,41 +150,60 @@ function EmptyResults() {
   );
 }
 
-function Legislator({ leg, chamber, resultStyle }) {
-  const imgClass = leg.pledge ? "" : "red-x";
-  const iconClass = leg.pledge ? "fas fa-check-circle fa-4x" : "fas fa-times-circle fa-4x";
-  const partyIconClass = leg.party == "D" ? "fas fa-democrat fa-4x" : "fas fa-republican fa-4x";
+function Legislator({ leg, chamber, mode }) {
+  const legTitle = chamber === "House" ? "rep" : "senator";
+  const legTitleShort = chamber === "House" ? "rep" : "sen.";
+
+  const statusText = () => {
+    if (mode === "pledge") {
+      return leg.pledge ? "Signed the pledge" : "Did not sign the pledge";
+    }
+    return leg.sponsored ? "Co-sponsored the bill" : "Did not co-sponsored the bill";
+  };
+
+  const status = mode === "pledge" ? leg.pledge : leg.sponsored;
+  const action =
+    mode === "pledge" ? `Tell your ${legTitleShort} to sign!` : `Tell your ${legTitleShort} to co-sponsor!`;
+  const imgClass = status ? "" : "red-x";
+  const iconClass = status ? "fas fa-check-circle fa-2x" : "fas fa-times-circle fa-2x";
 
   return (
     <a href={leg.href} className="legislator">
-      <LegCircle leg={leg} />
-      <i className={iconClass}></i>
-      <h4 className="towns fRoboto">{leg.district}</h4>
-      <i className={getPartyIcon(leg.party)}></i>
-      <p className="fRoboto fUppercase">{chamber}</p>
+      <h3 className="fUppercase fRegular">Your {legTitle}:</h3>
+      <LegCircle leg={leg} status={status} />
+      <p className="fRoboto fLight">{leg.district}</p>
+      <p className="fUppercase">
+        <i className={iconClass}></i>
+        {statusText()}
+      </p>
+      <div className="cbox btn-container">
+        <a className="btn">{status ? `Thank your ${legTitleShort}` : action}</a>
+      </div>
     </a>
   );
 }
 
-function LegCircle({ leg }) {
-  const status = leg.pledge ? "ok" : "ko";
-  const icon = leg.pledge ? (
+function LegCircle({ leg, status }) {
+  const statusClass = status ? "ok" : "ko";
+  const icon = status ? (
     <img className="leg_circ_check" src="/img/green_check.png" alt="green check" />
   ) : (
     <img className="leg_circ_x" src="/img/red_x.png" alt="red x" />
   );
 
   return (
-    <div className="leg_circ L">
+    <div className="leg_circ XL">
       <div className="cbox">
         <div className="image-with-check">
-          <div className={`leg_circ_img ${status}`}>
+          <div className={`leg_circ_img ${statusClass}`}>
             <img src={leg.img} alt={getFullName(leg)} />
           </div>
           {icon}
         </div>
       </div>
-      <p className="fRoboto fLight">{getFullName(leg)}</p>
+      <h4 className="fRoboto fBold">
+        {getFullName(leg)} ({leg.party})
+      </h4>
     </div>
   );
 }

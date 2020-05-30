@@ -1,5 +1,5 @@
 ---
-id: paul-brodeur
+uid: paul-brodeur
 first_name: Paul
 last_name: Brodeur
 district: house-32nd-middlesex

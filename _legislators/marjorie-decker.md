@@ -1,5 +1,5 @@
 ---
-id: marjorie-decker
+uid: marjorie-decker
 chamber: house
 district: house-25th-middlesex
 email: Marjorie.Decker@mahouse.gov

@@ -1,5 +1,5 @@
 ---
-id: joint-education
+uid: joint-education
 chamber: joint
 house_chair: alice-peisch
 house_members:

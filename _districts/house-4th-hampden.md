@@ -1,5 +1,5 @@
 ---
-id: house-4th-hampden
+uid: house-4th-hampden
 chamber: house
 lat: 42.126889
 lng: -72.748232

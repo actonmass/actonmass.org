@@ -1,5 +1,5 @@
 ---
-id: house-barnstable-dukes-and-nantucket
+uid: house-barnstable-dukes-and-nantucket
 chamber: house
 lat: 41.3761789
 lng: -70.4795553

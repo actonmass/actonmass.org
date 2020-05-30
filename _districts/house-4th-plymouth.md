@@ -1,5 +1,5 @@
 ---
-id: house-4th-plymouth
+uid: house-4th-plymouth
 chamber: house
 lat: 42.1371525
 lng: -70.7144949

@@ -1,5 +1,5 @@
 ---
-id: elizabeth-malia
+uid: elizabeth-malia
 chamber: house
 district: house-11th-suffolk
 email: Liz.Malia@mahouse.gov

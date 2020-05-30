@@ -1,5 +1,5 @@
 ---
-id: gender-equity
+uid: gender-equity
 layout: issue
 permalink: /issues/gender-equity/
 

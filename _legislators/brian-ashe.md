@@ -1,5 +1,5 @@
 ---
-id: brian-ashe
+uid: brian-ashe
 chamber: house
 district: house-2nd-hampden
 email: Brian.Ashe@mahouse.gov

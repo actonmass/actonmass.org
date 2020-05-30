@@ -1,5 +1,5 @@
 ---
-id: sheila-harrington
+uid: sheila-harrington
 chamber: house
 district: house-1st-middlesex
 email: Sheila.Harrington@mahouse.gov

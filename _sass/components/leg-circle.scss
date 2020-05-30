@@ -62,16 +62,39 @@
   }
 
   &.L {
-    max-width: 15rem;
+    max-width: 14rem;
 
     @media (min-width: 700px) {
       max-width: 18rem;
     }
 
     .leg_circ_img img {
-      width: 9rem;
+      width: 8.5rem;
       @media (min-width: 700px) {
         width: 14rem;
+      }
+    }
+  }
+
+  &.XL {
+    max-width: 20rem;
+
+    @media (min-width: 700px) {
+      max-width: 23rem;
+    }
+
+    .leg_circ_img img {
+      width: 12rem;
+      @media (min-width: 700px) {
+        width: 17rem;
+      }
+    }
+
+    .leg_circ_check,
+    .leg_circ_x {
+      max-width: 3.5rem;
+      @media (min-width: 700px) {
+        max-width: 5rem;
       }
     }
   }

@@ -1,5 +1,5 @@
 ---
-id: jerald-parisella
+uid: jerald-parisella
 chamber: house
 district: house-6th-essex
 email: Jerald.Parisella@mahouse.gov

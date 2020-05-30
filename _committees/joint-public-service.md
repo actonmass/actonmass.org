@@ -1,5 +1,5 @@
 ---
-id: joint-public-service
+uid: joint-public-service
 chamber: joint
 house_chair: jerald-parisella
 house_members:

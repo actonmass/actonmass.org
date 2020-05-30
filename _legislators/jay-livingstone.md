@@ -1,5 +1,5 @@
 ---
-id: jay-livingstone
+uid: jay-livingstone
 chamber: house
 district: house-8th-suffolk
 email: Jay.Livingstone@mahouse.gov

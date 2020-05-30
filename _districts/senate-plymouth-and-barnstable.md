@@ -1,5 +1,5 @@
 ---
-id: senate-plymouth-and-barnstable
+uid: senate-plymouth-and-barnstable
 chamber: senate
 lat: 41.87638
 lng: -70.62212

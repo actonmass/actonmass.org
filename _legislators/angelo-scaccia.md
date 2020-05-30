@@ -1,5 +1,5 @@
 ---
-id: angelo-scaccia
+uid: angelo-scaccia
 chamber: house
 district: house-14th-suffolk
 email: Angelo.Scaccia@mahouse.gov

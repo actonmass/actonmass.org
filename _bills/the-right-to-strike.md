@@ -1,5 +1,5 @@
 ---
-id: the-right-to-strike
+uid: the-right-to-strike
 title: The right to strike
 full_title: An Act protecting the right to strike
 house_no: H1602

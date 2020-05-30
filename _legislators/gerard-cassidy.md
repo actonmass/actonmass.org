@@ -1,5 +1,5 @@
 ---
-id: gerard-cassidy
+uid: gerard-cassidy
 chamber: house
 district: house-9th-plymouth
 email: Gerard.Cassidy@mahouse.gov
