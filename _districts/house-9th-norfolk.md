@@ -1,5 +1,5 @@
 ---
-id: house-9th-norfolk
+uid: house-9th-norfolk
 chamber: house
 lat: 42.0913772
 lng: -71.3345358

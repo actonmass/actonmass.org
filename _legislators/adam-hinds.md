@@ -1,5 +1,5 @@
 ---
-id: adam-hinds
+uid: adam-hinds
 chamber: senate
 district: senate-berkshire-hampshire-franklin-and-hampden
 email: adam.hinds@masenate.gov

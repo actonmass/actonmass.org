@@ -1,5 +1,5 @@
 ---
-id: liz-miranda
+uid: liz-miranda
 chamber: house
 district: house-5th-suffolk
 email: liz.miranda@mahouse.gov

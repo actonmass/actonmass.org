@@ -1,5 +1,5 @@
 ---
-id: healthcare
+uid: healthcare
 layout: issue
 permalink: /issues/healthcare/
 

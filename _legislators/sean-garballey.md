@@ -1,5 +1,5 @@
 ---
-id: sean-garballey
+uid: sean-garballey
 chamber: house
 district: house-23rd-middlesex
 email: Sean.Garballey@mahouse.gov

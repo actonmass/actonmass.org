@@ -1,5 +1,5 @@
 ---
-id: senate-plymouth-and-norfolk
+uid: senate-plymouth-and-norfolk
 chamber: senate
 lat: 42.16345
 lng: -70.7859

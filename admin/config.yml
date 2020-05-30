@@ -51,7 +51,7 @@ collections:
     fields:
       - &id-field
         label: ID
-        name: id
+        name: uid
         widget: string
       - name: ocd_id
         widget: hidden

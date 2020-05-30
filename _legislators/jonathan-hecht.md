@@ -1,5 +1,5 @@
 ---
-id: jonathan-hecht
+uid: jonathan-hecht
 chamber: house
 district: house-29th-middlesex
 email: Jonathan.Hecht@mahouse.gov

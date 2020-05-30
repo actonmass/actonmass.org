@@ -1,5 +1,5 @@
 ---
-id: michael-finn
+uid: michael-finn
 chamber: house
 district: house-6th-hampden
 email: Michael.Finn@mahouse.gov

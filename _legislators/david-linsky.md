@@ -1,5 +1,5 @@
 ---
-id: david-linsky
+uid: david-linsky
 chamber: house
 district: house-5th-middlesex
 email: David.Linsky@mahouse.gov

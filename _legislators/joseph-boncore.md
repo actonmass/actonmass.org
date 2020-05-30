@@ -1,5 +1,5 @@
 ---
-id: joseph-boncore
+uid: joseph-boncore
 chamber: senate
 district: senate-1st-suffolk-and-middlesex
 email: Joseph.Boncore@masenate.gov

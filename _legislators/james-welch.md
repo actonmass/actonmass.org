@@ -1,5 +1,5 @@
 ---
-id: james-welch
+uid: james-welch
 chamber: senate
 district: senate-hampden
 email: James.Welch@masenate.gov

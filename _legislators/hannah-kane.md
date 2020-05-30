@@ -1,5 +1,5 @@
 ---
-id: hannah-kane
+uid: hannah-kane
 chamber: house
 district: house-11th-worcester
 email: Hannah.Kane@mahouse.gov

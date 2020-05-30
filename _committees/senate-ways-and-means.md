@@ -1,5 +1,5 @@
 ---
-id: senate-ways-and-means
+uid: senate-ways-and-means
 chamber: senate
 malegislature_url: https://malegislature.gov/Committees/Detail/S30
 senate_chair: michael-rodrigues

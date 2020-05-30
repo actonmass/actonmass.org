@@ -1,5 +1,5 @@
 ---
-id: education
+uid: education
 layout: issue
 permalink: /issues/education/
 title: Education

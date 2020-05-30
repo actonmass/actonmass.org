@@ -12,7 +12,7 @@
   window.addEventListener("DOMContentLoaded", function() {
     var all_legs = {
     {% for leg in site.legislators %}
-      // {{leg['id']}}
+      // {{leg.uid}}
       {% assign district = site.data.cache.districts_by_id[leg.district].name %}
       {% if leg.ocd_id%}
       "{{leg.ocd_id}}": {
@@ -24,7 +24,7 @@
         img: "{{ leg.square_picture }}",
         pledge: {{ leg.pledge }},
         {% if include.bill %}
-        sponsored: {% if bill.co_sponsors contains leg['id'] %}true{% else %}false{% endif %},
+        sponsored: {% if bill.co_sponsors contains leg.uid %}true{% else %}false{% endif %},
         {% endif %}
       },
       {% endif %}

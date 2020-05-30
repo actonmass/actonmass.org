@@ -1,5 +1,5 @@
 ---
-id: michael-barrett
+uid: michael-barrett
 chamber: senate
 district: senate-3rd-middlesex
 email: Mike.Barrett@masenate.gov

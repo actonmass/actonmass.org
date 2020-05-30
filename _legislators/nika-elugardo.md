@@ -1,5 +1,5 @@
 ---
-id: nika-elugardo
+uid: nika-elugardo
 chamber: house
 district: house-15th-suffolk
 email: nika.elugardo@mahouse.gov

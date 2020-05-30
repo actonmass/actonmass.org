@@ -1,5 +1,5 @@
 ---
-id: joint-labor-and-workforce-development
+uid: joint-labor-and-workforce-development
 title: Joint Committee on Labor and Workforce Development
 chamber: joint
 house_chair: ''

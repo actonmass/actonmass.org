@@ -1,5 +1,5 @@
 ---
-id: senate-norfolk-bristol-and-middlesex
+uid: senate-norfolk-bristol-and-middlesex
 chamber: senate
 lat: 42.14137
 lng: -71.35901

@@ -1,5 +1,5 @@
 ---
-id: senate-personnel-and-administration
+uid: senate-personnel-and-administration
 chamber: senate
 malegislature_url: https://malegislature.gov/Committees/Detail/S53
 senate_chair: cynthia-creem

@@ -1,5 +1,5 @@
 ---
-id: house-2nd-hampshire
+uid: house-2nd-hampshire
 chamber: house
 lat: 42.2616986
 lng: -72.5786306

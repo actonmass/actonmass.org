@@ -1,5 +1,5 @@
 ---
-id: house-bills-third-reading
+uid: house-bills-third-reading
 chamber: house
 house_chair: theodore-speliotis
 house_members:

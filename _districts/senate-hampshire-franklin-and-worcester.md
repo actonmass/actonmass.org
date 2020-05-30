@@ -1,5 +1,5 @@
 ---
-id: senate-hampshire-franklin-and-worcester
+uid: senate-hampshire-franklin-and-worcester
 chamber: senate
 lat: 42.52437
 lng: -72.45677

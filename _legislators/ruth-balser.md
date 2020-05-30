@@ -1,5 +1,5 @@
 ---
-id: ruth-balser
+uid: ruth-balser
 chamber: house
 district: house-12th-middlesex
 email: Ruth.Balser@mahouse.gov

@@ -1,5 +1,5 @@
 ---
-id: immigration
+uid: immigration
 layout: issue
 permalink: /issues/immigration/
 title: Immigration

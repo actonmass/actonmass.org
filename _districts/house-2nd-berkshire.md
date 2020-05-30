@@ -1,5 +1,5 @@
 ---
-id: house-2nd-berkshire
+uid: house-2nd-berkshire
 chamber: house
 lat: 42.6520298
 lng: -72.8388692

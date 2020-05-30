@@ -1,5 +1,5 @@
 ---
-id: senate-1st-suffolk
+uid: senate-1st-suffolk
 chamber: senate
 lat: 42.29792
 lng: -71.06259

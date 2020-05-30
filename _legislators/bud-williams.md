@@ -1,5 +1,5 @@
 ---
-id: bud-williams
+uid: bud-williams
 chamber: house
 district: house-11th-hampden
 email: Bud.Williams@mahouse.gov

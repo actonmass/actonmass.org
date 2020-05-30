@@ -1,5 +1,5 @@
 ---
-id: joseph-mcgonagle
+uid: joseph-mcgonagle
 chamber: house
 district: house-28th-middlesex
 email: Joseph.McGonagle@mahouse.gov

@@ -1,5 +1,5 @@
 ---
-id: house-2nd-bristol
+uid: house-2nd-bristol
 chamber: house
 lat: 41.9272007
 lng: -71.3268758

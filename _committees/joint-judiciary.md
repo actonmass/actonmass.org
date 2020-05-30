@@ -1,5 +1,5 @@
 ---
-id: joint-judiciary
+uid: joint-judiciary
 chamber: joint
 house_chair: claire-cronin
 house_members:

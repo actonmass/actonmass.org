@@ -1,5 +1,5 @@
 ---
-id: harold-naughton
+uid: harold-naughton
 chamber: house
 district: house-12th-worcester
 email: Harold.Naughton@mahouse.gov

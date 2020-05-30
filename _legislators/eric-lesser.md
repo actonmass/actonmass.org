@@ -1,5 +1,5 @@
 ---
-id: eric-lesser
+uid: eric-lesser
 chamber: senate
 district: senate-1st-hampden-and-hampshire
 email: eric.lesser@masenate.gov

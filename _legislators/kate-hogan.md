@@ -1,5 +1,5 @@
 ---
-id: kate-hogan
+uid: kate-hogan
 chamber: house
 district: house-3rd-middlesex
 email: Kate.Hogan@mahouse.gov

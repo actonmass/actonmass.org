@@ -1,5 +1,5 @@
 ---
-id: donald-berthiaume
+uid: donald-berthiaume
 chamber: house
 district: house-5th-worcester
 email: Donald.Berthiaume@mahouse.gov

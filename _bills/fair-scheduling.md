@@ -1,5 +1,5 @@
 ---
-id: fair-scheduling
+uid: fair-scheduling
 title: Fair scheduling
 full_title: An Act relative to the scheduling of employees
 house_no: H3809

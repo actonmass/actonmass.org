@@ -1,5 +1,5 @@
 ---
-id: paul-frost
+uid: paul-frost
 chamber: house
 district: house-7th-worcester
 email: Paul.Frost@mahouse.gov

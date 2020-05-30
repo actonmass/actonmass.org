@@ -1,5 +1,5 @@
 ---
-id: house-6th-bristol
+uid: house-6th-bristol
 chamber: house
 lat: 41.7566013
 lng: -71.1147023

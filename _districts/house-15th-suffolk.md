@@ -1,5 +1,5 @@
 ---
-id: house-15th-suffolk
+uid: house-15th-suffolk
 chamber: house
 lat: 42.3161281
 lng: -71.1128774

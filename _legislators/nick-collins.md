@@ -1,5 +1,5 @@
 ---
-id: nick-collins
+uid: nick-collins
 chamber: senate
 district: senate-1st-suffolk
 email: Nick.Collins@masenate.gov

@@ -1,5 +1,5 @@
 ---
-id: peter-durant
+uid: peter-durant
 chamber: house
 district: house-6th-worcester
 email: Peter.Durant@mahouse.gov

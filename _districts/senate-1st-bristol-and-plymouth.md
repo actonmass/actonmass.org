@@ -1,5 +1,5 @@
 ---
-id: senate-1st-bristol-and-plymouth
+uid: senate-1st-bristol-and-plymouth
 chamber: senate
 lat: 41.76667
 lng: -71.02242

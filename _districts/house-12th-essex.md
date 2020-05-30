@@ -1,5 +1,5 @@
 ---
-id: house-12th-essex
+uid: house-12th-essex
 chamber: house
 lat: 42.532479
 lng: -70.9505941

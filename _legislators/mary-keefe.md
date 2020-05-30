@@ -1,5 +1,5 @@
 ---
-id: mary-keefe
+uid: mary-keefe
 chamber: house
 district: house-15th-worcester
 email: Mary.Keefe@mahouse.gov

@@ -1,5 +1,5 @@
 ---
-id: house-5th-norfolk
+uid: house-5th-norfolk
 chamber: house
 lat: 42.2094812
 lng: -71.0070058

@@ -1,5 +1,5 @@
 ---
-id: thomas-petrolati
+uid: thomas-petrolati
 chamber: house
 district: house-7th-hampden
 email: Thomas.Petrolati@mahouse.gov

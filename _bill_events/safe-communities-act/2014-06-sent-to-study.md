@@ -1,5 +1,5 @@
 ---
-id: safe-communities-act-2014-06-sent-to-study
+uid: safe-communities-act-2014-06-sent-to-study
 date: 2014-06-01T00:00:00.000Z
 description: Sent to study
 bill: safe-communities-act

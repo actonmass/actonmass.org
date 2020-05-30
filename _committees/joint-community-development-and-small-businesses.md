@@ -1,5 +1,5 @@
 ---
-id: joint-community-development-and-small-businesses
+uid: joint-community-development-and-small-businesses
 chamber: joint
 house_chair: edward-coppinger
 house_members:

@@ -1,5 +1,5 @@
 ---
-id: campaign-childcare
+uid: campaign-childcare
 title: Campaign Childcare
 full_title: An Act Supporting Parents Running for Public Office
 house_no: H639

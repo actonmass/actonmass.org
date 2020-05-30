@@ -1,5 +1,5 @@
 ---
-id: house-16th-worcester
+uid: house-16th-worcester
 chamber: house
 lat: 42.2334887
 lng: -71.785555

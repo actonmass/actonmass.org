@@ -1,5 +1,5 @@
 ---
-id: house-13th-bristol
+uid: house-13th-bristol
 chamber: house
 lat: 41.6240547
 lng: -70.9396077

@@ -1,5 +1,5 @@
 ---
-id: house-9th-worcester
+uid: house-9th-worcester
 chamber: house
 lat: 42.1671076
 lng: -71.6399862

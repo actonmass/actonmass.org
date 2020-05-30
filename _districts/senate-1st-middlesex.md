@@ -1,5 +1,5 @@
 ---
-id: senate-1st-middlesex
+uid: senate-1st-middlesex
 chamber: senate
 lat: 42.61872
 lng: -71.48626

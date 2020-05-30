@@ -1,5 +1,5 @@
 ---
-id: kay-khan
+uid: kay-khan
 chamber: house
 district: house-11th-middlesex
 email: Kay.Khan@mahouse.gov

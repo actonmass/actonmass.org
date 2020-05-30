@@ -1,5 +1,5 @@
 ---
-id: joint-elder-affairs
+uid: joint-elder-affairs
 chamber: joint
 house_chair: ruth-balser
 house_members:

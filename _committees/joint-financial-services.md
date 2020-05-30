@@ -1,5 +1,5 @@
 ---
-id: joint-financial-services
+uid: joint-financial-services
 chamber: joint
 house_chair: james-murphy
 house_members:

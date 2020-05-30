@@ -1,5 +1,5 @@
 ---
-id: natalie-higgins
+uid: natalie-higgins
 chamber: house
 district: house-4th-worcester
 email: Natalie.Higgins@mahouse.gov

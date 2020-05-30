@@ -1,5 +1,5 @@
 ---
-id: andres-vargas
+uid: andres-vargas
 chamber: house
 district: house-3rd-essex
 email: andy.vargas@mahouse.gov

@@ -1,5 +1,5 @@
 ---
-id: joan-meschino
+uid: joan-meschino
 chamber: house
 district: house-3rd-plymouth
 email: Joan.Meschino@mahouse.gov

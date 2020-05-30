@@ -1,5 +1,5 @@
 ---
-id: brian-murray
+uid: brian-murray
 chamber: house
 district: house-10th-worcester
 email: Brian.Murray@mahouse.gov

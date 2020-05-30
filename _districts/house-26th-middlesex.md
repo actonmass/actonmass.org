@@ -1,5 +1,5 @@
 ---
-id: house-26th-middlesex
+uid: house-26th-middlesex
 chamber: house
 lat: 42.3711211
 lng: -71.0855436

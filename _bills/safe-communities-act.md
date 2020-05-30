@@ -1,5 +1,5 @@
 ---
-id: safe-communities-act
+uid: safe-communities-act
 title: Safe Communities Act
 full_title: An Act to Protect the Civil Rights and Safety of all MA Residents
 article: the

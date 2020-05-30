@@ -1,5 +1,5 @@
 ---
-id: senate-middlesex-and-suffolk
+uid: senate-middlesex-and-suffolk
 chamber: senate
 lat: 42.37719
 lng: -71.06676

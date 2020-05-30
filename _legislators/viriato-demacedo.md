@@ -1,5 +1,5 @@
 ---
-id: viriato-demacedo
+uid: viriato-demacedo
 chamber: senate
 district: senate-plymouth-and-barnstable
 email: Vinny.deMacedo@masenate.gov

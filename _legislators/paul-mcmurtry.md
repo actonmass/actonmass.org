@@ -1,5 +1,5 @@
 ---
-id: paul-mcmurtry
+uid: paul-mcmurtry
 chamber: house
 district: house-11th-norfolk
 email: Paul.McMurtry@mahouse.gov

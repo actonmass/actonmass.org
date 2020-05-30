@@ -1,5 +1,5 @@
 ---
-id: ann-margaret-ferrante
+uid: ann-margaret-ferrante
 chamber: house
 district: house-5th-essex
 email: Ann-Margaret.Ferrante@mahouse.gov

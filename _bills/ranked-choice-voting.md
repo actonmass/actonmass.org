@@ -1,5 +1,5 @@
 ---
-id: ranked-choice-voting
+uid: ranked-choice-voting
 title: Ranked Choice Voting
 full_title: An Act to Use of Ranked Choice Voting in Elections
 house_no: H719

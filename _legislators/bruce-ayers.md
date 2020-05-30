@@ -1,5 +1,5 @@
 ---
-id: bruce-ayers
+uid: bruce-ayers
 chamber: house
 district: house-1st-norfolk
 email: Bruce.Ayers@mahouse.gov

@@ -1,5 +1,5 @@
 ---
-id: housing
+uid: housing
 layout: issue
 permalink: /issues/housing/
 

@@ -1,5 +1,5 @@
 ---
-id: carole-fiola
+uid: carole-fiola
 chamber: house
 district: house-6th-bristol
 email: Carole.Fiola@mahouse.gov

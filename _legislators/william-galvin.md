@@ -1,5 +1,5 @@
 ---
-id: william-galvin
+uid: william-galvin
 chamber: house
 district: house-6th-norfolk
 email: William.Galvin@mahouse.gov

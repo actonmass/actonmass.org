@@ -1,5 +1,5 @@
 ---
-id: bruce-tarr
+uid: bruce-tarr
 chamber: senate
 district: senate-1st-essex-and-middlesex
 email: Bruce.Tarr@masenate.gov

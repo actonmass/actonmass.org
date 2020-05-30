@@ -1,5 +1,5 @@
 ---
-id: susan-gifford
+uid: susan-gifford
 chamber: house
 district: house-2nd-plymouth
 email: Susan.Gifford@mahouse.gov

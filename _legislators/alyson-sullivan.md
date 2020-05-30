@@ -1,5 +1,5 @@
 ---
-id: alyson-sullivan
+uid: alyson-sullivan
 chamber: house
 district: house-7th-plymouth
 email: alyson.sullivan@mahouse.gov
