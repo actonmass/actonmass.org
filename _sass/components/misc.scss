@@ -105,3 +105,15 @@ ul.main_breadcrumb {
     text-decoration: underline;
   }
 }
+
+.rep-icon img {
+  border-radius: 50%;
+}
+
+.rep-icon.green img {
+  border: green solid;
+}
+
+.rep-icon.red img {
+  border: red solid;
+}
