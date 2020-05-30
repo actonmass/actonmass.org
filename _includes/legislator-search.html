@@ -12,6 +12,7 @@
   window.addEventListener("DOMContentLoaded", function() {
     var all_legs = {
     {% for leg in site.legislators %}
+      // {{leg['id']}}
       {% assign district = site.data.cache.districts_by_id[leg.district].name %}
       {% if leg.ocd_id%}
       "{{leg.ocd_id}}": {
@@ -22,6 +23,9 @@
         district: "{{district}}",
         img: "{{ leg.square_picture }}",
         pledge: {{ leg.pledge }},
+        {% if include.bill %}
+        sponsored: {% if bill.co_sponsors contains leg['id'] %}true{% else %}false{% endif %},
+        {% endif %}
       },
       {% endif %}
     {% endfor %}
