@@ -221,6 +221,7 @@
 }
 
 .btn_search {
+  box-sizing: border-box;
   grid-area: 4 / 1 / 4 / 3;
   margin: 1rem 0rem 1rem 0rem;
   width: 20rem;

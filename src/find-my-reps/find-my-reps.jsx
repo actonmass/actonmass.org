@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { render } from "react-dom";
 import { findReps } from "./findReps";
+import LoadingSpinner from "./LoadingSpinner";
 
 export default { renderFindMyReps };
 
@@ -14,6 +15,7 @@ function FindMyReps({ onQueryReps, legislatorsInfo, title, text, theme, mode, sh
   const [query, setQuery] = useState(sessionQuery !== null ? sessionQuery.query : null);
   const [repInfo, setRepInfo] = useState(sessionQuery !== null ? sessionQuery.repInfo : null);
   const [error, setError] = useState(false);
+  const [loading, setLoading] = useState(false);
 
   const clearQuery = () => {
     window.sessionStorage.removeItem("repQuery");
@@ -22,6 +24,7 @@ function FindMyReps({ onQueryReps, legislatorsInfo, title, text, theme, mode, sh
   };
 
   function handleQueryReps(newQuery) {
+    setLoading(true);
     setQuery(newQuery);
     setError(false);
     onQueryReps(newQuery)
@@ -29,18 +32,20 @@ function FindMyReps({ onQueryReps, legislatorsInfo, title, text, theme, mode, sh
         setRepInfo(repInfo);
         persistQueryResults(newQuery, repInfo);
         setError(false);
+        setLoading(false);
         scrollTo("leg-search-results");
       })
       .catch((err) => {
         console.error("Query failed:", newQuery);
         clearQuery();
         setError(true);
+        setLoading(false);
       });
   }
 
   return (
     <>
-      <Form title={title} text={text} onSubmit={handleQueryReps} theme={theme} />
+      <Form title={title} text={text} onSubmit={handleQueryReps} theme={theme} loading={loading} />
       <Results
         legInfo={repInfo}
         legislatorsInfo={legislatorsInfo}
@@ -52,7 +57,7 @@ function FindMyReps({ onQueryReps, legislatorsInfo, title, text, theme, mode, sh
   );
 }
 
-function Form({ title, text, onSubmit, theme }) {
+function Form({ title, text, onSubmit, theme, loading }) {
   const [streetAddress, setStreetAddress] = useState("");
   const [city, setCity] = useState("");
 
@@ -67,7 +72,7 @@ function Form({ title, text, onSubmit, theme }) {
         <div className="legislator-search">
           {title && <h1 className="fRaleway fExbold">{title}</h1>}
           {text && <h3 className="text fRaleway fExbold">{text}</h3>}
-          <form className="form-block" onSubmit={handleSubmit}>
+          <form className="form-block">
             <div className="entry_2">
               <label className="search_text fRoboto fLight" htmlFor="address">
                 Street Address
@@ -99,7 +104,12 @@ function Form({ title, text, onSubmit, theme }) {
               />
             </div>
             <div className="cbox btn-container">
-              <input type="submit" className="btn btn_search" value="Submit" />
+              <a className="btn btn_search" onClick={handleSubmit}>
+                <span className="hbox centered">
+                  <span>Submit</span>
+                  {loading && <LoadingSpinner />}
+                </span>
+              </a>
             </div>
           </form>
         </div>
