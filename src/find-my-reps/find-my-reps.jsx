@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { render } from "react-dom";
 import { findReps } from "./findReps";
 import LoadingSpinner from "./LoadingSpinner";
+import Legislator from "./Legislator";
 
 export default { renderFindMyReps };
 
@@ -176,79 +177,6 @@ function ErrorResults({ errorCode }) {
       </div>
     </div>
   );
-}
-
-function Legislator({ leg, chamber, mode }) {
-  const legTitle = chamber === "House" ? "rep" : "senator";
-  const legTitleShort = chamber === "House" ? "rep" : "sen.";
-
-  const statusText = () => {
-    if (mode === "pledge") {
-      return leg.pledge ? "Signed the pledge" : "Did not sign the pledge";
-    }
-    return leg.sponsored ? "Co-sponsored the bill" : "Did not co-sponsored the bill";
-  };
-
-  const status = mode === "pledge" ? leg.pledge : leg.sponsored;
-  const action =
-    mode === "pledge" ? `Tell your ${legTitleShort} to sign!` : `Tell your ${legTitleShort} to co-sponsor!`;
-  const imgClass = status ? "" : "red-x";
-  const iconClass = status ? "fas fa-check-circle fa-2x" : "fas fa-times-circle fa-2x";
-
-  return (
-    <a href={leg.href} className="legislator">
-      <h3 className="fUppercase fRegular">Your {legTitle}:</h3>
-      <LegCircle leg={leg} status={status} />
-      <p className="fRoboto fLight">{leg.district}</p>
-      <p className="fUppercase">
-        <i className={iconClass}></i>
-        {statusText()}
-      </p>
-      <div className="cbox btn-container">
-        <a className="btn">{status ? `Thank your ${legTitleShort}` : action}</a>
-      </div>
-    </a>
-  );
-}
-
-function LegCircle({ leg, status }) {
-  const statusClass = status ? "ok" : "ko";
-  const icon = status ? (
-    <img className="leg_circ_check" src="/img/green_check.png" alt="green check" />
-  ) : (
-    <img className="leg_circ_x" src="/img/red_x.png" alt="red x" />
-  );
-
-  return (
-    <div className="leg_circ XL">
-      <div className="cbox">
-        <div className="image-with-check">
-          <div className={`leg_circ_img ${statusClass}`}>
-            <img src={leg.img} alt={getFullName(leg)} />
-          </div>
-          {icon}
-        </div>
-      </div>
-      <h4 className="fRoboto fBold">
-        {getFullName(leg)} ({leg.party})
-      </h4>
-    </div>
-  );
-}
-
-function getFullName(leg) {
-  return `${leg.first_name} ${leg.last_name}`;
-}
-
-function getPartyIcon(party) {
-  switch (party) {
-    case "D":
-      return "fas fa-democrat fa-4x";
-    case "R":
-      return "fas fa-republican fa-4x";
-    default:
-      return "";
-  }
 }
 
 function scrollTo(hashName) {
