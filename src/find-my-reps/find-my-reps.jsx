@@ -14,7 +14,7 @@ function FindMyReps({ onQueryReps, legislatorsInfo, title, text, theme, mode, sh
   const sessionQuery = JSON.parse(window.sessionStorage.getItem("repQuery"));
   const [query, setQuery] = useState(sessionQuery !== null ? sessionQuery.query : null);
   const [repInfo, setRepInfo] = useState(sessionQuery !== null ? sessionQuery.repInfo : null);
-  const [error, setError] = useState(false);
+  const [error, setError] = useState(null);
   const [loading, setLoading] = useState(false);
 
   const clearQuery = () => {
@@ -26,19 +26,18 @@ function FindMyReps({ onQueryReps, legislatorsInfo, title, text, theme, mode, sh
   function handleQueryReps(newQuery) {
     setLoading(true);
     setQuery(newQuery);
-    setError(false);
+    setError(null);
     onQueryReps(newQuery)
       .then((repInfo) => {
         setRepInfo(repInfo);
         persistQueryResults(newQuery, repInfo);
-        setError(false);
-        setLoading(false);
-        scrollTo("leg-search-results");
       })
       .catch((err) => {
-        console.error("Query failed:", newQuery);
+        setError(err.response.data.errorCode);
         clearQuery();
-        setError(true);
+      })
+      .finally(() => {
+        scrollTo("leg-search-results");
         setLoading(false);
       });
   }
@@ -52,6 +51,7 @@ function FindMyReps({ onQueryReps, legislatorsInfo, title, text, theme, mode, sh
         mode={mode}
         theme={theme}
         showResultIfEmpty={showResultIfEmpty}
+        error={error}
       />
     </>
   );
@@ -118,7 +118,7 @@ function Form({ title, text, onSubmit, theme, loading }) {
   );
 }
 
-function Results({ legInfo, legislatorsInfo, mode, theme, showResultIfEmpty }) {
+function Results({ legInfo, legislatorsInfo, mode, theme, showResultIfEmpty, error }) {
   const rep = legInfo && legislatorsInfo[legInfo.representative];
   const senator = legInfo && legislatorsInfo[legInfo.senator];
   if (!legInfo && !showResultIfEmpty) {
@@ -136,6 +136,8 @@ function Results({ legInfo, legislatorsInfo, mode, theme, showResultIfEmpty }) {
               <Legislator leg={rep} mode={mode} chamber="House" />
               <Legislator leg={senator} mode={mode} chamber="Senate" />
             </div>
+          ) : error ? (
+            <ErrorResults errorCode={error} />
           ) : (
             <EmptyResults />
           )}
@@ -155,6 +157,22 @@ function EmptyResults() {
           Enter your address above to <br />
           see your legislators
         </p>
+      </div>
+    </div>
+  );
+}
+
+function ErrorResults({ errorCode }) {
+  const messages = {
+    couldNotLocateAddressInMa: "We were not able to locate your address in Massachusetts.",
+    unexpectedError: "Something unexpected happened. If the issue persists, please let tech@actonmass.org know!",
+  };
+  return (
+    <div className="empty_state_container">
+      <div className="empty_state">
+        <i className="fas empt_st fa-exclamation-circle fa-10x"></i>
+        <h4 className="fRaleway fUppercase">Error</h4>
+        <p className="fRaleway">{messages[errorCode]}</p>
       </div>
     </div>
   );
