@@ -17,10 +17,12 @@ h3 {
   text-decoration: none;
   border: none;
   background-color: #eca632;
+  color: #061729;
   padding: 14px 28px;
   font-size: 16px;
   font-weight: 700;
   text-transform: uppercase;
+  text-align: center;
   cursor: pointer;
   display: inline-block;
   min-height: 2rem;
@@ -165,7 +167,7 @@ td {
 .darker {
   color: var(--light);
 
-  a:hover {
+  a:hover:not(.btn) {
     color: #56ccf2;
   }
 }

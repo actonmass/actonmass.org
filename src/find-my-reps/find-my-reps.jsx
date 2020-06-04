@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import { render } from "react-dom";
 import { findReps } from "./findReps";
+import LoadingSpinner from "./LoadingSpinner";
+import Legislator from "./Legislator";
 
 export default { renderFindMyReps };
 
@@ -13,7 +15,8 @@ function FindMyReps({ onQueryReps, legislatorsInfo, title, text, theme, mode, sh
   const sessionQuery = JSON.parse(window.sessionStorage.getItem("repQuery"));
   const [query, setQuery] = useState(sessionQuery !== null ? sessionQuery.query : null);
   const [repInfo, setRepInfo] = useState(sessionQuery !== null ? sessionQuery.repInfo : null);
-  const [error, setError] = useState(false);
+  const [error, setError] = useState(null);
+  const [loading, setLoading] = useState(false);
 
   const clearQuery = () => {
     window.sessionStorage.removeItem("repQuery");
@@ -22,42 +25,48 @@ function FindMyReps({ onQueryReps, legislatorsInfo, title, text, theme, mode, sh
   };
 
   function handleQueryReps(newQuery) {
+    setLoading(true);
     setQuery(newQuery);
-    setError(false);
+    setError(null);
     onQueryReps(newQuery)
       .then((repInfo) => {
         setRepInfo(repInfo);
         persistQueryResults(newQuery, repInfo);
-        setError(false);
-        scrollTo("leg-search-results");
       })
       .catch((err) => {
-        console.error("Query failed:", newQuery);
+        setError(err.response.data.errorCode);
         clearQuery();
-        setError(true);
+      })
+      .finally(() => {
+        scrollTo("leg-search-results");
+        setLoading(false);
       });
   }
 
   return (
     <>
-      <Form title={title} text={text} onSubmit={handleQueryReps} theme={theme} />
+      <Form title={title} text={text} onSubmit={handleQueryReps} theme={theme} loading={loading} />
       <Results
         legInfo={repInfo}
         legislatorsInfo={legislatorsInfo}
         mode={mode}
         theme={theme}
         showResultIfEmpty={showResultIfEmpty}
+        error={error}
       />
     </>
   );
 }
 
-function Form({ title, text, onSubmit, theme }) {
+function Form({ title, text, onSubmit, theme, loading }) {
   const [streetAddress, setStreetAddress] = useState("");
   const [city, setCity] = useState("");
 
   const handleSubmit = (event) => {
     event.preventDefault();
+    if (city === "" && streetAddress === "") {
+      return null;
+    }
     onSubmit({ city, streetAddress });
   };
 
@@ -67,7 +76,7 @@ function Form({ title, text, onSubmit, theme }) {
         <div className="legislator-search">
           {title && <h1 className="fRaleway fExbold">{title}</h1>}
           {text && <h3 className="text fRaleway fExbold">{text}</h3>}
-          <form className="form-block" onSubmit={handleSubmit}>
+          <form className="form-block">
             <div className="entry_2">
               <label className="search_text fRoboto fLight" htmlFor="address">
                 Street Address
@@ -99,7 +108,12 @@ function Form({ title, text, onSubmit, theme }) {
               />
             </div>
             <div className="cbox btn-container">
-              <input type="submit" className="btn btn_search" value="Submit" />
+              <a className="btn btn_search" onClick={handleSubmit}>
+                <span className="hbox centered">
+                  <span>Submit</span>
+                  {loading && <LoadingSpinner />}
+                </span>
+              </a>
             </div>
           </form>
         </div>
@@ -108,7 +122,7 @@ function Form({ title, text, onSubmit, theme }) {
   );
 }
 
-function Results({ legInfo, legislatorsInfo, mode, theme, showResultIfEmpty }) {
+function Results({ legInfo, legislatorsInfo, mode, theme, showResultIfEmpty, error }) {
   const rep = legInfo && legislatorsInfo[legInfo.representative];
   const senator = legInfo && legislatorsInfo[legInfo.senator];
   if (!legInfo && !showResultIfEmpty) {
@@ -126,6 +140,8 @@ function Results({ legInfo, legislatorsInfo, mode, theme, showResultIfEmpty }) {
               <Legislator leg={rep} mode={mode} chamber="House" />
               <Legislator leg={senator} mode={mode} chamber="Senate" />
             </div>
+          ) : error ? (
+            <ErrorResults errorCode={error} />
           ) : (
             <EmptyResults />
           )}
@@ -150,77 +166,20 @@ function EmptyResults() {
   );
 }
 
-function Legislator({ leg, chamber, mode }) {
-  const legTitle = chamber === "House" ? "rep" : "senator";
-  const legTitleShort = chamber === "House" ? "rep" : "sen.";
-
-  const statusText = () => {
-    if (mode === "pledge") {
-      return leg.pledge ? "Signed the pledge" : "Did not sign the pledge";
-    }
-    return leg.sponsored ? "Co-sponsored the bill" : "Did not co-sponsored the bill";
+function ErrorResults({ errorCode }) {
+  const messages = {
+    couldNotLocateAddressInMa: "We were not able to locate your address in Massachusetts.",
+    unexpectedError: "Something unexpected happened. If the issue persists, please let tech@actonmass.org know!",
   };
-
-  const status = mode === "pledge" ? leg.pledge : leg.sponsored;
-  const action =
-    mode === "pledge" ? `Tell your ${legTitleShort} to sign!` : `Tell your ${legTitleShort} to co-sponsor!`;
-  const imgClass = status ? "" : "red-x";
-  const iconClass = status ? "fas fa-check-circle fa-2x" : "fas fa-times-circle fa-2x";
-
   return (
-    <a href={leg.href} className="legislator">
-      <h3 className="fUppercase fRegular">Your {legTitle}:</h3>
-      <LegCircle leg={leg} status={status} />
-      <p className="fRoboto fLight">{leg.district}</p>
-      <p className="fUppercase">
-        <i className={iconClass}></i>
-        {statusText()}
-      </p>
-      <div className="cbox btn-container">
-        <a className="btn">{status ? `Thank your ${legTitleShort}` : action}</a>
+    <div className="empty_state_container">
+      <div className="empty_state">
+        <i className="fas empt_st fa-exclamation-circle fa-10x"></i>
+        <h4 className="fRaleway fUppercase">Error</h4>
+        <p className="fRaleway">{messages[errorCode]}</p>
       </div>
-    </a>
-  );
-}
-
-function LegCircle({ leg, status }) {
-  const statusClass = status ? "ok" : "ko";
-  const icon = status ? (
-    <img className="leg_circ_check" src="/img/green_check.png" alt="green check" />
-  ) : (
-    <img className="leg_circ_x" src="/img/red_x.png" alt="red x" />
-  );
-
-  return (
-    <div className="leg_circ XL">
-      <div className="cbox">
-        <div className="image-with-check">
-          <div className={`leg_circ_img ${statusClass}`}>
-            <img src={leg.img} alt={getFullName(leg)} />
-          </div>
-          {icon}
-        </div>
-      </div>
-      <h4 className="fRoboto fBold">
-        {getFullName(leg)} ({leg.party})
-      </h4>
     </div>
   );
-}
-
-function getFullName(leg) {
-  return `${leg.first_name} ${leg.last_name}`;
-}
-
-function getPartyIcon(party) {
-  switch (party) {
-    case "D":
-      return "fas fa-democrat fa-4x";
-    case "R":
-      return "fas fa-republican fa-4x";
-    default:
-      return "";
-  }
 }
 
 function scrollTo(hashName) {
