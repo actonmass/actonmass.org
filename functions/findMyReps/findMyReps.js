@@ -2,11 +2,24 @@ const axios = require("axios");
 
 const { OPEN_STATES_API_KEY, GOOGLE_API_KEY } = process.env;
 
+function mockGeolocate(address) {
+  return new Promise(function (resolve, reject) {
+    setTimeout(
+      () =>
+        resolve({
+          lat: 41.94596,
+          lng: -71.11581,
+        }),
+      500
+    );
+  });
+}
+
 function geolocate(address) {
   return axios
     .get("https://maps.googleapis.com/maps/api/geocode/json", {
       params: {
-        address: `${address.streetAddress}, ${address.city}`,
+        components: `country:US|administrative_area:MA|locality:${address.city}|street_address:${address.streetAddress}`,
         key: GOOGLE_API_KEY,
       },
     })
@@ -15,12 +28,7 @@ function geolocate(address) {
         return response.data.results[0].geometry.location;
       } else {
         // couldn't geolocate the address
-        throw new Error(
-          JSON.stringify({
-            name: "Couldn't locate that Massachusetts address.",
-            data: response.data,
-          })
-        );
+        return null;
       }
     });
 }
@@ -56,10 +64,18 @@ exports.handler = async (event, context) => {
   const address = JSON.parse(event.body);
   console.log("Requesting Address", address);
 
-  return geolocate(address).then((location) => {
-    console.log("Requesting Coordinates", location);
-    return axios
-      .post(
+  return geolocate(address)
+    .then((location) => {
+      if (location == null) {
+        return {
+          statusCode: 422,
+          body: JSON.stringify({
+            errorCode: "couldNotLocateAddressInMa",
+          }),
+        };
+      }
+      console.log("Requesting Coordinates", location);
+      return axios.post(
         API_ENDPOINT,
         {
           query: LEGISLATOR_QUERY,
@@ -73,24 +89,29 @@ exports.handler = async (event, context) => {
             "X-API-KEY": OPEN_STATES_API_KEY,
           },
         }
-      )
-      .then((response) => response.data)
-      .then((data) => {
-        console.log("Received:");
-        console.log(JSON.stringify(data));
-        const senData = data.data.senator.edges[0].node;
-        const repData = data.data.representative.edges[0].node;
-        return {
-          statusCode: 200,
-          body: JSON.stringify({
-            senator: senData.id,
-            representative: repData.id,
-          }),
-        };
-      })
-      .catch((error) => {
-        console.log(error);
-        return { statusCode: 400, body: String(error) };
-      });
-  });
+      );
+    })
+    .then((response) => {
+      const data = response.data;
+      console.log("Received:");
+      console.log(JSON.stringify(data));
+      const senId = data.data.senator.edges[0] && data.data.senator.edges[0].node.id;
+      const repId = data.data.representative.edges[0] && data.data.representative.edges[0].node.id;
+      return {
+        statusCode: 200,
+        body: JSON.stringify({
+          senator: senId,
+          representative: repId,
+        }),
+      };
+    })
+    .catch((error) => {
+      console.error(error);
+      return {
+        statusCode: 500,
+        body: JSON.stringify({
+          errorCode: "unexpectedError",
+        }),
+      };
+    });
 };
