@@ -64,6 +64,9 @@ function Form({ title, text, onSubmit, theme, loading }) {
 
   const handleSubmit = (event) => {
     event.preventDefault();
+    if (city === "" && streetAddress === "") {
+      return null;
+    }
     onSubmit({ city, streetAddress });
   };
 
