@@ -125,7 +125,7 @@ function Form({ title, text, onSubmit, theme, loading }) {
 function Results({ legInfo, legislatorsInfo, mode, theme, showResultIfEmpty, error }) {
   const rep = legInfo && legislatorsInfo[legInfo.representative];
   const senator = legInfo && legislatorsInfo[legInfo.senator];
-  if (!legInfo && !showResultIfEmpty) {
+  if (!legInfo && !error && !showResultIfEmpty) {
     return null;
   }
   return (

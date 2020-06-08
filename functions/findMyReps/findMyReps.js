@@ -15,8 +15,8 @@ function mockGeolocate(address) {
   });
 }
 
-function geolocate(address) {
-  return axios
+async function geolocate(address) {
+  return await axios
     .get("https://maps.googleapis.com/maps/api/geocode/json", {
       params: {
         components: `country:US|administrative_area:MA|locality:${address.city}|street_address:${address.streetAddress}`,
@@ -60,58 +60,68 @@ query getLocalLegislators($latitude: Float, $longitude: Float) {
 }
 `;
 
-exports.handler = async (event, context) => {
-  const address = JSON.parse(event.body);
+async function getLegData(location) {
+  console.log("Requesting Coordinates", location);
+  const openStateResponse = await axios.post(
+    API_ENDPOINT,
+    {
+      query: LEGISLATOR_QUERY,
+      variables: {
+        latitude: location.lat,
+        longitude: location.lng,
+      },
+    },
+    {
+      headers: {
+        "X-API-KEY": OPEN_STATES_API_KEY,
+      },
+    }
+  );
+
+  const data = openStateResponse.data;
+  console.log("Received:");
+  console.log(JSON.stringify(data));
+  const senId = data.data.senator.edges[0] && data.data.senator.edges[0].node.id;
+  const repId = data.data.representative.edges[0] && data.data.representative.edges[0].node.id;
+
+  return {
+    senator: senId,
+    representative: repId,
+  };
+}
+
+async function handleRequest(requestBody) {
+  const address = JSON.parse(requestBody);
   console.log("Requesting Address", address);
 
-  return geolocate(address)
-    .then((location) => {
-      if (location == null) {
-        return {
-          statusCode: 422,
-          body: JSON.stringify({
-            errorCode: "couldNotLocateAddressInMa",
-          }),
-        };
-      }
-      console.log("Requesting Coordinates", location);
-      return axios.post(
-        API_ENDPOINT,
-        {
-          query: LEGISLATOR_QUERY,
-          variables: {
-            latitude: location.lat,
-            longitude: location.lng,
-          },
-        },
-        {
-          headers: {
-            "X-API-KEY": OPEN_STATES_API_KEY,
-          },
-        }
-      );
-    })
-    .then((response) => {
-      const data = response.data;
-      console.log("Received:");
-      console.log(JSON.stringify(data));
-      const senId = data.data.senator.edges[0] && data.data.senator.edges[0].node.id;
-      const repId = data.data.representative.edges[0] && data.data.representative.edges[0].node.id;
-      return {
-        statusCode: 200,
-        body: JSON.stringify({
-          senator: senId,
-          representative: repId,
-        }),
-      };
-    })
-    .catch((error) => {
-      console.error(error);
-      return {
-        statusCode: 500,
-        body: JSON.stringify({
-          errorCode: "unexpectedError",
-        }),
-      };
-    });
+  const location = await geolocate(address);
+
+  if (location == null) {
+    return {
+      statusCode: 422,
+      body: JSON.stringify({
+        errorCode: "couldNotLocateAddressInMa",
+      }),
+    };
+  }
+
+  const legData = await getLegData(location);
+  return {
+    statusCode: 200,
+    body: JSON.stringify(legData),
+  };
+}
+
+exports.handler = async (event, context) => {
+  try {
+    return await handleRequest(event.body);
+  } catch (error) {
+    console.error(error);
+    return {
+      statusCode: 500,
+      body: JSON.stringify({
+        errorCode: "unexpectedError",
+      }),
+    };
+  }
 };
