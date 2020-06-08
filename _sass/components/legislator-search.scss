@@ -55,7 +55,7 @@
   .legislator {
     text-align: center;
     padding-top: 2rem;
-    padding-bottom: 2rem;
+    padding-bottom: 1rem;
     text-decoration: none;
     display: flex;
     flex-direction: column;
@@ -93,6 +93,10 @@
     .btn-container {
       margin-top: 1rem;
     }
+  }
+
+  .legislator + div {
+    margin-top: 1rem;
   }
 
   .fa-democrat {

@@ -1,0 +1,10 @@
+<div id="contact-{{include.leg.uid}}-modal"></div>
+<script>
+  window.addEventListener("DOMContentLoaded", function() {
+    data = {
+      txt: "{{include.txt}}",
+    };
+    AOM.renderModal("contact-{{include.leg.uid}}-modal", data);
+  });
+</script>
+

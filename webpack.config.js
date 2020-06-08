@@ -6,7 +6,7 @@ module.exports = {
     path: __dirname + "/js/",
     filename: "bundle.js",
     libraryTarget: "var",
-    library: "AOM"
+    library: "AOM",
   },
   module: {
     rules: [
@@ -18,13 +18,18 @@ module.exports = {
           presets: ["@babel/preset-env", "@babel/preset-react"],
           plugins: ["@babel/plugin-proposal-class-properties"],
         },
-      }
-    ]
+      },
+      {
+        test: /\.tsx?$/,
+        use: "ts-loader",
+        exclude: /node_modules/,
+      },
+    ],
   },
   resolve: {
-    extensions: ["*", ".js", ".jsx"]
+    extensions: ["*", ".js", ".jsx"],
   },
   externals: {
-    leaflet: "L"
-  }
+    leaflet: "L",
+  },
 };
