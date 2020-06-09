@@ -55,11 +55,17 @@ function ContactLegModal({ txt, leg }: Props) {
             <a className="btn btn-sec" onClick={() => setModalContent("")}>
               Back
             </a>
-            <a className="btn">I called my rep</a>
+            <a className="btn">I emailed my rep</a>
           </div>
         </>
       );
     }
+    const tweeterHandle = leg.twitter.replace("https://twitter.com/", "");
+    const tweeterUrl = encodeUrl("https://twitter.com/intent/tweet", {
+      text: `@${tweeterHandle}, please sign the pledge!`,
+      via: "act_on_mass",
+      hashtags: "mapoli",
+    });
     return (
       <div>
         <div className="vbox">
@@ -76,7 +82,7 @@ function ContactLegModal({ txt, leg }: Props) {
             </a>
           )}
           {leg.twitter && (
-            <a className="btn" onClick={() => setModalContent("")}>
+            <a className="btn" target="_blank" href={tweeterUrl}>
               <i className="fab fa-twitter fa-lg"></i>
               Send {fullName} a tweet
             </a>
@@ -117,6 +123,13 @@ function renderModal(targetID: string, data: Props) {
   console.log(data);
   const targetEl = document.getElementById(targetID);
   ReactDOM.render(<ContactLegModal {...data} />, targetEl);
+}
+
+function encodeUrl(url: string, data: { [key: string]: string }) {
+  const params = Object.keys(data)
+    .map((key) => key + "=" + data[key])
+    .join("&");
+  return `${url}?${params}`;
 }
 
 export default { renderModal };
