@@ -3,7 +3,7 @@ permalink: sca-petition-2020
 title: "Sign on Today: Support the Safe Communities Act"
 layout: default
 ---
-```javascript
+```html
 <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/shell.js"></script>
 <script>
   hbspt.forms.create({
