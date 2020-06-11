@@ -380,7 +380,7 @@ collections:
         required: false
         widget: string
       - label: Senate bill link
-        name: house_link
+        name: senate_link
         required: false
         widget: string
       - label: Committee
