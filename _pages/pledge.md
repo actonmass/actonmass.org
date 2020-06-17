@@ -56,6 +56,7 @@ Candidates for office who have signed on:
 * Gretchen Van Ness (Candidate for State Rep, 14th Suffolk district)
 * Lisa Arnold (Candidate for State Rep, 17th Middlesex district)
 * Charlene DiCalogero (Candidate for State Rep, 12th Worcester district)
+* Damali Vidot (Candidate for State Rep, 2nd Suffolk district)
 * Jennifer Fries (Candidate for State Rep, 24th Middlesex district)
 * Meg Wheeler (Candidate for State Senate, Plymouth & Norfolk district)
 * Adam Gomez Sr. (Candidate for State Senate, Hampden district)
