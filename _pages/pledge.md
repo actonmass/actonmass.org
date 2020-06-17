@@ -27,15 +27,15 @@ Printable version: [CLICK HERE](/assets/pledge.pdf){:target="_blank"}
 
 Current signers:
 
-* Rep. Mike Connolly (D-Cambridge, 26th Middlesex district)
-* Rep. Nika Elugardo (D-Jamaica Plain 15th Middlesex district)
+* Rep. Maria Robinson (D-Framingham, 6th Middlesex district)
 * Rep. Tami Gouveia (D-Acton, 14th Middlesex district)
 * Rep. Jonathan Hecht (D-Watertown, 29th Middlesex district)
 * Rep. Jack Lewis (D-Framingham, 7th Middlesex district)
 * Rep. Denise Provost (D-Somerville, 27th Middlesex district)
-* Rep. Maria Robinson (D-Framingham, 6th Middlesex district)
+* Rep. Mike Connolly (D-Cambridge, 26th Middlesex district)
 * Rep. Lindsay Sabadosa (D-Northampton, 1st Hampshire district)
 * Rep. Patrick Kearney (D-Scituate, 4th Plymouth district)
+* Rep. Nika Elugardo (D-Jamaica Plain 15th Suffolk district)
 * Rep. Natalie Higgins (D-Leominster, 4th Worcester district)
 * Rep. John Rogers (D-Norwood, 12th Norfolk district)
 * Rep. Russell Holmes (D-Boston, 6th Suffolk district)
