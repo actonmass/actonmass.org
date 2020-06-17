@@ -27,22 +27,22 @@ Printable version: [CLICK HERE](/assets/pledge.pdf){:target="_blank"}
 
 Current signers:
 
-* Rep. Mike Connolly (D-Cambridge)
-* Rep. Nika Elugardo (D-Jamaica Plain)
-* Rep. Tami Gouveia (D-Acton)
-* Rep. Jonathan Hecht (D-Watertown)
-* Rep. Jack Lewis (D-Framingham)
-* Rep. Denise Provost (D-Somerville)
-* Rep. Maria Robinson (D-Framingham)
-* Rep. Lindsay Sabadosa (D-Northampton)
-* Rep. Patrick Kearney (D-Scituate)
-* Rep. Natalie Higgins (D-Leominster)
-* Rep. John Rogers (D-Norwood)
-* Rep. Russell Holmes (D-Boston)
-* Rep. Dan Sena (D-Acton)
-* Sen. Jamie Eldridge (D-Acton)
-* Sen. Becca Rausch (D-Needham)
-* Sen. Susan Moran (D-Falmouth)
+* Rep. Mike Connolly (D-Cambridge, 26th Middlesex district)
+* Rep. Nika Elugardo (D-Jamaica Plain 15th Middlesex district)
+* Rep. Tami Gouveia (D-Acton, 14th Middlesex district)
+* Rep. Jonathan Hecht (D-Watertown, 29th Middlesex district)
+* Rep. Jack Lewis (D-Framingham, 7th Middlesex district)
+* Rep. Denise Provost (D-Somerville, 27th Middlesex district)
+* Rep. Maria Robinson (D-Framingham, 6th Middlesex district)
+* Rep. Lindsay Sabadosa (D-Northampton, 1st Hampshire district)
+* Rep. Patrick Kearney (D-Scituate, 4th Plymouth district)
+* Rep. Natalie Higgins (D-Leominster, 4th Worcester district)
+* Rep. John Rogers (D-Norwood, 12th Norfolk district)
+* Rep. Russell Holmes (D-Boston, 6th Suffolk district)
+* Rep. Dan Sena (D-Acton, 37th Middlesex district)
+* Sen. Jamie Eldridge (D-Acton, Middlesex and Worcester district)
+* Sen. Becca Rausch (D-Needham, Norfolk, Bristol and Middlesex district)
+* Sen. Susan Moran (D-Falmouth, Plymouth and Barnstable district)
 
 Candidates for office who have signed on:
 
