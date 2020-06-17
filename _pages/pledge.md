@@ -46,17 +46,17 @@ Current signers:
 
 Candidates for office who have signed on:
 
-* Ceylan Rowe (D-12th Worcester)
-* Melissa Smith (D-4th Norfolk)
-* Michelle Mullet (D-20th Middlesex)
-* Mike Dooley (D-12th Norfolk)
-* Anna Callahan (D-34th Middlesex)
-* Richard Canavan-Wagner (D-6th Essex)
-* Joseph Gravellese (D-16th Suffolk)
-* Gretchen Van Ness (D-14th Suffolk)
-* Lisa Arnold (D-17th Middlesex)
-* Charlene DiCalogero (G-12th Worcester)
-* Jennifer Fries (D-24th Middlesex)
+* Ceylan Rowe (Candidate for State Rep, 12th Worcester district)
+* Melissa Smith (Candidate for State Rep, 4th Norfolk district)
+* Michelle Mullet (Candidate for State Rep, 20th Middlesex district)
+* Mike Dooley (Candidate for State Rep, 12th Norfolk district)
+* Anna Callahan (Candidate for State Rep, 34th Middlesex district)
+* Richard Canavan-Wagner (Candidate for State Rep, 6th Essex district)
+* Joseph Gravellese (Candidate for State Rep, 16th Suffolk district)
+* Gretchen Van Ness (Candidate for State Rep, 14th Suffolk district)
+* Lisa Arnold (Candidate for State Rep, 17th Middlesex district)
+* Charlene DiCalogero (Candidate for State Rep, 12th Worcester district)
+* Jennifer Fries (Candidate for State Rep, 24th Middlesex district)
 * Meg Wheeler (Candidate for State Senate, Plymouth & Norfolk district)
 * Adam Gomez Sr. (Candidate for State Senate, Hampden district)
 
