@@ -1,7 +1,7 @@
 ---
-layout: default
 permalink: /transparency/
 title: Transparency
+layout: default
 ---
 
 # 10 Problems on Beacon Hill
@@ -213,4 +213,4 @@ Given all the important ways in which the Speaker can enforce discipline, taking
 
 Until these rules, and the general culture of secrecy in the State House are changed, we won't see important bills passed.
 
-Are you mad about this state of affairs? Then  **[join us](https://www.actonmass.org/)**  and get involved advocating for transparency and accountability at the State House
+Are you upset about this state of affairs? Then  **[join us](https://www.actonmass.org/)**  and get involved advocating for transparency and accountability at the State House
