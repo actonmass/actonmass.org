@@ -3,7 +3,6 @@ permalink: /transparency/
 title: Transparency
 layout: default
 ---
-
 # 10 Problems on Beacon Hill
 
 In 2017, shortly after he was inaugurated, Donald Trump initiated a series of draconian and racist immigration policies: attempting to enact a Muslim ban, separating children from their families, and stepping up deportations.
@@ -16,10 +15,9 @@ And then… It took 12 full months after the hearing in June 2017 until the comm
 
 At the end of two years, vulnerable immigrant populations received no protections, and residents who advocated for them got:
 
--   No record  of who on the committee voted to kill the bill
--   No reason  given by the committee why they killed the bill
--   No report, indicating what might be changed and lead to passage next time
-
+* No record  of who on the committee voted to kill the bill
+* No reason  given by the committee why they killed the bill
+* No report, indicating what might be changed and lead to passage next time
 
 It is unknown how many immigrants in Massachusetts were directly impacted by the lack of action in our legislature.
 
@@ -45,12 +43,11 @@ In committees, it's extremely common to "poll" members via email with a 15 minut
 
 This is not democracy in any meaningful sense.
 
-
 ### 2. Limited Information on the Website
 
 If you go to the legislature’s website and look at the page for the 2017 Criminal Justice Reform Bill passed by the House, you will find a relatively confusing interface.
 
-[https://malegislature.gov/Bills/190/H4011/](https://malegislature.gov/Bills/190/H4011/)
+<https://malegislature.gov/Bills/190/H4011/>
 
 71 separate actions are logged on this bill, including the passage of a number of different amendments in a completely random order.
 
@@ -60,9 +57,7 @@ A few of the amendments, like amendment #23 have “further” amendments filed 
 
 This is completely unnecessary confusion, because the MA State Senate provides an example of how to link to the votes in question right on the main page of the bill, making the process easier for regular voters to get involved:
 
-![S9SenateVote.JPG](/img/S9SenateVote_JPG.png)
-(From [https://malegislature.gov/Bills/191/S9](https://malegislature.gov/Bills/191/S9)  )
-{: .centered-image }
+![S9SenateVote.JPG](/img/S9SenateVote_JPG.png) (From <https://malegislature.gov/Bills/191/S9>  ) {: .centered-image }
 
 ### 3. “Sent to Study”
 
@@ -76,19 +71,16 @@ When a mafia leader wants to kill someone and he's worried about people hearing 
 
 Committees have three choices when a bill comes up for a vote:
 
-1.  Report it favorably (rule that the bill “ought to pass” and pass it along to the next step in lawmaking)
-2.  Report it adversely (rule that the bill “ought NOT to pass” and kill it)
-3.  “Send it to Study” and pretend it might still pass (in MA politics that's a euphemism for "kill the bill").
+1. Report it favorably (rule that the bill “ought to pass” and pass it along to the next step in lawmaking)
+2. Report it adversely (rule that the bill “ought NOT to pass” and kill it)
+3. “Send it to Study” and pretend it might still pass (in MA politics that's a euphemism for "kill the bill").
 
 Of the 275 items that the Committee on Public Safety & Homeland Security reported during 2017-2018, they  [only reported a single bill adversely. (0.36%).](https://malegislature.gov/Committees/Detail/J22/190/Bills/asc/EntityNumber?current=false&pageNumber=1) The Joint Committee on Housing reported  [none of the 165 bills it considered adversely. (0.00%).](https://malegislature.gov/Committees/Detail/J28/190/Bills/asc/EntityNumber?current=false&pageNumber=1)
 
 Voters would be better served by Committees actually exercising their power to vote bills up or down and go on the record supporting or opposing certain bills. There are indeed bills introduced by conservative Republicans who you would expect the legislature to kill. Why are legislators shirking their duty?
 
-​
-![SafeCommReport.JPG](/img/SafeCommReport_JPG.png)
-It only takes less than 50 words to kill a bill!
+​ ![SafeCommReport.JPG](/img/SafeCommReport_JPG.png) It only takes less than 50 words to kill a bill!
 {: .centered-image }
-
 
 ### 4. Committee Reports - no info!
 
@@ -102,8 +94,7 @@ The public deserves to know what information led a committee to decide one way o
 
 Additionally, when the committee advances or kills legislation, they don’t have to give a reason. When the Safe Communities Act was killed (by “sending to study”), there was a 7 line study order that made no reference to the reason for the bill’s failure.
 
-![FullSafeCommReport.JPG](/img/FullSafeCommReport_JPG.png)
-{: .centered-image }
+![FullSafeCommReport.JPG](/img/FullSafeCommReport_JPG.png) {: .centered-image }
 
 We don't know why the 19 member committee voted to kill the bill. We don't have any public report on who testified against the bill​.
 
@@ -117,9 +108,9 @@ Outside for the first month when the legislature is organizing itself, and the l
 
 It’s not uncommon for a bill history to look like:
 
--   Filed January 4th, 2017
--   Committee hearing January 7th 2018
--   Killed in committee (by being sent to study) on June 2nd, 2018
+* Filed January 4th, 2017
+* Committee hearing January 7th 2018
+* Killed in committee (by being sent to study) on June 2nd, 2018
 
 That’s 12 months of down-time between the introduction of the bill and the hearing, when the public has no insight into whether the legislature is working on the issue or not.
 
@@ -191,13 +182,13 @@ Second, during the January 30th Rules debate in the House, there was an unbeliev
 
 What happened next is mind-blowing:
 
-[http://www.sentinelandenterprise.com/news/ci_32444230/representatives-caught-playing-follow-leader](http://www.sentinelandenterprise.com/news/ci_32444230/representatives-caught-playing-follow-leader)
+<http://www.sentinelandenterprise.com/news/ci_32444230/representatives-caught-playing-follow-leader>
 
-_“As is often the case, many Democrats quickly took their cue from DeLeo and Petrolati and voted "no" as well. This is not an uncommon occurrence in the House. In this case it was at least 63 Democrats who played "follow the leader" and voted "no."_
+*“As is often the case, many Democrats quickly took their cue from DeLeo and Petrolati and voted "no" as well. This is not an uncommon occurrence in the House. In this case it was at least 63 Democrats who played "follow the leader" and voted "no."*
 
-_As the board began to fill up with "no" votes, Petrolati apparently took notice and talked into a microphone he didn't know was on. "It's a yes?" "Switch 'em. Yes, yes, yes, yes yes, Mikey," shouted Petrolati to Division Leader Mike Moran.  Suddenly, DeLeo and Petrolati's votes switched to "yes." And then all 63 Democrat who had initially voted "no" suddenly switched his or her vote to "yes."”_
+*As the board began to fill up with "no" votes, Petrolati apparently took notice and talked into a microphone he didn't know was on. "It's a yes?" "Switch 'em. Yes, yes, yes, yes yes, Mikey," shouted Petrolati to Division Leader Mike Moran.  Suddenly, DeLeo and Petrolati's votes switched to "yes." And then all 63 Democrat who had initially voted "no" suddenly switched his or her vote to "yes."”*
 
-When asked for comment later by Bob Katzen of the Beacon Hill Roll Call, Rep Russell Holmes had a damning answer for what had just transpired: "_Welcome to the House of Representatives. This is exactly how the House runs itself and the members should be ashamed. The speaker is like a shepherd leading a flock of sheep._"
+When asked for comment later by Bob Katzen of the Beacon Hill Roll Call, Rep Russell Holmes had a damning answer for what had just transpired: "*Welcome to the House of Representatives. This is exactly how the House runs itself and the members should be ashamed. The speaker is like a shepherd leading a flock of sheep.*"
 
 ### 10. One Man has All the Power
 
@@ -213,4 +204,4 @@ Given all the important ways in which the Speaker can enforce discipline, taking
 
 Until these rules, and the general culture of secrecy in the State House are changed, we won't see important bills passed.
 
-Are you upset about this state of affairs? Then  **[join us](https://www.actonmass.org/)**  and get involved advocating for transparency and accountability at the State House
+Are you upset about this? Then  **[join us](https://www.actonmass.org/)**  and get involved advocating for transparency and accountability at the State House
