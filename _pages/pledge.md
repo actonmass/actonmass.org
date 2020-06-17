@@ -11,7 +11,9 @@ Massachusetts’ legislature is one of the most secretive in the country.  Impor
 
 {% include youtube-video.html src="https://www.youtube.com/embed/TRi1G-dmKhg" %}
 
-[Politicians: Sign the Pledge](https://docs.google.com/forms/d/e/1FAIpQLSeM8Plqo4MUaGlb_kSfyYrt8E0u_c1Xda133m4xrMkJiBCRVg/viewform?usp=sf_link){:class="button"} [Supporters: Take Action](/pledge-supporter){:class="button"} {: .centered }
+[Politicians: Sign the Pledge](https://docs.google.com/forms/d/e/1FAIpQLSeM8Plqo4MUaGlb_kSfyYrt8E0u_c1Xda133m4xrMkJiBCRVg/viewform?usp=sf_link){:class="button"} [Supporters: Take Action](/pledge-supporter){:class="button"} 
+
+{: .centered }
 
 ## The Voters Deserve to Know Pledge:
 
@@ -83,6 +85,8 @@ The goal of the Pledge is to be:
 
 ## Endorsing Organizations
 
-![Progressive Massachusetts logo](/img/pledge-endorsements/prog-mass.png) ![AFT logo](/img/pledge-endorsements/AFT-MA.png) ![Sunrise Boston logo](/img/pledge-endorsements/Sunrise.png) ![UU MassAction logo](/img/pledge-endorsements/UUMassAction.png) ![Progressive Democrats of Massachusetts logo](/img/pledge-endorsements/PDM.png) ![Our Revolution Massachusetts logo](/img/pledge-endorsements/ORMA.png) ![Boston Democratic Socialists of America logo](/img/pledge-endorsements/DSA.png) ![Boston Teachers Union logo](/img/pledge-endorsements/BTU.png) ![Public higher education network of Massachusetts logo](/img/pledge-endorsements/PHENOM.png) ![Massachusetts education justice alliance logo](/img/pledge-endorsements/MEJA.png) ![Hildreth Institute logo](/img/pledge-endorsements/HI.png) {: .logo-list}
+![Progressive Massachusetts logo](/img/pledge-endorsements/prog-mass.png) ![AFT logo](/img/pledge-endorsements/AFT-MA.png) ![Sunrise Boston logo](/img/pledge-endorsements/Sunrise.png) ![UU MassAction logo](/img/pledge-endorsements/UUMassAction.png) ![Progressive Democrats of Massachusetts logo](/img/pledge-endorsements/PDM.png) ![Our Revolution Massachusetts logo](/img/pledge-endorsements/ORMA.png) ![Boston Democratic Socialists of America logo](/img/pledge-endorsements/DSA.png) ![Boston Teachers Union logo](/img/pledge-endorsements/BTU.png) ![Public higher education network of Massachusetts logo](/img/pledge-endorsements/PHENOM.png) ![Massachusetts education justice alliance logo](/img/pledge-endorsements/MEJA.png) ![Hildreth Institute logo](/img/pledge-endorsements/HI.png) 
+
+{: .logo-list}
 
 Does your organization want to endorse the pledge?  Please [click here](https://docs.google.com/forms/d/e/1FAIpQLSclngQNhXPAlUrZHgvy8oH8FPgCOsdrx0N8FIC3YSrCJ4OzBw/viewform?usp=sf_link).
