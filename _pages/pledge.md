@@ -44,13 +44,21 @@ Current signers:
 * Sen. Becca Rausch (D-Needham)
 * Sen. Susan Moran (D-Falmouth)
 
-
-
 Candidates for office who have signed on:
 
-*
-
-
+* Ceylan Rowe (D-12th Worcester)
+* Melissa Smith (D-4th Norfolk)
+* Michelle Mullet (D-20th Middlesex)
+* Mike Dooley (D-12th Norfolk)
+* Anna Callahan (D-34th Middlesex)
+* Richard Canavan-Wagner (D-6th Essex)
+* Joseph Gravellese (D-16th Suffolk)
+* Gretchen Van Ness (D-14th Suffolk)
+* Lisa Arnold (D-17th Middlesex)
+* Charlene DiCalogero (G-12th Worcester)
+* Jennifer Fries (D-24th Middlesex)
+* Meg Wheeler (Candidate for State Senate, Plymouth & Norfolk district)
+* Adam Gomez Sr. (Candidate for State Senate, Hampden district)
 
 ## Why a Pledge?
 
