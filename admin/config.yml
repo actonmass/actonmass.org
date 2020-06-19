@@ -470,7 +470,7 @@ collections:
             widget: select
             options:
               - label: Normal
-                value: null
+                value: ""
               - label: Death
                 value: death
       - label: Bill timeline events
@@ -528,7 +528,7 @@ collections:
         widget: select
         options:
           - label: Normal
-            value: null
+            value: ""
           - label: Death
             value: death
       - label: Vote descriptions
