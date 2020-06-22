@@ -19,7 +19,8 @@ async function geolocate(address) {
   return await axios
     .get("https://maps.googleapis.com/maps/api/geocode/json", {
       params: {
-        components: `country:US|administrative_area:MA|locality:${address.city}|street_address:${address.streetAddress}`,
+        address: `${address.streetAddress}, ${address.city}`,
+        components: `country:US|administrative_area:MA`,
         key: GOOGLE_API_KEY,
       },
     })
