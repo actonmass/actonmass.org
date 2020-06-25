@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import ReactDOM from "react-dom";
-import { findRepsMock } from "./findReps";
+import { findReps } from "./findReps";
 import LoadingSpinner from "./LoadingSpinner";
 import Legislator from "./Legislator.tsx";
 
@@ -8,7 +8,7 @@ export default { renderFindMyReps };
 
 function renderFindMyReps(targetID, data) {
   const targetEl = document.getElementById(targetID);
-  ReactDOM.render(<FindMyReps onQueryReps={findRepsMock} {...data} />, targetEl);
+  ReactDOM.render(<FindMyReps onQueryReps={findReps} {...data} />, targetEl);
 }
 
 function FindMyReps({ onQueryReps, legislatorsInfo, title, text, theme, mode, showResultIfEmpty }) {
