@@ -1,5 +1,7 @@
 import React, { useState } from "react";
 
+import { ContactLegModal } from "../Modals/ContactLegModal.tsx";
+
 export default function Legislator({ leg, chamber, mode }) {
   const legTitle = chamber === "House" ? "rep" : "senator";
   const legTitleShort = chamber === "House" ? "rep" : "sen.";
@@ -22,18 +24,20 @@ export default function Legislator({ leg, chamber, mode }) {
   const iconClass = status ? "fas fa-check-circle fa-2x" : "fas fa-times-circle fa-2x";
 
   return (
-    <a href={leg.href} className="legislator">
-      <h3 className="fUppercase fRegular">Your {legTitle}:</h3>
-      <LegCircle leg={leg} status={status} />
-      <p className="fRoboto fLight">{leg.district}</p>
-      <p className="fUppercase">
-        <i className={iconClass}></i>
-        {statusText()}
-      </p>
+    <div>
+      <a href={leg.href} className="legislator">
+        <h3 className="fUppercase fRegular">Your {legTitle}:</h3>
+        <LegCircle leg={leg} status={status} />
+        <p className="fRoboto fLight">{leg.district}</p>
+        <p className="fUppercase">
+          <i className={iconClass}></i>
+          {statusText()}
+        </p>
+      </a>
       <div className="cbox btn-container">
-        <a className="btn">{status ? `Thank your ${legTitleShort}` : action}</a>
+        <ContactLegModal txt={status ? `Thank your ${legTitleShort}` : action} leg={leg} />
       </div>
-    </a>
+    </div>
   );
 }
 

@@ -1,0 +1,22 @@
+{% assign leg = include.leg %}
+{% assign district = site.data.cache.districts_by_id[leg.district] %}
+
+<div id="contact-{{leg.uid}}-modal"></div>
+<script>
+  window.addEventListener("DOMContentLoaded", function() {
+    data = {
+      txt: "{{include.txt}}",
+      leg: {
+        chamber: "{{district.chamber}}",
+        first_name: "{{leg.first_name}}",
+        last_name: "{{leg.last_name}}",
+        phone: "{{leg.phone}}",
+        email: "{{leg.email}}",
+        facebook: "{{leg.facebook}}",
+        twitter: "{{leg.twitter}}",
+      },
+    };
+    AOM.renderModal("contact-{{include.leg.uid}}-modal", data);
+  });
+</script>
+
