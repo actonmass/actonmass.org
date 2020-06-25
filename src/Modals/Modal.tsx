@@ -87,12 +87,16 @@ function ContactLegModal({ txt, leg }: Props) {
               Send {fullName} a tweet
             </a>
           )}
-          {leg.facebook && (
+
+          {
+            // Not supported for now
+            /* {leg.facebook && (
             <a className="btn" onClick={() => setModalContent("")}>
               <i className="fab fa-facebook-f fa-lg"></i>
               Contact {fullName} on Facebook
             </a>
-          )}
+          )} */
+          }
         </div>
       </div>
     );
