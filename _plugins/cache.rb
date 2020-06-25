@@ -82,6 +82,9 @@ module Cache
       legislators = cache["legislators_by_id"]
       for bill in site.collections["bills"].docs do
         co_sponsors = bill.data["co_sponsors"]
+        if (co_sponsors == nil) then
+          next  # Bill has no co-sponsors, we ignore it
+        end
         for leg_id in co_sponsors do
           leg = legislators[leg_id]
           leg.data["cosponsored_bills"].push(bill['aom_id'])
