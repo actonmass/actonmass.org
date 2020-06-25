@@ -29,12 +29,14 @@ export function ContactLegModal({ txt, leg }: Props) {
           </h3>
           <h3>{leg.phone}</h3>
           <h4>Script</h4>
-          <p>Blah blah blah</p>
+          <p>Please sign the pledge!</p>
           <div className="hbox" style={{ justifyContent: "space-between" }}>
             <a className="btn btn-sec" onClick={() => setModalContent("")}>
               Back
             </a>
-            <a className="btn">I called my rep</a>
+            <a className="btn" onClick={() => setModalContent("call-thanks")}>
+              I called my rep
+            </a>
           </div>
         </>
       );
@@ -50,15 +52,39 @@ export function ContactLegModal({ txt, leg }: Props) {
           <h4>Subject: Please sign the Voter deserve to know pledge!</h4>
           <br />
           <h4>Email Body:</h4>
-          <p>Blah blah blah</p>
+          <p>Please sign the pledge!</p>
           <div className="hbox" style={{ justifyContent: "space-between" }}>
             <a className="btn btn-sec" onClick={() => setModalContent("")}>
               Back
             </a>
-            <a className="btn">I emailed my rep</a>
+            <a className="btn" onClick={() => setModalContent("email-thanks")}>
+              I emailed my rep
+            </a>
           </div>
         </>
       );
+    }
+
+    if (modalContent === "email-thanks" || modalContent === "call-thanks") {
+      const actionType = modalContent === "email-thanks" ? "email" : "call";
+      return (
+        <>
+          <p>
+            Thanks for {`${actionType === "email" ? "emailing" : "calling"}`} your rep!
+            <br />
+            Please send us a tweet and let us know how it went.
+          </p>
+          <div className="cbox">
+            <a className="btn" target="_blank" href={getThankYouTweetIntent(leg, actionType)}>
+              <i className="fab fa-twitter fa-lg"></i>
+              Tweet to @Act_On_Mass
+            </a>
+          </div>
+        </>
+      );
+    }
+
+    if (modalContent === "call-thanks") {
     }
 
     return (
@@ -127,8 +153,15 @@ function getTweeterIntentUrl(leg: Leg) {
   });
 }
 
+function getThankYouTweetIntent(leg: Leg, actionType: "email" | "call") {
+  const actionVerb = actionType === "email" ? "emailed" : "called";
+  const legTitle = leg.chamber === "house" ? "Rep" : "Sen";
+  return encodeUrl("https://twitter.com/intent/tweet", {
+    text: `@Act_On_Mass Hi! I just ${actionVerb} ${legTitle} ${leg.first_name} ${leg.last_name} to request they sign the pledge and...`,
+  });
+}
+
 function renderModal(targetID: string, data: Props) {
-  console.log(data);
   const targetEl = document.getElementById(targetID);
   ReactDOM.render(<ContactLegModal {...data} />, targetEl);
 }
