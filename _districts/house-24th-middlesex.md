@@ -1,5 +1,5 @@
 ---
-uid: house-24th-middlesex
+aom_id: house-24th-middlesex
 chamber: house
 lat: 42.3954663
 lng: -71.1514616

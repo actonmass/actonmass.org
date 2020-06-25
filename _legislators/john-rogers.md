@@ -1,5 +1,5 @@
 ---
-uid: john-rogers
+aom_id: john-rogers
 chamber: house
 district: house-12th-norfolk
 email: John.Rogers@mahouse.gov

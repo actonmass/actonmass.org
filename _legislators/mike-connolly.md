@@ -1,5 +1,5 @@
 ---
-uid: mike-connolly
+aom_id: mike-connolly
 chamber: house
 district: house-26th-middlesex
 email: Mike.Connolly@mahouse.gov

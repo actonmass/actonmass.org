@@ -1,5 +1,5 @@
 ---
-uid: senate-worcester-hampden-hampshire-and-middlesex
+aom_id: senate-worcester-hampden-hampshire-and-middlesex
 chamber: senate
 lat: 42.35046
 lng: -72.11455

@@ -1,5 +1,5 @@
 ---
-uid: joint-higher-education
+aom_id: joint-higher-education
 chamber: joint
 house_chair: jeffrey-roy
 house_members:

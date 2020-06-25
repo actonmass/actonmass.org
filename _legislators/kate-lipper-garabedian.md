@@ -1,5 +1,5 @@
 ---
-uid: kate-lipper-garabedian
+aom_id: kate-lipper-garabedian
 first_name: Kate
 last_name: Lipper-Garabedian
 district: house-32nd-middlesex

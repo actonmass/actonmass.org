@@ -1,5 +1,5 @@
 ---
-uid: harriette-chandler
+aom_id: harriette-chandler
 chamber: senate
 district: senate-1st-worcester
 email: Harriette.Chandler@masenate.gov

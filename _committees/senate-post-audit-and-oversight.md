@@ -1,5 +1,5 @@
 ---
-uid: senate-post-audit-and-oversight
+aom_id: senate-post-audit-and-oversight
 chamber: senate
 malegislature_url: https://malegislature.gov/Committees/Detail/S48
 senate_chair: john-keenan

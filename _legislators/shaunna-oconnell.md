@@ -1,5 +1,5 @@
 ---
-uid: shaunna-oconnell
+aom_id: shaunna-oconnell
 chamber: house
 district: house-3rd-bristol
 email: Shaunna.O'Connell@mahouse.gov

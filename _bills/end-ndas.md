@@ -1,5 +1,5 @@
 ---
-uid: end-ndas
+aom_id: end-ndas
 title: End NDAs
 full_title: ''
 house_no: ''

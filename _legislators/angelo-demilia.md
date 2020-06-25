@@ -1,5 +1,5 @@
 ---
-uid: angelo-demilia
+aom_id: angelo-demilia
 chamber: house
 district: house-8th-plymouth
 email: Angelo.D'Emilia@mahouse.gov

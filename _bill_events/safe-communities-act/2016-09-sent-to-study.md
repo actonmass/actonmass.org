@@ -1,5 +1,5 @@
 ---
-uid: safe-communities-act-2016-09-sent-to-study
+aom_id: safe-communities-act-2016-09-sent-to-study
 date: 2016-09-15T00:00:00.000Z
 description: Sent to study by the Public Safety Committee
 bill: safe-communities-act

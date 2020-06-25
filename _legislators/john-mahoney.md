@@ -1,5 +1,5 @@
 ---
-uid: john-mahoney
+aom_id: john-mahoney
 chamber: house
 district: house-13th-worcester
 email: John.Mahoney@mahouse.gov

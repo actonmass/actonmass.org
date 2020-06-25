@@ -1,5 +1,5 @@
 ---
-uid: thomas-walsh
+aom_id: thomas-walsh
 chamber: house
 district: house-12th-essex
 email: Thomas.Walsh@mahouse.gov

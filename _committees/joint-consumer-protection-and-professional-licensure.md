@@ -1,5 +1,5 @@
 ---
-uid: joint-consumer-protection-and-professional-licensure
+aom_id: joint-consumer-protection-and-professional-licensure
 chamber: joint
 house_chair: tackey-chan
 house_members:

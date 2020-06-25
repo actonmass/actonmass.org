@@ -1,5 +1,5 @@
 ---
-uid: james-welch
+aom_id: james-welch
 chamber: senate
 district: senate-hampden
 email: James.Welch@masenate.gov

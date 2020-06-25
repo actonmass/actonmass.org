@@ -1,5 +1,5 @@
 ---
-uid: house-3rd-berkshire
+aom_id: house-3rd-berkshire
 chamber: house
 lat: 42.4517222
 lng: -73.2536031

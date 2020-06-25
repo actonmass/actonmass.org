@@ -1,5 +1,5 @@
 ---
-uid: senate-1st-worcester
+aom_id: senate-1st-worcester
 chamber: senate
 lat: 42.34087
 lng: -71.80466

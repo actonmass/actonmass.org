@@ -1,5 +1,5 @@
 ---
-uid: senate-1st-essex
+aom_id: senate-1st-essex
 chamber: senate
 lat: 42.79181
 lng: -71.03232

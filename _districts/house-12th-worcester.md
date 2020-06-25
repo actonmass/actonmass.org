@@ -1,5 +1,5 @@
 ---
-uid: house-12th-worcester
+aom_id: house-12th-worcester
 chamber: house
 lat: 42.4132058
 lng: -71.6853048

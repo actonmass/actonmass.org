@@ -1,5 +1,5 @@
 ---
-uid: james-oday
+aom_id: james-oday
 chamber: house
 district: house-14th-worcester
 email: James.O'Day@mahouse.gov

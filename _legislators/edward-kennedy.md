@@ -1,5 +1,5 @@
 ---
-uid: edward-kennedy
+aom_id: edward-kennedy
 chamber: senate
 district: senate-1st-middlesex
 email: edward.kennedy@masenate.gov

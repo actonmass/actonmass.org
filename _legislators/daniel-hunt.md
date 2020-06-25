@@ -1,5 +1,5 @@
 ---
-uid: daniel-hunt
+aom_id: daniel-hunt
 chamber: house
 district: house-13th-suffolk
 email: Daniel.Hunt@mahouse.gov

@@ -6,7 +6,7 @@ module Cache
       for collection in ["legislators", "districts", "committees", "bill_events", "issues" ,"bills"] do
         item_by_id = {}
         for item in site.collections[collection].docs do
-          id = item['uid']
+          id = item['aom_id']
           item_by_id[id] = item
         end
         cache["#{collection}_by_id"] = item_by_id
@@ -84,7 +84,7 @@ module Cache
         co_sponsors = bill.data["co_sponsors"]
         for leg_id in co_sponsors do
           leg = legislators[leg_id]
-          leg.data["cosponsored_bills"].push(bill['uid'])
+          leg.data["cosponsored_bills"].push(bill['aom_id'])
         end
       end
     end
@@ -112,7 +112,7 @@ module Cache
         issue_id = bill.data["issue"]
         issue = issues[issue_id]
         if issue != nil
-          issue.data["bills"].push(bill['uid'])
+          issue.data["bills"].push(bill['aom_id'])
         end
       end
     end

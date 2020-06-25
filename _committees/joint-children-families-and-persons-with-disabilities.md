@@ -1,5 +1,5 @@
 ---
-uid: joint-children-families-and-persons-with-disabilities
+aom_id: joint-children-families-and-persons-with-disabilities
 chamber: joint
 house_chair: kay-khan
 house_members:

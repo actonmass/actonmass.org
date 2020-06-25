@@ -1,5 +1,5 @@
 ---
-uid: senate-worcester-and-norfolk
+aom_id: senate-worcester-and-norfolk
 chamber: senate
 lat: 42.08933
 lng: -71.73386

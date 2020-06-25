@@ -1,5 +1,5 @@
 ---
-uid: house-personnel-and-administration
+aom_id: house-personnel-and-administration
 chamber: house
 house_chair: frank-moran
 house_members:

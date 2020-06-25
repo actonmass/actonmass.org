@@ -1,5 +1,5 @@
 ---
-uid: life-without-parole
+aom_id: life-without-parole
 title: Life without Parole
 full_title: An Act repealing mandatory life without parole
 house_no: H1520

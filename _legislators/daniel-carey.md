@@ -1,5 +1,5 @@
 ---
-uid: daniel-carey
+aom_id: daniel-carey
 chamber: house
 district: house-2nd-hampshire
 email: daniel.carey@mahouse.gov

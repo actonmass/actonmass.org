@@ -1,5 +1,5 @@
 ---
-uid: adrian-madaro
+aom_id: adrian-madaro
 chamber: house
 district: house-1st-suffolk
 email: Adrian.Madaro@mahouse.gov

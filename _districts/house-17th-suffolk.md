@@ -1,5 +1,5 @@
 ---
-uid: house-17th-suffolk
+aom_id: house-17th-suffolk
 chamber: house
 lat: 42.3513196
 lng: -71.157166

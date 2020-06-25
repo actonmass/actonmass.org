@@ -1,5 +1,5 @@
 ---
-uid: senate-bills-third-reading
+aom_id: senate-bills-third-reading
 chamber: senate
 malegislature_url: https://malegislature.gov/Committees/Detail/S31
 senate_chair: sal-didomenico

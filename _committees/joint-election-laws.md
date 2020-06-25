@@ -1,5 +1,5 @@
 ---
-uid: joint-election-laws
+aom_id: joint-election-laws
 chamber: joint
 house_chair: john-lawn
 house_members:

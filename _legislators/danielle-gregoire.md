@@ -1,5 +1,5 @@
 ---
-uid: danielle-gregoire
+aom_id: danielle-gregoire
 chamber: house
 district: house-4th-middlesex
 email: Danielle.Gregoire@mahouse.gov

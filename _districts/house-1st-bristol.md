@@ -1,5 +1,5 @@
 ---
-uid: house-1st-bristol
+aom_id: house-1st-bristol
 chamber: house
 lat: 42.0139878
 lng: -71.2101461

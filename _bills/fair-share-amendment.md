@@ -1,5 +1,5 @@
 ---
-uid: fair-share-amendment
+aom_id: fair-share-amendment
 title: Fair Share Amendment
 full_title: Proposal for a legislative amendment to the Constitution to provide resources
   for education and transportation through an additional tax on incomes in excess

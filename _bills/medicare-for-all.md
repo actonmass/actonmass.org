@@ -1,5 +1,5 @@
 ---
-uid: medicare-for-all
+aom_id: medicare-for-all
 title: Medicare for All
 full_title: An Act Establishing Medicare for all in Massachusetts
 house_no: H1194

@@ -1,5 +1,5 @@
 ---
-uid: bradford-hill
+aom_id: bradford-hill
 chamber: house
 district: house-4th-essex
 email: Brad.Hill@mahouse.gov

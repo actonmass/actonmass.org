@@ -1,5 +1,5 @@
 ---
-uid: nicholas-boldyga
+aom_id: nicholas-boldyga
 chamber: house
 district: house-3rd-hampden
 email: Nicholas.Boldyga@mahouse.gov

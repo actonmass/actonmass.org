@@ -1,5 +1,5 @@
 ---
-uid: senate-berkshire-hampshire-franklin-and-hampden
+aom_id: senate-berkshire-hampshire-franklin-and-hampden
 chamber: senate
 lat: 42.39088
 lng: -73.04813

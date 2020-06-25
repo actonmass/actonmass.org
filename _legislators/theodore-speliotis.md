@@ -1,5 +1,5 @@
 ---
-uid: theodore-speliotis
+aom_id: theodore-speliotis
 chamber: house
 district: house-13th-essex
 email: Theodore.Speliotis@mahouse.gov

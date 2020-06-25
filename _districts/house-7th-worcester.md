@@ -1,5 +1,5 @@
 ---
-uid: house-7th-worcester
+aom_id: house-7th-worcester
 chamber: house
 lat: 42.1704156
 lng: -71.8803121

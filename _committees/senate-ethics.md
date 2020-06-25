@@ -1,5 +1,5 @@
 ---
-uid: senate-ethics
+aom_id: senate-ethics
 chamber: senate
 malegislature_url: https://malegislature.gov/Committees/Detail/S56
 senate_chair: eric-lesser

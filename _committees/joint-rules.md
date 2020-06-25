@@ -1,5 +1,5 @@
 ---
-uid: joint-rules
+aom_id: joint-rules
 chamber: joint
 house_chair: william-galvin
 house_members:

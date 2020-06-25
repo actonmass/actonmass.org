@@ -1,5 +1,5 @@
 ---
-uid: house-3rd-essex
+aom_id: house-3rd-essex
 chamber: house
 lat: 42.7915098
 lng: -71.0913564

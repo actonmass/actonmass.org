@@ -1,5 +1,5 @@
 ---
-uid: f-jay-barrows
+aom_id: f-jay-barrows
 chamber: house
 district: house-1st-bristol
 email: F.JayBarrows@mahouse.gov

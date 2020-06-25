@@ -1,5 +1,5 @@
 ---
-uid: house-14th-suffolk
+aom_id: house-14th-suffolk
 chamber: house
 lat: 42.2682554
 lng: -71.1329617

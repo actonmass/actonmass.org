@@ -1,5 +1,5 @@
 ---
-uid: joseph-wagner
+aom_id: joseph-wagner
 chamber: house
 district: house-8th-hampden
 email: Joseph.Wagner@mahouse.gov

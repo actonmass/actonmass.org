@@ -1,5 +1,5 @@
 ---
-uid: david-nangle
+aom_id: david-nangle
 chamber: house
 district: house-17th-middlesex
 email: David.Nangle@mahouse.gov

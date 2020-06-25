@@ -1,5 +1,5 @@
 ---
-uid: roselee-vincent
+aom_id: roselee-vincent
 chamber: house
 district: house-16th-suffolk
 email: RoseLee.Vincent@mahouse.gov

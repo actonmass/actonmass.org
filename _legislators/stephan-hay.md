@@ -1,5 +1,5 @@
 ---
-uid: stephan-hay
+aom_id: stephan-hay
 chamber: house
 district: house-3rd-worcester
 email: Stephan.Hay@mahouse.gov

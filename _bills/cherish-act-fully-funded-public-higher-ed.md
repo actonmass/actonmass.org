@@ -1,5 +1,5 @@
 ---
-uid: cherish-act-fully-funded-public-higher-ed
+aom_id: cherish-act-fully-funded-public-higher-ed
 title: 'Cherish Act: Fully funded public higher ed'
 full_title: An Act committing to higher education the resources to insure a strong
   and healthy public higher education system

@@ -1,5 +1,5 @@
 ---
-uid: daniel-ryan
+aom_id: daniel-ryan
 chamber: house
 district: house-2nd-suffolk
 email: Dan.Ryan@mahouse.gov

@@ -1,5 +1,5 @@
 ---
-uid: house-1st-worcester
+aom_id: house-1st-worcester
 chamber: house
 lat: 42.3655344
 lng: -71.8583394

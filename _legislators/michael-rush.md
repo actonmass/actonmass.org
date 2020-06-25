@@ -1,5 +1,5 @@
 ---
-uid: michael-rush
+aom_id: michael-rush
 chamber: senate
 district: senate-norfolk-and-suffolk
 email: Mike.Rush@masenate.gov

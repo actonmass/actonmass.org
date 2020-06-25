@@ -1,5 +1,5 @@
 ---
-uid: climate
+aom_id: climate
 layout: issue
 title: Climate
 subtitle: 100% renewable by 2045 or sooner

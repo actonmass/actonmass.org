@@ -27,7 +27,7 @@
         twitter: "{{leg.twitter}}",
         pledge: {{ leg.pledge }},
         {% if include.bill %}
-        sponsored: {% if bill.co_sponsors contains leg.uid %}true{% else %}false{% endif %},
+        sponsored: {% if bill.co_sponsors contains leg.aom_id %}true{% else %}false{% endif %},
         {% endif %}
       },
       {% endif %}

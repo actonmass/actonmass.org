@@ -1,5 +1,5 @@
 ---
-uid: house-10th-hampden
+aom_id: house-10th-hampden
 chamber: house
 lat: 42.0973451
 lng: -72.575884

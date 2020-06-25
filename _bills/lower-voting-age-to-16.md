@@ -1,5 +1,5 @@
 ---
-uid: lower-voting-age-to-16
+aom_id: lower-voting-age-to-16
 title: Lower voting age to 16
 full_title: An Act ensuring municipal participation of the widest eligible range
 house_no: H720

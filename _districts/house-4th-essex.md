@@ -1,5 +1,5 @@
 ---
-uid: house-4th-essex
+aom_id: house-4th-essex
 chamber: house
 lat: 42.6502622
 lng: -70.8709432

@@ -1,5 +1,5 @@
 ---
-uid: house-11th-essex
+aom_id: house-11th-essex
 chamber: house
 lat: 42.459068
 lng: -70.9684469

@@ -1,5 +1,5 @@
 ---
-uid: alan-silvia
+aom_id: alan-silvia
 chamber: house
 district: house-7th-bristol
 email: Alan.Silvia@mahouse.gov

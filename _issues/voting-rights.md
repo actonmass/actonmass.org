@@ -1,5 +1,5 @@
 ---
-uid: voting-rights
+aom_id: voting-rights
 layout: issue
 permalink: /issues/voting-rights/
 

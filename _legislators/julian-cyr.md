@@ -1,5 +1,5 @@
 ---
-uid: julian-cyr
+aom_id: julian-cyr
 chamber: senate
 district: senate-cape-and-islands
 email: julian.cyr@masenate.gov

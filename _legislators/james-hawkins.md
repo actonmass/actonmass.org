@@ -1,5 +1,5 @@
 ---
-uid: james-hawkins
+aom_id: james-hawkins
 chamber: house
 district: house-2nd-bristol
 email: james.hawkins@mahouse.gov

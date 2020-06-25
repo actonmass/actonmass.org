@@ -1,5 +1,5 @@
 ---
-uid: james-eldridge
+aom_id: james-eldridge
 chamber: senate
 district: senate-middlesex-and-worcester
 email: James.Eldridge@masenate.gov

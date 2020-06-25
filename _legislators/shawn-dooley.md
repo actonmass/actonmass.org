@@ -1,5 +1,5 @@
 ---
-uid: shawn-dooley
+aom_id: shawn-dooley
 chamber: house
 district: house-9th-norfolk
 email: Shawn.Dooley@mahouse.gov

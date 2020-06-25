@@ -1,7 +1,7 @@
 {% assign leg = include.leg %}
 {% assign district = site.data.cache.districts_by_id[leg.district] %}
 
-<div id="contact-{{leg.uid}}-modal"></div>
+<div id="contact-{{leg.aom_id}}-modal"></div>
 <script>
   window.addEventListener("DOMContentLoaded", function() {
     data = {
@@ -16,7 +16,7 @@
         twitter: "{{leg.twitter}}",
       },
     };
-    AOM.renderModal("contact-{{include.leg.uid}}-modal", data);
+    AOM.renderModal("contact-{{include.leg.aom_id}}-modal", data);
   });
 </script>
 

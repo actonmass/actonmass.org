@@ -1,7 +1,7 @@
 ---
 house_no: H1486
 senate_link: https://malegislature.gov/Bills/191/S825
-uid: age-of-criminal-majority-to-21
+aom_id: age-of-criminal-majority-to-21
 title: Age of criminal majority to 21
 full_title: An act to reduce recidivism among emerging adults
 house_link: https://malegislature.gov/Bills/191/H1486

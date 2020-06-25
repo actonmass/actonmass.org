@@ -1,5 +1,5 @@
 ---
-uid: paul-mcmurtry
+aom_id: paul-mcmurtry
 chamber: house
 district: house-11th-norfolk
 email: Paul.McMurtry@mahouse.gov

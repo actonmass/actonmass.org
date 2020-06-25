@@ -1,5 +1,5 @@
 ---
-uid: immigration
+aom_id: immigration
 layout: issue
 permalink: /issues/immigration/
 title: Immigration

@@ -1,5 +1,5 @@
 ---
-uid: daniel-cullinane
+aom_id: daniel-cullinane
 chamber: house
 district: house-12th-suffolk
 email: Daniel.Cullinane@mahouse.gov

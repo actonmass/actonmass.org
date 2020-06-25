@@ -51,7 +51,7 @@ collections:
     fields:
       - &id-field
         label: ID
-        name: uid
+        name: aom_id
         widget: string
       - name: ocd_id
         widget: hidden
@@ -95,7 +95,7 @@ collections:
           - title
         displayFields:
           - title
-        valueField: id
+        valueField: aom_id
       - label: “Failures“ section title
         name: failures_block_title
         widget: string
@@ -192,7 +192,7 @@ collections:
         collection: districts
         searchFields: [name]
         displayFields: [name]
-        valueField: id
+        valueField: aom_id
       - label: Party
         name: party
         widget: select
@@ -317,7 +317,7 @@ collections:
         collection: legislators
         searchFields:
           - last_name
-        valueField: id
+        valueField: aom_id
         displayFields:
           - last_name
       - <<: *legislator-picker
@@ -392,7 +392,7 @@ collections:
           - title
         displayFields:
           - title
-        valueField: id
+        valueField: aom_id
       - label: Issue
         name: issue
         required: false
@@ -402,7 +402,7 @@ collections:
           - title
         displayFields:
           - title
-        valueField: id
+        valueField: aom_id
       - label: Image
         name: img
         widget: image
@@ -451,7 +451,7 @@ collections:
             required: false
             widget: relation
             collection: bill_events
-            valueField: id
+            valueField: aom_id
             searchFields:
               - id
             displayFields:
@@ -513,7 +513,7 @@ collections:
           - title
         displayFields:
           - title
-        valueField: id
+        valueField: aom_id
       - label: Progressive vote
         name: progressive_vote
         widget: select

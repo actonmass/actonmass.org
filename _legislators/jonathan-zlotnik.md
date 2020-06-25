@@ -1,5 +1,5 @@
 ---
-uid: jonathan-zlotnik
+aom_id: jonathan-zlotnik
 chamber: house
 district: house-2nd-worcester
 email: Jon.Zlotnik@mahouse.gov

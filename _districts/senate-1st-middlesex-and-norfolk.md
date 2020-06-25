@@ -1,5 +1,5 @@
 ---
-uid: senate-1st-middlesex-and-norfolk
+aom_id: senate-1st-middlesex-and-norfolk
 chamber: senate
 lat: 42.32828
 lng: -71.19776

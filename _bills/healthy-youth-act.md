@@ -1,5 +1,5 @@
 ---
-uid: healthy-youth-act
+aom_id: healthy-youth-act
 title: Healthy Youth Act
 full_title: An Act relative to healthy youth
 house_no: H410

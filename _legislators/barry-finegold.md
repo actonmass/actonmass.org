@@ -1,5 +1,5 @@
 ---
-uid: barry-finegold
+aom_id: barry-finegold
 chamber: senate
 district: senate-2nd-essex-and-middlesex
 email: Barry.Finegold@masenate.gov

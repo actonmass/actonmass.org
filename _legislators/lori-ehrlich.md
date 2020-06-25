@@ -1,5 +1,5 @@
 ---
-uid: lori-ehrlich
+aom_id: lori-ehrlich
 chamber: house
 district: house-8th-essex
 email: Lori.Ehrlich@mahouse.gov

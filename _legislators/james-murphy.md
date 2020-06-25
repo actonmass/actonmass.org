@@ -1,5 +1,5 @@
 ---
-uid: james-murphy
+aom_id: james-murphy
 chamber: house
 district: house-4th-norfolk
 email: James.Murphy@mahouse.gov

@@ -1,5 +1,5 @@
 ---
-uid: house-1st-barnstable
+aom_id: house-1st-barnstable
 chamber: house
 lat: 41.7061274
 lng: -70.1870443

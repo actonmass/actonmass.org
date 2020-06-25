@@ -1,5 +1,5 @@
 ---
-uid: mindy-domb
+aom_id: mindy-domb
 chamber: house
 district: house-3rd-hampshire
 email: mindy.domb@mahouse.gov

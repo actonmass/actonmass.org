@@ -1,5 +1,5 @@
 ---
-uid: house-11th-bristol
+aom_id: house-11th-bristol
 chamber: house
 lat: 41.7174042
 lng: -70.9052755

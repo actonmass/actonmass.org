@@ -1,5 +1,5 @@
 ---
-uid: patrick-oconnor
+aom_id: patrick-oconnor
 chamber: senate
 district: senate-plymouth-and-norfolk
 email: Patrick.OConnor@masenate.gov

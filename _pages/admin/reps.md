@@ -21,7 +21,7 @@ layout: admin
     <th>website</th>
  </tr>
   {% for rep in site.legislators %}
-  {% capture rep_id %}{{ rep.uid }}{% endcapture %}
+  {% capture rep_id %}{{ rep.aom_id }}{% endcapture %}
   {% assign committee = site.committees | where: "id", committee_id | first %}
    <tr>
     <td>

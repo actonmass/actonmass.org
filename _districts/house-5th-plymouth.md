@@ -1,5 +1,5 @@
 ---
-uid: house-5th-plymouth
+aom_id: house-5th-plymouth
 chamber: house
 lat: 42.1284959
 lng: -70.8525106

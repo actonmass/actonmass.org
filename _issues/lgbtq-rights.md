@@ -1,5 +1,5 @@
 ---
-uid: lgbtq-rights
+aom_id: lgbtq-rights
 layout: issue
 permalink: /issues/lgbtq-rights/
 

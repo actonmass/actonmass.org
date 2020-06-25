@@ -1,5 +1,5 @@
 ---
-uid: christina-minicucci
+aom_id: christina-minicucci
 chamber: house
 district: house-14th-essex
 email: christina.minicucci@mahouse.gov

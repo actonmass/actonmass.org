@@ -1,5 +1,5 @@
 ---
-uid: anne-gobi
+aom_id: anne-gobi
 chamber: senate
 district: senate-worcester-hampden-hampshire-and-middlesex
 email: anne.gobi@masenate.gov

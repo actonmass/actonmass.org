@@ -1,5 +1,5 @@
 ---
-uid: john-velis
+aom_id: john-velis
 chamber: house
 district: house-4th-hampden
 email: john.velis@mahouse.gov

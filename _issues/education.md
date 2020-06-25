@@ -1,5 +1,5 @@
 ---
-uid: education
+aom_id: education
 layout: issue
 permalink: /issues/education/
 title: Education

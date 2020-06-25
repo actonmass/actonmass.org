@@ -1,5 +1,5 @@
 ---
-uid: same-voter-day-registration
+aom_id: same-voter-day-registration
 title: Same Voter Day Registration
 full_title: An Act Relative to Election Day Registration
 house_no: H685

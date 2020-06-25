@@ -1,5 +1,5 @@
 ---
-uid: joint-public-service
+aom_id: joint-public-service
 chamber: joint
 house_chair: jerald-parisella
 house_members:

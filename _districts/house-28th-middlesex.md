@@ -1,5 +1,5 @@
 ---
-uid: house-28th-middlesex
+aom_id: house-28th-middlesex
 chamber: house
 lat: 42.4061778
 lng: -71.0592794

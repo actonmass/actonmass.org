@@ -1,5 +1,5 @@
 ---
-uid: natalie-blais
+aom_id: natalie-blais
 chamber: house
 district: house-1st-franklin
 email: Natalie.Blais@mahouse.gov

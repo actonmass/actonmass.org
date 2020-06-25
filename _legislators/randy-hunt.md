@@ -1,5 +1,5 @@
 ---
-uid: randy-hunt
+aom_id: randy-hunt
 chamber: house
 district: house-5th-barnstable
 email: Randy.Hunt@mahouse.gov

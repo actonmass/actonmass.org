@@ -1,5 +1,5 @@
 ---
-uid: joint-municipalities-and-regional-government
+aom_id: joint-municipalities-and-regional-government
 chamber: joint
 house_chair: james-oday
 house_members:

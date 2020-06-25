@@ -1,5 +1,5 @@
 ---
-uid: house-33rd-middlesex
+aom_id: house-33rd-middlesex
 chamber: house
 lat: 42.4263278
 lng: -71.0683082

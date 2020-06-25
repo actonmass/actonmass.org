@@ -1,5 +1,5 @@
 ---
-uid: joseph-mckenna
+aom_id: joseph-mckenna
 chamber: house
 district: house-18th-worcester
 email: joseph.mckenna@mahouse.gov

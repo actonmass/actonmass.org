@@ -1,5 +1,5 @@
 ---
-uid: daniel-donahue
+aom_id: daniel-donahue
 chamber: house
 district: house-16th-worcester
 email: Daniel.Donahue@mahouse.gov

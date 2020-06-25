@@ -1,5 +1,5 @@
 ---
-uid: house-global-warming-and-climate-change
+aom_id: house-global-warming-and-climate-change
 chamber: house
 house_chair: michael-finn
 house_members:

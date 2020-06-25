@@ -1,5 +1,5 @@
 ---
-uid: paul-donato
+aom_id: paul-donato
 chamber: house
 district: house-35th-middlesex
 email: Paul.Donato@mahouse.gov

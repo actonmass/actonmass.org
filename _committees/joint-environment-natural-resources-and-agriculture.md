@@ -1,5 +1,5 @@
 ---
-uid: joint-environment-natural-resources-and-agriculture
+aom_id: joint-environment-natural-resources-and-agriculture
 chamber: joint
 house_chair: smitty-pignatelli
 house_members:

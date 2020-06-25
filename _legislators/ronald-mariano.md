@@ -1,5 +1,5 @@
 ---
-uid: ronald-mariano
+aom_id: ronald-mariano
 chamber: house
 district: house-3rd-norfolk
 email: Ronald.Mariano@mahouse.gov

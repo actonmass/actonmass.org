@@ -1,5 +1,5 @@
 ---
-uid: senate-norfolk-bristol-and-plymouth
+aom_id: senate-norfolk-bristol-and-plymouth
 chamber: senate
 lat: 42.13154
 lng: -71.09882

@@ -1,5 +1,5 @@
 ---
-uid: brendan-crighton
+aom_id: brendan-crighton
 chamber: senate
 district: senate-3rd-essex
 email: brendan.crighton@masenate.gov

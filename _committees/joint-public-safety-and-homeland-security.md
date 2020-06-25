@@ -1,5 +1,5 @@
 ---
-uid: joint-public-safety-and-homeland-security
+aom_id: joint-public-safety-and-homeland-security
 chamber: joint
 house_chair: harold-naughton
 house_members:

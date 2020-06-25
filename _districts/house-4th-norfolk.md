@@ -1,5 +1,5 @@
 ---
-uid: house-4th-norfolk
+aom_id: house-4th-norfolk
 chamber: house
 lat: 42.2186352
 lng: -70.9266683
