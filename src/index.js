@@ -4,9 +4,9 @@ We have to use CommonJS here, but other files should be written using ES6 module
 */
 
 const { renderMap } = require("./Map").default;
-const { renderModal } = require("./Modals/Modal.tsx").default;
+const { renderModal } = require("./Modals/ContactLegModal.tsx").default;
 const { renderHistory } = require("./History").default;
-const { renderFindMyReps } = require("./find-my-reps/find-my-reps").default;
+const { renderFindMyReps } = require("./find-my-reps/find-my-reps.tsx").default;
 const { renderBillTimeline } = require("./bill-timeline/bill-timeline").default;
 
 module.exports = {

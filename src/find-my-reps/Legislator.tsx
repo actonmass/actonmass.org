@@ -1,5 +1,7 @@
 import React, { useState } from "react";
 
+import { ContactLegModal } from "../Modals/ContactLegModal.tsx";
+
 export default function Legislator({ leg, chamber, mode }) {
   const legTitle = chamber === "House" ? "rep" : "senator";
   const legTitleShort = chamber === "House" ? "rep" : "sen.";
@@ -33,7 +35,7 @@ export default function Legislator({ leg, chamber, mode }) {
         </p>
       </a>
       <div className="cbox btn-container">
-        <a className="btn">{status ? `Thank your ${legTitleShort}` : action}</a>
+        <ContactLegModal txt={status ? `Thank your ${legTitleShort}` : action} leg={leg} />
       </div>
     </div>
   );

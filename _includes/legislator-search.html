@@ -21,6 +21,10 @@
         href: "{{leg.id}}",
         district: "{{district}}",
         img: "{{ leg.square_picture }}",
+        phone: "{{leg.phone}}",
+        email: "{{leg.email}}",
+        facebook: "{{leg.facebook}}",
+        twitter: "{{leg.twitter}}",
         pledge: {{ leg.pledge }},
         {% if include.bill %}
         sponsored: {% if bill.co_sponsors contains leg.uid %}true{% else %}false{% endif %},

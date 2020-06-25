@@ -2,14 +2,14 @@ import React from "react";
 import ReactDOM from "react-dom";
 import Modal from "react-modal";
 
-import { Leg } from "./types";
+import { Leg } from "../types";
 
 type Props = {
   txt: string;
   leg: Leg;
 };
 
-function ContactLegModal({ txt, leg }: Props) {
+export function ContactLegModal({ txt, leg }: Props) {
   const fullName = leg.chamber === "house" ? "your rep" : "your senator";
   const title = leg.chamber === "house" ? "rep." : "sen.";
   const [modalIsOpen, setIsOpen] = React.useState(false);
@@ -60,12 +60,7 @@ function ContactLegModal({ txt, leg }: Props) {
         </>
       );
     }
-    const tweeterHandle = leg.twitter.replace("https://twitter.com/", "");
-    const tweeterUrl = encodeUrl("https://twitter.com/intent/tweet", {
-      text: `@${tweeterHandle}, please sign the pledge!`,
-      via: "act_on_mass",
-      hashtags: "mapoli",
-    });
+
     return (
       <div>
         <div className="vbox">
@@ -82,7 +77,7 @@ function ContactLegModal({ txt, leg }: Props) {
             </a>
           )}
           {leg.twitter && (
-            <a className="btn" target="_blank" href={tweeterUrl}>
+            <a className="btn" target="_blank" href={getTweeterIntentUrl(leg)}>
               <i className="fab fa-twitter fa-lg"></i>
               Send {fullName} a tweet
             </a>
@@ -121,6 +116,15 @@ function ContactLegModal({ txt, leg }: Props) {
       </Modal>
     </>
   );
+}
+
+function getTweeterIntentUrl(leg: Leg) {
+  const tweeterHandle = leg.twitter.replace("https://twitter.com/", "");
+  return encodeUrl("https://twitter.com/intent/tweet", {
+    text: `@${tweeterHandle}, please sign the pledge!`,
+    via: "act_on_mass",
+    hashtags: "mapoli",
+  });
 }
 
 function renderModal(targetID: string, data: Props) {
