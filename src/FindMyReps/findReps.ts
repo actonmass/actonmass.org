@@ -1,18 +1,22 @@
 import axios from "axios";
 
+// Switch to false to actually fetch leg data in dev
+// This requires to run the netlify function
+const shouldMockInDev = true;
+
 export type Query = { city: string; streetAddress: string };
 export type QueryResult = {
   senator: string;
   representative: string;
 };
 
-export function findReps(query: Query): Promise<QueryResult> {
+function findRepsProd(query: Query): Promise<QueryResult> {
   return axios.post("/.netlify/functions/findMyReps", query).then(function (response) {
     return response.data;
   });
 }
 
-export function findRepsMock(query: Query): Promise<QueryResult> {
+function findRepsMock(query: Query): Promise<QueryResult> {
   return new Promise(function (resolve) {
     setTimeout(
       () =>
@@ -23,4 +27,13 @@ export function findRepsMock(query: Query): Promise<QueryResult> {
       2000
     );
   });
+}
+
+export default function findReps(query: Query): Promise<QueryResult> {
+  const isDev = window.location.host.startsWith("localhost");
+  const shouldMock = isDev && shouldMockInDev;
+  if (shouldMock) {
+    return findRepsMock(query);
+  }
+  return findRepsProd(query);
 }
