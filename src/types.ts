@@ -6,4 +6,10 @@ export type Leg = {
   twitter?: string;
   phone?: string;
   email?: string;
+  party: string;
+  href: string;
+  district: string;
+  img: string;
+  pledge: boolean;
+  sponsored?: boolean;
 };

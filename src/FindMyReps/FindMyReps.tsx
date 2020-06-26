@@ -1,17 +1,26 @@
 import React, { useState } from "react";
 import ReactDOM from "react-dom";
+
 import { findReps } from "./findReps";
 import LoadingSpinner from "./LoadingSpinner";
 import Legislator from "./Legislator.tsx";
 
-export default { renderFindMyReps };
+import { Leg } from "../types";
 
-function renderFindMyReps(targetID, data) {
-  const targetEl = document.getElementById(targetID);
-  ReactDOM.render(<FindMyReps onQueryReps={findReps} {...data} />, targetEl);
-}
+type Props = {
+  legislatorsInfo: { [ocdId: string]: Leg };
+  title: string;
+  text?: string;
+  theme?: string;
+  mode: "bill" | "pledge";
+  showResultIfEmpty: boolean;
+};
 
-function FindMyReps({ onQueryReps, legislatorsInfo, title, text, theme, mode, showResultIfEmpty }) {
+type InnerProps = Props & {
+  onQueryReps: Function;
+};
+
+function FindMyReps({ onQueryReps, legislatorsInfo, title, text, theme, mode, showResultIfEmpty }: InnerProps) {
   const sessionQuery = JSON.parse(window.sessionStorage.getItem("repQuery"));
   const [query, setQuery] = useState(sessionQuery !== null ? sessionQuery.query : null);
   const [repInfo, setRepInfo] = useState(sessionQuery !== null ? sessionQuery.repInfo : null);
@@ -58,7 +67,12 @@ function FindMyReps({ onQueryReps, legislatorsInfo, title, text, theme, mode, sh
   );
 }
 
-function Form({ title, text, onSubmit, theme, loading }) {
+type FormProps = Pick<Props, "title" | "text" | "theme"> & {
+  loading: boolean;
+  onSubmit: Function;
+};
+
+function Form({ title, text, onSubmit, theme, loading }: FormProps) {
   const [streetAddress, setStreetAddress] = useState("");
   const [city, setCity] = useState("");
 
@@ -201,3 +215,10 @@ function persistQueryResults(query, repInfo) {
     })
   );
 }
+
+function renderFindMyReps(targetID: string, data: Props) {
+  const targetEl = document.getElementById(targetID);
+  ReactDOM.render(<FindMyReps onQueryReps={findReps} {...data} />, targetEl);
+}
+
+export default { renderFindMyReps };
