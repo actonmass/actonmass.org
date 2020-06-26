@@ -1,9 +1,9 @@
 import React, { useState } from "react";
 import ReactDOM from "react-dom";
 
-import { findReps } from "./findReps";
+import { findReps, Query, QueryResult } from "./findReps";
 import LoadingSpinner from "./LoadingSpinner";
-import Legislator from "./Legislator.tsx";
+import Legislator from "./Legislator";
 
 import { Leg } from "../types";
 
@@ -17,25 +17,22 @@ type Props = {
 };
 
 type InnerProps = Props & {
-  onQueryReps: Function;
+  onQueryReps: (query: Query) => Promise<QueryResult>;
 };
 
 function FindMyReps({ onQueryReps, legislatorsInfo, title, text, theme, mode, showResultIfEmpty }: InnerProps) {
   const sessionQuery = JSON.parse(window.sessionStorage.getItem("repQuery"));
-  const [query, setQuery] = useState(sessionQuery !== null ? sessionQuery.query : null);
-  const [repInfo, setRepInfo] = useState(sessionQuery !== null ? sessionQuery.repInfo : null);
+  const [repInfo, setRepInfo] = useState<QueryResult | null>(sessionQuery !== null ? sessionQuery.repInfo : null);
   const [error, setError] = useState(null);
   const [loading, setLoading] = useState(false);
 
   const clearQuery = () => {
     window.sessionStorage.removeItem("repQuery");
-    setQuery(null);
     setRepInfo(null);
   };
 
   function handleQueryReps(newQuery) {
     setLoading(true);
-    setQuery(newQuery);
     setError(null);
     onQueryReps(newQuery)
       .then((repInfo) => {
@@ -69,7 +66,7 @@ function FindMyReps({ onQueryReps, legislatorsInfo, title, text, theme, mode, sh
 
 type FormProps = Pick<Props, "title" | "text" | "theme"> & {
   loading: boolean;
-  onSubmit: Function;
+  onSubmit: (query: Query) => void;
 };
 
 function Form({ title, text, onSubmit, theme, loading }: FormProps) {
@@ -136,7 +133,12 @@ function Form({ title, text, onSubmit, theme, loading }: FormProps) {
   );
 }
 
-function Results({ legInfo, legislatorsInfo, mode, theme, showResultIfEmpty, error }) {
+type ResultsProps = Pick<Props, "legislatorsInfo" | "mode" | "theme" | "showResultIfEmpty"> & {
+  legInfo: QueryResult;
+  error: string | null;
+};
+
+function Results({ legInfo, legislatorsInfo, mode, theme, showResultIfEmpty, error }: ResultsProps) {
   const rep = {
     chamber: "house",
     ...(legInfo && legislatorsInfo[legInfo.representative]),
@@ -186,7 +188,11 @@ function EmptyResults() {
   );
 }
 
-function ErrorResults({ errorCode }) {
+type ErrorResultsProps = {
+  errorCode: string;
+};
+
+function ErrorResults({ errorCode }: ErrorResultsProps) {
   const messages = {
     couldNotLocateAddressInMa: "We were not able to locate your address in Massachusetts.",
     unexpectedError: "Something unexpected happened. If the issue persists, please let tech@actonmass.org know!",

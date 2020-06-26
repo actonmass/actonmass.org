@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-import { ContactLegModal } from "../Modals/ContactLegModal.tsx";
+import { ContactLegModal } from "../Modals/ContactLegModal";
 
 export default function Legislator({ leg, chamber, mode }) {
   const legTitle = chamber === "House" ? "rep" : "senator";

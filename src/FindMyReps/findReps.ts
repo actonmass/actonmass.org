@@ -1,13 +1,19 @@
 import axios from "axios";
 
-export function findReps(query) {
+export type Query = { city: string; streetAddress: string };
+export type QueryResult = {
+  senator: string;
+  representative: string;
+};
+
+export function findReps(query: Query): Promise<QueryResult> {
   return axios.post("/.netlify/functions/findMyReps", query).then(function (response) {
     return response.data;
   });
 }
 
-export function findRepsMock(query) {
-  return new Promise(function (resolve, reject) {
+export function findRepsMock(query: Query): Promise<QueryResult> {
+  return new Promise(function (resolve) {
     setTimeout(
       () =>
         resolve({
