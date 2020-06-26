@@ -66,6 +66,7 @@ exclude:
   - vendor
   - node_modules
   - src
+  - .ts-dist
 plugins:
   - jekyll-paginate
   - jekyll-redirect-from

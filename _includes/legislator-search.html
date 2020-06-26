@@ -27,7 +27,7 @@
         twitter: "{{leg.twitter}}",
         pledge: {{ leg.pledge }},
         {% if include.bill %}
-        sponsored: {% if bill.co_sponsors contains leg.aom_id %}true{% else %}false{% endif %},
+        sponsored: {% if include.bill.co_sponsors contains leg.aom_id %}true{% else %}false{% endif %},
         {% endif %}
       },
       {% endif %}
@@ -39,7 +39,12 @@
     title: "{{title}}",
     text: "{{text}}",
     theme: "{{include.theme}}",
-    mode: "{% if include.bill %}bill{% else %}pledge{% endif %}",
+    {% if include.bill %}
+    bill: {
+      article: "{{include.bill.article}}",
+      title: "{{include.bill.title}}",
+    },
+    {% endif %}
     showResultIfEmpty: {% if include.showResultsIfEmpty == "true" %}true{% else %}false{% endif %}
   };
 

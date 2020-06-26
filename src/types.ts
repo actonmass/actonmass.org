@@ -13,3 +13,8 @@ export type Leg = {
   pledge: boolean;
   sponsored?: boolean;
 };
+
+export type Bill = {
+  article?: string;
+  title: string;
+};

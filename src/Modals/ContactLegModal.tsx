@@ -2,14 +2,15 @@ import React from "react";
 import ReactDOM from "react-dom";
 import Modal from "react-modal";
 
-import { Leg } from "../types";
+import { Leg, Bill } from "../types";
 
 type Props = {
   txt: string;
   leg: Leg;
+  bill?: Bill;
 };
 
-export function ContactLegModal({ txt, leg }: Props) {
+export function ContactLegModal({ txt, leg, bill }: Props) {
   const fullName = leg.chamber === "house" ? "your rep" : "your senator";
   const title = leg.chamber === "house" ? "rep." : "sen.";
   const [modalIsOpen, setIsOpen] = React.useState(false);
@@ -29,19 +30,20 @@ export function ContactLegModal({ txt, leg }: Props) {
           </h3>
           <h3>{leg.phone}</h3>
           <h4>Script</h4>
-          <p>Please sign the pledge!</p>
+          <p>{getCallDetails(leg, bill)}</p>
           <div className="hbox" style={{ justifyContent: "space-between" }}>
             <a className="btn btn-sec" onClick={() => setModalContent("")}>
               Back
             </a>
             <a className="btn" onClick={() => setModalContent("call-thanks")}>
-              I called my rep
+              I called my {title}
             </a>
           </div>
         </>
       );
     }
     if (modalContent === "email") {
+      const { subject, body } = getEmailsDetails(leg, bill);
       return (
         <>
           <h3 className="fUppercase">
@@ -49,16 +51,16 @@ export function ContactLegModal({ txt, leg }: Props) {
           </h3>
           <h4>To: {leg.email}</h4>
           <h4>CC: info@actonmass.org</h4>
-          <h4>Subject: Please sign the Voter deserve to know pledge!</h4>
+          <h4>Subject: {subject}</h4>
           <br />
           <h4>Email Body:</h4>
-          <p>Please sign the pledge!</p>
+          <p>{body}</p>
           <div className="hbox" style={{ justifyContent: "space-between" }}>
             <a className="btn btn-sec" onClick={() => setModalContent("")}>
               Back
             </a>
             <a className="btn" onClick={() => setModalContent("email-thanks")}>
-              I emailed my rep
+              I emailed my {title}
             </a>
           </div>
         </>
@@ -75,7 +77,7 @@ export function ContactLegModal({ txt, leg }: Props) {
             Please send us a tweet and let us know how it went.
           </p>
           <div className="cbox">
-            <a className="btn" target="_blank" href={getThankYouTweetIntent(leg, actionType)}>
+            <a className="btn" target="_blank" href={getThankYouTweetIntent(leg, bill, actionType)}>
               <i className="fab fa-twitter fa-lg"></i>
               Tweet to @Act_On_Mass
             </a>
@@ -103,7 +105,7 @@ export function ContactLegModal({ txt, leg }: Props) {
             </a>
           )}
           {leg.twitter && (
-            <a className="btn" target="_blank" href={getTweeterIntentUrl(leg)}>
+            <a className="btn" target="_blank" href={getTweeterIntentUrl(leg, bill)}>
               <i className="fab fa-twitter fa-lg"></i>
               Send {fullName} a tweet
             </a>
@@ -144,21 +146,75 @@ export function ContactLegModal({ txt, leg }: Props) {
   );
 }
 
-function getTweeterIntentUrl(leg: Leg) {
+function getTweeterIntentUrl(leg: Leg, bill: Bill) {
+  const text =
+    bill == null
+      ? leg.pledge
+        ? "thank you for signing the pledge"
+        : "please sign the pledge!"
+      : leg.sponsored
+      ? `thank you for co-sponsoring the ${bill.title} bill!`
+      : `please co-sponsor the ${bill.title} bill!`;
   const tweeterHandle = leg.twitter.replace("https://twitter.com/", "");
   return encodeUrl("https://twitter.com/intent/tweet", {
-    text: `@${tweeterHandle}, please sign the pledge!`,
+    text: `@${tweeterHandle}, ${text}`,
     via: "act_on_mass",
     hashtags: "mapoli",
   });
 }
 
-function getThankYouTweetIntent(leg: Leg, actionType: "email" | "call") {
+function getThankYouTweetIntent(leg: Leg, bill: Bill, actionType: "email" | "call") {
   const actionVerb = actionType === "email" ? "emailed" : "called";
   const legTitle = leg.chamber === "house" ? "Rep" : "Sen";
+  const text =
+    bill == null
+      ? leg.pledge
+        ? "thank them for signing the pledge"
+        : "request they sign the pledge"
+      : leg.sponsored
+      ? `thank them for co-sponsoring the ${bill.title} bill!`
+      : `request they co-sponsor the ${bill.title}!`;
   return encodeUrl("https://twitter.com/intent/tweet", {
-    text: `@Act_On_Mass Hi! I just ${actionVerb} ${legTitle} ${leg.first_name} ${leg.last_name} to request they sign the pledge and...`,
+    text: `@Act_On_Mass Hi! I just ${actionVerb} ${legTitle} ${leg.first_name} ${leg.last_name} to ${text} and...`,
   });
+}
+
+function getCallDetails(leg: Leg, bill: Bill) {
+  if (bill == null) {
+    if (!leg.pledge) {
+      return "Please sign the pledge!";
+    }
+    return "Thank you for siging the pledge";
+  }
+  if (!leg.sponsored) {
+    return `Please co-sponsor ${bill.article ?? ""} ${bill.title}!`;
+  }
+  return `Thank you for cosponsoring ${bill.article ?? ""} ${bill.title}!`;
+}
+
+function getEmailsDetails(leg: Leg, bill: Bill) {
+  if (bill == null) {
+    if (!leg.pledge) {
+      return {
+        subject: "Please sign the Voter Deserve to Know Pledge!",
+        body: `Dear ${leg.first_name} ${leg.last_name}, please help bring transparency to the house by signing the Voter Deserve to Know Pledge.`,
+      };
+    }
+    return {
+      subject: "Thank you for siging the Voter Deserve to Know Pledge!",
+      body: `Dear ${leg.first_name} ${leg.last_name}, thank you so much for your help bringing transparency to the house by signing the Voter Deserve to Know Pledge.`,
+    };
+  }
+  if (!leg.sponsored) {
+    return {
+      subject: `Please co-sponsor the ${bill.title}}!`,
+      body: `Dear ${leg.first_name} ${leg.last_name}, please co-sponsor the ${bill.title} bill.`,
+    };
+  }
+  return {
+    subject: `Thank you for co-sponsoring the ${bill.title}!`,
+    body: `Dear ${leg.first_name} ${leg.last_name}, thank you so much for sponsoring the ${bill.title} bill.`,
+  };
 }
 
 function renderModal(targetID: string, data: Props) {
@@ -168,7 +224,7 @@ function renderModal(targetID: string, data: Props) {
 
 function encodeUrl(url: string, data: { [key: string]: string }) {
   const params = Object.keys(data)
-    .map((key) => key + "=" + data[key])
+    .map((key) => key + "=" + encodeURI(data[key]))
     .join("&");
   return `${url}?${params}`;
 }

@@ -1,26 +1,26 @@
 import React, { useState } from "react";
 import ReactDOM from "react-dom";
 
-import { findReps, Query, QueryResult } from "./findReps";
+import findReps, { Query, QueryResult } from "./findReps";
 import LoadingSpinner from "./LoadingSpinner";
 import Legislator from "./Legislator";
 
-import { Leg } from "../types";
+import { Leg, Bill } from "../types";
 
 type Props = {
   legislatorsInfo: { [ocdId: string]: Leg };
   title: string;
   text?: string;
   theme?: string;
-  mode: "bill" | "pledge";
   showResultIfEmpty: boolean;
+  bill?: Bill;
 };
 
 type InnerProps = Props & {
   onQueryReps: (query: Query) => Promise<QueryResult>;
 };
 
-function FindMyReps({ onQueryReps, legislatorsInfo, title, text, theme, mode, showResultIfEmpty }: InnerProps) {
+function FindMyReps({ onQueryReps, legislatorsInfo, title, text, theme, bill, showResultIfEmpty }: InnerProps) {
   const sessionQuery = JSON.parse(window.sessionStorage.getItem("repQuery"));
   const [repInfo, setRepInfo] = useState<QueryResult | null>(sessionQuery !== null ? sessionQuery.repInfo : null);
   const [error, setError] = useState(null);
@@ -55,7 +55,7 @@ function FindMyReps({ onQueryReps, legislatorsInfo, title, text, theme, mode, sh
       <Results
         legInfo={repInfo}
         legislatorsInfo={legislatorsInfo}
-        mode={mode}
+        bill={bill}
         theme={theme}
         showResultIfEmpty={showResultIfEmpty}
         error={error}
@@ -133,12 +133,12 @@ function Form({ title, text, onSubmit, theme, loading }: FormProps) {
   );
 }
 
-type ResultsProps = Pick<Props, "legislatorsInfo" | "mode" | "theme" | "showResultIfEmpty"> & {
+type ResultsProps = Pick<Props, "legislatorsInfo" | "bill" | "theme" | "showResultIfEmpty"> & {
   legInfo: QueryResult;
   error: string | null;
 };
 
-function Results({ legInfo, legislatorsInfo, mode, theme, showResultIfEmpty, error }: ResultsProps) {
+function Results({ legInfo, legislatorsInfo, bill, theme, showResultIfEmpty, error }: ResultsProps) {
   const rep = {
     chamber: "house",
     ...(legInfo && legislatorsInfo[legInfo.representative]),
@@ -159,8 +159,8 @@ function Results({ legInfo, legislatorsInfo, mode, theme, showResultIfEmpty, err
           </h2>
           {legInfo ? (
             <div className="legislators">
-              <Legislator leg={rep} mode={mode} chamber="House" />
-              <Legislator leg={senator} mode={mode} chamber="Senate" />
+              <Legislator leg={rep} bill={bill} chamber="House" />
+              <Legislator leg={senator} bill={bill} chamber="Senate" />
             </div>
           ) : error ? (
             <ErrorResults errorCode={error} />
