@@ -1,32 +1,38 @@
 import React, { useState } from "react";
 import ReactDOM from "react-dom";
-import { findReps } from "./findReps";
+
+import findReps, { Query, QueryResult } from "./findReps";
 import LoadingSpinner from "./LoadingSpinner";
-import Legislator from "./Legislator.tsx";
+import Legislator from "./Legislator";
 
-export default { renderFindMyReps };
+import { Leg, Bill } from "../types";
 
-function renderFindMyReps(targetID, data) {
-  const targetEl = document.getElementById(targetID);
-  ReactDOM.render(<FindMyReps onQueryReps={findReps} {...data} />, targetEl);
-}
+type Props = {
+  legislatorsInfo: { [ocdId: string]: Leg };
+  title: string;
+  text?: string;
+  theme?: string;
+  showResultIfEmpty: boolean;
+  bill?: Bill;
+};
 
-function FindMyReps({ onQueryReps, legislatorsInfo, title, text, theme, mode, showResultIfEmpty }) {
+type InnerProps = Props & {
+  onQueryReps: (query: Query) => Promise<QueryResult>;
+};
+
+function FindMyReps({ onQueryReps, legislatorsInfo, title, text, theme, bill, showResultIfEmpty }: InnerProps) {
   const sessionQuery = JSON.parse(window.sessionStorage.getItem("repQuery"));
-  const [query, setQuery] = useState(sessionQuery !== null ? sessionQuery.query : null);
-  const [repInfo, setRepInfo] = useState(sessionQuery !== null ? sessionQuery.repInfo : null);
+  const [repInfo, setRepInfo] = useState<QueryResult | null>(sessionQuery !== null ? sessionQuery.repInfo : null);
   const [error, setError] = useState(null);
   const [loading, setLoading] = useState(false);
 
   const clearQuery = () => {
     window.sessionStorage.removeItem("repQuery");
-    setQuery(null);
     setRepInfo(null);
   };
 
   function handleQueryReps(newQuery) {
     setLoading(true);
-    setQuery(newQuery);
     setError(null);
     onQueryReps(newQuery)
       .then((repInfo) => {
@@ -49,7 +55,7 @@ function FindMyReps({ onQueryReps, legislatorsInfo, title, text, theme, mode, sh
       <Results
         legInfo={repInfo}
         legislatorsInfo={legislatorsInfo}
-        mode={mode}
+        bill={bill}
         theme={theme}
         showResultIfEmpty={showResultIfEmpty}
         error={error}
@@ -58,7 +64,12 @@ function FindMyReps({ onQueryReps, legislatorsInfo, title, text, theme, mode, sh
   );
 }
 
-function Form({ title, text, onSubmit, theme, loading }) {
+type FormProps = Pick<Props, "title" | "text" | "theme"> & {
+  loading: boolean;
+  onSubmit: (query: Query) => void;
+};
+
+function Form({ title, text, onSubmit, theme, loading }: FormProps) {
   const [streetAddress, setStreetAddress] = useState("");
   const [city, setCity] = useState("");
 
@@ -122,7 +133,12 @@ function Form({ title, text, onSubmit, theme, loading }) {
   );
 }
 
-function Results({ legInfo, legislatorsInfo, mode, theme, showResultIfEmpty, error }) {
+type ResultsProps = Pick<Props, "legislatorsInfo" | "bill" | "theme" | "showResultIfEmpty"> & {
+  legInfo: QueryResult;
+  error: string | null;
+};
+
+function Results({ legInfo, legislatorsInfo, bill, theme, showResultIfEmpty, error }: ResultsProps) {
   const rep = {
     chamber: "house",
     ...(legInfo && legislatorsInfo[legInfo.representative]),
@@ -143,8 +159,8 @@ function Results({ legInfo, legislatorsInfo, mode, theme, showResultIfEmpty, err
           </h2>
           {legInfo ? (
             <div className="legislators">
-              <Legislator leg={rep} mode={mode} chamber="House" />
-              <Legislator leg={senator} mode={mode} chamber="Senate" />
+              <Legislator leg={rep} bill={bill} chamber="House" />
+              <Legislator leg={senator} bill={bill} chamber="Senate" />
             </div>
           ) : error ? (
             <ErrorResults errorCode={error} />
@@ -172,7 +188,11 @@ function EmptyResults() {
   );
 }
 
-function ErrorResults({ errorCode }) {
+type ErrorResultsProps = {
+  errorCode: string;
+};
+
+function ErrorResults({ errorCode }: ErrorResultsProps) {
   const messages = {
     couldNotLocateAddressInMa: "We were not able to locate your address in Massachusetts.",
     unexpectedError: "Something unexpected happened. If the issue persists, please let tech@actonmass.org know!",
@@ -201,3 +221,10 @@ function persistQueryResults(query, repInfo) {
     })
   );
 }
+
+function renderFindMyReps(targetID: string, data: Props) {
+  const targetEl = document.getElementById(targetID);
+  ReactDOM.render(<FindMyReps onQueryReps={findReps} {...data} />, targetEl);
+}
+
+export default { renderFindMyReps };

@@ -1,8 +1,15 @@
 import React, { useState } from "react";
 
-import { ContactLegModal } from "../Modals/ContactLegModal.tsx";
+import { ContactLegModal } from "../Modals/ContactLegModal";
+import { Leg, Bill } from "../types";
 
-export default function Legislator({ leg, chamber, mode }) {
+type Props = {
+  leg: Leg;
+  chamber: "house" | "senate";
+  bill?: Bill;
+};
+
+export default function Legislator({ leg, chamber, bill }) {
   const legTitle = chamber === "House" ? "rep" : "senator";
   const legTitleShort = chamber === "House" ? "rep" : "sen.";
 
@@ -11,16 +18,14 @@ export default function Legislator({ leg, chamber, mode }) {
   }
 
   const statusText = () => {
-    if (mode === "pledge") {
+    if (bill == null) {
       return leg.pledge ? "Signed the pledge" : "Did not sign the pledge";
     }
     return leg.sponsored ? "Co-sponsored the bill" : "Did not co-sponsored the bill";
   };
 
-  const status = mode === "pledge" ? leg.pledge : leg.sponsored;
-  const action =
-    mode === "pledge" ? `Tell your ${legTitleShort} to sign!` : `Tell your ${legTitleShort} to co-sponsor!`;
-  const imgClass = status ? "" : "red-x";
+  const status = bill == null ? leg.pledge : leg.sponsored;
+  const action = bill == null ? `Tell your ${legTitleShort} to sign!` : `Tell your ${legTitleShort} to co-sponsor!`;
   const iconClass = status ? "fas fa-check-circle fa-2x" : "fas fa-times-circle fa-2x";
 
   return (
@@ -35,7 +40,7 @@ export default function Legislator({ leg, chamber, mode }) {
         </p>
       </a>
       <div className="cbox btn-container">
-        <ContactLegModal txt={status ? `Thank your ${legTitleShort}` : action} leg={leg} />
+        <ContactLegModal txt={status ? `Thank your ${legTitleShort}` : action} leg={leg} bill={bill} />
       </div>
     </div>
   );
