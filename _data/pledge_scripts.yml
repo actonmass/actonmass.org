@@ -1,0 +1,31 @@
+call_request: |-
+  Please sign the pledge!
+
+  ## Talking points
+
+  ### "The pledge is not good"
+
+  -> Yet it is !
+call_thanks: Thank you for signing the pledge!
+tweet_after_request_call: "@Act_On_Mass Hi! I just called {title} {first_name}
+  {last_name} to request they sign the pledge and..."
+tweet_after_thanks_call: "@Act_On_Mass Hi! I just called {title} {first_name}
+  {last_name} to thank them for signing the pledge and..."
+email_request:
+  subject: Please sign the Voter Deserve to Know Pledge!
+  body: >-
+    Dear {first_name} {last_name}, 
+
+
+    Please help bring transparency to the house by signing the Voter Deserve to Know Pledge.
+email_thanks:
+  subject: Thank you for signing the Voter Deserve to Know Pledge!
+  body: >-
+    Dear {first_name} {last_name}, 
+
+
+    Thank you so much for your help bringing transparency to the house by signing the Voter Deserve to Know Pledge.
+tweet_after_request_email: "@Act_On_Mass Hi! I just emailed {title} {first_name}
+  {last_name} to request they sign the pledge and..."
+tweet_after_thanks_email: "@Act_On_Mass Hi! I just called {title} {first_name}
+  {last_name} to thank them for signing the pledge and..."
