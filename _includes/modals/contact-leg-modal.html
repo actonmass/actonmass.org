@@ -1,10 +1,12 @@
 {% assign leg = include.leg %}
+{% assign bill = include.bill %}
 
-<div id="contact-{{leg.aom_id}}-modal"></div>
+<div id="contact-{{leg.aom_id}}-{{bill.aom_id}}-modal" class="contact-modal"></div>
 <script>
   window.addEventListener("DOMContentLoaded", function() {
     data = {
       txt: "{{include.txt}}",
+      style: "{{include.style}}",
       leg: {
         aom_id: "{{leg.aom_id}}",
         first_name: "{{leg.first_name}}",
@@ -15,9 +17,17 @@
         facebook: "{{leg.facebook}}",
         twitter: "{{leg.twitter}}",
       },
-      scripts: {{site.data.pledge_scripts | jsonify}},
+      {% if include.bill %}
+        bill: {
+          article: "{{include.bill.article}}",
+          title: "{{include.bill.title}}",
+          co_sponsors: {{include.bill.co_sponsors | jsonify}},
+          scripts: {{bill.scripts | jsonify}},
+        },
+      {% endif %}
+      scripts: {% if include.bill %}{{site.data.default_bill_scripts | jsonify}}{% else %}{{site.data.pledge_scripts | jsonify}}{% endif %},
     };
-    AOM.renderModal("contact-{{include.leg.aom_id}}-modal", data);
+    AOM.renderModal("contact-{{leg.aom_id}}-{{bill.aom_id}}-modal", data);
   });
 </script>
 

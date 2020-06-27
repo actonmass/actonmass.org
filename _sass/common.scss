@@ -37,6 +37,13 @@ h3 {
   &.btn-sec {
     background: #dddddd;
   }
+
+  &.btn-sm {
+    min-height: 1rem;
+    border-radius: 2px;
+    padding: 7px 10px;
+    font-size: 12px;
+  }
 }
 
 blockquote {

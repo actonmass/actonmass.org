@@ -80,7 +80,6 @@ layout: base
 
       <div class="tab-content darker">
         <div id="tab1" data-tab-content class="active">
-          <button class="fUppercase btn btn_history">request transparency</button>
           {% assign votes = leg.votes | sort:"date" | reverse %}
           {% for vote in votes %}
           <div class="item_1">
@@ -101,7 +100,6 @@ layout: base
           {% endfor %}
         </div>
         <div id="tab2" data-tab-content>
-          <button class="fUppercase btn btn_history">request co-sponsorship</button>
           {% for issue in site.issues %}
           {% assign short_id = issue.id | replace: "/issues/", "" %}
           {% assign bills = site.data.cache.issues_by_id[short_id].bills %}
@@ -116,6 +114,9 @@ layout: base
                 <img class="red_x" src="/img/red_x.png" alt="red x">
               {% endif %}
               <p class="fWhite fRoboto fLight"><a href="{{bill.id}}">{{bill.title}}</a></p>
+              {% unless leg.cosponsored_bills contains bill_id %}
+                {% include modals/contact-leg-modal.html txt="request co-sponsorship" style="S" leg=leg bill=bill %}
+              {% endunless %}
             </div>
             {% endfor %}
           {% endif %}

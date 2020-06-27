@@ -7,16 +7,19 @@ import { LegBase, Leg, Bill, Scripts, enrichLeg } from "../types";
 
 import getScript, { getEmailScript } from "./getScript";
 
+Modal.setAppElement("body");
+
 type MaybeBill = Bill | undefined;
 
 type Props = {
   txt: string;
+  style?: string;
   leg: LegBase;
   bill?: Bill;
   scripts: Scripts;
 };
 
-export function ContactLegModal({ txt, leg: legBase, bill, scripts: defaultScripts }: Props) {
+export function ContactLegModal({ txt, leg: legBase, bill, scripts: defaultScripts, style }: Props) {
   const leg = enrichLeg(legBase);
   const fullName = leg.chamber === "house" ? "your rep" : "your senator";
   const title = leg.chamber === "house" ? "rep." : "sen.";
@@ -133,7 +136,7 @@ export function ContactLegModal({ txt, leg: legBase, bill, scripts: defaultScrip
 
   return (
     <>
-      <a className="btn" onClick={() => setIsOpen(true)}>
+      <a className={`btn ${style === "S" ? "btn-sm" : ""}`} onClick={() => setIsOpen(true)}>
         {txt}
       </a>
       <Modal
