@@ -2,15 +2,18 @@ import React from "react";
 import ReactDOM from "react-dom";
 import Modal from "react-modal";
 
-import { Leg, Bill } from "../types";
+import { Leg, Bill, Scripts } from "../types";
+
+import getScript, { getEmailScript } from "./getScript";
 
 type Props = {
   txt: string;
   leg: Leg;
   bill?: Bill;
+  scripts: Scripts;
 };
 
-export function ContactLegModal({ txt, leg, bill }: Props) {
+export function ContactLegModal({ txt, leg, bill, scripts }: Props) {
   const fullName = leg.chamber === "house" ? "your rep" : "your senator";
   const title = leg.chamber === "house" ? "rep." : "sen.";
   const [modalIsOpen, setIsOpen] = React.useState(false);
@@ -30,7 +33,7 @@ export function ContactLegModal({ txt, leg, bill }: Props) {
           </h3>
           <h3>{leg.phone}</h3>
           <h4>Script</h4>
-          <p>{getCallDetails(leg, bill)}</p>
+          <p>{getCallDetails(leg, bill, scripts)}</p>
           <div className="hbox" style={{ justifyContent: "space-between" }}>
             <a className="btn btn-sec" onClick={() => setModalContent("")}>
               Back
@@ -43,7 +46,7 @@ export function ContactLegModal({ txt, leg, bill }: Props) {
       );
     }
     if (modalContent === "email") {
-      const { subject, body } = getEmailsDetails(leg, bill);
+      const { subject, body } = getEmailsDetails(leg, bill, scripts);
       return (
         <>
           <h3 className="fUppercase">
@@ -146,7 +149,7 @@ export function ContactLegModal({ txt, leg, bill }: Props) {
   );
 }
 
-function getTweeterIntentUrl(leg: Leg, bill: Bill) {
+function getTweeterIntentUrl(leg: Leg, bill: Bill | undefined) {
   const text =
     bill == null
       ? leg.pledge
@@ -155,7 +158,7 @@ function getTweeterIntentUrl(leg: Leg, bill: Bill) {
       : leg.sponsored
       ? `thank you for co-sponsoring the ${bill.title} bill!`
       : `please co-sponsor the ${bill.title} bill!`;
-  const tweeterHandle = leg.twitter.replace("https://twitter.com/", "");
+  const tweeterHandle = leg.twitter!.replace("https://twitter.com/", "");
   return encodeUrl("https://twitter.com/intent/tweet", {
     text: `@${tweeterHandle}, ${text}`,
     via: "act_on_mass",
@@ -163,7 +166,7 @@ function getTweeterIntentUrl(leg: Leg, bill: Bill) {
   });
 }
 
-function getThankYouTweetIntent(leg: Leg, bill: Bill, actionType: "email" | "call") {
+function getThankYouTweetIntent(leg: Leg, bill: Bill | undefined, actionType: "email" | "call") {
   const actionVerb = actionType === "email" ? "emailed" : "called";
   const legTitle = leg.chamber === "house" ? "Rep" : "Sen";
   const text =
@@ -179,12 +182,12 @@ function getThankYouTweetIntent(leg: Leg, bill: Bill, actionType: "email" | "cal
   });
 }
 
-function getCallDetails(leg: Leg, bill: Bill) {
+function getCallDetails(leg: Leg, bill: Bill | undefined, scripts: Scripts) {
   if (bill == null) {
     if (!leg.pledge) {
-      return "Please sign the pledge!";
+      return getScript(scripts.call_request, leg, bill, true);
     }
-    return "Thank you for siging the pledge";
+    return getScript(scripts.call_thanks, leg, bill, true);
   }
   if (!leg.sponsored) {
     return `Please co-sponsor ${bill.article ?? ""} ${bill.title}!`;
@@ -192,18 +195,12 @@ function getCallDetails(leg: Leg, bill: Bill) {
   return `Thank you for cosponsoring ${bill.article ?? ""} ${bill.title}!`;
 }
 
-function getEmailsDetails(leg: Leg, bill: Bill) {
+function getEmailsDetails(leg: Leg, bill: Bill | undefined, scripts: Scripts) {
   if (bill == null) {
     if (!leg.pledge) {
-      return {
-        subject: "Please sign the Voter Deserve to Know Pledge!",
-        body: `Dear ${leg.first_name} ${leg.last_name}, please help bring transparency to the house by signing the Voter Deserve to Know Pledge.`,
-      };
+      return getEmailScript(scripts.email_request, leg, bill);
     }
-    return {
-      subject: "Thank you for siging the Voter Deserve to Know Pledge!",
-      body: `Dear ${leg.first_name} ${leg.last_name}, thank you so much for your help bringing transparency to the house by signing the Voter Deserve to Know Pledge.`,
-    };
+    return getEmailScript(scripts.email_thanks, leg, bill);
   }
   if (!leg.sponsored) {
     return {

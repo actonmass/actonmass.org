@@ -15,6 +15,7 @@
         facebook: "{{leg.facebook}}",
         twitter: "{{leg.twitter}}",
       },
+      scripts: {{site.data.pledge_scripts | jsonify}},
     };
     AOM.renderModal("contact-{{include.leg.aom_id}}-modal", data);
   });

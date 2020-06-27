@@ -1,26 +1,26 @@
 call_request: |-
-  Please co-spondor the {bill_name} bill!
+  Please co-spondor the {bill.name} bill!
 
-call_thanks: Thank you for co-sponsoring the {bill_name} bill!
-tweet_after_request_call: "@Act_On_Mass Hi! I just called {title} {first_name}
-  {last_name} to request they co-sponsor the {bill_name} bill and..."
-tweet_after_thanks_call: "@Act_On_Mass Hi! I just called {title} {first_name}
-  {last_name} to thank them for co-sponsoring the {bill_name} bill and..."
+call_thanks: Thank you for co-sponsoring the {bill.name} bill!
+tweet_after_request_call: "@Act_On_Mass Hi! I just called {leg.title} {leg.first_name}
+  {leg.last_name} to request they co-sponsor the {bill.name} bill and..."
+tweet_after_thanks_call: "@Act_On_Mass Hi! I just called {leg.title} {leg.first_name}
+  {leg.last_name} to thank them for co-sponsoring the {bill.name} bill and..."
 email_request:
-  subject: Please co-sponsor the {bill_name} bill!
+  subject: Please co-sponsor the {bill.name} bill!
   body: >-
-    Dear {first_name} {last_name},
+    Dear {leg.first_name} {leg.last_name},
 
 
-    Please co-sponsor the {bill_name}.
+    Please co-sponsor the {bill.name}.
 email_thanks:
   subject: Thank you for signing the Voter Deserve to Know Pledge!
   body: >-
-    Dear {first_name} {last_name},
+    Dear {leg.first_name} {leg.last_name},
 
 
-    Thank you so much for co-sponsoring the {bill_name}.
-tweet_after_request_email: "@Act_On_Mass Hi! I just emailed {title} {first_name}
-  {last_name} to request they co-sponsor the {bill_name} bill and..."
-tweet_after_thanks_email: "@Act_On_Mass Hi! I just called {title} {first_name}
-  {last_name} to thank them for co-sponsoring the {bill_name} bill and..."
+    Thank you so much for co-sponsoring the {bill.name}.
+tweet_after_request_email: "@Act_On_Mass Hi! I just emailed {leg.title} {leg.first_name}
+  {leg.last_name} to request they co-sponsor the {bill.name} bill and..."
+tweet_after_thanks_email: "@Act_On_Mass Hi! I just called {leg.title} {leg.first_name}
+  {leg.last_name} to thank them for co-sponsoring the {bill.name} bill and..."
