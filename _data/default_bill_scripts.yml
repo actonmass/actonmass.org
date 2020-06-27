@@ -1,0 +1,30 @@
+tweet_request: "@{leg.twitter}, please co-sponsor the {bill.name} bill!! #mapoli
+  via @act_on_mass "
+tweet_thanks: "@{leg.twitter}, thank you for co-sponsoring the {bill.name}
+  bill!! #mapoli via @act_on_mass "
+call_request: Please co-spondor the {bill.name} bill!
+call_thanks: Thank you for co-sponsoring the {bill.name} bill!
+tweet_after_request_call: "@Act_On_Mass Hi! I just called {leg.title}
+  {leg.first_name} {leg.last_name} to request they co-sponsor the {bill.name}
+  bill and..."
+tweet_after_thanks_call: "@Act_On_Mass Hi! I just called {leg.title}
+  {leg.first_name} {leg.last_name} to thank them for co-sponsoring the
+  {bill.name} bill and..."
+email_request:
+  subject: Please co-sponsor the {bill.name} bill!
+  body: |-
+    Dear {leg.first_name} {leg.last_name},
+
+    Please co-sponsor the {bill.name}.
+email_thanks:
+  subject: Thank you for signing the Voter Deserve to Know Pledge!
+  body: |-
+    Dear {leg.first_name} {leg.last_name},
+
+    Thank you so much for co-sponsoring the {bill.name}.
+tweet_after_request_email: "@Act_On_Mass Hi! I just emailed {leg.title}
+  {leg.first_name} {leg.last_name} to request they co-sponsor the {bill.name}
+  bill and..."
+tweet_after_thanks_email: "@Act_On_Mass Hi! I just called {leg.title}
+  {leg.first_name} {leg.last_name} to thank them for co-sponsoring the
+  {bill.name} bill and..."

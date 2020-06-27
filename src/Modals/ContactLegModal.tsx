@@ -2,15 +2,21 @@ import React from "react";
 import ReactDOM from "react-dom";
 import Modal from "react-modal";
 
-import { Leg, Bill } from "../types";
+import { LegBase, Leg, Bill, Scripts, enrichLeg } from "../types";
+
+import getScript, { getEmailScript } from "./getScript";
+
+type MaybeBill = Bill | undefined;
 
 type Props = {
   txt: string;
-  leg: Leg;
+  leg: LegBase;
   bill?: Bill;
+  scripts: Scripts;
 };
 
-export function ContactLegModal({ txt, leg, bill }: Props) {
+export function ContactLegModal({ txt, leg: legBase, bill, scripts }: Props) {
+  const leg = enrichLeg(legBase);
   const fullName = leg.chamber === "house" ? "your rep" : "your senator";
   const title = leg.chamber === "house" ? "rep." : "sen.";
   const [modalIsOpen, setIsOpen] = React.useState(false);
@@ -30,7 +36,7 @@ export function ContactLegModal({ txt, leg, bill }: Props) {
           </h3>
           <h3>{leg.phone}</h3>
           <h4>Script</h4>
-          <p>{getCallDetails(leg, bill)}</p>
+          <div>{getCallDetails(leg, bill, scripts)}</div>
           <div className="hbox" style={{ justifyContent: "space-between" }}>
             <a className="btn btn-sec" onClick={() => setModalContent("")}>
               Back
@@ -43,7 +49,7 @@ export function ContactLegModal({ txt, leg, bill }: Props) {
       );
     }
     if (modalContent === "email") {
-      const { subject, body } = getEmailsDetails(leg, bill);
+      const { subject, body } = getEmailsDetails(leg, bill, scripts);
       return (
         <>
           <h3 className="fUppercase">
@@ -54,7 +60,7 @@ export function ContactLegModal({ txt, leg, bill }: Props) {
           <h4>Subject: {subject}</h4>
           <br />
           <h4>Email Body:</h4>
-          <p>{body}</p>
+          <div>{body}</div>
           <div className="hbox" style={{ justifyContent: "space-between" }}>
             <a className="btn btn-sec" onClick={() => setModalContent("")}>
               Back
@@ -77,16 +83,13 @@ export function ContactLegModal({ txt, leg, bill }: Props) {
             Please send us a tweet and let us know how it went.
           </p>
           <div className="cbox">
-            <a className="btn" target="_blank" href={getThankYouTweetIntent(leg, bill, actionType)}>
+            <a className="btn" target="_blank" href={getThankYouTweetIntent(leg, bill, actionType, scripts)}>
               <i className="fab fa-twitter fa-lg"></i>
               Tweet to @Act_On_Mass
             </a>
           </div>
         </>
       );
-    }
-
-    if (modalContent === "call-thanks") {
     }
 
     return (
@@ -105,7 +108,7 @@ export function ContactLegModal({ txt, leg, bill }: Props) {
             </a>
           )}
           {leg.twitter && (
-            <a className="btn" target="_blank" href={getTweeterIntentUrl(leg, bill)}>
+            <a className="btn" target="_blank" href={getTweeterIntentUrl(leg, bill, scripts)}>
               <i className="fab fa-twitter fa-lg"></i>
               Send {fullName} a tweet
             </a>
@@ -146,75 +149,49 @@ export function ContactLegModal({ txt, leg, bill }: Props) {
   );
 }
 
-function getTweeterIntentUrl(leg: Leg, bill: Bill) {
-  const text =
-    bill == null
-      ? leg.pledge
-        ? "thank you for signing the pledge"
-        : "please sign the pledge!"
-      : leg.sponsored
-      ? `thank you for co-sponsoring the ${bill.title} bill!`
-      : `please co-sponsor the ${bill.title} bill!`;
-  const tweeterHandle = leg.twitter.replace("https://twitter.com/", "");
+function getCallDetails(leg: Leg, bill: MaybeBill, scripts: Scripts) {
+  const isThanks = bill == null ? leg.pledge : leg.sponsored;
+  if (!isThanks) {
+    return getScript(scripts.call_request, leg, bill, true);
+  }
+  return getScript(scripts.call_thanks, leg, bill, true);
+}
+
+function getEmailsDetails(leg: Leg, bill: MaybeBill, scripts: Scripts) {
+  const isThanks = bill == null ? leg.pledge : leg.sponsored;
+  if (!isThanks) {
+    return getEmailScript(scripts.email_request, leg, bill);
+  }
+  return getEmailScript(scripts.email_thanks, leg, bill);
+}
+
+function getTweeterIntentUrl(leg: Leg, bill: MaybeBill, scripts: Scripts) {
+  const isThanks = bill == null ? leg.pledge : leg.sponsored;
+  const script = isThanks ? scripts.tweet_thanks : scripts.tweet_request;
+  const text = getScript(script, leg, bill);
+
   return encodeUrl("https://twitter.com/intent/tweet", {
-    text: `@${tweeterHandle}, ${text}`,
+    text,
     via: "act_on_mass",
     hashtags: "mapoli",
   });
 }
 
-function getThankYouTweetIntent(leg: Leg, bill: Bill, actionType: "email" | "call") {
-  const actionVerb = actionType === "email" ? "emailed" : "called";
-  const legTitle = leg.chamber === "house" ? "Rep" : "Sen";
-  const text =
-    bill == null
-      ? leg.pledge
-        ? "thank them for signing the pledge"
-        : "request they sign the pledge"
-      : leg.sponsored
-      ? `thank them for co-sponsoring the ${bill.title} bill!`
-      : `request they co-sponsor the ${bill.title}!`;
+function getThankYouTweetIntent(leg: Leg, bill: MaybeBill, actionType: "email" | "call", scripts: Scripts) {
+  const isThanks = bill == null ? leg.pledge : leg.sponsored;
+  const isAfterEmail = actionType === "email";
+  const script = isThanks
+    ? isAfterEmail
+      ? scripts.tweet_after_thanks_email
+      : scripts.tweet_after_thanks_call
+    : isAfterEmail
+    ? scripts.tweet_after_request_email
+    : scripts.tweet_after_request_call;
+  const text = getScript(script, leg, bill);
+
   return encodeUrl("https://twitter.com/intent/tweet", {
-    text: `@Act_On_Mass Hi! I just ${actionVerb} ${legTitle} ${leg.first_name} ${leg.last_name} to ${text} and...`,
+    text,
   });
-}
-
-function getCallDetails(leg: Leg, bill: Bill) {
-  if (bill == null) {
-    if (!leg.pledge) {
-      return "Please sign the pledge!";
-    }
-    return "Thank you for siging the pledge";
-  }
-  if (!leg.sponsored) {
-    return `Please co-sponsor ${bill.article ?? ""} ${bill.title}!`;
-  }
-  return `Thank you for cosponsoring ${bill.article ?? ""} ${bill.title}!`;
-}
-
-function getEmailsDetails(leg: Leg, bill: Bill) {
-  if (bill == null) {
-    if (!leg.pledge) {
-      return {
-        subject: "Please sign the Voter Deserve to Know Pledge!",
-        body: `Dear ${leg.first_name} ${leg.last_name}, please help bring transparency to the house by signing the Voter Deserve to Know Pledge.`,
-      };
-    }
-    return {
-      subject: "Thank you for siging the Voter Deserve to Know Pledge!",
-      body: `Dear ${leg.first_name} ${leg.last_name}, thank you so much for your help bringing transparency to the house by signing the Voter Deserve to Know Pledge.`,
-    };
-  }
-  if (!leg.sponsored) {
-    return {
-      subject: `Please co-sponsor the ${bill.title}}!`,
-      body: `Dear ${leg.first_name} ${leg.last_name}, please co-sponsor the ${bill.title} bill.`,
-    };
-  }
-  return {
-    subject: `Thank you for co-sponsoring the ${bill.title}!`,
-    body: `Dear ${leg.first_name} ${leg.last_name}, thank you so much for sponsoring the ${bill.title} bill.`,
-  };
 }
 
 function renderModal(targetID: string, data: Props) {

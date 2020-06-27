@@ -603,3 +603,51 @@ collections:
               <<: *legislator-picker
               label: Senator
               name: senator
+      - &script
+        label: "Pledge scripts"
+        name: "pledge_scripts"
+        file: "_data/pledge_scripts.yml"
+        fields:
+          - label: Tweet - Request
+            name: tweet_request
+            widget: text
+          - label: Tweet - Thank you
+            name: tweet_thanks
+            widget: text
+          - label: Call script - Request
+            name: call_request
+            widget: markdown
+          - label: Call script - Thank you
+            name: call_thanks
+            widget: markdown
+          - label: Tweet - After request call
+            name: tweet_after_request_call
+            widget: text
+          - label: Tweet - After thank you call
+            name: tweet_after_thanks_call
+            widget: text
+          - &email
+            label: Email script - Request
+            name: email_request
+            widget: object
+            fields:
+              - label: Subject
+                name: subject
+                widget: string
+              - label: Body
+                name: body
+                widget: markdown
+          - <<: *email
+            label: Email script - Thank you
+            name: email_thanks
+            widget: object
+          - label: Tweet - After request email
+            name: tweet_after_request_email
+            widget: text
+          - label: Tweet - After thank you email
+            name: tweet_after_thanks_email
+            widget: text
+      - <<: *script
+        label: "Default bill scripts"
+        name: "default_bill_scripts"
+        file: "_data/default_bill_scripts.yml"

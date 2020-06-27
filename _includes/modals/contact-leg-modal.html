@@ -1,5 +1,4 @@
 {% assign leg = include.leg %}
-{% assign district = site.data.cache.districts_by_id[leg.district] %}
 
 <div id="contact-{{leg.aom_id}}-modal"></div>
 <script>
@@ -7,14 +6,15 @@
     data = {
       txt: "{{include.txt}}",
       leg: {
-        chamber: "{{district.chamber}}",
         first_name: "{{leg.first_name}}",
         last_name: "{{leg.last_name}}",
+        district: "{{leg.district}}",
         phone: "{{leg.phone}}",
         email: "{{leg.email}}",
         facebook: "{{leg.facebook}}",
         twitter: "{{leg.twitter}}",
       },
+      scripts: {{site.data.pledge_scripts | jsonify}},
     };
     AOM.renderModal("contact-{{include.leg.aom_id}}-modal", data);
   });

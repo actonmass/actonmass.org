@@ -1,17 +1,18 @@
 import React, { useState } from "react";
 
 import { ContactLegModal } from "../Modals/ContactLegModal";
-import { Leg, Bill } from "../types";
+import { Leg, Bill, Scripts } from "../types";
 
 type Props = {
   leg: Leg;
   chamber: "house" | "senate";
   bill?: Bill;
+  scripts: Scripts;
 };
 
-export default function Legislator({ leg, chamber, bill }) {
-  const legTitle = chamber === "House" ? "rep" : "senator";
-  const legTitleShort = chamber === "House" ? "rep" : "sen.";
+export default function Legislator({ leg, chamber, bill, scripts }: Props) {
+  const legTitle = chamber === "house" ? "rep" : "senator";
+  const legTitleShort = chamber === "house" ? "rep" : "sen.";
 
   if (leg == null) {
     return <UnkonwnLeg legTitle={legTitle} />;
@@ -33,14 +34,19 @@ export default function Legislator({ leg, chamber, bill }) {
       <a href={leg.href} className="legislator">
         <h3 className="fUppercase fRegular">Your {legTitle}:</h3>
         <LegCircle leg={leg} status={status} />
-        <p className="fRoboto fLight">{leg.district}</p>
+        <p className="fRoboto fLight">{leg.districtName}</p>
         <p className="fUppercase">
           <i className={iconClass}></i>
           {statusText()}
         </p>
       </a>
       <div className="cbox btn-container">
-        <ContactLegModal txt={status ? `Thank your ${legTitleShort}` : action} leg={leg} bill={bill} />
+        <ContactLegModal
+          txt={status ? `Thank your ${legTitleShort}` : action}
+          leg={leg}
+          bill={bill}
+          scripts={scripts}
+        />
       </div>
     </div>
   );
