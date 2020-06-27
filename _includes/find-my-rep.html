@@ -18,10 +18,11 @@
     bill: {
       article: "{{include.bill.article}}",
       title: "{{include.bill.title}}",
+      co_sponsors: {{include.bill.co_sponsors | jsonify}}
     },
     {% endif %}
     showResultIfEmpty: {% if include.showResultsIfEmpty == "true" %}true{% else %}false{% endif %},
-    scripts: {{site.data.pledge_scripts | jsonify}},
+    scripts: {% if include.bill %}{{site.data.default_bill_scripts | jsonify}}{% else %}{{site.data.pledge_scripts | jsonify}}{% endif %},
   };
 
     AOM.renderFindMyReps("find-my-reps", data);

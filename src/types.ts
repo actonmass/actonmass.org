@@ -1,4 +1,5 @@
 export type LegBase = {
+  aom_id: string;
   facebook?: string;
   first_name: string;
   last_name: string;
@@ -10,8 +11,7 @@ export type LegBase = {
   district: string;
   img: string;
   pledge: boolean;
-  // Injected attributes
-  sponsored?: boolean;
+  // Injected only for FindMyReps
   districtName?: string;
 };
 
@@ -23,6 +23,7 @@ export type Leg = LegBase & {
 export type Bill = {
   article?: string;
   title: string;
+  co_sponsors: string[];
 };
 
 export type Scripts = {

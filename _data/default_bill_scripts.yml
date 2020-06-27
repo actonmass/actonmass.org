@@ -1,30 +1,30 @@
-tweet_request: "@{leg.twitter}, please co-sponsor the {bill.name} bill!! #mapoli
+tweet_request: "@{leg.twitter}, please co-sponsor the {bill.title} bill!! #mapoli
   via @act_on_mass "
-tweet_thanks: "@{leg.twitter}, thank you for co-sponsoring the {bill.name}
+tweet_thanks: "@{leg.twitter}, thank you for co-sponsoring the {bill.title}
   bill!! #mapoli via @act_on_mass "
-call_request: Please co-spondor the {bill.name} bill!
-call_thanks: Thank you for co-sponsoring the {bill.name} bill!
+call_request: Please co-spondor the {bill.title} bill!
+call_thanks: Thank you for co-sponsoring the {bill.title} bill!
 tweet_after_request_call: "@Act_On_Mass Hi! I just called {leg.title}
-  {leg.first_name} {leg.last_name} to request they co-sponsor the {bill.name}
+  {leg.first_name} {leg.last_name} to request they co-sponsor the {bill.title}
   bill and..."
 tweet_after_thanks_call: "@Act_On_Mass Hi! I just called {leg.title}
   {leg.first_name} {leg.last_name} to thank them for co-sponsoring the
-  {bill.name} bill and..."
+  {bill.title} bill and..."
 email_request:
-  subject: Please co-sponsor the {bill.name} bill!
+  subject: Please co-sponsor the {bill.title} bill!
   body: |-
     Dear {leg.first_name} {leg.last_name},
 
-    Please co-sponsor the {bill.name}.
+    Please co-sponsor the {bill.title}.
 email_thanks:
-  subject: Thank you for signing the Voter Deserve to Know Pledge!
+  subject: Thank you for signing the {bill.title}!
   body: |-
     Dear {leg.first_name} {leg.last_name},
 
-    Thank you so much for co-sponsoring the {bill.name}.
+    Thank you so much for co-sponsoring the {bill.title}.
 tweet_after_request_email: "@Act_On_Mass Hi! I just emailed {leg.title}
-  {leg.first_name} {leg.last_name} to request they co-sponsor the {bill.name}
+  {leg.first_name} {leg.last_name} to request they co-sponsor the {bill.title}
   bill and..."
 tweet_after_thanks_email: "@Act_On_Mass Hi! I just called {leg.title}
   {leg.first_name} {leg.last_name} to thank them for co-sponsoring the
-  {bill.name} bill and..."
+  {bill.title} bill and..."

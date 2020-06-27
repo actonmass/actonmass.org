@@ -6,6 +6,7 @@
     {% assign district = site.data.cache.districts_by_id[leg.district].name %}
     {% if leg.ocd_id%}
     "{{leg.ocd_id}}": {
+      "aom_id": "{{leg.aom_id}}",
       "party": "{{leg.party}}",
       "first_name": "{{leg.first_name}}",
       "last_name": "{{leg.last_name}}",

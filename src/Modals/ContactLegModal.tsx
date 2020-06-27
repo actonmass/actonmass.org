@@ -19,6 +19,7 @@ export function ContactLegModal({ txt, leg: legBase, bill, scripts }: Props) {
   const leg = enrichLeg(legBase);
   const fullName = leg.chamber === "house" ? "your rep" : "your senator";
   const title = leg.chamber === "house" ? "rep." : "sen.";
+  const isThanks = bill == null ? leg.pledge : bill.co_sponsors.includes(leg.aom_id);
   const [modalIsOpen, setIsOpen] = React.useState(false);
   const [modalContent, setModalContent] = React.useState("");
 
@@ -36,7 +37,7 @@ export function ContactLegModal({ txt, leg: legBase, bill, scripts }: Props) {
           </h3>
           <h3>{leg.phone}</h3>
           <h4>Script</h4>
-          <div>{getCallDetails(leg, bill, scripts)}</div>
+          <div>{getCallDetails(leg, bill, scripts, isThanks)}</div>
           <div className="hbox" style={{ justifyContent: "space-between" }}>
             <a className="btn btn-sec" onClick={() => setModalContent("")}>
               Back
@@ -49,7 +50,7 @@ export function ContactLegModal({ txt, leg: legBase, bill, scripts }: Props) {
       );
     }
     if (modalContent === "email") {
-      const { subject, body } = getEmailsDetails(leg, bill, scripts);
+      const { subject, body } = getEmailsDetails(leg, bill, scripts, isThanks);
       return (
         <>
           <h3 className="fUppercase">
@@ -83,7 +84,7 @@ export function ContactLegModal({ txt, leg: legBase, bill, scripts }: Props) {
             Please send us a tweet and let us know how it went.
           </p>
           <div className="cbox">
-            <a className="btn" target="_blank" href={getThankYouTweetIntent(leg, bill, actionType, scripts)}>
+            <a className="btn" target="_blank" href={getThankYouTweetIntent(leg, bill, actionType, scripts, isThanks)}>
               <i className="fab fa-twitter fa-lg"></i>
               Tweet to @Act_On_Mass
             </a>
@@ -108,7 +109,7 @@ export function ContactLegModal({ txt, leg: legBase, bill, scripts }: Props) {
             </a>
           )}
           {leg.twitter && (
-            <a className="btn" target="_blank" href={getTweeterIntentUrl(leg, bill, scripts)}>
+            <a className="btn" target="_blank" href={getTweeterIntentUrl(leg, bill, scripts, isThanks)}>
               <i className="fab fa-twitter fa-lg"></i>
               Send {fullName} a tweet
             </a>
@@ -149,24 +150,21 @@ export function ContactLegModal({ txt, leg: legBase, bill, scripts }: Props) {
   );
 }
 
-function getCallDetails(leg: Leg, bill: MaybeBill, scripts: Scripts) {
-  const isThanks = bill == null ? leg.pledge : leg.sponsored;
+function getCallDetails(leg: Leg, bill: MaybeBill, scripts: Scripts, isThanks: boolean) {
   if (!isThanks) {
     return getScript(scripts.call_request, leg, bill, true);
   }
   return getScript(scripts.call_thanks, leg, bill, true);
 }
 
-function getEmailsDetails(leg: Leg, bill: MaybeBill, scripts: Scripts) {
-  const isThanks = bill == null ? leg.pledge : leg.sponsored;
+function getEmailsDetails(leg: Leg, bill: MaybeBill, scripts: Scripts, isThanks: boolean) {
   if (!isThanks) {
     return getEmailScript(scripts.email_request, leg, bill);
   }
   return getEmailScript(scripts.email_thanks, leg, bill);
 }
 
-function getTweeterIntentUrl(leg: Leg, bill: MaybeBill, scripts: Scripts) {
-  const isThanks = bill == null ? leg.pledge : leg.sponsored;
+function getTweeterIntentUrl(leg: Leg, bill: MaybeBill, scripts: Scripts, isThanks: boolean) {
   const script = isThanks ? scripts.tweet_thanks : scripts.tweet_request;
   const text = getScript(script, leg, bill);
 
@@ -177,8 +175,13 @@ function getTweeterIntentUrl(leg: Leg, bill: MaybeBill, scripts: Scripts) {
   });
 }
 
-function getThankYouTweetIntent(leg: Leg, bill: MaybeBill, actionType: "email" | "call", scripts: Scripts) {
-  const isThanks = bill == null ? leg.pledge : leg.sponsored;
+function getThankYouTweetIntent(
+  leg: Leg,
+  bill: MaybeBill,
+  actionType: "email" | "call",
+  scripts: Scripts,
+  isThanks: boolean
+) {
   const isAfterEmail = actionType === "email";
   const script = isThanks
     ? isAfterEmail
