@@ -128,7 +128,7 @@ async function fetchLegAtAdrsMock() {
       () =>
         resolve({
           senator: "ocd-person/6de50ed2-4fe8-4b98-894d-0bc391c876b5",
-          representative: "ocd-person/a8225754-d88c-4343-8829-aa168b564cbd",
+          representative: "ocd-person/33017dde-3525-43ff-8c3a-fb44a4a9d833",
         }),
       2000
     );

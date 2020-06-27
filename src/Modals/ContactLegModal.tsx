@@ -1,6 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import Modal from "react-modal";
+import _ from "lodash";
 
 import { LegBase, Leg, Bill, Scripts, enrichLeg } from "../types";
 
@@ -15,11 +16,12 @@ type Props = {
   scripts: Scripts;
 };
 
-export function ContactLegModal({ txt, leg: legBase, bill, scripts }: Props) {
+export function ContactLegModal({ txt, leg: legBase, bill, scripts: defaultScripts }: Props) {
   const leg = enrichLeg(legBase);
   const fullName = leg.chamber === "house" ? "your rep" : "your senator";
   const title = leg.chamber === "house" ? "rep." : "sen.";
   const isThanks = bill == null ? leg.pledge : bill.co_sponsors.includes(leg.aom_id);
+  const scripts = _.merge({}, defaultScripts, bill?.scripts);
   const [modalIsOpen, setIsOpen] = React.useState(false);
   const [modalContent, setModalContent] = React.useState("");
 

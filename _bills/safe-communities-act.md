@@ -119,9 +119,14 @@ co_sponsors:
   - william-brownsberger
   - william-driscoll
   - william-galvin
-timeline:
-  - date: "2019-12-02"
-    description: Hearing
+scripts:
+  call_request: >-
+    Please support the Safe Communities Act.
+
+
+    Immigrant communities in Massachusetts should not be subjected to Trump's racist policies. 
+  email_request:
+    subject: Please support the Safe Communities Act!
 history:
   - date: 2019-01
     description: Filed as Safe Communities Act - H3573
@@ -141,4 +146,7 @@ history:
     description: Judiciary Committee Hearing
   - date: 2013-01
     description: Filed as Trust Act H1613
+timeline:
+  - date: 2019-12-02T00:00:00.000Z
+    description: Hearing
 ---

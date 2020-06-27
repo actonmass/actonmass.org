@@ -18,7 +18,8 @@
     bill: {
       article: "{{include.bill.article}}",
       title: "{{include.bill.title}}",
-      co_sponsors: {{include.bill.co_sponsors | jsonify}}
+      co_sponsors: {{include.bill.co_sponsors | jsonify}},
+      scripts: {{bill.scripts | jsonify}},
     },
     {% endif %}
     showResultIfEmpty: {% if include.showResultsIfEmpty == "true" %}true{% else %}false{% endif %},

@@ -6,7 +6,6 @@
   grid-template-rows: auto auto auto;
   grid-template-columns: auto;
   grid-gap: 0.5rem;
-  max-width: 13rem;
   box-sizing: unset;
 
   .image-with-check {
@@ -62,12 +61,6 @@
   }
 
   &.L {
-    max-width: 14rem;
-
-    @media (min-width: 700px) {
-      max-width: 18rem;
-    }
-
     .leg_circ_img img {
       width: 8.5rem;
       @media (min-width: 700px) {
@@ -77,12 +70,6 @@
   }
 
   &.XL {
-    max-width: 20rem;
-
-    @media (min-width: 700px) {
-      max-width: 23rem;
-    }
-
     .leg_circ_img img {
       width: 12rem;
       @media (min-width: 700px) {

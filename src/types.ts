@@ -24,6 +24,7 @@ export type Bill = {
   article?: string;
   title: string;
   co_sponsors: string[];
+  scripts: Partial<Scripts> | null;
 };
 
 export type Scripts = {
