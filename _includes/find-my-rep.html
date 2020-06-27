@@ -19,7 +19,8 @@
         first_name: "{{leg.first_name}}",
         last_name: "{{leg.last_name}}",
         href: "{{leg.id}}",
-        district: "{{district}}",
+        district: "{{leg.district}}",
+        districtName: "{{district}}",
         img: "{{ leg.square_picture }}",
         phone: "{{leg.phone}}",
         email: "{{leg.email}}",
@@ -45,7 +46,8 @@
       title: "{{include.bill.title}}",
     },
     {% endif %}
-    showResultIfEmpty: {% if include.showResultsIfEmpty == "true" %}true{% else %}false{% endif %}
+    showResultIfEmpty: {% if include.showResultsIfEmpty == "true" %}true{% else %}false{% endif %},
+    scripts: {{site.data.pledge_scripts | jsonify}},
   };
 
     AOM.renderFindMyReps("find-my-reps", data);

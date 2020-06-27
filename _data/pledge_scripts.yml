@@ -1,11 +1,11 @@
 call_request: |-
   Please sign the pledge!
 
-  ## Talking points
+  #### Talking points:
 
-  ### "The pledge is not good"
-
+  > "The pledge is not good"
   -> Yet it is !
+
 call_thanks: Thank you for signing the pledge!
 tweet_after_request_call: "@Act_On_Mass Hi! I just called {leg.title} {leg.first_name}
   {leg.last_name} to request they sign the pledge and..."

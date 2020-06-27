@@ -3,26 +3,36 @@ import ReactDOM from "react-dom";
 
 import findReps, { Query, QueryResult } from "./findReps";
 import LoadingSpinner from "./LoadingSpinner";
-import Legislator from "./Legislator";
+import Results from "./Results";
 
-import { Leg, Bill } from "../types";
+import { LegBase as Leg, Bill, Scripts } from "../types";
 
-type Props = {
+export type Props = {
   legislatorsInfo: { [ocdId: string]: Leg };
   title: string;
   text?: string;
   theme?: string;
   showResultIfEmpty: boolean;
   bill?: Bill;
+  scripts: Scripts;
 };
 
 type InnerProps = Props & {
   onQueryReps: (query: Query) => Promise<QueryResult>;
 };
 
-function FindMyReps({ onQueryReps, legislatorsInfo, title, text, theme, bill, showResultIfEmpty }: InnerProps) {
-  const sessionQuery = JSON.parse(window.sessionStorage.getItem("repQuery"));
-  const [repInfo, setRepInfo] = useState<QueryResult | null>(sessionQuery !== null ? sessionQuery.repInfo : null);
+function FindMyReps({
+  onQueryReps,
+  legislatorsInfo,
+  title,
+  text,
+  theme,
+  bill,
+  showResultIfEmpty,
+  scripts,
+}: InnerProps) {
+  const sessionQuery = JSON.parse(window.sessionStorage.getItem("repQuery") ?? "null");
+  const [repInfo, setRepInfo] = useState<QueryResult | null>(sessionQuery != null ? sessionQuery.repInfo : null);
   const [error, setError] = useState(null);
   const [loading, setLoading] = useState(false);
 
@@ -59,6 +69,7 @@ function FindMyReps({ onQueryReps, legislatorsInfo, title, text, theme, bill, sh
         theme={theme}
         showResultIfEmpty={showResultIfEmpty}
         error={error}
+        scripts={scripts}
       />
     </>
   );
@@ -133,83 +144,13 @@ function Form({ title, text, onSubmit, theme, loading }: FormProps) {
   );
 }
 
-type ResultsProps = Pick<Props, "legislatorsInfo" | "bill" | "theme" | "showResultIfEmpty"> & {
-  legInfo: QueryResult;
-  error: string | null;
-};
-
-function Results({ legInfo, legislatorsInfo, bill, theme, showResultIfEmpty, error }: ResultsProps) {
-  const rep = {
-    chamber: "house",
-    ...(legInfo && legislatorsInfo[legInfo.representative]),
-  };
-  const senator = {
-    chamber: "senate",
-    ...(legInfo && legislatorsInfo[legInfo.senator]),
-  };
-  if (!legInfo && !error && !showResultIfEmpty) {
-    return null;
-  }
-  return (
-    <section className={`results-container cbox ${theme !== "dark" ? "light-blue" : ""}`}>
-      <div className="w1400">
-        <div className="results">
-          <h2 className="fRaleway fUppercase fRegular" id="leg-search-results">
-            Your legislators
-          </h2>
-          {legInfo ? (
-            <div className="legislators">
-              <Legislator leg={rep} bill={bill} chamber="House" />
-              <Legislator leg={senator} bill={bill} chamber="Senate" />
-            </div>
-          ) : error ? (
-            <ErrorResults errorCode={error} />
-          ) : (
-            <EmptyResults />
-          )}
-        </div>
-      </div>
-    </section>
-  );
-}
-
-function EmptyResults() {
-  return (
-    <div className="empty_state_container">
-      <div className="empty_state">
-        <i className="fas empt_st fa-search-location fa-10x"></i>
-        <h4 className="fRaleway fUppercase">no results</h4>
-        <p className="fRaleway">
-          Enter your address above to <br />
-          see your legislators
-        </p>
-      </div>
-    </div>
-  );
-}
-
-type ErrorResultsProps = {
-  errorCode: string;
-};
-
-function ErrorResults({ errorCode }: ErrorResultsProps) {
-  const messages = {
-    couldNotLocateAddressInMa: "We were not able to locate your address in Massachusetts.",
-    unexpectedError: "Something unexpected happened. If the issue persists, please let tech@actonmass.org know!",
-  };
-  return (
-    <div className="empty_state_container">
-      <div className="empty_state">
-        <i className="fas empt_st fa-exclamation-circle fa-10x"></i>
-        <h4 className="fRaleway fUppercase">Error</h4>
-        <p className="fRaleway">{messages[errorCode]}</p>
-      </div>
-    </div>
-  );
-}
-
 function scrollTo(hashName) {
-  document.getElementById(hashName).scrollIntoView({ behavior: "smooth" });
+  const elem = document.getElementById(hashName);
+  if (elem == null) {
+    console.warn(`Enable to scroll to element #${hashName}`);
+    return;
+  }
+  elem.scrollIntoView({ behavior: "smooth" });
 }
 
 function persistQueryResults(query, repInfo) {

@@ -9,7 +9,7 @@ doT.templateSettings.varname = "leg, bill";
 doT.templateSettings.strip = false;
 
 export default function getScript(script: string, leg: Leg, bill: Bill | undefined, md: boolean = false) {
-  const interpolated = doT.template(script)(leg, { title: bill?.title });
+  const interpolated = doT.template(script)(leg, { title: bill?.title ?? "" });
   if (!md) {
     return interpolated;
   }

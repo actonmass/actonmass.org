@@ -2,18 +2,21 @@ import React from "react";
 import ReactDOM from "react-dom";
 import Modal from "react-modal";
 
-import { Leg, Bill, Scripts } from "../types";
+import { LegBase, Leg, Bill, Scripts, enrichLeg } from "../types";
 
 import getScript, { getEmailScript } from "./getScript";
 
+type MaybeBill = Bill | undefined;
+
 type Props = {
   txt: string;
-  leg: Leg;
+  leg: LegBase;
   bill?: Bill;
   scripts: Scripts;
 };
 
-export function ContactLegModal({ txt, leg, bill, scripts }: Props) {
+export function ContactLegModal({ txt, leg: legBase, bill, scripts }: Props) {
+  const leg = enrichLeg(legBase);
   const fullName = leg.chamber === "house" ? "your rep" : "your senator";
   const title = leg.chamber === "house" ? "rep." : "sen.";
   const [modalIsOpen, setIsOpen] = React.useState(false);
@@ -33,7 +36,7 @@ export function ContactLegModal({ txt, leg, bill, scripts }: Props) {
           </h3>
           <h3>{leg.phone}</h3>
           <h4>Script</h4>
-          <p>{getCallDetails(leg, bill, scripts)}</p>
+          <div>{getCallDetails(leg, bill, scripts)}</div>
           <div className="hbox" style={{ justifyContent: "space-between" }}>
             <a className="btn btn-sec" onClick={() => setModalContent("")}>
               Back
@@ -149,7 +152,7 @@ export function ContactLegModal({ txt, leg, bill, scripts }: Props) {
   );
 }
 
-function getTweeterIntentUrl(leg: Leg, bill: Bill | undefined) {
+function getTweeterIntentUrl(leg: Leg, bill: MaybeBill) {
   const text =
     bill == null
       ? leg.pledge
@@ -166,7 +169,7 @@ function getTweeterIntentUrl(leg: Leg, bill: Bill | undefined) {
   });
 }
 
-function getThankYouTweetIntent(leg: Leg, bill: Bill | undefined, actionType: "email" | "call") {
+function getThankYouTweetIntent(leg: Leg, bill: MaybeBill, actionType: "email" | "call") {
   const actionVerb = actionType === "email" ? "emailed" : "called";
   const legTitle = leg.chamber === "house" ? "Rep" : "Sen";
   const text =
@@ -182,7 +185,7 @@ function getThankYouTweetIntent(leg: Leg, bill: Bill | undefined, actionType: "e
   });
 }
 
-function getCallDetails(leg: Leg, bill: Bill | undefined, scripts: Scripts) {
+function getCallDetails(leg: Leg, bill: MaybeBill, scripts: Scripts) {
   if (bill == null) {
     if (!leg.pledge) {
       return getScript(scripts.call_request, leg, bill, true);
@@ -195,7 +198,7 @@ function getCallDetails(leg: Leg, bill: Bill | undefined, scripts: Scripts) {
   return `Thank you for cosponsoring ${bill.article ?? ""} ${bill.title}!`;
 }
 
-function getEmailsDetails(leg: Leg, bill: Bill | undefined, scripts: Scripts) {
+function getEmailsDetails(leg: Leg, bill: MaybeBill, scripts: Scripts) {
   if (bill == null) {
     if (!leg.pledge) {
       return getEmailScript(scripts.email_request, leg, bill);

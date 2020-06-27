@@ -45,7 +45,7 @@ layout: base
         </div>
         {% if leg.pledge == false %}
         {% capture btn_txt %}contact {{leg_title}}{% endcapture %}
-        {% include modals/leg-contact-button-modal.html txt=btn_txt leg=leg %}
+        {% include modals/contact-leg-modal.html txt=btn_txt leg=leg %}
         {% endif %}
       </section>
       <section class="top-box leg-committees cbox dark">
