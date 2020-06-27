@@ -8,7 +8,6 @@ import Results from "./Results";
 import { LegBase as Leg, Bill, Scripts } from "../types";
 
 export type Props = {
-  legislatorsInfo: { [ocdId: string]: Leg };
   title: string;
   text?: string;
   theme?: string;
@@ -21,16 +20,7 @@ type InnerProps = Props & {
   onQueryReps: (query: Query) => Promise<QueryResult>;
 };
 
-function FindMyReps({
-  onQueryReps,
-  legislatorsInfo,
-  title,
-  text,
-  theme,
-  bill,
-  showResultIfEmpty,
-  scripts,
-}: InnerProps) {
+function FindMyReps({ onQueryReps, title, text, theme, bill, showResultIfEmpty, scripts }: InnerProps) {
   const sessionQuery = JSON.parse(window.sessionStorage.getItem("repQuery") ?? "null");
   const [repInfo, setRepInfo] = useState<QueryResult | null>(sessionQuery != null ? sessionQuery.repInfo : null);
   const [error, setError] = useState(null);
@@ -64,7 +54,6 @@ function FindMyReps({
       <Form title={title} text={text} onSubmit={handleQueryReps} theme={theme} loading={loading} />
       <Results
         legInfo={repInfo}
-        legislatorsInfo={legislatorsInfo}
         bill={bill}
         theme={theme}
         showResultIfEmpty={showResultIfEmpty}

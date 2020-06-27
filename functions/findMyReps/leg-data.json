@@ -1,0 +1,24 @@
+---
+---
+
+{
+  {% for leg in site.legislators %}
+    {% assign district = site.data.cache.districts_by_id[leg.district].name %}
+    {% if leg.ocd_id%}
+    "{{leg.ocd_id}}": {
+      "party": "{{leg.party}}",
+      "first_name": "{{leg.first_name}}",
+      "last_name": "{{leg.last_name}}",
+      "href": "{{leg.id}}",
+      "district": "{{leg.district}}",
+      "districtName": "{{district}}",
+      "img": "{{ leg.square_picture }}",
+      "phone": "{{leg.phone}}",
+      "email": "{{leg.email}}",
+      "facebook": "{{leg.facebook}}",
+      "twitter": "{{leg.twitter}}",
+      "pledge": {{ leg.pledge }}
+    }{% unless forloop.last %},{% endunless %}
+    {% endif %}
+  {% endfor %}
+}

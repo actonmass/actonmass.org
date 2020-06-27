@@ -1,6 +1,21 @@
 const axios = require("axios");
+const _ = require("lodash");
+const fs = require("fs");
 
-const { OPEN_STATES_API_KEY, GOOGLE_API_KEY } = process.env;
+const { OPEN_STATES_API_KEY, GOOGLE_API_KEY, NETLIFY_DEV } = process.env;
+const isDev = NETLIFY_DEV == "true";
+const shouldMockInDev = true;
+
+function loadAllLegData() {
+  if (isDev) {
+    // In local dev mode, the function is run from the folter with the unbuilt json.
+    // We therefore need to go get it manually
+    return require("../../_site/functions/findMyReps/leg-data.json");
+  }
+  return require("./leg-data.json");
+}
+
+const allLegData = loadAllLegData();
 
 function mockGeolocate(address) {
   return new Promise(function (resolve, reject) {
@@ -61,7 +76,7 @@ query getLocalLegislators($latitude: Float, $longitude: Float) {
 }
 `;
 
-async function getLegData(location) {
+async function fetchLegAtLocation(location) {
   console.log("Requesting Coordinates", location);
   const openStateResponse = await axios.post(
     API_ENDPOINT,
@@ -91,10 +106,8 @@ async function getLegData(location) {
   };
 }
 
-async function handleRequest(requestBody) {
-  const address = JSON.parse(requestBody);
+async function fetchLegAtAdrs(address) {
   console.log("Requesting Address", address);
-
   const location = await geolocate(address);
 
   if (location == null) {
@@ -106,7 +119,31 @@ async function handleRequest(requestBody) {
     };
   }
 
-  const legData = await getLegData(location);
+  return await fetchLegAtLocation(address);
+}
+
+async function fetchLegAtAdrsMock() {
+  return new Promise(function (resolve) {
+    setTimeout(
+      () =>
+        resolve({
+          senator: "ocd-person/6de50ed2-4fe8-4b98-894d-0bc391c876b5",
+          representative: "ocd-person/a8225754-d88c-4343-8829-aa168b564cbd",
+        }),
+      2000
+    );
+  });
+}
+
+async function handleRequest(requestBody) {
+  const address = JSON.parse(requestBody);
+
+  const legIds = isDev && shouldMockInDev ? await fetchLegAtAdrsMock(address) : await fetchLegAtAdrs(address);
+
+  const legData = _.mapValues(legIds, (legId) => {
+    return allLegData[legId];
+  });
+
   return {
     statusCode: 200,
     body: JSON.stringify(legData),
