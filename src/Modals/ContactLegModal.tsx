@@ -186,35 +186,19 @@ function getThankYouTweetIntent(leg: Leg, bill: MaybeBill, actionType: "email" |
 }
 
 function getCallDetails(leg: Leg, bill: MaybeBill, scripts: Scripts) {
-  if (bill == null) {
-    if (!leg.pledge) {
-      return getScript(scripts.call_request, leg, bill, true);
-    }
-    return getScript(scripts.call_thanks, leg, bill, true);
+  const isThanks = bill == null ? leg.pledge : leg.sponsored;
+  if (!isThanks) {
+    return getScript(scripts.call_request, leg, bill, true);
   }
-  if (!leg.sponsored) {
-    return `Please co-sponsor ${bill.article ?? ""} ${bill.title}!`;
-  }
-  return `Thank you for cosponsoring ${bill.article ?? ""} ${bill.title}!`;
+  return getScript(scripts.call_thanks, leg, bill, true);
 }
 
 function getEmailsDetails(leg: Leg, bill: MaybeBill, scripts: Scripts) {
-  if (bill == null) {
-    if (!leg.pledge) {
-      return getEmailScript(scripts.email_request, leg, bill);
-    }
-    return getEmailScript(scripts.email_thanks, leg, bill);
+  const isThanks = bill == null ? leg.pledge : leg.sponsored;
+  if (!isThanks) {
+    return getEmailScript(scripts.email_request, leg, bill);
   }
-  if (!leg.sponsored) {
-    return {
-      subject: `Please co-sponsor the ${bill.title}}!`,
-      body: `Dear ${leg.first_name} ${leg.last_name}, please co-sponsor the ${bill.title} bill.`,
-    };
-  }
-  return {
-    subject: `Thank you for co-sponsoring the ${bill.title}!`,
-    body: `Dear ${leg.first_name} ${leg.last_name}, thank you so much for sponsoring the ${bill.title} bill.`,
-  };
+  return getEmailScript(scripts.email_thanks, leg, bill);
 }
 
 function renderModal(targetID: string, data: Props) {
