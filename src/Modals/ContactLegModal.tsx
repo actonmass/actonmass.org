@@ -57,7 +57,7 @@ export function ContactLegModal({ txt, leg, bill, scripts }: Props) {
           <h4>Subject: {subject}</h4>
           <br />
           <h4>Email Body:</h4>
-          <p>{body}</p>
+          <div>{body}</div>
           <div className="hbox" style={{ justifyContent: "space-between" }}>
             <a className="btn btn-sec" onClick={() => setModalContent("")}>
               Back

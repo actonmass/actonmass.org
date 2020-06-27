@@ -17,7 +17,7 @@ email_request:
     Dear {leg.first_name} {leg.last_name},
 
 
-    Please help bring transparency to the house by signing the Voter Deserve to Know Pledge.
+    Please help bring transparency to the house by signing the **Voter Deserve to Know Pledge**.
 email_thanks:
   subject: Thank you for signing the Voter Deserve to Know Pledge!
   body: >-
