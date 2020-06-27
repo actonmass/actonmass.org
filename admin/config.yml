@@ -608,6 +608,12 @@ collections:
         name: "pledge_scripts"
         file: "_data/pledge_scripts.yml"
         fields:
+          - label: Tweet - Request
+            name: tweet_request
+            widget: text
+          - label: Tweet - Thank you
+            name: tweet_thanks
+            widget: text
           - label: Call script - Request
             name: call_request
             widget: markdown

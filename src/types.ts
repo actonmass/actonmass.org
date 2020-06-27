@@ -26,6 +26,8 @@ export type Bill = {
 };
 
 export type Scripts = {
+  tweet_request: string;
+  tweet_thanks: string;
   call_request: string;
   call_thanks: string;
   tweet_after_request_call: string;
@@ -55,6 +57,7 @@ export function enrichLeg(leg: LegBase): Leg {
     ...leg,
     chamber,
     title,
+    twitter: (leg.twitter ?? "").replace("https://twitter.com/", "").replace("http://twitter.com/", ""),
   };
 }
 

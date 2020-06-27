@@ -83,16 +83,13 @@ export function ContactLegModal({ txt, leg: legBase, bill, scripts }: Props) {
             Please send us a tweet and let us know how it went.
           </p>
           <div className="cbox">
-            <a className="btn" target="_blank" href={getThankYouTweetIntent(leg, bill, actionType)}>
+            <a className="btn" target="_blank" href={getThankYouTweetIntent(leg, bill, actionType, scripts)}>
               <i className="fab fa-twitter fa-lg"></i>
               Tweet to @Act_On_Mass
             </a>
           </div>
         </>
       );
-    }
-
-    if (modalContent === "call-thanks") {
     }
 
     return (
@@ -111,7 +108,7 @@ export function ContactLegModal({ txt, leg: legBase, bill, scripts }: Props) {
             </a>
           )}
           {leg.twitter && (
-            <a className="btn" target="_blank" href={getTweeterIntentUrl(leg, bill)}>
+            <a className="btn" target="_blank" href={getTweeterIntentUrl(leg, bill, scripts)}>
               <i className="fab fa-twitter fa-lg"></i>
               Send {fullName} a tweet
             </a>
@@ -152,39 +149,6 @@ export function ContactLegModal({ txt, leg: legBase, bill, scripts }: Props) {
   );
 }
 
-function getTweeterIntentUrl(leg: Leg, bill: MaybeBill) {
-  const text =
-    bill == null
-      ? leg.pledge
-        ? "thank you for signing the pledge"
-        : "please sign the pledge!"
-      : leg.sponsored
-      ? `thank you for co-sponsoring the ${bill.title} bill!`
-      : `please co-sponsor the ${bill.title} bill!`;
-  const tweeterHandle = leg.twitter!.replace("https://twitter.com/", "");
-  return encodeUrl("https://twitter.com/intent/tweet", {
-    text: `@${tweeterHandle}, ${text}`,
-    via: "act_on_mass",
-    hashtags: "mapoli",
-  });
-}
-
-function getThankYouTweetIntent(leg: Leg, bill: MaybeBill, actionType: "email" | "call") {
-  const actionVerb = actionType === "email" ? "emailed" : "called";
-  const legTitle = leg.chamber === "house" ? "Rep" : "Sen";
-  const text =
-    bill == null
-      ? leg.pledge
-        ? "thank them for signing the pledge"
-        : "request they sign the pledge"
-      : leg.sponsored
-      ? `thank them for co-sponsoring the ${bill.title} bill!`
-      : `request they co-sponsor the ${bill.title}!`;
-  return encodeUrl("https://twitter.com/intent/tweet", {
-    text: `@Act_On_Mass Hi! I just ${actionVerb} ${legTitle} ${leg.first_name} ${leg.last_name} to ${text} and...`,
-  });
-}
-
 function getCallDetails(leg: Leg, bill: MaybeBill, scripts: Scripts) {
   const isThanks = bill == null ? leg.pledge : leg.sponsored;
   if (!isThanks) {
@@ -199,6 +163,35 @@ function getEmailsDetails(leg: Leg, bill: MaybeBill, scripts: Scripts) {
     return getEmailScript(scripts.email_request, leg, bill);
   }
   return getEmailScript(scripts.email_thanks, leg, bill);
+}
+
+function getTweeterIntentUrl(leg: Leg, bill: MaybeBill, scripts: Scripts) {
+  const isThanks = bill == null ? leg.pledge : leg.sponsored;
+  const script = isThanks ? scripts.tweet_thanks : scripts.tweet_request;
+  const text = getScript(script, leg, bill);
+
+  return encodeUrl("https://twitter.com/intent/tweet", {
+    text,
+    via: "act_on_mass",
+    hashtags: "mapoli",
+  });
+}
+
+function getThankYouTweetIntent(leg: Leg, bill: MaybeBill, actionType: "email" | "call", scripts: Scripts) {
+  const isThanks = bill == null ? leg.pledge : leg.sponsored;
+  const isAfterEmail = actionType === "email";
+  const script = isThanks
+    ? isAfterEmail
+      ? scripts.tweet_after_thanks_email
+      : scripts.tweet_after_thanks_call
+    : isAfterEmail
+    ? scripts.tweet_after_request_email
+    : scripts.tweet_after_request_call;
+  const text = getScript(script, leg, bill);
+
+  return encodeUrl("https://twitter.com/intent/tweet", {
+    text,
+  });
 }
 
 function renderModal(targetID: string, data: Props) {

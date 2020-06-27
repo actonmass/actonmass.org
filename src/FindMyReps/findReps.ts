@@ -22,7 +22,7 @@ function findRepsMock(query: Query): Promise<QueryResult> {
       () =>
         resolve({
           senator: "ocd-person/6de50ed2-4fe8-4b98-894d-0bc391c876b5",
-          representative: "ocd-person/d887e897-63da-48da-b7cb-b5cc3a3a6e2a",
+          representative: "ocd-person/a8225754-d88c-4343-8829-aa168b564cbd",
         }),
       2000
     );
