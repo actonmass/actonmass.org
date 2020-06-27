@@ -4,6 +4,65 @@ backend:
 local_backend: true
 # publish_mode: editorial_workflow  # Deactivate on next since we are still collection data and don't want to go through a PR for each change
 media_folder: "img"
+field_definitions:
+  id_field: &id-field
+    label: ID
+    name: aom_id
+    widget: string
+  date_picker: &date-picker
+    widget: datetime
+    format: YYYY-MM-DD
+    timeFormat: false
+    default: null
+  legislator_picker: &legislator-picker
+    widget: relation
+    collection: legislators
+    searchFields:
+      - last_name
+    valueField: aom_id
+    displayFields:
+      - last_name
+  email: &email
+    widget: object
+    fields:
+      - label: Subject
+        name: subject
+        widget: string
+      - label: Body
+        name: body
+        widget: markdown
+  script: &script
+    fields:
+      - label: Tweet - Request
+        name: tweet_request
+        widget: text
+      - label: Tweet - Thank you
+        name: tweet_thanks
+        widget: text
+      - label: Call script - Request
+        name: call_request
+        widget: markdown
+      - label: Call script - Thank you
+        name: call_thanks
+        widget: markdown
+      - label: Tweet - After request call
+        name: tweet_after_request_call
+        widget: text
+      - label: Tweet - After thank you call
+        name: tweet_after_thanks_call
+        widget: text
+      - <<: *email
+        label: Email script - Request
+        name: email_request
+      - <<: *email
+        label: Email script - Thank you
+        name: email_thanks
+      - label: Tweet - After request email
+        name: tweet_after_request_email
+        widget: text
+      - label: Tweet - After thank you email
+        name: tweet_after_thanks_email
+        widget: text
 collections:
   - name: blog
     label: Blog post
@@ -49,10 +108,8 @@ collections:
     editor:
       preview: false
     fields:
-      - &id-field
-        label: ID
-        name: aom_id
-        widget: string
+      - <<: *id-field
+        default: "Example: immigation"
       - name: ocd_id
         widget: hidden
       - label: Layout
@@ -224,14 +281,10 @@ collections:
         name: square_picture
         widget: string
         required: false
-      - &date-picker
+      - <<: *date-picker
         label: End date
         name: end_date
         required: false
-        widget: datetime
-        format: YYYY-MM-DD
-        timeFormat: false
-        default: null
       - <<: *date-picker
         label: Start date
         name: start_date
@@ -316,17 +369,10 @@ collections:
             value: senate
           - label: Joint
             value: joint
-      - &legislator-picker
+      - <<: *legislator-picker
         label: House Chair
         name: house_chair
         required: false
-        widget: relation
-        collection: legislators
-        searchFields:
-          - last_name
-        valueField: aom_id
-        displayFields:
-          - last_name
       - <<: *legislator-picker
         label: House Vice-chair
         name: house_vice_chair
@@ -607,50 +653,10 @@ collections:
               <<: *legislator-picker
               label: Senator
               name: senator
-      - &script
+      - <<: *script
         label: "Pledge scripts"
         name: "pledge_scripts"
         file: "_data/pledge_scripts.yml"
-        fields:
-          - label: Tweet - Request
-            name: tweet_request
-            widget: text
-          - label: Tweet - Thank you
-            name: tweet_thanks
-            widget: text
-          - label: Call script - Request
-            name: call_request
-            widget: markdown
-          - label: Call script - Thank you
-            name: call_thanks
-            widget: markdown
-          - label: Tweet - After request call
-            name: tweet_after_request_call
-            widget: text
-          - label: Tweet - After thank you call
-            name: tweet_after_thanks_call
-            widget: text
-          - &email
-            label: Email script - Request
-            name: email_request
-            widget: object
-            fields:
-              - label: Subject
-                name: subject
-                widget: string
-              - label: Body
-                name: body
-                widget: markdown
-          - <<: *email
-            label: Email script - Thank you
-            name: email_thanks
-            widget: object
-          - label: Tweet - After request email
-            name: tweet_after_request_email
-            widget: text
-          - label: Tweet - After thank you email
-            name: tweet_after_thanks_email
-            widget: text
       - <<: *script
         label: "Default bill scripts"
         name: "default_bill_scripts"
