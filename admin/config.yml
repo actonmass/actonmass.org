@@ -251,7 +251,11 @@ collections:
       - label: Twitter account
         name: twitter
         widget: string
+        pattern:
+          - '^([\w]+)$'
+          - 'Username only: don''t include the "http" prefix or the "@"'
         required: false
+        hint: 'Username only: don''t include the "http" prefix or the "@"'
   - name: districts
     label: Districts
     folder: _districts/
