@@ -14,7 +14,7 @@ phone: (617) 722-2370
 picture: ''
 square_picture: /img/legislators/square-pictures/ann-margaret-ferrante.png
 start_date: ''
-twitter: https://twitter.com/Rep_AMF
+twitter: Rep_AMF
 website: http://annmargaretferrante.org/
 ocd_id: ocd-person/3b6297d5-2c8d-42a8-ba9b-bb4e8f50c0e2
 ---

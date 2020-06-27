@@ -14,7 +14,7 @@ phone: (617) 722-2305
 picture: https://pbs.twimg.com/profile_images/674003478/sheila_1_400x400.jpg
 square_picture: /img/legislators/square-pictures/sheila-harrington.jpg
 start_date: ''
-twitter: https://twitter.com/repharrington
+twitter: repharrington
 website: https://repharrington.com/
 ocd_id: ocd-person/dc73a702-5899-4b1a-b996-4c4c21d00d0f
 ---

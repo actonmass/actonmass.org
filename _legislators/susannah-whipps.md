@@ -14,7 +14,7 @@ phone: (617) 722-2090
 picture: https://scontent.fbed1-1.fna.fbcdn.net/v/t1.0-9/18446989_1447673728630889_1103672997205063731_n.jpg?_nc_cat=105&_nc_ht=scontent.fbed1-1.fna&oh=6b4481706c0312f6546d24e0ff937caf&oe=5CD29F91
 square_picture: /img/legislators/square-pictures/susannah-whipps.jpg
 start_date: ''
-twitter: https://twitter.com/repwhipps
+twitter: repwhipps
 website: https://www.repwhipps.com/
 ocd_id: ocd-person/76b07f35-1876-4259-9c0a-bdf595541c39
 ---

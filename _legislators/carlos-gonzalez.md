@@ -14,7 +14,7 @@ phone: (617) 722-2080
 picture: https://pbs.twimg.com/profile_images/536234827738275841/58MxeZd2_400x400.jpeg
 square_picture: /img/legislators/square-pictures/carlos-gonzalez.jpg
 start_date: ''
-twitter: https://twitter.com/vote4gonzalez
+twitter: vote4gonzalez
 website: https://www.masscarlosgonzalez.com/
 ocd_id: ocd-person/c4d03c0e-713d-4195-ba23-1394f225494b
 ---

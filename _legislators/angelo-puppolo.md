@@ -14,7 +14,7 @@ phone: (617) 722-2006
 picture: https://malegislature.gov/Legislators/Profile/170/AJP1.jpg
 square_picture: /img/legislators/square-pictures/angelo-puppolo.jpg
 start_date: ''
-twitter: https://twitter.com/apuppolo
+twitter: apuppolo
 website: http://puppolo.com/
 ocd_id: ocd-person/8302648f-4ed2-454e-ad1e-d7389e25b8dc
 ---

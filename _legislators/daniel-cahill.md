@@ -14,7 +14,7 @@ phone: (617) 722-2460
 picture: https://malegislature.gov/Legislators/Profile/170/DFC1.jpg
 square_picture: /img/legislators/square-pictures/daniel-cahill.jpg
 start_date: ''
-twitter: https://twitter.com/RepDanCahill
+twitter: RepDanCahill
 website: null
 ocd_id: ocd-person/5f227f77-f58b-4ac6-b193-9f406bde4055
 ---

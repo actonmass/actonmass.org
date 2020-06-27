@@ -14,7 +14,7 @@ phone: (617) 722-2460
 picture: https://pbs.twimg.com/profile_images/975587184475623424/z3rovQSm_400x400.jpg
 square_picture: /img/legislators/square-pictures/lindsay-sabadosa.png
 start_date: ''
-twitter: https://twitter.com/SabadosaMA
+twitter: SabadosaMA
 website: https://www.lindsaysabadosa.com/
 ocd_id: ocd-person/05f9b238-283f-4529-8989-ff7d1bda60a8
 ---

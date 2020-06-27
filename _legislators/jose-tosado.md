@@ -14,7 +14,7 @@ phone: (617) 722-2060
 picture: https://pbs.twimg.com/profile_images/448620008898191360/vKCe-Aan_400x400.jpeg
 square_picture: /img/legislators/square-pictures/jose-tosado.jpeg
 start_date: ''
-twitter: https://twitter.com/JoseTosado4Rep
+twitter: JoseTosado4Rep
 website: http://www.josetosado.com
 ocd_id: ocd-person/eaf07396-2e80-4e14-b236-f895882535ca
 ---
