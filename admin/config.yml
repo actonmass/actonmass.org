@@ -74,7 +74,8 @@ collections:
         name: img
         widget: image
         required: false
-      - label: Catchphrase (appears on the headline)
+      - label: Catchphrase
+        hint: Appears on the headline
         name: catchphrase
         widget: string
         required: false
@@ -82,7 +83,8 @@ collections:
         name: page_img
         widget: image
         required: false
-      - label: Bills section title (completes the sentence "Bills to support...")
+      - label: Bills section title
+        hint: Completes the sentence "Bills to support..."
         name: bills_to_support_title
         widget: string
         required: false
@@ -152,7 +154,8 @@ collections:
         collapsed: true
         widget: list
         fields:
-          - label: "Key (can be used to add a link to the reference)"
+          - label: "Key"
+            hint: Can be used to add a link to the reference
             name: key
             required: true
             widget: string
@@ -458,13 +461,16 @@ collections:
               - id
           - <<: *date-picker
             required: false
-            label: Date (fill only if no detailed bill event)
+            label: Date
+            hint: Fill only if there is no detailed bill event
             name: date
-          - label: Description (fill only if no detailed bill event)
+          - label: Description
+            hint: Fill only if there is no detailed bill event
             required: false
             name: description
             widget: text
-          - label: Type of event (fill only if no detailed bill event)
+          - label: Type of event
+            hint: Fill only if there is no detailed bill event
             required: false
             name: type
             widget: select
@@ -522,7 +528,8 @@ collections:
             value: yes
           - label: No
             value: no
-      - label: Type of event (will render event differently in history)
+      - label: Type of event
+        hint: Different types of events render event in history
         required: false
         name: type
         widget: select
@@ -538,19 +545,19 @@ collections:
           - label: Yes vote description
             name: "yes"
             widget: string
-            default: >-
+            hint: >-
               Example: Voted to send the [Safe Communities
               Act](/bills/safe-communities-act/) to study
           - label: No vote description
             name: "no"
             widget: string
-            default: >-
+            hint: >-
               Example: Voted against sending the [Safe Communities
               Act](/bills/safe-communities-act/) to study
           - label: Unknown vote description
             name: unk
             widget: string
-            default: >-
+            hint: >-
               Example: Won't tell us how they voted on the [Safe Communities
               Act](/bills/safe-communities-act/) in committee
       - label: Votes
