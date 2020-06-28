@@ -5,7 +5,7 @@
     "serve": "webpack --mode=development && bundle exec jekyll serve",
     "watch-js": "webpack --watch --mode=development",
     "netlify-cms": "netlify-cms-proxy-server",
-    "dev": "env `cat .env` netlify dev",
+    "dev": "env `cat .env` netlify dev --port 4000",
     "ts-watch": "tsc -b --watch"
   },
   "devDependencies": {

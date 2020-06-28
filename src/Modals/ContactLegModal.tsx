@@ -202,16 +202,16 @@ function getThankYouTweetIntent(
   });
 }
 
-function renderModal(targetID: string, data: Props) {
-  const targetEl = document.getElementById(targetID);
-  ReactDOM.render(<ContactLegModal {...data} />, targetEl);
-}
-
 function encodeUrl(url: string, data: { [key: string]: string }) {
   const params = Object.keys(data)
     .map((key) => key + "=" + encodeURI(data[key]))
     .join("&");
   return `${url}?${params}`;
+}
+
+function renderModal(targetID: string, data: Props) {
+  const targetEl = document.getElementById(targetID);
+  ReactDOM.render(<ContactLegModal {...data} />, targetEl);
 }
 
 export default { renderModal };

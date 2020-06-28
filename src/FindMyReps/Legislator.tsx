@@ -4,7 +4,7 @@ import { ContactLegModal } from "../Modals/ContactLegModal";
 import { Leg, Bill, Scripts } from "../types";
 
 type Props = {
-  leg: Leg;
+  leg: Leg | null | undefined;
   chamber: "house" | "senate";
   bill?: Bill;
   scripts: Scripts;
@@ -12,12 +12,11 @@ type Props = {
 
 export default function Legislator({ leg, chamber, bill, scripts }: Props) {
   const legTitle = chamber === "house" ? "rep" : "senator";
-  const legTitleShort = chamber === "house" ? "rep" : "sen.";
-  const sponsored = bill != null && bill.co_sponsors.includes(leg.aom_id);
-
   if (leg == null) {
     return <UnkonwnLeg legTitle={legTitle} />;
   }
+  const legTitleShort = chamber === "house" ? "rep" : "sen.";
+  const sponsored = bill != null && bill.co_sponsors.includes(leg.aom_id);
 
   const statusText = () => {
     if (bill == null) {

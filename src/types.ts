@@ -1,5 +1,11 @@
+const chambers = ["house", "senate"] as const;
+
+type Chamber = typeof chambers[number];
+
+type LegId = string;
+
 export type LegBase = {
-  aom_id: string;
+  aom_id: LegId;
   facebook?: string;
   first_name: string;
   last_name: string;
@@ -45,9 +51,18 @@ export type EmailScript = {
   body: string;
 };
 
-const chambers = ["house", "senate"] as const;
-
-type Chamber = typeof chambers[number];
+export type Committee = {
+  aom_id: LegId;
+  title: string;
+  chamber: Chamber | "joint";
+  house_chair?: LegId;
+  house_members?: LegId[];
+  house_vice_chair?: LegId;
+  malegislature_url?: string;
+  senate_chair?: LegId;
+  senate_members?: LegId[];
+  senate_vice_chair?: LegId;
+};
 
 export function enrichLeg(leg: LegBase): Leg {
   const chamber = leg.district.split("-")[0];

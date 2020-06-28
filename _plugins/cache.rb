@@ -1,3 +1,5 @@
+require 'json'
+
 module Cache
   class Generator < Jekyll::Generator
 
@@ -8,6 +10,7 @@ module Cache
         for item in site.collections[collection].docs do
           id = item['aom_id']
           item_by_id[id] = item
+          item.data['json'] = item.data.to_json
         end
         cache["#{collection}_by_id"] = item_by_id
       end

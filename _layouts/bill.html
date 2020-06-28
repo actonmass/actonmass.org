@@ -128,10 +128,7 @@ layout: base
         </div>
         {% endif %}
       </div>
-      <div class="cbox">
-        <button class="btn btn_inactive fUppercase">request they hold a vote</button>
-        <p class="hold_vote_txt fRoboto fWhite fBold">*Please enter your address above</p>
-      </div>
+      {% include modals/request-committee-vote.html bill=bill committee=committee %}
     </div>
   </section>
   {% endif %}

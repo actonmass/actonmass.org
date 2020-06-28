@@ -4,6 +4,7 @@ import ReactDOM from "react-dom";
 import findReps, { Query, QueryResult } from "./findReps";
 import LoadingSpinner from "./LoadingSpinner";
 import Results from "./Results";
+import getSessionLegs from "./getSessionLegs";
 
 import { LegBase as Leg, Bill, Scripts } from "../types";
 
@@ -21,8 +22,7 @@ type InnerProps = Props & {
 };
 
 function FindMyReps({ onQueryReps, title, text, theme, bill, showResultIfEmpty, scripts }: InnerProps) {
-  const sessionQuery = JSON.parse(window.sessionStorage.getItem("repQuery") ?? "null");
-  const [repInfo, setRepInfo] = useState<QueryResult | null>(sessionQuery != null ? sessionQuery.repInfo : null);
+  const [repInfo, setRepInfo] = useState<QueryResult | null>(getSessionLegs());
   const [error, setError] = useState(null);
   const [loading, setLoading] = useState(false);
 
