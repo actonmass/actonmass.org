@@ -9,14 +9,15 @@ import { evalScripts } from "./evalScripts";
 type Props = {
   leg: LegBase;
   scripts: Scripts;
+  txt?: string;
 };
 
-export function RequestSignPledge({ leg: legBase, scripts: rawScripts }: Props) {
+export function RequestSignPledge({ leg: legBase, scripts: rawScripts, txt: customTxt }: Props) {
   const leg = enrichLeg(legBase);
   const isThanks = leg.pledge;
   const scripts = evalScripts(rawScripts, { leg });
   const legTitleShort = leg.chamber === "house" ? "rep" : "sen.";
-  const txt = isThanks ? `Thank your ${legTitleShort}` : `Tell your ${legTitleShort} to sign!`;
+  const txt = customTxt ?? (isThanks ? `Thank your ${legTitleShort}` : `Tell your ${legTitleShort} to sign!`);
   return <ContactLegModal txt={txt} leg={leg} scripts={scripts} isThanks={isThanks} />;
 }
 

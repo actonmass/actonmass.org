@@ -130,7 +130,7 @@ export function ContactLegModal({ txt, leg: legBase, scripts, style, isThanks = 
 
   return (
     <>
-      <a className={`btn ${style === "S" ? "btn-sm" : ""}`} onClick={() => setIsOpen(true)}>
+      <a className={`btn contact-modal ${style === "S" ? "btn-sm" : ""}`} onClick={() => setIsOpen(true)}>
         {txt}
       </a>
       <Modal
