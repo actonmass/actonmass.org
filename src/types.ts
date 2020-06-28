@@ -74,7 +74,6 @@ export function enrichLeg(leg: LegBase): Leg {
     ...leg,
     chamber,
     title,
-    twitter: (leg.twitter ?? "").replace("https://twitter.com/", "").replace("http://twitter.com/", ""),
   };
 }
 

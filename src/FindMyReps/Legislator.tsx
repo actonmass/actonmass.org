@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 
-import { ContactLegModal } from "../Modals/ContactLegModal";
+import { RequestSignPledge } from "../Modals/RequestSignPledge";
+import { RequestCosponsorship } from "../Modals/RequestCosponsorship";
 import { Leg, Bill, Scripts } from "../types";
 
 type Props = {
@@ -26,7 +27,6 @@ export default function Legislator({ leg, chamber, bill, scripts }: Props) {
   };
 
   const status = bill == null ? leg.pledge : sponsored;
-  const action = bill == null ? `Tell your ${legTitleShort} to sign!` : `Tell your ${legTitleShort} to co-sponsor!`;
   const iconClass = status ? "fas fa-check-circle fa-2x" : "fas fa-times-circle fa-2x";
 
   return (
@@ -41,12 +41,11 @@ export default function Legislator({ leg, chamber, bill, scripts }: Props) {
         </p>
       </a>
       <div className="cbox btn-container">
-        <ContactLegModal
-          txt={status ? `Thank your ${legTitleShort}` : action}
-          leg={leg}
-          bill={bill}
-          scripts={scripts}
-        />
+        {bill == null ? (
+          <RequestSignPledge leg={leg} scripts={scripts} />
+        ) : (
+          <RequestCosponsorship leg={leg} bill={bill} scripts={scripts} />
+        )}
       </div>
     </div>
   );

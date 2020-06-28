@@ -45,7 +45,7 @@ layout: base
         </div>
         {% if leg.pledge == false %}
         {% capture btn_txt %}contact {{leg_title}}{% endcapture %}
-        {% include modals/contact-leg-modal.html txt=btn_txt leg=leg %}
+        {% include modals/request-sign-pledge.html txt=btn_txt leg=leg %}
         {% endif %}
       </section>
       <section class="top-box leg-committees cbox dark">
@@ -115,7 +115,7 @@ layout: base
               {% endif %}
               <p class="fWhite fRoboto fLight"><a href="{{bill.id}}">{{bill.title}}</a></p>
               {% unless leg.cosponsored_bills contains bill_id %}
-                {% include modals/contact-leg-modal.html txt="request co-sponsorship" style="S" leg=leg bill=bill %}
+                {% include modals/request-co-sponsorship.html txt="request co-sponsorship" style="S" leg=leg bill=bill %}
               {% endunless %}
             </div>
             {% endfor %}
