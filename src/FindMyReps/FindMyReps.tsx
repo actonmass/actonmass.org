@@ -4,9 +4,9 @@ import ReactDOM from "react-dom";
 import findReps, { Query, QueryResult } from "./findReps";
 import LoadingSpinner from "./LoadingSpinner";
 import Results from "./Results";
-import getSessionLegs from "./getSessionLegs";
+import useSessionLegs from "./useSessionLegs";
 
-import { LegBase as Leg, Bill, Scripts } from "../types";
+import { Bill, Scripts } from "../types";
 import scrollTo from "../scrollTo";
 
 export type Props = {
@@ -23,13 +23,12 @@ type InnerProps = Props & {
 };
 
 function FindMyReps({ onQueryReps, title, text, theme, bill, showResultIfEmpty, scripts }: InnerProps) {
-  const [repInfo, setRepInfo] = useState<QueryResult | null>(getSessionLegs());
+  const repInfo = useSessionLegs();
   const [error, setError] = useState(null);
   const [loading, setLoading] = useState(false);
 
   const clearQuery = () => {
     window.sessionStorage.removeItem("repQuery");
-    setRepInfo(null);
   };
 
   function handleQueryReps(newQuery) {
@@ -37,7 +36,7 @@ function FindMyReps({ onQueryReps, title, text, theme, bill, showResultIfEmpty, 
     setError(null);
     onQueryReps(newQuery)
       .then((repInfo) => {
-        setRepInfo(repInfo);
+        dispatchResults(repInfo);
         persistQueryResults(newQuery, repInfo);
       })
       .catch((err) => {
@@ -142,6 +141,11 @@ function persistQueryResults(query, repInfo) {
       repInfo,
     })
   );
+}
+
+function dispatchResults(results: QueryResult) {
+  const event = new CustomEvent<QueryResult>("leg-search-results", { detail: results });
+  document.dispatchEvent(event);
 }
 
 function renderFindMyReps(targetID: string, data: Props) {

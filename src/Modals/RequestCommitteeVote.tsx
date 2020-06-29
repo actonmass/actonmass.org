@@ -3,7 +3,7 @@ import ReactDOM from "react-dom";
 import _ from "lodash";
 
 import { Bill, Scripts, Committee, LegBase, enrichLeg } from "../types";
-import getSessionLegs from "../FindMyReps/getSessionLegs";
+import useSessionLegs from "../FindMyReps/useSessionLegs";
 
 import { ContactLegModal } from "./ContactLegModal";
 import { evalScripts } from "./evalScripts";
@@ -30,7 +30,7 @@ function isOnCommittee(committee: Committee, leg: LegBase | null | undefined) {
 }
 
 function RequestCommitteeVote({ bill, committee, scripts: defaultRawScripts }: Props) {
-  const legInfo = getSessionLegs();
+  const legInfo = useSessionLegs();
   if (legInfo == null) {
     return null;
   }

@@ -2,7 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom";
 
 import { Scripts, LegBase, enrichLeg } from "../types";
-import getSessionLegs from "../FindMyReps/getSessionLegs";
+import useSessionLegs from "../FindMyReps/useSessionLegs";
 
 import { RequestSignPledge } from "./RequestSignPledge";
 import { evalScripts } from "./evalScripts";
@@ -14,7 +14,7 @@ type Props = {
 };
 
 export function RequestSignPledgeMyRep({ scripts: rawScripts }: Props) {
-  const legInfo = getSessionLegs();
+  const legInfo = useSessionLegs();
   const txt = "Ask your rep to sign";
   if (legInfo == null) {
     return (
