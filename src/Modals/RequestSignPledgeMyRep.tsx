@@ -5,7 +5,6 @@ import { Scripts, LegBase, enrichLeg } from "../types";
 import useSessionLegs from "../FindMyReps/useSessionLegs";
 
 import { RequestSignPledge } from "./RequestSignPledge";
-import { evalScripts } from "./evalScripts";
 
 import scrollTo from "../scrollTo";
 
@@ -13,7 +12,7 @@ type Props = {
   scripts: Scripts;
 };
 
-export function RequestSignPledgeMyRep({ scripts: rawScripts }: Props) {
+export function RequestSignPledgeMyRep({ scripts }: Props) {
   const legInfo = useSessionLegs();
   const txt = "Ask your rep to sign";
   if (legInfo == null) {
@@ -26,9 +25,7 @@ export function RequestSignPledgeMyRep({ scripts: rawScripts }: Props) {
   if (legInfo.representative == null || legInfo.representative.pledge) {
     return null;
   }
-  const leg = enrichLeg(legInfo.representative);
-  const scripts = evalScripts(rawScripts, { leg });
-  return <RequestSignPledge txt={txt} leg={leg} scripts={scripts} />;
+  return <RequestSignPledge txt={txt} leg={legInfo.representative} scripts={scripts} />;
 }
 
 function renderRequestSignPledgeMyRep(targetID: string, data: Props) {
