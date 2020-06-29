@@ -31,6 +31,7 @@ export type Bill = {
   title: string;
   co_sponsors: string[];
   scripts: Partial<Scripts> | null;
+  scripts_com_vote: Partial<Scripts> | null;
 };
 
 export type Scripts = {

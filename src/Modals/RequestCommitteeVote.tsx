@@ -1,10 +1,12 @@
 import React from "react";
 import ReactDOM from "react-dom";
+import _ from "lodash";
 
-import { Bill, Scripts, Committee, LegBase } from "../types";
+import { Bill, Scripts, Committee, LegBase, enrichLeg } from "../types";
 import getSessionLegs from "../FindMyReps/getSessionLegs";
 
 import { ContactLegModal } from "./ContactLegModal";
+import { evalScripts } from "./evalScripts";
 
 type Props = {
   bill: Bill;
@@ -27,19 +29,28 @@ function isOnCommittee(committee: Committee, leg: LegBase | null | undefined) {
   ].includes(legId);
 }
 
-function RequestCommitteeVote({ bill, committee, scripts }: Props) {
+function RequestCommitteeVote({ bill, committee, scripts: defaultRawScripts }: Props) {
   const legInfo = getSessionLegs();
   if (legInfo == null) {
     return null;
   }
-  const { senator, representative } = legInfo;
+  const rawScripts = _.merge({}, defaultRawScripts, bill.scripts_com_vote);
+  const { senator, representative } = _.mapValues(legInfo, enrichLeg);
   return (
     <div className="hbox" style={{ justifyContent: "space-evenly" }}>
       {isOnCommittee(committee, senator) && (
-        <ContactLegModal txt={`Tell your senator to hold a vote`} leg={senator!} scripts={scripts} />
+        <ContactLegModal
+          txt={`Tell your senator to hold a vote`}
+          leg={senator!}
+          scripts={evalScripts(rawScripts, { leg: senator!, bill, committee })}
+        />
       )}
       {isOnCommittee(committee, representative) && (
-        <ContactLegModal txt={`Tell your rep to hold a vote`} leg={representative!} scripts={scripts} />
+        <ContactLegModal
+          txt={`Tell your rep to hold a vote`}
+          leg={representative!}
+          scripts={evalScripts(rawScripts, { leg: representative!, bill, committee })}
+        />
       )}
     </div>
   );

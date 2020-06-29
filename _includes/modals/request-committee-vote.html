@@ -5,7 +5,7 @@
   window.addEventListener("DOMContentLoaded", function() {
     data = {
       bill: {{bill.json}},
-      scripts: {{site.data.default_bill_scripts | jsonify}},
+      scripts: {{site.data.default_bill_scripts_com_vote | jsonify}},
       committee: {{committee.json}}
     };
     AOM.renderRequestCommitteeVote("request-hold-vote-{{bill.aom_id}}", data);
