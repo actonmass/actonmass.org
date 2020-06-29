@@ -21,7 +21,7 @@ function SignupForm() {
   const renderModalContent = () => {
     return (
       <div style={{ width: "min(1400px, 80vw)", maxHeight: "80vh" }}>
-        <h2 style={{ marginBottom: "1rem" }}>Stay informed on what's happening in the State House</h2>
+        <h2 style={{ marginBottom: "2rem" }}>Sign up</h2>
         <div id="hubpsot-target"></div>
       </div>
     );
@@ -29,7 +29,7 @@ function SignupForm() {
 
   return (
     <>
-      <a className="btn btn_learn" onClick={() => openAndLoad()}>
+      <a className="btn" onClick={() => openAndLoad()}>
         SIGN UP
       </a>
       <Modal
