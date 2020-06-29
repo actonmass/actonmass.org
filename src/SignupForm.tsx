@@ -11,6 +11,7 @@ function SignupForm() {
 
   const openAndLoad = () => {
     setIsOpen(true);
+    // @ts-expect-error
     hbspt.forms.create({
       portalId: "6201350",
       formId: "5e3ba463-3695-4d38-ba4a-bdf48a87dee0",
