@@ -1,30 +1,25 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import Modal from "react-modal";
+import ReactMarkdown from "react-markdown";
 import _ from "lodash";
 
 import { LegBase, Leg, Bill, Scripts, enrichLeg } from "../types";
 
-import getScript, { getEmailScript } from "./getScript";
-
 Modal.setAppElement("body");
-
-type MaybeBill = Bill | undefined;
 
 type Props = {
   txt: string;
   style?: string;
   leg: LegBase;
-  bill?: Bill;
   scripts: Scripts;
+  isThanks?: boolean;
 };
 
-export function ContactLegModal({ txt, leg: legBase, bill, scripts: defaultScripts, style }: Props) {
+export function ContactLegModal({ txt, leg: legBase, scripts, style, isThanks = false }: Props) {
   const leg = enrichLeg(legBase);
   const fullName = leg.chamber === "house" ? "your rep" : "your senator";
   const title = leg.chamber === "house" ? "rep." : "sen.";
-  const isThanks = bill == null ? leg.pledge : bill.co_sponsors.includes(leg.aom_id);
-  const scripts = _.merge({}, defaultScripts, bill?.scripts);
   const [modalIsOpen, setIsOpen] = React.useState(false);
   const [modalContent, setModalContent] = React.useState("");
 
@@ -42,7 +37,7 @@ export function ContactLegModal({ txt, leg: legBase, bill, scripts: defaultScrip
           </h3>
           <h3>{leg.phone}</h3>
           <h4>Script</h4>
-          <div>{getCallDetails(leg, bill, scripts, isThanks)}</div>
+          <ReactMarkdown source={isThanks ? scripts.call_thanks : scripts.call_request} />
           <div className="hbox" style={{ justifyContent: "space-between" }}>
             <a className="btn btn-sec" onClick={() => setModalContent("")}>
               Back
@@ -55,7 +50,6 @@ export function ContactLegModal({ txt, leg: legBase, bill, scripts: defaultScrip
       );
     }
     if (modalContent === "email") {
-      const { subject, body } = getEmailsDetails(leg, bill, scripts, isThanks);
       return (
         <>
           <h3 className="fUppercase">
@@ -63,10 +57,10 @@ export function ContactLegModal({ txt, leg: legBase, bill, scripts: defaultScrip
           </h3>
           <h4>To: {leg.email}</h4>
           <h4>CC: info@actonmass.org</h4>
-          <h4>Subject: {subject}</h4>
+          <h4>Subject: {isThanks ? scripts.email_thanks.subject : scripts.email_request.subject}</h4>
           <br />
           <h4>Email Body:</h4>
-          <div>{body}</div>
+          <ReactMarkdown source={isThanks ? scripts.email_thanks.body : scripts.email_request.body} />
           <div className="hbox" style={{ justifyContent: "space-between" }}>
             <a className="btn btn-sec" onClick={() => setModalContent("")}>
               Back
@@ -89,7 +83,7 @@ export function ContactLegModal({ txt, leg: legBase, bill, scripts: defaultScrip
             Please send us a tweet and let us know how it went.
           </p>
           <div className="cbox">
-            <a className="btn" target="_blank" href={getThankYouTweetIntent(leg, bill, actionType, scripts, isThanks)}>
+            <a className="btn" target="_blank" href={getThankYouTweetIntent(actionType, scripts, isThanks)}>
               <i className="fab fa-twitter fa-lg"></i>
               Tweet to @Act_On_Mass
             </a>
@@ -114,7 +108,7 @@ export function ContactLegModal({ txt, leg: legBase, bill, scripts: defaultScrip
             </a>
           )}
           {leg.twitter && (
-            <a className="btn" target="_blank" href={getTweeterIntentUrl(leg, bill, scripts, isThanks)}>
+            <a className="btn" target="_blank" href={getTweeterIntentUrl(scripts, isThanks)}>
               <i className="fab fa-twitter fa-lg"></i>
               Send {fullName} a tweet
             </a>
@@ -136,7 +130,7 @@ export function ContactLegModal({ txt, leg: legBase, bill, scripts: defaultScrip
 
   return (
     <>
-      <a className={`btn ${style === "S" ? "btn-sm" : ""}`} onClick={() => setIsOpen(true)}>
+      <a className={`btn contact-modal ${style === "S" ? "btn-sm" : ""}`} onClick={() => setIsOpen(true)}>
         {txt}
       </a>
       <Modal
@@ -155,23 +149,8 @@ export function ContactLegModal({ txt, leg: legBase, bill, scripts: defaultScrip
   );
 }
 
-function getCallDetails(leg: Leg, bill: MaybeBill, scripts: Scripts, isThanks: boolean) {
-  if (!isThanks) {
-    return getScript(scripts.call_request, leg, bill, true);
-  }
-  return getScript(scripts.call_thanks, leg, bill, true);
-}
-
-function getEmailsDetails(leg: Leg, bill: MaybeBill, scripts: Scripts, isThanks: boolean) {
-  if (!isThanks) {
-    return getEmailScript(scripts.email_request, leg, bill);
-  }
-  return getEmailScript(scripts.email_thanks, leg, bill);
-}
-
-function getTweeterIntentUrl(leg: Leg, bill: MaybeBill, scripts: Scripts, isThanks: boolean) {
-  const script = isThanks ? scripts.tweet_thanks : scripts.tweet_request;
-  const text = getScript(script, leg, bill);
+function getTweeterIntentUrl(scripts: Scripts, isThanks: boolean) {
+  const text = isThanks ? scripts.tweet_thanks : scripts.tweet_request;
 
   return encodeUrl("https://twitter.com/intent/tweet", {
     text,
@@ -180,31 +159,19 @@ function getTweeterIntentUrl(leg: Leg, bill: MaybeBill, scripts: Scripts, isThan
   });
 }
 
-function getThankYouTweetIntent(
-  leg: Leg,
-  bill: MaybeBill,
-  actionType: "email" | "call",
-  scripts: Scripts,
-  isThanks: boolean
-) {
+function getThankYouTweetIntent(actionType: "email" | "call", scripts: Scripts, isThanks: boolean) {
   const isAfterEmail = actionType === "email";
-  const script = isThanks
+  const text = isThanks
     ? isAfterEmail
       ? scripts.tweet_after_thanks_email
       : scripts.tweet_after_thanks_call
     : isAfterEmail
     ? scripts.tweet_after_request_email
     : scripts.tweet_after_request_call;
-  const text = getScript(script, leg, bill);
 
   return encodeUrl("https://twitter.com/intent/tweet", {
     text,
   });
-}
-
-function renderModal(targetID: string, data: Props) {
-  const targetEl = document.getElementById(targetID);
-  ReactDOM.render(<ContactLegModal {...data} />, targetEl);
 }
 
 function encodeUrl(url: string, data: { [key: string]: string }) {
@@ -212,6 +179,11 @@ function encodeUrl(url: string, data: { [key: string]: string }) {
     .map((key) => key + "=" + encodeURI(data[key]))
     .join("&");
   return `${url}?${params}`;
+}
+
+function renderModal(targetID: string, data: Props) {
+  const targetEl = document.getElementById(targetID);
+  ReactDOM.render(<ContactLegModal {...data} />, targetEl);
 }
 
 export default { renderModal };

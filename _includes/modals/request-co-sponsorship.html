@@ -1,0 +1,17 @@
+{% assign leg = include.leg %}
+{% assign bill = include.bill %}
+
+<div id="request-co-sponsorship-{{leg.aom_id}}-{{bill.aom_id}}"></div>
+<script>
+  window.addEventListener("DOMContentLoaded", function() {
+    data = {
+      bill: {{bill.json}},
+      style: "{{include.style}}",
+      txt: "{{include.txt}}",
+      leg: {{leg.json}},
+      scripts: {{site.data.default_bill_scripts | jsonify}},
+    };
+    AOM.renderRequestCosponsorship("request-co-sponsorship-{{leg.aom_id}}-{{bill.aom_id}}", data);
+  });
+</script>
+

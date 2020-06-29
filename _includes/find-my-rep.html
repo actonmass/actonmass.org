@@ -15,12 +15,7 @@
     text: "{{text}}",
     theme: "{{include.theme}}",
     {% if include.bill %}
-    bill: {
-      article: "{{include.bill.article}}",
-      title: "{{include.bill.title}}",
-      co_sponsors: {{include.bill.co_sponsors | jsonify}},
-      scripts: {{include.bill.scripts | jsonify}},
-    },
+      bill: {{bill.json}},
     {% endif %}
     showResultIfEmpty: {% if include.showResultsIfEmpty == "true" %}true{% else %}false{% endif %},
     scripts: {% if include.bill %}{{site.data.default_bill_scripts | jsonify}}{% else %}{{site.data.pledge_scripts | jsonify}}{% endif %},

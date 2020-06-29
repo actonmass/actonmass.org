@@ -1,0 +1,14 @@
+{% assign leg = include.leg %}
+
+<div id="request-pledge-sign-{leg.aom_id}"></div>
+<script>
+  window.addEventListener("DOMContentLoaded", function() {
+    data = {
+      leg: {{leg.json}},
+      scripts: {{site.data.pledge_scripts | jsonify}},
+      txt: "{{include.txt}}",
+    };
+    AOM.renderRequestSignPledge("request-pledge-sign-{leg.aom_id}", data);
+  });
+</script>
+

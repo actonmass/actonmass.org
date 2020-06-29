@@ -63,6 +63,23 @@ field_definitions:
       - label: Tweet - After thank you email
         name: tweet_after_thanks_email
         widget: text
+  script_req_only: &script_req_only
+    fields:
+      - label: Tweet - Request
+        name: tweet_request
+        widget: text
+      - label: Call script - Request
+        name: call_request
+        widget: markdown
+      - label: Tweet - After request call
+        name: tweet_after_request_call
+        widget: text
+      - <<: *email
+        label: Email script - Request
+        name: email_request
+      - label: Tweet - After request email
+        name: tweet_after_request_email
+        widget: text
   email_opt: &email_opt
     widget: object
     fields:
@@ -114,6 +131,28 @@ field_definitions:
         required: false
       - label: Tweet - After thank you email
         name: tweet_after_thanks_email
+        widget: text
+        required: false
+  script_req_only_opt: &script_req_only_opt
+    fields:
+      - label: Tweet - Request
+        name: tweet_request
+        widget: text
+        required: false
+      - label: Call script - Request
+        name: call_request
+        widget: markdown
+        required: false
+      - label: Tweet - After request call
+        name: tweet_after_request_call
+        widget: text
+        required: false
+      - <<: *email_opt
+        label: Email script - Request
+        name: email_request
+        required: false
+      - label: Tweet - After request email
+        name: tweet_after_request_email
         widget: text
         required: false
 collections:
@@ -546,12 +585,16 @@ collections:
         name: co_sponsors
         multiple: true
         required: false
-      - label: Custom scripts
+      - label: Custom scripts - Request co-sponsorship
         name: scripts
         widget: object
         collapsed: true
         <<: *script_opt
-
+      - label: Custom scripts - Request committee vote
+        name: scripts_com_vote
+        widget: object
+        collapsed: true
+        <<: *script_req_only_opt
       - label: Bill history events
         name: history
         required: false
@@ -718,6 +761,10 @@ collections:
         name: "pledge_scripts"
         file: "_data/pledge_scripts.yml"
       - <<: *script
-        label: "Default bill scripts"
+        label: "Default bill scripts - Request co-sponsorship"
         name: "default_bill_scripts"
         file: "_data/default_bill_scripts.yml"
+      - <<: *script_req_only
+        label: "Default bill scripts - Request vote from committee"
+        name: "default_bill_scripts_com_vote"
+        file: "_data/default_bill_scripts_com_vote.yml"

@@ -1,0 +1,26 @@
+tweet_request: "@{leg.twitter}, please co-sponsor the {bill.title} bill!!
+  #mapoli via @act_on_mass "
+call_request: >-
+  Hi {leg.first_name} {leg.last_name},
+
+
+  I'm calling you because you are a member of the {committee.title}, which is currently studying the {bill.title} bill.
+
+
+  Can you make please make sure the committee votes on it soon? 
+tweet_after_request_call: "@Act_On_Mass Hi! I just called {leg.title}
+  {leg.first_name} {leg.last_name} to request they hold a vote in committee on
+  the {bill.title} bill and..."
+email_request:
+  body: >-
+    Hi {leg.first_name} {leg.last_name},
+
+
+    I'm calling you because you are a member of the {committee.title}, which is currently studying the {bill.title} bill.
+
+
+    Can you make please make sure the committee votes on it soon? 
+  subject: Please vote for the {bill.title} in committee
+tweet_after_request_email: "@Act_On_Mass Hi! I just emailed {leg.title}
+  {leg.first_name} {leg.last_name} to request they hold a vote in committee on
+  the {bill.title} bill and..."

@@ -34,12 +34,12 @@ export default function Results({ legInfo, bill, theme, showResultIfEmpty, error
 }
 
 function LegResults({ legInfo, bill, scripts }: Pick<Props, "bill" | "scripts"> & { legInfo: QueryResult }) {
-  const rep = {
+  const rep = legInfo.representative && {
     chamber: "house" as const,
     title: "rep",
     ...legInfo.representative,
   };
-  const senator = {
+  const senator = legInfo.senator && {
     chamber: "senate" as const,
     title: "sen",
     ...legInfo.senator,

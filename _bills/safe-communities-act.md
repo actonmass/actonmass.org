@@ -127,6 +127,15 @@ scripts:
     Immigrant communities in Massachusetts should not be subjected to Trump's racist policies. 
   email_request:
     subject: Please support the Safe Communities Act!
+scripts_com_vote:
+  call_request: >
+    Hi {leg.first_name} {leg.last_name},
+
+
+    The Joint Committee on Public Safety and Homeland Security has been studying the Safe Communities Act since last year, we need action now!
+
+
+    Can you make sure the committee votes on this bill next time you meet?
 history:
   - date: 2019-01
     description: Filed as Safe Communities Act - H3573

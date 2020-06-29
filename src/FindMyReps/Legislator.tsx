@@ -1,10 +1,11 @@
 import React, { useState } from "react";
 
-import { ContactLegModal } from "../Modals/ContactLegModal";
+import { RequestSignPledge } from "../Modals/RequestSignPledge";
+import { RequestCosponsorship } from "../Modals/RequestCosponsorship";
 import { Leg, Bill, Scripts } from "../types";
 
 type Props = {
-  leg: Leg;
+  leg: Leg | null | undefined;
   chamber: "house" | "senate";
   bill?: Bill;
   scripts: Scripts;
@@ -12,12 +13,11 @@ type Props = {
 
 export default function Legislator({ leg, chamber, bill, scripts }: Props) {
   const legTitle = chamber === "house" ? "rep" : "senator";
-  const legTitleShort = chamber === "house" ? "rep" : "sen.";
-  const sponsored = bill != null && bill.co_sponsors.includes(leg.aom_id);
-
   if (leg == null) {
     return <UnkonwnLeg legTitle={legTitle} />;
   }
+  const legTitleShort = chamber === "house" ? "rep" : "sen.";
+  const sponsored = bill != null && bill.co_sponsors.includes(leg.aom_id);
 
   const statusText = () => {
     if (bill == null) {
@@ -27,7 +27,6 @@ export default function Legislator({ leg, chamber, bill, scripts }: Props) {
   };
 
   const status = bill == null ? leg.pledge : sponsored;
-  const action = bill == null ? `Tell your ${legTitleShort} to sign!` : `Tell your ${legTitleShort} to co-sponsor!`;
   const iconClass = status ? "fas fa-check-circle fa-2x" : "fas fa-times-circle fa-2x";
 
   return (
@@ -42,12 +41,11 @@ export default function Legislator({ leg, chamber, bill, scripts }: Props) {
         </p>
       </a>
       <div className="cbox btn-container">
-        <ContactLegModal
-          txt={status ? `Thank your ${legTitleShort}` : action}
-          leg={leg}
-          bill={bill}
-          scripts={scripts}
-        />
+        {bill == null ? (
+          <RequestSignPledge leg={leg} scripts={scripts} />
+        ) : (
+          <RequestCosponsorship leg={leg} bill={bill} scripts={scripts} />
+        )}
       </div>
     </div>
   );
