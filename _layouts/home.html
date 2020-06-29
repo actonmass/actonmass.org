@@ -22,8 +22,8 @@ layout: base
       <svg class="smLine" width="50" height="3">
         <rect width="300" height="100" style="fill:rgb(108,212,255)" />
       </svg>
-      <h2 class="header2 fRaleway fWhite fUppercase fExbold">grassroots.</h2>
-      <h2 class="header3 fRaleway fWhite fUppercase fExbold">all volunteer.</h2>
+      <h2 class="header2 fWhite fUppercase fExbold">grassroots.</h2>
+      <h2 class="header3 fWhite fUppercase fExbold">all volunteer.</h2>
       <h6 class="header4 fRaleway fWhite fBold">Fighting for progressive policies & accountability on beacon hill.</h6>
       <a href="#issues" class="fRoboto fExbold fUppercase btn btn_issues">VIEW ISSUES</a>
     </div>
@@ -31,14 +31,14 @@ layout: base
 
   <section class="take_action hbox" id="sign-up-form">
     <div class="learn vbox action">
-      <h3 class="take_action_txt fRaleway fExbold">LEARN</h3>
+      <h3 class="take_action_txt fExbold">LEARN</h3>
       <h4 class="take_action_txt fRoboto fLight">Get the facts about progressive issues and how we are helping</h4>
       <div class="btn-container">
           <a href="/bills" class="fRoboto fExbold fUppercase btn">view bills</a>
       </div>
     </div>
     <div class="act vbox action">
-      <h3 class="take_action_txt fRaleway fExbold">ACT NOW</h3>
+      <h3 class="take_action_txt fExbold">ACT NOW</h3>
       <h4 class="take_action_txt fRoboto fLight">
         Sign up for text and email notifications so we can contact you when your voice is needed
       </h4>
@@ -48,7 +48,7 @@ layout: base
 
   <section id="issues" class="issues">
     <div class="rect rect1"></div>
-    <h2 class="issues_title fUppercase fRaleway">key progressive issues:</h2>
+    <h2 class="issues_title fUppercase">key progressive issues:</h2>
     <div class="issues_grid">
       {% assign issues = site.issues | sort: 'order' %} {% for issue in issues %}
       <a
@@ -68,12 +68,12 @@ layout: base
 
   <section class="accountability">
     <div class="rect rect1"></div>
-    <h2 class="account_title fUppercase fWhite fRaleway">the transparency pledge:</h2>
+    <h2 class="account_title fUppercase fWhite">the transparency pledge:</h2>
     <div class="pledge_left">
       {% include hero-image.html img="/img/pledge_img.png" alt="Rep Gouveia signed the pledge!" %}
     </div>
     <div class="account_text">
-      <h3 class="account_text1 fRaleway fUppercase fWhite fExbold">Together we can create change.</h3>
+      <h3 class="account_text1 fUppercase fWhite fExbold">Together we can create change.</h3>
       <h4 class="account_text2 fRoboto fWhite fLight">
         We can ask our elected legislators to take action to create transparency today so important progressive bills
         don’t die in darkness.

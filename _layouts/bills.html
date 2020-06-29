@@ -6,13 +6,13 @@ layout: base
   <section class="dark cbox headline">
     <div class="w1400">
       {% include breadcrum.html %}
-      <h1 class="fUppercase fRaleway fBold">progressive bills</h1>
+      <h1 class="fUppercase fBold">progressive bills</h1>
       <div class="list-bills">
         {% for issue in site.issues %}
           {% assign short_id = issue.id | replace: "/issues/", "" %}
           {% assign bills = site.data.cache.issues_by_id[short_id].bills %}
           {% if bills %}
-            <h2 class="issue-title fRaleway fUppercase fWhite fRegular">{{issue.title}}</h2>
+            <h2 class="issue-title fUppercase fWhite fRegular">{{issue.title}}</h2>
             {% for bill_id in bills %}
             {% assign bill = site.data.cache.bills_by_id[bill_id] %}
               <h4 class="bill fRoboto fWhite fLight"><a href="{{bill.id}}">{{bill.title}}</a></h4>

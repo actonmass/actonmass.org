@@ -11,7 +11,7 @@ layout: base
       {% include breadcrum.html %}
       <div class="headline-container">
         <div class="billpg_title">
-          <h2 class="billpg_title fRaleway fExbold">{{bill.title}}</h2>
+          <h2 class="billpg_title fExbold">{{bill.title}}</h2>
           <p>{{bill.full_title}} - <a href="{{bill.house_link}}">{{bill.house_no}}</a> - <a href="{{bill.senate_link}}">{{bill.senate_no}}</a></p>
         </div>
         <div class="billpg_hero_a">
@@ -34,8 +34,8 @@ layout: base
   {% if committee %}
   <section class="decision-makers dark cbox">
     <div class="w1400">
-      <h2 class="billpg_decision_header fRaleway fWhite fBold fUppercase">the decision makers</h2>
-      <h3 class="billpg_decision_header1  fWhite fRaleway fRegular">{{committee.title}}</h3>
+      <h2 class="billpg_decision_header fWhite fBold fUppercase">the decision makers</h2>
+      <h3 class="billpg_decision_header1  fWhite fRegular">{{committee.title}}</h3>
       <div class="cbox">
         <div class="rect_underline1"></div>
       </div>
@@ -135,7 +135,7 @@ layout: base
 
   <section class="map cbox">
     <div class="w1400">
-      <h3 class="fUppercase fRaleway fExbold">Who has co-sponsored:</h3>
+      <h3 class="fUppercase fExbold">Who has co-sponsored:</h3>
       <div class="map-block dark">
         {% include map.html greens = bill.co_sponsors %}
       </div>
@@ -147,13 +147,13 @@ layout: base
 
   <section class="timeline light-blue cbox">
     <div class="w1400">
-      <h3 class="billpg_timeln_header fUppercase fRaleway fExbold">Timeline of bill during this session:</h3>
+      <h3 class="billpg_timeln_header fUppercase fExbold">Timeline of bill during this session:</h3>
       {% include bill-timeline.html timeline = bill.timeline %}
     </div>
   </section>
   <section class="history medium-blue cbox">
     <div class="w1400">
-      <h2 class="fUppercase fRaleway fExbold">History of the bill</h2>
+      <h2 class="fUppercase fExbold">History of the bill</h2>
       {% include bill-history.html bill = bill %}
     </div>
   </section>
