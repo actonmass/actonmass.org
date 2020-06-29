@@ -7,6 +7,7 @@ import Results from "./Results";
 import getSessionLegs from "./getSessionLegs";
 
 import { LegBase as Leg, Bill, Scripts } from "../types";
+import scrollTo from "../scrollTo";
 
 export type Props = {
   title: string;
@@ -82,7 +83,7 @@ function Form({ title, text, onSubmit, theme, loading }: FormProps) {
   };
 
   return (
-    <section className={`${theme || ""} cbox leg-search`}>
+    <section className={`${theme || ""} cbox leg-search`} id="leg-search">
       <div className="w1400">
         <div className="legislator-search">
           {title && <h1 className="fRaleway fExbold">{title}</h1>}
@@ -131,15 +132,6 @@ function Form({ title, text, onSubmit, theme, loading }: FormProps) {
       </div>
     </section>
   );
-}
-
-function scrollTo(hashName) {
-  const elem = document.getElementById(hashName);
-  if (elem == null) {
-    console.warn(`Enable to scroll to element #${hashName}`);
-    return;
-  }
-  elem.scrollIntoView({ behavior: "smooth" });
 }
 
 function persistQueryResults(query, repInfo) {

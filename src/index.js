@@ -7,6 +7,7 @@ const { renderMap } = require("./Map").default;
 const { renderRequestCommitteeVote } = require("./Modals/RequestCommitteeVote.tsx").default;
 const { renderRequestCosponsorship } = require("./Modals/RequestCosponsorship.tsx").default;
 const { renderRequestSignPledge } = require("./Modals/RequestSignPledge.tsx").default;
+const { renderRequestSignPledgeMyRep } = require("./Modals/RequestSignPledgeMyRep.tsx").default;
 const { renderHistory } = require("./History").default;
 const { renderFindMyReps } = require("./FindMyReps/FindMyReps.tsx").default;
 const { renderBillTimeline } = require("./bill-timeline/bill-timeline").default;
@@ -16,6 +17,7 @@ module.exports = {
   renderRequestCommitteeVote,
   renderRequestCosponsorship,
   renderRequestSignPledge,
+  renderRequestSignPledgeMyRep,
   renderFindMyReps,
   renderBillTimeline,
   renderHistory,

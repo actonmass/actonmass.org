@@ -36,9 +36,7 @@ layout: base
           elected legislators to take action to create transparency today so important progressive bills don’t die in
           darkness.
         </h4>
-        <button class="btn fUppercase btn_trans_pledge">
-          ask your rep to sign
-        </button>
+        {% include modals/request-sign-pledge-my-rep.html unique_id="after-pledge-presentation" %}
       </div>
     </div>
   </section>
@@ -69,9 +67,7 @@ layout: base
         {% endfor %}
       </div>
       <div class="cbox">
-        <button class="btn fUppercase btn_trans_pledge2">
-          ask your rep to sign
-        </button>
+        {% include modals/request-sign-pledge-my-rep.html unique_id="after-current-signatories" %}
       </div>
     </div>
   </section>

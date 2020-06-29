@@ -1,0 +1,10 @@
+<div id="request-pledge-sign-my-rep-{{include.unique_id}}"></div>
+<script>
+  window.addEventListener("DOMContentLoaded", function() {
+    data = {
+      scripts: {{site.data.pledge_scripts | jsonify}},
+    };
+    AOM.renderRequestSignPledgeMyRep("request-pledge-sign-my-rep-{{include.unique_id}}", data);
+  });
+</script>
+
