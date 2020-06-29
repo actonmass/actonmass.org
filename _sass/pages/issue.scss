@@ -186,98 +186,39 @@
   }
 
   .signup {
-    .signup-container {
-      display: grid;
-      grid-template-areas:
-        "issues_signup_a"
-        "issues_signup_c";
-      grid-row-gap: 3rem;
+    justify-self: center;
 
-      @media (min-width: 700px) {
-        grid-template-areas: "issues_signup_a issues_signup_c";
-      }
+    @media (min-width: 700px) {
+      justify-self: left;
     }
-    .issues_signup_a {
-      grid-area: issues_signup_a;
-      display: grid;
-      justify-self: center;
+
+    h1 {
+      text-align: center;
+      font-size: 10rem;
+      padding: 0.5rem 0.5rem;
+      color: var(--primary);
+      line-height: 10rem;
+      margin-bottom: 4rem;
 
       @media (min-width: 700px) {
-        justify-self: left;
-      }
-
-      .act1 {
         grid-area: 1 / 1;
-        font-size: 10rem;
+        font-size: 14rem;
+        margin-bottom: 2rem;
         padding: 0.5rem 0.5rem;
         color: var(--primary);
-        line-height: 10rem;
-
-        @media (min-width: 700px) {
-          grid-area: 1 / 1;
-          font-size: 14rem;
-          padding: 0.5rem 0.5rem;
-          color: var(--primary);
-          line-height: 12rem;
-        }
-      }
-
-      .now1 {
-        grid-area: 2 / 1;
-        font-size: 10rem;
-        padding: 0.5rem 0.5rem;
-        color: var(--primary);
-        line-height: 10rem;
-
-        @media (min-width: 700px) {
-          grid-area: 2 / 1;
-          font-size: 14rem;
-          padding: 0.5rem 0.5rem;
-          color: var(--primary);
-          line-height: 12rem;
-        }
+        line-height: 12rem;
       }
     }
 
-    .issues_signup_c {
-      grid-area: issues_signup_c;
-      justify-self: center;
+    .signup_volunteer {
+      text-align: center;
+      line-height: 2rem;
+      margin-bottom: 4rem;
+      font-size: 2rem;
+    }
 
-      .issues_signup_rect_sm {
-        height: 2rem;
-        width: 2rem;
-        border-radius: 0.4rem;
-        border: solid 0.1rem var(--dark);
-        background-color: white;
-      }
-
-      .signup_volunteer {
-        max-width: 37rem;
-        line-height: 2rem;
-      }
-
-      .signup_volunteer1 {
-        padding: 1rem 0;
-        p {
-          padding-left: 1.5rem;
-          align-self: center;
-        }
-      }
-
-      .button-container {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-
-        @media (min-width: 700px) {
-          justify-content: start;
-        }
-
-        .issues_signup_btn {
-          width: 25rem;
-          margin: 1rem 0rem 1rem 0rem;
-        }
-      }
+    .btn-container {
+      text-align: center;
     }
   }
 
