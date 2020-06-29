@@ -161,6 +161,10 @@
     align-self: center;
     max-width: none;
     padding: 1rem;
+
+    .btn {
+      max-width: 20rem;
+    }
   }
 }
 
