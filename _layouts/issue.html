@@ -9,14 +9,14 @@ layout: base
     <div class="w1400">
       {% include breadcrum.html %}
       <div class="headline-container">
-        <h1 class="hero_title fRaleway fBold">{{issue.title}}</h1>
+        <h1 class="hero_title fBold">{{issue.title}}</h1>
         <div class="issues_hero_a">
           {% if issue.page_img %}
           {% include hero-image.html img=issue.page_img alt='' %}
           {% endif %}
         </div>
         <div class="issues_hero_c">
-          <h2 class="hero_quote_txt fRaleway fWhite fRegular">
+          <h2 class="hero_quote_txt fWhite fRegular">
             {{issue.catchphrase}}
           </h2>
         </div>
@@ -25,7 +25,7 @@ layout: base
   </section>
   <section class="bills cbox">
     <div class="w1400">
-      <h3 class="issues_bill_header fRaleway fUppercase fExbold">bills to support {{issue.bills_to_support_title}}</h3>
+      <h3 class="issues_bill_header fUppercase fExbold">bills to support {{issue.bills_to_support_title}}</h3>
       <div class="bill-container">
         {% for bill_id in issue.highlighted_bills%}
         <div class="bill vbox">
@@ -68,22 +68,22 @@ layout: base
   <section class="signup cbox">
     <div class="signup-container w1400">
       <div class="issues_signup_a">
-        <h1 class="act1 fRaleway fExbold fUppercase">act</h1>
-        <h1 class="now1 fRaleway fExbold fUppercase">now</h1>
+        <h1 class="act1 fExbold fUppercase">act</h1>
+        <h1 class="now1 fExbold fUppercase">now</h1>
       </div>
       <form class="issues_signup_c">
-        <p class="signup_volunteer fRoboto fLight">Sign up for email notifications so we can contact you when your voice is needed</p>
+        <p class="signup_volunteer fLight">Sign up for email notifications so we can contact you when your voice is needed</p>
         <div class="form-block">
           <div class="entry_1">
-            <p class="search_text fRoboto fLight">email</p>
+            <p class="search_text fLight">email</p>
             <input class="search_rect"/>
           </div>
           <div class="entry_2">
-            <p class="search_text fRoboto fLight">street address</p>
+            <p class="search_text fLight">street address</p>
             <input class="search_rect"/>
           </div>
           <div class="entry_3">
-            <p class="search_text fRoboto fLight">city</p>
+            <p class="search_text fLight">city</p>
             <input class="search_rect"/>
           </div>
         </div>
@@ -99,7 +99,7 @@ layout: base
   </section>
   <section class="questions cbox medium-blue">
     <div class="w1400">
-      <h3 class="issues_faq_header fRaleway fExbold fUppercase">common questions:</h3>
+      <h3 class="issues_faq_header fExbold fUppercase">common questions:</h3>
       {% for question in issue.questions %}
         <a class="accordion">
           <h4 class="accordian_question fRaleway fRegular">{{ question.title }}</h4>
@@ -113,7 +113,7 @@ layout: base
   </section>
   <section class="learn-more cbox light-blue">
     <div class="w1400">
-      <h3 class="issues_learn_header fRaleway fExbold fUppercase">learn more:</h3>
+      <h3 class="issues_learn_header fExbold fUppercase">learn more:</h3>
       <div class="hbox learn-more-container">
         {% for learn_more_link in issue.learn_more %}
         <div>
@@ -131,7 +131,7 @@ layout: base
   </section>
   <section class="references cbox">
     <div class="w1400">
-      <h3 class="issues_ref_header fRaleway fExbold fUppercase">References:</h3>
+      <h3 class="issues_ref_header fExbold fUppercase">References:</h3>
       <ul class="issues_references_list">
         {% for reference in issue.references %}
         <li id="reference-{{ reference.key }}" class="fRoboto fLight">

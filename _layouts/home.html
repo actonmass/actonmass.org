@@ -22,66 +22,33 @@ layout: base
       <svg class="smLine" width="50" height="3">
         <rect width="300" height="100" style="fill:rgb(108,212,255)" />
       </svg>
-      <h2 class="header2 fRaleway fWhite fUppercase fExbold">grassroots.</h2>
-      <h2 class="header3 fRaleway fWhite fUppercase fExbold">all volunteer.</h2>
+      <h2 class="header2 fWhite fUppercase fExbold">grassroots.</h2>
+      <h2 class="header3 fWhite fUppercase fExbold">all volunteer.</h2>
       <h6 class="header4 fRaleway fWhite fBold">Fighting for progressive policies & accountability on beacon hill.</h6>
       <a href="#issues" class="fRoboto fExbold fUppercase btn btn_issues">VIEW ISSUES</a>
     </div>
   </section>
 
-  <section class="take_action" id="sign-up-form">
-    <div class="learn">
-      <h3 class="take_action_txt fRaleway fExbold">LEARN</h3>
+  <section class="take_action hbox" id="sign-up-form">
+    <div class="learn vbox action">
+      <h3 class="take_action_txt fExbold">LEARN</h3>
       <h4 class="take_action_txt fRoboto fLight">Get the facts about progressive issues and how we are helping</h4>
-      <a href="/bills" class="fRoboto fExbold fUppercase btn btn_learn">view bills</a>
-    </div>
-    <div class="volunteer">
-      <h3 class="take_action_txt fRaleway fExbold">VOLUNTEER</h3>
-      <h4 class="take_action_txt fRoboto fLight">Get notified for upcoming events and how you can help</h4>
-      <button class="btn btn_volunteer open-button" onclick="openForm()">sign up</button>
-      <div class="form-popup" id="myForm">
-        <form action="/action_page.php" class="form-container">
-          <h3 class="popup_title fRaleway fWhite fBold">Volunteer</h3>
-          <br /><br />
-          <i class="fas fa-times fa-2x" onclick="closeForm()"></i>
-          <label class="fRoboto fWhite">Name</label>
-          <input type="text" placeholder="Enter Name" name="email" required />
-
-          <label class="fRoboto fWhite">Email</label>
-          <input type="password" placeholder="Enter Email" name="psw" required />
-          <button type="submit" class="btn" onclick="closeForm()">Submit</button>
-        </form>
+      <div class="btn-container">
+          <a href="/bills" class="fRoboto fExbold fUppercase btn">view bills</a>
       </div>
     </div>
-    <div class="act">
-      <h3 class="take_action_txt fRaleway fExbold">ACT NOW</h3>
+    <div class="act vbox action">
+      <h3 class="take_action_txt fExbold">ACT NOW</h3>
       <h4 class="take_action_txt fRoboto fLight">
         Sign up for text and email notifications so we can contact you when your voice is needed
       </h4>
-      <button class="btn btn_act open-button" onclick="openForm1()">sign up</button>
-      <div class="form-popup" id="myForm1">
-        <form action="/action_page.php" class="form-container">
-          <h3 class="popup_title fRaleway fWhite fBold">Act Now</h3>
-          <br /><br />
-          <i class="fas fa-times fa-2x" onclick="closeForm1()"></i>
-          <label class="fRoboto fWhite">Name</label>
-          <input type="text" placeholder="Enter Name" name="email" required />
-
-          <label class="fRoboto fWhite">Email</label>
-          <input type="password" placeholder="Enter Email" name="psw" required />
-
-          <label class="fRoboto fWhite">Phone Number</label>
-          <input type="text" placeholder="Enter Phone Number" name="email" required />
-
-          <button type="submit" class="btn" onclick="closeForm1()">Submit</button>
-        </form>
-      </div>
+      {% include signup-form.html %}
     </div>
   </section>
 
   <section id="issues" class="issues">
     <div class="rect rect1"></div>
-    <h2 class="issues_title fUppercase fRaleway">key progressive issues:</h2>
+    <h2 class="issues_title fUppercase">key progressive issues:</h2>
     <div class="issues_grid">
       {% assign issues = site.issues | sort: 'order' %} {% for issue in issues %}
       <a
@@ -101,12 +68,12 @@ layout: base
 
   <section class="accountability">
     <div class="rect rect1"></div>
-    <h2 class="account_title fUppercase fWhite fRaleway">the transparency pledge:</h2>
+    <h2 class="account_title fUppercase fWhite">the transparency pledge:</h2>
     <div class="pledge_left">
       {% include hero-image.html img="/img/pledge_img.png" alt="Rep Gouveia signed the pledge!" %}
     </div>
     <div class="account_text">
-      <h3 class="account_text1 fRaleway fUppercase fWhite fExbold">Together we can create change.</h3>
+      <h3 class="account_text1 fUppercase fWhite fExbold">Together we can create change.</h3>
       <h4 class="account_text2 fRoboto fWhite fLight">
         We can ask our elected legislators to take action to create transparency today so important progressive bills
         don’t die in darkness.

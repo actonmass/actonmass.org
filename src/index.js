@@ -3,6 +3,7 @@ What is exported by this module will be available as a `AOM` global variable in 
 We have to use CommonJS here, but other files should be written using ES6 modules.
 */
 
+const { renderSignupForm } = require("./SignupForm").default;
 const { renderMap } = require("./Map").default;
 const { renderRequestCommitteeVote } = require("./Modals/RequestCommitteeVote.tsx").default;
 const { renderRequestCosponsorship } = require("./Modals/RequestCosponsorship.tsx").default;
@@ -14,6 +15,7 @@ const { renderFindMyReps } = require("./FindMyReps/FindMyReps.tsx").default;
 const { renderBillTimeline } = require("./bill-timeline/bill-timeline").default;
 
 module.exports = {
+  renderSignupForm,
   renderMap,
   renderRequestCommitteeVote,
   renderRequestCosponsorship,

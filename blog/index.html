@@ -6,7 +6,7 @@ title: Blog
 <main class="blog-page medium-blue cbox">
   <div class="w1400">
     {% include breadcrum.html %}
-    <h1 class="blog_title fUppercase fRaleway fExbold">latest updates</h1>
+    <h1 class="blog_title fUppercase fExbold">latest updates</h1>
     <div class="posts-container hbox">
       {% for post in paginator.posts %}
       <div class="blog-post">
@@ -14,7 +14,7 @@ title: Blog
           <img class="blog_img" src="{{ post.image }}" alt="">
         {% endif %}
         <div class="date_rect">
-          <p class="blog_date fRoboto fLight fWhite">Posted on {{ post.date | date: '%B %d, %Y' }}</p>
+          <p class="blog_date fLight fWhite">Posted on {{ post.date | date: '%B %d, %Y' }}</p>
         </div>
         <a href="{{ post.url }}" class="post-text dark">
           <div class="post-text-container">

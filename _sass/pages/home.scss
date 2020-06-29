@@ -150,7 +150,7 @@
   color: #fefbf8;
   align-self: center;
   max-width: 30rem;
-  padding: 2rem 0rem 5rem 3rem;
+  padding: 2rem;
 }
 
 @media (min-width: 700px) {
@@ -160,7 +160,11 @@
     color: #fefbf8;
     align-self: center;
     max-width: none;
-    padding: 1rem 0rem 1rem 0rem;
+    padding: 1rem;
+
+    .btn {
+      max-width: 20rem;
+    }
   }
 }
 
@@ -183,97 +187,49 @@ a.btn_issues {
 
 /* ------------- HOMEPAGE TAKE ACTION ------------- */
 .take_action {
-  grid-area: take_action;
   background-color: var(--primary);
   padding: 0;
   display: flex;
   justify-content: center;
+  text-align: center;
 
   @media (min-width: 700px) {
-    grid-area: take_action;
-    display: grid;
-    justify-content: normal;
-    grid-column-gap: 2rem;
+    text-align: left;
+    justify-content: space-evenly;
     padding: 5rem 20rem 5rem 20rem;
-    grid-column-gap: 2rem;
   }
 
-  .learn {
-    display: none;
+  .action {
+    justify-content: space-between;
 
     @media (min-width: 700px) {
-      grid-area: 2 / 1;
-      line-height: 2.4rem;
       max-width: 20rem;
-      justify-self: center;
-      display: grid;
-      grid-template-rows: auto 1fr auto;
-      display: inherit;
-      text-align: left;
-      color: var(--light);
     }
 
-    .btn_learn {
-      align-self: end;
-      justify-self: left;
-      height: 3rem;
-      width: 15rem;
-      padding: 0;
+    .btn-container {
+      display: flex;
+      justify-content: center;
+
+      @media (min-width: 700px) {
+        justify-content: start;
+      }
+    }
+
+    .btn {
+      width: 20rem;
+      padding: 1rem;
       margin-top: 1rem;
       color: var(--dark);
       text-decoration: none;
       text-align: center;
     }
-  }
 
-  .volunteer {
-    display: none;
+    &.learn {
+      display: none;
 
-    @media (min-width: 700px) {
-      line-height: 2.4rem;
-      grid-area: 2 / 2;
-      max-width: 20rem;
-      justify-self: center;
-      display: grid;
-      grid-template-rows: auto 1fr auto;
-      text-align: left;
-    }
-
-    .btn_volunteer {
-      align-self: end;
-      justify-self: left;
-      height: 3rem;
-      width: 15rem;
-      padding: 0;
-      margin-top: 1rem;
-    }
-  }
-
-  .act {
-    max-width: 20rem;
-    justify-self: center;
-    display: grid;
-    padding: 5rem 0rem 5rem 0rem;
-    line-height: 2.4rem;
-    grid-template-rows: auto 1fr auto;
-
-    @media (min-width: 700px) {
-      grid-area: 2 / 3;
-      max-width: 20rem;
-      padding: 0;
-      justify-self: center;
-      display: grid;
-      display: inherit;
-      text-align: left;
-    }
-
-    .btn_act {
-      align-self: end;
-      justify-self: left;
-      height: 3rem;
-      width: 15rem;
-      padding: 0;
-      margin-top: 1rem;
+      @media (min-width: 700px) {
+        display: flex;
+      }
     }
   }
 

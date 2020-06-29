@@ -6,13 +6,13 @@ layout: base
   <section class="headline dark cbox">
     <div class="w1400">
       {% include breadcrum.html %}
-      <h2 class="about_title fRaleway fWhite fRegular fUppercase">what we do:</h2>
+      <h2 class="about_title fWhite fRegular fUppercase">what we do:</h2>
       <div class="top-container">
         {% for section in page.header %}
           <div class="about_top top_box_{{forloop.index}}">
             <div class="about_rect">
               <i class="about_icon fas fa-{{section.icon}} fa-3x"></i>
-              <h3 class="fWhite fRaleway fRegular fUppercase">{{section.title}}</h3>
+              <h3 class="fWhite fRegular fUppercase">{{section.title}}</h3>
               <div class="about_rect1"></div>
               <h4 class="fWhite fLight fRoboto">
                 {{section.description}}
@@ -25,7 +25,7 @@ layout: base
   </section>
   <section class="cbox">
     <div class="w1400">
-      <h2 class="who_title fRaleway fRegular fUppercase">our team:</h2>
+      <h2 class="who_title fRegular fUppercase">our team:</h2>
       <div id="bot_container">
         {% for person in page.team %}
           <div class="person">

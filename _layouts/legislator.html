@@ -56,7 +56,7 @@ layout: base
           {% for committee in committees %}
           {% if committee.role != "Member" %}
             <div class="rect7 chair">
-              <p class="fWhite fRoboto fRegular">{{committee.role}}</p>
+              <p class="fWhite fRegular">{{committee.role}}</p>
               <h5 class="fWhite fRoboto fLight">{{ committee.title }}</h5>
             </div>
           {% else %}
@@ -86,15 +86,15 @@ layout: base
           {% case vote.is_progressive %}
             {% when true %}
               <img class="green_check" src="/img/green_check.png" alt="green check">
-              <p class="fWhite fRoboto fLight">{{vote.date | date: "%Y" }} - {{ vote.description | markdownify | remove: "<p>" | remove: "</p>" }}</p>
+              <p class="fWhite fLight">{{vote.date | date: "%Y" }} - {{ vote.description | markdownify | remove: "<p>" | remove: "</p>" }}</p>
             {% when false %}
               <img class="red_x" src="/img/red_x.png" alt="red x">
-              <p class="fWhite fRoboto fLight">{{vote.date | date: "%Y" }} - {{ vote.description | markdownify | remove: "<p>" | remove: "</p>" }}</p>
+              <p class="fWhite fLight">{{vote.date | date: "%Y" }} - {{ vote.description | markdownify | remove: "<p>" | remove: "</p>" }}</p>
             {% else %}
               <div class="grey_question">
                 <i class="fas fa-question-circle"></i>
               </div>
-              <p class="fWhite fRoboto fLight">{{vote.date | date: "%Y" }} - {{ vote.description | markdownify | remove: "<p>" | remove: "</p>" }}</p>
+              <p class="fWhite fLight">{{vote.date | date: "%Y" }} - {{ vote.description | markdownify | remove: "<p>" | remove: "</p>" }}</p>
           {% endcase %}
           </div>
           {% endfor %}
@@ -113,7 +113,7 @@ layout: base
               {% else %}
                 <img class="red_x" src="/img/red_x.png" alt="red x">
               {% endif %}
-              <p class="fWhite fRoboto fLight"><a href="{{bill.id}}">{{bill.title}}</a></p>
+              <p class="fWhite fLight"><a href="{{bill.id}}">{{bill.title}}</a></p>
               {% unless leg.cosponsored_bills contains bill_id %}
                 {% include modals/request-co-sponsorship.html txt="request co-sponsorship" style="S" leg=leg bill=bill %}
               {% endunless %}
@@ -123,7 +123,7 @@ layout: base
           {% endfor %}
         </div>
         <div id="tab3" data-tab-content>
-          <p class="quote_text fWhite fRoboto fRegular">No quote yet!</p>
+          <p class="quote_text fWhite fRegular">No quote yet!</p>
         </div>
       </div>
     </div>
