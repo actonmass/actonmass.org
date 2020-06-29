@@ -35,47 +35,12 @@ layout: base
       <h4 class="take_action_txt fRoboto fLight">Get the facts about progressive issues and how we are helping</h4>
       <a href="/bills" class="fRoboto fExbold fUppercase btn btn_learn">view bills</a>
     </div>
-    <div class="volunteer">
-      <h3 class="take_action_txt fRaleway fExbold">VOLUNTEER</h3>
-      <h4 class="take_action_txt fRoboto fLight">Get notified for upcoming events and how you can help</h4>
-      <button class="btn btn_volunteer open-button" onclick="openForm()">sign up</button>
-      <div class="form-popup" id="myForm">
-        <form action="/action_page.php" class="form-container">
-          <h3 class="popup_title fRaleway fWhite fBold">Volunteer</h3>
-          <br /><br />
-          <i class="fas fa-times fa-2x" onclick="closeForm()"></i>
-          <label class="fRoboto fWhite">Name</label>
-          <input type="text" placeholder="Enter Name" name="email" required />
-
-          <label class="fRoboto fWhite">Email</label>
-          <input type="password" placeholder="Enter Email" name="psw" required />
-          <button type="submit" class="btn" onclick="closeForm()">Submit</button>
-        </form>
-      </div>
-    </div>
     <div class="act">
       <h3 class="take_action_txt fRaleway fExbold">ACT NOW</h3>
       <h4 class="take_action_txt fRoboto fLight">
         Sign up for text and email notifications so we can contact you when your voice is needed
       </h4>
-      <button class="btn btn_act open-button" onclick="openForm1()">sign up</button>
-      <div class="form-popup" id="myForm1">
-        <form action="/action_page.php" class="form-container">
-          <h3 class="popup_title fRaleway fWhite fBold">Act Now</h3>
-          <br /><br />
-          <i class="fas fa-times fa-2x" onclick="closeForm1()"></i>
-          <label class="fRoboto fWhite">Name</label>
-          <input type="text" placeholder="Enter Name" name="email" required />
-
-          <label class="fRoboto fWhite">Email</label>
-          <input type="password" placeholder="Enter Email" name="psw" required />
-
-          <label class="fRoboto fWhite">Phone Number</label>
-          <input type="text" placeholder="Enter Phone Number" name="email" required />
-
-          <button type="submit" class="btn" onclick="closeForm1()">Submit</button>
-        </form>
-      </div>
+      {% include signup-form.html %}
     </div>
   </section>
 
