@@ -5,3 +5,6 @@ node_modules
 js/bundle.js
 .sass-cache
 .ts-dist
+
+# Local Netlify folder
+.netlify

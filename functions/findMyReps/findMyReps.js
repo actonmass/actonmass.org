@@ -7,11 +7,6 @@ const isDev = NETLIFY_DEV == "true";
 const shouldMockInDev = true;
 
 function loadAllLegData() {
-  if (isDev) {
-    // In local dev mode, the function is run from the folter with the unbuilt json.
-    // We therefore need to go get it manually
-    return require("../../_site/functions/findMyReps/leg-data.json");
-  }
   return require("./leg-data.json");
 }
 
@@ -119,7 +114,7 @@ async function fetchLegAtAdrs(address) {
     };
   }
 
-  return await fetchLegAtLocation(address);
+  return await fetchLegAtLocation(location);
 }
 
 async function fetchLegAtAdrsMock() {
