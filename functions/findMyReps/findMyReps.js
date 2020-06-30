@@ -106,15 +106,11 @@ async function fetchLegAtAdrs(address) {
   const location = await geolocate(address);
 
   if (location == null) {
-    return {
-      statusCode: 422,
-      body: JSON.stringify({
-        errorCode: "couldNotLocateAddressInMa",
-      }),
-    };
+    return { error: { code: "couldNotLocateAddressInMa", status: 422 } };
   }
 
-  return await fetchLegAtLocation(location);
+  const legIds = await fetchLegAtLocation(location);
+  return { legIds };
 }
 
 async function fetchLegAtAdrsMock() {
@@ -133,7 +129,17 @@ async function fetchLegAtAdrsMock() {
 async function handleRequest(requestBody) {
   const address = JSON.parse(requestBody);
 
-  const legIds = isDev && shouldMockInDev ? await fetchLegAtAdrsMock(address) : await fetchLegAtAdrs(address);
+  const { legIds, error } =
+    isDev && shouldMockInDev ? await fetchLegAtAdrsMock(address) : await fetchLegAtAdrs(address);
+
+  if (error != null) {
+    return {
+      statusCode: error.status,
+      body: JSON.stringify({
+        errorCode: error.code,
+      }),
+    };
+  }
 
   const legData = _.mapValues(legIds, (legId) => {
     return allLegData[legId];
