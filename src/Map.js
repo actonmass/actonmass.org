@@ -104,7 +104,7 @@ class LegislatorMap extends React.Component {
             </a>
           </li>
         </ul>
-        <div className="map-container">
+        <div className="map-container darker">
           <Map
             ref={(ref) => {
               this.map = ref;
