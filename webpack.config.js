@@ -32,4 +32,10 @@ module.exports = {
   externals: {
     leaflet: "L",
   },
+  plugins: [
+    new webpack.IgnorePlugin({
+      resourceRegExp: /^\.\/locale$/,
+      contextRegExp: /moment$/,
+    }),
+  ],
 };
