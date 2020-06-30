@@ -137,7 +137,8 @@ history:
 timeline:
   - description: Assigned to Transportation Committee in 2019
   - description: Hearing held for September 2019
+    date: 2019-09-04
   - description: Sent from Transportation committee to the Senate committee on Ways
       and Means (S.2641)
-    date: 2020-04-21
+    date: 2020-04-21T00:00:00.000Z
 ---
