@@ -13,6 +13,8 @@ summary:
     reduce recidivism
   - Ensure that all who are going through rehabilitation are able to pursue and
     receive high school diplomas
+  - Require training on trauma intervention and rehabilitation for all
+    corrections employees involved
 orgs:
   - NASW
 house_lead_sponsors:
@@ -68,4 +70,8 @@ co_sponsors:
   - sean-garballey
   - julian-cyr
 history: []
+timeline:
+  - description: Referred to the committee on The Judiciary
+    date: 2019-01-22
+  - {}
 ---
