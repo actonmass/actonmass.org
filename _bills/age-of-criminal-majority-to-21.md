@@ -2,19 +2,18 @@
 aom_id: age-of-criminal-majority-to-21
 title: Age of criminal majority to 21
 full_title: An act to reduce recidivism among emerging adults
-house_no: H1486
-house_link: https://malegislature.gov/Bills/191/H1486
-senate_no: S825
+house_no: H.3420
+house_link: https://malegislature.gov/Bills/191/H3420
+senate_no: S.825
 senate_link: https://malegislature.gov/Bills/191/S825
 committee: joint-judiciary
 issue: criminal-justice-reform
 summary:
-  - Develops rehabilitation programs for young incarcerated adults designed to
-    reduce recidivism
-  - Ensure that all who are going through rehabilitation are able to pursue and
-    receive high school diplomas
-  - Require training on trauma intervention and rehabilitation for all
-    corrections employees involved
+  - Gradually raise the upper age for delinquency and youth offender cases to
+    include 18-20 year olds, ensuring that they are not charged as adults
+  - Ensure that young people who are incarcerated are able to participate in
+    impactful rehabilitative programs that are not available in the adult
+    correctional system
 orgs:
   - NASW
 house_lead_sponsors:
@@ -71,7 +70,10 @@ co_sponsors:
   - julian-cyr
 history: []
 timeline:
-  - description: Referred to the committee on The Judiciary
-    date: 2019-01-22
-  - {}
+  - date: 2019-01-22
+    description: Referred to Judiciary Committee
+  - date: 2019-10-22
+    description: Hearing scheduled
+  - date: 2020-02-03
+    description: Reporting date extended to 5/12/2020
 ---
