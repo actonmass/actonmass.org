@@ -1,6 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import _ from "lodash";
+import mapValues from "lodash/mapValues";
+import merge from "lodash/merge";
 
 import { Bill, Scripts, Committee, LegBase, enrichLeg } from "../types";
 import useSessionLegs from "../FindMyReps/useSessionLegs";
@@ -34,8 +35,8 @@ function RequestCommitteeVote({ bill, committee, scripts: defaultRawScripts }: P
   if (legInfo == null) {
     return null;
   }
-  const rawScripts = _.merge({}, defaultRawScripts, bill.scripts_com_vote);
-  const { senator, representative } = _.mapValues(legInfo, enrichLeg);
+  const rawScripts = merge({}, defaultRawScripts, bill.scripts_com_vote);
+  const { senator, representative } = mapValues(legInfo, enrichLeg);
   return (
     <div className="hbox" style={{ justifyContent: "space-evenly" }}>
       {isOnCommittee(committee, senator) && (

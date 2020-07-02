@@ -2,7 +2,6 @@ import React from "react";
 import ReactDOM from "react-dom";
 import Modal from "react-modal";
 import ReactMarkdown from "react-markdown";
-import _ from "lodash";
 
 import { LegBase, Leg, Bill, Scripts, enrichLeg } from "../types";
 
@@ -16,7 +15,13 @@ type Props = {
   isThanks?: boolean;
 };
 
-export function ContactLegModal({ txt, leg: legBase, scripts, style, isThanks = false }: Props) {
+export function ContactLegModal({
+  txt,
+  leg: legBase,
+  scripts,
+  style,
+  isThanks = false,
+}: Props) {
   const leg = enrichLeg(legBase);
   const fullName = leg.chamber === "house" ? "your rep" : "your senator";
   const title = leg.chamber === "house" ? "rep." : "sen.";
@@ -37,7 +42,9 @@ export function ContactLegModal({ txt, leg: legBase, scripts, style, isThanks = 
           </h3>
           <h3>{leg.phone}</h3>
           <h4>Script</h4>
-          <ReactMarkdown source={isThanks ? scripts.call_thanks : scripts.call_request} />
+          <ReactMarkdown
+            source={isThanks ? scripts.call_thanks : scripts.call_request}
+          />
           <div className="hbox" style={{ justifyContent: "space-between" }}>
             <a className="btn btn-sec" onClick={() => setModalContent("")}>
               Back
@@ -57,10 +64,19 @@ export function ContactLegModal({ txt, leg: legBase, scripts, style, isThanks = 
           </h3>
           <h4>To: {leg.email}</h4>
           <h4>CC: info@actonmass.org</h4>
-          <h4>Subject: {isThanks ? scripts.email_thanks.subject : scripts.email_request.subject}</h4>
+          <h4>
+            Subject:{" "}
+            {isThanks
+              ? scripts.email_thanks.subject
+              : scripts.email_request.subject}
+          </h4>
           <br />
           <h4>Email Body:</h4>
-          <ReactMarkdown source={isThanks ? scripts.email_thanks.body : scripts.email_request.body} />
+          <ReactMarkdown
+            source={
+              isThanks ? scripts.email_thanks.body : scripts.email_request.body
+            }
+          />
           <div className="hbox" style={{ justifyContent: "space-between" }}>
             <a className="btn btn-sec" onClick={() => setModalContent("")}>
               Back
@@ -78,12 +94,17 @@ export function ContactLegModal({ txt, leg: legBase, scripts, style, isThanks = 
       return (
         <>
           <p>
-            Thanks for {`${actionType === "email" ? "emailing" : "calling"}`} your rep!
+            Thanks for {`${actionType === "email" ? "emailing" : "calling"}`}{" "}
+            your rep!
             <br />
             Please send us a tweet and let us know how it went.
           </p>
           <div className="cbox">
-            <a className="btn" target="_blank" href={getThankYouTweetIntent(actionType, scripts, isThanks)}>
+            <a
+              className="btn"
+              target="_blank"
+              href={getThankYouTweetIntent(actionType, scripts, isThanks)}
+            >
               <i className="fab fa-twitter fa-lg"></i>
               Tweet to @Act_On_Mass
             </a>
@@ -108,7 +129,11 @@ export function ContactLegModal({ txt, leg: legBase, scripts, style, isThanks = 
             </a>
           )}
           {leg.twitter && (
-            <a className="btn" target="_blank" href={getTweeterIntentUrl(scripts, isThanks)}>
+            <a
+              className="btn"
+              target="_blank"
+              href={getTweeterIntentUrl(scripts, isThanks)}
+            >
               <i className="fab fa-twitter fa-lg"></i>
               Send {fullName} a tweet
             </a>
@@ -130,7 +155,10 @@ export function ContactLegModal({ txt, leg: legBase, scripts, style, isThanks = 
 
   return (
     <>
-      <a className={`btn contact-modal ${style === "S" ? "btn-sm" : ""}`} onClick={() => setIsOpen(true)}>
+      <a
+        className={`btn contact-modal ${style === "S" ? "btn-sm" : ""}`}
+        onClick={() => setIsOpen(true)}
+      >
         {txt}
       </a>
       <Modal
@@ -159,7 +187,11 @@ function getTweeterIntentUrl(scripts: Scripts, isThanks: boolean) {
   });
 }
 
-function getThankYouTweetIntent(actionType: "email" | "call", scripts: Scripts, isThanks: boolean) {
+function getThankYouTweetIntent(
+  actionType: "email" | "call",
+  scripts: Scripts,
+  isThanks: boolean
+) {
   const isAfterEmail = actionType === "email";
   const text = isThanks
     ? isAfterEmail

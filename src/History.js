@@ -1,6 +1,5 @@
 import React from "react";
 import { render } from "react-dom";
-import _ from "lodash";
 import moment from "moment";
 
 function BillHistory({ data }) {

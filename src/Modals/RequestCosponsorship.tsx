@@ -1,6 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import _ from "lodash";
+import merge from "lodash/merge";
 
 import { Scripts, LegBase, Bill, enrichLeg } from "../types";
 
@@ -18,7 +18,7 @@ type Props = {
 export function RequestCosponsorship({ leg: legBase, scripts: defaultRawScripts, bill, style, txt: customTxt }: Props) {
   const leg = enrichLeg(legBase);
   const isThanks = bill.co_sponsors.includes(leg.aom_id);
-  const rawScripts = _.merge({}, defaultRawScripts, bill.scripts);
+  const rawScripts = merge({}, defaultRawScripts, bill.scripts);
   const scripts = evalScripts(rawScripts, { leg, bill });
   const legTitleShort = leg.chamber === "house" ? "rep" : "sen.";
   const txt = customTxt ?? (isThanks ? `Thank your ${legTitleShort}` : `Tell your ${legTitleShort} to co-sponsor!`);

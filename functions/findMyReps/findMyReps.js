@@ -1,6 +1,6 @@
 const axios = require("axios");
-const _ = require("lodash");
 const fs = require("fs");
+const mapValues = require("lodash/mapValues");
 
 const { OPEN_STATES_API_KEY, GOOGLE_API_KEY, NETLIFY_DEV } = process.env;
 const isDev = NETLIFY_DEV == "true";
@@ -141,7 +141,7 @@ async function handleRequest(requestBody) {
     };
   }
 
-  const legData = _.mapValues(legIds, (legId) => {
+  const legData = mapValues(legIds, (legId) => {
     return allLegData[legId];
   });
 
