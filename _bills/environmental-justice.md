@@ -8,7 +8,13 @@ house_link: https://malegislature.gov/Bills/191/H761
 senate_no: S464
 senate_link: https://malegislature.gov/Bills/191/S464
 issue: climate
-summary: []
+summary:
+  - Mandates the creation of an Environmental Justice Advisory Council, which
+    would study issues related to environmental justice in the state and provide
+    recommendations to the Governor and Legislature
+  - Department of Environmental Protection will create a Supplemental
+    Environmental Project bank, which maintains an inventory of outstanding
+    environmental justice needs in frontline communities
 orgs:
   - MA Power Forward
   - CWA
