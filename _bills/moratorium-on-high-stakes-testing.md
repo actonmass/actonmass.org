@@ -10,6 +10,8 @@ issue: education
 summary:
   - Establishes a moratorium on standardized testing being a requirement for
     high school graduation
+  - Creates a grant program for school districts to establish task forces to
+    develop alternative assessment models
 orgs:
   - MTA
 co_sponsors:
