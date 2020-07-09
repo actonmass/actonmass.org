@@ -7,7 +7,10 @@ house_link: https://malegislature.gov/Bills/191/H685
 senate_no: S396
 senate_link: https://malegislature.gov/Bills/191/S396
 issue: voting-rights
-summary: []
+summary:
+  - Ensures that all Massachusetts residents that are eligible to vote are able
+    to register to vote or change the address at which they are registered on
+    Election Day
 orgs: []
 co_sponsors:
   - elizabeth-malia
