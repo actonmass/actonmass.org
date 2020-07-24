@@ -6,53 +6,69 @@ house_no: H3809
 house_link: https://malegislature.gov/Bills/191/H3809
 senate_no: S1110
 senate_link: https://malegislature.gov/Bills/191/S1110
-issue: ''
+issue: ""
+summary:
+  - Requires employers to give employees at least 14 days' notice of schedules
+    and allows employees to rest between shifts
+  - Allows employees to collect unemployment benefits if their employer’s
+    failure to comply with the bill results in the employee leaving the job
+  - "Requires employers to pay out predictability pay if the details of their
+    employees' shift are changed after the 14 day period ends "
 orgs:
-- NOW
-summary: []
+  - NOW
 co_sponsors:
-- sean-garballey
-- marjorie-decker
-- lindsay-sabadosa
-- david-rogers
-- russell-holmes
-- james-eldridge
-- mike-connolly
-- daniel-donahue
-- carlos-gonzalez
-- mindy-domb
-- tricia-farley-bouvier
-- maria-robinson
-- jay-livingstone
-- mary-keefe
-- david-leboeuf
-- natalie-higgins
-- jack-lewis
-- bruce-ayers
-- elizabeth-malia
-- denise-garlick
-- john-rogers
-- nika-elugardo
-- denise-provost
-- tami-gouveia
-- michelle-dubois
-- julian-cyr
-- marc-pacheco
-- tommy-vitolo
-- mike-connolly
-- joanne-comerford
-- jason-lewis
-- james-eldridge
-- james-welch
-- jose-tosado
-- anne-gobi
-- sal-didomenico
-- patricia-jehlen
-- mary-keefe
-- david-leboeuf
-- thomas-stanley
-- jack-lewis
-- john-rogers
-- julian-cyr
-history: []
+  - sean-garballey
+  - marjorie-decker
+  - lindsay-sabadosa
+  - david-rogers
+  - russell-holmes
+  - james-eldridge
+  - mike-connolly
+  - daniel-donahue
+  - carlos-gonzalez
+  - mindy-domb
+  - tricia-farley-bouvier
+  - maria-robinson
+  - jay-livingstone
+  - mary-keefe
+  - david-leboeuf
+  - natalie-higgins
+  - jack-lewis
+  - bruce-ayers
+  - elizabeth-malia
+  - denise-garlick
+  - john-rogers
+  - nika-elugardo
+  - denise-provost
+  - tami-gouveia
+  - michelle-dubois
+  - julian-cyr
+  - marc-pacheco
+  - tommy-vitolo
+  - mike-connolly
+  - joanne-comerford
+  - jason-lewis
+  - james-eldridge
+  - james-welch
+  - jose-tosado
+  - anne-gobi
+  - sal-didomenico
+  - patricia-jehlen
+  - mary-keefe
+  - david-leboeuf
+  - thomas-stanley
+  - jack-lewis
+  - john-rogers
+  - julian-cyr
+history:
+  - {}
+timeline:
+  - date: 2019-05-20
+    description: Referred to the Labor and Workforce Development Committee
+  - date: 2019-06-27
+    description: Hearing scheduled for 7/9/2019
+  - date: 2020-01-30
+    description: Reporting date extended to 6/5/2020
+  - date: 2020-06-02
+    description: Reporting date extended to 10/27/2020
 ---
