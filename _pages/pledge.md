@@ -74,6 +74,7 @@ Candidates for office who have signed on:
 * Josh Mason (Candidate for State Rep, 1st Barnstable district)
 * Jordan Meehan (Candidate for State Rep, 17th Suffolk district)
 * Samuel Biagetti (Candidate for State Rep, 5th Worcester district)
+* Hunter Cohen (Candidate for State Rep, 9th Norfolk district)
 * Meg Wheeler (Candidate for State Senate, Plymouth & Norfolk district)
 * Adam Gomez Sr. (Candidate for State Senate, Hampden district)
 
