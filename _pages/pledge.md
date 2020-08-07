@@ -50,6 +50,7 @@ Candidates for office who have signed on:
 
 * Ceylan Rowe (Candidate for State Rep, 12th Worcester district)
 * Nichole Mossalam (Candidate for State Rep, 35th Middlesex district)
+* Erika Uyterhoeven (Candidate for State Rep, 27th Middlesex district)
 * Melissa Smith (Candidate for State Rep, 4th Norfolk district)
 * Michelle Mullet (Candidate for State Rep, 20th Middlesex district)
 * Mike Dooley (Candidate for State Rep, 12th Norfolk district)
