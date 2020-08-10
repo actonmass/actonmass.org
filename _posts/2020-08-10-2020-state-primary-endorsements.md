@@ -19,7 +19,7 @@ We believe some of the candidates for office this year will help build on that m
 
 \-
 
-![Dr. Marianela Rivera](/img/mriveraheadshot1.jpg "Dr. Marianela Rivera")
+![Dr. Marianela Rivera](/img/mriveraheadshot1.jpg "Dr. Marianela Rivera" =250x)
 
 ## Marianela Rivera
 
@@ -28,7 +28,7 @@ Dr. Marianela Rivera is an education justice advocate from Lawrence. One of her 
 Learn more: <https://www.riveraforstaterep.com/>\
 17th Essex District (Lawrence, Andover, Methuen)
 
-![Damali Vidot](/img/damali_headshot-1-.jpeg "Damali Vidot")
+![Damali Vidot](/img/damali_headshot-1-.jpeg "Damali Vidot" =250x)
 
 ## Damali Vidot
 
