@@ -76,8 +76,10 @@ Candidates for office who have signed on:
 * Jordan Meehan (Candidate for State Rep, 17th Suffolk district)
 * Samuel Biagetti (Candidate for State Rep, 5th Worcester district)
 * Hunter Cohen (Candidate for State Rep, 9th Norfolk district)
+* Tamisha Civil (Candidate for State Rep, 6th Norfolk district)
 * Meg Wheeler (Candidate for State Senate, Plymouth & Norfolk district)
 * Adam Gomez Sr. (Candidate for State Senate, Hampden district)
+* Jarred Rose (Candidate for State Senate, Norfolk, Bristol and Plymouth district)
 
 ## Why a Pledge?
 
