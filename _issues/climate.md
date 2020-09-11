@@ -6,6 +6,7 @@ subtitle: 100% renewable by 2045 or sooner
 logo: temperature-high
 img: /img/issue-climate.jpg
 catchphrase: "The science is clear: we are running out of time to address climate change"
+page_img: /img/ice-glacier-arctic-iceberg-norway-freezing-870312-pxhere.com.jpg
 highlighted_bills:
   - 100-renewable-energy-by-2045
   - environmental-justice
