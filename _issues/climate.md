@@ -6,7 +6,7 @@ subtitle: 100% renewable by 2045 or sooner
 logo: temperature-high
 img: /img/issue-climate.jpg
 catchphrase: "The science is clear: we are running out of time to address climate change"
-page_img: /img/ice-glacier-arctic-iceberg-norway-freezing-870312-pxhere.com.jpg
+page_img: /img/screen-shot-2020-09-11-at-6.20.30-pm.png
 highlighted_bills:
   - 100-renewable-energy-by-2045
   - environmental-justice
@@ -15,7 +15,7 @@ learn_more:
     img: /img/orgs/Sunrise.png
     link: https://www.sunrisemovement.org/sunrise-hubs/ma/boston
   - title: Sierra Club Massachusetts Chapter
-    img: null
+    img: /img/sierra-club-logo.png
     link: https://www.sierraclub.org/massachusetts
   - title: 350 Massachusetts for a Better Future
     img: null
