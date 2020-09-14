@@ -6,7 +6,9 @@ house_no: H3809
 house_link: https://malegislature.gov/Bills/191/H3809
 senate_no: S1110
 senate_link: https://malegislature.gov/Bills/191/S1110
+committee: joint-labor-and-workforce-development
 issue: ""
+img: /img/fairscheduling.jpeg
 summary:
   - Requires employers to give employees at least 14 days' notice of schedules
     and allows employees to rest between shifts
