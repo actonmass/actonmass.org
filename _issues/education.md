@@ -2,8 +2,7 @@
 aom_id: education
 layout: issue
 title: Education
-subtitle: We need to invest in our public schools and make a quality public
-  education accessible to every child.
+subtitle: Real investment in quality public education for all
 logo: pen
 img: /img/issue-education.jpg
 catchphrase: Massachusetts' average spending per student is one of the highest
