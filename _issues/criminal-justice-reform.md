@@ -11,6 +11,8 @@ page_img: /img/emiliano-bar-pakhbttdqt0-unsplash.jpg
 bills_to_support_title: Criminal Justice Reform
 highlighted_bills:
   - life-without-parole
+  - age-of-criminal-majority-to-21
+  - police-reform
 references:
   - key: "1"
     title: Wikipedia.  February 6, 2019.
