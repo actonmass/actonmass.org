@@ -6,7 +6,7 @@ house_no: H3012
 house_link: https://malegislature.gov/Bills/191/H3012
 senate_no: S2061
 senate_link: https://malegislature.gov/Bills/191/S2061
-committee: joint-ways-and-means
+committee: senate-ways-and-means
 issue: immigration
 img: /img/nabeel-syed-jk3-uhdwjcs-unsplash.jpg
 summary:
