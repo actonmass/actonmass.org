@@ -180,7 +180,16 @@ co_sponsors:
   - nick-collins
   - patrick-oconnor
   - cindy-friedman
-history: []
+history:
+  - date: 2019-01-16
+    description: Bill filed
+    type: null
+  - date: 2019-04-30
+    description: Committee Hearing - Joint Committee on Education
+  - date: 2020-11-20
+    description: Extension Order - committee allowed until Nov 20th to act, far too
+      late to allow the bill to pass this session
+    type: death
 timeline:
   - date: 2019-01-16
     description: Bill filed
