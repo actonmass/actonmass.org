@@ -6,7 +6,9 @@ house_no: H3012
 house_link: https://malegislature.gov/Bills/191/H3012
 senate_no: S2061
 senate_link: https://malegislature.gov/Bills/191/S2061
+committee: joint-ways-and-means
 issue: immigration
+img: /img/nabeel-syed-jk3-uhdwjcs-unsplash.jpg
 summary:
   - Allows undocumented immigrants to apply for and receive drivers’ licenses,
     so everyone can get where they need to go without fear of detention or
@@ -130,13 +132,12 @@ co_sponsors:
   - joan-lovely
   - edward-kennedy
 history:
-  - description: As of right now, the bill has currently been sent to the Senate
-      committee on Ways and Means. There is no information on when this bill
-      might be sent to the Senate for a vote, and the members of the Senate Ways
-      & Means committee need to hear from you.
+  - description: Assigned to Transportation Committee
+    date: 2019-01-22
 timeline:
   - description: Assigned to Transportation Committee in 2019
-  - description: Hearing held for September 2019
+    date: 2019-01-22
+  - description: Hearing held
     date: 2019-09-04
   - description: Sent from Transportation committee to the Senate committee on Ways
       and Means (S.2641)
