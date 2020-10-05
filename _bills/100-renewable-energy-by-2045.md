@@ -1,13 +1,14 @@
 ---
-house_no: H2836
-senate_link: https://malegislature.gov/Bills/191/S1958
 aom_id: 100-renewable-energy-by-2045
 title: 100% Renewable energy by 2045
 full_title: An Act re-powering Massachusetts with 100 percent renewable energy
+house_no: H2836
 house_link: https://malegislature.gov/Bills/191/H2836
 senate_no: S1958
+senate_link: https://malegislature.gov/Bills/191/S1958
 committee: joint-telecommunications-utilities-and-energy
 issue: climate
+img: /img/nicholas-doherty-ponbhdyofom-unsplash.jpg
 summary:
   - All energy needs met with renewables by 2045 (electricity by 2035)
   - Improve energy efficiency to reduce consumption
@@ -163,4 +164,11 @@ co_sponsors:
   - james-hawkins
   - john-lawn
 history: []
+timeline:
+  - date: 2019-01-22
+    description: Bill referred to TUE Committee
+  - date: 2019-07-23
+    description: Committee Hearing
+  - date: 2020-07-31
+    description: Climate bill passes House without 100% renewables
 ---
