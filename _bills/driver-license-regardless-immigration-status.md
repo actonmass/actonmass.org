@@ -134,6 +134,7 @@ co_sponsors:
 history:
   - description: Assigned to Transportation Committee
     date: 2019-01-22
+  - bill_event: drivers-licenses-transpo-comm-2020
 timeline:
   - description: Assigned to Transportation Committee in 2019
     date: 2019-01-22
@@ -142,4 +143,45 @@ timeline:
   - description: Sent from Transportation committee to the Senate committee on Ways
       and Means (S.2641)
     date: 2020-04-21T00:00:00.000Z
+votes:
+  - legislator: william-straus
+    vote: unk
+  - legislator: paul-tucker
+    vote: unk
+  - legislator: dean-tran
+    vote: no
+  - legislator: steven-howitt
+    vote: no
+  - legislator: norman-orrall
+    vote: no
+  - legislator: david-decoste
+    vote: no
+  - legislator: adrian-madaro
+    vote: yes
+  - legislator: lindsay-sabadosa
+    vote: yes
+  - legislator: joseph-mcgonagle
+    vote: yes
+  - legislator: jonathan-hecht
+    vote: yes
+  - legislator: natalie-blais
+    vote: yes
+  - legislator: daniel-donahue
+    vote: yes
+  - legislator: peter-capano
+    vote: yes
+  - legislator: daniel-ryan
+    vote: yes
+  - legislator: eric-lesser
+    vote: yes
+  - legislator: william-brownsberger
+    vote: yes
+  - legislator: harriette-chandler
+    vote: yes
+  - legislator: cindy-friedman
+    vote: yes
+  - legislator: diana-dizoglio
+    vote: yes
+  - legislator: joseph-boncore
+    vote: yes
 ---
