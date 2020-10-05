@@ -2,8 +2,7 @@
 aom_id: healthcare
 layout: issue
 title: Health Care
-subtitle: Health care is a human right and should be available to all
-  Massachusetts residents, regardless of income, background, or ability to pay.
+subtitle: Health care is a human right
 logo: heartbeat
 img: /img/issue-healthcare.jpg
 catchphrase: Working families across the Commonwealth are being crushed by the
