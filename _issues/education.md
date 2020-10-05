@@ -9,6 +9,7 @@ catchphrase: Massachusetts' average spending per student is one of the highest
   in the country, but it's clear that not all communities receive the same
   benefits. We need to adequately and equitably fund our public schools so that
   a child's zip code doesn't determine their right to a great public education.
+page_img: /img/neonbrand-zfso6bnzjtw-unsplash.jpg
 highlighted_bills:
   - cherish-act-fully-funded-public-higher-ed
 learn_more:
