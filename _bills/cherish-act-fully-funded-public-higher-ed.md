@@ -181,4 +181,11 @@ co_sponsors:
   - patrick-oconnor
   - cindy-friedman
 history: []
+timeline:
+  - date: 2019-01-16
+    description: Bill filed
+  - date: 2019-04-30
+    description: Hearing in Higher Education Committee
+  - date: 2020-11-20
+    description: Deadline extended (Committee has until this date to act)
 ---
