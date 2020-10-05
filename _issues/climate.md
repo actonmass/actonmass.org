@@ -10,16 +10,29 @@ page_img: /img/screen-shot-2020-09-11-at-6.20.30-pm.png
 highlighted_bills:
   - 100-renewable-energy-by-2045
   - environmental-justice
-learn_more:
-  - title: Sunrise Movement Massachusetts
-    img: /img/orgs/Sunrise.png
-    link: https://www.facebook.com/SunriseBoston/
-  - title: Sierra Club Massachusetts Chapter
-    img: /img/sierra-club-logo.png
-    link: https://www.sierraclub.org/massachusetts
-  - title: 350 Massachusetts for a Better Future
-    img: /img/350logo.jpg
-    link: https://350mass.betterfutureproject.org/
+failures_block_title: We're running out of time
+failures:
+  - title: Falling behind other states
+    text: 15 other states have committed to moving to 100% renewable energy,
+      including Virginia and Wisconsin. Massachusetts should be leading
+questions:
+  - title: Doesn’t Massachusetts have a good record on the environment?
+    text: >
+      Massachusetts has historically been a leader in this area, but in recent
+      years we have fallen behind. But regardless of where we fall on any
+      rankings, the bottom line is that our current policies are too weak and
+      will lead to catastrophic outcomes.
+
+
+      Our  [latest clean energy bill](https://malegislature.gov/Bills/190/H4857)  has been widely criticized by climate advocates including the Sierra Club. The State Senate passed a strong bill, but the final legislation was [watered down significantly](https://pv-magazine-usa.com/2018/07/31/massachusetts-committee-produces-weaker-energy-bill/), mostly to match the weaker bills from the House of Representatives.
+
+
+      Funding for the Massachusetts Department of Environmental Protection (MassDEP) has declined by over 30% since 2001;
+  - title: Isn’t climate a federal issue? What can state reps actually do about it?
+    text: States play a major role in environmental protection, and their role is
+      even more important when we cannot depend on our federal government to
+      take action. States are responsible for setting their own renewable energy
+      targets, and many states also set their own fuel economy standards.
 references:
   - key: "1"
     title: "Fritz, Angela, “The cost of natural disasters this year: $155 billion,”
@@ -50,23 +63,15 @@ references:
       Telecommunications, Utilities and Energy, January 1, 2019.Committee
     link: https://malegislature.gov/Bills/190/H4651
 permalink: /issues/climate/
-questions:
-  - title: Doesn’t Massachusetts have a good record on the environment?
-    text: >
-      Massachusetts has historically been a leader in this area, but in recent
-      years we have fallen behind. But regardless of where we fall on any
-      rankings, the bottom line is that our current policies are too weak and
-      will lead to catastrophic outcomes.
-
-
-      Our  [latest clean energy bill](https://malegislature.gov/Bills/190/H4857)  has been widely criticized by climate advocates including the Sierra Club. The State Senate passed a strong bill, but the final legislation was [watered down significantly](https://pv-magazine-usa.com/2018/07/31/massachusetts-committee-produces-weaker-energy-bill/), mostly to match the weaker bills from the House of Representatives.
-
-
-      Funding for the Massachusetts Department of Environmental Protection (MassDEP) has declined by over 30% since 2001;
-  - title: Isn’t climate a federal issue? What can state reps actually do about it?
-    text: States play a major role in environmental protection, and their role is
-      even more important when we cannot depend on our federal government to
-      take action. States are responsible for setting their own renewable energy
-      targets, and many states also set their own fuel economy standards.
+learn_more:
+  - title: Sunrise Movement Massachusetts
+    img: /img/orgs/Sunrise.png
+    link: https://www.facebook.com/SunriseBoston/
+  - title: Sierra Club Massachusetts Chapter
+    img: /img/sierra-club-logo.png
+    link: https://www.sierraclub.org/massachusetts
+  - title: 350 Massachusetts for a Better Future
+    img: /img/350logo.jpg
+    link: https://350mass.betterfutureproject.org/
 order: 20
 ---
