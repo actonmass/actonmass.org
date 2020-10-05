@@ -5,6 +5,9 @@ title: Criminal Justice Reform
 subtitle: End mandatory minimum sentencing
 logo: balance-scale
 img: /img/issue-crime.jpeg
+catchphrase: Massachusetts hasn't done enough to end mass incarceration and a
+  police force that's out of control
+page_img: /img/emiliano-bar-pakhbttdqt0-unsplash.jpg
 bills_to_support_title: Criminal Justice Reform
 highlighted_bills:
   - life-without-parole
