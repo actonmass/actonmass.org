@@ -71,7 +71,14 @@ co_sponsors:
   - david-rogers
   - julian-cyr
   - sal-didomenico
-history: []
+history:
+  - date: 2019-01-22
+    description: Bill filed
+  - date: 2019-06-07
+    description: Hearing in Joint Committee on Education
+  - date: 2020-02-18
+    description: Bill sent to study
+    type: death
 timeline:
   - description: Sent to the Education Committee
     date: 2019-01-22
