@@ -12,6 +12,8 @@ catchphrase: Massachusetts' average spending per student is one of the highest
 page_img: /img/neonbrand-zfso6bnzjtw-unsplash.jpg
 highlighted_bills:
   - cherish-act-fully-funded-public-higher-ed
+  - moratorium-on-high-stakes-testing
+  - universal-recess-k-5
 learn_more:
   - title: Massachusetts Education Justice Alliance (MEJA)
     img: /img/orgs/MEJA.png
