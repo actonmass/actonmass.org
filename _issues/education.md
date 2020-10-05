@@ -21,7 +21,7 @@ learn_more:
     link: http://phenomonline.org/
   - title: "Building an Education System That Works for Everyone: Funding Reforms to
       Help All Our Children Thrive (Massachusetts Budget and Policy Center)"
-    img: null
+    img: /img/massbudget.png
     link: http://www.massbudget.org/report_window.php?loc=Building-an-Education-System-that-Works-for-Everyone.html
 references:
   - key: "1"
