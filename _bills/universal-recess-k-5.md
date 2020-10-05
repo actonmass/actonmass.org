@@ -7,6 +7,7 @@ house_link: https://malegislature.gov/Bills/191/H426
 senate_no: S330
 senate_link: https://malegislature.gov/Bills/191/S330
 issue: education
+img: /img/jason-sung-4ycqdagemyk-unsplash-1-.jpg
 summary:
   - Mandates at least 20 minutes of safe, unstructured recess time per day for
     children in grades K-5
@@ -78,7 +79,14 @@ co_sponsors:
   - julian-cyr
   - james-hawkins
   - michael-moore
-history: []
+history:
+  - date: 2019-01-22
+    description: Sent to the Education Committee
+  - date: 2019-09-04
+    description: Commitee hearing
+  - date: 2020-02-18
+    description: Sent to Study
+    type: death
 timeline:
   - date: 2019-01-22
     description: Referred to the Education Committee
