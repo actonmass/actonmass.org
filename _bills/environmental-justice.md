@@ -8,6 +8,7 @@ house_link: https://malegislature.gov/Bills/191/H761
 senate_no: S464
 senate_link: https://malegislature.gov/Bills/191/S464
 issue: climate
+img: /img/ella-ivanescu-jbfhnrpq_dw-unsplash.jpg
 summary:
   - Mandates the creation of an Environmental Justice Advisory Council, which
     would study issues related to environmental justice in the state and provide
@@ -131,7 +132,11 @@ co_sponsors:
   - frank-moran
   - edward-kennedy
   - adam-hinds
-history: []
+history:
+  - date: 2019-01-22
+    description: Referred to the committee on Environment, Natural Resources and Agriculture
+  - description: Hearing scheduled
+    date: 2019-06-04
 timeline:
   - description: Referred to the committee on Environment, Natural Resources and Agriculture
     date: 2019-01-22
