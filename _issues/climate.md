@@ -13,12 +13,12 @@ highlighted_bills:
 learn_more:
   - title: Sunrise Movement Massachusetts
     img: /img/orgs/Sunrise.png
-    link: https://www.sunrisemovement.org/sunrise-hubs/ma/boston
+    link: https://www.facebook.com/SunriseBoston/
   - title: Sierra Club Massachusetts Chapter
     img: /img/sierra-club-logo.png
     link: https://www.sierraclub.org/massachusetts
   - title: 350 Massachusetts for a Better Future
-    img: null
+    img: /img/350logo.jpg
     link: https://350mass.betterfutureproject.org/
 references:
   - key: "1"
