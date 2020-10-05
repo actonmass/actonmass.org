@@ -6,7 +6,9 @@ house_no: H431
 house_link: https://malegislature.gov/Bills/191/H431
 senate_no: S328
 senate_link: https://malegislature.gov/Bills/191/S328
+committee: joint-education
 issue: education
+img: /img/tim-gouw-1k9t5yiz2wu-unsplash.jpg
 summary:
   - Establishes a moratorium on standardized testing being a requirement for
     high school graduation
@@ -75,4 +77,6 @@ timeline:
     date: 2019-01-22
   - date: 2019-06-07
     description: Hearing scheduled for 6/17/2019
+  - date: 2020-02-18
+    description: Sent to Study
 ---
