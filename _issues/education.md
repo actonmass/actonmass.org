@@ -14,17 +14,46 @@ highlighted_bills:
   - cherish-act-fully-funded-public-higher-ed
   - moratorium-on-high-stakes-testing
   - universal-recess-k-5
-learn_more:
-  - title: Massachusetts Education Justice Alliance (MEJA)
-    img: /img/orgs/MEJA.png
-    link: https://massedjustice.org/
-  - title: Public Higher Education Network of Massachusetts (PHENOM)
-    img: /img/orgs/PHENOM.png
-    link: http://phenomonline.org/
-  - title: "Building an Education System That Works for Everyone: Funding Reforms to
-      Help All Our Children Thrive (Massachusetts Budget and Policy Center)"
-    img: /img/massbudget.png
-    link: http://www.massbudget.org/report_window.php?loc=Building-an-Education-System-that-Works-for-Everyone.html
+failures_block_title: Massachusetts is failing to fund public education
+failures:
+  - title: Public K-12 Education
+    text: Since 1993, MA hasn't been spending enough money on public K-12 education,
+      and finally after decades of delay, the legislature passed a $1.5B school
+      funding bill. However, no new funding has been allocated to school
+      districts, and conservative think tanks are proposing we delay new school
+      funding due to Covid.
+  - title: Public Higher Education
+    text: Our public higher education system is out of reach for many. Lack of
+      appropriate funding to the UMass system has resulted in tuition and fee
+      hikes
+  - title: Cancel MCAS
+    text: Standardized testing is a favorite tool of privatizers who want to use
+      poor test scores against school districts rather than funding them
+      appropriately. We won a victory in 2020 with the cancellation of all MCAS
+      requirements due to covid, but now we need to make that permanent.
+questions:
+  - title: Don't we already spend a lot of money on public education?
+    text: >
+      Public school funding comes primarily from two places: the state, and the
+      city/town school district. The state consistently underfunds all public
+      schools, but wealthier cities and towns use their own funds to make up the
+      difference between the “foundation budget” and the actual cost of giving
+      students a quality education. This practice perpetuates inequalities, as
+      wealthier districts can afford to put extra money into their schools,
+      while schools in poorer districts are severely underfunded. The state’s
+      wealthiest school districts spend over 40% more per student than the
+      state’s poorest school districts.
+
+
+      Further reading: [MassBudget: Building an Education System that Works for Everyone](http://massbudget.org/report_window.php?loc=Building-an-Education-System-that-Works-for-Everyone.html)
+  - title: Can’t public schools use funding more efficiently?
+    text: >
+      It is a myth that public schools cannot use funding efficiently. In fact,
+      many public schools have been increasing class sizes in an effort to save
+      money, and many public school teachers have to buy their own supplies.
+
+
+      The Foundation Budget Review Commission (“FBRC”) has already researched what a reasonable budget would be for a public school. The FBRC was a bipartisan group; their findings should not have been controversial. The problem is not a lack of research; the problem is a lack of political will on Beacon Hill to fund education.
 references:
   - key: "1"
     title: "Schuster, Luc, “In 16 Charts: Higher Education Funding in
@@ -62,28 +91,16 @@ references:
       Bills,” WBUR, August 03, 2018
     link: https://www.wbur.org/edify/2018/08/03/fact-check-education-funding
 permalink: /issues/education/
-questions:
-  - title: Don't we already spend a lot of money on public education?
-    text: >
-      Public school funding comes primarily from two places: the state, and the
-      city/town school district. The state consistently underfunds all public
-      schools, but wealthier cities and towns use their own funds to make up the
-      difference between the “foundation budget” and the actual cost of giving
-      students a quality education. This practice perpetuates inequalities, as
-      wealthier districts can afford to put extra money into their schools,
-      while schools in poorer districts are severely underfunded. The state’s
-      wealthiest school districts spend over 40% more per student than the
-      state’s poorest school districts.
-
-
-      Further reading: [MassBudget: Building an Education System that Works for Everyone](http://massbudget.org/report_window.php?loc=Building-an-Education-System-that-Works-for-Everyone.html)
-  - title: Can’t public schools use funding more efficiently?
-    text: >
-      It is a myth that public schools cannot use funding efficiently. In fact,
-      many public schools have been increasing class sizes in an effort to save
-      money, and many public school teachers have to buy their own supplies.
-
-
-      The Foundation Budget Review Commission (“FBRC”) has already researched what a reasonable budget would be for a public school. The FBRC was a bipartisan group; their findings should not have been controversial. The problem is not a lack of research; the problem is a lack of political will on Beacon Hill to fund education.
+learn_more:
+  - title: Massachusetts Education Justice Alliance (MEJA)
+    img: /img/orgs/MEJA.png
+    link: https://massedjustice.org/
+  - title: Public Higher Education Network of Massachusetts (PHENOM)
+    img: /img/orgs/PHENOM.png
+    link: http://phenomonline.org/
+  - title: "Building an Education System That Works for Everyone: Funding Reforms to
+      Help All Our Children Thrive (Massachusetts Budget and Policy Center)"
+    img: /img/massbudget.png
+    link: http://www.massbudget.org/report_window.php?loc=Building-an-Education-System-that-Works-for-Everyone.html
 order: 10
 ---
