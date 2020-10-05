@@ -15,6 +15,9 @@ failures:
   - title: Falling behind other states
     text: 15 other states have committed to moving to 100% renewable energy,
       including Virginia and Wisconsin. Massachusetts should be leading
+  - title: 10 Years left to act
+    text: According to a recent UN report, we only have until 2030 to take decisive
+      action to prevent runaway climate change
 questions:
   - title: Doesn’t Massachusetts have a good record on the environment?
     text: >
