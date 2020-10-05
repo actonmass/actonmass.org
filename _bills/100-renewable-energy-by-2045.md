@@ -163,7 +163,19 @@ co_sponsors:
   - nick-collins
   - james-hawkins
   - john-lawn
-history: []
+history:
+  - date: 2017-01-23
+    description: Bill filed for the first time
+  - date: 2018-06-28
+    description: Bill sent to study
+    type: death
+  - date: 2019-01-18
+    description: Bill introduced a 2nd time
+  - date: 2019-07-23
+    description: Committee Hearing
+  - date: 2020-07-31
+    description: Climate bill passes House without including this bill, Bill sent to study
+    type: death
 timeline:
   - date: 2019-01-22
     description: Bill referred to TUE Committee
