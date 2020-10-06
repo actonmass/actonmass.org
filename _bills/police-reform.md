@@ -8,17 +8,20 @@ house_no: H.4860
 house_link: https://malegislature.gov/Bills/191/H4860
 senate_no: S.2820
 senate_link: https://malegislature.gov/Bills/191/S2820
+issue: criminal-justice-reform
+img: /img/ev-ryrsson8s68-unsplash.jpg
 summary:
   - Limits Qualified Immunity, which prevents victims of police misconduct from
     getting justice (Senate version only)
   - Bans chokeholds, and limits the use of no-knock raids
   - Creates basic certification standards for police
 uid: "Exemple: safe-communities-act"
-issue: criminal-justice-reform
 house_lead_sponsors:
-  - ""
+  - liz-miranda
 senate_lead_sponsors:
-  - ""
+  - sonia-chang-diaz
+  - william-brownsberger
+  - cynthia-creem
 history:
   - {}
   - date: 2020-06-30
