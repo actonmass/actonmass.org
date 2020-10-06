@@ -7,7 +7,7 @@ house_no: H3573
 house_link: https://malegislature.gov/Bills/191/H3573
 senate_no: S1401
 senate_link: https://malegislature.gov/Bills/191/S1401
-committee: joint-public-safety-and-homeland-security
+committee: house-ways-and-means
 issue: immigration
 img: /img/bills/sca_hero_img.png
 summary:
