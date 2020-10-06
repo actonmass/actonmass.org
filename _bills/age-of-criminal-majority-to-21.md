@@ -1,13 +1,14 @@
 ---
 aom_id: age-of-criminal-majority-to-21
 title: Age of criminal majority to 21
-full_title: An act to reduce recidivism among emerging adults
+full_title: An Act to Promote Public Safety and Better Outcomes for Young Adults
 house_no: H.3420
 house_link: https://malegislature.gov/Bills/191/H3420
 senate_no: S.825
 senate_link: https://malegislature.gov/Bills/191/S825
 committee: joint-judiciary
 issue: criminal-justice-reform
+img: /img/patrick-buck-ippy3mupk8k-unsplash.jpg
 summary:
   - Gradually raise the upper age for delinquency and youth offender cases to
     include 18-20 year olds, ensuring that they are not charged as adults
@@ -68,7 +69,10 @@ co_sponsors:
   - michael-brady
   - sean-garballey
   - julian-cyr
-history: []
+history:
+  - date: 2020-02-10
+    description: Sent to study
+    type: death
 timeline:
   - date: 2019-01-22
     description: Referred to Judiciary Committee
