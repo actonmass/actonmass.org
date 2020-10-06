@@ -1,12 +1,20 @@
 ---
 aom_id: police-reform
-house_no: HD.5128
-summary:
-  - "Bans deadly uses of force which have resulted in police brutality, such as
-    chokeholds, tear gas, and "
-uid: "Exemple: safe-communities-act"
 title: Police Reform
-issue: ""
+full_title: An Act to reform police standards and shift resources to build a
+  more equitable, fair and just commonwealth that values Black lives and
+  communities of color
+house_no: H.4860
+house_link: https://malegislature.gov/Bills/191/H4860
+senate_no: S.2820
+senate_link: https://malegislature.gov/Bills/191/S2820
+summary:
+  - Limits Qualified Immunity, which prevents victims of police misconduct from
+    getting justice (Senate version only)
+  - Bans chokeholds, and limits the use of no-knock raids
+  - Creates basic certification standards for police
+uid: "Exemple: safe-communities-act"
+issue: criminal-justice-reform
 house_lead_sponsors:
   - ""
 senate_lead_sponsors:
