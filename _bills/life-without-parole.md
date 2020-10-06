@@ -8,7 +8,7 @@ senate_no: S857
 senate_link: https://malegislature.gov/Bills/191/S857
 committee: joint-judiciary
 issue: criminal-justice-reform
-img: /img/guido-coppa-dswu02zjkr0-unsplash.jpg
+img: /img/emiliano-bar-pakhbttdqt0-unsplash.jpg
 summary:
   - Ends mandatory minimum sentencing that forces life without parole for
     certain crimes
