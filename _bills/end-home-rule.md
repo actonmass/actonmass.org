@@ -6,7 +6,9 @@ house_no: H3924
 house_link: https://malegislature.gov/Bills/191/H3924
 senate_no: ""
 senate_link: https://malegislature.gov/Bills/191/
+committee: joint-housing
 issue: housing
+img: /img/toa-heftiba-nrszruwqmoi-unsplash.jpg
 summary:
   - Allows municipalities to create local tenant protection laws to protect
     renters' right to housing
@@ -16,6 +18,9 @@ summary:
     landlords from evicting tenants without just cause (such as failure to pay
     rent, property damage, etc.)
 orgs: []
+house_lead_sponsors:
+  - mike-connolly
+  - nika-elugardo
 co_sponsors:
   - mike-connolly
   - nika-elugardo
@@ -36,7 +41,11 @@ co_sponsors:
   - david-leboeuf
   - chynah-tyler
   - jack-lewis
-history: []
+history:
+  - date: 2020-01-14
+    description: Hearing in Housing Committee
+  - date: 2020-06-04
+    description: Reported favorably by the Housing Committee
 timeline:
   - date: 2019-06-24
     description: Referred to the Housing Committee
