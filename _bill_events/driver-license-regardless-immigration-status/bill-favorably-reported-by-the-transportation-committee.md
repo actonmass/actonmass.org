@@ -5,7 +5,9 @@ description: Bill favorably reported by the Transportation Committee
 bill: driver-license-regardless-immigration-status
 progressive_vote: yes
 vote_descriptions:
-  yes: Voted to advance the bill
+  yes: Voted to advance the [Drivers License
+    Bill](/bills/driver-license-regardless-immigration-status/) successfully out
+    of the Transportation committee
   unk: Did not vote
   no: Voted against the bill
 votes:
