@@ -86,13 +86,10 @@ references:
 permalink: /issues/housing/
 learn_more:
   - title: City Life Vida Urbana
-    img: null
+    img: /img/clvulogo.jpg
     link: http://www.clvu.org/
   - title: Right to the City
-    img: null
+    img: /img/rttc-logo.png
     link: https://righttothecity.org/
-  - title: Dorchester is Not For Sale
-    img: null
-    link: https://www.facebook.com/DotNot4Sale/
 order: 40
 ---
