@@ -21,4 +21,9 @@ senate_lead_sponsors:
   - ""
 history:
   - {}
+  - date: 2020-06-30
+    description: Bill late filed (in response to George Floyd protests)
+  - date: 2020-07-23
+    description: Bill passes both House & Senate, goes to Conference committee for
+      compromise (still stuck here)
 ---
