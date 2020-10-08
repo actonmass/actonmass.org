@@ -184,7 +184,7 @@ collections:
           label: Redirection
           name: redirection
           widget: string
-          default: "Example: /covid"
+          hint: "Example: /covid"
       - label: Image
         name: image
         widget: image
@@ -201,7 +201,7 @@ collections:
       preview: false
     fields:
       - <<: *id-field
-        default: "Example: immigation"
+        hint: "Example: immigation"
       - name: ocd_id
         widget: hidden
       - label: Layout
@@ -331,7 +331,7 @@ collections:
       preview: false
     fields:
       - <<: *id-field
-        default: "Exemple: nika-elugardo"
+        hint: "Exemple: nika-elugardo"
       - label: First name
         name: first_name
         widget: string
@@ -411,7 +411,7 @@ collections:
       preview: false
     fields:
       - <<: *id-field
-        default: "Exemple: house-27th-middlesex"
+        hint: "Exemple: house-27th-middlesex"
       - label: Name
         name: name
         widget: string
@@ -447,7 +447,7 @@ collections:
       preview: false
     fields:
       - <<: *id-field
-        default: "Exemple: joint-rules"
+        hint: "Exemple: joint-rules"
       - label: Title
         name: title
         widget: string
@@ -657,7 +657,7 @@ collections:
       preview: false
     fields:
       - <<: *id-field
-        default: "Exemple: safe-communities-act-2016-budget-drama"
+        hint: "Exemple: safe-communities-act-2016-budget-drama"
       - <<: *date-picker
         label: Date
         name: date
