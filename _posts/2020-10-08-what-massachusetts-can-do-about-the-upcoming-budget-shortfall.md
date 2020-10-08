@@ -28,7 +28,6 @@ We need to pass the Fair Share Amendment, which would tax Massachusetts resident
 Politicians try to avoid talking about taxes whenever they can, but the alternative to making corporations and the wealthy pay their fair share is cutting important programs that fund our schools, our healthcare system, supports for low income people, and critical investments in transportation infrastructure. That’s not a trade-off we can afford to make, and it’s going to take concerned supporters like you that are willing to let your wishes known.
 
 
-
 We know we can win these crucial reforms because we’ve done it before. In 2019, the Legislature blocked a corporate tax break of $37 million because activists like you made their voices heard. Reps statewide campaign on platforms that claim to put people before profit, but it’s up to us to make sure they deliver on their promises.
 
 **\
