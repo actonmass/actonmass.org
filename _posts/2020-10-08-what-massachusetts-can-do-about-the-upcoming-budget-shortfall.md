@@ -28,5 +28,5 @@ Politicians try to avoid talking about taxes whenever they can, but the alternat
 
 We know we can win these crucial reforms because we’ve done it before. In 2019, the Legislature blocked a corporate tax break of $37 million because activists like you made their voices heard. Reps statewide campaign on platforms that claim to put people before profit, but it’s up to us to make sure they deliver on their promises.
 
-**\
-If you’re interested in learning more about the tax proposals mentioned in this article, check out this detailed report from Mass Budget & Policy Center: [14 Options for raising Progressive Revenue](https://massbudget.org/report_window.php?loc=14-Options-for-Raising-Progressive-Revenue.html).**
+**
+If you’re interested in learning more about the tax proposals mentioned in this article, check out this detailed report from Mass Budget & Policy Center: [14 Options for raising Progressive Revenue](https://www.massbudget.org/reports/pdf/14%20Revenue%20Options%201-15-2019%20revised.pdf).**
