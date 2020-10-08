@@ -24,7 +24,6 @@ We need a nationwide wealth tax to eliminate income inequality and create a gove
 We need to pass the Fair Share Amendment, which would tax Massachusetts residents with incomes over $1 million. The Fair Share Amendment already passed out of the Legislature this session, but as with every amendment to the state Constitution, would have to pass a second time in order to get on the ballot in 2022. This requires popular pressure and work to make sure it passes at the polls and is enshrined into law.
 
 
-
 Politicians try to avoid talking about taxes whenever they can, but the alternative to making corporations and the wealthy pay their fair share is cutting important programs that fund our schools, our healthcare system, supports for low income people, and critical investments in transportation infrastructure. That’s not a trade-off we can afford to make, and it’s going to take concerned supporters like you that are willing to let your wishes known.
 
 
