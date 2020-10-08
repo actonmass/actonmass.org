@@ -1,8 +1,9 @@
 ---
 layout: post
-title: What Massachusetts Can Do About the Upcoming Budget Shortfall
+title: What Massachusetts can do about the upcoming budget shortfall
 date: 2020-10-08T14:17:04.318Z
 redirect_from: []
+image: /img/mass-budget.png
 ---
 We still don’t know how bad the financial costs of the COVID-19 recession will be for Massachusetts, but right now, things don’t look good. The Senate Ways & Means Chair, Sen. Michael Rodrigues, recently stated that he thought the state was looking at a $5 billion drop in revenue. That’s about 10% the size of the whole statewide budget.
 
