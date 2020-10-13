@@ -11,8 +11,21 @@ bills_to_support_title: Gender & Reproductive Justice
 highlighted_bills:
   - the-roe-act
   - campaign-childcare
-  - independent-commission-to-investigate-sexual-harassment-in-the-legislature
   - end-ndas
+failures_block_title: Massachusetts has failed to enshrine basic equity into our laws
+failures:
+  - title: Abortion Access
+    text: There are still serious gaps in abortion access even in Massachusetts. We
+      should be leading the country on this issue given threats at the Federal
+      level
+  - title: Childcare equity
+    text: Massachusetts doesn't allow parents running for office to pay for
+      childcare expenses with campaign funds, shutting out many parents
+      especially mothers from running for office.
+  - title: Buying Silence
+    text: It's still all too common for companies to use non-disclosure agreements
+      to force survivors of sexual violence into silence. We must end this
+      practice
 references:
   - key: 1
     title: Ebbert, Stephanie, “In Massachusetts, no one wants to talk about sex ed”
@@ -37,7 +50,10 @@ references:
 permalink: /issues/gender-equity/
 learn_more:
   - title: Planned Parenthood Advocacy Fund of Massachusetts
-    img: null
-    link: https://www.plannedparenthoodaction.org/planned-parenthood-advocacy-fund-massachusetts-inc/issues/healthy-youth-act
+    img: /img/pplm.jpg
+    link: https://www.plannedparenthoodaction.org/planned-parenthood-advocacy-fund-massachusetts-inc/issues
+  - title: NARAL Pro-Choice
+    img: /img/naral.jpg
+    link: https://prochoicemass.org/issue/expanding-abortion-access/
 order: 90
 ---
