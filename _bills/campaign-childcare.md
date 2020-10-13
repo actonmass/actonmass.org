@@ -115,6 +115,13 @@ history:
     description: During debate on H.4087, House doesn't adopt this law as amendment,
       but creates a commission to "study" the issue
     type: death
+  - date: 2017-01-20
+    description: Bill introduced as H.2898
+  - date: 2018-04-09
+    description: Favorably reported by Election Laws Committee
+  - date: 2018-12-31
+    description: Bill dies after not being taken up by the House
+    type: death
 timeline:
   - date: 2019-05-15
     description: Hearing (Election Laws)
