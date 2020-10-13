@@ -6,6 +6,7 @@ house_no: H685
 house_link: https://malegislature.gov/Bills/191/H685
 senate_no: S396
 senate_link: https://malegislature.gov/Bills/191/S396
+committee: joint-election-laws
 issue: voting-rights
 summary:
   - Ensures that all Massachusetts residents that are eligible to vote are able
