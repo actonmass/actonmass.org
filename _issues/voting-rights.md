@@ -5,12 +5,14 @@ title: Voting Rights
 subtitle: Voting should be easy and accessible for all Massachusetts residents
 logo: check-square
 img: /img/issue-vote.jpg
-catchphrase: "Crucial voting reforms that have succeeded in making our political
-  process more open and democratic, such as ranked choice voting and same-day
-  voter registration have been held up by the Legislature for years. Here's
-  where we're at now:"
+catchphrase: "Crucial voting reforms that have succeeded elsewhere in making the
+  political process more open and democratic, such as ranked choice voting and
+  same-day voter registration, have been held up by the Legislature for years.
+  Here's where we're at now:"
+page_img: /img/voting-booth.jpg
 highlighted_bills:
   - ranked-choice-voting
+  - same-voter-day-registration
 learn_more:
   - title: Common Cause Massachusetts
     link: https://www.commoncause.org/massachusetts/our-work/expand-voting-rights-election-integrity/election-day-registration/
