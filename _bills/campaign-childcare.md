@@ -105,5 +105,19 @@ co_sponsors:
   - barry-finegold
   - adam-hinds
   - sonia-chang-diaz
-history: []
+history:
+  - date: 2019-05-15
+    description: Committee Hearing (Election Laws)
+  - date: 2020-02-10
+    description: Sent to Study
+    type: death
+  - date: 2019-09-29
+    description: During debate on H.4087, House doesn't adopt this law as amendment,
+      but creates a commission to "study" the issue
+    type: death
+timeline:
+  - date: 2019-05-15
+    description: Hearing (Election Laws)
+  - date: 2020-02-10
+    description: Sent to Study
 ---
