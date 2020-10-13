@@ -10,7 +10,9 @@ committee: joint-election-laws
 issue: voting-rights
 summary:
   - Establishes a ranked-choice voting system for all elections in Massachusetts
-orgs: []
+orgs:
+  - Yes on 2
+  - Common Cause Massachusetts
 co_sponsors:
   - andres-vargas
   - adrian-madaro
