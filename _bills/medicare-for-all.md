@@ -148,6 +148,10 @@ history:
   - date: 2018-12-31
     description: Died without action (not even sent to study)
     type: death
+  - date: 2019-01-21
+    description: Introduced as H1194
+  - date: 2019-06-04
+    description: Hearing (Health Care Financing)
 timeline:
   - date: 2019-01-22
     description: Referred to the Committee on Health Care Financing
