@@ -1,6 +1,6 @@
 ---
 aom_id: prevent-premature-shutdown-of-essential-health-services
-title: Essential Health Services
+title: Prevent Premature Shutdown of Essential Health Services
 full_title: An Act Relative to the Closing of Hospital Essential Services
 house_no: H1139
 house_link: https://malegislature.gov/Bills/191/H1139
