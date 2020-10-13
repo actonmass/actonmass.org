@@ -127,6 +127,27 @@ history:
   - date: 2012-02-08
     description: Sent to study
     type: death
+  - date: 2013-01-23
+    description: Filed as H1035
+  - date: 2013-10-22
+    description: Hearing (Health Care Financing)
+  - date: 2014-06-30
+    description: Sent to Study
+    type: death
+  - date: 2015-01-20
+    description: Introduced again as H1026
+  - date: 2016-03-22
+    description: Hearing (Health Care Financing)
+  - date: 2016-09-26
+    description: Sent to Study
+    type: death
+  - date: 2017-01-23
+    description: Introduced as H2987
+  - date: 2017-06-20
+    description: Hearing (Health Care FInancing)
+  - date: 2018-12-31
+    description: Died without action (not even sent to study)
+    type: death
 timeline:
   - date: 2019-01-22
     description: Referred to the Committee on Health Care Financing
