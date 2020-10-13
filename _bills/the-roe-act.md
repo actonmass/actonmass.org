@@ -176,7 +176,9 @@ co_sponsors:
   - patrick-kearney
   - christina-minicucci
   - michelle-dubois
-history: []
+history:
+  - date: 2019-06-17
+    description: Hearing (Judiciary Committee)
 timeline:
   - description: Sent to the Judiciary Committee
     date: 2019-01-22
