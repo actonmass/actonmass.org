@@ -6,11 +6,14 @@ house_no: H720
 house_link: https://malegislature.gov/Bills/191/H720
 senate_no: S389
 senate_link: https://malegislature.gov/Bills/191/S389
+committee: joint-election-laws
 issue: voting-rights
+img: /img/download-4-.jpeg
 summary:
   - Lowers the age requirement to register to vote to 16, extending the right to
     vote to 16 and 17 year olds
-orgs: []
+orgs:
+  - Common Cause Massachusetts
 co_sponsors:
   - andres-vargas
   - dylan-fernandes
