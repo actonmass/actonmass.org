@@ -7,18 +7,39 @@ logo: heartbeat
 img: /img/issue-healthcare.jpg
 catchphrase: Working families across the Commonwealth are being crushed by the
   rising cost of health care. It's time for Medicare for All.
+page_img: /img/ani-kolleshi-7jjnj-qa9fy-unsplash.jpg
+bills_to_support_title: Healthcare as a Human Right
 highlighted_bills:
   - medicare-for-all
-learn_more:
-  - title: "Mass Care: Massachusetts Campaign for Single Payer Healthcare"
-    img: null
-    link: https://www.masscare.org/single-payer
-  - title: Western Mass Medicare for All
-    img: null
-    link: https://www.wmmedicareforall.org/
-  - title: Healthcare-Now! (National Medicare for All
-    img: null
-    link: https://www.healthcare-now.org/
+  - prevent-premature-shutdown-of-essential-health-services
+failures_block_title: We're failing to get people the healthcare they need
+failures:
+  - title: Medicare for All
+    text: State-level Medicare for All could save us money while making healthcare
+      free for every resident of the Commonwealth. This is an area we should be
+      leading in.
+  - title: Drug Prices
+    text: The prices of prescription drugs are out of control and only getting
+      worse. We need action to ensure everyone can get the medicine they need
+  - title: Essential Services
+    text: Healthcare companies have closed important services like maternity in
+      certain hospitals because they are costly to run. This puts residents at
+      risk when they have to drive farther to get the care they need.
+questions:
+  - title: Won't Single-payer Healthcare cost too much?
+    text: "**No**, in fact a Single-payer healthcare system will save up to $21
+      billion per year.  Much of that cost savings come from reduced insurance
+      company overhead.  Instead of paying premiums, co-pays, and a litany of
+      other confusing charges, you will pay a small tax -- smaller than what
+      you're already paying for healthcare."
+  - title: Will Medicare for All increase wait times and result in rationing care?
+    text: "**No.** Studies show that countries with universal single-payer health
+      care systems have on average lower wait times than the United States.
+      Patients are also no longer restricted to seeking care from providers that
+      are in their insurance network, so the range of options patients enjoy are
+      larger under a single-payer system. This enables providers to be able to
+      keep up with demand, instead of having to work around the artificial
+      limits that insurance companies place on patients and providers."
 references:
   - key: 1
     title: Klufts, Jamie “In Support of a Single Payer Healthcare System”, NASW-MA,
@@ -76,20 +97,15 @@ references:
       single payer benchmark study.
     link: https://malegislature.gov/Bills/190/H596
 permalink: /issues/healthcare/
-questions:
-  - title: Won't Single-payer Healthcare cost too much?
-    text: "**No**, in fact a Single-payer healthcare system will save up to $21
-      billion per year.  Much of that cost savings come from reduced insurance
-      company overhead.  Instead of paying premiums, co-pays, and a litany of
-      other confusing charges, you will pay a small tax -- smaller than what
-      you're already paying for healthcare."
-  - title: Will Medicare for All increase wait times and result in rationing care?
-    text: "**No.** Studies show that countries with universal single-payer health
-      care systems have on average lower wait times than the United States.
-      Patients are also no longer restricted to seeking care from providers that
-      are in their insurance network, so the range of options patients enjoy are
-      larger under a single-payer system. This enables providers to be able to
-      keep up with demand, instead of having to work around the artificial
-      limits that insurance companies place on patients and providers."
+learn_more:
+  - title: "Mass Care: Massachusetts Campaign for Single Payer Healthcare"
+    img: null
+    link: https://www.masscare.org/single-payer
+  - title: Western Mass Medicare for All
+    img: null
+    link: https://www.wmmedicareforall.org/
+  - title: Healthcare-Now! (National Medicare for All
+    img: null
+    link: https://www.healthcare-now.org/
 order: 50
 ---
