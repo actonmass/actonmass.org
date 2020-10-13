@@ -6,7 +6,9 @@ house_no: H1194
 house_link: https://malegislature.gov/Bills/191/H1194
 senate_no: S683
 senate_link: https://malegislature.gov/Bills/191/S683
+committee: joint-health-care-financing
 issue: healthcare
+img: /img/javier-matheu-ahdeiqdic7q-unsplash.jpg
 summary:
   - Establishes a single-payer health care system in Massachusetts
   - Provides health care for all Massachusetts residents and individuals who
@@ -14,8 +16,7 @@ summary:
     deductibles
   - Bans private insurance coverage for services already covered by the
     single-payer system
-orgs:
-  - PM
+orgs: []
 co_sponsors:
   - lindsay-sabadosa
   - denise-garlick
@@ -118,7 +119,14 @@ co_sponsors:
   - maria-robinson
   - jose-tosado
   - frank-moran
-history: []
+history:
+  - date: 2011-01-24
+    description: Bill filed (as H338)
+  - date: 2011-12-15
+    description: Hearing (Health Care Financing)
+  - date: 2012-02-08
+    description: Sent to study
+    type: death
 timeline:
   - date: 2019-01-22
     description: Referred to the Committee on Health Care Financing
