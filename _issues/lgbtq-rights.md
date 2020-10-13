@@ -8,6 +8,7 @@ logo: equals
 img: /img/issue-lgbt.jpg
 highlighted_bills:
   - healthy-youth-act
+  - repeal-archaic-laws
 learn_more:
   - title: Equality Massachusetts
     link: http://www.massequality.org/content/it%E2%80%99s-time-pass-healthy-youth-act%E2%80%94contact-your-rep-today-0
