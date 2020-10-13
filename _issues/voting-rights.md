@@ -13,14 +13,41 @@ page_img: /img/voting-booth.jpg
 highlighted_bills:
   - ranked-choice-voting
   - same-voter-day-registration
-learn_more:
-  - title: Common Cause Massachusetts
-    link: https://www.commoncause.org/massachusetts/our-work/expand-voting-rights-election-integrity/election-day-registration/
-  - title: Progressive Massachusetts
-    link: https://www.commoncause.org/massachusetts/our-work/expand-voting-rights-election-integrity/election-day-registration/
-  - title: Issues Related to Registering Voters and Administering Elections - United
-      States Government Accountability Office
-    link: https://www.gao.gov/assets/680/678131.pdf
+failures_block_title: Massachusetts refuses to pass commonsense voter reforms
+  that would make the right to vote accessible for every eligible voter in the
+  state.
+failures:
+  - title: Same Day Voter Registration
+    text: Same-day voter registration has proven to increase voter turnout,
+      especially among young voters and underrepresented groups. In a state like
+      Massachusetts with a high percentage of transient voters who move
+      frequently and young voters, this should be an obvious reform. However,
+      the bill has been introduced session after session with no resolution, and
+      in its latest form has had its reporting date extended to effectively the
+      end of session. Same-day registration works, and the Legislature can't
+      continue to keep pushing it off like this.
+questions:
+  - title: Do ballots using ranked choice voting have more errors than traditional
+      ballots?
+    text: "**No.** Every election, whether it uses ranked choice voting or the
+      traditional First Past the Post system, has the potential for error. But
+      ballot errors are highest in traditional even-year partisan primaries, in
+      which voters mistakenly vote for candidates from more than one party.
+      Other states that have paired ranked choice voting reforms with widespread
+      voter education to inform the public about the changes have reported less
+      errors on average."
+  - title: Does ranked choice voting favor incumbents and the wealthy at the expense
+      of diverse candidates?
+    text: "**No.** Ranked choice voting allows candidates to run without fear of
+      being automatically eliminated in a low-turnout primary, as well as the
+      opportunity to garner votes from voters who are no longer afraid of
+      splitting or wasting their vote. This benefits candidates who may have
+      similar platforms or appeal as other candidates on the ballot, but
+      eliminates the risk that a voter would waste their vote by choosing their
+      preferred candidate. In this sense, candidates with less of a fundraising
+      advantage or who lack name recognition are still able to mobilize their
+      bases to vote for them, disproportionately benefiting working class
+      candidates and candidates of color."
 references:
   - key: 1
     title: “Same Day Voter Registration,” National Conference of State Legislatures,
@@ -46,27 +73,13 @@ references:
       Magazine, October 10, 2017
     link: https://commonwealthmagazine.org/politics/democracy-isnt-working-massachusetts/
 permalink: /issues/voting-rights/
-questions:
-  - title: Do ballots using ranked choice voting have more errors than traditional
-      ballots?
-    text: "**No.** Every election, whether it uses ranked choice voting or the
-      traditional First Past the Post system, has the potential for error. But
-      ballot errors are highest in traditional even-year partisan primaries, in
-      which voters mistakenly vote for candidates from more than one party.
-      Other states that have paired ranked choice voting reforms with widespread
-      voter education to inform the public about the changes have reported less
-      errors on average."
-  - title: Does ranked choice voting favor incumbents and the wealthy at the expense
-      of diverse candidates?
-    text: "**No.** Ranked choice voting allows candidates to run without fear of
-      being automatically eliminated in a low-turnout primary, as well as the
-      opportunity to garner votes from voters who are no longer afraid of
-      splitting or wasting their vote. This benefits candidates who may have
-      similar platforms or appeal as other candidates on the ballot, but
-      eliminates the risk that a voter would waste their vote by choosing their
-      preferred candidate. In this sense, candidates with less of a fundraising
-      advantage or who lack name recognition are still able to mobilize their
-      bases to vote for them, disproportionately benefiting working class
-      candidates and candidates of color."
+learn_more:
+  - title: Common Cause Massachusetts
+    link: https://www.commoncause.org/massachusetts/our-work/expand-voting-rights-election-integrity/election-day-registration/
+  - title: Progressive Massachusetts
+    link: https://www.commoncause.org/massachusetts/our-work/expand-voting-rights-election-integrity/election-day-registration/
+  - title: Issues Related to Registering Voters and Administering Elections - United
+      States Government Accountability Office
+    link: https://www.gao.gov/assets/680/678131.pdf
 order: 70
 ---
