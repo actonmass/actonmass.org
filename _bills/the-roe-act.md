@@ -6,7 +6,9 @@ house_no: H3320
 house_link: https://malegislature.gov/Bills/191/H3320
 senate_no: S1209
 senate_link: https://malegislature.gov/Bills/191/S1209
+committee: joint-judiciary
 issue: gender-equity
+img: /img/omar-lopez-auee5lkhzcw-unsplash.jpg
 summary:
   - Guarantees the right to abortion in state law
   - Removes the current mandatory 24-hour waiting period for abortion procedures
