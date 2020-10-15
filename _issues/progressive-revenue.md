@@ -15,4 +15,5 @@ highlighted_bills:
   - fair-share-amendment
   - "strengthen-commonwealth "
   - stop-corporate-offshoring
+failures_block_title: "TAX POLICY IN MASSACHUSETTS IS DIRECTLY RESPONSIBLE FOR RUNAWAY INEQUALITY  "
 ---
