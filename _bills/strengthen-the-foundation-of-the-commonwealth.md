@@ -15,4 +15,26 @@ summary:
     inherited assets
   - Increases the minimum corporate excise tax above the fixed baseline of $456,
     which has remained unchanged for decades
+house_lead_sponsors:
+  - mike-connolly
+senate_lead_sponsors:
+  - joanne-comerford
+co_sponsors:
+  - ruth-balser
+  - christine-barber
+  - peter-capano
+  - mindy-domb
+  - nika-elugardo
+  - dylan-fernandes
+  - tami-gouveia
+  - james-hawkins
+  - patricia-jehlen
+  - mary-keefe
+  - jack-lewis
+  - christina-minicucci
+  - rady-mom
+  - denise-provost
+  - maria-robinson
+  - steven-ultrino
+  - tommy-vitolo
 ---
