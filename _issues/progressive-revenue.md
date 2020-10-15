@@ -37,4 +37,30 @@ failures:
       market forces or economic cycles. A system of progressive taxation, in
       which the wealthy pay higher taxes than working families, is the most
       powerful tool available for building and maintaining a just economy.
+questions:
+  - title: "Won’t raising tax rates kill jobs, stifle innovation and disincentivize
+      work? "
+    text: >-
+      The dominant economic trend in recent decades is escalating inequality,
+      underpinned by steep tax cuts and declining rates of economic growth. Our
+      economy is not working. When an economy is rigged in favor of the wealthy,
+      the large salaries captured by certain workers vastly surpass their
+      contribution to society, starving the economy of capital and cutting-out
+      entire groups of workers. The function of a progressive tax agenda is to
+      prevent wealth and income disparities from making economies dysfunctional.
+
+
+      In other words, a low tax regime, not a progressive one, destroys jobs and stifles innovation. The median family wealth of communities of color in the Greater Boston area is effectively $0. No person can claim to possess self-determination, let alone afford to take risk, when fundamental resources and human rights are kept out of reach. Public investment in high-quality education, sustainable infrastructure, housing, and healthcare all require raising tax revenue and a system of progressive taxation is the most efficient and fair way to do so.
+  - title: If the corporate income tax rate is increased, will businesses relocate
+      to other states?
+    text: >-
+      Corporations consider a long list of factors when deciding where to locate
+      operations, including quality of life for employees, the skill base of the
+      labor force, public infrastructure, the health of the local economy, and
+      access to financing. The general consensus is that tax incentives, whether
+      tax credits or tax cuts, play a measurable, yet modest role in a
+      corporation’s decision to invest in any particular state.
+
+
+      Massachusetts is a highly desirable state for business investment as a result of public investment. According to the Best States for Business List published by Forbes Magazine, Massachusetts ranks 4th for quality of life and 5th for labor supply. Further, only eight states have a lower total effective business tax rate. We must not fall prey to misleading capital strikes by corporations when they threaten to undermine the public budgets.
 ---
