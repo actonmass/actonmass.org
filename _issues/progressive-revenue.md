@@ -67,4 +67,7 @@ learn_more:
   - title: Mass Budget and Policy Center
     link: https://massbudget.org/
     img: /img/massbudget.png
+  - title: Raise Up Massachusetts
+    link: https://www.raiseupma.org/
+    img: /img/raiseup.png
 ---
