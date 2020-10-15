@@ -15,4 +15,48 @@ summary:
     Low-Taxed Income (“GILTI”)
   - Applies only to large, multinational corporations that misleadingly claim
     that profits are earned in offshore tax shelters
+house_lead_sponsors:
+  - christine-barber
+co_sponsors:
+  - maria-robinson
+  - lindsay-sabadosa
+  - dylan-fernandes
+  - steven-ultrino
+  - peter-capano
+  - tricia-farley-bouvier
+  - joanne-comerford
+  - david-rogers
+  - tami-gouveia
+  - natalie-higgins
+  - john-barrett
+  - mary-keefe
+  - jack-lewis
+  - jason-lewis
+  - david-leboeuf
+  - kay-khan
+  - denise-provost
+  - carmine-gentile
+  - james-hawkins
+  - nika-elugardo
+  - ruth-balser
+  - smitty-pignatelli
+  - tram-nguyen
+  - tommy-vitolo
+  - bud-williams
+  - jay-livingstone
+  - paul-mark
+  - mike-connolly
+  - kevin-honan
+  - natalie-blais
+  - mindy-domb
+  - aaron-vega
+  - michelle-ciccolo
+  - linda-campbell
+  - jose-tosado
+  - lori-ehrlich
+  - patricia-jehlen
+  - daniel-ryan
+  - andres-vargas
+  - christina-minicucci
+  - adrian-madaro
 ---
