@@ -38,8 +38,7 @@ failures:
       which the wealthy pay higher taxes than working families, is the most
       powerful tool available for building and maintaining a just economy.
 questions:
-  - title: "Won’t raising tax rates kill jobs, stifle innovation and disincentivize
-      work? "
+  - title: "Won’t raising tax rates kill jobs and stifle innovation? "
     text: >-
       The dominant economic trend in recent decades is escalating inequality,
       underpinned by steep tax cuts and declining rates of economic growth. Our
