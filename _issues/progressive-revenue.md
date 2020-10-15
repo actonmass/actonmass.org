@@ -13,4 +13,5 @@ page_img: /img/library_tax.jpg
 bills_to_support_title: ""
 highlighted_bills:
   - fair-share-amendment
+  - "strengthen-commonwealth "
 ---
