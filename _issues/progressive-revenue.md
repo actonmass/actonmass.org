@@ -74,4 +74,8 @@ references:
     title: 'Echo Cove Research and Consulting, "Raise Up Massachusetts and MTA:
       Voter Study on Taxes and Spending," August 31, 2020.'
     link: https://www.raiseupma.org/wp-content/uploads/2020/09/RUM-Corporate-Tax-Poll.pdf
+  - key: "2"
+    title: '"Rep. Barber Files Bill to Close Corporate Loopholes, Raise Progressive
+      Revenue, and Fill Budget Gaps," The Somerville Times, June 24, 2020.'
+    link: https://www.thesomervilletimes.com/archives/100991
 ---
