@@ -24,7 +24,7 @@ failures:
       rates on salaries, dividends, and capital gains were steeply reduced. In
       2008, legislators agreed to reduce corporate income tax rates. Today,
       those with the highest income contribute the least, with the poorest 20%
-      of earners contributing nearly 50% more of their salaries to the state
+      of earners contributing nearly 50% more of their income to the state
       budget than the top 1%.
   - title: Stop austerity budget logic
     text: The Massachusetts General Laws mandate that the annual budget must be
