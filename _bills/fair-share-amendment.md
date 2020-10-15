@@ -177,16 +177,16 @@ history:
     date: 2015-01-01
     description: Fair Share Amendment is launched via a Citizen's Amendment (3 step process)
   - date: 2016-05-01
-    description: "Step 1 of 3: Constitutional Convention passes amendment"
+    description: "Step 1 of 3: Constitutional convention passes amendment"
   - date: 2017-06-01
-    description: "Step 2 of 3: Constitutional Convention re-confirms amendment "
+    description: "Step 2 of 3: Constitutional convention re-confirms amendment "
   - date: 2018-06-18
     type: death
     description: Massachusetts Supreme Judicial Court kills amendment after a
       corporate backed lawsuit
   - date: 2019-01-01
-    description: Fair Share Amendment is launched via a Legislative Amendment (3
-      step process)
-  - description: "Step 1 of 3: Constitutional Convention passes amendment"
+    description: Fair Share Amendment is launched again via a Legislative Amendment
+      (3 step process)
+  - description: "Step 1 of 3: Constitutional convention passes amendment"
     date: 2019-06-01
 ---
