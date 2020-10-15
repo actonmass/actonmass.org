@@ -9,7 +9,7 @@ catchphrase: "Massachusetts residents overwhelmingly support eliminating the tax
   cuts of recent decades. Progressive taxation would raise desperately needed
   revenue and redistribute wealth to communities that have been cut-out of the
   economy. "
-page_img: /img/library_tax.jpg
+page_img: /img/taxes.jpg
 bills_to_support_title: ""
 highlighted_bills:
   - fair-share-amendment
