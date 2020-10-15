@@ -71,5 +71,7 @@ learn_more:
     img: /img/raiseup.png
 references:
   - key: "1"
-    title: Title
+    title: 'Echo Cove Research and Consulting, "Raise Up Massachusetts and MTA:
+      Voter Study on Taxes and Spending," August 31, 2020.'
+    link: https://www.raiseupma.org/wp-content/uploads/2020/09/RUM-Corporate-Tax-Poll.pdf
 ---
