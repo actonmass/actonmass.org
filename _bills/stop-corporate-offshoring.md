@@ -59,4 +59,9 @@ co_sponsors:
   - andres-vargas
   - christina-minicucci
   - adrian-madaro
+history:
+  - description: "Bill filed for the first time "
+    date: 2020-07-02
+  - date: 2020-07-09
+    description: Referred to the Joint Committee on Revenue
 ---
