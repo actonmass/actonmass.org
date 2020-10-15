@@ -1,9 +1,9 @@
 ---
 aom_id: fair-share-amendment
 title: Fair Share Amendment
-full_title: Proposal for a legislative amendment to the Constitution to provide
-  resources for education and transportation through an additional tax on
-  incomes in excess of one million dollars
+full_title: Proposal for a Legislative Amendment to the Constitution to Provide
+  Resources for Education and Transportation through an Additional Tax on
+  Incomes in Excess of One Million Dollars
 house_no: H86
 house_link: https://malegislature.gov/Bills/191/H86
 senate_no: S16
