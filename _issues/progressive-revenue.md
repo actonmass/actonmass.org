@@ -10,6 +10,7 @@ catchphrase: "Massachusetts residents overwhelmingly support eliminating the tax
   needed revenue for public investment and redistribute wealth and prosperity to
   communities that have been cut-out of the economy. "
 page_img: /img/library_tax.jpg
+bills_to_support_title: ""
 highlighted_bills:
   - fair-share-amendment
 ---
