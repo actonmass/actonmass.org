@@ -94,4 +94,22 @@ references:
     title: "\"Boston's Booming...But for Whom: Building Shared Prosperity in a Time
       of Growth,\" Boston Foundation, 2018."
     link: https://www.tbf.org/-/media/tbf/reports-and-covers/2018/bostonisbooming20181010.pdf
+  - key: "7"
+    title: 'Jeffrey Thompson, "Prioritizing Approaches to Economic Development in
+      New England: Skills, Infrastructure, and Tax Incentives," Political
+      Economy Research Institute, University of Massachusetts, Amherst, August
+      2010.'
+    link: http://www.peri.umass.edu/fileadmin/pdf/published_study/priorities_September7_PERI.pdf
+  - key: "8"
+    title: '"Best States for Business," Forbes, 2019.  '
+    link: https://www.forbes.com/best-states-for-business/list/#tab:overall_header:lifeQuality
+  - link: https://www.massbudget.org/reports/pdf/How%20Do%20Business%20Taxes%20in%20MA%20Compare%20to%20Other%20States.pdf
+    key: "9"
+    title: Kurt Wise, "How Do Business Taxes in MA Compare to Other States," Mass
+      Budget and Policy Center, September 10, 2019.
+  - key: "10"
+    title: General Laws of Massachusetts
+    link: https://malegislature.gov/laws/generallaws
+  - key: "11"
+    title: IRS Internal Revenue Code
 ---
