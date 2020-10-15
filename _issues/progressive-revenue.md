@@ -46,11 +46,11 @@ questions:
       economy is not working. When an economy is rigged in favor of the wealthy,
       the large salaries captured by certain workers vastly surpass their
       contribution to society, starving the economy of capital and cutting-out
-      entire groups of workers. The function of a progressive tax agenda is to
-      prevent wealth and income disparities from making economies dysfunctional.
+      entire groups of workers. Progressive taxation prevents wealth and income
+      disparities from making economies dysfunctional.
 
 
-      In other words, a low tax regime, not a progressive one, destroys jobs and stifles innovation. The median family wealth of communities of color in the Greater Boston area is effectively $0. No person can claim self-determination, let alone afford to take risk, when fundamental resources and human rights are kept out of reach. Public investment in high-quality education, sustainable infrastructure, housing, and healthcare all require raising tax revenue and a system of progressive taxation is the most efficient and fair way to do so.
+      Low tax regimes, not progressive ones, destroy jobs and stifles innovation. The median family wealth of communities of color in the Greater Boston area is effectively $0. No person can claim self-determination, let alone afford to take risk, when fundamental resources are kept out of reach. Public investment in high-quality education, sustainable infrastructure, housing, and healthcare all require raising tax revenue and a system of progressive taxation is the most efficient and fair way to do so.
   - title: If the corporate income tax rate is increased, will businesses relocate
       to other states?
     text: >-
