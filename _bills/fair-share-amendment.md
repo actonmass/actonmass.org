@@ -172,5 +172,16 @@ co_sponsors:
   - patrick-kearney
   - james-oday
   - walter-timilty
-history: []
+history:
+  - type: null
+    date: 2015-01-01
+    description: Raise Up launches Fair Share Amendment through a Citizen's Amendment
+  - date: 2016-05-01
+    description: "Step 1 of 3: Constitutional Convention passes amendment"
+  - date: 2017-06-01
+    description: "Step 2 of 3: Constitutional Convention re-confirms amendment "
+  - date: 2018-06-18
+    type: death
+    description: Massachusetts Supreme Judicial Court kills amendment after a
+      corporate backed lawsuit
 ---
