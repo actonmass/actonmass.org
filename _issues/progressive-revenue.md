@@ -14,4 +14,5 @@ bills_to_support_title: ""
 highlighted_bills:
   - fair-share-amendment
   - "strengthen-commonwealth "
+  - stop-corporate-offshoring
 ---
