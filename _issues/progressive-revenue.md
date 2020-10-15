@@ -63,4 +63,8 @@ questions:
 
 
       Massachusetts is a highly desirable state for business investment as a result of public investment. According to the Best States for Business List published by Forbes Magazine, Massachusetts ranks 4th for quality of life and 5th for labor supply. Further, only eight states have a lower total effective business tax rate. We must not fall prey to misleading capital strikes by corporations when they threaten to undermine the public budgets.
+learn_more:
+  - title: Mass Budget and Policy Center
+    link: https://massbudget.org/
+    img: /img/massbudget.png
 ---
