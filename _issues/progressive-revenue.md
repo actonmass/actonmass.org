@@ -15,7 +15,7 @@ highlighted_bills:
   - fair-share-amendment
   - "strengthen-commonwealth "
   - stop-corporate-offshoring
-failures_block_title: "TAX POLICY IN MASSACHUSETTS IS DIRECTLY RESPONSIBLE FOR RUNAWAY INEQUALITY  "
+failures_block_title: "TAX POLICY IN MA IS DIRECTLY RESPONSIBLE FOR RUNAWAY INEQUALITY  "
 failures:
   - title: "A crumbling and upside down tax system "
     text: In recent decades, state and local tax rates in Massachusetts have fallen
