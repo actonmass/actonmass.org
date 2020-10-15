@@ -78,4 +78,20 @@ references:
     title: '"Rep. Barber Files Bill to Close Corporate Loopholes, Raise Progressive
       Revenue, and Fill Budget Gaps," The Somerville Times, June 24, 2020.'
     link: https://www.thesomervilletimes.com/archives/100991
+  - key: "3"
+    title: '"How Has the Level of Taxes in Massachusetts Changed Compared to Other
+      States," Mass Budget and Policy Center.'
+  - key: "4"
+    title: '"Income Tax Cuts Cost Massachusetts Over $4 Billion Annually, and
+      Benefits Mostly Go to Highest Incomes," Mass Budget and Policy Center,
+      March 27, 2019.'
+    link: https://www.massbudget.org/reports/pdf/PITCutsStateTaxDeclines_3-27-2019.pdf
+  - key: "5"
+    title: "Kurt Wise, \"Rising Profits, Falling Tax Shares: Fixing What's Broken,\"
+      Mass Budget and Policy Center, December 3, 2019. "
+    link: https://massbudget.org/reports/pdf/Rising%20Profits%20Falling%20Tax%20Shares.pdf
+  - key: "6"
+    title: "\"Boston's Booming...But for Whom: Building Shared Prosperity in a Time
+      of Growth,\" Boston Foundation, 2018."
+    link: https://www.tbf.org/-/media/tbf/reports-and-covers/2018/bostonisbooming20181010.pdf
 ---
