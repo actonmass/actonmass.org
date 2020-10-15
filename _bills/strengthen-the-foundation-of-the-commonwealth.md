@@ -1,6 +1,6 @@
 ---
 aom_id: "strengthen-commonwealth "
-title: "Strengthen the Foundation of the Commonwealth "
+title: Strengthen the Commonwealth
 full_title: "Strengthen the Foundation of the Commonwealth Act: A Starting Point
   for Progressive Taxation"
 house_no: H2424
