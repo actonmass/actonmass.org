@@ -37,4 +37,10 @@ co_sponsors:
   - maria-robinson
   - steven-ultrino
   - tommy-vitolo
+history:
+  - description: Bill filed for the first time
+    date: 2019-01-22
+  - description: Hearing scheduled with Joint Committee on Revenue
+    type: death
+    date: 2019-10-17
 ---
