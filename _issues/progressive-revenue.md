@@ -5,6 +5,10 @@ title: Progressive Revenue
 subtitle: Tax the few to guarantee prosperity for all
 logo: temperature-high
 img: /img/tax-_picture.jpg
+catchphrase: "Massachusetts residents overwhelmingly support eliminating the tax
+  cuts of recent decades. A progressive taxation agenda would raise desperately
+  needed revenue for public investment and redistribute wealth and prosperity to
+  communities that have been cut-out of the economy. "
 highlighted_bills:
   - fair-share-amendment
 ---
