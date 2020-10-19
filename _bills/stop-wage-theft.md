@@ -213,6 +213,17 @@ history:
     type: death
   - date: 2015-01-20
     description: Filed as H.1748
+  - date: 2015-09-22
+    description: Hearing in Labor committee
+  - date: 2016-04-07
+    description: Favorable report by Labor committee, sent to Senate Ways & Means
+  - date: 2016-07-08
+    description: Favorable report by Senate Ways & Means
+  - date: 2016-07-13
+    description: Passed the Senate 38-2
+  - date: 2016-07-31
+    description: DIes in House Ways & Means committeee after no action
+    type: death
 timeline:
   - description: Sent to the Labor and Workforce Committee
     date: 2019-01-22
