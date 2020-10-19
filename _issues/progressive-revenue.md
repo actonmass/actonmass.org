@@ -21,7 +21,7 @@ failures:
     text: In recent decades, state and local tax rates in Massachusetts have fallen
       by more than in any other state except for Arizona and Arkansas. Across
       the board, tax rates have been slashed. Starting in the 1990s, tax rates
-      on salaries, dividends, and capital gains were steeply reduced. In 2008,
+      on income, dividends, and capital gains were steeply reduced. In 2008,
       legislators agreed to reduce corporate income tax rates. Today, those with
       the highest income contribute the least, with the poorest 20% of earners
       contributing nearly 50% more of their income to the state budget than the
