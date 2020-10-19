@@ -8,7 +8,7 @@ senate_no: S929
 senate_link: https://malegislature.gov/Bills/191/S929/
 committee: joint-judiciary
 issue: gender-equity
-img: /img/johannes-krupinski-bifm4itjnve-unsplash.jpg
+img: /img/johannes-krupinski-bifm4itjnve-unsplash-1-.jpg
 summary:
   - Prevents NDAs from being used to silence victims of sexual harassment
   - Allows for shielding the complainant’s identity & private information, but
