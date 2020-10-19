@@ -9,9 +9,23 @@ img: /img/issue-lgbt.jpg
 highlighted_bills:
   - healthy-youth-act
   - repeal-archaic-laws
-learn_more:
-  - title: Equality Massachusetts
-    link: http://www.massequality.org/content/it%E2%80%99s-time-pass-healthy-youth-act%E2%80%94contact-your-rep-today-0
+failures:
+  - title: Conversion Therapy
+    text: Massachusetts still hasn't passed a statewide ban on conversion therapy
+      for minors, despite its proven harmful effects on LGBTQ+ youth
+  - title: Sex Education
+    text: Comprehensive, gender-affirming sex education is still not available to
+      all K-12 public school students in the Commonwealth
+questions:
+  - title: Is sex education really a necessary part of a comprehensive public school
+      education?
+    text: "**Yes.** Learning about consent, about the reproductive system, and about
+      contraception and healthy practices is a crucial part of development for
+      young adults, and for LGBTQ+ teens it's essential that gender-affirming
+      care and education begins in public schools. Comprehensive sex education
+      based on science and research has shown to lower STD rates among young
+      people, reduced risks of unwanted pregnancy, and reduced rates
+      nonconsensual sex and sexual assault."
 references:
   - key: 1
     title: "Cahill, Sean, Geffen, Sophia, Vance, Anise, Wang, Timothy, Barrera,
@@ -32,15 +46,8 @@ references:
       Massachusetts, July 16, 2018"
     link: https://www.plannedparenthoodaction.org/planned-parenthood-advocacy-fund-massachusetts-inc/pressroom/poll-likely-massachusetts-voters-strongly-support-school-based-sex-education
 permalink: /issues/lgbtq-rights/
-questions:
-  - title: Is sex education really a necessary part of a comprehensive public school
-      education?
-    text: "**Yes.** Learning about consent, about the reproductive system, and about
-      contraception and healthy practices is a crucial part of development for
-      young adults, and for LGBTQ+ teens it's essential that gender-affirming
-      care and education begins in public schools. Comprehensive sex education
-      based on science and research has shown to lower STD rates among young
-      people, reduced risks of unwanted pregnancy, and reduced rates
-      nonconsensual sex and sexual assault."
+learn_more:
+  - title: Equality Massachusetts
+    link: http://www.massequality.org/content/it%E2%80%99s-time-pass-healthy-youth-act%E2%80%94contact-your-rep-today-0
 order: 60
 ---
