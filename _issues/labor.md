@@ -22,4 +22,14 @@ failures:
       forced to close one night and open the next morning. Mandating some
       regularity and advance notice for shifts can make these jobs workable for
       people
+questions:
+  - title: Is Wage Theft really a problem?
+    text: Yes! Wage Theft (money employers should have payed workers, but didn't) is
+      the largest form of theft in this country, dwarfing the total amount of
+      money stolen in robberies of all kinds.
+references:
+  - key: "1"
+    link: https://www.epi.org/publication/wage-theft-bigger-problem-forms-theft-workers/
+    title: Wage Theft is a Much Bigger Problem Than Other Forms of Theft—But Workers
+      Remain Mostly Unprotected
 ---
