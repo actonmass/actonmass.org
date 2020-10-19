@@ -7,7 +7,8 @@ house_no: H1610
 house_link: https://malegislature.gov/Bills/191/H1610
 senate_no: S1066
 senate_link: https://malegislature.gov/Bills/191/S1066
-issue: ""
+issue: labor
+img: /img/neonbrand-aojguijkobc-unsplash.jpg
 summary:
   - Protects workers from common wage theft violations such as failure to pay
     wages, failure to pay at least the minimum wage, and failure to abide by
@@ -17,7 +18,8 @@ summary:
   - Protects workers against retaliation from their employer for reporting
     violations, and increases the power of the Attorney General's office to
     enforce wage theft laws
-orgs: []
+orgs:
+  - AFL-CIO
 co_sponsors:
   - daniel-donahue
   - james-arciero
