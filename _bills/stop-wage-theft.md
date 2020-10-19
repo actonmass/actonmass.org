@@ -195,7 +195,24 @@ co_sponsors:
   - tram-nguyen
   - brian-ashe
   - anne-gobi
-history: []
+history:
+  - date: 2019-01-22
+    description: Sent to Labor committee
+  - date: 2019-05-14
+    description: Hearing held
+  - date: 2017-01-23
+    description: H.1033 (previous version) sent to Labor committee
+  - date: 2018-03-09
+    description: Favorably reported by Labor committee, sent to Senate Ways & Means
+  - date: 2018-06-07
+    description: "Favorable Report by Senate Ways & Means "
+  - date: 2018-06-21
+    description: Passed by Senate unanimously, 38-0
+  - date: 2018-07-31
+    description: Bill dies without any action in House Ways & Means
+    type: death
+  - date: 2015-01-20
+    description: Filed as H.1748
 timeline:
   - description: Sent to the Labor and Workforce Committee
     date: 2019-01-22
