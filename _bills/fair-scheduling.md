@@ -16,8 +16,7 @@ summary:
     failure to comply with the bill results in the employee leaving the job
   - "Requires employers to pay out predictability pay if the details of their
     employees' shift are changed after the 14 day period ends "
-orgs:
-  - NOW
+orgs: []
 co_sponsors:
   - sean-garballey
   - marjorie-decker
@@ -63,7 +62,18 @@ co_sponsors:
   - john-rogers
   - julian-cyr
 history:
-  - {}
+  - date: 2017-01-23
+    description: H.3144, more limited precursor bill introduced
+  - date: 2018-07-12
+    description: Sent to study without even having a hearing
+    type: death
+  - date: 2019-01-18
+    description: New version of the bill introduced
+  - date: 2019-07-09
+    description: Hearing held (Labor committee)
+  - date: 2020-10-27
+    description: Bill reporting deadline (Too late in session to pass this year)
+    type: death
 timeline:
   - date: 2019-05-20
     description: Referred to the Labor and Workforce Development Committee
