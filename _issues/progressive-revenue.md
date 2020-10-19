@@ -48,7 +48,7 @@ questions:
       disparities from making economies dysfunctional.
 
 
-      Low tax regimes, not progressive ones, destroy jobs and stifle innovation. The median family wealth of communities of color in the Greater Boston area is effectively $0. No person can claim self-determination, let alone afford to take risk, when fundamental resources are kept out of reach. Public investment in high-quality education, sustainable infrastructure, housing, and healthcare all require raising tax revenue and a system of progressive taxation is the most efficient and fair way to do so.
+      Low tax regimes, not progressive ones, destroy jobs and stifle innovation. The median family wealth of communities of color in the Greater Boston area is effectively $0. No person can claim self-determination, let alone afford to start a business, when basic resources are kept out of reach. Public investment in high-quality education, sustainable infrastructure, housing, and healthcare all require raising tax revenue and a system of progressive taxation is the most efficient and fair way to do so.
   - title: If the corporate income tax rate is increased, will businesses relocate
       to other states?
     text: >-
