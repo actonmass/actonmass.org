@@ -7,6 +7,7 @@ house_no: H1610
 house_link: https://malegislature.gov/Bills/191/H1610
 senate_no: S1066
 senate_link: https://malegislature.gov/Bills/191/S1066
+committee: joint-labor-and-workforce-development
 issue: labor
 img: /img/neonbrand-aojguijkobc-unsplash.jpg
 summary:
