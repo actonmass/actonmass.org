@@ -23,9 +23,8 @@ failures:
       the board, tax rates have been slashed. Starting in the 1990s, tax rates
       on income, dividends, and capital gains were steeply reduced. In 2008,
       legislators agreed to reduce corporate income tax rates. Today, those with
-      the highest income contribute the least, with the poorest 20% of earners
-      contributing nearly 50% more of their income to the state budget than the
-      top 1%.
+      the highest income contribute the least, with the poorest 20% contributing
+      nearly 50% more of their income to the state budget than the top 1%.
   - title: Stop austerity budget logic
     text: The Massachusetts General Laws mandate that the annual budget must be
       balanced. Using this fact as a wedge, state legislators tend to underfund
