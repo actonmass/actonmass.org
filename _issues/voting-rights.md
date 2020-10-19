@@ -26,6 +26,11 @@ failures:
       in its latest form has had its reporting date extended to effectively the
       end of session. Same-day registration works, and the Legislature can't
       continue to keep pushing it off like this.
+  - title: Universal Mail-in Voting
+    text: Even though we've seen this year that mail-in voting increases turnout
+      especially among lower-income voters, young voters, and newly registered
+      voters, the Legislature still hasn't acted to make sure no-excuse
+      universal mail-in voting is the standard after the pandemic.
 questions:
   - title: Do ballots using ranked choice voting have more errors than traditional
       ballots?
