@@ -27,9 +27,20 @@ questions:
     text: Yes! Wage Theft (money employers should have payed workers, but didn't) is
       the largest form of theft in this country, dwarfing the total amount of
       money stolen in robberies of all kinds.
+learn_more:
+  - title: AFL-CIO
+    link: https://www.massaflcio.org/stop-wage-theft-massachusetts
+    img: /img/mass_afl-cio_logo_color_small.jpg
+  - title: Mass Teachers Association
+    img: /img/mta_logo_new_color.png
+    link: https://massteacher.org/current-initiatives/legislative-action
+  - link: http://ma.aft.org/
+    title: AFT Massachusetts
+    img: /img/ropma_state_new.png
 references:
   - key: "1"
     link: https://www.epi.org/publication/wage-theft-bigger-problem-forms-theft-workers/
     title: Wage Theft is a Much Bigger Problem Than Other Forms of Theft—But Workers
       Remain Mostly Unprotected
+order: 88
 ---
