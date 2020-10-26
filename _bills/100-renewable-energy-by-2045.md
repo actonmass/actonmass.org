@@ -164,7 +164,8 @@ co_sponsors:
   - james-hawkins
   - john-lawn
 scripts:
-  tweet_thanks: "{bill.title} and {bill.house_no} and {bill.senate_no}"
+  tweet_thanks: ""
+  tweet_after_thanks_call: "{bill.title} and {bill.house_no} and {bill.senate_no}"
 history:
   - date: 2017-01-23
     description: Bill filed for the first time
