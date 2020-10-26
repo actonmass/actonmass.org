@@ -1,30 +1,42 @@
-tweet_request: "@{leg.twitter}, please co-sponsor the {bill.title} bill!! #mapoli
-  via @act_on_mass "
-tweet_thanks: "@{leg.twitter}, thank you for co-sponsoring the {bill.title}
-  bill!! #mapoli via @act_on_mass "
-call_request: Please co-sponsor the {bill.title} bill!
-call_thanks: Thank you for co-sponsoring the {bill.title} bill!
-tweet_after_request_call: "@Act_On_Mass Hi! I just called {leg.title}
-  {leg.first_name} {leg.last_name} to request they co-sponsor the {bill.title}
-  bill and..."
-tweet_after_thanks_call: "@Act_On_Mass Hi! I just called {leg.title}
-  {leg.first_name} {leg.last_name} to thank them for co-sponsoring the
-  {bill.title} bill and..."
+tweet_request: .@{legislator.twitter} please cosponsor the {bill.title} bill
+  {bill.house_no}/{bill.senate_no}. We need this important bill passed cc
+  @Act_On_Mass
+tweet_thanks: .@{legislator.twitter} thank you for cosponsoring the {bill.title}
+  bill {bill.house_no}/{bill.senate_no}. We need this important bill passed cc
+  @Act_On_Mass
+call_request: Hi! My name is \_\_\_\_\_ and I'm a constituent of Rep./Sen.
+  \_\_\_\_\____. I'm calling to ask that the legislator co-sponsor the
+  {bill.title} bill {bill.house_no}/{bill.senate_no}. This is an important issue
+  to me because \_\_\_\_\_\_\_\_\_\_.
+call_thanks: Hi! My name is \_\_\_\_\_ and I'm a constituent of Rep./Sen.
+  \_\_\_\_\____. I'm calling to thank you for co-sponsoring the {bill.title}
+  bill {bill.house_no}/{bill.senate_no}. I ask that you raise this issue with
+  the committee chair and leadership to ensure it is brought to the floor for
+  passage as swiftly as possible. This is an important issue to me because
+  \_\_\_\_\_\_\_\_\_\_.
+tweet_after_request_call: I just called @{legislator.twitter} in support of the
+  {bill.title} bill {bill.house_no}/{bill.senate_no}. @Act_On_Mass made it easy
+  www.ActOnMass.org
+tweet_after_thanks_call: I just called @{legislator.twitter} & thanked them for
+  supporting the {bill.title} bill {bill.house_no}/{bill.senate_no}.
+  @Act_On_Mass made it easy ActOnMass.org
 email_request:
   subject: Please co-sponsor the {bill.title} bill!
-  body: |-
-    Dear {leg.first_name} {leg.last_name},
-
-    Please co-sponsor the {bill.title} bill.
+  body: Hi! My name is \_\_\_\_\_ and I'm a constituent of Rep./Sen.
+    \_\_\_\_\____. I'm writing to ask you to co-sponsor the {bill.title} bill
+    {bill.house_no}/{bill.senate_no}. This is an important issue to me because
+    \_\_\_\_\_\_\_\_\_\_.
 email_thanks:
-  subject: Thank you for signing the {bill.title} bill!
-  body: |-
-    Dear {leg.first_name} {leg.last_name},
-
-    Thank you so much for co-sponsoring the {bill.title} bill.
-tweet_after_request_email: "@Act_On_Mass Hi! I just emailed {leg.title}
-  {leg.first_name} {leg.last_name} to request they co-sponsor the {bill.title}
-  bill and..."
-tweet_after_thanks_email: "@Act_On_Mass Hi! I just called {leg.title}
-  {leg.first_name} {leg.last_name} to thank them for co-sponsoring the
-  {bill.title} bill and..."
+  subject: Thank you for cosponsoring the {bill.title} bill!
+  body: Hi! My name is \_\_\_\_\_ and I'm a constituent of Rep./Sen.
+    \_\_\_\_\____. I'm writing to thank you for co-sponsoring the {bill.title}
+    bill {bill.house_no}/{bill.senate_no}. I ask that you raise this issue with
+    the committee chair and leadership to ensure it is brought to the floor for
+    passage as swiftly as possible. This is an important issue to me because
+    \_\_\_\_\_\_\_\_\_\_.
+tweet_after_request_email: I just emailed @{legislator.twitter} in support of
+  the {bill.title} bill {bill.house_no}/{bill.senate_no}. @Act_On_Mass made it
+  easy www.ActOnMass.org
+tweet_after_thanks_email: I just emailed @{legislator.twitter} & thanked them
+  for supporting the {bill.title} bill {bill.house_no}/{bill.senate_no}.
+  @Act_On_Mass made it easy www.ActOnMass.org
