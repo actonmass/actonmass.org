@@ -1,32 +1,73 @@
-tweet_request: "@{leg.twitter}, please sign the pledge! #mapoli via @act_on_mass "
-tweet_thanks: "@{leg.twitter}, thank you for signing the pledge! #mapoli via @act_on_mass "
-call_request: |-
-  Please sign the pledge!
+tweet_request: .@{legislator.twitter} please sign the @Act_On_Mass transparency
+  pledge. More transparency is needed to make sure our democracy is strong
+  www.ActOnMass.org/pledge
+tweet_thanks: .@{legislator.twitter} thank you for signing the @Act_On_Mass
+  transparency pledge. I hope more of your colleagues will join you!
+  www.ActOnMass.org/pledge
+call_request: >-
+  Hi! My name is \_\_\_\_\_ and I'm a constituent of Rep./Sen. \_\_\_\_\_. I'm
+  calling to ask that they sign the Act on Mass transparency pledge. This
+  simple, straightforward pledge would improve MA government by letting me know
+  how they vote on important bills and ensure the public has more transparency
+  in what is happening on Beacon Hill.
+
 
   #### Talking points:
 
-  > "The pledge is not good"
-  -> Yet it is !
-call_thanks: Thank you for signing the pledge!
-tweet_after_request_call: "@Act_On_Mass Hi! I just called {leg.title}
-  {leg.first_name} {leg.last_name} to request they sign the pledge and..."
-tweet_after_thanks_call: "@Act_On_Mass Hi! I just called {leg.title}
-  {leg.first_name} {leg.last_name} to thank them for signing the pledge and..."
+
+  * **"The Rep doesn't sign pledges, pledges don't mean anything."** >> This pledge DOES mean something, it means you are pledging to make your own votes public. This is easy to do and I don't understand why the Rep wouldn't sign this.
+
+  * More talking points at this LINK
+
+    If you want help planning a meeting with your Rep, Act on Mass is happy to help, email us at info@actonmass.org
+call_thanks: Hi! My name is \_\_\_\_\_ and I'm a constituent of Rep./Sen.
+  \_\_\_\_\_. I'm just calling to thank them for signing the Act on Mass
+  transparency pledge. I'm so glad to have a representative who is standing up
+  for greater transparency
+tweet_after_request_call: I just called @{legislator.twitter} to ask they sign
+  the @Act_On_Mass transparency pledge. Transparency is power
+  www.ActOnMass.org/pledge
+tweet_after_thanks_call: I just called @{legislator.twitter} to thank them for
+  signing the @Act_On_Mass transparency pledge. Transparency is power
+  www.ActOnMass.org/pledge
 email_request:
   subject: Please sign the Voter Deserve to Know Pledge!
   body: >-
-    Dear {leg.first_name} {leg.last_name},
+    Hi! My name is \_\_\_\_\_ and I'm a constituent of Rep./Sen. \_\_\_\_\_. I'm
+    calling to ask that they sign the Act on Mass transparency pledge. This
+    simple, straightforward pledge would improve MA government by letting me
+    know how they vote on important bills and ensure the public has more
+    transparency in what is happening on Beacon Hill.
 
 
-    Please help bring transparency to the house by signing the **Voter Deserve to Know Pledge**.
+    Best,
+
+
+    \[Your Name]
+
+
+    \[Your address]
+
+
+
+
+    #### Talking points:
+
+
+    * **"The Rep doesn't sign pledges, pledges don't mean anything."** >> This pledge DOES mean something, it means you are pledging to make your own votes public. This is easy to do and I don't understand why the Rep wouldn't sign this.
+
+    * More talking points at this LINK
+
+      If you want help planning a meeting with your Rep, Act on Mass is happy to help, email us at info@actonmass.org
 email_thanks:
   subject: Thank you for signing the Voter Deserve to Know Pledge!
-  body: >-
-    Dear {leg.first_name} {leg.last_name},
-
-
-    Thank you so much for your help bringing transparency to the house by signing the Voter Deserve to Know Pledge.
-tweet_after_request_email: "@Act_On_Mass Hi! I just emailed {leg.title}
-  {leg.first_name} {leg.last_name} to request they sign the pledge and..."
-tweet_after_thanks_email: "@Act_On_Mass Hi! I just called {leg.title}
-  {leg.first_name} {leg.last_name} to thank them for signing the pledge and..."
+  body: Hi! My name is \_\_\_\_\_ and I'm a constituent of Rep./Sen. \_\_\_\_\_.
+    I'm just emailing to thank them for signing the Act on Mass transparency
+    pledge. I'm so glad to have a representative who is standing up for greater
+    transparency
+tweet_after_request_email: I just emailed @{legislator.twitter} to ask they sign
+  the @Act_On_Mass transparency pledge. Transparency is power
+  www.ActOnMass.org/pledge
+tweet_after_thanks_email: I just emailed @{legislator.twitter} to thank them for
+  signing the @Act_On_Mass transparency pledge. Transparency is power
+  www.ActOnMass.org/pledge
