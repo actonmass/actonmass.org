@@ -165,7 +165,7 @@ co_sponsors:
   - john-lawn
 scripts:
   tweet_thanks: ""
-  tweet_after_thanks_call: "{bill.title} and {bill.house_no} and {bill.senate_no}"
+  tweet_after_thanks_call: ""
 history:
   - date: 2017-01-23
     description: Bill filed for the first time
