@@ -22,7 +22,7 @@ Year after year legislation that would uplift the lives of millions is delayed, 
 
 Why is it that, despite a Democratic veto-proof majority, the State House fails to pass widely popular and desperately needed legislation year after year?
 
-![](/img/table-with-bills.png)
+![](/img/small-table-with-bills.png)
 
 # **The Problem: No Transparency, No Accountability, No Progress**
 
@@ -35,8 +35,6 @@ Massachusetts has one of the least transparent State Houses in the country.  Wi
 The Transparency Is Power Campaign is a grassroots campaign that works with advocacy groups, labor unions, and individuals to build constituent power across the state. Together, we pressure our state legislators through engagement and escalation to change the rules of the State House. By standing up for rules today, we can more effectively fight for bold, transformative policies tomorrow.
 
 ![](/img/democracy-power-map-act-on-mass.png)
-
-
 
 # **Our Demands**
 
