@@ -8,6 +8,8 @@ description: Act on Mass is a non-profit organization that tracks what happens i
 menu:
   - title: Home
     page: /
+  - title: The campaign
+    page: /the-campaign
   - title: The pledge
     page: /pledge
   - title: About us
