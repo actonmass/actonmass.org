@@ -16,10 +16,6 @@ At the start of every two year legislative session, the State House writes its o
 });
 </script>
 
-[Campaign Details](/the-campaign/){:class="button"} 
-
-{: .centered }
-
 # The Massachusetts State House is broken.
 
 Year after year legislation that would uplift the lives of millions is delayed, made less ambitious, or killed behind closed doors. This pattern plays out despite clear demands from constituents on a long list of policies.
