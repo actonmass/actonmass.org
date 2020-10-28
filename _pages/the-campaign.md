@@ -20,9 +20,7 @@ At the start of every two year legislative session, the State House writes its o
 
 {: .centered }
 
-
-
-## The Massachusetts State House is broken. 
+# The Massachusetts State House is broken.
 
 Year after year legislation that would uplift the lives of millions is delayed, made less ambitious, or killed behind closed doors. This pattern plays out despite clear demands from constituents on a long list of policies.
 
@@ -30,13 +28,13 @@ Why is it that, despite a Democratic veto-proof majority, the State House fails 
 
 ![](/img/campaign1.jpg)
 
-## **The Problem: No Transparency, No Accountability, No Progress**
+# **The Problem: No Transparency, No Accountability, No Progress**
 
 Massachusetts has one of the least transparent State Houses in the country.  With few exceptions, our legislators vote in secret.  This fosters a corrupting system in which legislators are more accountable to corporations and special interests than to their own constituents. The devastating end result is a State House that fails us by prioritizing modest, incremental changes, instead of truly reflecting our values. Decisions about which bills pass are made in backroom deals. The State House operates more like an old boys club than a pillar of a vibrant democracy.
 
 ![](/img/campaign2.jpg)
 
-## The Solution: Use Constituent Power to Change The Broken Rules
+# The Solution: Use Constituent Power to Change The Broken Rules
 
 The Transparency Is Power Campaign is a grassroots campaign that works with advocacy groups, labor unions, and individuals to build constituent power across the state. Together, we pressure our state legislators through engagement and escalation to change the rules of the State House. By standing up for rules today, we can more effectively fight for bold, transformative policies tomorrow.
 
@@ -49,17 +47,13 @@ Legislator Engagement & Escalation Toolbox:
 * Public forums
 * Rallies and protests
 
-
-
-## **Our Demands**
+# **Our Demands**
 
 At the start of the legislative session in January 2021, the State House gets to write its own rulebook. We are fighting for the adoption of the following rules:
 
 ![](/img/campaign4.jpg)
 
-## **The Strategy: Where You Come In**
-
-<!--StartFragment-->
+# **The Strategy: Where You Come In**
 
 In order for these rules changes to pass, a majority of state representatives must vote yes at the start of the legislative session in January. That means we’re going to need at least 81 state representatives to commit. That’s a lot of meetings, which is why we need your help! 
 
@@ -67,7 +61,7 @@ If attending a meeting with your state legislator seems scary, don’t worry! We
 
 This is about more than transparency. This is about single payer healthcare, a rapid transition to renewable energy, immigrant protections, LGBTQ+ inclusive rights, and housing justice. This is about changing the broken system that has prevented countless desperately needed policies from becoming a reality. This is your chance to make a difference.
 
-## We are Act On Mass and we want to recruit you.
+# We are Act On Mass and we want to recruit you.
 
 Sign up below to join the team in your district and commit to attending a meeting with your legislator. We will be in touch right after you sign-up! 
 
