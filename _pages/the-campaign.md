@@ -22,26 +22,21 @@ Year after year legislation that would uplift the lives of millions is delayed, 
 
 Why is it that, despite a Democratic veto-proof majority, the State House fails to pass widely popular and desperately needed legislation year after year?
 
-![](/img/campaign1.jpg)
+![](/img/table-with-bills.png)
 
 # **The Problem: No Transparency, No Accountability, No Progress**
 
 Massachusetts has one of the least transparent State Houses in the country.  With few exceptions, our legislators vote in secret.  This fosters a corrupting system in which legislators are more accountable to corporations and special interests than to their own constituents. The devastating end result is a State House that fails us by prioritizing modest, incremental changes, instead of truly reflecting our values. Decisions about which bills pass are made in backroom deals. The State House operates more like an old boys club than a pillar of a vibrant democracy.
 
-![](/img/campaign2.jpg)
+![](/img/democracy-power-map.png)
 
 # The Solution: Use Constituent Power to Change The Broken Rules
 
 The Transparency Is Power Campaign is a grassroots campaign that works with advocacy groups, labor unions, and individuals to build constituent power across the state. Together, we pressure our state legislators through engagement and escalation to change the rules of the State House. By standing up for rules today, we can more effectively fight for bold, transformative policies tomorrow.
 
-![](/img/campaign3.jpg)
+![](/img/democracy-power-map-act-on-mass.png)
 
-Legislator Engagement & Escalation Toolbox:
 
-* Organized constituent meetings with legislators
-* Phone banking, emailing, and canvassing constituents in your district 
-* Public forums
-* Rallies and protests
 
 # **Our Demands**
 
