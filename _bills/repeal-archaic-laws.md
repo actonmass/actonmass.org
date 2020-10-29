@@ -1,6 +1,6 @@
 ---
 aom_id: repeal-archaic-laws
-title: Repeal archaic laws
+title: Repeal Archaic Laws
 full_title: An Act Relative to Archaic Crimes
 house_no: H3362
 house_link: https://malegislature.gov/Bills/191/H3362
