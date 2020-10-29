@@ -5,8 +5,8 @@ title: Health Care
 subtitle: Health care is a human right
 logo: heartbeat
 img: /img/issue-healthcare.jpg
-catchphrase: Working families across the Commonwealth are being crushed by the
-  rising cost of health care. It's time for Medicare for All.
+catchphrase: Working families across the state are being crushed by the rising
+  cost of health care. It's time for Medicare for All.
 page_img: /img/ani-kolleshi-7jjnj-qa9fy-unsplash.jpg
 bills_to_support_title: Healthcare as a Human Right
 highlighted_bills:
@@ -19,12 +19,20 @@ failures:
       free for every resident of the Commonwealth. This is an area we should be
       leading in.
   - title: Drug Prices
-    text: The prices of prescription drugs are out of control and only getting
-      worse. We need action to ensure everyone can get the medicine they need
+    text: Prescription drug prices in the United States are significantly higher
+      than most other countries, and the problem is only getting worse. We need
+      regulation to ensure everyone can get the medicine they need, regardless
+      of personal income or financial position. Unless the Legislature takes
+      action, pharmaceutical companies will be able to further exploit
+      prescription drug pricing for a greater and greater profit, at the expense
+      of patients who need them.
   - title: Essential Services
-    text: Healthcare companies have closed important services like maternity in
-      certain hospitals because they are costly to run. This puts residents at
-      risk when they have to drive farther to get the care they need.
+    text: Healthcare companies have closed important services like maternity wards
+      in certain hospitals because they are costly to run. This puts residents
+      at risk when they have to drive farther to get the care they need. Our
+      for-profit health care system prioritizes services that are profitable
+      over services that patients need, effectively denying patients necessary
+      care.
 questions:
   - title: Won't Single-payer Healthcare cost too much?
     text: "**No**, in fact a Single-payer healthcare system will save up to $21
