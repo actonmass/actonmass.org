@@ -24,9 +24,9 @@ failures:
     text: Massachusetts is just a handful of states without certification for
       officers, meaning that a cop who's fired by one town for misbehavior can
       get a job down the road in the next town. This is outrageous.
-      [Springfield's police department is so
-      bad](https://www.bostonglobe.com/2020/08/04/opinion/who-will-police-springfields-cops/)
-      that even Trump's DOJ paid attention.
+      Springfield's police department is so bad that even Trump's DOJ paid
+      attention, starting an investigation into unconstitutional policing and
+      systemic misconduct.
 questions:
   - title: Isn’t Massachusetts really progressive on criminal justice?
     text: >
