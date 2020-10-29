@@ -178,6 +178,15 @@ history:
   - date: 2012-05-08
     description: sent to study
     type: death
+  - date: 2013-01-22
+    description: Bill filed again as H.450
+  - date: 2013-11-27
+    description: Favorably reported from Education committee, referred to Ways & Means
+  - date: 2014-07-31
+    description: dies in House Ways & Means (no action taken)
+    type: death
+  - date: 2015-01-22
+    description: Filed again as H.448
 timeline:
   - date: 2019-01-22
     description: Referred to the Education Committee
