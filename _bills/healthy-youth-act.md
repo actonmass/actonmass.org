@@ -202,6 +202,8 @@ history:
   - date: 2018-07-31
     description: House Ways & Means committee allows the bill to die (no action taken)
     type: death
+  - date: 2019-01-22
+    description: Bill filed again, as H.410
 timeline:
   - date: 2019-01-22
     description: Referred to the Education Committee
