@@ -6,13 +6,20 @@ subtitle: LGBTQ+ inclusive, gender-affirming sex education should be the
   standard across the Commonwealth.
 logo: equals
 img: /img/issue-lgbt.jpg
+catchphrase: MA was the first state to recognize same-sex marriage, but only
+  because of a court ruling. Our legislature is still moving too slowly on civil
+  rights issues
+page_img: /img/mercedes-mehling-7j7x8hlxqka-unsplash.jpg
+bills_to_support_title: LGBTQ+ Rights
 highlighted_bills:
   - healthy-youth-act
   - repeal-archaic-laws
+failures_block_title: MA has been slow to expand protections for LGBTQ+ people
 failures:
   - title: Conversion Therapy
-    text: Massachusetts still hasn't passed a statewide ban on conversion therapy
-      for minors, despite its proven harmful effects on LGBTQ+ youth
+    text: Massachusetts didn't pass a statewide ban on conversion therapy for minors
+      until 2019, despite its proven harmful effects on LGBTQ+ youth, and a
+      supermajority of legislators in support.
   - title: Sex Education
     text: Comprehensive, gender-affirming sex education is still not available to
       all K-12 public school students in the Commonwealth
