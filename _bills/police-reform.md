@@ -15,7 +15,6 @@ summary:
     getting justice (Senate version only)
   - Bans chokeholds, and limits the use of no-knock raids
   - Creates basic certification standards for police
-uid: "Exemple: safe-communities-act"
 house_lead_sponsors:
   - liz-miranda
 senate_lead_sponsors:
@@ -23,9 +22,17 @@ senate_lead_sponsors:
   - william-brownsberger
   - cynthia-creem
 history:
-  - date: 2020-06-30
+  - date: 2020-06-10
     description: Bill late filed (in response to George Floyd protests)
   - date: 2020-07-23
     description: Bill passes both House & Senate, goes to Conference committee for
       compromise (still stuck here)
+timeline:
+  - date: 2020-06-10
+    description: Bill filed in response to George Floyd protests
+  - date: 2020-07-14
+    description: Bill passes Senate 30-7
+  - date: 2020-07-24
+    description: Bill passes House 93-66, sent to conference committee
+uid: "Exemple: safe-communities-act"
 ---
