@@ -23,52 +23,147 @@ house_lead_sponsors:
 senate_lead_sponsors:
   - joseph-boncore
 co_sponsors:
-  - kay-khan
-  - james-oday
-  - patricia-jehlen
-  - elizabeth-malia
+  - marjorie-decker
+  - sean-garballey
   - ruth-balser
+  - frank-moran
+  - dylan-fernandes
+  - louis-kafka
   - mike-connolly
+  - steven-ultrino
+  - jack-lewis
+  - denise-provost
+  - david-linsky
+  - jason-lewis
+  - john-lawn
+  - bud-williams
+  - james-arciero
+  - bruce-ayers
+  - christine-barber
+  - john-barrett
+  - jennifer-benson
+  - natalie-blais
+  - joseph-boncore
+  - michael-brady
+  - paul-brodeur
+  - antonio-cabral
+  - peter-capano
+  - daniel-carey
+  - gerard-cassidy
+  - harriette-chandler
+  - michelle-ciccolo
+  - edward-coppinger
+  - brendan-crighton
   - daniel-cullinane
+  - josh-cutler
   - sal-didomenico
+  - mindy-domb
   - daniel-donahue
+  - paul-donato
+  - michelle-dubois
+  - carolyn-dykema
+  - lori-ehrlich
   - james-eldridge
   - nika-elugardo
-  - sean-garballey
+  - tricia-farley-bouvier
+  - paul-feeney
+  - cindy-friedman
+  - william-galvin
   - denise-garlick
+  - carmine-gentile
   - carlos-gonzalez
+  - kenneth-gordon
   - tami-gouveia
+  - richard-haggerty
   - james-hawkins
   - stephan-hay
   - jonathan-hecht
+  - christopher-hendricks
   - natalie-higgins
   - russell-holmes
-  - daniel-hunt
+  - kevin-honan
+  - patricia-jehlen
+  - patrick-kearney
   - mary-keefe
-  - jack-lewis
+  - kay-khan
+  - kathleen-lanatra
+  - david-leboeuf
+  - jay-livingstone
   - adrian-madaro
+  - john-mahoney
+  - elizabeth-malia
+  - paul-mark
+  - joseph-mcgonagle
+  - paul-mcmurtry
+  - christina-minicucci
   - liz-miranda
-  - denise-provost
+  - rady-mom
+  - james-murphy
+  - brian-murray
+  - harold-naughton
+  - tram-nguyen
+  - patrick-oconnor
+  - marc-pacheco
+  - sarah-peake
+  - alice-peisch
+  - angelo-puppolo
   - rebecca-rausch
+  - david-robertson
+  - maria-robinson
   - david-rogers
+  - jeffrey-roy
+  - daniel-ryan
+  - lindsay-sabadosa
   - jon-santiago
+  - thomas-stanley
   - jose-tosado
-  - steven-ultrino
+  - chynah-tyler
+  - andres-vargas
+  - aaron-vega
+  - john-velis
+  - roselee-vincent
   - tommy-vitolo
-  - joseph-boncore
+  - joseph-wagner
+  - thomas-walsh
+  - james-eldridge
+  - carmine-gentile
+  - mike-connolly
   - jack-lewis
   - jason-lewis
-  - mike-connolly
-  - rebecca-rausch
-  - cindy-friedman
-  - james-eldridge
-  - brendan-crighton
+  - maria-robinson
+  - thomas-stanley
+  - james-welch
+  - christopher-hendricks
+  - jennifer-benson
+  - joanne-comerford
+  - michael-moore
+  - joseph-boncore
+  - edward-kennedy
+  - adam-hinds
   - patricia-jehlen
-  - mary-keefe
+  - cindy-friedman
   - sal-didomenico
+  - brendan-crighton
+  - paul-feeney
+  - mary-keefe
+  - david-leboeuf
+  - denise-provost
+  - rebecca-rausch
+  - joan-lovely
+  - eric-lesser
+  - mark-montigny
   - michael-brady
+  - marc-pacheco
   - sean-garballey
+  - patrick-oconnor
+  - harriette-chandler
+  - cynthia-creem
   - julian-cyr
+  - brian-murray
+  - nika-elugardo
+  - nick-collins
+  - james-hawkins
+  - john-lawn
 history:
   - date: 2020-02-10
     description: Sent to study
