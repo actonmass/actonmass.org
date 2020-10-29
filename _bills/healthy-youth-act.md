@@ -172,17 +172,18 @@ co_sponsors:
   - cynthia-creem
   - christina-minicucci
   - joan-lovely
-history: []
+history:
+  - date: 2011-01-05
+    description: Bill filed as H.1063
+  - date: 2012-05-08
+    description: sent to study
+    type: death
 timeline:
   - date: 2019-01-22
     description: Referred to the Education Committee
   - date: 2020-02-20
     description: Reported out of committee, referred to Joint Committee on Health
       Care Financing
-  - description: Reporting date extended to 5/1/2020
-    date: 2020-03-23
-  - description: Reporting date extended to 6/19/2020
-    date: 2020-04-29
   - description: Reporting date extended to 12/31/2020
     date: 2020-06-22
 ---
