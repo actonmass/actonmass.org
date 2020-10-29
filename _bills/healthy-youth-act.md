@@ -204,6 +204,10 @@ history:
     type: death
   - date: 2019-01-22
     description: Bill filed again, as H.410
+  - date: 2020-06-22
+    description: reporting deadline extended until 12/31/2020, almost ensuring the
+      bill will die again
+    type: death
 timeline:
   - date: 2019-01-22
     description: Referred to the Education Committee
