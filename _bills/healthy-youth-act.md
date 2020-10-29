@@ -187,6 +187,11 @@ history:
     type: death
   - date: 2015-01-22
     description: Filed again as H.448
+  - date: 2015-09-10
+    description: Education favorably reports, sends to Health Care Financing committee
+  - type: death
+    date: 2015-09-26
+    description: sent to study
 timeline:
   - date: 2019-01-22
     description: Referred to the Education Committee
