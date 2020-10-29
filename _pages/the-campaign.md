@@ -7,6 +7,8 @@ layout: default
 
 At the start of every two year legislative session, the State House writes its own rulebook. A new session begins in January. Over the next few months, we’re organizing constituent power in every corner of the state to demand that our legislators change the broken, anti-democratic rules in the State House.
 
+#### **Join Your District Team**
+
 <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/shell.js"></script>
 
 <script>
@@ -53,6 +55,8 @@ This is about more than transparency. This is about single payer healthcare, a r
 # We are Act On Mass and we want to recruit you.
 
 Sign up below to join the team in your district and commit to attending a meeting with your legislator. We will be in touch right after you sign-up! 
+
+#### **Join Your District Team**
 
 <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/shell.js"></script>
 
