@@ -190,7 +190,7 @@ history:
   - date: 2015-09-10
     description: Education favorably reports, sends to Health Care Financing committee
   - type: death
-    date: 2015-09-26
+    date: 2016-09-26
     description: sent to study
   - date: 2017-01-23
     description: Bill filed again as H.2053
