@@ -1,6 +1,6 @@
 ---
 aom_id: lower-voting-age-to-16
-title: Lower voting age to 16
+title: Lower Voting Age to 16
 full_title: An Act ensuring municipal participation of the widest eligible range
 house_no: H720
 house_link: https://malegislature.gov/Bills/191/H720
