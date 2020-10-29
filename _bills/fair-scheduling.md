@@ -1,6 +1,6 @@
 ---
 aom_id: fair-scheduling
-title: Fair scheduling
+title: Fair Scheduling
 full_title: An Act relative to the scheduling of employees
 house_no: H3809
 house_link: https://malegislature.gov/Bills/191/H3809
