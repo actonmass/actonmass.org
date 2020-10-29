@@ -1,6 +1,6 @@
 ---
 aom_id: cherish-act-fully-funded-public-higher-ed
-title: "Cherish Act: Fully funded public higher ed"
+title: "The Cherish Act: Fully Funded Public Higher Ed"
 full_title: An Act committing to higher education the resources to insure a
   strong and healthy public higher education system
 house_no: H1214
