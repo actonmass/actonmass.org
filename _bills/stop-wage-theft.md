@@ -1,6 +1,6 @@
 ---
 aom_id: stop-wage-theft
-title: Stop wage theft
+title: Stop Wage Theft
 full_title: An Act to prevent wage theft, promote employer accountability, and
   enhance public enforcement
 house_no: H1610
