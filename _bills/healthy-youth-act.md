@@ -192,6 +192,16 @@ history:
   - type: death
     date: 2015-09-26
     description: sent to study
+  - date: 2017-01-23
+    description: Bill filed again as H.2053
+  - date: 2017-05-19
+    description: Education committee favorably reports, sends to Health Care financing
+  - date: 2018-06-07
+    description: Health Care Financing committee favorably reports, sends to House
+      Ways & Means
+  - date: 2018-07-31
+    description: House Ways & Means committee allows the bill to die (no action taken)
+    type: death
 timeline:
   - date: 2019-01-22
     description: Referred to the Education Committee
