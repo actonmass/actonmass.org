@@ -59,8 +59,15 @@ co_sponsors:
   - lindsay-sabadosa
   - jon-santiago
   - tommy-vitolo
-history: []
+history:
+  - date: 2019-05-14
+    description: Judiciary committee hearing
+  - date: 2020-02-12
+    description: Sent to study
+    type: death
 timeline:
   - date: 2019-01-22
     description: Referred to Judiciary Committee
+  - date: 2020-02-12
+    description: Sent to study
 ---
