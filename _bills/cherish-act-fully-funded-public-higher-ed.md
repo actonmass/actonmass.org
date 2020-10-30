@@ -11,10 +11,10 @@ committee: joint-higher-education
 issue: education
 img: /img/vasily-koloda-8cqdvpuo_ki-unsplash.jpg
 summary:
-  - $600M new funding for our public higher education system
-  - Establish a fair minimum funding level per student to ensure funding keeps
+  - Allocates $600M new funding for our public higher education system
+  - Establishes a fair minimum funding level per student to ensure funding keeps
     pace with enrollments
-  - Freeze tuition and fees for five years to ensure higher ed is in reach of
+  - Freezes tuition and fees for five years to ensure higher ed is in reach of
     all students who want to attend
 orgs:
   - FOF
