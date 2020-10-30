@@ -11,9 +11,9 @@ committee: house-ways-and-means
 issue: immigration
 img: /img/bills/sca_hero_img.png
 summary:
-  - Limiting spending of local police resources on Trump’s policies
-  - Prohibiting police from asking questions about immigration status
-  - Protecting people of color from racial profiling by police
+  - Limits spending of local police resources on Trump’s policies
+  - Prohibits police from asking questions about immigration status
+  - Protects people of color from racial profiling by police
 orgs:
   - SCA
   - MIRA
@@ -127,6 +127,50 @@ scripts:
     Immigrant communities in Massachusetts should not be subjected to Trump's racist policies. 
   email_request:
     subject: Please support the Safe Communities Act!
+timeline:
+  - date: 2019-12-02T00:00:00.000Z
+    description: Hearing
+votes:
+  - legislator: william-straus
+    vote: unk
+  - legislator: paul-tucker
+    vote: unk
+  - legislator: dean-tran
+    vote: no
+  - legislator: steven-howitt
+    vote: no
+  - legislator: norman-orrall
+    vote: no
+  - legislator: david-decoste
+    vote: no
+  - legislator: adrian-madaro
+    vote: yes
+  - legislator: lindsay-sabadosa
+    vote: yes
+  - legislator: joseph-mcgonagle
+    vote: yes
+  - legislator: jonathan-hecht
+    vote: yes
+  - legislator: natalie-blais
+    vote: yes
+  - legislator: daniel-donahue
+    vote: yes
+  - legislator: peter-capano
+    vote: yes
+  - legislator: daniel-ryan
+    vote: yes
+  - legislator: eric-lesser
+    vote: yes
+  - legislator: william-brownsberger
+    vote: yes
+  - legislator: harriette-chandler
+    vote: yes
+  - legislator: cindy-friedman
+    vote: yes
+  - legislator: diana-dizoglio
+    vote: yes
+  - legislator: joseph-boncore
+    vote: yes
 scripts_com_vote:
   call_request: >
     Hi {leg.first_name} {leg.last_name},
@@ -155,7 +199,4 @@ history:
     description: Judiciary Committee Hearing
   - date: 2013-01
     description: Filed as Trust Act H1613
-timeline:
-  - date: 2019-12-02T00:00:00.000Z
-    description: Hearing
 ---
