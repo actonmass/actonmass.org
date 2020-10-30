@@ -171,6 +171,17 @@ votes:
     vote: yes
   - legislator: joseph-boncore
     vote: yes
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - legislator: michael-rush
 scripts_com_vote:
   call_request: >
     Hi {leg.first_name} {leg.last_name},
