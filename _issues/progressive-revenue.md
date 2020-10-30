@@ -10,7 +10,7 @@ catchphrase: "Massachusetts residents overwhelmingly support eliminating the tax
   revenue and redistribute wealth to communities that have been cut-out of the
   economy. "
 page_img: /img/taxes.jpg
-bills_to_support_title: ""
+bills_to_support_title: progressive revenue
 highlighted_bills:
   - fair-share-amendment
   - "strengthen-commonwealth "
@@ -111,4 +111,5 @@ references:
     link: https://malegislature.gov/laws/generallaws
   - key: "11"
     title: IRS Internal Revenue Code
+order: 5
 ---
