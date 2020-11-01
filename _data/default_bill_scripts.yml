@@ -1,7 +1,7 @@
-tweet_request: .@{legislator.twitter} please cosponsor the {bill.title} bill
+tweet_request: .@{leg.twitter} please cosponsor the {bill.title} bill
   {bill.house_no}/{bill.senate_no}. We need this important bill passed cc
   @Act_On_Mass
-tweet_thanks: .@{legislator.twitter} thank you for cosponsoring the {bill.title}
+tweet_thanks: .@{leg.twitter} thank you for cosponsoring the {bill.title}
   bill {bill.house_no}/{bill.senate_no}. We need this important bill passed cc
   @Act_On_Mass
 call_request: Hi! My name is \_\_\_\_\_ and I'm a constituent of Rep./Sen.
@@ -14,10 +14,10 @@ call_thanks: Hi! My name is \_\_\_\_\_ and I'm a constituent of Rep./Sen.
   the committee chair and leadership to ensure it is brought to the floor for
   passage as swiftly as possible. This is an important issue to me because
   \_\_\_\_\_\_\_\_\_\_.
-tweet_after_request_call: I just called @{legislator.twitter} in support of the
+tweet_after_request_call: I just called @{leg.twitter} in support of the
   {bill.title} bill {bill.house_no}/{bill.senate_no}. @Act_On_Mass made it easy
   www.ActOnMass.org
-tweet_after_thanks_call: I just called @{legislator.twitter} & thanked them for
+tweet_after_thanks_call: I just called @{leg.twitter} & thanked them for
   supporting the {bill.title} bill {bill.house_no}/{bill.senate_no}.
   @Act_On_Mass made it easy ActOnMass.org
 email_request:
@@ -34,9 +34,9 @@ email_thanks:
     the committee chair and leadership to ensure it is brought to the floor for
     passage as swiftly as possible. This is an important issue to me because
     \_\_\_\_\_\_\_\_\_\_.
-tweet_after_request_email: I just emailed @{legislator.twitter} in support of
+tweet_after_request_email: I just emailed @{leg.twitter} in support of
   the {bill.title} bill {bill.house_no}/{bill.senate_no}. @Act_On_Mass made it
   easy www.ActOnMass.org
-tweet_after_thanks_email: I just emailed @{legislator.twitter} & thanked them
+tweet_after_thanks_email: I just emailed @{leg.twitter} & thanked them
   for supporting the {bill.title} bill {bill.house_no}/{bill.senate_no}.
   @Act_On_Mass made it easy www.ActOnMass.org

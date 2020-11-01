@@ -1,7 +1,7 @@
-tweet_request: .@{legislator.twitter} please sign the @Act_On_Mass transparency
+tweet_request: .@{leg.twitter} please sign the @Act_On_Mass transparency
   pledge. More transparency is needed to make sure our democracy is strong
   www.ActOnMass.org/pledge
-tweet_thanks: .@{legislator.twitter} thank you for signing the @Act_On_Mass
+tweet_thanks: .@{leg.twitter} thank you for signing the @Act_On_Mass
   transparency pledge. I hope more of your colleagues will join you!
   www.ActOnMass.org/pledge
 call_request: >-
@@ -24,10 +24,10 @@ call_thanks: Hi! My name is \_\_\_\_\_ and I'm a constituent of Rep./Sen.
   \_\_\_\_\_. I'm just calling to thank them for signing the Act on Mass
   transparency pledge. I'm so glad to have a representative who is standing up
   for greater transparency
-tweet_after_request_call: I just called @{legislator.twitter} to ask they sign
+tweet_after_request_call: I just called @{leg.twitter} to ask they sign
   the @Act_On_Mass transparency pledge. Transparency is power
   www.ActOnMass.org/pledge
-tweet_after_thanks_call: I just called @{legislator.twitter} to thank them for
+tweet_after_thanks_call: I just called @{leg.twitter} to thank them for
   signing the @Act_On_Mass transparency pledge. Transparency is power
   www.ActOnMass.org/pledge
 email_request:
@@ -65,9 +65,9 @@ email_thanks:
     I'm just emailing to thank them for signing the Act on Mass transparency
     pledge. I'm so glad to have a representative who is standing up for greater
     transparency
-tweet_after_request_email: I just emailed @{legislator.twitter} to ask they sign
+tweet_after_request_email: I just emailed @{leg.twitter} to ask they sign
   the @Act_On_Mass transparency pledge. Transparency is power
   www.ActOnMass.org/pledge
-tweet_after_thanks_email: I just emailed @{legislator.twitter} to thank them for
+tweet_after_thanks_email: I just emailed @{leg.twitter} to thank them for
   signing the @Act_On_Mass transparency pledge. Transparency is power
   www.ActOnMass.org/pledge
