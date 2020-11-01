@@ -17,7 +17,12 @@ export function evalScripts(scripts: Scripts, params: { [key: string]: Object })
   function evalScriptsRec(tree: StringTree) {
     return mapValues(tree, (child) => {
       if (isString(child)) {
-        return doT.template(child)(...paramList);
+        try {
+          return doT.template(child)(...paramList);
+        } catch (error) {
+          console.error(`Invalid template: ${child}`);
+          return child;
+        }
       }
       return evalScriptsRec(child);
     });

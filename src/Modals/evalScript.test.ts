@@ -17,3 +17,11 @@ test("Interpolation from several entity", () => {
   );
   expect(interp.test).toBe("Hey Barack Obama, please vote for the Safe communities act");
 });
+
+test("Robustness", () => {
+  const interp = evalScripts(
+    { test: "Hey {legislator.name} {legislator.surname}, please vote for the {bill.title}" },
+    { leg: { name: "Barack", surname: "Obama" }, bill: { title: "Safe communities act" } }
+  );
+  expect(interp.test).toBe("Hey {legislator.name} {legislator.surname}, please vote for the {bill.title}");
+});
