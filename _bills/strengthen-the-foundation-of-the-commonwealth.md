@@ -1,5 +1,5 @@
 ---
-aom_id: "strengthen-commonwealth "
+aom_id: "strengthen-commonwealth"
 title: Strengthen the Commonwealth
 full_title: "Strengthen the Foundation of the Commonwealth Act: A Starting Point
   for Progressive Taxation"

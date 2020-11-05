@@ -13,7 +13,7 @@ page_img: /img/taxes.jpg
 bills_to_support_title: progressive revenue
 highlighted_bills:
   - fair-share-amendment
-  - "strengthen-commonwealth "
+  - strengthen-commonwealth
   - stop-corporate-offshoring
 failures_block_title: "TAX POLICY IS DIRECTLY RESPONSIBLE FOR RUNAWAY INEQUALITY  "
 failures:

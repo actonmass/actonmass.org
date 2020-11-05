@@ -2,25 +2,29 @@ import React from "react";
 import { render } from "react-dom";
 import moment from "moment";
 
-function BillHistory({ data }) {
-  const eventsByYear = _(data)
-    .map((event, idx) => ({ ...event, idx: data.length - idx }))
-    .groupBy((event) => moment(event.date).year())
-    .toPairs()
-    .map(([year, events]) => ({ year, events }))
-    .sortBy("year")
-    .reverse()
-    .value();
+import map from "lodash/fp/map";
+import groupBy from "lodash/fp/groupBy";
+import toPairs from "lodash/fp/toPairs";
+import sortBy from "lodash/fp/sortBy";
+import reverse from "lodash/fp/reverse";
+import flow from "lodash/fp/flow";
+
+type HistoryEvent = { date: string; description: string; event?: string };
+
+function BillHistory({ data }: { data: HistoryEvent[] }) {
+  const eventsByYear = groupByYear(data);
 
   return (
     <div className="bill-history-container">
-      {renderYear({ year: Number(eventsByYear[0].year) + 1, events: [] })}
-      {eventsByYear.map(renderYear)}
+      <HistoryYear year={Number(eventsByYear[0].year) + 1} events={[]} />
+      {eventsByYear.map(({ events, year }) => (
+        <HistoryYear year={year} events={events} />
+      ))}
     </div>
   );
 }
 
-function renderYear({ year, events }) {
+function HistoryYear({ year, events }: { year: string | number; events: HistoryEvent[] }) {
   const isOdd = Number(year) % 2 != 0;
   return (
     <React.Fragment key={year}>
@@ -73,6 +77,25 @@ function addLineBreaks(text) {
 function renderHistory(targetID, data) {
   const targetEl = document.getElementById(targetID);
   render(<BillHistory data={data} />, targetEl);
+}
+
+function groupByYear(
+  data: HistoryEvent[]
+): {
+  year: number;
+  events: HistoryEvent[];
+}[] {
+  return flow(
+    sortBy("date"),
+    reverse,
+    toPairs,
+    map(([idx, event]: [string, HistoryEvent]) => ({ ...event, idx: data.length - Number(idx) })),
+    groupBy((event) => moment(event.date).year()),
+    toPairs,
+    map(([year, events]) => ({ year, events })),
+    sortBy("year"),
+    reverse
+  )(data);
 }
 
 export default { renderHistory };
