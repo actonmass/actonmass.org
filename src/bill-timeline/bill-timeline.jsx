@@ -180,7 +180,7 @@ const BillTimeline = ({ filingDate, sessionEndDate, events }) => {
   allEvents.unshift({
     date: filingDate,
     showDurationFromToday: true,
-    text: "Bill billed",
+    text: "Bill filed",
     symbol: "big",
   });
   allEvents.push({ date: sessionEndDate, showDurationFromToday: false, text: "Session Over", symbol: "session-over" });
