@@ -14,8 +14,6 @@ type HistoryEvent = { date: string; description: string; event?: string };
 function BillHistory({ data }: { data: HistoryEvent[] }) {
   const eventsByYear = groupByYear(data);
 
-  console.log({ eventsByYear });
-
   return (
     <div className="bill-history-container">
       <HistoryYear year={Number(eventsByYear[0].year) + 1} events={[]} />
@@ -27,7 +25,6 @@ function BillHistory({ data }: { data: HistoryEvent[] }) {
 }
 
 function HistoryYear({ year, events }: { year: string | number; events: HistoryEvent[] }) {
-  console.log({ year, events });
   const isOdd = Number(year) % 2 != 0;
   return (
     <React.Fragment key={year}>
@@ -102,8 +99,3 @@ function groupByYear(
 }
 
 export default { renderHistory };
-
-function inspect(data: any) {
-  console.log(data);
-  return data;
-}
