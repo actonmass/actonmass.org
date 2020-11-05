@@ -59,14 +59,18 @@ layout: base
           {% endif %}
 
           <div class="chairs hbox">
-            <div class="vbox">
-              {% include leg-circle.html rep=senate_chair status=senate_chair_status size='L' %}
-              <p class="fRoboto fWhite fBold fUppercase">chair</p>
-            </div>
-            <div class="vbox">
-              {% include leg-circle.html rep=senate_vice_chair status=senate_vice_chair_status size='L' %}
-              <p class="fRoboto fWhite fBold fUppercase">vice-chair</p>
-            </div>
+            {% if senate_chair %}
+              <div class="vbox">
+                {% include leg-circle.html rep=senate_chair status=senate_chair_status size='L' %}
+                <p class="fRoboto fWhite fBold fUppercase">chair</p>
+              </div>
+            {% endif %}
+            {% if senate_vice_chair %}
+              <div class="vbox">
+                {% include leg-circle.html rep=senate_vice_chair status=senate_vice_chair_status size='L' %}
+                <p class="fRoboto fWhite fBold fUppercase">vice-chair</p>
+              </div>
+            {% endif %}
           </div>
 
 
@@ -102,14 +106,18 @@ layout: base
           {% endif %}
 
           <div class="chairs hbox">
-            <div class="vbox">
-              {% include leg-circle.html rep=house_chair status=house_chair_status size='L' %}
-              <p class="fRoboto fWhite fBold fUppercase">chair</p>
-            </div>
-            <div class="vbox">
-              {% include leg-circle.html rep=house_vice_chair status=house_vice_chair_status size='L' %}
-              <p class="fRoboto fWhite fBold fUppercase">vice-chair</p>
-            </div>
+            {% if house_chair %}
+              <div class="vbox">
+                {% include leg-circle.html rep=house_chair status=house_chair_status size='L' %}
+                <p class="fRoboto fWhite fBold fUppercase">chair</p>
+              </div>
+            {% endif %}
+            {% if house_vice_chair %}
+              <div class="vbox">
+                {% include leg-circle.html rep=house_vice_chair status=house_vice_chair_status size='L' %}
+                <p class="fRoboto fWhite fBold fUppercase">vice-chair</p>
+              </div>
+            {% endif %}
           </div>
 
           <div class="members">
