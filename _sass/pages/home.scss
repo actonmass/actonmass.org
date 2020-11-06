@@ -199,7 +199,7 @@
     justify-content: space-between;
 
     @media (min-width: 700px) {
-      max-width: 20rem;
+      max-width: 30rem;
     }
 
     .btn-container {
@@ -212,7 +212,7 @@
     }
 
     .btn {
-      width: 20rem;
+      width: 100%;
       padding: 1rem;
       margin-top: 1rem;
       color: var(--dark);
