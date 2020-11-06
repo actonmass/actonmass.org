@@ -3,8 +3,8 @@ permalink: /
 layout: home
 
 call_to_action:
-  text: Do your reps fight for transparency?
-  page: ./pledge
+  text: First came The Pledge, now comes The Campaign. Join our Transparency Is Power Campaign Launch next Thursday (11/12) at 6:30pm to learn how you can take action for transparency in the State House.
+  page: https://docs.google.com/forms/d/e/1FAIpQLSey2_BeLA-OlvDknGmZ46i3sXJ2Qxu8m9yettQnK5lZ1oW-QA/viewform
 
 video: https://www.youtube.com/embed/xflRK0RWOZ4
 sign_up_text: Stay informed on what's happening in the State House
