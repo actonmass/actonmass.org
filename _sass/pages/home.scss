@@ -14,10 +14,6 @@
   }
 }
 
-.btn_issues {
-  margin-top: 0rem;
-}
-
 .hero .hero_left {
   display: grid;
   grid-area: 1 / 1;
@@ -49,6 +45,12 @@
     align-self: center;
     justify-self: center;
     padding: 0rem 0rem 5rem 0rem;
+  }
+}
+
+.hero_text {
+  .btn {
+    width: 100%;
   }
 }
 
@@ -163,6 +165,7 @@
     padding: 1rem;
 
     .btn {
+      margin-top: 1rem;
       max-width: 20rem;
     }
   }
@@ -176,13 +179,6 @@
   font-size: 2.5rem;
   font-weight: 500;
   margin: 1rem 0rem 1rem 0rem;
-}
-
-a.btn_issues {
-  color: var(--dark);
-  text-decoration: none;
-  text-align: center;
-  margin-top: 2rem;
 }
 
 /* ------------- HOMEPAGE TAKE ACTION ------------- */
