@@ -3,6 +3,7 @@ aom_id: labor
 layout: issue
 title: Labor
 subtitle: Stand up for Workers' Rights
+logo: fist-raised
 img: /img/blake-wisz-q3o_8mtefm0-unsplash.jpg
 catchphrase: Working people in Massachusetts deserve stronger protections.
 page_img: /img/blake-wisz-q3o_8mtefm0-unsplash.jpg

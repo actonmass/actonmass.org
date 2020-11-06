@@ -118,10 +118,12 @@ async function fetchLegAtAdrsMock() {
     setTimeout(
       () =>
         resolve({
-          senator: "ocd-person/fb97b139-c0dd-41b5-ae52-159528f47b11",
-          representative: "ocd-person/33017dde-3525-43ff-8c3a-fb44a4a9d833",
+          legIds: {
+            senator: "ocd-person/fb97b139-c0dd-41b5-ae52-159528f47b11",
+            representative: "ocd-person/33017dde-3525-43ff-8c3a-fb44a4a9d833",
+          },
         }),
-      2000
+      500
     );
   });
 }
