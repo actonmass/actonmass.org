@@ -29,7 +29,22 @@ layout: base
     </div>
   </section>
 
-  {% include act-now.html theme="dark" %}
+  <section class="take_action hbox" id="sign-up-form">
+    <div class="learn vbox action">
+      <h3 class="take_action_txt fExbold">LEARN</h3>
+      <h4 class="take_action_txt fRoboto fLight">Get the facts about progressive issues and how we are helping</h4>
+      <div class="btn-container">
+          <a href="/bills" class="fRoboto fExbold fUppercase btn">view bills</a>
+      </div>
+    </div>
+    <div class="act vbox action">
+      <h3 class="take_action_txt fExbold">ACT NOW</h3>
+      <h4 class="take_action_txt fRoboto fLight">
+        Sign up for text and email notifications so we can contact you when your voice is needed
+      </h4>
+      {% include signup-form.html %}
+    </div>
+  </section>
 
   <section id="issues" class="issues">
     <div class="rect rect1"></div>
