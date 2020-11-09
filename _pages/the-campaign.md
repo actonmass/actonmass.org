@@ -66,3 +66,9 @@ Sign up below to join the team in your district and commit to attending a meetin
 	formId: "fd6d4250-b852-453a-922e-705e792f4167"
 });
 </script>
+
+
+
+# Watch last session's debate about these rules
+
+{% include youtube-video.html src="[](https://www.youtube.com/embed/TRi1G-dmKhg)https://www.youtube.com/watch?v=yMcZIGPJok4" %}
