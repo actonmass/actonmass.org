@@ -25,9 +25,6 @@ MA legislators voted down this proposal 127-30, see below for the record of how 
 Shockingly, 4 Reps co-sponsored this amendment to show their support, and yet voted AGAINST it when it came for a vote hours later, after it became clear the Speaker opposed it.  Those Reps are:
 
 * Alan Silvia (D-Fall River)
-
-  David Rogers (D-Belmont)
-
-  James Hawkins (D-Attleboro)
-
-  Michelle DuBois (D-Brockton)
+* David Rogers (D-Belmont)
+* James Hawkins (D-Attleboro)
+* Michelle DuBois (D-Brockton)
