@@ -56,13 +56,8 @@ This is about more than transparency. This is about single payer healthcare, a r
 
 Sign up below to join the team in your district and commit to attending a meeting with your legislator. We will be in touch right after you sign-up! 
 
-#### **Join Your District Team**
+## Endorsing Organizations
 
-<script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/shell.js"></script>
+![Progressive Massachusetts logo](/img/pledge-endorsements/prog-mass.png) ![AFT logo](/img/pledge-endorsements/AFT-MA.png) ![Sunrise Boston logo](/img/pledge-endorsements/Sunrise.png) ![UU MassAction logo](/img/pledge-endorsements/UUMassAction.png) ![Progressive Democrats of Massachusetts logo](/img/pledge-endorsements/PDM.png) ![Our Revolution Massachusetts logo](/img/pledge-endorsements/ORMA.png) ![Boston Democratic Socialists of America logo](/img/pledge-endorsements/DSA.png) ![Boston Teachers Union logo](/img/pledge-endorsements/BTU.png) ![Public higher education network of Massachusetts logo](/img/pledge-endorsements/PHENOM.png) ![Massachusetts education justice alliance logo](/img/pledge-endorsements/MEJA.png) ![Hildreth Institute logo](/img/pledge-endorsements/HI.png)
 
-<script>
-  hbspt.forms.create({
-	portalId: "6201350",
-	formId: "fd6d4250-b852-453a-922e-705e792f4167"
-});
-</script>
+{: .logo-list}
