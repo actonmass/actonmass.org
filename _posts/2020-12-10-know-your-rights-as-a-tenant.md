@@ -15,7 +15,7 @@ Although the landlord of a tenant at will or under a lease can terminate the ten
 
 They are not allowed to impose a rent increase on you unless you either agree in writing to pay the specified rent amount or if you actually pay the higher rent at least once. Once you pay the higher amount, you will be considered to have entered into a new contract at the higher rent.
 
-If you exercise your legal rights in any way (contacting the Board of Health, joining a tenants’ union, etc.) and the landlord tries to raise the rent, terminate or otherwise change your tenancy within six months of your doing so, this is considered retaliation against you - and the burden of proof is on the landlord to prove otherwise.
+If you exercise your legal rights in any way (contacting the Board of Health, joining a tenants’ union, etc.) and the landlord tries to raise your rent, terminate or otherwise change your tenancy within six months of your doing so, this is considered retaliation against you - and the burden of proof is on the landlord to prove otherwise.
 
 If you are a Section 8 tenant or you live in a building under your local Housing Authority, you may have different rights and responsibilities than those summarized in this section. Contact the agency that provided the subsidy.
 
