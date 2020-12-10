@@ -7,7 +7,7 @@ image: /img/triple-decker.jpg
 {: style="text-align: center" }
 ## Worried about eviction?
 
-27% of renters in Massachusetts are at risk of eviction in MA. We’re in a pandemic, this is nothing to be ashamed of. There’s help.
+27% of renters in Massachusetts are at risk of eviction in MA. We’re in a pandemic, this is nothing to be ashamed of. You have a right to stay in your home.
 
 **Only a judge can evict you, not your landlord.**
 
