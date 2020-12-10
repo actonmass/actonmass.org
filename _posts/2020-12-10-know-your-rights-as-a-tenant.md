@@ -2,6 +2,7 @@
 layout: post
 title: Know Your Rights As a Tenant
 date: 2020-12-10T18:37:04.529Z
+image: /img/triple-decker.jpg
 ---
 {: style="text-align: center" }
 ## Worried about eviction?
