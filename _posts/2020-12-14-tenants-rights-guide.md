@@ -77,12 +77,12 @@ The Center for Disease Control has ordered the suspension of physical evictions 
 Confused about the CDC moratorium process? Follow these five steps to apply for the moratorium:
 
 1. Ask for help with rent!
-   *  Boston: [metrohousingboston.org](metrohousingboston.org)
-   *  Other cities/towns: [masshousinginfo.org](masshousinginfo.org)
+   *  Boston: [metrohousingboston.org](https://metrohousingboston.org)
+   *  Other cities/towns: [masshousinginfo.org](https://masshousinginfo.org)
 2. Keep paying as much rent as you can.
    *  If you haven’t been paying your landlord, offer a partial rent payment that is affordable to you when you give your landlord the CDC form.
 3. Print, sign and date, then submit the CDC declaration form to your landlord or property management company (whoever you pay rent to).
-   *  You can access the CDC declaration form in PDF [here](cdc.gov/coronavirus/2019-ncov/downloads/declaration-form.pdf).
+   *  You can access the CDC declaration form in PDF [here](https://cdc.gov/coronavirus/2019-ncov/downloads/declaration-form.pdf).
    * Tip: Is there more than one person on your lease? Make sure everyone on the lease fills out their own form.
 4. Take a picture of the signed form and then give your landlord the signed form.
    *  Make sure to keep a copy of the form(s) before you give it to your landlord! The more written documentation you have, the easier it will be to prove your case in court.
