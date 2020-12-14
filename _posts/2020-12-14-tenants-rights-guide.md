@@ -2,6 +2,7 @@
 layout: post
 title: Tenants Rights Guide
 date: 2020-12-14T17:54:46.689Z
+image: /img/triple-decker.jpg
 ---
 {: style="text-align: center" }
 ## Worried about eviction?
