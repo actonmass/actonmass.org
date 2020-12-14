@@ -87,4 +87,4 @@ Confused about the CDC moratorium process? Follow these five steps to apply for 
 4. Take a picture of the signed form and then give your landlord the signed form.
    *  Make sure to keep a copy of the form(s) before you give it to your landlord! The more written documentation you have, the easier it will be to prove your case in court.
 
-If your landlord violates your rights during the COVID-19 pandemic, you have legal protection. Report the case to the Office of the MA Attorney General as soon as possible. [You can do so here](https://www.mass.gov/forms/eviction-help-request)
+If your landlord violates your rights during the COVID-19 pandemic, you have legal protection. Report the case to the Office of the MA Attorney General as soon as possible. [You can do so here](https://www.mass.gov/forms/eviction-help-request).
