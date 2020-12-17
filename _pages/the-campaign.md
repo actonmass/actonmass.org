@@ -58,7 +58,6 @@ This is about more than transparency. This is about single payer healthcare, a r
 <img src="/img/pledge-endorsements/prog-mass.png" alt="Progressive Massachusetts logo" style="width:200px;"/>
 <img src="/img/pledge-endorsements/AFT-MA.png" alt="AFT Massachusetts" style="width:200px;"/>
 <img src="/img/pledge-endorsements/SunriseBostonGrey.png" alt="Sunrise Boston" style="width:200px;"/>
-
 <img src="/img/pledge-endorsements/UUMassAction.png" alt="UU Mass Action" style="width:200px;"/>
 <img src="/img/pledge-endorsements/PDM.png" alt="Progressive Democrats of Massachusetts" style="width:200px;"/>
 <img src="/img/pledge-endorsements/MAPA.jpg" alt="Mass Peace Action" style="width:200px;"/>
