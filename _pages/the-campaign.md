@@ -55,6 +55,19 @@ This is about more than transparency. This is about single payer healthcare, a r
 
 ## Endorsing Organizations
 
-![Progressive Massachusetts logo](/img/pledge-endorsements/prog-mass.png) ![AFT logo](/img/pledge-endorsements/AFT-MA.png) <img src="/img/pledge-endorsements/SunriseBostonGrey.png" alt="Sunrise Boston" style="width:200px;"/> ![UU MassAction logo](/img/pledge-endorsements/UUMassAction.png) ![Progressive Democrats of Massachusetts logo](/img/pledge-endorsements/PDM.png) ![Massachusetts Peace Action logo](/img/pledge-endorsements/MAPA.jpg) ![Boston Democratic Socialists of America logo](/img/pledge-endorsements/DSA.png) ![Boston Teachers Union logo](/img/pledge-endorsements/BTU.png) ![Mothers Out Front logo](/img/pledge-endorsements/MOF.png) ![Sierra Club logo](/img/pledge-endorsements/SierraClub.png) ![Our Climate logo](/img/pledge-endorsements/OurClimate.gif) ![Indivisible Mass logo](/img/pledge-endorsements/IndivisibleMass.jpg) ![350 logo](/img/pledge-endorsements/350.png) ![FCCPR logo](/img/pledge-endorsements/FCCPR.jpg)
+<img src="/img/pledge-endorsements/prog-mass.png" alt="Progressive Massachusetts logo" style="width:200px;"/>
+<img src="/img/pledge-endorsements/AFT-MA.png" alt="AFT Massachusetts" style="width:200px;"/>
+<img src="/img/pledge-endorsements/SunriseBostonGrey.png" alt="Sunrise Boston" style="width:200px;"/>
+
+<img src="/img/pledge-endorsements/UUMassAction.png" alt="UU Mass Action" style="width:200px;"/>
+<img src="/img/pledge-endorsements/PDM.png" alt="Progressive Democrats of Massachusetts" style="width:200px;"/>
+<img src="/img/pledge-endorsements/MAPA.jpg" alt="Mass Peace Action" style="width:200px;"/>
+<img src="/img/pledge-endorsements/DSA.png" alt="Boston DSA" style="width:200px;"/>
+<img src="/img/pledge-endorsements/MOF.png" alt="Mothers Out Front" style="width:200px;"/>
+<img src="/img/pledge-endorsements/SierraClub.png" alt="Sierra Club" style="width:200px;"/>
+<img src="/img/pledge-endorsements/OurClimate.gif" alt="Our Climate" style="width:200px;"/>
+<img src="/img/pledge-endorsements/FCCPR.jpg" alt="FCCPR" style="width:200px;"/>
+<img src="/img/pledge-endorsements/350.png" alt="350" style="width:200px;"/>
+<img src="/img/pledge-endorsements/IndivisibleMass.jpg" alt="Indivisible Massachusetts" style="width:200px;"/>
 
 {: .logo-list}
