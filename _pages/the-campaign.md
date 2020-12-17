@@ -68,8 +68,8 @@ This is about more than transparency. This is about single payer healthcare, a r
 <img src="/img/pledge-endorsements/FCCPR.jpg" alt="FCCPR" style="width:200px;"/>
 <img src="/img/pledge-endorsements/350.png" alt="350" style="width:200px;"/>
 <img src="/img/pledge-endorsements/IndivisibleMass.jpg" alt="Indivisible Massachusetts" style="width:200px;"/>
-<img src="/img/pledge-endorsements/Blanklogo.jpg" alt="Your logo here" style="width:200px;"/>
-<img src="/img/pledge-endorsements/Blanklogo.jpg" alt="Your logo here" style="width:200px;"/>
-<img src="/img/pledge-endorsements/Blanklogo.jpg" alt="Your logo here" style="width:200px;"/>
+<img src="/img/pledge-endorsements/blanklogo.jpg" alt="Your logo here" style="width:200px;"/>
+<img src="/img/pledge-endorsements/blanklogo.jpg" alt="Your logo here" style="width:200px;"/>
+<img src="/img/pledge-endorsements/blanklogo.jpg" alt="Your logo here" style="width:200px;"/>
 
 {: .logo-list}
