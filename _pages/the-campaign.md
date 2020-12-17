@@ -52,17 +52,9 @@ If attending a meeting with your state legislator seems scary, don’t worry! We
 
 This is about more than transparency. This is about single payer healthcare, a rapid transition to renewable energy, immigrant protections, LGBTQ+ inclusive rights, and housing justice. This is about changing the broken system that has prevented countless desperately needed policies from becoming a reality. This is your chance to make a difference.
 
-# We are Act On Mass and we want to recruit you.
 
-Sign up below to join the team in your district and commit to attending a meeting with your legislator. We will be in touch right after you sign-up! 
+## Endorsing Organizations
 
-#### **Join Your District Team**
+![Progressive Massachusetts logo](/img/pledge-endorsements/prog-mass.png) ![AFT logo](/img/pledge-endorsements/AFT-MA.png) ![Sunrise Boston logo](/img/pledge-endorsements/Sunrise Boston Grey.png) ![UU MassAction logo](/img/pledge-endorsements/UUMassAction.png) ![Progressive Democrats of Massachusetts logo](/img/pledge-endorsements/PDM.png) ![Massachusetts Peace Action logo](/img/pledge-endorsements/MAPA.logo.2015.square.1024px.jpg) ![Boston Democratic Socialists of America logo](/img/pledge-endorsements/DSA.png) ![Boston Teachers Union logo](/img/pledge-endorsements/BTU.png) ![Mothers Out Front logo](/img/pledge-endorsements/MOF Logo Blue - ALL - __In USE__ - 2020 (1).png) ![Sierra Club logo](/img/pledge-endorsements/sierra club logo.png) ![Our Climate logo](/img/pledge-endorsements/Our Climate.gif)
 
-<script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/shell.js"></script>
-
-<script>
-  hbspt.forms.create({
-	portalId: "6201350",
-	formId: "fd6d4250-b852-453a-922e-705e792f4167"
-});
-</script>
+{: .logo-list}
