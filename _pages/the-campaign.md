@@ -52,17 +52,24 @@ If attending a meeting with your state legislator seems scary, don’t worry! We
 
 This is about more than transparency. This is about single payer healthcare, a rapid transition to renewable energy, immigrant protections, LGBTQ+ inclusive rights, and housing justice. This is about changing the broken system that has prevented countless desperately needed policies from becoming a reality. This is your chance to make a difference.
 
-# We are Act On Mass and we want to recruit you.
 
-Sign up below to join the team in your district and commit to attending a meeting with your legislator. We will be in touch right after you sign-up! 
+## Endorsing Organizations
 
-#### **Join Your District Team**
+<img src="/img/pledge-endorsements/prog-mass.png" alt="Progressive Massachusetts logo" style="width:200px;"/>
+<img src="/img/pledge-endorsements/AFT-MA.png" alt="AFT Massachusetts" style="width:200px;"/>
+<img src="/img/pledge-endorsements/SunriseBostonGrey.png" alt="Sunrise Boston" style="width:200px;"/>
+<img src="/img/pledge-endorsements/UUMassAction.png" alt="UU Mass Action" style="width:200px;"/>
+<img src="/img/pledge-endorsements/PDM.png" alt="Progressive Democrats of Massachusetts" style="width:200px;"/>
+<img src="/img/pledge-endorsements/MAPA.jpg" alt="Mass Peace Action" style="width:200px;"/>
+<img src="/img/pledge-endorsements/DSA.png" alt="Boston DSA" style="width:200px;"/>
+<img src="/img/pledge-endorsements/MOF.png" alt="Mothers Out Front" style="width:200px;"/>
+<img src="/img/pledge-endorsements/IndivisibleMass.jpg" alt="Indivisible Massachusetts" style="width:200px;"/>
+<img src="/img/pledge-endorsements/OurClimate.gif" alt="Our Climate" style="width:200px;"/>
+<img src="/img/pledge-endorsements/FCCPR.jpg" alt="FCCPR" style="width:200px;"/>
+<img src="/img/pledge-endorsements/350.png" alt="350" style="width:200px;"/>
+<img src="/img/pledge-endorsements/SierraClub.png" alt="Sierra Club" style="width:200px;"/>
+<img src="/img/pledge-endorsements/blanklogo.png" alt="Your logo here" style="width:200px;"/>
+<img src="/img/pledge-endorsements/blanklogo.png" alt="Your logo here" style="width:200px;"/>
+<img src="/img/pledge-endorsements/blanklogo.png" alt="Your logo here" style="width:200px;"/>
 
-<script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/shell.js"></script>
-
-<script>
-  hbspt.forms.create({
-	portalId: "6201350",
-	formId: "fd6d4250-b852-453a-922e-705e792f4167"
-});
-</script>
+{: .logo-list}
