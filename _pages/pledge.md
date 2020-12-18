@@ -55,6 +55,7 @@ State Reps-Elect and State Senators-Elect who have signed on:
 * Steve Owens (State Rep-Elect, 29th Middlesex district)
 * Orlando Ramos (State Rep-Elect, 9th Hampden district)
 * Erika Uyterhoeven (State Rep-Elect, 27th Middlesex district)
+* Brandy Fluker-Oakley (State Rep-Elect, 12th Suffolk district)
 
 Candidates for office who have signed on:
 
