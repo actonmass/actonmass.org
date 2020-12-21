@@ -9,7 +9,7 @@ At the start of every two year legislative session, the State House writes its o
 
 <div style="max-width: 800px; margin: 1rem auto;">
     <div style="position: relative; overflow: hidden; padding-top: 64%;">
-    <iframe src="https://bhrutledge.com/actonmass-campaign-map/"
+    <iframe src="https://actonmass.github.io/campaign-map/"
         style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;"></iframe>
     </div>
 </div>
