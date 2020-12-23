@@ -26,9 +26,21 @@ At the start of every two year legislative session, the State House writes its o
     </div>
 </div>
 
-*1
-*2
-*3
+<ul>
+	<li>Rep. Mike Connolly (D-Cambridge, 26th Middlesex), Amendments #1, #2, #3</li>
+	<li>Rep. Tami Gouveia (D-Acton, 14th Middlesex), Amendments #1, #2</li>
+	<li>Rep. Natalie Higgins (D-Leominster, 4th Middlesex), Amendments #1, #2</li>
+	<li>Rep. Russell Holmes (D-Mattapan, 6th Suffolk), Amendments #1, #2, #3</li>
+	<li>Rep. Patrick Kearney (D-Scituate, 4th Plymouth), Amendments #1, #2, #3</li>
+	<li>Rep. David LeBeouf (D-Worcester, 17th Worcester), Amendments #1, #2</li>
+	<li>Rep. Jack Lewis (D-Framingham, 7th Middlesex), Amendments #1, #2</li>
+	<li>Rep. Steve Owens (D-Watertown, 29th Middlesex), Amendments #1, #2, #3</li>
+	<li>Rep. Adam Scanlon (D-North Attleboro, 14th Bristol), Amendments #1, #2</li>
+	<li>Rep. Danillo Sena (D-Acton, 37th Middlesex), Amendments #1, #2, #3</li>
+	<li>Rep. Paul Tucker (D-Salem, 7th Essex), Amendment #1</li>
+	<li>Rep. Erika Uyterhoeven (D-Somerville, 27th Middlesex), Amendments #1, #2, #3</li>
+	
+</ul>
 
 # The Massachusetts State House is broken.
 
