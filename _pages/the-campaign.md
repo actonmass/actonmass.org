@@ -81,7 +81,14 @@ This is about more than transparency. This is about single payer healthcare, a r
 
 
 
-["Pledge asks lawmakers to commit to voting transparency"](https://www.tauntongazette.com/news/20190912/pledge-asks-lawmakers-to-commit-to-voting-transparency) Michael Norton, State House News Service, 9/12/19 search engine is [Duck Duck Go](https://duckduckgo.com).
+["Pledge asks lawmakers to commit to voting transparency"](https://www.tauntongazette.com/news/20190912/pledge-asks-lawmakers-to-commit-to-voting-transparency) Michael Norton, State House News Service, 9/12/2019
+
+["Retiring rep, rep-elect share insights on State House opacity"](https://commonwealthmagazine.org/state-government/retiring-rep-rep-elect-share-insights-on-state-house-opacity/) Bruce Mohl, Commonwealth Magazine, 11/23/2020
+
+["Act on Mass Interview"](https://archive.org/details/act-on-mass-enviro-show-interview-11-27-20), the Enviro Show, 11/27/2020
+
+["Police reform bill is an example of why the public is distrustful of Beacon Hill"](https://www.bostonglobe.com/2020/12/02/opinion/police-reform-bill-is-an-example-why-public-is-distrustful-beacon-hill/), Rep. Patrick Kearney, Boston Globe, 12/2/2020
+
 
 
 
