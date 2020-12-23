@@ -7,13 +7,6 @@ layout: default
 
 At the start of every two year legislative session, the State House writes its own rulebook. A new session begins in January. Over the next few months, we’re organizing constituent power in every corner of the state to demand that our legislators change the broken, anti-democratic rules in the State House.
 
-<div style="max-width: 800px; margin: 1rem auto;">
-    <div style="position: relative; overflow: hidden; padding-top: 64%;">
-    <iframe src="https://actonmass.github.io/campaign-map/"
-        style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;"></iframe>
-    </div>
-</div>
-
 #### **Join Your District Team**
 
 <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/shell.js"></script>
@@ -24,6 +17,18 @@ At the start of every two year legislative session, the State House writes its o
 	formId: "fd6d4250-b852-453a-922e-705e792f4167"
 });
 </script>
+
+#### **Did your Rep commit?**
+<div style="max-width: 800px; margin: 1rem auto;">
+    <div style="position: relative; overflow: hidden; padding-top: 64%;">
+    <iframe src="https://actonmass.github.io/campaign-map/"
+        style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;"></iframe>
+    </div>
+</div>
+
+*1
+*2
+*3
 
 # The Massachusetts State House is broken.
 
