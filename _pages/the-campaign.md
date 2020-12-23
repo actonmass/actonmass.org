@@ -27,18 +27,18 @@ At the start of every two year legislative session, the State House writes its o
 </div>
 
 <ul>
-	<li>Rep. Mike Connolly (D-Cambridge, 26th Middlesex), Amendments #1, #2, #3</li>
-	<li>Rep. Tami Gouveia (D-Acton, 14th Middlesex), Amendments #1, #2</li>
-	<li>Rep. Natalie Higgins (D-Leominster, 4th Middlesex), Amendments #1, #2</li>
-	<li>Rep. Russell Holmes (D-Mattapan, 6th Suffolk), Amendments #1, #2, #3</li>
-	<li>Rep. Patrick Kearney (D-Scituate, 4th Plymouth), Amendments #1, #2, #3</li>
-	<li>Rep. David LeBeouf (D-Worcester, 17th Worcester), Amendments #1, #2</li>
-	<li>Rep. Jack Lewis (D-Framingham, 7th Middlesex), Amendments #1, #2</li>
-	<li>Rep. Steve Owens (D-Watertown, 29th Middlesex), Amendments #1, #2, #3</li>
-	<li>Rep. Adam Scanlon (D-North Attleboro, 14th Bristol), Amendments #1, #2</li>
-	<li>Rep. Danillo Sena (D-Acton, 37th Middlesex), Amendments #1, #2, #3</li>
-	<li>Rep. Paul Tucker (D-Salem, 7th Essex), Amendment #1</li>
-	<li>Rep. Erika Uyterhoeven (D-Somerville, 27th Middlesex), Amendments #1, #2, #3</li>
+	<li>Rep. Mike Connolly (D-Cambridge), Amendments 1, 2, 3</li>
+	<li>Rep. Tami Gouveia (D-Acton), Amendments 1, 2</li>
+	<li>Rep. Natalie Higgins (D-Leominster), Amendments 1, 2</li>
+	<li>Rep. Russell Holmes (D-Mattapan), Amendments 1, 2, 3</li>
+	<li>Rep. Patrick Kearney (D-Scituate), Amendments 1, 2, 3</li>
+	<li>Rep. David LeBeouf (D-Worcester), Amendments 1, 2</li>
+	<li>Rep. Jack Lewis (D-Framingham), Amendments 1, 2</li>
+	<li>Rep. Steve Owens (D-Watertown), Amendments 1, 2, 3</li>
+	<li>Rep. Adam Scanlon (D-North Attleboro), Amendments 1, 2</li>
+	<li>Rep. Danillo Sena (D-Acton), Amendments 1, 2, 3</li>
+	<li>Rep. Paul Tucker (D-Salem), Amendment 1</li>
+	<li>Rep. Erika Uyterhoeven (D-Somerville), Amendments 1, 2, 3</li>
 	
 </ul>
 
@@ -75,6 +75,14 @@ In order for these rules changes to pass, a majority of state representatives mu
 If attending a meeting with your state legislator seems scary, don’t worry! We’ll be with you every step of the way. Act On Mass is building district level teams and will provide training to ensure that everyone who meets with their legislator is prepared. Act on Mass will attend the meeting and afterwards organize alongside your district team to escalate pressure.   
 
 This is about more than transparency. This is about single payer healthcare, a rapid transition to renewable energy, immigrant protections, LGBTQ+ inclusive rights, and housing justice. This is about changing the broken system that has prevented countless desperately needed policies from becoming a reality. This is your chance to make a difference.
+
+
+## Media
+
+
+
+["Pledge asks lawmakers to commit to voting transparency"](https://www.tauntongazette.com/news/20190912/pledge-asks-lawmakers-to-commit-to-voting-transparency) Michael Norton, State House News Service, 9/12/19 search engine is [Duck Duck Go](https://duckduckgo.com).
+
 
 
 ## Endorsing Organizations
