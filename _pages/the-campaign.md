@@ -7,13 +7,6 @@ layout: default
 
 At the start of every two year legislative session, the State House writes its own rulebook. A new session begins in January. Over the next few months, we’re organizing constituent power in every corner of the state to demand that our legislators change the broken, anti-democratic rules in the State House.
 
-<div style="max-width: 800px; margin: 1rem auto;">
-    <div style="position: relative; overflow: hidden; padding-top: 64%;">
-    <iframe src="https://actonmass.github.io/campaign-map/"
-        style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;"></iframe>
-    </div>
-</div>
-
 #### **Join Your District Team**
 
 <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/shell.js"></script>
@@ -24,6 +17,30 @@ At the start of every two year legislative session, the State House writes its o
 	formId: "fd6d4250-b852-453a-922e-705e792f4167"
 });
 </script>
+
+#### **Did your Rep commit?**
+<div style="max-width: 800px; margin: 1rem auto;">
+    <div style="position: relative; overflow: hidden; padding-top: 64%;">
+    <iframe src="https://actonmass.github.io/campaign-map/"
+        style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;"></iframe>
+    </div>
+</div>
+
+<ul>
+	<li>Rep. Mike Connolly (D-Cambridge), Amendments 1, 2, 3</li>
+	<li>Rep. Tami Gouveia (D-Acton), Amendments 1, 2</li>
+	<li>Rep. Natalie Higgins (D-Leominster), Amendments 1, 2</li>
+	<li>Rep. Russell Holmes (D-Mattapan), Amendments 1, 2, 3</li>
+	<li>Rep. Patrick Kearney (D-Scituate), Amendments 1, 2, 3</li>
+	<li>Rep. David LeBeouf (D-Worcester), Amendments 1, 2</li>
+	<li>Rep. Jack Lewis (D-Framingham), Amendments 1, 2</li>
+	<li>Rep. Steve Owens (D-Watertown), Amendments 1, 2, 3</li>
+	<li>Rep. Adam Scanlon (D-North Attleboro), Amendments 1, 2</li>
+	<li>Rep. Danillo Sena (D-Acton), Amendments 1, 2, 3</li>
+	<li>Rep. Paul Tucker (D-Salem), Amendment 1</li>
+	<li>Rep. Erika Uyterhoeven (D-Somerville), Amendments 1, 2, 3</li>
+	
+</ul>
 
 # The Massachusetts State House is broken.
 
@@ -58,6 +75,23 @@ In order for these rules changes to pass, a majority of state representatives mu
 If attending a meeting with your state legislator seems scary, don’t worry! We’ll be with you every step of the way. Act On Mass is building district level teams and will provide training to ensure that everyone who meets with their legislator is prepared. Act on Mass will attend the meeting and afterwards organize alongside your district team to escalate pressure.   
 
 This is about more than transparency. This is about single payer healthcare, a rapid transition to renewable energy, immigrant protections, LGBTQ+ inclusive rights, and housing justice. This is about changing the broken system that has prevented countless desperately needed policies from becoming a reality. This is your chance to make a difference.
+
+
+## Media
+
+
+
+["Pledge asks lawmakers to commit to voting transparency"](https://www.tauntongazette.com/news/20190912/pledge-asks-lawmakers-to-commit-to-voting-transparency) Michael Norton, State House News Service, 9/12/2019
+
+["Mass. is a participatory democracy in name only"](https://commonwealthmagazine.org/opinion/mass-is-a-participatory-democracy-in-name-only/) Erin Leahy & Ryan Daulton, Commonwealth Magazine, 11/15/2020
+
+["Retiring rep, rep-elect share insights on State House opacity"](https://commonwealthmagazine.org/state-government/retiring-rep-rep-elect-share-insights-on-state-house-opacity/) Bruce Mohl, Commonwealth Magazine, 11/23/2020
+
+["Act on Mass Interview"](https://archive.org/details/act-on-mass-enviro-show-interview-11-27-20), the Enviro Show, 11/27/2020
+
+["Police reform bill is an example of why the public is distrustful of Beacon Hill"](https://www.bostonglobe.com/2020/12/02/opinion/police-reform-bill-is-an-example-why-public-is-distrustful-beacon-hill/), Rep. Patrick Kearney, Boston Globe, 12/2/2020
+
+
 
 
 ## Endorsing Organizations
