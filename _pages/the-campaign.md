@@ -83,6 +83,8 @@ This is about more than transparency. This is about single payer healthcare, a r
 
 ["Pledge asks lawmakers to commit to voting transparency"](https://www.tauntongazette.com/news/20190912/pledge-asks-lawmakers-to-commit-to-voting-transparency) Michael Norton, State House News Service, 9/12/2019
 
+["Mass. is a participatory democracy in name only"](https://commonwealthmagazine.org/opinion/mass-is-a-participatory-democracy-in-name-only/) Erin Leahy & Ryan Daulton, Commonwealth Magazine, 11/15/2020
+
 ["Retiring rep, rep-elect share insights on State House opacity"](https://commonwealthmagazine.org/state-government/retiring-rep-rep-elect-share-insights-on-state-house-opacity/) Bruce Mohl, Commonwealth Magazine, 11/23/2020
 
 ["Act on Mass Interview"](https://archive.org/details/act-on-mass-enviro-show-interview-11-27-20), the Enviro Show, 11/27/2020
