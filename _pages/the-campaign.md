@@ -19,7 +19,6 @@ At the start of every two year legislative session, the State House writes its o
 </script>
 
 #### **Did your Rep commit?**
-
 <div style="max-width: 800px; margin: 1rem auto;">
     <div style="position: relative; overflow: hidden; padding-top: 64%;">
     <iframe src="https://actonmass.github.io/campaign-map/"
@@ -27,8 +26,21 @@ At the start of every two year legislative session, the State House writes its o
     </div>
 </div>
 
-<script src="https://unpkg.com/papaparse@5.3.0/papaparse.min.js"></script>
-<script src="https://actonmass.github.io/campaign-map/commitment-list.js"></script>
+<ul>
+	<li>Rep. Mike Connolly (D-Cambridge), Amendments 1, 2, 3</li>
+	<li>Rep. Tami Gouveia (D-Acton), Amendments 1, 2</li>
+	<li>Rep. Natalie Higgins (D-Leominster), Amendments 1, 2</li>
+	<li>Rep. Russell Holmes (D-Mattapan), Amendments 1, 2, 3</li>
+	<li>Rep. Patrick Kearney (D-Scituate), Amendments 1, 2, 3</li>
+	<li>Rep. David LeBeouf (D-Worcester), Amendments 1, 2</li>
+	<li>Rep. Jack Lewis (D-Framingham), Amendments 1, 2</li>
+	<li>Rep. Steve Owens (D-Watertown), Amendments 1, 2, 3</li>
+	<li>Rep. Adam Scanlon (D-North Attleboro), Amendments 1, 2</li>
+	<li>Rep. Danillo Sena (D-Acton), Amendments 1, 2, 3</li>
+	<li>Rep. Paul Tucker (D-Salem), Amendment 1</li>
+	<li>Rep. Erika Uyterhoeven (D-Somerville), Amendments 1, 2, 3</li>
+	
+</ul>
 
 # The Massachusetts State House is broken.
 
