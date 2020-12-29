@@ -1,5 +1,5 @@
 ---
-permalink: /12thMiddlesexRulesPetition
+permalink: /12MRules
 title: Support for State House Transparency
 layout: default
 ---
