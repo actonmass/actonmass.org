@@ -5,7 +5,7 @@ layout: default
 ---
 # **TRANSPARENCY IS POWER CAMPAIGN**
 
-At the start of every two year legislative session, the State House writes its own rulebook. A new session begins in January. Over the next few months, we’re organizing constituent power in every corner of the state to demand that our legislators change the broken, anti-democratic rules in the State House.
+At the start of every two year legislative session, the State House writes its own rulebook. A new session begins in January. Over the next few months, we’re organizing constituent power in every corner of the state to ask that our legislators change the broken, anti-democratic rules in the State House.
 
 #### **Join Your District Team**
 
@@ -32,7 +32,7 @@ At the start of every two year legislative session, the State House writes its o
 
 # The Massachusetts State House is broken.
 
-Year after year legislation that would uplift the lives of millions is delayed, made less ambitious, or killed behind closed doors. This pattern plays out despite clear demands from constituents on a long list of policies.
+Year after year legislation that would uplift the lives of millions is delayed, made less ambitious, or killed behind closed doors. This pattern plays out despite clear support from constituents on a long list of policies.
 
 Why is it that, despite a Democratic veto-proof majority, the State House fails to pass widely popular and desperately needed legislation year after year?
 
@@ -50,7 +50,7 @@ The Transparency Is Power Campaign is a grassroots campaign that works with advo
 
 ![](/img/democracy-power-map-act-on-mass.png)
 
-# **Our Demands**
+# **Our Amendments**
 
 At the start of the legislative session in January 2021, the State House gets to write its own rulebook. We are fighting for the adoption of the following rules:
 
