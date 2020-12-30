@@ -89,7 +89,7 @@ This is about more than transparency. This is about single payer healthcare, a r
 <img src="/img/pledge-endorsements/SunriseBostonGrey.png" alt="Sunrise Boston" style="width:200px;"/>
 <img src="/img/pledge-endorsements/UUMassAction.png" alt="UU Mass Action" style="width:200px;"/>
 <img src="/img/pledge-endorsements/PDM.png" alt="Progressive Democrats of Massachusetts" style="width:200px;"/>
-<img src="/img/pledge-endorsements/MAPA.jpg" alt="Mass Peace Action" style="width:200px;"/>
+<img src="/img/pledge-endorsements/ORMA.png" alt="Our Revolution MA" style="width:200px;"/>
 <img src="/img/pledge-endorsements/DSA.png" alt="Boston DSA" style="width:200px;"/>
 <img src="/img/pledge-endorsements/MOF.png" alt="Mothers Out Front" style="width:200px;"/>
 <img src="/img/pledge-endorsements/IndivisibleMass.jpg" alt="Indivisible Massachusetts" style="width:200px;"/>
@@ -97,7 +97,7 @@ This is about more than transparency. This is about single payer healthcare, a r
 <img src="/img/pledge-endorsements/FCCPR.jpg" alt="FCCPR" style="width:200px;"/>
 <img src="/img/pledge-endorsements/350.png" alt="350" style="width:200px;"/>
 <img src="/img/pledge-endorsements/SierraClub.png" alt="Sierra Club" style="width:200px;"/>
-<img src="/img/pledge-endorsements/blanklogo.png" alt="Your logo here" style="width:200px;"/>
+<img src="/img/pledge-endorsements/MAPA.jpg" alt="Mass Peace Action" style="width:200px;"/>
 <img src="/img/pledge-endorsements/blanklogo.png" alt="Your logo here" style="width:200px;"/>
 <img src="/img/pledge-endorsements/blanklogo.png" alt="Your logo here" style="width:200px;"/>
 
