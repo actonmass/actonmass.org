@@ -24,7 +24,9 @@ Because some committees are governed by the House Rules and others are governed 
 
 27 states make committee votes public on their legislature's website.
 
-IMAGE IMAGE IMAGE IMAAGE
+
+
+![27 States make committee votes public on the website](/img/rules1map.png "27 States make committee votes public on the website")
 
 ### Why does it matter?
 
@@ -44,13 +46,7 @@ Over 13 Reps have already signed up to support this amendment, but we are hearin
 ##### 1. "My constituents wouldn't understand why I take certain votes. Policy is complicated, and you've got to trust me. You know I'm on your side!"
 
 * Yes, we've actually heard this from some Reps. It's hard to believe, but some Reps don't think you're smart enough to understand how they are voting.
-
-<!---->
-
 * We're sure our Reps have good reasons for taking the votes they do, which is why they should be comfortable having their votes public and confident in answering any questions their constituents might have.
-
-<!---->
-
 * Asking to support these amendments doesn't imply that we mistrust reps! We want to be up front about what we expect to see changed.
 
 ##### 2. "If anyone wants to know how I voted, they can call me and I'll tell them."
@@ -72,7 +68,9 @@ Over 13 Reps have already signed up to support this amendment, but we are hearin
 
 * The MA Senate already displays committee votes in a clear and easy to read format. Here's an example:
 
-IMAGE IMAGE IMAGE IMAGE IMAGE
+
+
+![MA Senate puts committee votes online](/img/rule1senateexample.png "MA Senate puts committee votes online")
 
 ##### 6. "It would be too hard to put public testimony on the website, it would take staff too long."
 
