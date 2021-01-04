@@ -5,8 +5,6 @@ title: "2021 Rules Amendment #1: All Votes in Legislative Committees should be
 date: 2021-01-02T18:11:35.782Z
 image: /img/rules1map.png
 ---
-You can read the full language of our amendment here.
-
 ## What does the amendment do?
 
 * **It requires all committees to make their votes public on the website.**
@@ -17,6 +15,8 @@ You can read the full language of our amendment here.
 
   * All Reps must have 24 hours in which to consider the text of the bill and whether they support it or not.
   * The committee can take a vote to proceed faster if the matter is an emergency.
+
+You can read the full language of our amendment here.
 
 Because some committees are governed by the House Rules and others are governed by the Joint Rules, this will be a two-part amendment: one for the House rules, and another for the Joint rules.
 
