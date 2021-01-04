@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Amendment #2: Adequate time to review bills"
+title: "2021 Rules Amendment #2: Adequate time to review bills"
 date: 2021-01-03T18:17:00.000Z
 redirect_from:
   - /Amendment2Rules2021
