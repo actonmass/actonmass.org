@@ -67,7 +67,10 @@ Over 13 Reps have already signed up to support this amendment, but we are hearin
 #### 5. "I'm not sure if the State House website could display the votes in a format that would make sense."
 
 * The MA Senate already displays committee votes in a clear and easy to read format. Here's an example:
-  ![MA Senate puts committee votes online](/img/rule1senateexample.png "MA Senate puts committee votes online")
+
+<img src="/img/rule1senateexample.png" alt="MA Senate puts committee votes online" style="width:600px;">
+
+
 
 #### 6. "It would be too hard to put public testimony on the website, it would take staff too long."
 
