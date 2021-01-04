@@ -9,12 +9,14 @@ You can read the full language of our amendment here.
 
 ### What does the amendment do?
 
-* It requires all committees to make their votes public on the website.
-* It requires all testimony submitted to the committee to be made public. 
-* (chairs can grant exceptions for matters of "personal or confidential nature" like health issues if the person giving testimony requests in writing)
-* It doesn't let committee chairs rush votes through committee in less than 24 hours. 
-* All Reps must have 24 hours in which to consider the text of the bill and whether they support it or not.
-* The committee can take a vote to proceed faster if the matter is an emergency.
+* **It requires all committees to make their votes public on the website.**
+* **It requires all testimony submitted to the committee to be made public.** 
+
+  * (chairs can grant exceptions for matters of "personal or confidential nature" like health issues if the person giving testimony requests in writing)
+* **It doesn't let committee chairs rush votes through committee in less than 24 hours.** 
+
+  * All Reps must have 24 hours in which to consider the text of the bill and whether they support it or not.
+  * The committee can take a vote to proceed faster if the matter is an emergency.
 
 Because some committees are governed by the House Rules and others are governed by the Joint Rules, this will be a two-part amendment: one for the House rules, and another for the Joint rules.
 
