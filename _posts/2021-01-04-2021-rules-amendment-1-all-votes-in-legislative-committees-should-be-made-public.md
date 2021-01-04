@@ -12,11 +12,11 @@ image: /img/rules1map.png
 * **It requires all committees to make their votes public on the website.**
 * **It requires all testimony submitted to the committee to be made public.** 
 
-  * (chairs can grant exceptions for matters of "personal or confidential nature" like health issues if the person giving testimony requests in writing)
+    * (chairs can grant exceptions for matters of "personal or confidential nature" like health issues if the person giving testimony requests in writing)
 * **It doesn't let committee chairs rush votes through committee in less than 24 hours.** 
 
-  * All Reps must have 24 hours in which to consider the text of the bill and whether they support it or not.
-  * The committee can take a vote to proceed faster if the matter is an emergency.
+    * All Reps must have 24 hours in which to consider the text of the bill and whether they support it or not.
+    * The committee can take a vote to proceed faster if the matter is an emergency.
 
 You can read the full language of our amendment here.
 
@@ -87,7 +87,7 @@ Over 13 Reps have already signed up to support this amendment, but we are hearin
 * We are a representative democracy, and it's crucial for voters to know how their elected representatives are voting.
 * In this example, the final vote for this bill on the floor was on the record, so every rep was on the record and subject to attacks from the NRA. In the following year, only 3 incumbent legislators out of 200 were defeated.
 
-#### 9. We should leave this decision to each individual committee
+#### 9. "We should leave this decision to each individual committee"
 
 * We currently allow committees to make these decisions themselves and only 2 out of 29 committees provide for public committee votes clearly in their rules. There is no public discussion of committee rules for the public to weigh in on, so this would just be making the change harder.
 * It's important to build a strong democracy for all committees to follow the same process here.
