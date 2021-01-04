@@ -7,7 +7,7 @@ image: /img/rules1map.png
 ---
 You can read the full language of our amendment here.
 
-### What does the amendment do?
+## What does the amendment do?
 
 * **It requires all committees to make their votes public on the website.**
 * **It requires all testimony submitted to the committee to be made public.** 
@@ -20,7 +20,7 @@ You can read the full language of our amendment here.
 
 Because some committees are governed by the House Rules and others are governed by the Joint Rules, this will be a two-part amendment: one for the House rules, and another for the Joint rules.
 
-### How do we stack up to other states?
+## How do we stack up to other states?
 
 27 states make committee votes public on their legislature's website.
 
@@ -28,7 +28,7 @@ Because some committees are governed by the House Rules and others are governed 
 
 ![27 States make committee votes public on the website](/img/rules1map.png "27 States make committee votes public on the website")
 
-### Why does it matter?
+## Why does it matter?
 
 A lot of important progressive bills die in committee each session without a record of how they were voted on. Not only does important policy not get passed, but the public doesn't know who opposed them. If we know who votes against our interests, we could at least set up meetings with those Reps and seek common ground.
 
@@ -39,7 +39,7 @@ Here are some examples of bills that were killed in committee without a vote:
 * Protections for immigrants - Safe Communities /Trust Act (killed via study order 8 years in a row)
 * Strong Sex education laws - Healthy Youth Act (killed without a vote going back to 2012)
 
-### What are the arguments against this?
+## What are the arguments against this?
 
 Over 13 Reps have already signed up to support this amendment, but we are hearing some arguments against it from various Reps.  Below you'll find the most common arguments Reps have made against this amendment and ways to respond:
 
