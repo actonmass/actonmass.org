@@ -43,9 +43,9 @@ Here are some examples of bills that were killed in committee without a vote:
 Over 13 Reps have already signed up to support this amendment, but we are hearing some arguments against it from various Reps.  Below you'll find the most common arguments Reps have made against this amendment and ways to respond:
 
 #### 1. "My constituents wouldn't understand why I take certain votes. Policy is complicated, and you've got to trust me. You know I'm on your side!"
-* Yes, we've actually heard this from some Reps. It's hard to believe, but some Reps don't think you're smart enough to understand how they are voting.
-* We're sure our Reps have good reasons for taking the votes they do, which is why they should be comfortable having their votes public and confident in answering any questions their constituents might have.
-* Asking to support these amendments doesn't imply that we mistrust reps! We want to be up front about what we expect to see changed.
+    * Yes, we've actually heard this from some Reps. It's hard to believe, but some Reps don't think you're smart enough to understand how they are voting.
+    * We're sure our Reps have good reasons for taking the votes they do, which is why they should be comfortable having their votes public and confident in answering any questions their constituents might have.
+    * Asking to support these amendments doesn't imply that we mistrust reps! We want to be up front about what we expect to see changed.
 
 #### 2. "If anyone wants to know how I voted, they can call me and I'll tell them."
 * That's great, but it's not enough. There are approximately 43,000 people in each State Rep district. Does each one of them need to call their rep's office to find out how they voted?
