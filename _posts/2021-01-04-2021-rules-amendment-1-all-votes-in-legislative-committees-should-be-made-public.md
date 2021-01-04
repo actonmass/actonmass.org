@@ -5,8 +5,6 @@ title: "2021 Rules Amendment #1: All Votes in Legislative Committees should be
 date: 2021-01-02T18:11:35.782Z
 image: /img/rules1map.png
 ---
-# Amendment #1: All Votes in Legislative Committees should be made Public
-
 You can read the full language of our amendment here.
 
 ### What does the amendment do?
