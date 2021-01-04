@@ -3,6 +3,8 @@ layout: post
 title: "2021 Rules Amendment #1: All Votes in Legislative Committees should be
   made Public"
 date: 2021-01-02T18:11:35.782Z
+redirect_from:
+  - /Amendment1Rules2021
 image: /img/rules1map.png
 ---
 ## What does the amendment do?
