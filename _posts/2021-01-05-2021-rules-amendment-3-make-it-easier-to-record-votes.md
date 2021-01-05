@@ -16,7 +16,7 @@ Votes are not recorded in the MA House unless 16 Representatives stand and reque
 
 (In the chart below, MA is ranked behind 3 other states who also require 16 Reps in normal circumstances, because MA requires a set percentage of elected representatives while these other states require a percentage of present representatives. So in circumstances where several Reps aren't present, it there would only be 15 or less required)
 
-<img src="/img/rollcallchart.jpg" alt="MA has a higher threshold than 40 other states" style="width:600px;">
+<img src="/img/rollcallchart2.jpg" alt="MA has a higher threshold than 40 other states" style="width:600px;">
 
 ## Why does it matter?
 
