@@ -30,8 +30,6 @@ Because some committees are governed by the House Rules and others are governed 
 
 <img src="/img/rules1map.png" alt="27 States make committee votes public on the website" style="width:600px;">
 
-------------------------
-
 {: style="text-align: center" }
 ## Why does it matter?
 
@@ -105,4 +103,4 @@ Over 13 Reps have already signed up to support this amendment, but we are hearin
 * They don't need to wait because our proposal takes the current rules as the starting point, which is exactly what the temporary rules committee will do at the beginning of next year.
 * The draft rules will only be public a few days before the vote, and it's likely to be in the middle of other important deadlines like the co-sponsorship deadline. Waiting only makes sure there won't be enough time to build support in the chamber to pass these changes.
 
-**Want to know who's signed on to Amendment 1? Find out at [www.ActOnMass.org/the-campaign](http://www.actonmass.org/the-campaign).**
+**Want to know who's signed on to Amendment 1? Find out at [www.ActOnMass.org/the-campaign](https://www.actonmass.org/the-campaign).**
