@@ -17,11 +17,12 @@ image: /img/rules1map.png
     * All Reps must have 24 hours in which to consider the text of the bill and whether they support it or not.
     * The committee can take a vote to proceed faster if the matter is an emergency.
 
-You can read the full language of our amendment [here](http://actonmass.org/assets/RulesAmendment1.pdf).
+You can read the full language of our amendment [here](https://actonmass.org/assets/RulesAmendment1.pdf).
 
 Because some committees are governed by the House Rules and others are governed by the Joint Rules, this will be a two-part amendment: one for the House rules, and another for the Joint rules.
 
 ------------------------
+
 
 {: style="text-align: center" }
 ## How do we stack up to other states?
@@ -31,6 +32,7 @@ Because some committees are governed by the House Rules and others are governed 
 <img src="/img/rules1map.png" alt="27 States make committee votes public on the website" style="width:600px;">
 
 ------------------------
+
 
 {: style="text-align: center" }
 ## Why does it matter?
@@ -45,6 +47,7 @@ Here are some examples of bills that were killed in committee without a vote:
 * Strong Sex education laws - Healthy Youth Act (killed without a vote going back to 2012)
 
 ------------------------
+
 
 {: style="text-align: center" }
 ## What are the arguments against this?
@@ -105,4 +108,4 @@ Over 13 Reps have already signed up to support this amendment, but we are hearin
 * They don't need to wait because our proposal takes the current rules as the starting point, which is exactly what the temporary rules committee will do at the beginning of next year.
 * The draft rules will only be public a few days before the vote, and it's likely to be in the middle of other important deadlines like the co-sponsorship deadline. Waiting only makes sure there won't be enough time to build support in the chamber to pass these changes.
 
-**Want to know who's signed on to Amendment 1? Find out at [www.ActOnMass.org/the-campaign](http://www.actonmass.org/the-campaign).**
+**Want to know who's signed on to Amendment 1? Find out at [www.ActOnMass.org/the-campaign](https://www.actonmass.org/the-campaign).**
