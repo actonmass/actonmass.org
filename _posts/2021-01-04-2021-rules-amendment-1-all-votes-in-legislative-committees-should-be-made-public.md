@@ -30,8 +30,6 @@ Because some committees are governed by the House Rules and others are governed 
 
 <img src="/img/rules1map.png" alt="27 States make committee votes public on the website" style="width:600px;">
 
-------------------------
-
 {: style="text-align: center" }
 ## Why does it matter?
 
