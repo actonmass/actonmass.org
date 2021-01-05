@@ -32,33 +32,33 @@ There is very little debate in the House. If you've ever watched a session, you'
 
 A number of Reps have already signed up to support this amendment, but we are hearing some arguments against it from various Reps.  Below you'll find the most common arguments Reps have made against this amendment and ways to respond:
 
-#### 1. **"This would slow down the process too much and gum up the works"**
+#### 1. "This would slow down the process too much and gum up the works"
 -   A recorded vote only takes a few minutes. Reps have buttons on their desks where they can press to record their votes, and it all shows up on a big board on the wall. This is not a lot to ask.
 -   During the pandemic, these votes take a little while longer, but the House has been able to act quickly on all matters brought to the floor during the pandemic, including the controversial police reform bill.
 
-#### 2. **"This just doesn't matter, no one has failed to get a roll call this session who asked for it."**
+#### 2. "This just doesn't matter, no one has failed to get a roll call this session who asked for it."
 -   As we pointed out above, Russell Holmes was almost denied a recorded vote in January 2019 on an amendment that was only supported by democrats.
 -   And the larger problem is that most Reps don't even try. The vast, vast majority of amendments are withdrawn without debate, without a vote. For many Reps, the fear of being embarrassed by not having 16 stand to support them discourages them from even trying.
 
-#### 3. **"This is only something that Republicans care about."**
+#### 3. "This is only something that Republicans care about."
 -   Not true. Making our democracy work is something everyone of all parties can support, and greater transparency is popular
 -   In 2020 when leadership tried to raise the roll call threshold to 40 some of the loudest voices speaking out against the change were progressive lawmakers who understood that this would hurt their ability to debate.
 
-#### 4. **"Some extremist Republicans would be more likely to offer offensive amendments that would attack vulnerable immigrants and other marginalized people. This would help them get these votes recorded."**
+#### 4. "Some extremist Republicans would be more likely to offer offensive amendments that would attack vulnerable immigrants and other marginalized people. This would help them get these votes recorded."
 -   The Republicans have 31 members, far more than 16. They already have the ability to get roll call on the issues they care about. This amendment will help progressive legislators more, who don't have a formal party structure to organize within.
 -   And if there are disgusting amendments that don't have the support of 16 GOP Reps but do have the support of 8 Reps, then there is nothing to fear from a public vote. If a member wants to offer an extremist rightwing measure and record how little support there is in the legislature for it, that will be a clear public rebuke of the position. We shouldn't be afraid of publicly rejecting hateful amendments.
 
-#### 5. **"This is only something Republicans care about because it would help them filibuster Democratic priorities."**
+#### 5. "This is only something Republicans care about because it would help them filibuster Democratic priorities."
 -   This isn't a partisan issue. Voters across the state care about this issue regardless of party. When this amendment was offered in January 2019, many progressive lawmakers voted for it because they saw value in it.
 
-#### 6. **"This doesn't matter because the rules can just be waived."**
+#### 6. "This doesn't matter because the rules can just be waived."
 -   It's not really possible to "suspend" a rule like this, that specifies the number of Reps who need to stand.
 
-#### 7. **"I'll wait until the draft rules are out."**
+#### 7. "I'll wait until the draft rules are out."
 -   You don't need to wait because our proposal takes the current rules as the starting point, and that is the same as what the temporary rules committee will do at the beginning of next year.
 -   The draft rules will only be public a few days before the vote, and it's likely to be in the midst of other important deadlines for you like the co-sponsorship deadline. Waiting will ensure there isn't enough time to build support in the chamber to pass this change.
 
-#### 8. **"You've got to trust me this stuff is complicated and you know I'm on your side."**
+#### 8. "You've got to trust me this stuff is complicated and you know I'm on your side."
 - Asking for you to support these amendments doesn't at all imply that we mistrust you! We want to be up front about what we expect to see changed, and unless you have a good argument why you oppose this change, we'd like to see you commit to supporting this change!
 
 See who has committed to this at [www.ActOnMass.org/the-campaign](http://www.actonmass.org/the-campaign)
