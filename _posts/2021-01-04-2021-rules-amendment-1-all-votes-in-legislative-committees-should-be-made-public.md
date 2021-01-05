@@ -23,6 +23,7 @@ Because some committees are governed by the House Rules and others are governed 
 
 ------------------------
 
+
 {: style="text-align: center" }
 ## How do we stack up to other states?
 
