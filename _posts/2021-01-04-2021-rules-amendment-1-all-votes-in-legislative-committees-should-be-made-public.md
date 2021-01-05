@@ -21,6 +21,8 @@ You can read the full language of our amendment here.
 
 Because some committees are governed by the House Rules and others are governed by the Joint Rules, this will be a two-part amendment: one for the House rules, and another for the Joint rules.
 
+------------------------
+
 {: style="text-align: center" }
 ## How do we stack up to other states?
 
