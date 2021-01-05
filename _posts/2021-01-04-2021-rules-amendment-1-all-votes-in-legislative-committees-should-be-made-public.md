@@ -21,12 +21,16 @@ You can read the full language of our amendment here.
 
 Because some committees are governed by the House Rules and others are governed by the Joint Rules, this will be a two-part amendment: one for the House rules, and another for the Joint rules.
 
+------------------------
+
 {: style="text-align: center" }
 ## How do we stack up to other states?
 
 27 states make committee votes public on their legislature's website.
 
 <img src="/img/rules1map.png" alt="27 States make committee votes public on the website" style="width:600px;">
+
+------------------------
 
 {: style="text-align: center" }
 ## Why does it matter?
@@ -39,6 +43,8 @@ Here are some examples of bills that were killed in committee without a vote:
 * State-level Medicare-for-All (killed via study order 12 years in a row)
 * Protections for immigrants - Safe Communities /Trust Act (killed via study order 8 years in a row)
 * Strong Sex education laws - Healthy Youth Act (killed without a vote going back to 2012)
+
+------------------------
 
 {: style="text-align: center" }
 ## What are the arguments against this?
