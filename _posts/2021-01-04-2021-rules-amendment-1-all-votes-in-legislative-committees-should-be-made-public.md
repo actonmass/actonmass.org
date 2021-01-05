@@ -17,7 +17,7 @@ image: /img/rules1map.png
     * All Reps must have 24 hours in which to consider the text of the bill and whether they support it or not.
     * The committee can take a vote to proceed faster if the matter is an emergency.
 
-You can read the full language of our amendment [here](http://actonmass.org/assets/RulesAmendment1.pdf).
+You can read the full language of our amendment [here](https://actonmass.org/assets/RulesAmendment1.pdf).
 
 Because some committees are governed by the House Rules and others are governed by the Joint Rules, this will be a two-part amendment: one for the House rules, and another for the Joint rules.
 
