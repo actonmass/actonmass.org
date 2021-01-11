@@ -3,8 +3,9 @@ permalink: /
 layout: home
 
 call_to_action:
-  text: Join our Transparency Is Power Campaign
-  page: /the-campaign/
+  text: Join our Week of Action Kickoff
+  page: https://us02web.zoom.us/meeting/register/tZIvdu-vrzIuH9T_NeJV5zbfzAqsUYcQJ7ui
+
 
 video: https://www.youtube.com/embed/xflRK0RWOZ4
 sign_up_text: Stay informed on what's happening in the State House
