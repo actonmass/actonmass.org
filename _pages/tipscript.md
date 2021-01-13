@@ -37,4 +37,4 @@ If a Rep comes back to you with a question you don't know about you can refer to
 
 [AMENDMENT 2: Give Reps 72 hours to read bills before they vote on them](https://actonmass.org/post/2021/01/03/amendment-2-adequate-time-to-review-bills)
 
-**[AMENDMENT 3: Make it easier to record votes in the House](https://actonmass.org/post/2021/01/04/2021-rules-amendment-3-make-it-easier-to-record-votes)**
+[AMENDMENT 3: Make it easier to record votes in the House](https://actonmass.org/post/2021/01/04/2021-rules-amendment-3-make-it-easier-to-record-votes)
