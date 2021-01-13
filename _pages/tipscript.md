@@ -3,7 +3,7 @@ permalink: /TIPScript/
 title: Transparency is Power - Rep Contact Scripts
 layout: default
 ---
-These scripts are in reference to the transparency amendments found on [this page](www.ActOnMass.org/the-campaign)
+These scripts are in reference to the transparency amendments found on [this page](/the-campaign)
 
 ### Persuasion Script: For reps who have not yet committed to the Transparency Amendments
 
