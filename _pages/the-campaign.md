@@ -111,13 +111,12 @@ If your organization wants to endorse please fill out [THIS FORM](https://docs.g
 
 {: .logo-list}
 
-*Sunrise Arlington
-*Sunrise Arlington
-*Indivisible Pittsfield
-*Cohasset DTC
-*Malden Dem City Committee
-*Reading DTC
-*Somerville DTC
-*Lunenburg DTC
-*Somerville City Council
+* Sunrise Arlington
+* Indivisible Pittsfield
+* Cohasset DTC
+* Malden Dem City Committee
+* Reading DTC
+* Somerville DTC
+* Lunenburg DTC
+* Somerville City Council
 
