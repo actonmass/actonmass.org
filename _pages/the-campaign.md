@@ -86,6 +86,8 @@ This is about more than transparency. This is about single payer healthcare, a r
 
 ## Endorsing Organizations
 
+If your organization wants to endorse please fill out [THIS FORM](https://docs.google.com/forms/d/e/1FAIpQLSd-qiuAJ3hZmaCEgQKou9qjOlwpdOmxL-X0__DP3iYl1QXphw/viewform)
+
 <img src="/img/pledge-endorsements/prog-mass.png" alt="Progressive Massachusetts logo" style="width:200px;"/>
 <img src="/img/pledge-endorsements/AFT-MA.png" alt="AFT Massachusetts" style="width:200px;"/>
 <img src="/img/pledge-endorsements/SunriseBostonGrey.png" alt="Sunrise Boston" style="width:200px;"/>
@@ -98,9 +100,24 @@ This is about more than transparency. This is about single payer healthcare, a r
 <img src="/img/pledge-endorsements/OurClimate.gif" alt="Our Climate" style="width:200px;"/>
 <img src="/img/pledge-endorsements/FCCPR.jpg" alt="FCCPR" style="width:200px;"/>
 <img src="/img/pledge-endorsements/350.png" alt="350" style="width:200px;"/>
+<img src="/img/pledge-endorsements/ORMalden.jpg" alt="Our Revolution Malden" style="width:200px;"/>
+<img src="/img/pledge-endorsements/NOFA.png" alt="NOFA Mass" style="width:200px;"/>
+<img src="/img/pledge-endorsements/IndivisibleActon.jpg" alt="Indivisible Action" style="width:200px;"/>
+<img src="/img/pledge-endorsements/LastTreeLawsLogo.png" alt="Last Tree Laws" style="width:200px;"/>
 <img src="/img/pledge-endorsements/SierraClub.png" alt="Sierra Club" style="width:200px;"/>
 <img src="/img/pledge-endorsements/MAPA.jpg" alt="Mass Peace Action" style="width:200px;"/>
-<img src="/img/pledge-endorsements/blanklogo.png" alt="Your logo here" style="width:200px;"/>
+<img src="/img/pledge-endorsements/ZDM.png" alt="Zero Debt Massachusetts" style="width:200px;"/>
 <img src="/img/pledge-endorsements/blanklogo.png" alt="Your logo here" style="width:200px;"/>
 
 {: .logo-list}
+
+*Sunrise Arlington
+*Sunrise Arlington
+*Indivisible Pittsfield
+*Cohasset DTC
+*Malden Dem City Committee
+*Reading DTC
+*Somerville DTC
+*Lunenburg DTC
+*Somerville City Council
+
