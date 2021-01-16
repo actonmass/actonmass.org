@@ -18,13 +18,13 @@ We wrote about each bill and what happened to it below:
 
 This bill would protect immigrant communities, people of color, and our communities by limiting spending of local police resources on the federal government's policies, prohibiting police from asking questions about immigration status, and protecting people of color from racial profiling by police. It would essentially end state cooperation with ICE and prevent deportations in Massachusetts. It would also prevent the creation of a Muslim registry.
 
-**This bill was left to die in the House Ways & Means Committee chaired by Rep. Aaron Michlewitz**
+**This bill was left to die in the House Ways & Means Committee chaired by Rep. Aaron Michlewitz.**
 
-* Originally filed in 2017, advocates have been frustrated over years of in action.
-* The bill first was killed in the Public Safety Committee chaired by Rep. Harold Naughton in 2018.  The bill was sent to study, and the only Democrats on the committee who dissented from that action were Sens. Chang-Diaz, Rush, and Rep. Matias
-* Re-filed in 2019, the bill didn't see any movement until July 2020, when the Public Safety Committee (to their credit) advanced it.
-* However, when session ended, the bill expired in Rep. Michlewitz' committee, House Ways & Means.
-* In order to pass, the bill will need to be re-introduced this year, voters will need to show up to a third committee hearing in 5 years and try to convince legislators to take action.
+* Originally filed in 2017, advocates have been frustrated over years of inaction.
+* The bill first was killed in the Public Safety Committee chaired by Rep. Harold Naughton in 2018.  It was sent to study, and the only Democrats on the committee who dissented from that action were Sens. Chang-Diaz, Rush, and Rep. Matias
+* Re-filed in 2019, the bill didn't see any movement until July of 2020, when the Public Safety Committee (to their credit) advanced it.
+* However, when session ended, the bill expired in House Ways & Means, chaired by Rep. Aaron Michlewitz.
+* In order to pass, the bill will need to be re-introduced this year, and voters will need to show up to a third committee hearing in 5 years and try to convince legislators to take action.
 
 ## Work and Family Mobility Act:
 
@@ -44,4 +44,4 @@ This bill would have provided drivers' licenses to everyone in Massachusetts reg
 
 In a few days, Donald Trump will no longer be in office, but the expanded infrastructure and budget for ICE that was built during his administration remains. We have a moral obligation to cut off ties with ICE (while our federal elected officials work to abolish the agency) and make Massachusetts a safe place for everyone, regardless of immigration status. We hope the new Legislature will do their duty to their constituents and act on these bills quickly in the new session.
 
-Some legislators have told us they believe the last session accomplished a lot more than they were expecting. And there were real wins (Education funding, ROE Act, a ban on brutal conversion therapy practices). But at least when it came to standing up for immigrants, one of the more vulnerable populations in our commonwealth, the legislature failed to offer a basic rebuttal to the brutal policies of the Trump administration. Sure, they gave some wonderful speeches, but the undocumented in our state need action, not hot air.
+Some legislators have told us they believe the last session accomplished a lot more than they were expecting. And there were real wins (education funding, the ROE Act, a ban on conversion therapy). But at least when it came to standing up for immigrants, one of the more vulnerable populations in our commonwealth, the legislature failed to offer a basic rebuttal to the brutal policies of the Trump administration. Sure, they gave some wonderful speeches, but the undocumented in our state need action, not hot air.
