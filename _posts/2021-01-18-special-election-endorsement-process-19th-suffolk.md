@@ -4,12 +4,6 @@ title: "Special Election Endorsement Process: 19th Suffolk"
 date: 2021-01-18T18:42:17.382Z
 image: /img/19th-suffolk.jpg
 ---
-Act on Mass Endorsement Process
-
-![](https://lh6.googleusercontent.com/Od5yk_hjw4Wnbq3SQsPOhMQsTbnCRJMZKIWC56QQ-X9IPfnNXjO5PIx0UJizLNkGZVeEs4pfZ-AuPrW1FrjbD4pKv15Z2_M11dWTgB4IelxD-9D4WYxgI-Ax1niOvm4Ib7NBm_uc "horizontal line")
-
-# Overview
-
 Act on Mass will be endorsing candidates for State Representative in the 2021 special election in the 19th Suffolk District. The endorsement process will have 2 components:
 
 1. Written questionnaire that will be made public covering
