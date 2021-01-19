@@ -3,8 +3,8 @@ permalink: /
 layout: home
 
 call_to_action:
-  text: Join our Week of Action Kickoff
-  page: https://us02web.zoom.us/meeting/register/tZIvdu-vrzIuH9T_NeJV5zbfzAqsUYcQJ7ui
+  text: Join our Week of Action
+  page: https://docs.google.com/forms/d/e/1FAIpQLSdeJjWN5PNOz4S277_IuheWOXQzSrTuiWwNSWv5NTYo7ZG-2g/viewform
 
 
 video: https://www.youtube.com/embed/xflRK0RWOZ4
