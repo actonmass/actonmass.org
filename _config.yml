@@ -19,6 +19,8 @@ menu:
   - title: Latest updates
     page: /blog
 footer:
+  - title: Contact Us
+    page: mailto:info@actonmass.org
   - title: Donate
     page: https://secure.actblue.com/donate/act-on-mass
   - title: About us
