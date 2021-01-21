@@ -1,5 +1,5 @@
 ---
-permalink: /TIPScript/
+permalink: /script/
 title: Transparency is Power - Rep Contact Scripts
 layout: default
 ---
