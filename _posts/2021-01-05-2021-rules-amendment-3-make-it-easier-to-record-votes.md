@@ -54,7 +54,7 @@ A number of Reps have already signed up to support this amendment, but we are he
 
 #### 5. "This is only something Republicans care about because it would help them filibuster Democratic priorities."
 
--   This isn't a partisan issue. Voters across the state care about this issue regardless of party. When this amendment was offered in January 2019, many progressive lawmakers voted for it because they realized making it easier for constituents to know how they were voting helps us win progressive priorities.
+-   This isn't a partisan issue. Voters across the state care about this issue regardless of party. When other transparency amendments were offered in January 2019, many progressive lawmakers voted for it because they realized making it easier for constituents to know how they were voting helps us win progressive priorities.
 
 #### 6. "This doesn't matter because the rules can just be waived."
 
