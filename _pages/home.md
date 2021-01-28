@@ -3,8 +3,8 @@ permalink: /
 layout: home
 
 call_to_action:
-  text: Join our Week of Action
-  page: https://docs.google.com/forms/d/e/1FAIpQLSdeJjWN5PNOz4S277_IuheWOXQzSrTuiWwNSWv5NTYo7ZG-2g/viewform
+  text: Support our Transparency Campaign
+  page: /the-campaign
 
 
 video: https://www.youtube.com/embed/xflRK0RWOZ4
