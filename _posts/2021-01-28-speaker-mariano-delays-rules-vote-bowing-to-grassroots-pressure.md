@@ -1,0 +1,16 @@
+---
+layout: post
+title: Speaker Mariano delays rules vote, bowing to grassroots pressure
+date: 2021-01-28T22:20:33.399Z
+image: /img/sunrise-somerville.jpg
+---
+Wednesday evening, in an unprecedented move, Speaker of the Massachusetts State House Ron Mariano sent a letter to legislators indicating that he would delay the legislature’s vote on this session’s rules until July. This decision came in the midst of a powerful statewide campaign for rules reform which has engaged over 2500 constituents, and garnered the support of dozens of Representatives, the Boston Globe Editorial Board, and over 20 progressive advocacy organizations. 
+
+For thousands of constituents who have participated in Act on Mass’ Transparency is Power campaign, this move by Mariano makes clear that this grassroots movement is having an impact. Miriam Siegel, a constituent from the 5th Middlesex district and volunteer with Act on Mass, responds to Mariano’s letter: “State House leadership is attempting to resist a popular movement for rules reform the only way they know how: by delaying action, shutting out constituents, and disempowering grassroots advocacy organizations. How can we be empowered as constituents if we are constantly kept in the dark?”
+
+Act on Mass was founded to shine a bright light on the lack of transparency in MA’s State House. Year after year, popular pieces of progressive legislation die in our state legislature. We launched our [“Transparency is Power” campaign](https://actonmass.org/the-campaign/), to help voters take action. We identified 3 key areas for improvement: 1) making all committee votes publicly available on the state house website, 2) giving legislators and the public 72 hours to review bills before they are voted on and 3) lowering the threshold for getting votes recorded in the House from 16 members to 8. These are modest proposals that we nevertheless believe will have a big impact on breaking the logjam on Beacon Hill.
+
+The Speaker’s letter to representatives indicates that he will charge the Rules committee with undertaking a “thorough review of existing rules and proposed changes.” Residents and advocates for progressive issues are frustrated at the lack of progress on important progressive bills, which stems from a lack of basic transparency in our legislature. A thorough review is long overdue. But let’s be clear: rules are normally one of the first things the legislature takes up at the start of the session, and this is only being delayed because of the immense outpouring of support from residents all across this state who have joined our campaign and reached out to their Representatives to fight for greater transparency. The House could vote on rules now and still charge the rules committee with studying the issue and making further recommendations later in the year. Is it that the Speaker is worried about having a vote on these common sense, popular amendments we’ve proposed?
+
+Act on Mass will be holding an open Statewide Call tonight at 6:30PM to talk more about where we take the campaign from here and build on our success. Those interested in joining can [sign up here](https://docs.google.com/forms/u/1/d/e/1FAIpQLSdJ8-md2USvx-dahuO_bI2cm3arkun8c68qvSqTUSLvvUGBwQ/viewform).
+
