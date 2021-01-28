@@ -111,7 +111,7 @@ If your organization wants to endorse please fill out [THIS FORM](https://docs.g
 <img src="/img/pledge-endorsements/ZDM.png" alt="Zero Debt Massachusetts" style="width:200px;"/>
 <img src="/img/pledge-endorsements/CANWesternMass.png" alt="Clinate Action Now Western MA" style="width:200px;"/>
 <img src="/img/pledge-endorsements/MFOLMA.png" alt="March for our Lives MA" style="width:200px;"/>
-<img src="/img/pledge-endorsements/WalthamBJJ.jpg" alt="Waltham Black Future Fund" style="width:200px;"/>
+<img src="/img/pledge-endorsements/WalthamBFF.jpg" alt="Waltham Black Future Fund" style="width:200px;"/>
 <img src="/img/pledge-endorsements/MRCC.png" alt="Massachusetts Recreational Consumer Council" style="width:200px;"/>
 <img src="/img/pledge-endorsements/lynnunited.png" alt="Lynn United for Change" style="width:200px;"/>
 <img src="/img/pledge-endorsements/CDTC.jpg" alt="Carlisle DTC" style="width:200px;"/>
