@@ -117,6 +117,7 @@ If your organization wants to endorse please fill out [THIS FORM](https://docs.g
 <img src="/img/pledge-endorsements/CDTC.jpg" alt="Carlisle DTC" style="width:200px;"/>
 <img src="/img/pledge-endorsements/WBDTC.jpg" alt="West Brookfield DTC" style="width:200px;"/>
 <img src="/img/pledge-endorsements/blanklogo.png" alt="Your logo here" style="width:200px;"/>
+<img src="/img/pledge-endorsements/blanklogo.png" alt="Your logo here" style="width:200px;"/>
 {: .logo-list}
 
 * Sunrise Arlington
