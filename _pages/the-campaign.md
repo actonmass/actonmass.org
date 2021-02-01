@@ -115,6 +115,7 @@ If your organization wants to endorse please fill out [THIS FORM](https://docs.g
 <img src="/img/pledge-endorsements/MRCC.png" alt="Massachusetts Recreational Consumer Council" style="width:200px;"/>
 <img src="/img/pledge-endorsements/lynnunited.png" alt="Lynn United for Change" style="width:200px;"/>
 <img src="/img/pledge-endorsements/CDTC.jpg" alt="Carlisle DTC" style="width:200px;"/>
+<img src="/img/pledge-endorsements/WBDTC.jpg" alt="West Brookfield DTC" style="width:200px;"/>
 <img src="/img/pledge-endorsements/blanklogo.png" alt="Your logo here" style="width:200px;"/>
 <img src="/img/pledge-endorsements/blanklogo.png" alt="Your logo here" style="width:200px;"/>
 {: .logo-list}
