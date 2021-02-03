@@ -114,10 +114,14 @@ If your organization wants to endorse please fill out [THIS FORM](https://docs.g
 <img src="/img/pledge-endorsements/WalthamBFF.jpg" alt="Waltham Black Future Fund" style="width:200px;"/>
 <img src="/img/pledge-endorsements/MRCC.png" alt="Massachusetts Recreational Consumer Council" style="width:200px;"/>
 <img src="/img/pledge-endorsements/lynnunited.png" alt="Lynn United for Change" style="width:200px;"/>
+<img src="/img/pledge-endorsements/MMHF.png" alt="MA Moving Humanity Forward" style="width:200px;"/>
+<img src="/img/pledge-endorsements/BerkDSA.jpg" alt="Berkshires DSA" style="width:200px;"/>
+<img src="/img/pledge-endorsements/GrassrootsCentralMass.jpg" alt="Grassroots Central Mass" style="width:200px;"/>
+<img src="/img/pledge-endorsements/EWALogo.png" alt="End Workplace Abuse" style="width:200px;"/>
 <img src="/img/pledge-endorsements/CDTC.jpg" alt="Carlisle DTC" style="width:200px;"/>
 <img src="/img/pledge-endorsements/WBDTC.jpg" alt="West Brookfield DTC" style="width:200px;"/>
 <img src="/img/pledge-endorsements/blanklogo.png" alt="Your logo here" style="width:200px;"/>
-<img src="/img/pledge-endorsements/blanklogo.png" alt="Your logo here" style="width:200px;"/>
+
 {: .logo-list}
 
 * Sunrise Arlington
