@@ -4,7 +4,8 @@ title: We’re endorsing Juan Jaramillo for State Representative!
 date: 2021-02-09T19:31:07.843Z
 image: /img/juan-graphic.png
 ---
-![](/img/juan-graphic.png)
+
+<img src="/img/juan-graphic.png" alt="Juan Jaramillo" style="width:500px;"/>
 
 If you’ve followed our coverage of the State House, you’ve seen how the inertia and complacency of the State House is keeping us from solving the crises of our time. Important bills sit for months with no action and legislation is frequently killed without a public vote while decisions are made in secret.
 
@@ -18,4 +19,4 @@ We believe one candidate in the race stands out as being a champion for the prog
 
 We’re inspired by the grassroots campaign he’s built in such a short time and the momentum he’s building - a coalition of workers, of unions, of BIPOC communities, of young voters, and climate activists.
 
-Read his questionnaire answers here.
+Read his [questionnaire answers here](/assets/AOM2021JJQ.pdf).
