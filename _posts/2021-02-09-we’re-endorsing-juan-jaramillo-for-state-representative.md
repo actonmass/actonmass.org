@@ -4,6 +4,8 @@ title: We’re endorsing Juan Jaramillo for State Representative!
 date: 2021-02-09T19:31:07.843Z
 image: /img/juan-graphic.png
 ---
+![](/img/juan-graphic.png)
+
 If you’ve followed our coverage of the State House, you’ve seen how the inertia and complacency of the State House is keeping us from solving the crises of our time. Important bills sit for months with no action and legislation is frequently killed without a public vote while decisions are made in secret.
 
 The State House spent two years stalling on important policies like the Safe Communities Act, Healthy Youth Act, and repealing the statewide ban on tenant protections. This month these same bills will need to be re-filed. Activists will need to go through the process again of winning co-sponsors and building outside public pressure, with little insight into what’s really going to happen to the bills. This glacial, secretive process is considered ok in the State House.  It’s just “how things are done.” 
