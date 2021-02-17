@@ -118,6 +118,9 @@ If your organization wants to endorse please fill out [THIS FORM](https://docs.g
 <img src="/img/pledge-endorsements/BerkDSA.jpg" alt="Berkshires DSA" style="width:200px;"/>
 <img src="/img/pledge-endorsements/GrassrootsCentralMass.jpg" alt="Grassroots Central Mass" style="width:200px;"/>
 <img src="/img/pledge-endorsements/EWALogo.png" alt="End Workplace Abuse" style="width:200px;"/>
+<img src="/img/pledge-endorsements/MSAC.jpg" alt="Mass Senior Action Council" style="width:200px;"/>
+<img src="/img/pledge-endorsements/Masscare.jpg" alt="Mass Care" style="width:200px;"/>
+<img src="/img/pledge-endorsements/MendonDTC.jpg" alt="Mendon DTC" style="width:200px;"/>
 <img src="/img/pledge-endorsements/CDTC.jpg" alt="Carlisle DTC" style="width:200px;"/>
 <img src="/img/pledge-endorsements/WBDTC.jpg" alt="West Brookfield DTC" style="width:200px;"/>
 <img src="/img/pledge-endorsements/blanklogo.png" alt="Your logo here" style="width:200px;"/>
