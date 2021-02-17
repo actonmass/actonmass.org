@@ -42,49 +42,24 @@ Current signers:
 * Rep. John Rogers (D-Norwood, 12th Norfolk district)
 * Rep. Russell Holmes (D-Boston, 6th Suffolk district)
 * Rep. Dan Sena (D-Acton, 37th Middlesex district)
+* Rep. Vanna Howard (D-Lowell, 17th Middlesex district)
+* Rep. Meghan Kilcoyne (State Rep-Elect, 12th Worcester district)
+* Rep. Michael Kushmerek (State Rep-Elect, 3rd Worcester district)
+* Rep. Steve Owens (State Rep-Elect, 29th Middlesex district)
+* Rep. Orlando Ramos (State Rep-Elect, 9th Hampden district)
+* Rep. Erika Uyterhoeven (State Rep-Elect, 27th Middlesex district)
+* Rep. Brandy Fluker-Oakley (State Rep-Elect, 12th Suffolk district)
 * Sen. Jamie Eldridge (D-Acton, Middlesex and Worcester district)
 * Sen. Becca Rausch (D-Needham, Norfolk, Bristol and Middlesex district)
 * Sen. Susan Moran (D-Falmouth, Plymouth and Barnstable district)
-
-State Reps-Elect and State Senators-Elect who have signed on:
-
-* Adam Gomez Sr. (State Senator-Elect, Hampden district)
-* Vanna Howard (State Rep-Elect, 17th Middlesex district)
-* Meghan Kilcoyne (State Rep-Elect, 12th Worcester district)
-* Michael Kushmerek (State Rep-Elect, 3rd Worcester district)
-* Steve Owens (State Rep-Elect, 29th Middlesex district)
-* Orlando Ramos (State Rep-Elect, 9th Hampden district)
-* Erika Uyterhoeven (State Rep-Elect, 27th Middlesex district)
-* Brandy Fluker-Oakley (State Rep-Elect, 12th Suffolk district)
+* Sen. Adam Gomez Sr. (State Senator-Elect, Hampden district)
 
 Candidates for office who have signed on:
 
-* Ceylan Rowe (Candidate for State Rep, 12th Worcester district)
-* Nichole Mossalam (Candidate for State Rep, 35th Middlesex district)
-* Melissa Smith (Candidate for State Rep, 4th Norfolk district)
-* Michelle Mullet (Candidate for State Rep, 20th Middlesex district)
-* Mike Dooley (Candidate for State Rep, 12th Norfolk district)
-* Anna Callahan (Candidate for State Rep, 34th Middlesex district)
-* Richard Canavan-Wagner (Candidate for State Rep, 6th Essex district)
-* Joseph Gravellese (Candidate for State Rep, 16th Suffolk district)
-* Gretchen Van Ness (Candidate for State Rep, 14th Suffolk district)
-* Lisa Arnold (Candidate for State Rep, 17th Middlesex district)
-* Charlene DiCalogero (Candidate for State Rep, 12th Worcester district)
-* Damali Vidot (Candidate for State Rep, 2nd Suffolk district)
-* Jennifer Fries (Candidate for State Rep, 24th Middlesex district)
-* Alison Leary (Candidate for State Rep, 10th Middlesex district)
-* Andrew Flowers (Candidate for State Rep, 8th Norfolk district)
-* William LaRose (Candidate for State Rep, 2nd Franklin district)
-* Sean Mullan (Candidate for State Rep, 9th Hampden district)
-* Jeanne Cahill (Candidate for State Rep, 4th Middlesex district)
-* Marianela Rivera (Candidate for State Rep, 17th Essex district)
-* Josh Mason (Candidate for State Rep, 1st Barnstable district)
-* Jordan Meehan (Candidate for State Rep, 17th Suffolk district)
-* Samuel Biagetti (Candidate for State Rep, 5th Worcester district)
-* Hunter Cohen (Candidate for State Rep, 9th Norfolk district)
-* Tamisha Civil (Candidate for State Rep, 6th Norfolk district)
-* Meg Wheeler (Candidate for State Senate, Plymouth & Norfolk district)
-* Jarred Rose (Candidate for State Senate, Norfolk, Bristol and Plymouth district)
+* Juan Pablo Jaramillo (Candidate for State Rep, 19th Suffolk district)
+* Alicia DelVento (Candidate for State Rep, 19th Suffolk district)
+
+
 
 ## Why a Pledge?
 
