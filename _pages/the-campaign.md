@@ -134,5 +134,7 @@ If your organization wants to endorse please fill out [THIS FORM](https://docs.g
 * Reading DTC
 * Somerville DTC
 * Lunenburg DTC
+* Southbridge DTC
 * Somerville City Council
+
 
