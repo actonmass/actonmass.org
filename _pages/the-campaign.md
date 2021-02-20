@@ -97,7 +97,6 @@ If your organization wants to endorse please fill out [THIS FORM](https://docs.g
 <img src="/img/pledge-endorsements/PDM.png" alt="Progressive Democrats of Massachusetts" style="width:200px;"/>
 <img src="/img/pledge-endorsements/ORMA.png" alt="Our Revolution MA" style="width:200px;"/>
 <img src="/img/pledge-endorsements/DSA.png" alt="Boston DSA" style="width:200px;"/>
-<img src="/img/pledge-endorsements/MOF.png" alt="Mothers Out Front" style="width:200px;"/>
 <img src="/img/pledge-endorsements/IndivisibleMass.jpg" alt="Indivisible Massachusetts" style="width:200px;"/>
 <img src="/img/pledge-endorsements/OurClimate.gif" alt="Our Climate" style="width:200px;"/>
 <img src="/img/pledge-endorsements/FCCPR.jpg" alt="FCCPR" style="width:200px;"/>
@@ -123,6 +122,7 @@ If your organization wants to endorse please fill out [THIS FORM](https://docs.g
 <img src="/img/pledge-endorsements/MendonDTC.jpg" alt="Mendon DTC" style="width:200px;"/>
 <img src="/img/pledge-endorsements/CDTC.jpg" alt="Carlisle DTC" style="width:200px;"/>
 <img src="/img/pledge-endorsements/WBDTC.jpg" alt="West Brookfield DTC" style="width:200px;"/>
+<img src="/img/pledge-endorsements/blanklogo.png" alt="Your logo here" style="width:200px;"/>
 <img src="/img/pledge-endorsements/blanklogo.png" alt="Your logo here" style="width:200px;"/>
 
 {: .logo-list}
