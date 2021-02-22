@@ -3,31 +3,41 @@ permalink: /script/
 title: Transparency is Power - Rep Contact Scripts
 layout: default
 ---
-These scripts are in reference to the transparency amendments found on [this page](/the-campaign)
+To look up your State Rep, please <a href="https://malegislature.gov/Search/FindMyLegislator" target="_blank">click here</a>
 
-### Persuasion Script: For reps who have not yet committed to the Transparency Amendments
+To find out if your State Rep has already agreed to support public committee votes, <a href="www.ActOnMass.org/the-campaign/" target="_blank">check under the map on this page</a>
+
+### Persuasion Script: For reps who have not yet committed to the Transparency is Power Amendment #1 for Public Committee Votes
+
+No Public Commitment: For reps who have not committed to supporting public committee votes and testimony
 
 Hi, my name is (NAME) and I'm a resident of your district at (ADDRESS/NEIGHBORHOOD) in (CITY). 
 
-I'm writing/calling to ask that you publicly commit to voting in favor of three amendments that would make the State House more transparent and accountable to the public: making all votes and testimony held in committee available to the public, mandating that all bills are publicly available for 72 hours prior to a vote, and reducing the threshold for a floor vote to be publicly recorded in the House of Representatives from 16 state representatives to 8. 
+I'm writing/calling to ask that you vote for amendment X to the joint rules making committee votes and testimony public for all joint committees. This amendment matches the language the Senate adopted in S.14 on Feb. 11, and clarifies that it applies to study orders.
 
-These amendments would make it easier for citizens to know what their reps are doing and how the Legislature's decisions affect them. The State House’s current lack of transparency is preventing the public from their right to be included in the democratic process, and we can’t achieve the change we need without working people having a seat at the table. 
+I strongly believe that constituents deserve to see how their reps vote in committees as well as what testimony is influencing their decision, and this amendment would do just that. The State House’s current lack of transparency prevents the public from being included in the democratic process, and we can’t have a healthy democracy without everyday people having a seat at the table. 
 
-As a legislator who was elected to represent the voices of the district, I hope you will choose to empower your constituents and vote in favor of these three amendments. 
+As a legislator who was elected to represent the voices of the district, I hope you will choose to empower your constituents and vote in favor of this amendment. 
 
 Thank you.
+
+
 
 ### Thank You Script: For reps who have committed to one or all of the Transparency Amendments
 
+Public Commitment: For reps who have committed to support public committee votes and testimony
+
 Hi, my name is (NAME) and I'm a resident of your district at (ADDRESS/NEIGHBORHOOD) in (CITY). 
 
-I'm writing/calling to thank you for committing to vote in favor of the Transparency Amendment(s) that would make the State House more transparent and accountable to the public! Namely, \[making all votes and testimony held in committee available to the public / mandating that all bills are publicly available for 72 hours prior to a vote / reducing the threshold for a floor vote to be publicly recorded in the House of Representatives from 16 state representatives to 8].
+Thank you for your commitment to support making committee votes and testimony public. To that end, I'm writing/calling to ask that you vote for amendment X to the joint rules making committee votes and testimony public for all joint committees. This amendment matches the language the Senate adopted in S.14 on Feb. 11, and clarifies that it applies to study orders.
 
-I support these/this amendment(s) because these/this change(s) would make it easier for citizens to know what their reps are doing and how the Legislature's decisions affect them. Thank you for being courageous and fighting for your constituents’ right to be involved in the democratic process. I am grateful that we have you as an ally in the fight to give working people a seat at the table. 
+We agree that constituents deserve to see how their reps vote in committees as well as what testimony is influencing their decision, and this amendment would do just that. The State House’s current lack of transparency prevents the public from being included in the democratic process, and we can’t have a healthy democracy without everyday people having a seat at the table. 
 
-I look forward to your continued leadership on this issue!
+As a legislator who was elected to represent the voices of the district, I want to thank you for choosing to empower your constituents by voting in favor of this amendment. 
 
 Thank you.
+
+
 
 ### FAQ
 
