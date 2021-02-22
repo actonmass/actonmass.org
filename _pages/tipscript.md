@@ -5,7 +5,7 @@ layout: default
 ---
 To look up your State Rep, please <a href="https://malegislature.gov/Search/FindMyLegislator" target="_blank">click here</a>
 
-To find out if your State Rep has already agreed to support public committee votes, <a href="www.ActOnMass.org/the-campaign/" target="_blank">check under the map on this page</a>
+To find out if your State Rep has already agreed to support public committee votes, <a href="the-campaign/" target="_blank">check under the map on this page</a>
 
 ### Persuasion Script: For reps who have not yet committed to the Transparency is Power Amendment #1 for Public Committee Votes
 
@@ -21,8 +21,6 @@ As a legislator who was elected to represent the voices of the district, I hope 
 
 Thank you.
 
-
-
 ### Thank You Script: For reps who have committed to one or all of the Transparency Amendments
 
 Public Commitment: For reps who have committed to support public committee votes and testimony
@@ -36,8 +34,6 @@ We agree that constituents deserve to see how their reps vote in committees as w
 As a legislator who was elected to represent the voices of the district, I want to thank you for choosing to empower your constituents by voting in favor of this amendment. 
 
 Thank you.
-
-
 
 ### FAQ
 
