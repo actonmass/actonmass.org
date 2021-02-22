@@ -5,7 +5,7 @@ layout: default
 ---
 To look up your State Rep, please <a href="https://malegislature.gov/Search/FindMyLegislator" target="_blank">click here</a>
 
-To find out if your State Rep has already agreed to support public committee votes, <a href="the-campaign/" target="_blank">check under the map on this page</a>
+To find out if your State Rep has already agreed to support public committee votes, <a href="https://actonmass.org/the-campaign/" target="_blank">check under the map on this page</a>
 
 ### Persuasion Script: For reps who have not yet committed to the Transparency is Power Amendment #1 for Public Committee Votes
 
