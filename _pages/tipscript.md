@@ -7,9 +7,7 @@ To look up your State Rep, please <a href="https://malegislature.gov/Search/Find
 
 To find out if your State Rep has already agreed to support public committee votes, <a href="https://actonmass.org/the-campaign/" target="_blank">check under the map on this page</a>
 
-### Persuasion Script: For reps who have not yet committed to the Transparency is Power Amendment #1 for Public Committee Votes
-
-No Public Commitment: For reps who have not committed to supporting public committee votes and testimony
+### No Public Commitment: For reps who have not yet committed to the Transparency is Power Amendment #1 for Public Committee Votes & Testimony
 
 Hi, my name is (NAME) and I'm a resident of your district at (ADDRESS/NEIGHBORHOOD) in (CITY). 
 
@@ -21,9 +19,7 @@ As a legislator who was elected to represent the voices of the district, I hope 
 
 Thank you.
 
-### Thank You Script: For reps who have committed to one or all of the Transparency Amendments
-
-Public Commitment: For reps who have committed to support public committee votes and testimony
+### Public Commitment: For reps who have committed to support public committee votes and testimony
 
 Hi, my name is (NAME) and I'm a resident of your district at (ADDRESS/NEIGHBORHOOD) in (CITY). 
 
