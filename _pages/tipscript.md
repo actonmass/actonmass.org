@@ -5,6 +5,8 @@ layout: default
 ---
 # Feb 24th - Act for Public Committee Votes
 
+**Please call your State Rep to ask him/her to vote for amendment #8 "Public Committee Votes & Testimony"  More info below.**
+
 Earlier this month, the State Senate passed a version of rules that took a big step forward for state house transparency by including almost everything we’ve been asking for in our 1st point of the Transparency is Power campaign. The Senate rules would make all joint committee votes publicly available on the State House Website & made all testimony made to committees available to the public. You would be able to see, on the bill page, a simple easy-to-understand grid that lets you know how all the individuals on a committee voted (see example below).
 
 The Senate sent its version of the rules to the House last week for a vote this Wednesday. Over the weekend and early this week, the House reviewed and stripped out most of the transparency measures in the Senate version, introducing a bill that is much weaker in a number of key ways:
@@ -27,9 +29,11 @@ To find out if your State Rep has already agreed to support public committee vot
 
 ## No Public Commitment: For reps who have not yet committed to the Transparency is Power Amendment #1 for Public Committee Votes & Testimony
 
-Hi, my name is (NAME) and I'm a resident of your district at (ADDRESS/NEIGHBORHOOD) in (CITY). 
+Hi, my name is \_\_\_\_\_\_\_\_\_(NAME) and I'm a resident of your district at \_\_\_\_\_\_\_\_\_\_\_(ADDRESS/NEIGHBORHOOD) in \_\_\_\_\_\_\_\_\_\_(CITY). 
 
-I'm writing/calling to ask that you vote for amendment # _______ (amendment number will be updated when it is filed) to the joint rules making committee votes and testimony public for all joint committees. This amendment matches the language the Senate adopted in S.14 on Feb. 11, and clarifies that it applies to study orders.
+I'm writing/calling to **ask that you vote for amendment # 8 "Public Committee Votes & Testimony"** to H.68 to the joint rules making committee votes and testimony public for all joint committees. This amendment matches the language the Senate adopted on Feb. 11, and clarifies that it applies to study orders.
+
+Please vote for amendment #8 and if there is still time, please "quill on" and co-sponsor the amendment.
 
 I strongly believe that constituents deserve to see how their reps vote in committees as well as what testimony is influencing their decision, and this amendment would do just that. The State House’s current lack of transparency prevents the public from being included in the democratic process, and we can’t have a healthy democracy without everyday people having a seat at the table. 
 
@@ -37,26 +41,16 @@ As a legislator who was elected to represent the voices of the district, I hope 
 
 Thank you.
 
-
 ## Public Commitment: For reps who have committed to support public committee votes and testimony
 
-Hi, my name is (NAME) and I'm a resident of your district at (ADDRESS/NEIGHBORHOOD) in (CITY). 
+Hi, my name is \_\_\_\_\_\_\_\_\_(NAME) and I'm a resident of your district at \_\_\_\_\_\_\_\_\_\_\_(ADDRESS/NEIGHBORHOOD) in \_\_\_\_\_\_\_\_\_\_(CITY). 
 
-Thank you for your commitment to support making committee votes and testimony public. To that end, I'm writing/calling to ask that you vote for amendment # _______ (amendment number will be updated when it is filed) to the joint rules making committee votes and testimony public for all joint committees. This amendment matches the language the Senate adopted in S.14 on Feb. 11, and clarifies that it applies to study orders.
+Thank you for your commitment to support making committee votes and testimony public. To that end, I'm writing/calling to **ask that you vote for amendment # 8 "Public Committee Votes & Testimony"** to H.68 to the joint rules making committee votes and testimony public for all joint committees. This amendment matches the language the Senate adopted on Feb. 11, and clarifies that it applies to study orders.
+
+Please vote for amendment #8 and if there is still time, please "quill on" and co-sponsor the amendment.
 
 We agree that constituents deserve to see how their reps vote in committees as well as what testimony is influencing their decision, and this amendment would do just that. The State House’s current lack of transparency prevents the public from being included in the democratic process, and we can’t have a healthy democracy without everyday people having a seat at the table. 
 
 As a legislator who was elected to represent the voices of the district, I want to thank you for choosing to empower your constituents by voting in favor of this amendment. 
 
 Thank you.
-
-
-### FAQ
-
-If a Rep comes back to you with a question you don't know about you can refer to these explainer docs on each amendment to find frequently asked questions and good responses.
-
-[AMENDMENT 1: Make Committee Votes Public](https://actonmass.org/post/2021/01/02/2021-rules-amendment-1-all-votes-in-legislative-committees-should-be-made-public)
-
-[AMENDMENT 2: Give Reps 72 hours to read bills before they vote on them](https://actonmass.org/post/2021/01/03/amendment-2-adequate-time-to-review-bills)
-
-[AMENDMENT 3: Make it easier to record votes in the House](https://actonmass.org/post/2021/01/04/2021-rules-amendment-3-make-it-easier-to-record-votes)
