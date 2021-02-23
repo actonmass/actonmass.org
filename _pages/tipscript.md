@@ -27,30 +27,16 @@ To look up your State Rep, please <a href="https://malegislature.gov/Search/Find
 
 To find out if your State Rep has already agreed to support public committee votes, <a href="https://actonmass.org/the-campaign/" target="_blank">check under the map on this page</a>
 
-## No Public Commitment: For reps who have not yet committed to the Transparency is Power Amendment #1 for Public Committee Votes & Testimony
+
 
 Hi, my name is \_\_\_\_\_\_\_\_\_(NAME) and I'm a resident of your district at \_\_\_\_\_\_\_\_\_\_\_(ADDRESS/NEIGHBORHOOD) in \_\_\_\_\_\_\_\_\_\_(CITY). 
 
-I'm writing/calling to **ask that you vote for amendment # 8 "Public Committee Votes & Testimony"** to H.68 to the joint rules making committee votes and testimony public for all joint committees. This amendment matches the language the Senate adopted on Feb. 11, and clarifies that it applies to study orders.
+I'm writing/calling to **ask that you vote for amendment # 8 "Public Committee Votes & Testimony"** to H.68 (the joint rules) making committee votes and testimony public for all joint committees. This amendment matches the language the Senate adopted, and clarifies that it applies to study orders.
 
-Please vote for amendment #8 and if there is still time, please "quill on" and co-sponsor the amendment.
+**Please vote for amendment #8 and if there is still time, please "quill on" and co-sponsor the amendment.**
 
 I strongly believe that constituents deserve to see how their reps vote in committees as well as what testimony is influencing their decision, and this amendment would do just that. The State House’s current lack of transparency prevents the public from being included in the democratic process, and we can’t have a healthy democracy without everyday people having a seat at the table. 
 
 As a legislator who was elected to represent the voices of the district, I hope you will choose to empower your constituents and vote in favor of this amendment. 
-
-Thank you.
-
-## Public Commitment: For reps who have committed to support public committee votes and testimony
-
-Hi, my name is \_\_\_\_\_\_\_\_\_(NAME) and I'm a resident of your district at \_\_\_\_\_\_\_\_\_\_\_(ADDRESS/NEIGHBORHOOD) in \_\_\_\_\_\_\_\_\_\_(CITY). 
-
-Thank you for your commitment to support making committee votes and testimony public. To that end, I'm writing/calling to **ask that you vote for amendment # 8 "Public Committee Votes & Testimony"** to H.68 to the joint rules making committee votes and testimony public for all joint committees. This amendment matches the language the Senate adopted on Feb. 11, and clarifies that it applies to study orders.
-
-Please vote for amendment #8 and if there is still time, please "quill on" and co-sponsor the amendment.
-
-We agree that constituents deserve to see how their reps vote in committees as well as what testimony is influencing their decision, and this amendment would do just that. The State House’s current lack of transparency prevents the public from being included in the democratic process, and we can’t have a healthy democracy without everyday people having a seat at the table. 
-
-As a legislator who was elected to represent the voices of the district, I want to thank you for choosing to empower your constituents by voting in favor of this amendment. 
 
 Thank you.
