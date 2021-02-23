@@ -23,11 +23,8 @@ Scroll down for scripts to call your Rep with. Or <a href="https://actonmass.org
 
 # Scripts for Calling your Rep
 
-To look up your State Rep, please <a href="https://malegislature.gov/Search/FindMyLegislator" target="_blank">click here</a>
-
-To find out if your State Rep has already agreed to support public committee votes, <a href="https://actonmass.org/the-campaign/" target="_blank">check under the map on this page</a>
-
-
+* To look up your State Rep, please <a href="https://malegislature.gov/Search/FindMyLegislator" target="_blank">click here</a>
+* To find out if your State Rep has already agreed to support public committee votes, <a href="https://actonmass.org/the-campaign/" target="_blank">check under the map on this page</a>
 
 Hi, my name is \_\_\_\_\_\_\_\_\_(NAME) and I'm a resident of your district at \_\_\_\_\_\_\_\_\_\_\_(ADDRESS/NEIGHBORHOOD) in \_\_\_\_\_\_\_\_\_\_(CITY). 
 
