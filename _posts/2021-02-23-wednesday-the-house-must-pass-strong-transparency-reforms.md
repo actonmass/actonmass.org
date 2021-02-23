@@ -16,6 +16,14 @@ This is disappointing. Thousands of voters all across the state have gotten invo
 
 But we have a chance to change that. Rep. Erika Uyterhoeven has agreed to file an amendment which would restore the excellent language of the Senate and clarify that all votes to send bills to study should also be included. (Approximately half of all bills in the legislature are sent to study each session. We deserve to know how our Reps are voting on all bills, not just half)
 
+**What we want is simple. We want this easy to read, screen-reader friendly table that shows how our Reps vote on the page of every bill after it's voted on in committee. This is not asking a lot. There's no good reason for the House to be offering up convoluted solutions like aggregate vote totals.**\
+\
+**Just show us the votes.**
+
+(below, we breakdown all the changes the House made vs. Senate)
+
+![Senate's easy to read format](/img/senatevote.jpg "Senate's easy to read format")
+
 
 
 ## **Specific Changes that were made by the House**
