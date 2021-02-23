@@ -28,42 +28,42 @@ But we have a chance to change that. Rep. Erika Uyterhoeven has agreed to file a
 
 ## **Specific Changes that were made by the House**
 
-1. ### Removed the language that the Senate added in Rule 1 to create a process for dealing with committees that fail to create their own rules
+## **1.** Removed the language that the Senate added in Rule 1 to create a process for dealing with committees that fail to create their own rules
 
 ![](https://lh4.googleusercontent.com/NtlCPtbU6gHtMSZ83YLPrQk1JZO85toE3W2yFJMBL2mwP-1t1Qro6drVe1zefgKt0l08TPedQPrvhNYE-BeTMWSSdyyswDcIqFO69bv4uMWO22MXmpKDOCW5MT3pAh1cUnpIhhaK)
 
-2. ### **Changed rule 1C remove the word “polls” and change the date from April to June**
+### **2. Changed rule 1C remove the word “polls” and change the date from April to June**
 
 ![](https://lh3.googleusercontent.com/ApStNE1TVC-fFAOkgjYE1j0GvmWy3StNfexHyfxfiv6fTpohNd8ripvw8wZgfufA_grOk36fEWVqUD5yB9o5yZXMpWIMVJlbrS7hu3n8s65TWbMRRW_aGCWZwLHBw6RQohzv33ei)
 
-3. ### **Top of Rule 1D, introduced a typo & added “subject to joint rule 1a” (i’m unclear what this does)**
+### **3. Top of Rule 1D, introduced a typo & added “subject to joint rule 1a” (i’m unclear what this does)**
 
 ![](https://lh6.googleusercontent.com/7ccUay9XqQtaEXMGUhgnDu9ZQAZh-084TNW6_miFZVnY_j6IE25pFITvxVpE-G-jv_apRLoQ9UGX2qBDHipQQx9mIzSWLksdjbONwCzIVk8oVIiuRARyP8k_SSekhygQsp9rf05M)
 
-4. ### **Middle of Rule 1D: Removed senate provisions for roll call votes and replaced with meaningless aggregate tallies.  Also strips the language Senate added requiring 1 week notice for hearings and move it back to 72 hours**
+### **4. Middle of Rule 1D: Removed senate provisions for roll call votes and replaced with meaningless aggregate tallies.  Also strips the language Senate added requiring 1 week notice for hearings and move it back to 72 hours**
 
 ![](https://lh4.googleusercontent.com/v3Wua54N8O8aAfjr_ixuyuXr0i1SCTEt8gYCWkceTFt3GxOn21Ao9da4aLhYvgVpULpZYj9FKrW0x5Prf1Nzux3bwphdvRYb_Si7qezs9sm5UbxrKkVTr6cNWt9u59YKspXhoEkq)
 
-5. ### **Bottom Rule 1D: Removes public testimony language entirely (and removes the 1 week notice period for hearings in another place**
+### **5. Bottom Rule 1D: Removes public testimony language entirely (and removes the 1 week notice period for hearings in another place**
 
 ![](https://lh3.googleusercontent.com/71-fuiLfY_4tOBPtTN1e30kFcrlM4P1cr8vuE05dh-XGjaNfgIVCAieEvjfgiP64IGvHmxFwV9Hg0SWaJJbG-0av0acFFADXXWdrWWg84bRFkh9VMfCS2Zeo-ZD3Uvgq975qzG-2)
 
-6. ### **Joint Rule 4: Unclear what they are doing. Something with Ways & Means**
+### **6. Joint Rule 4: Unclear what they are doing. Something with Ways & Means**
 
 ![](https://lh5.googleusercontent.com/YqxRqVMS-Woi95Xs-09o9ESJbMw9F_V2jaWj2SFu8E1o1s-jKg-u986iPyqek-hwnZJW-2yYMYuJb3XqbS6qVw5DgaEJPAiU7aXDlb8TE3vEN2_RUIZ8igN_3Dg1LvRJALKJ8ugY)
 
-7. ### **Rule 4: Possibly a positive change the House introduced? Seems to avoid parliamentary snafus like happened with a bill last year where senate/house had versions that didn’t “talk” to each other. Still seems to allow reporting of any different language**
+### **7. Rule 4: Possibly a positive change the House introduced? Seems to avoid parliamentary snafus like happened with a bill last year where senate/house had versions that didn’t “talk” to each other. Still seems to allow reporting of any different language**
 
 ![](https://lh3.googleusercontent.com/WO7nnept6O-kZFupZSklFzJzi2fFl0_BpRlN1GdOivBHJnb0a_qJr78ITpQQJPyRdrxhAoM8-xsSwjRjqvKU7j5TAfzwxpgfHKay4jAEpD1rvJT7IUzGjeX_DxvXhLhGnfaJvDq5)
 
-8. ### **Rule 7C. Wordsmithing? Legal reason? They removed gender neutral language why?**
+### **8. Rule 7C. Wordsmithing? Legal reason? They removed gender neutral language why?**
 
 ![](https://lh5.googleusercontent.com/vJuMAPAjFI_7lHYqOfi1Gj1HKuwwwLf9gkcowoVeQUlZamXN1PrwSNjd3HlFRbUpYIWil04IddwP5sVAP29trFwPVInkDgRmOVj_o9fP8jWQ_nmeDIw1Yz9lT07_I7uAdXLtiKdA)
 
-9. ### **Rule 26C Removes the requirement for special sessions to be called during recess of the general court. Neutral/positive? Why?**
+### **9. Rule 26C Removes the requirement for special sessions to be called during recess of the general court. Neutral/positive? Why?**
 
 ![](https://lh4.googleusercontent.com/sHtsJbZ7FMil8I0pDp_0CgHeUkLltZxuErCYTfdF99Rrx9bb-262oe38A6vLfQGTz7ogvDV8SeFVVDsl5nMhFuLvTGt5iae4qr_dhfRa_JWDV1_giAGDGO5nW-d3oQJ83xuYt_2X)
 
-10. ### **Deleted last part of last rule. Seems bad**
+### **10. Deleted last part of last rule. Seems bad**
 
 ![](https://lh5.googleusercontent.com/JjnfPYddTMOdP6uLQenwrJVssi1M9TtZAjk3RypOV1FSyr1jfyl2b0dKf7czczhwx46tv2hVnYsN0qRek0OkcNQqwG-wPSE3BYaDh4jCjCRR6P7PP0M-ciWsEcU-ifOv86EOdeCm)
