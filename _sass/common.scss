@@ -2,8 +2,11 @@
 
 :root {
   --primary: #145396;
+  --primary-dark: #11447b;
+  --medium-blue: #afcbff;
   --dark: #061729;
   --light: #f4f7fc;
+  --orange: #eca632;
 }
 
 html {
@@ -468,4 +471,16 @@ td {
   justify-self: right;
   grid-row: 1;
   cursor: pointer;
+}
+
+.desktop-only {
+  @media (max-width: 699px) {
+    display: none;
+  }
+}
+
+.mobile-only {
+  @media (min-width: 700px) {
+    display: none;
+  }
 }
