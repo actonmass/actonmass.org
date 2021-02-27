@@ -17,7 +17,7 @@ type Props = {
 
 export function RequestCosponsorship({ leg: legBase, scripts: defaultRawScripts, bill, style, txt: customTxt }: Props) {
   const leg = enrichLeg(legBase);
-  const isThanks = bill.co_sponsors.includes(leg.aom_id);
+  const isThanks = (bill.co_sponsors ?? []).includes(leg.aom_id);
   const rawScripts = merge({}, defaultRawScripts, bill.scripts);
   const scripts = evalScripts(rawScripts, { leg, bill });
   const legTitleShort = leg.chamber === "house" ? "rep" : "sen.";

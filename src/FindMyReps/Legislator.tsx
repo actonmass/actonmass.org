@@ -17,7 +17,7 @@ export default function Legislator({ leg, chamber, bill, scripts }: Props) {
     return <UnkonwnLeg legTitle={legTitle} />;
   }
   const legTitleShort = chamber === "house" ? "rep" : "sen.";
-  const sponsored = bill != null && bill.co_sponsors.includes(leg.aom_id);
+  const sponsored = bill != null && (bill.co_sponsors ?? []).includes(leg.aom_id);
 
   const statusText = () => {
     if (bill == null) {

@@ -13,7 +13,11 @@ type Props = {
 
 export function RequestCosponsorshipMyRep({ scripts, bill }: Props) {
   const legInfo = useSessionLegs();
-  if (legInfo == null || legInfo.representative == null || bill.co_sponsors.includes(legInfo.representative.aom_id)) {
+  if (
+    legInfo == null ||
+    legInfo.representative == null ||
+    (bill.co_sponsors ?? []).includes(legInfo.representative.aom_id)
+  ) {
     return null;
   }
   return <RequestCosponsorship leg={legInfo.representative} bill={bill} scripts={scripts} />;
