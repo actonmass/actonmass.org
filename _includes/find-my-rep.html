@@ -10,6 +10,19 @@
 <div id="find-my-reps"></div>
 <script>
   window.addEventListener("DOMContentLoaded", function() {
+
+  var legislators = [
+    {% for leg in site.legislators %}
+      {% assign district = site.data.cache.districts_by_id[leg.district] %}
+      {% assign short_id = leg.id | replace: "/legislators/", "" %}
+      {
+        href: "{{leg.id}}",
+        name: "{{leg.first_name}} {{leg.last_name}}",
+        chamber: "{{leg.district | split: "-" | first }}",
+      },
+    {% endfor %}
+  ];
+
   var data = {
     title: "{{title}}",
     text: "{{text}}",
@@ -19,6 +32,7 @@
     {% endif %}
     showResultIfEmpty: {% if include.showResultsIfEmpty == "true" %}true{% else %}false{% endif %},
     scripts: {% if include.bill %}{{site.data.default_bill_scripts | jsonify}}{% else %}{{site.data.pledge_scripts | jsonify}}{% endif %},
+    legislators: legislators,
   };
 
     AOM.renderFindMyReps("find-my-reps", data);

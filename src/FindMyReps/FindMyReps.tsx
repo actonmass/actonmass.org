@@ -5,6 +5,7 @@ import findReps, { Query, QueryResult } from "./findReps";
 import LoadingSpinner from "./LoadingSpinner";
 import Results from "./Results";
 import useSessionLegs from "./useSessionLegs";
+import LegDropdown from "./LegDropdown";
 
 import { Bill, Scripts } from "../types";
 import scrollTo from "../scrollTo";
@@ -16,13 +17,18 @@ export type Props = {
   showResultIfEmpty: boolean;
   bill?: Bill;
   scripts: Scripts;
+  legislators: {
+    href: string;
+    name: string;
+    chamber: "house" | "senate";
+  }[];
 };
 
 type InnerProps = Props & {
   onQueryReps: (query: Query) => Promise<QueryResult>;
 };
 
-function FindMyReps({ onQueryReps, title, text, theme, bill, showResultIfEmpty, scripts }: InnerProps) {
+function FindMyReps({ onQueryReps, title, text, theme, bill, showResultIfEmpty, scripts, legislators }: InnerProps) {
   const repInfo = useSessionLegs();
   const [error, setError] = useState(null);
   const [loading, setLoading] = useState(false);
@@ -51,7 +57,14 @@ function FindMyReps({ onQueryReps, title, text, theme, bill, showResultIfEmpty, 
 
   return (
     <>
-      <Form title={title} text={text} onSubmit={handleQueryReps} theme={theme} loading={loading} />
+      <Form
+        title={title}
+        text={text}
+        onSubmit={handleQueryReps}
+        theme={theme}
+        legislators={legislators}
+        loading={loading}
+      />
       <Results
         legInfo={repInfo}
         bill={bill}
@@ -64,12 +77,12 @@ function FindMyReps({ onQueryReps, title, text, theme, bill, showResultIfEmpty, 
   );
 }
 
-type FormProps = Pick<Props, "title" | "text" | "theme"> & {
+type FormProps = Pick<Props, "title" | "text" | "theme" | "legislators"> & {
   loading: boolean;
   onSubmit: (query: Query) => void;
 };
 
-function Form({ title, text, onSubmit, theme, loading }: FormProps) {
+function Form({ title, text, onSubmit, theme, loading, legislators }: FormProps) {
   const [streetAddress, setStreetAddress] = useState("");
   const [city, setCity] = useState("");
 
@@ -118,6 +131,8 @@ function Form({ title, text, onSubmit, theme, loading }: FormProps) {
                 }}
               />
             </div>
+            Or search a legislator by name:
+            <LegDropdown legislators={legislators} />
             <div className="cbox btn-container">
               <a className="btn btn_search" onClick={handleSubmit}>
                 <span className="hbox centered">
