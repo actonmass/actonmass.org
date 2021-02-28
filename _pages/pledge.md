@@ -83,7 +83,7 @@ The goal of the Pledge is to be:
 
 ## Endorsing Organizations
 
-![Progressive Massachusetts logo](/img/pledge-endorsements/prog-mass.png) ![AFT logo](/img/pledge-endorsements/AFT-MA.png) ![Sunrise Boston logo](/img/pledge-endorsements/Sunrise.png) ![UU MassAction logo](/img/pledge-endorsements/UUMassAction.png) ![Progressive Democrats of Massachusetts logo](/img/pledge-endorsements/PDM.png) ![Our Revolution Massachusetts logo](/img/pledge-endorsements/ORMA.png) ![Boston Democratic Socialists of America logo](/img/pledge-endorsements/DSA.png) ![Boston Teachers Union logo](/img/pledge-endorsements/BTU.png) ![Public higher education network of Massachusetts logo](/img/pledge-endorsements/PHENOM.png) ![Massachusetts education justice alliance logo](/img/pledge-endorsements/MEJA.png) ![Hildreth Institute logo](/img/pledge-endorsements/HI.png)
+![Progressive Massachusetts logo](/img/pledge-endorsements/prog-mass.png) ![AFT logo](/img/pledge-endorsements/AFT-MA.png) ![Sunrise Boston logo](/img/pledge-endorsements/Sunrise.png) ![UU MassAction logo](/img/pledge-endorsements/UUMassAction.png) ![Progressive Democrats of Massachusetts logo](/img/pledge-endorsements/PDM.png) ![Our Revolution Massachusetts logo](/img/pledge-endorsements/ORMA.png) ![Boston Democratic Socialists of America logo](/img/pledge-endorsements/DSA.png) ![Boston Teachers Union logo](/img/pledge-endorsements/BTU.png) ![Public higher education network of Massachusetts logo](/img/pledge-endorsements/PHENOM.png) ![Massachusetts education justice alliance logo](/img/pledge-endorsements/MEJA.png) ![Hildreth Institute logo](/img/pledge-endorsements/HI.png)![Mass Cosh](/img/pledge-endorsements/MassCosh.png)![Digital Fourth](/img/pledge-endorsements/digital4.png)
 
 {: .logo-list}
 
