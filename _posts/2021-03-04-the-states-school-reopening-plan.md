@@ -1,8 +1,11 @@
 ---
 layout: post
-title: The State's School Reopening Plan
+title: The Fight to Reopen Schools Safely
 date: 2021-03-04T18:04:30.946Z
+image: /img/unnamed-5-.jpg
 ---
+![](/img/unnamed-5-.jpg)
+
 Vaccine distribution in Massachusetts is finally starting to catch up to the rest of the country, despite enduring problems with appointment scheduling and equity in distribution, and cases continuing to decline show that there’s hope that we could soon reach a new normal. But with K-12 schools across the state opening as early as April, we could be at risk of new spikes before reaching relative herd immunity.
 
 The state’s two largest teachers’ unions, AFT Massachusetts and the Massachusetts Teachers’ Association, had been very clear since the beginning about what they needed to reopen schools during the pandemic. Despite this, calls to reopen schools as quickly as possible have frequently painted teachers’ unions as the enemy of progress, Until very recently, the demands of educators have been met with little in the way of making schools COVID safe. In many cases, municipalities have had to take on the burden of deciding to delay in-person learning, which means students’ levels of risk vary wildly by zip code.
@@ -12,7 +15,5 @@ Last week, Governor Baker released a plan for reopening school districts to in-p
 Today, he updated that plan by announcing that all teachers will be eligible to sign up for the vaccine beginning March 11. Notably, [this does not include all school employees, such as paraprofessionals and custodial staff.](https://massteacher.org/news/2021/03/mta-thrilled-by-leadership-on-vaccinations-for-educators) The short time frame does also not guarantee that all educators will be fully vaccinated before schools begin to open as early as April - doses are not being prioritized for educators, so delays in appointment scheduling and supply could result in educators waiting to receive doses weeks after reopening has begun.
 
 This past week, President Biden urged states to [prioritize vaccinating all school employees](https://www.cnbc.com/2021/03/02/president-joe-biden-urges-states-to-vaccinate-teachers-school-staff-this-month.html) while reopening schools for in-person instruction. His call was echoed by Massachusetts State Senate President Karen Spilka and Speaker of the House Ron Mariano. Making teachers eligible to receive the vaccine is a good start, but without clear prioritization - as well as making sure that all school employees that would have to work in-person when schools reopen, not just educators, are prioritized - it could take months before a critical mass of school employees are fully vaccinated. This could put hundreds of thousands of employees, students, and families at increased risk of contracting the virus and could lead to another spike in cases even as we are getting closer to herd immunity.
-
-
 
 Last month, the MTA, AFT Massachusetts, the Professional Fire Fighters of Massachusetts, the Massachusetts AFL-CIO, and other labor unions throughout the state came together [to propose a rapid vaccination plan for school employees and educators,](https://massteacher.org/news/2021/02/unions-propose-rapid-vaccination-plan-for-school-employees) making sure that schools are in as strong a place as possible before reopening in order to prevent schools from becoming superspreader locations. The plan has buy-in from labor, from educators, and from education equity groups, and is the gold standard for making in-person instruction COVID-safe. It’s time for Governor Baker to support the Last Mile Vaccination Plan and make sure all school employees receive the vaccine as soon as possible.
