@@ -12,7 +12,7 @@ const { renderRequestSignPledge } = require("./Modals/RequestSignPledge.tsx").de
 const { renderRequestSignPledgeMyRep } = require("./Modals/RequestSignPledgeMyRep.tsx").default;
 const { renderHistory } = require("./History").default;
 const { renderFindMyReps } = require("./FindMyReps/FindMyReps.tsx").default;
-const { renderBillTimeline } = require("./bill-timeline/bill-timeline").default;
+const { renderBillTimeline } = require("./BillTimeline/BillTimeline").default;
 
 module.exports = {
   renderSignupForm,

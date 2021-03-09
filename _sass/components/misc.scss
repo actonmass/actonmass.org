@@ -118,3 +118,19 @@ ul.main_breadcrumb {
 .rep-icon.red img {
   border: red solid;
 }
+
+#bill-timeline {
+  g:hover,
+  g:hover > :not(.not-filled) {
+    fill: var(--medium-blue) !important;
+  }
+
+  g,
+  circle {
+    cursor: pointer;
+  }
+}
+
+.ui.visible.popup {
+  font-size: 1.5rem;
+}
