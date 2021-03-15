@@ -3,7 +3,7 @@ permalink: /
 layout: home
 
 call_to_action:
-  text: Join Right to Strike Campaign
+  text: Join the Right to Strike Campaign
   page: /right2strike
 
 
