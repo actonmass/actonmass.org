@@ -3,8 +3,8 @@ permalink: /
 layout: home
 
 call_to_action:
-  text: Support our Transparency Campaign
-  page: /the-campaign
+  text: Join Right to Strike Campaign
+  page: /right2strike
 
 
 video: https://www.youtube.com/embed/xflRK0RWOZ4
