@@ -15,4 +15,4 @@ layout: default
 });
 </script>
 
-![Right to Strike Image](/img/right-to-strike.png)
+<img src="/img/right-to-strike.png" alt="Right to Strike" class="center"/>
