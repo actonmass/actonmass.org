@@ -4,6 +4,7 @@ title: Right to Strike Campaign
 layout: default
 ---
 ![Right to Strike Image](/img/right-to-strike_website.jpg)
+{: .small-image .centered-image}
 
 <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/shell.js"></script>
 
