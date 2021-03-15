@@ -15,4 +15,4 @@ layout: default
 });
 </script>
 
-![Right to Strike Image](/img/right-to-strike.png)
+![Right to Strike Image](/img/right-to-strike_base.jpg)
