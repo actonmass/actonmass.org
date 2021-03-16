@@ -1,23 +1,23 @@
 tweet_request: .@{leg.twitter} is on the committee that has the
-  {bill.title} bill {bill.house_no}/{bill.senate_no}. Please speak out in favor
+  {bill.twitter_bill_name} bill {bill.house_no}/{bill.senate_no}. Please speak out in favor
   of advancing this bill cc @Act_On_Mass
 call_request: Hi! My name is \_\_\_\_\_ and I'm a constituent of Rep./Sen.
   \_\_\_\_\____. I know the legislator is on the committee which currently has
-  the {bill.title} bill {bill.house_no}/{bill.senate_no}. I'm calling to ask the
+  the {bill.twitter_bill_name} bill {bill.house_no}/{bill.senate_no}. I'm calling to ask the
   legislator to speak with the committee chairs as well as legislative
   leadership and demand this bill be advanced favorably as soon as possible.
   This is an important issue to me because \_\_\_\_\_\_\_\_\_\_.
 tweet_after_request_call: I just called @{leg.twitter} in support of the
-  {bill.title} bill {bill.house_no}/{bill.senate_no}. The cmte needs to vote on
+  {bill.twitter_bill_name} bill {bill.house_no}/{bill.senate_no}. The cmte needs to vote on
   this bill ASAP @Act_On_Mass
 email_request:
   body: Hi! My name is \_\_\_\_\_ and I'm a constituent of Rep./Sen.
     \_\_\_\_\____. I know the legislator is on the committee which currently has
-    the {bill.title} bill {bill.house_no}/{bill.senate_no}. I'm writing to ask
+    the {bill.twitter_bill_name} bill {bill.house_no}/{bill.senate_no}. I'm writing to ask
     the legislator to speak with the committee chairs as well as legislative
     leadership and demand this bill be advanced favorably as soon as possible.
     This is an important issue to me because \_\_\_\_\_\_\_\_\_\_.
-  subject: Please fight for the {bill.title} in committee
+  subject: Please fight for the {bill.twitter_bill_name} in committee
 tweet_after_request_email: I just emailed @{leg.twitter} in support of
-  the {bill.title} bill {bill.house_no}/{bill.senate_no}. The committee needs to
+  the {bill.twitter_bill_name} bill {bill.house_no}/{bill.senate_no}. The committee needs to
   vote on this bill ASAP @Act_On_Mass
