@@ -24,8 +24,14 @@ The right to strike is fundamental. It is only when workers can withhold their l
 
 The right to strike is a basic human right that has become customary in international law and has been repeatedly affirmed by the International Labor Organization (ILO) and numerous human rights organizations. The right to strike is a right enjoyed by public employees in a number of other states in the U.S., as well as many other countries around the world. It is time to end this archaic prohibition.
 
+
+
 **Right to Strike Campaign**
 
 Section 9A of Massachusetts law prohibits public employees from striking. 
 
 ![Section 9A](/img/section-9a-a-_small_small.jpg)
+
+Public employees, allies across the state, and Act on Mass are organizing a statewide campaign over the next few months to strike down Section 9A. We are organizing in state representative districts to ask our representatives to stand with public employees. Sign-up to receive more information and join us for our launch on Thursday, March 25 (RSVP above). 
+
+Circulate (bit.ly/right2strike) to all in Massachusetts who support the fundamental right to strike!
