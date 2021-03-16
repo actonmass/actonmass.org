@@ -85,4 +85,5 @@ history:
 timeline:
   - date: 2019-05-28
     description: Hearing (Health Care Financing)
+twitter_bill_name: Prevent Premature Shutdown of Essential Health Services
 ---

@@ -124,7 +124,7 @@ scripts:
     Please support the Safe Communities Act.
 
 
-    Immigrant communities in Massachusetts should not be subjected to Trump's racist policies. 
+    Immigrant communities in Massachusetts should not be subjected to Trump's racist policies.
   email_request:
     subject: Please support the Safe Communities Act!
 timeline:
@@ -210,4 +210,5 @@ history:
     description: Judiciary Committee Hearing
   - date: 2013-01
     description: Filed as Trust Act H1613
+twitter_bill_name: Safe Communities Act
 ---

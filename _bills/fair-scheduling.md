@@ -83,4 +83,5 @@ timeline:
     description: Reporting date extended to 6/5/2020
   - date: 2020-06-02
     description: Reporting date extended to 10/27/2020
+twitter_bill_name: Fair Scheduling
 ---

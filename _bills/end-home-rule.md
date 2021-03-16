@@ -55,4 +55,5 @@ timeline:
     date: 2020-03-30
   - description: Sent to House Steering, Policy, and Scheduling Committee
     date: 2020-06-04
+twitter_bill_name: End Home Rule
 ---

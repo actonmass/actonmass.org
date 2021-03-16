@@ -17,4 +17,5 @@ co_sponsors:
   - jack-lewis
   - mike-connolly
 history: []
+twitter_bill_name: Capital Gains
 ---

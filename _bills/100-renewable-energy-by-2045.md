@@ -177,7 +177,8 @@ history:
   - date: 2019-07-23
     description: Committee Hearing
   - date: 2020-07-31
-    description: Climate bill passes House without including this bill, Bill sent to study
+    description:
+      Climate bill passes House without including this bill, Bill sent to study
     type: death
 timeline:
   - date: 2019-01-22
@@ -186,4 +187,5 @@ timeline:
     description: Committee Hearing
   - date: 2020-07-31
     description: Climate bill passes House without 100% renewables
+twitter_bill_name: 100% Renewable Energy by 2045
 ---

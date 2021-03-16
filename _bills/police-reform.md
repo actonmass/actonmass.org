@@ -35,4 +35,5 @@ timeline:
   - date: 2020-07-24
     description: Bill passes House 93-66, sent to conference committee
 uid: "Exemple: safe-communities-act"
+twitter_bill_name: Police Reform
 ---

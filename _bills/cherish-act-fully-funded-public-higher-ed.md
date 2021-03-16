@@ -1,8 +1,9 @@
 ---
 aom_id: cherish-act-fully-funded-public-higher-ed
 title: "The Cherish Act: Fully Funded Public Higher Ed"
-full_title: An Act committing to higher education the resources to insure a
-  strong and healthy public higher education system
+full_title:
+  An Act committing to higher education the resources to insure a strong and
+  healthy public higher education system
 house_no: H1214
 house_link: https://malegislature.gov/Bills/191/H1214
 senate_no: S741
@@ -187,8 +188,9 @@ history:
   - date: 2019-04-30
     description: Committee Hearing - Joint Committee on Education
   - date: 2020-11-20
-    description: Extension Order - committee allowed until Nov 20th to act, far too
-      late to allow the bill to pass this session
+    description:
+      Extension Order - committee allowed until Nov 20th to act, far too late to
+      allow the bill to pass this session
     type: death
 timeline:
   - date: 2019-01-16
@@ -197,4 +199,5 @@ timeline:
     description: Hearing in Higher Education Committee
   - date: 2020-11-20
     description: Deadline extended (Committee has until this date to act)
+twitter_bill_name: "The Cherish Act: Fully Funded Public Higher Ed"
 ---

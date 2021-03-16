@@ -120,4 +120,5 @@ timeline:
     description: Reporting date extended to 6/26/2020
   - description: Reporting date extended to 12/31/2020
     date: 2020-06-29
+twitter_bill_name: Same Voter Day Registration
 ---

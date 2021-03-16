@@ -119,4 +119,5 @@ timeline:
     date: 2020-04-09
   - description: Reporting date extended to 12/31/2020
     date: 2020-06-29
+twitter_bill_name: Ranked Choice Voting
 ---

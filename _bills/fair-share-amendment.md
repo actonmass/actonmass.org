@@ -189,4 +189,5 @@ history:
       (3 step process)
   - description: "Step 1 of 3: Constitutional convention passes amendment"
     date: 2019-06-01
+twitter_bill_name: Fair Share Amendment
 ---

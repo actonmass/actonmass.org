@@ -104,4 +104,5 @@ timeline:
     description: Reporting date extended to 6/29/2020
   - date: 2020-06-29
     description: Reporting date extended to 12/31/2020
+twitter_bill_name: Lower Voting Age to 16
 ---

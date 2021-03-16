@@ -56,4 +56,5 @@ timeline:
     description: Hearing
   - description: Sent to study
     date: 2020-02-12
+twitter_bill_name: Right to Strike
 ---

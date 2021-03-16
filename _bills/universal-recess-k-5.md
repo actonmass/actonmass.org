@@ -93,4 +93,5 @@ timeline:
     description: Referred to the Education Committee
   - date: 2019-08-26
     description: Hearing scheduled for 9/4/2019
+twitter_bill_name: Recess for All Students K-5
 ---

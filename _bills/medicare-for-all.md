@@ -163,4 +163,5 @@ timeline:
     date: 2020-04-29
   - date: 2020-06-22
     description: Reporting date extended to 12/31/2020
+twitter_bill_name: Medicare for All
 ---

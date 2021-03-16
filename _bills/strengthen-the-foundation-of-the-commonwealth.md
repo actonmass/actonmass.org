@@ -1,8 +1,9 @@
 ---
-aom_id: "strengthen-commonwealth"
+aom_id: strengthen-commonwealth
 title: Strengthen the Commonwealth
-full_title: "Strengthen the Foundation of the Commonwealth Act: A Starting Point
-  for Progressive Taxation"
+full_title:
+  "Strengthen the Foundation of the Commonwealth Act: A Starting Point for
+  Progressive Taxation"
 house_no: H2424
 house_link: https://malegislature.gov/Bills/191/h2424
 committee: joint-revenue
@@ -43,4 +44,5 @@ history:
   - description: Hearing scheduled with Joint Committee on Revenue
     type: death
     date: 2019-10-17
+twitter_bill_name: Strengthen the Commonwealth
 ---

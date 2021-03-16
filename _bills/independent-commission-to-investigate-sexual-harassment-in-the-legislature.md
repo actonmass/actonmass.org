@@ -1,6 +1,7 @@
 ---
 aom_id: independent-commission-to-investigate-sexual-harassment-in-the-legislature
-title: Independent Commission to Investigate Sexual Harassment in the Legislature
+title:
+  Independent Commission to Investigate Sexual Harassment in the Legislature
 full_title: An Act promoting equality and respect in the legislature
 house_no: H3572
 house_link: https://malegislature.gov/Bills/191/H3572
@@ -47,4 +48,6 @@ co_sponsors:
   - russell-holmes
   - marcos-devers
 history: []
+twitter_bill_name:
+  Independent Commission to Investigate Sexual Harassment in the Legislature
 ---

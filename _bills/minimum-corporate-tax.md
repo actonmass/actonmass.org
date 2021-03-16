@@ -31,4 +31,5 @@ co_sponsors:
   - steven-ultrino
   - tommy-vitolo
 history: []
+twitter_bill_name: Minimum Corporate Tax
 ---

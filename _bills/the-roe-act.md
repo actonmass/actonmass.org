@@ -1,7 +1,8 @@
 ---
 aom_id: the-roe-act
 title: The ROE Act
-full_title: An Act removing obstacles and expanding access to women's reproductive health
+full_title:
+  An Act removing obstacles and expanding access to women's reproductive health
 house_no: H3320
 house_link: https://malegislature.gov/Bills/191/H3320
 senate_no: S1209
@@ -188,4 +189,5 @@ timeline:
     date: 2020-02-03
   - date: 2020-05-11
     description: Reporting date extended to 7/31/2020
+twitter_bill_name: The ROE Act
 ---

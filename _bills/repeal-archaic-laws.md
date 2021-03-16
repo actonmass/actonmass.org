@@ -70,4 +70,5 @@ timeline:
     description: Referred to Judiciary Committee
   - date: 2020-02-12
     description: Sent to study
+twitter_bill_name: Repeal Archaic Laws
 ---

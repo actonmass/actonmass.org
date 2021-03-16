@@ -34,4 +34,5 @@ timeline:
     description: Hearing (Judiciary)
   - date: 2020-02-03
     description: Sent to Study
+twitter_bill_name: End NDAs
 ---

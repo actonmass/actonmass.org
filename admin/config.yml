@@ -12,15 +12,15 @@ field_definitions:
   date_picker: &date-picker
     widget: datetime
     format: YYYY-MM-DD
-    timeFormat: false
+    time_format: false
     default: null
   legislator_picker: &legislator-picker
     widget: relation
     collection: legislators
-    searchFields:
+    search_fields:
       - last_name
-    valueField: aom_id
-    displayFields:
+    value_field: aom_id
+    display_fields:
       - last_name
   email: &email
     widget: object
@@ -242,11 +242,11 @@ collections:
         widget: relation
         collection: bills
         multiple: true
-        searchFields:
+        search_fields:
           - title
-        displayFields:
+        display_fields:
           - title
-        valueField: aom_id
+        value_field: aom_id
       - label: “Failures“ section title
         name: failures_block_title
         widget: string
@@ -319,7 +319,7 @@ collections:
       - label: Order
         name: order
         widget: number
-        valueType: int
+        value_type: int
         required: false
   - name: legislators
     label: Legislators
@@ -342,9 +342,9 @@ collections:
         name: district
         widget: relation
         collection: districts
-        searchFields: [name]
-        displayFields: [name]
-        valueField: aom_id
+        search_fields: [name]
+        display_fields: [name]
+        value_field: aom_id
       - label: Party
         name: party
         widget: select
@@ -430,12 +430,12 @@ collections:
       - label: Latitude
         name: lat
         widget: number
-        valueType: float
+        value_type: float
         required: false
       - label: Longitude
         name: lng
         widget: number
-        valueType: float
+        value_type: float
         required: false
   - name: committees
     label: Committees
@@ -486,6 +486,7 @@ collections:
         label: Senate Members
         name: senate_members
         multiple: true
+        required: false
       - label: malegislature.gov URL
         name: malegislature_url
         widget: string
@@ -507,6 +508,9 @@ collections:
       - label: Full title
         name: full_title
         required: false
+        widget: string
+      - label: Twitter bill name
+        name: twitter_bill_name
         widget: string
       - label: Article
         name: article
@@ -533,21 +537,21 @@ collections:
         required: false
         widget: relation
         collection: committees
-        searchFields:
+        search_fields:
           - title
-        displayFields:
+        display_fields:
           - title
-        valueField: aom_id
+        value_field: aom_id
       - label: Issue
         name: issue
         required: false
         widget: relation
         collection: issues
-        searchFields:
+        search_fields:
           - title
-        displayFields:
+        display_fields:
           - title
-        valueField: aom_id
+        value_field: aom_id
       - label: Image
         name: img
         widget: image
@@ -607,10 +611,10 @@ collections:
             required: false
             widget: relation
             collection: bill_events
-            valueField: aom_id
-            searchFields:
+            value_field: aom_id
+            search_fields:
               - aom_id
-            displayFields:
+            display_fields:
               - aom_id
           - <<: *date-picker
             required: false
@@ -668,11 +672,11 @@ collections:
         name: bill
         widget: relation
         collection: bills
-        searchFields:
+        search_fields:
           - title
-        displayFields:
+        display_fields:
           - title
-        valueField: aom_id
+        value_field: aom_id
       - label: Progressive vote
         name: progressive_vote
         widget: select

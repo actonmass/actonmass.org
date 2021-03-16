@@ -175,4 +175,5 @@ timeline:
     description: Hearing scheduled
   - date: 2020-02-03
     description: Reporting date extended to 5/12/2020
+twitter_bill_name: Age of Criminal Majority to 21
 ---

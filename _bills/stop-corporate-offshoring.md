@@ -64,4 +64,5 @@ history:
     date: 2020-07-02
   - date: 2020-07-09
     description: Referred to the Joint Committee on Revenue
+twitter_bill_name: Stop Corporate Offshoring
 ---

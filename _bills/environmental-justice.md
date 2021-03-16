@@ -144,4 +144,5 @@ timeline:
     date: 2019-06-04
   - description: New draft for the bill (H.4264)
     date: 2019-12-26
+twitter_bill_name: Environmental Justice
 ---

@@ -44,4 +44,5 @@ timeline:
     description: Referred to the Judiciary Committee
   - date: 2020-02-03
     description: Sent to study
+twitter_bill_name: Life without Parole
 ---

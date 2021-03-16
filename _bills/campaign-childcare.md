@@ -112,8 +112,9 @@ history:
     description: Sent to Study
     type: death
   - date: 2019-09-29
-    description: During debate on H.4087, House doesn't adopt this law as amendment,
-      but creates a commission to "study" the issue
+    description:
+      During debate on H.4087, House doesn't adopt this law as amendment, but
+      creates a commission to "study" the issue
     type: death
   - date: 2017-01-20
     description: Bill introduced as H.2898
@@ -127,4 +128,5 @@ timeline:
     description: Hearing (Election Laws)
   - date: 2020-02-10
     description: Sent to Study
+twitter_bill_name: Campaign Childcare
 ---
