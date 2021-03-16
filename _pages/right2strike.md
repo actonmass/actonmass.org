@@ -24,7 +24,7 @@ The right to strike is fundamental. It is only when workers can withhold their l
 
 The right to strike is a basic human right that has become customary in international law and has been repeatedly affirmed by the International Labor Organization (ILO) and numerous human rights organizations. The right to strike is a right enjoyed by public employees in a number of other states in the U.S., as well as many other countries around the world. It is time to end this archaic prohibition.
 
-
+<br />
 
 **Right to Strike Campaign**
 
