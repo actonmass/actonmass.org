@@ -23,3 +23,9 @@ For over 100 years, the Commonwealth of Massachusetts has considered strikes by 
 The right to strike is fundamental. It is only when workers can withhold their labor without the threat of losing their job that they have power in the workplace to win fair wages, fair benefits, and safe working conditions. When public sector workers hold the right to strike, the benefits accrue to many more than just public sector workers. Few people are better positioned than public sector workers to fight for what is best for our communities and to hold those in power accountable. 
 
 The right to strike is a basic human right that has become customary in international law and has been repeatedly affirmed by the International Labor Organization (ILO) and numerous human rights organizations. The right to strike is a right enjoyed by public employees in a number of other states in the U.S., as well as many other countries around the world. It is time to end this archaic prohibition.
+
+**Right to Strike Campaign**
+
+Section 9A of Massachusetts law prohibits public employees from striking. 
+
+![Section 9A](/img/section-9a-a-_small_small.jpg)
