@@ -33,5 +33,3 @@ Section 9A of Massachusetts law prohibits public employees from striking. 
 ![Section 9A](/img/section-9a-a-_small_small.jpg)
 
 Public employees, allies across the state, and Act on Mass are organizing a statewide campaign over the next few months to strike down Section 9A. We are organizing in state representative districts to ask our representatives to stand with public employees. Sign-up to receive more information and join us for our launch on Thursday, March 25 (RSVP above). 
-
-Circulate (bit.ly/right2strike) to all in Massachusetts who support the fundamental right to strike!
