@@ -20,7 +20,15 @@
   .about_top {
     justify-self: center;
     align-self: start;
-    max-width: 20rem;
+    max-width: 30rem;
+
+    ul {
+      padding-left: 1rem;
+
+      li {
+        margin-bottom: 1rem;
+      }
+    }
   }
 
   .top_box_1 {
@@ -69,7 +77,7 @@
     }
 
     .person {
-      max-width: 20rem;
+      max-width: 30rem;
       display: grid;
       grid-gap: 1rem;
       justify-self: center;
