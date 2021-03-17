@@ -20,12 +20,20 @@ team:
   - name: Matt Miller
     photo: /img/team/matt.png
     link: https://www.linkedin.com/in/matthew-miller-91293236/
-    text: Matt is co-founder and Treasurer for Act on Mass. Prior to his work at Act on Mass, he has held positions as Field Director and Campaign manager on local electoral races (City Council & State Rep) in the Boston area.  Matt is heavily involved in grassroots organizing on various issues especially housing & single-payer healthcare.  Matt lives in Brighton.
-  - name: Connie Lu
-    photo: /img/team/connie.png
-    link: https://www.linkedin.com/in/connie-lu-63795a8/
-    text: Connie is co-founder and Design Director for Act on Mass. She has volunteered for local, state, and national electoral and advocacy campaigns and community planning projects. She works as an environmental consultant and enjoys art and design. Connie lives in Somerville.
-  - name: Sean McFarland
-    photo: /img/team/seanmac.png
-    text: Sean is co-founder and Clerk for Act on Mass. He has been involved in a volunteer and organizer capacity with a variety of local, state, and national electoral and advocacy campaigns. Sean lives in Cambridge.
----
+    text: |
+      Matt is co-founder and Treasurer for Act on Mass. Prior to his work at Act
+      on Mass, he has held positions as Field Director and Campaign manager on
+      local electoral races (City Council & State Rep) in the Boston area.  Matt
+      is heavily involved in grassroots organizing on various issues especially
+      housing & single-payer healthcare.  Matt lives in Brighton.
+      He/him/his
+  - name: Erin Leahy
+    photo: /img/team/Erin.jpg
+    text: |
+      Erin is the Organizing Director for Act on Mass. She began her career in the public sector as a paralegal at the U.S. Attorney's Office. Prior to her role at Act on Mass, she worked on campaigns at the national and state level in Field Organizer and Deputy Campaign Manager roles. Erin lives in Somerville.
+      She/her/hers
+  - name: Ryan Daulton
+    photo: /img/team/Ryan.jpg
+    text: |
+      Ryan is the Political Director for Act on Mass. He has been involved in a number of state representative campaigns as a Field Director and volunteer. Ryan lives in Somerville, thinks endlessly about ways to raise progressive taxation, and wears scarves.
+      He/him/his
