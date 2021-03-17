@@ -37,3 +37,4 @@ team:
     text: |
       Ryan is the Political Director for Act on Mass. He has been involved in a number of state representative campaigns as a Field Director and volunteer. Ryan lives in Somerville, thinks endlessly about ways to raise progressive taxation, and wears scarves.
       He/him/his
+---
