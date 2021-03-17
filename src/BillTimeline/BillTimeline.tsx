@@ -26,7 +26,9 @@ type TimelineProps = {
 };
 
 const Timeline = ({ width, margin, events, sessionEndDate }: TimelineProps) => {
-  const sortedEvents = [...events].sort((a, b) => moment(a.date).valueOf() - moment(b.date).valueOf());
+  const sortedEvents = [...events].sort(
+    (a, b) => moment(a.date).valueOf() - moment(b.date).valueOf()
+  );
 
   const firstEvent = sortedEvents[0];
   const lastEvent = sortedEvents[sortedEvents.length - 1];
@@ -52,7 +54,14 @@ const Timeline = ({ width, margin, events, sessionEndDate }: TimelineProps) => {
   sortedEvents.forEach((event, i) => {
     const dateMoment = moment(event.date);
     items.push({
-      symbol: <Symbol key={i} x={dateToPixel(dateMoment)} lineLevel={lineLevel} {...event} />,
+      symbol: (
+        <Symbol
+          key={i}
+          x={dateToPixel(dateMoment)}
+          lineLevel={lineLevel}
+          {...event}
+        />
+      ),
       label: event.text,
       date: dateMoment,
     });
@@ -72,7 +81,14 @@ const Timeline = ({ width, margin, events, sessionEndDate }: TimelineProps) => {
 
   if (!isSessionOver) {
     items.push({
-      symbol: <Symbol key={"today"} x={dateToPixel(today)} lineLevel={lineLevel} symbol="heartbeat" />,
+      symbol: (
+        <Symbol
+          key={"today"}
+          x={dateToPixel(today)}
+          lineLevel={lineLevel}
+          symbol="heartbeat"
+        />
+      ),
       label: "Today",
       date: today,
     });
@@ -102,23 +118,43 @@ const Timeline = ({ width, margin, events, sessionEndDate }: TimelineProps) => {
               trigger={symbol}
               size="large"
               on={["hover", "click"]}
+              hoverable={true}
             />
           );
         })}
       </svg>
-      <div style={{ width: width + margin * 2, position: "relative", height: 80 }}>
-        <Label x={dateToPixel(moment(firstEvent.date)) - 10} text={firstEvent.text} date={firstEvent.date} />
-        <Label x={dateToPixel(moment(lastEvent.date)) - 10} text={lastEvent.text} date={lastEvent.date} />
+      <div
+        style={{ width: width + margin * 2, position: "relative", height: 80 }}
+      >
+        <Label
+          x={dateToPixel(moment(firstEvent.date)) - 10}
+          text={firstEvent.text}
+          date={firstEvent.date}
+        />
+        <Label
+          x={dateToPixel(moment(lastEvent.date)) - 10}
+          text={lastEvent.text}
+          date={lastEvent.date}
+        />
       </div>
     </div>
   );
 };
 
-const BillTimeline = ({ filingDate, sessionEndDate, events }: BillTimelineProps) => {
+const BillTimeline = ({
+  filingDate,
+  sessionEndDate,
+  events,
+}: BillTimelineProps) => {
   const { targetRef, dimensions } = useTargetWidth();
 
   let allEvents = events.map((event) => {
-    return { date: event.date, showDurationFromToday: false, text: event.text, symbol: "target" };
+    return {
+      date: event.date,
+      showDurationFromToday: false,
+      text: event.text,
+      symbol: "target",
+    };
   });
   allEvents.unshift({
     date: filingDate,
@@ -126,7 +162,12 @@ const BillTimeline = ({ filingDate, sessionEndDate, events }: BillTimelineProps)
     text: "Bill filed",
     symbol: "big",
   });
-  allEvents.push({ date: sessionEndDate, showDurationFromToday: false, text: "Session Over", symbol: "session-over" });
+  allEvents.push({
+    date: sessionEndDate,
+    showDurationFromToday: false,
+    text: "Session Over",
+    symbol: "session-over",
+  });
 
   return (
     <div
@@ -139,7 +180,12 @@ const BillTimeline = ({ filingDate, sessionEndDate, events }: BillTimelineProps)
       }}
     >
       <div>
-        <Timeline events={allEvents} width={dimensions.width * 0.7} margin={50} sessionEndDate={sessionEndDate} />
+        <Timeline
+          events={allEvents}
+          width={dimensions.width * 0.7}
+          margin={50}
+          sessionEndDate={sessionEndDate}
+        />
         <div className="cbox" style={{ fontStyle: "italic" }}>
           Click on or hover events for more details
         </div>
@@ -210,7 +256,12 @@ const TimeSpan = ({ x1, x2, lineLevel, text }) => {
         y2={lineLevel - height}
         style={{ stroke: "#123e83", strokeWidth: strokeWidth }}
       />
-      <text x={(x2 + x1) / 2} y={lineLevel - height - margin} style={{ font: `bold sans-serif` }} textAnchor={"middle"}>
+      <text
+        x={(x2 + x1) / 2}
+        y={lineLevel - height - margin}
+        style={{ font: `bold sans-serif` }}
+        textAnchor={"middle"}
+      >
         {text}
       </text>
     </g>
