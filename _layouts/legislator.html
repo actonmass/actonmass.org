@@ -24,11 +24,11 @@ layout: base
           {% endif %}
           <p class="fRoboto fLight fWhite">{{leg_title}} {{leg.first_name}} {{leg.last_name}} - {{leg.party}}</p>
           <div class="icons">
-            {% if leg.email and leg.email != "" %}<a href="mailto:{{leg.email}}"><i class="icon far fa-envelope fa-2x"></i></a>{% endif %}
-            {% if leg.facebook and leg.facebook != "" %}<a href="{{leg.facebook}}"><i class="icon fab fa-facebook-f fa-2x"></i></a>{% endif %}
-            {% if leg.twitter and leg.twitter != "" %}<a href="https://twitter.com/{{leg.twitter}}"><i class="icon fab fa-twitter fa-2x"></i></a>{% endif %}
-            {% if leg.website and leg.website != "" %}<a href="{{leg.website}}"><i class="icon far fa-window-maximize fa-2x"></i></a>{% endif %}
-            {% if leg.phone and leg.phone != "" %}<a href="tel:{{leg.phone | uri_escape}}"><i class="icon fas fa-phone fa-2x"></i></a>{% endif %}
+            {% if leg.email and leg.email != "" %}<a href="mailto:{{leg.email}}"><i class="far fa-envelope fa-2x"></i></a>{% endif %}
+            {% if leg.facebook and leg.facebook != "" %}<a href="{{leg.facebook}}" target="_blank"><i class="fab fa-facebook-f fa-2x"></i></a>{% endif %}
+            {% if leg.twitter and leg.twitter != "" %}<a href="https://twitter.com/{{leg.twitter}}" target="_blank"><i class="fab fa-twitter fa-2x"></i></a>{% endif %}
+            {% if leg.website and leg.website != "" %}<a href="{{leg.website}}" target="_blank"><i class="far fa-window-maximize fa-2x"></i></a>{% endif %}
+            {% if leg.phone and leg.phone != "" %}<a href="tel:{{leg.phone | uri_escape}}"><i class="fas fa-phone fa-2x"></i></a>{% endif %}
           </div>
         </div>
       </section>

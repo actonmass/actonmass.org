@@ -12,7 +12,12 @@ layout: base
       <div class="headline-container">
         <div class="billpg_title">
           <h2 class="billpg_title fExbold">{{bill.title}}</h2>
-          <p>{{bill.full_title}} - <a href="{{bill.house_link}}">{{bill.house_no}}</a> - <a href="{{bill.senate_link}}">{{bill.senate_no}}</a></p>
+          <p>
+            {{bill.full_title}} -
+            <a href="{{bill.house_link}}" target="_blank">{{bill.house_no}}</a>
+            -
+            <a href="{{bill.senate_link}}" target="_blank">{{bill.senate_no}}</a>
+          </p>
         </div>
         <div class="billpg_hero_a">
           {% if bill.img %}

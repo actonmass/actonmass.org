@@ -11,5 +11,5 @@
     "moduleResolution": "node",
     "strictNullChecks": true
   },
-  "exclude": ["node_modules/**", "functions"]
+  "exclude": ["node_modules/**", "functions", "_site"]
 }
