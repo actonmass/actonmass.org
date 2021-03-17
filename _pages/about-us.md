@@ -52,6 +52,7 @@ header:
       community members, and
       organizes alongside them
     icon: users
+video: https://www.youtube.com/embed/xflRK0RWOZ4
 team:
   - name: Matt Miller
     photo: /img/team/matt.png
