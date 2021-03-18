@@ -18,7 +18,7 @@ layout: default
 
 **End the Prohibition on Strikes for Public Sector Workers**
 
-For over 100 years, the Commonwealth of Massachusetts has considered strikes by public sector workers an unlawful activity. Section 9A of Massachusetts law prohibits public employees from striking. 
+For over 100 years, the Commonwealth of Massachusetts has considered strikes by public sector workers an unlawful activity. Section 9A of Massachusetts General Law prohibits public employees from striking. 
 
 ![Section 9A](/img/section-9a-a-_small_small_small.jpg)
 {: .centered}
