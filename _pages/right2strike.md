@@ -30,4 +30,8 @@ The right to strike is a basic human right that has become customary in internat
 
 **Right to Strike Campaign**
 
-Public employees, allies across the state, and Act on Mass are organizing a statewide campaign over the next few months to strike down Section 9A. We are organizing in state representative districts to ask our representatives to stand with public employees. Sign-up to receive more information and join us for our launch on Thursday, March 25 (RSVP above).
+The campaign that we are organizing has a clear objective: to remove Section 9A from Massachusetts General Law. As part of the Commonwealth’s budget process every April, state representatives are able to file amendments to the budget. Those amendments range in substance from funding local parks to policy proposals, such as removing the ban on public sector strikes.
+
+This budget cycle, our campaign is working with state representatives who have committeed to file an amendment removing Section 9A from law. Our job as a campaign is to build pressure on enough representatives to pass the amendment. Public employees, allies across the state, and Act on Mass are organizing a statewide campaign in state representative districts to ask our representatives to stand with public employees. 
+
+Sign-up to receive more information and join us for our launch on Thursday, March 25 (RSVP above).
