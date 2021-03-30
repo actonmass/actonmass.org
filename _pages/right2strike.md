@@ -18,7 +18,7 @@ layout: default
 
 **End the Prohibition on Strikes for Public Sector Workers**
 
-For over 100 years, the Commonwealth of Massachusetts has considered strikes by public sector workers an unlawful activity. Section 9A of Massachusetts law prohibits public employees from striking. 
+For over 100 years, the Commonwealth of Massachusetts has considered strikes by public sector workers an unlawful activity. Section 9A of Massachusetts General Law prohibits public employees from striking. 
 
 ![Section 9A](/img/section-9a-a-_small_small_small.jpg)
 {: .centered}
@@ -28,6 +28,10 @@ That Massachusetts continues prohibiting public sector strikes is a shameful mar
 The right to strike is a basic human right that has become customary in international law and has been repeatedly affirmed by the International Labor Organization (ILO) and numerous human rights organizations. The right to strike is a right enjoyed by public employees in a number of other states in the U.S., as well as many other countries around the world. It is time to end this archaic prohibition.
 
 
-**Right to Strike Campaign**
+**Campaign Strategy**
 
-Public employees, allies across the state, and Act on Mass are organizing a statewide campaign over the next few months to strike down Section 9A. We are organizing in state representative districts to ask our representatives to stand with public employees. Sign-up to receive more information and join us for our launch on Thursday, March 25 (RSVP above).
+The Right to Strike campaign has a clear objective: to remove Section 9A from Massachusetts General Law. As part of the Commonwealth’s budget process every April, state representatives file amendments to the budget. The amendments range in substance from funding local parks to policy proposals, such as removing the ban on public sector strikes.
+
+This budget cycle, our campaign is working with state representatives who have committeed to file an amendment removing Section 9A from law. Our job as a campaign is to build pressure on enough representatives to pass the amendment. Public employees, allies across the state, and Act on Mass are organizing a statewide campaign in state representative districts to ask our representatives to stand with public employees. 
+
+**Sign-up (above) for a teach-in session to build a strategy for your district.**
