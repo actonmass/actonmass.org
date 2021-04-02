@@ -1,6 +1,6 @@
 ---
 layout: post
-title: The fight for K-12 education funding isn’t over yet
+title: The Fight for K-12 Education Funding Isn’t Over Yet
 date: 2021-04-02T20:43:41.051Z
 image: /img/img_9151.jpeg
 ---
