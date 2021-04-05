@@ -24,14 +24,14 @@ footer:
   - title: Contact Us
     page: mailto:info@actonmass.org
   - title: Donate
-    page: https://secure.actblue.com/donate/act-on-mass
+    page: https://secure.actblue.com/donate/aom2021-q2-web
   - title: About us
     page: /about-us
   - title: FAQs
     page: /faq
   - title: Privacy Policy
     page: /privacy
-donate_button_url: https://secure.actblue.com/donate/aom2021-q1-web
+donate_button_url: https://secure.actblue.com/donate/aom2021-q2-web
 
 collections:
   issues:
