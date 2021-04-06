@@ -1,0 +1,34 @@
+tweet_request: .@{leg.twitter} please support the transparency campaign
+tweet_thanks:
+  .@{leg.twitter} thank you for supporting the @Act_On_Mass transparency campaign. I hope more of your colleagues will
+  join you! www.ActOnMass.org/the-campaign
+call_request: >-
+  Hi! My name is \_\_\_\_\_ and I'm a constituent of Rep./Sen. \_\_\_\_\_. I'm calling to ask that they sign the Act on
+  Mass transparency campaing...
+call_thanks:
+  Hi! My name is \_\_\_\_\_ and I'm a constituent of Rep./Sen. \_\_\_\_\_. I'm just calling to thank them for supporting
+  the Act on Mass transparency campaign. I'm so glad to have a representative who is standing up for greater
+  transparency.
+tweet_after_request_call:
+  I just called @{leg.twitter} to ask they support the @Act_On_Mass transparency campaiogn. Transparency is power
+  www.ActOnMass.org/the-campaign
+tweet_after_thanks_call:
+  I just called @{leg.twitter} to thank them for supporting the @Act_On_Mass transparency campaign. Transparency is
+  power www.ActOnMass.org/the-campaign
+email_request:
+  subject: Please sign the Voter Deserve to Know Pledge!
+  body: >-
+    Hi! My name is \_\_\_\_\_ and I'm a constituent of Rep./Sen. \_\_\_\_\_. I'm calling to ask that they support the
+    Act on Mass transparency campaign...
+email_thanks:
+  subject: Thank you for supporting the Transparency campaign!
+  body:
+    Hi! My name is \_\_\_\_\_ and I'm a constituent of Rep./Sen. \_\_\_\_\_. I'm just emailing to thank them for
+    supporting the Act on Mass transparency campaign. I'm so glad to have a representative who is standing up for
+    greater transparency
+tweet_after_request_email:
+  I just emailed @{leg.twitter} to ask them to support the @Act_On_Mass transparency campaign. Transparency is power
+  www.ActOnMass.org/the-campaign
+tweet_after_thanks_email:
+  I just emailed @{leg.twitter} to thank them for supporting the @Act_On_Mass transparency campaign. Transparency is
+  power www.ActOnMass.org/the-campaign

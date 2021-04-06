@@ -345,6 +345,10 @@ collections:
         search_fields: [name]
         display_fields: [name]
         value_field: aom_id
+      - label: Supports the campaign
+        name: supports_the_campaign
+        widget: boolean
+        default: false
       - label: Party
         name: party
         widget: select

@@ -9,6 +9,7 @@ const { renderRequestCommitteeVote } = require("./Modals/RequestCommitteeVote.ts
 const { renderRequestCosponsorship } = require("./Modals/RequestCosponsorship.tsx").default;
 const { renderRequestCosponsorshipMyRep } = require("./Modals/RequestCosponsorshipMyRep.tsx").default;
 const { renderRequestSignPledge } = require("./Modals/RequestSignPledge.tsx").default;
+const { renderRequestSupportCampaign } = require("./Modals/RequestSupportCampaign.tsx").default;
 const { renderRequestSignPledgeMyRep } = require("./Modals/RequestSignPledgeMyRep.tsx").default;
 const { renderHistory } = require("./History").default;
 const { renderFindMyReps } = require("./FindMyReps/FindMyReps.tsx").default;
@@ -21,6 +22,7 @@ module.exports = {
   renderRequestCosponsorship,
   renderRequestCosponsorshipMyRep,
   renderRequestSignPledge,
+  renderRequestSupportCampaign,
   renderRequestSignPledgeMyRep,
   renderFindMyReps,
   renderBillTimeline,
