@@ -123,6 +123,17 @@ module Cache
       end
     end
 
+    def generate_leg_chamber(site)
+      cache = site.data["cache"]
+      for leg in site.collections["legislators"].docs do
+        if leg["district"].start_with?("house") then
+          leg.data["chamber"] = 'house'
+        else
+          leg.data["chamber"] = 'senate'
+        end
+      end
+    end
+
     def generate(site)
       generate_cache(site)
       generate_legislator_committees(site)
@@ -130,6 +141,7 @@ module Cache
       generate_legislator_cosponsored_bills(site)
       generate_issue_bills(site)
       generate_legislator_pledge(site)
+      generate_leg_chamber(site)
     end
   end
 end
