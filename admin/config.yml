@@ -326,7 +326,7 @@ collections:
     folder: _legislators/
     create: true
     slug: "{{first_name}}-{{last_name}}"
-    identifier_field: last_name
+    identifier_field: aom_id
     editor:
       preview: false
     fields:
@@ -707,20 +707,18 @@ collections:
             name: "yes"
             widget: string
             hint: >-
-              Example: Voted to send the [Safe Communities
-              Act](/bills/safe-communities-act/) to study
+              Example: Voted to send the [Safe Communities Act](/bills/safe-communities-act/) to study
           - label: No vote description
             name: "no"
             widget: string
             hint: >-
-              Example: Voted against sending the [Safe Communities
-              Act](/bills/safe-communities-act/) to study
+              Example: Voted against sending the [Safe Communities Act](/bills/safe-communities-act/) to study
           - label: Unknown vote description
             name: unk
             widget: string
             hint: >-
-              Example: Won't tell us how they voted on the [Safe Communities
-              Act](/bills/safe-communities-act/) in committee
+              Example: Won't tell us how they voted on the [Safe Communities Act](/bills/safe-communities-act/) in
+              committee
       - label: Votes
         name: votes
         widget: list
@@ -768,6 +766,10 @@ collections:
         label: "Pledge scripts"
         name: "pledge_scripts"
         file: "_data/pledge_scripts.yml"
+      - <<: *script
+        label: "The campaign script"
+        name: "campaign_scripts"
+        file: "_data/campaign_scripts.yml"
       - <<: *script
         label: "Default bill scripts - Request co-sponsorship"
         name: "default_bill_scripts"
