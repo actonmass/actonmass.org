@@ -1,19 +1,19 @@
 ---
 aom_id: jennifer-benson
-chamber: house
-district: house-37th-middlesex
-email: Jennifer.Benson@mahouse.gov
-end_date: ''
-facebook: ''
 first_name: Jennifer
-hometown: Lunenburg
 last_name: Benson
-malegislature_url: https://malegislature.gov/Legislators/Profile/JEB1
+district: house-37th-middlesex
 party: D
 phone: (617) 722-2430
+email: Jennifer.Benson@mahouse.gov
+hometown: Lunenburg
 picture: https://malegislature.gov/Legislators/Profile/170/JEB1.jpg
 square_picture: /img/legislators/square-pictures/jennifer-benson.jpg
-start_date: ''
-twitter: ''
-website: ''
+end_date: 2020-01-08
+start_date: ""
+malegislature_url: https://malegislature.gov/Legislators/Profile/JEB1
+website: ""
+facebook: ""
+twitter: ""
+chamber: house
 ---
