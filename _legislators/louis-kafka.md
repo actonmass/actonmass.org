@@ -1,20 +1,20 @@
 ---
 aom_id: louis-kafka
-chamber: house
-district: house-8th-norfolk
-email: Louis.Kafka@mahouse.gov
-end_date: ''
-facebook: ''
 first_name: Louis
-hometown: Stoughton
 last_name: Kafka
-malegislature_url: https://malegislature.gov/Legislators/Profile/LLK1
+district: house-8th-norfolk
 party: D
 phone: (617) 722-2960
+email: Louis.Kafka@mahouse.gov
+hometown: Stoughton
 picture: https://malegislature.gov/Legislators/Profile/170/LLK1.jpg
 square_picture: /img/legislators/square-pictures/louis-kafka.jpg
-start_date: ''
-twitter: ''
-website: ''
+end_date: 2021-01-05
+start_date: ""
+malegislature_url: https://malegislature.gov/Legislators/Profile/LLK1
+website: ""
+facebook: ""
 ocd_id: ocd-person/6847f063-97fd-4091-8f82-041d36d374b1
+twitter: ""
+chamber: house
 ---
