@@ -1,20 +1,20 @@
 ---
 aom_id: harold-naughton
-chamber: house
-district: house-12th-worcester
-email: Harold.Naughton@mahouse.gov
-end_date: ''
-facebook: ''
 first_name: Harold
-hometown: Clinton
 last_name: Naughton
-malegislature_url: https://malegislature.gov/Legislators/Profile/HPN1
+district: house-12th-worcester
 party: D
 phone: (617) 722-2230
+email: Harold.Naughton@mahouse.gov
+hometown: Clinton
 picture: https://malegislature.gov/Legislators/Profile/170/HPN1.jpg
 square_picture: /img/legislators/square-pictures/harold-naughton.jpg
-start_date: ''
-twitter: ''
-website: ''
+end_date: 2021-01-05
+start_date: ""
+malegislature_url: https://malegislature.gov/Legislators/Profile/HPN1
+website: ""
+facebook: ""
 ocd_id: ocd-person/33017dde-3525-43ff-8c3a-fb44a4a9d833
+twitter: ""
+chamber: house
 ---
