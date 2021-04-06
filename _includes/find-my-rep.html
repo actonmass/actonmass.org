@@ -5,6 +5,7 @@
 {% else %}
   {% assign title = 'legislator search' %}
 {% endif %}
+{% assign today_date = site.time | date: '%Y-%m-%d' %}
 
 
 <div id="find-my-reps"></div>
@@ -13,13 +14,16 @@
 
   var legislators = [
     {% for leg in site.legislators %}
-      {% assign district = site.data.cache.districts_by_id[leg.district] %}
-      {% assign short_id = leg.id | replace: "/legislators/", "" %}
-      {
-        href: "{{leg.id}}",
-        name: "{{leg.first_name}} {{leg.last_name}}",
-        chamber: "{{leg.district | split: "-" | first }}",
-      },
+      {%assign leg_end_date = leg.end_date | date: '%Y-%m-%d'%}
+      {% unless leg_end_date != "" and leg_end_date < today_date %}
+        {% assign district = site.data.cache.districts_by_id[leg.district] %}
+        {% assign short_id = leg.id | replace: "/legislators/", "" %}
+        {
+          href: "{{leg.id}}",
+          name: "{{leg.first_name}} {{leg.last_name}}",
+          chamber: "{{leg.district | split: "-" | first }}",
+        },
+      {% endunless %}
     {% endfor %}
   ];
 
