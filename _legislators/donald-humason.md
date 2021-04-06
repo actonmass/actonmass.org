@@ -1,13 +1,14 @@
 ---
 aom_id: donald-humason
-chamber: senate
-district: senate-2nd-hampden-and-hampshire
-email: Donald.Humason@masenate.gov
 first_name: Donald
-hometown: Westfield
 last_name: Humason
-malegislature_url: https://malegislature.gov/Legislators/Profile/DFH0
+district: senate-2nd-hampden-and-hampshire
 party: R
 phone: 617-722-1415
+email: Donald.Humason@masenate.gov
+hometown: Westfield
 square_picture: /img/legislators/square-pictures/donald-humason.jpeg
+end_date: 2020-01-05
+malegislature_url: https://malegislature.gov/Legislators/Profile/DFH0
+chamber: senate
 ---
