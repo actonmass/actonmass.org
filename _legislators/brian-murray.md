@@ -1,6 +1,5 @@
 ---
 aom_id: brian-murray
-chamber: house
 district: house-10th-worcester
 email: Brian.Murray@mahouse.gov
 end_date: ''

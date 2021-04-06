@@ -1,6 +1,5 @@
 ---
 aom_id: thomas-stanley
-chamber: house
 district: house-9th-middlesex
 email: Thomas.Stanley@mahouse.gov
 end_date: ''

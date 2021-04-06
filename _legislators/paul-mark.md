@@ -1,6 +1,5 @@
 ---
 aom_id: paul-mark
-chamber: house
 district: house-2nd-berkshire
 email: Paul.Mark@mahouse.gov
 end_date: ''

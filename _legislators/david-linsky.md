@@ -1,6 +1,5 @@
 ---
 aom_id: david-linsky
-chamber: house
 district: house-5th-middlesex
 email: David.Linsky@mahouse.gov
 end_date: ''

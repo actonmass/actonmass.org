@@ -1,6 +1,5 @@
 ---
 aom_id: richard-haggerty
-chamber: house
 district: house-30th-middlesex
 email: richard.haggerty@mahouse.gov
 end_date: ''

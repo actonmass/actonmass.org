@@ -1,6 +1,5 @@
 ---
 aom_id: jeffrey-roy
-chamber: house
 district: house-10th-norfolk
 email: Jeffrey.Roy@mahouse.gov
 end_date: ''

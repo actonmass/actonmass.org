@@ -16,5 +16,4 @@ website: null
 facebook: https://www.facebook.com/Representative-Elizabeth-Poirier-115052675238359/
 ocd_id: ocd-person/c4e46af4-a67d-4f8a-96ba-bf2a95efbe24
 twitter: BettyPoirierMA
-chamber: house
 ---

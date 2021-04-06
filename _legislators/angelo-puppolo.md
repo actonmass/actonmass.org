@@ -1,6 +1,5 @@
 ---
 aom_id: angelo-puppolo
-chamber: house
 district: house-12th-hampden
 email: Angelo.Puppolo@mahouse.gov
 end_date: ''

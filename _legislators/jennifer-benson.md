@@ -15,5 +15,4 @@ malegislature_url: https://malegislature.gov/Legislators/Profile/JEB1
 website: ""
 facebook: ""
 twitter: ""
-chamber: house
 ---

@@ -1,6 +1,5 @@
 ---
 aom_id: dylan-fernandes
-chamber: house
 district: house-barnstable-dukes-and-nantucket
 email: Dylan.Fernandes@mahouse.gov
 end_date: ''

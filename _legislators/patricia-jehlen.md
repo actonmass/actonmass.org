@@ -11,5 +11,4 @@ hometown: Somerville
 square_picture: /img/legislators/square-pictures/patricia-jehlen.jpg
 malegislature_url: https://malegislature.gov/Legislators/Profile/PDJ0
 twitter: senjehlen
-chamber: senate
 ---

@@ -16,5 +16,4 @@ website: ""
 facebook: ""
 ocd_id: ocd-person/2a9569a0-feaf-431d-8a8d-012d8ebccbf8
 twitter: RepAlicePeisch
-chamber: house
 ---

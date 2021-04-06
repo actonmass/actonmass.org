@@ -1,6 +1,5 @@
 ---
 aom_id: marcos-devers
-chamber: house
 district: house-16th-essex
 email: marcos.devers@mahouse.gov
 end_date: ''

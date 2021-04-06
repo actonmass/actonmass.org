@@ -1,6 +1,5 @@
 ---
 aom_id: thomas-golden
-chamber: house
 district: house-16th-middlesex
 email: Thomas.Golden@mahouse.gov
 end_date: ''

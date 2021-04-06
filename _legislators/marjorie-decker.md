@@ -1,6 +1,5 @@
 ---
 aom_id: marjorie-decker
-chamber: house
 district: house-25th-middlesex
 email: Marjorie.Decker@mahouse.gov
 end_date: ''

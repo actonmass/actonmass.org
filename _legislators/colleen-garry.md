@@ -1,6 +1,5 @@
 ---
 aom_id: colleen-garry
-chamber: house
 district: house-36th-middlesex
 email: Colleen.Garry@mahouse.gov
 end_date: ''

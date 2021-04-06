@@ -15,5 +15,4 @@ malegislature_url: https://malegislature.gov/Legislators/Profile/SLO1
 website: http://www.shaunnaoconnell.com/
 facebook: https://www.facebook.com/shaunna.oconnell.7?fref=nf
 twitter: ShaunnaOconnell
-chamber: house
 ---

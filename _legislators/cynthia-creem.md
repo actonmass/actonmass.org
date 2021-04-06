@@ -1,6 +1,5 @@
 ---
 aom_id: cynthia-creem
-chamber: senate
 district: senate-1st-middlesex-and-norfolk
 email: Cynthia.Creem@masenate.gov
 first_name: Cynthia

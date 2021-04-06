@@ -1,6 +1,5 @@
 ---
 aom_id: edward-coppinger
-chamber: house
 district: house-10th-suffolk
 email: Edward.Coppinger@mahouse.gov
 end_date: ''

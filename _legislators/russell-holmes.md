@@ -1,6 +1,5 @@
 ---
 aom_id: russell-holmes
-chamber: house
 district: house-6th-suffolk
 email: Russell.Holmes@mahouse.gov
 end_date: ''

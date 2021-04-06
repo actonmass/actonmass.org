@@ -1,6 +1,5 @@
 ---
 aom_id: natalie-higgins
-chamber: house
 district: house-4th-worcester
 email: Natalie.Higgins@mahouse.gov
 end_date: ''

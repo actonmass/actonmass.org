@@ -1,6 +1,5 @@
 ---
 aom_id: christine-barber
-chamber: house
 district: house-34th-middlesex
 email: Christine.Barber@mahouse.gov
 end_date: ''

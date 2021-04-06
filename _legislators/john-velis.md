@@ -16,5 +16,4 @@ website: https://www.velisforwestfield.com/
 facebook: https://www.facebook.com/repjohnvelis
 ocd_id: ocd-person/a37a3f66-83a2-4a7e-90e3-8de41be7262d
 twitter: repjohnvelis
-chamber: house
 ---

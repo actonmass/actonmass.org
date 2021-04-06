@@ -10,5 +10,4 @@ hometown: Westfield
 square_picture: /img/legislators/square-pictures/donald-humason.jpeg
 end_date: 2020-01-05
 malegislature_url: https://malegislature.gov/Legislators/Profile/DFH0
-chamber: senate
 ---

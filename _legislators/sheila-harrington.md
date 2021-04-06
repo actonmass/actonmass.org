@@ -1,6 +1,5 @@
 ---
 aom_id: sheila-harrington
-chamber: house
 district: house-1st-middlesex
 email: Sheila.Harrington@mahouse.gov
 end_date: ''

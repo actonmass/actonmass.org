@@ -16,5 +16,4 @@ website: http://www.randyhuntstaterep.com/
 facebook: https://www.facebook.com/randyhuntstaterep/
 ocd_id: ocd-person/11811997-cc3d-49e1-a9de-685b9021af9a
 twitter: RandyHuntCPA
-chamber: house
 ---

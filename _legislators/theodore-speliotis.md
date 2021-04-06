@@ -16,5 +16,4 @@ website: null
 facebook: https://www.facebook.com/reptedspeliotis/
 ocd_id: ocd-person/66f8e4bd-3729-4d3b-92b7-842eee659348
 twitter: null
-chamber: house
 ---

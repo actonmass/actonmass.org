@@ -1,6 +1,5 @@
 ---
 aom_id: tricia-farley-bouvier
-chamber: house
 district: house-3rd-berkshire
 email: Tricia.Farley-Bouvier@mahouse.gov
 end_date: ''

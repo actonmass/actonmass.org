@@ -1,6 +1,5 @@
 ---
 aom_id: sonia-chang-diaz
-chamber: senate
 district: senate-2nd-suffolk
 email: Sonia.Chang-Diaz@masenate.gov
 first_name: Sonia

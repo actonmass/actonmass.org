@@ -1,6 +1,5 @@
 ---
 aom_id: michael-brady
-chamber: senate
 district: senate-2nd-plymouth-and-bristol
 email: Michael.Brady@masenate.gov
 first_name: Michael

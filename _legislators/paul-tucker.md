@@ -1,6 +1,5 @@
 ---
 aom_id: paul-tucker
-chamber: house
 district: house-7th-essex
 email: Paul.Tucker@mahouse.gov
 end_date: ''

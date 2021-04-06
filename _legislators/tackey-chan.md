@@ -1,6 +1,5 @@
 ---
 aom_id: tackey-chan
-chamber: house
 district: house-2nd-norfolk
 email: Tackey.Chan@mahouse.gov
 end_date: ''

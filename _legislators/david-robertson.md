@@ -1,6 +1,5 @@
 ---
 aom_id: david-robertson
-chamber: house
 district: house-19th-middlesex
 email: david.robertson@mahouse.gov
 end_date: ''

@@ -1,6 +1,5 @@
 ---
 aom_id: patrick-kearney
-chamber: house
 district: house-4th-plymouth
 email: patrick.kearney@mahouse.gov
 end_date: ''

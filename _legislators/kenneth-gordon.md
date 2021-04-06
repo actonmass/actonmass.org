@@ -1,6 +1,5 @@
 ---
 aom_id: kenneth-gordon
-chamber: house
 district: house-21st-middlesex
 email: Ken.Gordon@mahouse.gov
 end_date: ''

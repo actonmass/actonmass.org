@@ -1,6 +1,5 @@
 ---
 aom_id: antonio-cabral
-chamber: house
 district: house-13th-bristol
 email: Antonio.Cabral@mahouse.gov
 end_date: ''

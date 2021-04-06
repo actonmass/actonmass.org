@@ -1,6 +1,5 @@
 ---
 aom_id: smitty-pignatelli
-chamber: house
 district: house-4th-berkshire
 email: rep.smitty@mahouse.gov
 end_date: ''

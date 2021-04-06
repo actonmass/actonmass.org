@@ -1,6 +1,5 @@
 ---
 aom_id: christopher-markey
-chamber: house
 district: house-9th-bristol
 email: Christopher.Markey@mahouse.gov
 end_date: ''

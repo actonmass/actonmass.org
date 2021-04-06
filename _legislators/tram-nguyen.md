@@ -1,6 +1,5 @@
 ---
 aom_id: tram-nguyen
-chamber: house
 district: house-18th-essex
 email: tram.nguyen@mahouse.gov
 end_date: ''

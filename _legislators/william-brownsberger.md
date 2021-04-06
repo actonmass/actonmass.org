@@ -1,6 +1,5 @@
 ---
 aom_id: william-brownsberger
-chamber: senate
 district: senate-2nd-suffolk-and-middlesex
 email: William.Brownsberger@masenate.gov
 first_name: William

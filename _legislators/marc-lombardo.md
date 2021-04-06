@@ -1,6 +1,5 @@
 ---
 aom_id: marc-lombardo
-chamber: house
 district: house-22nd-middlesex
 email: Marc.Lombardo@mahouse.gov
 end_date: ''

@@ -1,6 +1,5 @@
 ---
 aom_id: nika-elugardo
-chamber: house
 district: house-15th-suffolk
 email: nika.elugardo@mahouse.gov
 end_date: ''

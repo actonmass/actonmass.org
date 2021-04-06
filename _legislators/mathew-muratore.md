@@ -1,6 +1,5 @@
 ---
 aom_id: mathew-muratore
-chamber: house
 district: house-1st-plymouth
 email: Mathew.Muratore@mahouse.gov
 end_date: ''

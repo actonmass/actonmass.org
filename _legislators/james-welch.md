@@ -11,5 +11,4 @@ hometown: West Springfield
 square_picture: /img/legislators/square-pictures/james-welch.jpg
 end_date: 2021-01-05
 malegislature_url: https://malegislature.gov/Legislators/Profile/JTW0
-chamber: senate
 ---

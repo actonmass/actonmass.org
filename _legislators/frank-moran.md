@@ -1,6 +1,5 @@
 ---
 aom_id: frank-moran
-chamber: house
 district: house-17th-essex
 email: Frank.Moran@mahouse.gov
 end_date: ''

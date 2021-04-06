@@ -1,6 +1,5 @@
 ---
 aom_id: david-biele
-chamber: house
 district: house-4th-suffolk
 email: David.Biele@mahouse.gov
 end_date: ''

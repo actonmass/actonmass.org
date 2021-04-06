@@ -16,5 +16,4 @@ website: http://www.electwillcrocker.com/
 facebook: https://www.facebook.com/StateRepWillCrocker/
 ocd_id: ocd-person/3577fe5d-44ba-4ab8-ab2b-40524dac3755
 twitter: WillCrockerJr
-chamber: house
 ---

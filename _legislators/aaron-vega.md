@@ -16,5 +16,4 @@ website: http://www.aaronvega.org/
 facebook: https://www.facebook.com/aaronvegaStateRep
 ocd_id: ocd-person/445ac849-5e68-4714-adda-759425ad72cf
 twitter: AaronMVega
-chamber: house
 ---

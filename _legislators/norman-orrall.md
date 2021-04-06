@@ -1,6 +1,5 @@
 ---
 aom_id: norman-orrall
-chamber: house
 district: house-12th-bristol
 email: norman.orrall@mahouse.gov
 end_date: ''

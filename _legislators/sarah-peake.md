@@ -1,6 +1,5 @@
 ---
 aom_id: sarah-peake
-chamber: house
 district: house-4th-barnstable
 email: Sarah.Peake@mahouse.gov
 end_date: ''

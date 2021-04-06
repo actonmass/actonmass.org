@@ -1,6 +1,5 @@
 ---
 aom_id: liz-miranda
-chamber: house
 district: house-5th-suffolk
 email: liz.miranda@mahouse.gov
 end_date: ''

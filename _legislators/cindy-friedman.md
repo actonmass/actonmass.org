@@ -1,6 +1,5 @@
 ---
 aom_id: cindy-friedman
-chamber: senate
 district: senate-4th-middlesex
 email: Cindy.Friedman@masenate.gov
 first_name: Cindy

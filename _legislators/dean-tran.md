@@ -11,5 +11,4 @@ hometown: Fitchburg
 square_picture: /img/legislators/square-pictures/dean-tran.jpg
 end_date: 2021-01-05
 malegislature_url: https://malegislature.gov/Legislators/Profile/DAT0
-chamber: senate
 ---

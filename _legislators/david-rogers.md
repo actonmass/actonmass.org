@@ -1,6 +1,5 @@
 ---
 aom_id: david-rogers
-chamber: house
 district: house-24th-middlesex
 email: Dave.Rogers@mahouse.gov
 end_date: ''

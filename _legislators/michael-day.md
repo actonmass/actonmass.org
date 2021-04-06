@@ -1,6 +1,5 @@
 ---
 aom_id: michael-day
-chamber: house
 district: house-31st-middlesex
 email: Michael.Day@mahouse.gov
 end_date: ''

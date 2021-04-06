@@ -16,5 +16,4 @@ website: ""
 facebook: ""
 ocd_id: ocd-person/3b5ba366-0e1a-4d72-ba0a-515010e67d9a
 twitter: ""
-chamber: house
 ---

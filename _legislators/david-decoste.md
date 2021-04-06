@@ -1,6 +1,5 @@
 ---
 aom_id: david-decoste
-chamber: house
 district: house-5th-plymouth
 email: David.DeCoste@mahouse.gov
 end_date: ''

@@ -1,6 +1,5 @@
 ---
 aom_id: susan-gifford
-chamber: house
 district: house-2nd-plymouth
 email: Susan.Gifford@mahouse.gov
 end_date: ''

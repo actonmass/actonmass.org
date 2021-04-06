@@ -1,6 +1,5 @@
 ---
 aom_id: david-vieira
-chamber: house
 district: house-3rd-barnstable
 email: David.Vieira@mahouse.gov
 end_date: ''

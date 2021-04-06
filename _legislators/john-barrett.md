@@ -1,6 +1,5 @@
 ---
 aom_id: john-barrett
-chamber: house
 district: house-1st-berkshire
 email: john.barrett@mahouse.gov
 end_date: ''

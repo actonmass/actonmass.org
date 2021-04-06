@@ -1,6 +1,5 @@
 ---
 aom_id: andres-vargas
-chamber: house
 district: house-3rd-essex
 email: andy.vargas@mahouse.gov
 end_date: ''

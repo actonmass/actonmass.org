@@ -1,6 +1,5 @@
 ---
 aom_id: joseph-boncore
-chamber: senate
 district: senate-1st-suffolk-and-middlesex
 email: Joseph.Boncore@masenate.gov
 first_name: Joseph

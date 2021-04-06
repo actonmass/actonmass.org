@@ -1,6 +1,5 @@
 ---
 aom_id: james-arciero
-chamber: house
 district: house-2nd-middlesex
 email: James.Arciero@mahouse.gov
 end_date: ''

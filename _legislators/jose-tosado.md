@@ -16,5 +16,4 @@ website: http://www.josetosado.com
 facebook: https://www.facebook.com/JoseFTosado
 ocd_id: ocd-person/eaf07396-2e80-4e14-b236-f895882535ca
 twitter: JoseTosado4Rep
-chamber: house
 ---
