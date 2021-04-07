@@ -52,19 +52,21 @@ layout: base
         <div class="leg-committees-container">
           <h4 class="leg_committ fRaleway fWhite fUppercase fRegular">Committees</h4>
           {% if leg.committees.size > 0 %}
-          {% assign committees = leg.committees | sort: "priority" %}
-          {% for committee in committees %}
-          {% if committee.role != "Member" %}
-            <div class="rect7 chair">
-              <p class="fWhite fRegular">{{committee.role}}</p>
-              <h5 class="fWhite fRoboto fLight">{{ committee.title }}</h5>
+            <div class="leg-list-committees">
+            {% assign committees = leg.committees | sort: "priority" %}
+            {% for committee in committees %}
+              {% if committee.role != "Member" %}
+                <div class="rect7 chair">
+                  <p class="fWhite fRegular">{{committee.role}}</p>
+                  <h5 class="fWhite fRoboto fLight">{{ committee.title }}</h5>
+                </div>
+              {% else %}
+                <div class="rect7">
+                  <h5 class="fWhite fRoboto fLight">{{ committee.title }}</h5>
+                </div>
+              {% endif %}
+            {% endfor %}
             </div>
-          {% else %}
-            <div class="rect7">
-              <h5 class="fWhite fRoboto fLight">{{ committee.title }}</h5>
-            </div>
-          {% endif %}
-          {% endfor %}
           {% endif %}
         </div>
       </section>
