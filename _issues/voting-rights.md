@@ -2,7 +2,7 @@
 aom_id: voting-rights
 layout: issue
 title: Voting Rights
-subtitle: Voting should be easy and accessible for all Massachusetts residents
+subtitle: Easy and accessible voting for all MA residents
 logo: check-square
 img: /img/issue-vote.jpg
 catchphrase: "Crucial voting reforms that have succeeded elsewhere in making the

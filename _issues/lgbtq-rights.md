@@ -2,8 +2,7 @@
 aom_id: lgbtq-rights
 layout: issue
 title: LGBTQ+ Rights
-subtitle: LGBTQ+ inclusive, gender-affirming sex education should be the
-  standard across the Commonwealth.
+subtitle: LGBTQ+ inclusive, gender-affirming sex education
 logo: equals
 img: /img/issue-lgbt.jpg
 catchphrase: MA was the first state to recognize same-sex marriage, but only
