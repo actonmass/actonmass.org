@@ -95,6 +95,7 @@ export default {
     },
     {
       label: "Hidden",
+      hint: "Inactive bills to hide from the bills page.",
       name: "hidden",
       widget: "boolean",
       default: false,
