@@ -1,4 +1,10 @@
-import { id_field, legislator_picker, date_picker, script_opt, script_req_only_opt } from "../common";
+import {
+  id_field,
+  legislator_picker,
+  date_picker,
+  script_opt,
+  script_req_only_opt,
+} from "../common";
 
 export default {
   name: "bills",
@@ -86,6 +92,12 @@ export default {
       name: "img",
       widget: "image",
       required: false,
+    },
+    {
+      label: "Hidden",
+      name: "hidden",
+      widget: "boolean",
+      default: false,
     },
     {
       label: "Summary bullet-points",
