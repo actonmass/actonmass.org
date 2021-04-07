@@ -34,6 +34,15 @@ layout: base
       </div>
     </div>
   </section>
+
+  {% if bill.text %}
+    <section class="light-blue cbox">
+      <div class="w1400">
+        {{bill.text | markdownify}}
+      </div>
+    </section>
+  {%endif%}
+
   {% include find-my-rep.html text='Please enter your address so we can help you contact your legislator.' bill=bill %}
 
   {% if committee %}

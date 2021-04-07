@@ -32,6 +32,7 @@ export default {
     {
       label: "Subtitle",
       name: "subtitle",
+      hint: "Used in the home page in the issue box",
       widget: "string",
       required: false,
     },
@@ -39,6 +40,7 @@ export default {
       label: "Logo",
       name: "logo",
       widget: "string",
+      hint: "Check https://fontawesome.com/icons/ for icons",
       required: false,
     },
     {
@@ -48,16 +50,23 @@ export default {
       required: false,
     },
     {
+      label: "Issue page image",
+      name: "page_img",
+      widget: "image",
+      required: false,
+    },
+    {
       label: "Catchphrase",
-      hint: "Appears on the headline",
+      hint: "Appears on the headline on the issue page",
       name: "catchphrase",
       widget: "string",
       required: false,
     },
     {
-      label: "Issue page image",
-      name: "page_img",
-      widget: "image",
+      label: "Issue text block",
+      hint: "Appears under the headline on the issue page",
+      name: "text",
+      widget: "markdown",
       required: false,
     },
     {

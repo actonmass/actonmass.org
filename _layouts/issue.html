@@ -23,6 +23,15 @@ layout: base
       </div>
     </div>
   </section>
+
+  {% if issue.text %}
+    <section class="light-blue cbox">
+      <div class="w1400">
+        {{issue.text | markdownify}}
+      </div>
+    </section>
+  {%endif%}
+
   <section class="bills cbox">
     <div class="w1400">
       <h3 class="issues_bill_header fUppercase fExbold">bills to support {{issue.bills_to_support_title}}</h3>

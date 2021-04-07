@@ -99,6 +99,7 @@ export default {
       name: "hidden",
       widget: "boolean",
       default: false,
+      required: false,
     },
     {
       label: "Summary bullet-points",
@@ -111,6 +112,13 @@ export default {
         name: "point",
         widget: "string",
       },
+    },
+    {
+      label: "Bill text block",
+      hint: "Appears under the headline on the bill page",
+      name: "text",
+      widget: "markdown",
+      required: false,
     },
     {
       label: "Organisations",
