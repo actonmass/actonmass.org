@@ -32,11 +32,15 @@ module Cache
               chair.data["committees"].push({"role" => "Chair", "title" => title, "priority" => 1})
             end
             vice_chair = legislators[committee["#{chamber}_vice_chair"]]
-            if (chair != nil) then
+            if (vice_chair != nil) then
               vice_chair.data["committees"].push({"role" => "Vice-chair", "title" => title, "priority" => 2})
             end
             for member_id in committee["#{chamber}_members"] do
               member = legislators[member_id]
+              if member == nil then
+                puts '>> UNKNOWN MEMBER IN COMMITTEE'
+                puts member_id
+              end
               member.data["committees"].push({"role" => "Member", "title" => title, "priority" => 3})
             end
           end

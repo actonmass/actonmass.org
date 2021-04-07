@@ -1,5 +1,5 @@
 ---
-aom_id: edward-philips
+aom_id: ted-philips
 first_name: Ted
 last_name: Philips
 district: house-8th-norfolk
