@@ -1,25 +1,25 @@
 ---
 aom_id: joint-tourism-arts-and-cultural-development
-chamber: joint
-house_chair: paul-mcmurtry
-house_members:
-- sean-garballey
-- tricia-farley-bouvier
-- mary-keefe
-- rady-mom
-- nika-elugardo
-- natalie-blais
-- tommy-vitolo
-- mathew-muratore
-- david-vieira
-house_vice_chair: bruce-ayers
 malegislature_url: https://malegislature.gov/Committees/Detail/J30
-senate_chair: edward-kennedy
-senate_members:
-- adam-hinds
-- diana-dizoglio
-- nick-collins
-- viriato-demacedo
-senate_vice_chair: michael-brady
 title: Joint Committee on Tourism, Arts and Cultural Development
+chamber: joint
+senate_chair: edward-kennedy
+senate_vice_chair: john-cronin
+senate_members:
+  - susan-moran
+  - walter-timilty
+  - john-velis-1
+  - ryan-fattman
+house_chair: carole-fiola
+house_vice_chair: dylan-fernandes
+house_members:
+  - tricia-farley-bouvier
+  - mary-keefe
+  - natalie-blais
+  - tommy-vitolo
+  - smitty-pignatelli
+  - john-rogers
+  - kip-diggs
+  - mathew-muratore
+  - david-vieira
 ---

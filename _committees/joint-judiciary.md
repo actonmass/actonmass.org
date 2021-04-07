@@ -1,25 +1,25 @@
 ---
 aom_id: joint-judiciary
-chamber: joint
-house_chair: claire-cronin
-house_members:
-- colleen-garry
-- jay-livingstone
-- carole-fiola
-- john-velis
-- christopher-hendricks
-- liz-miranda
-- susannah-whipps
-- sheila-harrington
-- alyson-sullivan
-house_vice_chair: michael-day
 malegislature_url: https://malegislature.gov/Committees/Detail/J19
-senate_chair: james-eldridge
-senate_members:
-- william-brownsberger
-- cynthia-creem
-- eric-lesser
-- patrick-oconnor
-senate_vice_chair: sonia-chang-diaz
 title: Joint Committee on the Judiciary
+chamber: joint
+senate_chair: james-eldridge
+senate_vice_chair: eric-lesser
+senate_members:
+  - sonia-chang-diaz
+  - cynthia-creem
+  - john-velis-1
+  - patrick-oconnor
+house_chair: michael-day
+house_vice_chair: chynah-tyler
+house_members:
+  - christopher-hendricks
+  - susannah-whipps
+  - colleen-garry
+  - jon-santiago
+  - brandy-fluker-oakley
+  - adam-scanlon
+  - jay-livingstone
+  - sheila-harrington
+  - alyson-sullivan
 ---

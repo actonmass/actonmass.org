@@ -1,18 +1,18 @@
 ---
 aom_id: house-ethics
-chamber: house
-house_chair: christopher-markey
-house_members:
-- david-nangle
-- paul-donato
-- patricia-haddad
-- alice-peisch
-- claire-cronin
-- elizabeth-poirier
-- f-jay-barrows
-- susan-gifford
-- marc-lombardo
-house_vice_chair: thomas-walsh
 malegislature_url: https://malegislature.gov/Committees/Detail/H38
 title: House Committee on Ethics
+chamber: house
+house_chair: thomas-walsh
+house_vice_chair: david-robertson
+house_members:
+  - joseph-wagner
+  - thomas-golden
+  - ruth-balser
+  - alice-peisch
+  - claire-cronin
+  - susan-gifford
+  - f-jay-barrows
+  - sheila-harrington
+  - marc-lombardo
 ---

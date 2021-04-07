@@ -1,28 +1,28 @@
 ---
 aom_id: joint-economic-development-and-emerging-technologies
-chamber: joint
-house_chair: ann-margaret-ferrante
-house_members:
-- brian-ashe
-- carole-fiola
-- michael-day
-- carlos-gonzalez
-- brian-murray
-- bud-williams
-- david-biele
-- kathleen-lanatra
-- donald-wong
-- shawn-dooley
-- michael-soter
-house_vice_chair: kenneth-gordon
 malegislature_url: https://malegislature.gov/Committees/Detail/J12
-senate_chair: eric-lesser
-senate_members:
-- paul-feeney
-- walter-timilty
-- cynthia-creem
-- anne-gobi
-- patrick-oconnor
-senate_vice_chair: brendan-crighton
 title: Joint Committee on Economic Development and Emerging Technologies
+chamber: joint
+senate_chair: eric-lesser
+senate_vice_chair: michael-brady
+senate_members:
+  - sonia-chang-diaz
+  - john-cronin
+  - paul-feeney
+  - edward-kennedy
+  - patrick-oconnor
+house_chair: jerald-parisella
+house_vice_chair: andres-vargas
+house_members:
+  - brian-ashe
+  - brian-murray
+  - bud-williams
+  - david-biele
+  - kathleen-lanatra
+  - ted-philips
+  - jessica-giannino
+  - kip-diggs
+  - david-muradian
+  - shawn-dooley
+  - michael-soter
 ---

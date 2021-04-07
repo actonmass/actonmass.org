@@ -1,60 +1,61 @@
 ---
 aom_id: joint-ways-and-means
-chamber: joint
-house_chair: aaron-michlewitz
-house_members:
-- elizabeth-malia
-- thomas-walsh
-- thomas-stanley
-- james-arciero
-- brian-ashe
-- sean-garballey
-- carolyn-dykema
-- russell-holmes
-- paul-schmid
-- josh-cutler
-- carole-fiola
-- mary-keefe
-- jay-livingstone
-- alan-silvia
-- daniel-hunt
-- john-velis
-- christine-barber
-- carlos-gonzalez
-- jose-tosado
-- gerard-cassidy
-- john-barrett
-- natalie-higgins
-- chynah-tyler
-- bud-williams
-- andres-vargas
-- todd-smola
-- angelo-demilia
-- donald-berthiaume
-- hannah-kane
-- james-kelcourse
-- david-muradian
-- timothy-whelan
-house_vice_chair: denise-garlick
 malegislature_url: https://malegislature.gov/Committees/Detail/J39
-senate_chair: michael-rodrigues
-senate_members:
-- jason-lewis
-- michael-barrett
-- joseph-boncore
-- michael-brady
-- nick-collins
-- barry-finegold
-- anne-gobi
-- adam-hinds
-- patricia-jehlen
-- eric-lesser
-- joan-lovely
-- michael-moore
-- michael-rush
-- viriato-demacedo
-- donald-humason
-- ryan-fattman
-senate_vice_chair: cindy-friedman
 title: Joint Committee on Ways and Means
+chamber: joint
+senate_chair: michael-rodrigues
+senate_vice_chair: cindy-friedman
+senate_members:
+  - jason-lewis
+  - michael-barrett
+  - joseph-boncore
+  - michael-brady
+  - paul-feeney
+  - barry-finegold
+  - anne-gobi
+  - adam-hinds
+  - patricia-jehlen
+  - eric-lesser
+  - john-keenan
+  - michael-moore
+  - michael-rush
+  - patrick-oconnor
+  - ryan-fattman
+  - bruce-tarr
+house_chair: aaron-michlewitz
+house_vice_chair: ann-margaret-ferrante
+house_members:
+  - paul-donato
+  - christine-barber
+  - david-biele
+  - natalie-blais
+  - john-barrett
+  - marcos-devers
+  - russell-holmes
+  - nika-elugardo
+  - dylan-fernandes
+  - natalie-higgins
+  - brian-murray
+  - christina-minicucci
+  - elizabeth-malia
+  - kathleen-lanatra
+  - james-hawkins
+  - jack-lewis
+  - patrick-kearney
+  - meghan-kilcoyne
+  - paul-schmid
+  - alan-silvia
+  - chynah-tyler
+  - paul-tucker
+  - bud-williams
+  - steven-ultrino
+  - andres-vargas
+  - todd-smola
+  - angelo-demilia
+  - donald-berthiaume
+  - peter-durant
+  - james-kelcourse
+  - joseph-mckenna
+  - mathew-muratore
+  - timothy-whelan
 ---

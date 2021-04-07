@@ -1,25 +1,25 @@
 ---
 aom_id: joint-consumer-protection-and-professional-licensure
-chamber: joint
-house_chair: tackey-chan
-house_members:
-- jonathan-zlotnik
-- adrian-madaro
-- william-driscoll
-- mindy-domb
-- tami-gouveia
-- david-leboeuf
-- jack-lewis
-- steven-howitt
-- joseph-mckenna
-house_vice_chair: jay-livingstone
 malegislature_url: https://malegislature.gov/Committees/Detail/J17
-senate_chair: paul-feeney
-senate_members:
-- diana-dizoglio
-- barry-finegold
-- joseph-boncore
-- ryan-fattman
-senate_vice_chair: james-welch
 title: Joint Committee on Consumer Protection and Professional Licensure
+chamber: joint
+senate_chair: susan-moran
+senate_vice_chair: paul-feeney
+senate_members:
+  - michael-brady
+  - brendan-crighton
+  - edward-kennedy
+  - bruce-tarr
+house_chair: tackey-chan
+house_vice_chair: mary-keefe
+house_members:
+  - rady-mom
+  - tricia-farley-bouvier
+  - joan-meschino
+  - tami-gouveia
+  - david-leboeuf
+  - dan-sena
+  - jacob-oliveira
+  - joseph-mckenna
+  - steven-howitt
 ---

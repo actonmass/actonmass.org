@@ -1,41 +1,42 @@
 ---
 aom_id: house-ways-and-means
-chamber: house
-house_chair: aaron-michlewitz
-house_members:
-- elizabeth-malia
-- thomas-walsh
-- thomas-stanley
-- james-arciero
-- brian-ashe
-- sean-garballey
-- carolyn-dykema
-- russell-holmes
-- paul-schmid
-- josh-cutler
-- carole-fiola
-- mary-keefe
-- jay-livingstone
-- alan-silvia
-- daniel-hunt
-- john-velis
-- christine-barber
-- carlos-gonzalez
-- jose-tosado
-- gerard-cassidy
-- john-barrett
-- natalie-higgins
-- chynah-tyler
-- bud-williams
-- andres-vargas
-- todd-smola
-- angelo-demilia
-- donald-berthiaume
-- hannah-kane
-- james-kelcourse
-- david-muradian
-- timothy-whelan
-house_vice_chair: denise-garlick
 malegislature_url: https://malegislature.gov/Committees/Detail/H34
 title: House Committee on Ways and Means
+chamber: house
+house_chair: aaron-michlewitz
+house_vice_chair: ann-margaret-ferrante
+house_members:
+  - paul-donato
+  - christine-barber
+  - david-biele
+  - natalie-blais
+  - john-barrett
+  - marcos-devers
+  - russell-holmes
+  - nika-elugardo
+  - dylan-fernandes
+  - natalie-higgins
+  - brian-murray
+  - christina-minicucci
+  - elizabeth-malia
+  - kathleen-lanatra
+  - james-hawkins
+  - jack-lewis
+  - patrick-kearney
+  - meghan-kilcoyne
+  - paul-schmid
+  - alan-silvia
+  - chynah-tyler
+  - paul-tucker
+  - bud-williams
+  - steven-ultrino
+  - andres-vargas
+  - todd-smola
+  - angelo-demilia
+  - donald-berthiaume
+  - peter-durant
+  - james-kelcourse
+  - joseph-mckenna
+  - mathew-muratore
+  - timothy-whelan
 ---

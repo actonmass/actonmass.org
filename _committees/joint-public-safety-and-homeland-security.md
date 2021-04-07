@@ -1,28 +1,28 @@
 ---
 aom_id: joint-public-safety-and-homeland-security
-chamber: joint
-house_chair: harold-naughton
-house_members:
-- thomas-walsh
-- bruce-ayers
-- paul-tucker
-- stephan-hay
-- chynah-tyler
-- patrick-kearney
-- christina-minicucci
-- liz-miranda
-- david-vieira
-- david-muradian
-- peter-durant
-house_vice_chair: alan-silvia
 malegislature_url: https://malegislature.gov/Committees/Detail/J22
-senate_chair: michael-moore
-senate_members:
-- sonia-chang-diaz
-- michael-barrett
-- mark-montigny
-- joan-lovely
-- dean-tran
-senate_vice_chair: paul-feeney
 title: Joint Committee on Public Safety and Homeland Security
+chamber: joint
+senate_chair: walter-timilty
+senate_vice_chair: sonia-chang-diaz
+senate_members:
+  - james-eldridge
+  - michael-moore
+  - rebecca-rausch
+  - john-velis-1
+  - ryan-fattman
+house_chair: carlos-gonzalez
+house_vice_chair: david-biele
+house_members:
+  - bruce-ayers
+  - chynah-tyler
+  - christina-minicucci
+  - liz-miranda
+  - jonathan-zlotnik
+  - joseph-mcgonagle
+  - dan-sena
+  - brian-ashe
+  - david-vieira
+  - peter-durant
+  - steven-xiarhos
 ---

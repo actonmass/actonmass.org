@@ -1,25 +1,25 @@
 ---
 aom_id: joint-veterans-and-federal-affairs
-chamber: joint
-house_chair: linda-campbell
-house_members:
-- angelo-scaccia
-- james-arciero
-- joan-meschino
-- christopher-hendricks
-- liz-miranda
-- david-robertson
-- jon-santiago
-- david-decoste
-- donald-berthiaume
-house_vice_chair: john-velis
 malegislature_url: https://malegislature.gov/Committees/Detail/J31
-senate_chair: walter-timilty
-senate_members:
-- rebecca-rausch
-- michael-brady
-- nick-collins
-- donald-humason
-senate_vice_chair: michael-rush
 title: Joint Committee on Veterans and Federal Affairs
+chamber: joint
+senate_chair: john-velis-1
+senate_vice_chair: michael-rush
+senate_members:
+  - michael-brady
+  - nick-collins
+  - anne-gobi
+  - ryan-fattman
+house_chair: paul-mcmurtry
+house_vice_chair: peter-capano
+house_members:
+  - liz-miranda
+  - russell-holmes
+  - alan-silvia
+  - paul-donato
+  - meghan-kilcoyne
+  - ted-philips
+  - patricia-duffy
+  - steven-xiarhos
+  - kelly-pease
 ---
