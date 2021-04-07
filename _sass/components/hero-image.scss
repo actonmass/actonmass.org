@@ -55,23 +55,4 @@
       max-width: min(450px, 100%);
     }
   }
-
-  .dot {
-    height: 1.5rem;
-    width: 1.5rem;
-    background-color: #56ccf2;
-    border-radius: 50%;
-    display: inline-block;
-    margin: 0.4rem;
-    opacity: 50%;
-
-    @media (min-width: 700px) {
-      height: 2.3rem;
-      width: 2.3rem;
-      background-color: #56ccf2;
-      border-radius: 50%;
-      display: inline-block;
-      margin: 1rem;
-    }
-  }
 }

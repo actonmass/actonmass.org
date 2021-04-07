@@ -350,6 +350,11 @@ td {
 
 .light-blue {
   background-color: #d8e5fd;
+  color: var(--primary-dark);
+
+  .dot {
+    background-color: var(--primary);
+  }
 }
 
 .medium-blue {
@@ -482,5 +487,21 @@ td {
 .mobile-only {
   @media (min-width: 700px) {
     display: none;
+  }
+}
+
+.dot {
+  height: 1.5rem;
+  width: 1.5rem;
+  background-color: #56ccf2;
+  border-radius: 50%;
+  display: inline-block;
+  margin: 0.4rem;
+  opacity: 50%;
+
+  @media (min-width: 700px) {
+    height: 2.3rem;
+    width: 2.3rem;
+    margin: 1rem;
   }
 }
