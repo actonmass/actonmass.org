@@ -3,7 +3,7 @@ version: 2
 jobs:
   build:
     docker:
-      - image: circleci/ruby:2.6.2-node-browsers # use the browsers variant image to have Java preinstalled as it is a dependency of html5validator
+      - image: circleci/ruby:2.6.6-node-browsers # use the browsers variant image to have Java preinstalled as it is a dependency of html5validator
 
     steps:
       - checkout
@@ -62,11 +62,13 @@ jobs:
 
       - run:
           name: Check HTML common mistakes
-          command: bundle exec htmlproofer ./_site --assume-extension --check-html --disable-external --empty-alt-ignore --check-img-http
+          command:
+            bundle exec htmlproofer ./_site --assume-extension --check-html --disable-external
+            --empty-alt-ignore --check-img-http
 
       - run:
           name: Validate HTML spec compliance
-          command: $HOME/.local/bin/html5validator --root _site --ignore iframe
+          command: $HOME/.local/bin/html5validator --root _site --ignore iframe anima-src
 
       - run:
           name: Start server
