@@ -342,8 +342,8 @@ collections:
         name: district
         widget: relation
         collection: districts
-        search_fields: [name]
-        display_fields: [name]
+        search_fields: [chamber, name]
+        display_fields: [chamber, name]
         value_field: aom_id
       - label: Supports the campaign
         name: supports_the_campaign
