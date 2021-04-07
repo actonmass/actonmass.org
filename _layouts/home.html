@@ -5,17 +5,7 @@ layout: base
 <main class="homepage_wrapper">
   <section class="hero">
     <div class="hero_left">
-      <img class="hero_img" src="/img/hero_img.png" alt="women protesting" />
-      <div class="dots_1">
-        {% for i in (1..25) %}
-        <span class="dot"></span>
-        {% endfor %}
-      </div>
-      <div class="dots_2">
-        {% for i in (1..25) %}
-        <span class="dot"></span>
-        {% endfor %}
-      </div>
+      {% include hero-image.html img="/img/hero_img.png" alt="Women protesting" %}
     </div>
     <div class="hero_text">
       <h4 class="header1 fRaleway fWhite fUppercase fBold">act on mass</h4>
@@ -93,7 +83,7 @@ layout: base
     </div>
   </section>
 
-  <section class="accountability light-blue">
+  <section class="pledge accountability light-blue">
     <div class="rect rect1"></div>
     <h2 class="account_title fUppercase">the transparency pledge:</h2>
     <div class="pledge_left">
