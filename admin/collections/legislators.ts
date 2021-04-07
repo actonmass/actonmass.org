@@ -6,7 +6,8 @@ export default {
   folder: "_legislators/",
   create: true,
   slug: "{{first_name}}-{{last_name}}",
-  identifier_field: "aom_id",
+  identifier_field: "last_name",
+  sortableFields: ["last_name", "id"],
   editor: {
     preview: false,
   },
