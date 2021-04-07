@@ -155,11 +155,12 @@
   }
 
   .text {
+    font-size: 2rem;
     align-self: center;
-    font-size: 4rem;
-    padding: 0rem 1rem 7rem 1rem;
+    padding: 0rem 1rem 2rem 1rem;
 
     @media (min-width: 700px) {
+      font-size: 4rem;
       justify-self: center;
       max-width: 30rem;
       padding: 0;

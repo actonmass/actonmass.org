@@ -155,18 +155,22 @@
 }
 
 .header4 {
-  font-size: 2.5rem;
+  font-size: 1.75rem;
   font-weight: 500;
   margin: 1rem 0rem 1rem 0rem;
+
+  @media (min-width: 700px) {
+    font-size: 2.5rem;
+  }
 }
 
 /* ------------- HOMEPAGE TAKE ACTION ------------- */
 .take_action {
   background-color: var(--primary);
-  padding: 0;
   display: flex;
   justify-content: center;
   text-align: center;
+  padding: 2rem;
 
   @media (min-width: 700px) {
     text-align: left;
@@ -373,8 +377,11 @@
     color: white;
     font-weight: bold;
     text-transform: uppercase;
-    font-size: 2em;
     margin: 0;
+    font-size: 1.6rem;
+    @media (min-width: 700px) {
+      font-size: 2rem;
+    }
   }
 
   i {
@@ -383,43 +390,42 @@
   }
 
   p {
-    font-size: 1.4em;
+    font-size: 1.4rem;
     color: white;
     margin: 0;
+    @media (min-width: 700px) {
+      font-size: 1.4rem;
+    }
   }
 }
 
 .homepage_wrapper .issues {
   grid-area: issues;
-  padding: 5rem 5rem;
-  /*background-color: #11447B;*/
   display: grid;
-}
 
-@media (min-width: 700px) {
-  .homepage_wrapper .issues {
+  padding: 2rem;
+
+  @media (min-width: 700px) {
     padding: 10rem 20rem;
+  }
+
+  .issues_grid {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: repeat(9, auto);
+    grid-gap: 2rem;
+    padding: 2rem;
+
+    @media (min-width: 700px) {
+      grid-template-columns: auto auto auto;
+      grid-template-rows: auto auto auto;
+      padding: 5rem 3rem 5rem 3rem;
+    }
   }
 }
 
 .issues_title {
   margin-top: 1rem;
-}
-
-.homepage_wrapper .issues .issues_grid {
-  display: grid;
-  grid-template-columns: auto;
-  grid-template-rows: repeat(9, auto);
-  grid-gap: 2rem;
-  padding: 2rem;
-}
-
-@media (min-width: 700px) {
-  .homepage_wrapper .issues .issues_grid {
-    grid-template-columns: auto auto auto;
-    grid-template-rows: auto auto auto;
-    padding: 5rem 3rem 5rem 3rem;
-  }
 }
 
 .issues_img {

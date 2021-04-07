@@ -173,10 +173,12 @@ layout: base
       {% include bill-timeline.html timeline = bill.timeline %}
     </div>
   </section>
-  <section class="history medium-blue cbox">
-    <div class="w1400">
-      <h2 class="fUppercase fExbold">History of the bill</h2>
-      {% include bill-history.html bill = bill %}
-    </div>
-  </section>
+  {% if bill.history.size > 0 %}
+    <section class="history medium-blue cbox">
+      <div class="w1400">
+        <h2 class="fUppercase fExbold">History of the bill</h2>
+        {% include bill-history.html bill = bill %}
+      </div>
+    </section>
+  {% endif %}
 </main>
