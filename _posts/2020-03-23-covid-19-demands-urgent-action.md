@@ -43,12 +43,12 @@ A number of legislators have filed bills to address various aspects of the crisi
 
 ## What should the legislature do?
 
-* **✅ Cash payments to residents:** HD.4945 by Rep. Gouveia & HD.4950 by Rep. Miranda would provide for cash payments to most residents in the state, helping blunt the impact of job loss, caring for sick relatives, and more.
-* **✅ Eviction/foreclosure moratorium:** HD.4935 by Rep. Connolly & Rep. Honan ensures no evictions or foreclosures happen during the state of emergency.
-* **✅ Unemployment insurance:** HD.4958 by Rep Mark & Rep. Sabadosa to expand who is eligible for unemployment insurance to cover people like tipped workers & others.
-* **✅ Paid Sick Time:** We must expand the current paid sick leave law to ensure all employees have an additional 15 days of paid sick time to self-isolate or care for sick relatives. No one should be forced to choose between having money for rent and taking care of their health.
-* **✅ Protecting the incarcerated**: HD.4963 by Rep. Sabadosa would work to reduce the chances of a dangerous outbreak of coronavirus in the prison system by releasing people who don't pose a threat and ensuring those who remain are given access to cleaning materials. There are already cases of Covid-19 reported in our correctional systems, we must ensure they do not spread.
-* ✅ **Vote by Mail:** HD.4957 by Rep. Mark & Rep. Sabadosa to allow anyone to request an absentee ballot and mail it back, to ensure no one has to choose between voting and following social distancing protocols.
+* **✅Cash payments to residents:** HD.4945 by Rep. Gouveia & HD.4950 by Rep. Miranda would provide for cash payments to most residents in the state, helping blunt the impact of job loss, caring for sick relatives, and more.
+* **✅Eviction/foreclosure moratorium:** HD.4935 by Rep. Connolly & Rep. Honan ensures no evictions or foreclosures happen during the state of emergency.
+* **✅Unemployment insurance:** HD.4958 by Rep Mark & Rep. Sabadosa to expand who is eligible for unemployment insurance to cover people like tipped workers & others.
+* **✅Paid Sick Time:** We must expand the current paid sick leave law to ensure all employees have an additional 15 days of paid sick time to self-isolate or care for sick relatives. No one should be forced to choose between having money for rent and taking care of their health.
+* **✅Protecting the incarcerated**: HD.4963 by Rep. Sabadosa would work to reduce the chances of a dangerous outbreak of coronavirus in the prison system by releasing people who don't pose a threat and ensuring those who remain are given access to cleaning materials. There are already cases of Covid-19 reported in our correctional systems, we must ensure they do not spread.
+* ✅**Vote by Mail:** HD.4957 by Rep. Mark & Rep. Sabadosa to allow anyone to request an absentee ballot and mail it back, to ensure no one has to choose between voting and following social distancing protocols.
 
 **Existing MA programs should have funding increased and ensure that vulnerable residents have access:**
 
@@ -89,3 +89,5 @@ You should contact four people:
 * *Local Aid to cities and towns for First Responders & Public Health needs*
 
 *Please work with your colleagues and leadership in both chambers to demand action quickly. We cannot afford to wait.\*\*"*
+
+\|
