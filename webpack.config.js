@@ -1,41 +1,72 @@
 var webpack = require("webpack");
 
-module.exports = {
-  entry: "./src/index.js",
-  output: {
-    path: __dirname + "/js/",
-    filename: "bundle.js",
-    libraryTarget: "var",
-    library: "AOM",
-  },
-  module: {
-    rules: [
-      {
-        test: /\.(js|jsx)$/,
-        exclude: /node_modules/,
-        loader: "babel-loader",
-        options: {
-          presets: ["@babel/preset-env", "@babel/preset-react"],
-          plugins: ["@babel/plugin-proposal-class-properties"],
+module.exports = [
+  {
+    entry: "./src/index.js",
+    output: {
+      path: __dirname + "/js/",
+      filename: "bundle.js",
+      libraryTarget: "var",
+      library: "AOM",
+    },
+    module: {
+      rules: [
+        {
+          test: /\.(js|jsx)$/,
+          exclude: /node_modules/,
+          loader: "babel-loader",
+          options: {
+            presets: ["@babel/preset-env", "@babel/preset-react"],
+            plugins: ["@babel/plugin-proposal-class-properties"],
+          },
         },
-      },
-      {
-        test: /\.tsx?$/,
-        use: "ts-loader",
-        exclude: /node_modules/,
-      },
+        {
+          test: /\.tsx?$/,
+          use: "ts-loader",
+          exclude: /node_modules/,
+        },
+      ],
+    },
+    resolve: {
+      extensions: ["*", ".js", ".jsx", ".tsx", ".ts"],
+    },
+    externals: {
+      leaflet: "L",
+    },
+    plugins: [
+      new webpack.IgnorePlugin({
+        resourceRegExp: /^\.\/locale$/,
+        contextRegExp: /moment$/,
+      }),
     ],
   },
-  resolve: {
-    extensions: ["*", ".js", ".jsx", ".tsx", ".ts"],
+  {
+    target: "node",
+    entry: "./admin/index.ts",
+    output: {
+      path: __dirname + "/admin/",
+      filename: "build-config.js",
+    },
+    module: {
+      rules: [
+        {
+          test: /\.(js|jsx)$/,
+          exclude: /node_modules/,
+          loader: "babel-loader",
+          options: {
+            presets: ["@babel/preset-env", "@babel/preset-react"],
+            plugins: ["@babel/plugin-proposal-class-properties"],
+          },
+        },
+        {
+          test: /\.tsx?$/,
+          use: "ts-loader",
+          exclude: /node_modules/,
+        },
+      ],
+    },
+    resolve: {
+      extensions: ["*", ".js", ".jsx", ".tsx", ".ts"],
+    },
   },
-  externals: {
-    leaflet: "L",
-  },
-  plugins: [
-    new webpack.IgnorePlugin({
-      resourceRegExp: /^\.\/locale$/,
-      contextRegExp: /moment$/,
-    }),
-  ],
-};
+];

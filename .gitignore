@@ -8,3 +8,9 @@ js/bundle.js
 
 # Local Netlify folder
 .netlify
+
+# Compiled TS script used for build
+admin/build-config.js
+
+# Netlify CMS config built during built
+config.yml
