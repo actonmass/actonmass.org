@@ -14,101 +14,19 @@ orgs:
   - Yes on 2
   - Common Cause Massachusetts
 co_sponsors:
-  - andres-vargas
-  - adrian-madaro
-  - mike-connolly
-  - tami-gouveia
+  - smitty-pignatelli
   - maria-robinson
+  - rebecca-rausch
   - jack-lewis
-  - daniel-donahue
-  - denise-provost
-  - jason-lewis
-  - lori-ehrlich
-  - steven-ultrino
-  - julian-cyr
-  - natalie-higgins
-  - christine-barber
-  - aaron-vega
-  - david-robertson
   - dylan-fernandes
-  - sean-garballey
-  - natalie-blais
-  - carmine-gentile
-  - tram-nguyen
-  - elizabeth-malia
-  - mary-keefe
-  - christina-minicucci
-  - peter-capano
-  - michael-barrett
-  - mathew-muratore
-  - thomas-stanley
-  - kenneth-gordon
-  - lindsay-sabadosa
-  - jennifer-benson
-  - sarah-peake
-  - denise-garlick
-  - jay-livingstone
-  - james-eldridge
-  - tommy-vitolo
-  - bud-williams
-  - kay-khan
-  - edward-coppinger
-  - michelle-dubois
-  - michelle-ciccolo
-  - sal-didomenico
-  - daniel-carey
-  - alan-silvia
-  - james-arciero
-  - paul-brodeur
-  - sonia-chang-diaz
-  - marjorie-decker
-  - mindy-domb
-  - nika-elugardo
-  - william-galvin
-  - carlos-gonzalez
-  - james-hawkins
-  - stephan-hay
-  - jonathan-hecht
-  - russell-holmes
-  - patricia-jehlen
-  - john-lawn
-  - david-leboeuf
-  - paul-mark
-  - liz-miranda
-  - brian-murray
-  - rebecca-rausch
-  - david-rogers
-  - jon-santiago
-  - jason-lewis
-  - rebecca-rausch
-  - mike-connolly
   - tami-gouveia
-  - jack-lewis
-  - julian-cyr
-  - maria-robinson
-  - joanne-comerford
-  - lori-ehrlich
-  - mary-keefe
-  - william-brownsberger
-  - michael-barrett
-  - thomas-stanley
   - james-eldridge
-  - sonia-chang-diaz
-  - anne-gobi
-  - cindy-friedman
-  - sal-didomenico
-  - jennifer-benson
-  - adam-hinds
-  - nika-elugardo
-  - mathew-muratore
-  - david-leboeuf
-  - paul-feeney
-  - patricia-jehlen
-  - sean-garballey
-  - michelle-ciccolo
-  - john-lawn
-  - james-hawkins
   - john-barrett
+  - tricia-farley-bouvier
+  - daniel-carey
+  - elizabeth-malia
+  - rebecca-rausch
+  - joanne-comerford
 history: []
 timeline:
   - description: Sent to the Committee on Election Laws
@@ -120,4 +38,8 @@ timeline:
   - description: Reporting date extended to 12/31/2020
     date: 2020-06-29
 twitter_bill_name: Ranked Choice Voting
+house_lead_sponsors:
+  - smitty-pignatelli
+senate_lead_sponsors:
+  - rebecca-rausch
 ---

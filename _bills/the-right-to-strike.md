@@ -15,36 +15,15 @@ orgs:
   - Mass Teachers
 house_lead_sponsors:
   - mike-connolly
+  - erika-uyterhoeven
 co_sponsors:
   - mike-connolly
-  - ruth-balser
-  - michael-brady
-  - peter-capano
-  - julian-cyr
+  - erika-uyterhoeven
+  - patrick-kearney
+  - lindsay-sabadosa
   - diana-dizoglio
-  - mindy-domb
+  - jon-santiago
   - michelle-dubois
-  - nika-elugardo
-  - dylan-fernandes
-  - sean-garballey
-  - carlos-gonzalez
-  - james-hawkins
-  - stephan-hay
-  - natalie-higgins
-  - mary-keefe
-  - david-leboeuf
-  - jack-lewis
-  - jay-livingstone
-  - elizabeth-malia
-  - christina-minicucci
-  - liz-miranda
-  - rady-mom
-  - denise-provost
-  - david-rogers
-  - daniel-ryan
-  - alan-silvia
-  - jose-tosado
-  - bud-williams
 history:
   - date: 2019-07-09
     description: Labor committee hearing
@@ -57,4 +36,5 @@ timeline:
   - description: Sent to study
     date: 2020-02-12
 twitter_bill_name: Right to Strike
+senate_lead_sponsors: []
 ---

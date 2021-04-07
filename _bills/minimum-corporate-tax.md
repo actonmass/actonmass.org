@@ -11,25 +11,11 @@ summary: []
 orgs: []
 co_sponsors:
   - mike-connolly
-  - joanne-comerford
-  - ruth-balser
-  - christine-barber
-  - peter-capano
-  - mindy-domb
-  - nika-elugardo
-  - dylan-fernandes
-  - tami-gouveia
-  - james-hawkins
-  - patricia-jehlen
-  - mary-keefe
-  - jack-lewis
-  - christina-minicucci
-  - rady-mom
-  - denise-provost
-  - maria-robinson
-  - lindsay-sabadosa
-  - steven-ultrino
-  - tommy-vitolo
+  - erika-uyterhoeven
+  - michelle-dubois
 history: []
 twitter_bill_name: Minimum Corporate Tax
+house_lead_sponsors:
+  - mike-connolly
+senate_lead_sponsors: []
 ---

@@ -24,23 +24,14 @@ house_lead_sponsors:
 co_sponsors:
   - mike-connolly
   - nika-elugardo
-  - peter-capano
-  - marcos-devers
-  - carlos-gonzalez
-  - jason-lewis
-  - liz-miranda
-  - denise-provost
-  - jon-santiago
-  - maria-robinson
-  - patricia-jehlen
-  - lindsay-sabadosa
-  - james-hawkins
-  - christine-barber
-  - christopher-hendricks
-  - james-eldridge
-  - david-leboeuf
-  - chynah-tyler
   - jack-lewis
+  - christopher-hendricks
+  - lindsay-sabadosa
+  - liz-miranda
+  - david-rogers
+  - christine-barber
+  - steve-owens
+  - erika-uyterhoeven
 history:
   - date: 2020-01-14
     description: Hearing in Housing Committee
@@ -56,4 +47,5 @@ timeline:
   - description: Sent to House Steering, Policy, and Scheduling Committee
     date: 2020-06-04
 twitter_bill_name: End Home Rule
+senate_lead_sponsors: []
 ---

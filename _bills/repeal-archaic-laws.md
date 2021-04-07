@@ -16,49 +16,9 @@ orgs:
   - MassEquality
 co_sponsors:
   - jay-livingstone
-  - ruth-balser
-  - harriette-chandler
-  - sonia-chang-diaz
-  - mike-connolly
-  - daniel-cullinane
-  - julian-cyr
-  - sal-didomenico
   - mindy-domb
-  - michelle-dubois
-  - lori-ehrlich
-  - james-eldridge
-  - nika-elugardo
-  - paul-feeney
-  - dylan-fernandes
-  - sean-garballey
-  - denise-garlick
-  - carmine-gentile
-  - carlos-gonzalez
-  - kenneth-gordon
-  - tami-gouveia
-  - patricia-haddad
-  - james-hawkins
-  - jonathan-hecht
-  - natalie-higgins
-  - kate-hogan
-  - patricia-jehlen
-  - patrick-kearney
-  - mary-keefe
-  - kay-khan
-  - david-leboeuf
-  - jack-lewis
-  - jason-lewis
-  - david-linsky
   - elizabeth-malia
-  - christina-minicucci
-  - tram-nguyen
-  - denise-provost
-  - rebecca-rausch
-  - maria-robinson
-  - david-rogers
-  - lindsay-sabadosa
-  - jon-santiago
-  - tommy-vitolo
+  - tami-gouveia
 history:
   - date: 2019-05-14
     description: Judiciary committee hearing
@@ -71,4 +31,7 @@ timeline:
   - date: 2020-02-12
     description: Sent to study
 twitter_bill_name: Repeal Archaic Laws
+house_lead_sponsors:
+  - jay-livingstone
+senate_lead_sponsors: []
 ---

@@ -18,160 +18,107 @@ orgs:
   - RAINN
   - Planned Parenthood Advocacy Fund of Massachusetts
 co_sponsors:
-  - paul-brodeur
   - james-oday
-  - jack-lewis
-  - mike-connolly
-  - steven-ultrino
-  - louis-kafka
-  - william-driscoll
-  - michael-moran
+  - vanna-howard
   - james-arciero
   - ruth-balser
   - christine-barber
   - john-barrett
-  - michael-barrett
-  - jennifer-benson
-  - david-biele
   - natalie-blais
-  - joseph-boncore
   - daniel-cahill
   - peter-capano
   - gerard-cassidy
-  - harriette-chandler
-  - sonia-chang-diaz
   - michelle-ciccolo
-  - edward-coppinger
-  - brendan-crighton
-  - daniel-cullinane
   - josh-cutler
-  - julian-cyr
   - michael-day
-  - marjorie-decker
-  - sal-didomenico
   - mindy-domb
   - daniel-donahue
   - michelle-dubois
-  - carolyn-dykema
+  - patricia-duffy
   - lori-ehrlich
-  - james-eldridge
   - nika-elugardo
   - tricia-farley-bouvier
-  - paul-feeney
   - dylan-fernandes
-  - ann-margaret-ferrante
   - sean-garballey
-  - denise-garlick
   - carmine-gentile
-  - carlos-gonzalez
   - kenneth-gordon
   - tami-gouveia
   - danielle-gregoire
-  - patricia-haddad
   - richard-haggerty
   - james-hawkins
-  - stephan-hay
-  - jonathan-hecht
   - christopher-hendricks
   - natalie-higgins
-  - kate-hogan
-  - russell-holmes
   - kevin-honan
   - daniel-hunt
-  - patricia-jehlen
   - patrick-kearney
   - mary-keefe
-  - james-kelcourse
   - kay-khan
-  - kathleen-lanatra
-  - john-lawn
   - david-leboeuf
-  - jason-lewis
+  - jack-lewis
   - david-linsky
+  - kate-lipper-garabedian
   - jay-livingstone
   - adrian-madaro
-  - john-mahoney
   - elizabeth-malia
   - paul-mark
-  - joseph-mcgonagle
-  - paul-mcmurtry
-  - joan-meschino
-  - aaron-michlewitz
   - christina-minicucci
-  - liz-miranda
-  - michael-moore
-  - harold-naughton
+  - michael-moran
   - tram-nguyen
+  - steve-owens
   - sarah-peake
-  - alice-peisch
-  - smitty-pignatelli
-  - denise-provost
-  - rebecca-rausch
+  - ted-philips
   - maria-robinson
   - david-rogers
   - jeffrey-roy
-  - daniel-ryan
   - lindsay-sabadosa
   - jon-santiago
-  - paul-schmid
+  - dan-sena
   - thomas-stanley
-  - jose-tosado
-  - paul-tucker
-  - chynah-tyler
+  - steven-ultrino
+  - erika-uyterhoeven
   - andres-vargas
-  - aaron-vega
   - tommy-vitolo
-  - thomas-walsh
-  - timothy-whelan
-  - susannah-whipps
-  - bud-williams
-  - donald-wong
   - jonathan-zlotnik
-  - sal-didomenico
+  - michael-barrett
   - harriette-chandler
-  - sonia-chang-diaz
-  - michael-moore
+  - sal-didomenico
+  - james-eldridge
   - paul-feeney
-  - william-brownsberger
   - jason-lewis
+  - patricia-haddad
+  - paul-tucker
   - joanne-comerford
   - rebecca-rausch
-  - jack-lewis
-  - lori-ehrlich
-  - mike-connolly
-  - david-linsky
-  - lindsay-sabadosa
-  - maria-robinson
-  - tram-nguyen
-  - mary-keefe
   - julian-cyr
-  - james-eldridge
-  - kay-khan
-  - michael-barrett
-  - jennifer-benson
-  - diana-dizoglio
-  - daniel-hunt
-  - edward-kennedy
-  - joseph-boncore
-  - michael-brady
-  - james-welch
-  - jose-tosado
-  - adam-hinds
-  - patricia-jehlen
-  - cindy-friedman
-  - john-lawn
-  - barry-finegold
-  - elizabeth-malia
-  - john-keenan
-  - eric-lesser
-  - james-oday
-  - sean-garballey
-  - brendan-crighton
-  - nick-collins
-  - james-hawkins
-  - cynthia-creem
+  - smitty-pignatelli
+  - mike-connolly
+  - carolyn-dykema
+  - sal-didomenico
   - christina-minicucci
+  - vanna-howard
+  - jack-lewis
+  - michael-barrett
+  - jason-lewis
+  - joanne-comerford
   - joan-lovely
+  - harriette-chandler
+  - james-eldridge
+  - paul-feeney
+  - paul-tucker
+  - brendan-crighton
+  - cindy-friedman
+  - erika-uyterhoeven
+  - james-oday
+  - michael-moore
+  - john-keenan
+  - rebecca-rausch
+  - eric-lesser
+  - joseph-boncore
+  - john-cronin
+  - julian-cyr
+  - patricia-jehlen
+  - mike-connolly
+  - adam-gomez
 history:
   - date: 2011-01-05
     description: Bill filed as H.1063
@@ -217,4 +164,9 @@ timeline:
   - description: Reporting date extended to 12/31/2020
     date: 2020-06-22
 twitter_bill_name: Healthy Youth Act
+house_lead_sponsors:
+  - james-oday
+  - vanna-howard
+senate_lead_sponsors:
+  - sal-didomenico
 ---

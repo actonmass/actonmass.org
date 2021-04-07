@@ -18,107 +18,70 @@ summary:
     single-payer system
 orgs: []
 co_sponsors:
-  - lindsay-sabadosa
   - denise-garlick
+  - lindsay-sabadosa
+  - steven-ultrino
+  - patricia-duffy
   - tami-gouveia
+  - mindy-domb
   - jack-lewis
-  - rebecca-rausch
-  - mike-connolly
+  - paul-mark
+  - dylan-fernandes
+  - jason-lewis
+  - steve-owens
+  - elizabeth-malia
+  - carmine-gentile
   - natalie-blais
-  - denise-provost
-  - brian-ashe
+  - daniel-carey
+  - carlos-gonzalez
+  - adrian-madaro
+  - orlando-ramos
+  - jacob-oliveira
+  - sean-garballey
   - ruth-balser
   - christine-barber
-  - john-barrett
-  - michael-barrett
-  - jennifer-benson
-  - peter-capano
-  - daniel-carey
-  - michelle-ciccolo
-  - joanne-comerford
-  - edward-coppinger
-  - daniel-cullinane
-  - marjorie-decker
-  - sal-didomenico
-  - mindy-domb
-  - daniel-donahue
-  - michelle-dubois
-  - james-eldridge
-  - nika-elugardo
-  - dylan-fernandes
-  - sean-garballey
-  - carmine-gentile
-  - carlos-gonzalez
-  - james-hawkins
-  - jonathan-hecht
-  - natalie-higgins
-  - russell-holmes
-  - daniel-hunt
-  - patricia-jehlen
-  - patrick-kearney
-  - mary-keefe
-  - david-leboeuf
-  - eric-lesser
-  - david-linsky
-  - jay-livingstone
-  - adrian-madaro
-  - elizabeth-malia
-  - paul-mark
-  - paul-mcmurtry
   - christina-minicucci
-  - liz-miranda
-  - tram-nguyen
-  - james-oday
-  - smitty-pignatelli
+  - james-eldridge
+  - erika-uyterhoeven
+  - vanna-howard
   - maria-robinson
-  - david-rogers
-  - jon-santiago
-  - thomas-stanley
-  - jose-tosado
-  - chynah-tyler
-  - steven-ultrino
-  - aaron-vega
+  - peter-capano
+  - michelle-ciccolo
+  - david-leboeuf
   - tommy-vitolo
-  - bud-williams
+  - james-hawkins
+  - smitty-pignatelli
+  - dan-sena
+  - patricia-jehlen
+  - tram-nguyen
+  - john-barrett
+  - jay-livingstone
+  - mike-connolly
+  - tricia-farley-bouvier
+  - patrick-kearney
+  - brian-ashe
   - james-eldridge
   - lindsay-sabadosa
-  - denise-garlick
-  - joanne-comerford
   - jack-lewis
-  - carmine-gentile
-  - rebecca-rausch
-  - mike-connolly
-  - natalie-blais
-  - jason-lewis
-  - daniel-carey
-  - julian-cyr
-  - peter-capano
   - paul-feeney
-  - adam-hinds
-  - anne-gobi
-  - brian-ashe
-  - edward-kennedy
-  - sal-didomenico
-  - cindy-friedman
-  - daniel-hunt
-  - jennifer-benson
-  - patricia-jehlen
-  - thomas-stanley
-  - denise-provost
-  - james-arciero
-  - cynthia-creem
-  - elizabeth-malia
-  - mary-keefe
-  - eric-lesser
   - tami-gouveia
-  - david-leboeuf
-  - sean-garballey
-  - james-hawkins
-  - carlos-gonzalez
   - sonia-chang-diaz
+  - joanne-comerford
+  - steven-ultrino
+  - jason-lewis
+  - elizabeth-malia
+  - carmine-gentile
+  - james-arciero
+  - erika-uyterhoeven
+  - patricia-jehlen
+  - joseph-boncore
+  - adam-hinds
+  - adam-gomez
+  - eric-lesser
+  - vanna-howard
+  - patrick-kearney
   - maria-robinson
-  - jose-tosado
-  - frank-moran
+  - sal-didomenico
 history:
   - date: 2011-01-24
     description: Bill filed (as H338)
@@ -164,4 +127,9 @@ timeline:
   - date: 2020-06-22
     description: Reporting date extended to 12/31/2020
 twitter_bill_name: Medicare for All
+house_lead_sponsors:
+  - denise-garlick
+  - lindsay-sabadosa
+senate_lead_sponsors:
+  - james-eldridge
 ---

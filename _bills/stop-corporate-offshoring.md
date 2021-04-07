@@ -18,47 +18,87 @@ summary:
 house_lead_sponsors:
   - christine-barber
 co_sponsors:
-  - maria-robinson
-  - lindsay-sabadosa
-  - dylan-fernandes
-  - steven-ultrino
-  - peter-capano
-  - tricia-farley-bouvier
-  - joanne-comerford
-  - david-rogers
-  - tami-gouveia
-  - natalie-higgins
-  - john-barrett
-  - mary-keefe
+  - christine-barber
   - jack-lewis
-  - jason-lewis
-  - david-leboeuf
-  - kay-khan
-  - denise-provost
-  - carmine-gentile
-  - james-hawkins
-  - nika-elugardo
   - ruth-balser
-  - smitty-pignatelli
-  - tram-nguyen
+  - maria-robinson
+  - tami-gouveia
+  - steven-ultrino
+  - frank-moran
   - tommy-vitolo
-  - bud-williams
-  - jay-livingstone
-  - paul-mark
+  - lindsay-sabadosa
+  - steve-owens
+  - erika-uyterhoeven
+  - alan-silvia
+  - peter-capano
+  - thomas-stanley
+  - carmine-gentile
   - mike-connolly
-  - kevin-honan
-  - natalie-blais
-  - mindy-domb
-  - aaron-vega
-  - michelle-ciccolo
-  - linda-campbell
-  - jose-tosado
-  - lori-ehrlich
-  - patricia-jehlen
-  - daniel-ryan
-  - andres-vargas
-  - christina-minicucci
+  - christopher-hendricks
+  - jay-livingstone
+  - john-lawn
+  - natalie-higgins
+  - carol-doherty
+  - brandy-fluker-oakley
+  - david-leboeuf
+  - brian-murray
+  - sarah-peake
   - adrian-madaro
+  - michael-brady
+  - jason-lewis
+  - dan-sena
+  - tricia-farley-bouvier
+  - dylan-fernandes
+  - james-oday
+  - elizabeth-malia
+  - michael-day
+  - christina-minicucci
+  - david-rogers
+  - kevin-honan
+  - sean-garballey
+  - vanna-howard
+  - james-hawkins
+  - james-eldridge
+  - orlando-ramos
+  - antonio-cabral
+  - daniel-donahue
+  - michelle-dubois
+  - paul-mark
+  - michelle-ciccolo
+  - tram-nguyen
+  - ted-philips
+  - patricia-duffy
+  - daniel-cahill
+  - kenneth-gordon
+  - lori-ehrlich
+  - daniel-ryan
+  - mary-keefe
+  - meghan-kilcoyne
+  - patrick-oconnor
+  - sonia-chang-diaz
+  - jack-lewis
+  - mike-connolly
+  - jason-lewis
+  - james-eldridge
+  - maria-robinson
+  - thomas-stanley
+  - peter-capano
+  - christopher-hendricks
+  - carol-doherty
+  - brian-murray
+  - michael-brady
+  - patricia-jehlen
+  - antonio-cabral
+  - carmine-gentile
+  - michael-barrett
+  - vanna-howard
+  - david-leboeuf
+  - erika-uyterhoeven
+  - joanne-comerford
+  - joan-lovely
+  - patrick-oconnor
+  - sal-didomenico
+  - julian-cyr
 history:
   - description: "Bill filed for the first time "
     date: 2020-07-02
@@ -67,4 +107,6 @@ history:
 twitter_bill_name: Stop Corporate Offshoring
 senate_no: SD173
 senate_link: https://malegislature.gov/Bills/192/SD173
+senate_lead_sponsors:
+  - sonia-chang-diaz
 ---

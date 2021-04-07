@@ -17,94 +17,55 @@ orgs: []
 co_sponsors:
   - mike-connolly
   - joan-meschino
-  - bruce-ayers
-  - ruth-balser
-  - christine-barber
-  - jennifer-benson
-  - natalie-blais
-  - paul-brodeur
-  - antonio-cabral
-  - harriette-chandler
-  - michelle-ciccolo
-  - william-crocker
-  - daniel-cullinane
-  - julian-cyr
-  - marjorie-decker
-  - mindy-domb
-  - daniel-donahue
-  - carolyn-dykema
-  - lori-ehrlich
-  - james-eldridge
-  - nika-elugardo
-  - tricia-farley-bouvier
-  - dylan-fernandes
-  - sean-garballey
-  - denise-garlick
-  - carmine-gentile
-  - carlos-gonzalez
-  - kenneth-gordon
-  - tami-gouveia
-  - james-hawkins
-  - jonathan-hecht
-  - christopher-hendricks
-  - natalie-higgins
-  - kate-hogan
-  - kevin-honan
   - patricia-jehlen
-  - hannah-kane
-  - patrick-kearney
-  - mary-keefe
-  - kathleen-lanatra
+  - marcos-devers
+  - steve-owens
   - david-leboeuf
-  - jack-lewis
-  - jason-lewis
-  - jay-livingstone
-  - adrian-madaro
-  - elizabeth-malia
-  - christina-minicucci
-  - liz-miranda
-  - mathew-muratore
-  - brian-murray
-  - tram-nguyen
-  - patrick-oconnor
-  - denise-provost
-  - angelo-puppolo
-  - rebecca-rausch
-  - maria-robinson
-  - david-rogers
-  - daniel-ryan
   - lindsay-sabadosa
-  - thomas-stanley
-  - jose-tosado
-  - andres-vargas
-  - tommy-vitolo
-  - bud-williams
-  - patricia-jehlen
-  - joan-meschino
-  - mike-connolly
-  - jack-lewis
-  - jason-lewis
+  - mindy-domb
+  - erika-uyterhoeven
+  - patrick-kearney
   - harriette-chandler
+  - elizabeth-malia
+  - jack-lewis
+  - david-robertson
+  - christopher-hendricks
+  - tami-gouveia
+  - hannah-kane
+  - tram-nguyen
+  - jon-santiago
   - thomas-stanley
-  - jennifer-benson
-  - james-eldridge
-  - cindy-friedman
-  - mathew-muratore
-  - denise-provost
-  - david-leboeuf
-  - joan-lovely
-  - sean-garballey
-  - julian-cyr
+  - steven-ultrino
+  - dylan-fernandes
+  - liz-miranda
+  - ruth-balser
   - david-vieira
-  - david-rogers
-  - rebecca-rausch
-  - kay-khan
+  - kimberly-ferguson
+  - patrick-oconnor
+  - christine-barber
+  - carolyn-dykema
+  - andres-vargas
+  - maria-robinson
+  - daniel-donahue
+  - kenneth-gordon
+  - dan-sena
+  - tricia-farley-bouvier
+  - jay-livingstone
+  - mathew-muratore
+  - tommy-vitolo
+  - kate-lipper-garabedian
+  - patricia-jehlen
+  - mike-connolly
+  - joan-meschino
+  - jack-lewis
+  - harriette-chandler
+  - jason-lewis
+  - john-cronin
   - sal-didomenico
-  - james-hawkins
+  - susan-moran
   - joanne-comerford
-  - barry-finegold
-  - adam-hinds
-  - sonia-chang-diaz
+  - michael-moore
+  - joan-lovely
 history:
   - date: 2019-05-15
     description: Committee Hearing (Election Laws)
@@ -129,4 +90,9 @@ timeline:
   - date: 2020-02-10
     description: Sent to Study
 twitter_bill_name: Campaign Childcare
+house_lead_sponsors:
+  - mike-connolly
+  - joan-meschino
+senate_lead_sponsors:
+  - patricia-jehlen
 ---

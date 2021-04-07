@@ -16,13 +16,7 @@ summary:
 orgs: []
 co_sponsors:
   - diana-dizoglio
-  - david-decoste
-  - jason-lewis
-  - rebecca-rausch
-  - james-eldridge
-  - harriette-chandler
-  - angelo-scaccia
-  - paul-feeney
+  - alyson-sullivan
 history:
   - date: 2019-06-17
     description: Hearing (Judiciary Committee)
@@ -35,4 +29,7 @@ timeline:
   - date: 2020-02-03
     description: Sent to Study
 twitter_bill_name: End NDAs
+house_lead_sponsors: []
+senate_lead_sponsors:
+  - diana-dizoglio
 ---

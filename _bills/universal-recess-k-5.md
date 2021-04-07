@@ -16,70 +16,7 @@ summary:
     program or curriculum changes
 orgs:
   - MTA
-co_sponsors:
-  - marjorie-decker
-  - sean-garballey
-  - brian-ashe
-  - bruce-ayers
-  - ruth-balser
-  - christine-barber
-  - david-biele
-  - paul-brodeur
-  - michelle-ciccolo
-  - mike-connolly
-  - daniel-cullinane
-  - linda-campbell
-  - mindy-domb
-  - michelle-dubois
-  - carolyn-dykema
-  - james-eldridge
-  - nika-elugardo
-  - carmine-gentile
-  - richard-haggerty
-  - james-hawkins
-  - stephan-hay
-  - natalie-higgins
-  - kate-hogan
-  - patricia-jehlen
-  - mary-keefe
-  - kay-khan
-  - david-leboeuf
-  - jack-lewis
-  - adrian-madaro
-  - elizabeth-malia
-  - paul-mark
-  - joan-meschino
-  - christina-minicucci
-  - rady-mom
-  - brian-murray
-  - shaunna-oconnell
-  - patrick-oconnor
-  - james-oday
-  - denise-provost
-  - angelo-puppolo
-  - david-rogers
-  - daniel-ryan
-  - lindsay-sabadosa
-  - thomas-stanley
-  - jose-tosado
-  - chynah-tyler
-  - steven-ultrino
-  - john-velis
-  - david-vieira
-  - tommy-vitolo
-  - timothy-whelan
-  - bud-williams
-  - michael-rush
-  - mike-connolly
-  - patrick-oconnor
-  - paul-mcmurtry
-  - michael-brady
-  - thomas-stanley
-  - edward-coppinger
-  - john-rogers
-  - julian-cyr
-  - james-hawkins
-  - michael-moore
+co_sponsors: []
 history:
   - date: 2019-01-22
     description: Sent to the Education Committee
@@ -94,4 +31,8 @@ timeline:
   - date: 2019-08-26
     description: Hearing scheduled for 9/4/2019
 twitter_bill_name: Recess for All Students K-5
+house_lead_sponsors:
+  - marjorie-decker
+senate_lead_sponsors:
+  - michael-rush
 ---

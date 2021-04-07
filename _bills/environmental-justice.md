@@ -20,118 +20,44 @@ orgs:
   - MA Power Forward
   - CWA
 co_sponsors:
-  - michelle-dubois
-  - liz-miranda
-  - roselee-vincent
-  - james-arciero
-  - ruth-balser
-  - christine-barber
-  - jennifer-benson
-  - natalie-blais
-  - joseph-boncore
-  - michael-brady
-  - antonio-cabral
-  - gerard-cassidy
-  - harriette-chandler
-  - michelle-ciccolo
-  - mike-connolly
-  - edward-coppinger
-  - daniel-cullinane
-  - julian-cyr
-  - marjorie-decker
-  - marcos-devers
-  - sal-didomenico
-  - mindy-domb
-  - lori-ehrlich
-  - james-eldridge
-  - nika-elugardo
-  - tricia-farley-bouvier
-  - dylan-fernandes
-  - carole-fiola
-  - sean-garballey
-  - denise-garlick
-  - carmine-gentile
-  - carlos-gonzalez
-  - tami-gouveia
-  - patricia-haddad
-  - james-hawkins
-  - stephan-hay
-  - jonathan-hecht
-  - natalie-higgins
-  - russell-holmes
-  - kevin-honan
-  - patrick-kearney
-  - mary-keefe
-  - kay-khan
-  - david-leboeuf
-  - jack-lewis
-  - jason-lewis
-  - david-linsky
-  - jay-livingstone
-  - adrian-madaro
-  - elizabeth-malia
-  - paul-mark
   - joan-meschino
-  - christina-minicucci
-  - rady-mom
-  - brian-murray
-  - tram-nguyen
-  - marc-pacheco
-  - alice-peisch
-  - denise-provost
-  - rebecca-rausch
-  - maria-robinson
-  - david-rogers
-  - daniel-ryan
+  - adrian-madaro
+  - dylan-fernandes
   - lindsay-sabadosa
-  - jon-santiago
-  - paul-schmid
-  - alan-silvia
-  - thomas-stanley
-  - walter-timilty
-  - jose-tosado
-  - paul-tucker
-  - chynah-tyler
-  - steven-ultrino
-  - aaron-vega
-  - david-vieira
-  - tommy-vitolo
-  - bud-williams
-  - james-eldridge
+  - christina-minicucci
   - carmine-gentile
-  - mike-connolly
+  - david-rogers
+  - james-hawkins
   - jack-lewis
-  - jason-lewis
-  - maria-robinson
-  - thomas-stanley
-  - walter-timilty
   - michelle-dubois
-  - joseph-boncore
-  - sal-didomenico
-  - jennifer-benson
-  - paul-feeney
-  - mary-keefe
-  - david-leboeuf
-  - denise-provost
-  - elizabeth-malia
-  - joseph-mcgonagle
-  - joan-lovely
-  - michael-moore
-  - sean-garballey
-  - marc-pacheco
-  - michael-brady
-  - harriette-chandler
-  - rebecca-rausch
-  - julian-cyr
-  - carlos-gonzalez
-  - patricia-jehlen
-  - john-lawn
-  - tram-nguyen
-  - joanne-comerford
-  - sonia-chang-diaz
+  - michelle-ciccolo
+  - james-arciero
+  - edward-coppinger
+  - paul-tucker
+  - erika-uyterhoeven
+  - steven-ultrino
+  - james-eldridge
+  - patrick-oconnor
   - frank-moran
-  - edward-kennedy
+  - sal-didomenico
+  - william-driscoll
+  - tram-nguyen
+  - christine-barber
+  - elizabeth-malia
+  - jay-livingstone
+  - thomas-stanley
+  - sal-didomenico
+  - joanne-comerford
+  - jason-lewis
+  - carmine-gentile
+  - james-eldridge
+  - erika-uyterhoeven
+  - john-keenan
+  - susan-moran
+  - joseph-boncore
+  - patricia-jehlen
   - adam-hinds
+  - thomas-stanley
 history:
   - date: 2019-01-22
     description: Referred to the committee on Environment, Natural Resources and Agriculture
@@ -145,4 +71,9 @@ timeline:
   - description: New draft for the bill (H.4264)
     date: 2019-12-26
 twitter_bill_name: Environmental Justice
+house_lead_sponsors:
+  - joan-meschino
+  - adrian-madaro
+senate_lead_sponsors:
+  - sal-didomenico
 ---

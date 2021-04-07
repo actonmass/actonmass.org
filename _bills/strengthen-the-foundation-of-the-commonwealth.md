@@ -18,26 +18,22 @@ summary:
     which has remained unchanged for decades
 house_lead_sponsors:
   - mike-connolly
-senate_lead_sponsors:
   - joanne-comerford
+senate_lead_sponsors: []
 co_sponsors:
-  - ruth-balser
-  - christine-barber
-  - peter-capano
-  - mindy-domb
-  - nika-elugardo
-  - dylan-fernandes
-  - tami-gouveia
-  - james-hawkins
-  - patricia-jehlen
-  - mary-keefe
+  - mike-connolly
+  - joanne-comerford
+  - lindsay-sabadosa
   - jack-lewis
-  - christina-minicucci
-  - rady-mom
-  - denise-provost
+  - carmine-gentile
+  - tami-gouveia
+  - natalie-higgins
+  - david-leboeuf
+  - erika-uyterhoeven
+  - james-oday
   - maria-robinson
-  - steven-ultrino
-  - tommy-vitolo
+  - mary-keefe
+  - michelle-dubois
 history:
   - description: Bill filed for the first time
     date: 2019-01-22

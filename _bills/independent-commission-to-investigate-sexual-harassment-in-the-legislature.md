@@ -12,42 +12,17 @@ summary: []
 orgs:
   - PM
 co_sponsors:
-  - lindsay-sabadosa
   - rebecca-rausch
-  - maria-robinson
-  - christina-minicucci
-  - joanne-comerford
-  - mike-connolly
-  - james-eldridge
-  - nika-elugardo
-  - carmine-gentile
   - tami-gouveia
-  - jonathan-hecht
-  - natalie-higgins
+  - james-eldridge
   - patricia-jehlen
-  - david-leboeuf
-  - jack-lewis
-  - jason-lewis
-  - denise-provost
-  - rebecca-rausch
-  - lindsay-sabadosa
-  - james-eldridge
-  - maria-robinson
-  - tami-gouveia
-  - joanne-comerford
-  - mike-connolly
+  - michael-moore
   - eric-lesser
-  - jack-lewis
-  - james-welch
-  - david-leboeuf
-  - jose-tosado
-  - nika-elugardo
-  - adam-hinds
-  - patrick-kearney
-  - jason-lewis
-  - russell-holmes
-  - marcos-devers
+  - dan-sena
 history: []
 twitter_bill_name:
   Independent Commission to Investigate Sexual Harassment in the Legislature
+house_lead_sponsors: []
+senate_lead_sponsors:
+  - rebecca-rausch
 ---

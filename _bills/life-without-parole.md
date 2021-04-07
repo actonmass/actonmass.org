@@ -15,24 +15,21 @@ summary:
 orgs: []
 house_lead_sponsors:
   - liz-miranda
+  - andres-vargas
 co_sponsors:
   - liz-miranda
-  - jason-lewis
-  - natalie-blais
-  - mindy-domb
-  - nika-elugardo
-  - carlos-gonzalez
-  - russell-holmes
-  - jack-lewis
-  - elizabeth-malia
-  - rebecca-rausch
+  - andres-vargas
   - lindsay-sabadosa
+  - mindy-domb
+  - tram-nguyen
+  - kay-khan
+  - michelle-ciccolo
+  - chynah-tyler
+  - nika-elugardo
+  - elizabeth-malia
   - bud-williams
-  - william-brownsberger
-  - jason-lewis
-  - jack-lewis
-  - rebecca-rausch
-  - david-rogers
+  - cynthia-creem
+  - joanne-comerford
 history:
   - date: 2019-01-22
     description: Sent to the Judiciary Committee
@@ -45,4 +42,6 @@ timeline:
   - date: 2020-02-03
     description: Sent to study
 twitter_bill_name: Life without Parole
+senate_lead_sponsors:
+  - cynthia-creem
 ---

@@ -19,48 +19,46 @@ summary:
 orgs: []
 co_sponsors:
   - sean-garballey
-  - marjorie-decker
-  - lindsay-sabadosa
-  - david-rogers
-  - russell-holmes
-  - james-eldridge
-  - mike-connolly
-  - daniel-donahue
-  - carlos-gonzalez
-  - mindy-domb
-  - tricia-farley-bouvier
   - maria-robinson
-  - jay-livingstone
-  - mary-keefe
-  - david-leboeuf
-  - natalie-higgins
-  - jack-lewis
-  - bruce-ayers
-  - elizabeth-malia
-  - denise-garlick
-  - john-rogers
-  - nika-elugardo
-  - denise-provost
-  - tami-gouveia
-  - michelle-dubois
-  - julian-cyr
-  - marc-pacheco
-  - tommy-vitolo
-  - mike-connolly
-  - joanne-comerford
+  - lindsay-sabadosa
+  - adam-scanlon
+  - david-linsky
   - jason-lewis
-  - james-eldridge
-  - james-welch
-  - jose-tosado
-  - anne-gobi
-  - sal-didomenico
-  - patricia-jehlen
-  - mary-keefe
-  - david-leboeuf
-  - thomas-stanley
+  - christopher-hendricks
   - jack-lewis
-  - john-rogers
-  - julian-cyr
+  - elizabeth-malia
+  - adrian-madaro
+  - mike-connolly
+  - christine-barber
+  - tami-gouveia
+  - christina-minicucci
+  - david-rogers
+  - patricia-duffy
+  - david-leboeuf
+  - peter-capano
+  - erika-uyterhoeven
+  - james-hawkins
+  - natalie-higgins
+  - mary-keefe
+  - patrick-oconnor
+  - steve-owens
+  - carlos-gonzalez
+  - dan-sena
+  - carol-doherty
+  - tricia-farley-bouvier
+  - walter-timilty
+  - marc-pacheco
+  - jason-lewis
+  - christopher-hendricks
+  - jack-lewis
+  - patricia-duffy
+  - erika-uyterhoeven
+  - patrick-oconnor
+  - david-leboeuf
+  - walter-timilty
+  - maria-robinson
+  - michael-brady
+  - thomas-stanley
 history:
   - date: 2017-01-23
     description: H.3144, more limited precursor bill introduced
@@ -84,4 +82,9 @@ timeline:
   - date: 2020-06-02
     description: Reporting date extended to 10/27/2020
 twitter_bill_name: Fair Scheduling
+house_lead_sponsors:
+  - sean-garballey
+  - maria-robinson
+senate_lead_sponsors:
+  - marc-pacheco
 ---

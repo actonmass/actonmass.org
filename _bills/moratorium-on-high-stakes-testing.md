@@ -17,60 +17,54 @@ summary:
 orgs:
   - MTA
 co_sponsors:
-  - marjorie-decker
-  - sean-garballey
-  - bruce-ayers
-  - christine-barber
-  - natalie-blais
-  - mike-connolly
-  - josh-cutler
-  - michael-day
-  - mindy-domb
-  - shawn-dooley
-  - michelle-dubois
-  - james-eldridge
-  - nika-elugardo
+  - james-hawkins
+  - adam-scanlon
+  - peter-capano
+  - patricia-duffy
+  - lindsay-sabadosa
+  - jack-lewis
   - carmine-gentile
   - carlos-gonzalez
   - natalie-higgins
-  - mary-keefe
-  - kay-khan
   - david-leboeuf
-  - jack-lewis
-  - elizabeth-malia
-  - paul-mark
-  - christina-minicucci
-  - rady-mom
-  - brian-murray
-  - shaunna-oconnell
-  - patrick-oconnor
-  - james-oday
-  - denise-provost
-  - angelo-puppolo
-  - rebecca-rausch
-  - david-rogers
-  - john-rogers
-  - daniel-ryan
-  - lindsay-sabadosa
-  - thomas-stanley
-  - steven-ultrino
-  - aaron-vega
-  - john-velis
-  - tommy-vitolo
-  - timothy-whelan
-  - bud-williams
-  - michael-rush
-  - mike-connolly
-  - anne-gobi
-  - paul-mcmurtry
+  - tricia-farley-bouvier
+  - erika-uyterhoeven
+  - carol-doherty
   - michael-brady
-  - thomas-stanley
-  - john-rogers
-  - edward-coppinger
-  - daniel-ryan
-  - david-rogers
-  - julian-cyr
+  - tackey-chan
+  - christina-minicucci
+  - james-oday
+  - angelo-puppolo
+  - tram-nguyen
+  - christine-barber
+  - sean-garballey
+  - tommy-vitolo
+  - steve-owens
+  - patrick-oconnor
+  - walter-timilty
+  - maria-robinson
+  - mary-keefe
+  - joanne-comerford
+  - joanne-comerford
+  - christina-minicucci
+  - adam-scanlon
+  - patricia-duffy
+  - jack-lewis
+  - carmine-gentile
+  - erika-uyterhoeven
+  - carol-doherty
+  - michael-brady
+  - james-oday
+  - angelo-puppolo
+  - michael-moore
+  - anne-gobi
+  - susan-moran
+  - patricia-jehlen
   - sal-didomenico
+  - patrick-oconnor
+  - walter-timilty
+  - maria-robinson
+  - mary-keefe
 history:
   - date: 2019-01-22
     description: Bill filed
@@ -87,4 +81,8 @@ timeline:
   - date: 2020-02-18
     description: Sent to Study
 twitter_bill_name: Moratorium on High Stakes Testing
+house_lead_sponsors:
+  - james-hawkins
+senate_lead_sponsors:
+  - joanne-comerford
 ---

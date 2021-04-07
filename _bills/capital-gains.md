@@ -11,12 +11,9 @@ issue: ""
 hidden: true
 summary: []
 orgs: []
-co_sponsors:
-  - david-rogers
-  - christine-barber
-  - jose-tosado
-  - patricia-jehlen
-  - jack-lewis
-  - mike-connolly
+co_sponsors: []
 history: []
+house_lead_sponsors:
+  - david-rogers
+senate_lead_sponsors: []
 ---

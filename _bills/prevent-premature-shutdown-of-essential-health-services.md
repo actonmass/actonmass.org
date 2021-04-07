@@ -18,64 +18,46 @@ orgs:
   - MNA
 co_sponsors:
   - edward-coppinger
-  - timothy-whelan
-  - josh-cutler
-  - walter-timilty
-  - dylan-fernandes
-  - mary-keefe
-  - tackey-chan
-  - john-velis
-  - denise-garlick
-  - natalie-higgins
-  - peter-capano
-  - patrick-oconnor
-  - gerard-cassidy
-  - bruce-ayers
+  - michael-kushmerek
+  - jacob-oliveira
+  - patricia-duffy
   - diana-dizoglio
-  - steven-ultrino
-  - john-mahoney
-  - denise-provost
   - daniel-ryan
-  - david-leboeuf
-  - mindy-domb
-  - kate-hogan
-  - mike-connolly
-  - sean-garballey
-  - daniel-cullinane
-  - stephan-hay
-  - lindsay-sabadosa
-  - michael-brady
-  - daniel-donahue
-  - natalie-blais
-  - jonathan-hecht
-  - harold-naughton
-  - james-eldridge
-  - david-robertson
-  - jack-lewis
-  - marc-pacheco
+  - gerard-cassidy
+  - james-murphy
+  - christina-minicucci
+  - angelo-demilia
+  - john-rogers
   - james-hawkins
-  - carlos-gonzalez
-  - rebecca-rausch
-  - david-biele
-  - paul-mark
-  - julian-cyr
+  - susan-moran
+  - carol-doherty
   - timothy-whelan
+  - jon-santiago
+  - joseph-mcgonagle
+  - michael-brady
+  - patrick-kearney
+  - lindsay-sabadosa
+  - tackey-chan
   - walter-timilty
-  - mary-keefe
-  - michael-moore
-  - patrick-oconnor
-  - adam-hinds
-  - diana-dizoglio
-  - joanne-comerford
+  - paul-mark
   - david-leboeuf
-  - mike-connolly
-  - david-robertson
-  - jack-lewis
-  - marc-pacheco
-  - rebecca-rausch
-  - james-hawkins
-  - james-eldridge
+  - adam-scanlon
   - christine-barber
+  - maria-robinson
+  - david-biele
+  - julian-cyr
+  - joan-lovely
+  - diana-dizoglio
+  - john-rogers
+  - susan-moran
+  - carol-doherty
+  - joseph-mcgonagle
+  - michael-brady
+  - joanne-comerford
+  - walter-timilty
+  - david-leboeuf
+  - adam-scanlon
+  - maria-robinson
 history:
   - date: 2019-05-28
     description: Hearing (Health Care Financing)
@@ -86,4 +68,8 @@ timeline:
   - date: 2019-05-28
     description: Hearing (Health Care Financing)
 twitter_bill_name: Prevent Premature Shutdown of Essential Health Services
+house_lead_sponsors:
+  - edward-coppinger
+senate_lead_sponsors:
+  - julian-cyr
 ---
