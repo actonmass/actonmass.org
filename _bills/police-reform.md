@@ -10,6 +10,7 @@ senate_no: S.2820
 senate_link: https://malegislature.gov/Bills/191/S2820
 issue: criminal-justice-reform
 img: /img/ev-ryrsson8s68-unsplash.jpg
+hidden: true
 summary:
   - Limits Qualified Immunity, which prevents victims of police misconduct from
     getting justice (Senate version only)

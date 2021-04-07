@@ -24,7 +24,9 @@ layout: base
                 </div>
                 {% for bill_id in bills %}
                   {% assign bill = site.data.cache.bills_by_id[bill_id] %}
-                  <h4 class="bill fRoboto"><a href="{{bill.id}}">{{bill.title}}</a></h4>
+                  {% unless bill.hidden %}
+                    <h4 class="bill fRoboto"><a href="{{bill.id}}">{{bill.title}}</a></h4>
+                  {% endunless %}
                 {% endfor %}
               </div>
             </div>
