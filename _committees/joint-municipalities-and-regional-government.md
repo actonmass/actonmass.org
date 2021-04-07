@@ -8,7 +8,7 @@ senate_vice_chair: diana-dizoglio
 senate_members:
   - edward-kennedy
   - susan-moran
-  - john-velis-1
+  - john-velis
   - bruce-tarr
 house_chair: lori-ehrlich
 house_vice_chair: paul-tucker

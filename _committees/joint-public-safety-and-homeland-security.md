@@ -9,7 +9,7 @@ senate_members:
   - james-eldridge
   - michael-moore
   - rebecca-rausch
-  - john-velis-1
+  - john-velis
   - ryan-fattman
 house_chair: carlos-gonzalez
 house_vice_chair: david-biele

@@ -8,7 +8,7 @@ senate_vice_chair: eric-lesser
 senate_members:
   - sonia-chang-diaz
   - cynthia-creem
-  - john-velis-1
+  - john-velis
   - patrick-oconnor
 house_chair: michael-day
 house_vice_chair: chynah-tyler

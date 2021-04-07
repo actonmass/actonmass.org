@@ -4,7 +4,7 @@ malegislature_url: https://malegislature.gov/Committees/Detail/J18
 title: Joint Committee on Mental Health, Substance Use and Recovery
 chamber: joint
 senate_chair: julian-cyr
-senate_vice_chair: john-velis-1
+senate_vice_chair: john-velis
 senate_members:
   - nick-collins
   - joanne-comerford

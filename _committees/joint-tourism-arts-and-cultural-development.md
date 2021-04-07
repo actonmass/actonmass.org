@@ -8,7 +8,7 @@ senate_vice_chair: john-cronin
 senate_members:
   - susan-moran
   - walter-timilty
-  - john-velis-1
+  - john-velis
   - ryan-fattman
 house_chair: carole-fiola
 house_vice_chair: dylan-fernandes

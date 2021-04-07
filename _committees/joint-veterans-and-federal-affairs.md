@@ -3,7 +3,7 @@ aom_id: joint-veterans-and-federal-affairs
 malegislature_url: https://malegislature.gov/Committees/Detail/J31
 title: Joint Committee on Veterans and Federal Affairs
 chamber: joint
-senate_chair: john-velis-1
+senate_chair: john-velis
 senate_vice_chair: michael-rush
 senate_members:
   - michael-brady

@@ -8,7 +8,7 @@ senate_vice_chair: rebecca-rausch
 senate_members:
   - john-cronin
   - walter-timilty
-  - john-velis-1
+  - john-velis
   - bruce-tarr
 house_chair: antonio-cabral
 house_vice_chair: christine-barber

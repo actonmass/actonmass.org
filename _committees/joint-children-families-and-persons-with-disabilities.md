@@ -4,7 +4,7 @@ malegislature_url: https://malegislature.gov/Committees/Detail/J13
 title: Joint Committee on Children, Families and Persons with Disabilities
 chamber: joint
 senate_chair: adam-gomez
-senate_vice_chair: john-velis-1
+senate_vice_chair: john-velis
 senate_members:
   - brendan-crighton
   - james-eldridge
