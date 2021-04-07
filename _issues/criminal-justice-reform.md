@@ -12,7 +12,6 @@ bills_to_support_title: Criminal Justice Reform
 highlighted_bills:
   - life-without-parole
   - age-of-criminal-majority-to-21
-  - police-reform
 failures_block_title: 2018 Criminal Justice Reform left a lot out...
 failures:
   - title: Mandatory Minimum Sentences
