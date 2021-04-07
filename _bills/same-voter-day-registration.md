@@ -2,10 +2,10 @@
 aom_id: same-voter-day-registration
 title: Same Voter Day Registration
 full_title: An Act Relative to Election Day Registration
-house_no: H685
-house_link: https://malegislature.gov/Bills/191/H685
-senate_no: S396
-senate_link: https://malegislature.gov/Bills/191/S396
+house_no: HD1536
+house_link: https://malegislature.gov/Bills/192/HD1536
+senate_no: SD1002
+senate_link: https://malegislature.gov/Bills/192/SD1002
 committee: joint-election-laws
 issue: voting-rights
 summary:

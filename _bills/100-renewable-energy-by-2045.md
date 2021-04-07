@@ -2,10 +2,10 @@
 aom_id: 100-renewable-energy-by-2045
 title: 100% Renewable Energy by 2045
 full_title: An Act re-powering Massachusetts with 100 percent renewable energy
-house_no: H2836
-house_link: https://malegislature.gov/Bills/191/H2836
-senate_no: S1958
-senate_link: https://malegislature.gov/Bills/191/S1958
+house_no: HD3551
+house_link: https://malegislature.gov/Bills/192/HD3551
+senate_no: SD2205
+senate_link: https://malegislature.gov/Bills/192/SD2205
 committee: joint-telecommunications-utilities-and-energy
 issue: climate
 img: /img/nicholas-doherty-ponbhdyofom-unsplash.jpg

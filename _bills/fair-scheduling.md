@@ -2,10 +2,10 @@
 aom_id: fair-scheduling
 title: Fair Scheduling
 full_title: An Act relative to the scheduling of employees
-house_no: H3809
-house_link: https://malegislature.gov/Bills/191/H3809
-senate_no: S1110
-senate_link: https://malegislature.gov/Bills/191/S1110
+house_no: HD1546
+house_link: https://malegislature.gov/Bills/192/HD1546
+senate_no: SD412
+senate_link: https://malegislature.gov/Bills/192/SD412
 committee: joint-labor-and-workforce-development
 issue: labor
 img: /img/fairscheduling.jpeg

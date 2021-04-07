@@ -2,10 +2,10 @@
 aom_id: the-right-to-strike
 title: Right to Strike
 full_title: An Act protecting the right to strike
-house_no: H1602
-house_link: https://malegislature.gov/Bills/191/H1602
-senate_no: ""
-senate_link: https://malegislature.gov/Bills/191/
+house_no: HD488
+house_link: https://malegislature.gov/Bills/192/HD488
+senate_no: null
+senate_link: null
 committee: joint-labor-and-workforce-development
 issue: labor
 img: /img/photo1-dedham-education-association-cropped.jpg

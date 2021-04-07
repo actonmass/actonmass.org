@@ -3,10 +3,10 @@ aom_id: independent-commission-to-investigate-sexual-harassment-in-the-legislatu
 title:
   Independent Commission to Investigate Sexual Harassment in the Legislature
 full_title: An Act promoting equality and respect in the legislature
-house_no: H3572
-house_link: https://malegislature.gov/Bills/191/H3572
-senate_no: S1898
-senate_link: https://malegislature.gov/Bills/191/S1898
+house_no: null
+house_link: null
+senate_no: SD1539
+senate_link: https://malegislature.gov/Bills/192/SD1539
 issue: gender-equity
 summary: []
 orgs:

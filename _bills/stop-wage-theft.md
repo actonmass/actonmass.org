@@ -4,10 +4,10 @@ title: Stop Wage Theft
 full_title:
   An Act to prevent wage theft, promote employer accountability, and enhance
   public enforcement
-house_no: H1610
-house_link: https://malegislature.gov/Bills/191/H1610
-senate_no: S1066
-senate_link: https://malegislature.gov/Bills/191/S1066
+house_no: HD967
+house_link: https://malegislature.gov/Bills/192/HD967
+senate_no: SD774
+senate_link: https://malegislature.gov/Bills/192/SD774
 committee: joint-labor-and-workforce-development
 issue: labor
 img: /img/neonbrand-aojguijkobc-unsplash.jpg

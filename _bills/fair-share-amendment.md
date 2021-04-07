@@ -5,9 +5,9 @@ full_title: Proposal for a Legislative Amendment to the Constitution to Provide
   Resources for Education and Transportation through an Additional Tax on
   Incomes in Excess of One Million Dollars
 house_no: H86
-house_link: https://malegislature.gov/Bills/191/H86
-senate_no: S16
-senate_link: https://malegislature.gov/Bills/191/S16
+house_link: https://malegislature.gov/Bills/192/H86
+senate_no: null
+senate_link: null
 issue: revenue
 img: /img/library_tax.jpg
 summary:

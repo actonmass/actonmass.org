@@ -2,10 +2,10 @@
 aom_id: end-home-rule
 title: End Home Rule
 full_title: An Act enabling local options for tenant protections
-house_no: H3924
-house_link: https://malegislature.gov/Bills/191/H3924
-senate_no: ""
-senate_link: https://malegislature.gov/Bills/191/
+house_no: HD3676
+house_link: https://malegislature.gov/Bills/192/HD3676
+senate_no: null
+senate_link: null
 committee: joint-housing
 issue: housing
 img: /img/toa-heftiba-nrszruwqmoi-unsplash.jpg

@@ -4,8 +4,8 @@ title: Strengthen the Commonwealth
 full_title:
   "Strengthen the Foundation of the Commonwealth Act: A Starting Point for
   Progressive Taxation"
-house_no: H2424
-house_link: https://malegislature.gov/Bills/191/h2424
+house_no: HD1018
+house_link: https://malegislature.gov/Bills/192/HD1018
 committee: joint-revenue
 issue: revenue
 img: /img/tax-_picture.jpg
@@ -45,4 +45,6 @@ history:
     type: death
     date: 2019-10-17
 twitter_bill_name: Strengthen the Commonwealth
+senate_no: null
+senate_link: null
 ---

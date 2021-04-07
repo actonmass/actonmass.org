@@ -2,10 +2,10 @@
 aom_id: medicare-for-all
 title: Medicare for All
 full_title: An Act Establishing Medicare for all in Massachusetts
-house_no: H1194
-house_link: https://malegislature.gov/Bills/191/H1194
-senate_no: S683
-senate_link: https://malegislature.gov/Bills/191/S683
+house_no: HD2656
+house_link: https://malegislature.gov/Bills/192/HD2656
+senate_no: SD546
+senate_link: https://malegislature.gov/Bills/192/SD546
 committee: joint-health-care-financing
 issue: healthcare
 img: /img/javier-matheu-ahdeiqdic7q-unsplash.jpg

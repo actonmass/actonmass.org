@@ -3,10 +3,10 @@ aom_id: environmental-justice
 title: Environmental Justice
 full_title: An Act relative to environmental justice and toxics reduction in the
   Commonwealth
-house_no: H761
-house_link: https://malegislature.gov/Bills/191/H761
-senate_no: S464
-senate_link: https://malegislature.gov/Bills/191/S464
+house_no: HD1968
+house_link: https://malegislature.gov/Bills/192/HD1968
+senate_no: SD1893
+senate_link: https://malegislature.gov/Bills/192/SD1893
 issue: climate
 img: /img/ella-ivanescu-jbfhnrpq_dw-unsplash.jpg
 summary:

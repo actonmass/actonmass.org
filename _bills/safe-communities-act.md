@@ -3,10 +3,10 @@ aom_id: safe-communities-act
 title: Safe Communities Act
 full_title: An Act to Protect the Civil Rights and Safety of all MA Residents
 article: the
-house_no: H3573
-house_link: https://malegislature.gov/Bills/191/H3573
-senate_no: S1401
-senate_link: https://malegislature.gov/Bills/191/S1401
+house_no: HD1165
+house_link: https://malegislature.gov/Bills/192/HD1165
+senate_no: SD532
+senate_link: https://malegislature.gov/Bills/192/SD532
 committee: house-ways-and-means
 issue: immigration
 img: /img/bills/sca_hero_img.png

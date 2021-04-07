@@ -2,10 +2,10 @@
 aom_id: moratorium-on-high-stakes-testing
 title: Moratorium on High Stakes Testing
 full_title: An Act to place a moratorium on high stakes testing
-house_no: H431
-house_link: https://malegislature.gov/Bills/191/H431
-senate_no: S328
-senate_link: https://malegislature.gov/Bills/191/S328
+house_no: HD952
+house_link: https://malegislature.gov/Bills/192/HD952
+senate_no: SD409
+senate_link: https://malegislature.gov/Bills/192/SD409
 committee: joint-education
 issue: education
 img: /img/tim-gouw-1k9t5yiz2wu-unsplash.jpg

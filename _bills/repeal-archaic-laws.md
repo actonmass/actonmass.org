@@ -2,10 +2,10 @@
 aom_id: repeal-archaic-laws
 title: Repeal Archaic Laws
 full_title: An Act Relative to Archaic Crimes
-house_no: H3362
-house_link: https://malegislature.gov/Bills/191/H3362
-senate_no: ""
-senate_link: https://malegislature.gov/Bills/191/
+house_no: HD2269
+house_link: https://malegislature.gov/Bills/192/HD2269
+senate_no: null
+senate_link: null
 committee: joint-judiciary
 issue: lgbtq-rights
 img: /img/united-states-constitution_800x.jpg

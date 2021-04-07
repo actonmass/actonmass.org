@@ -2,10 +2,10 @@
 aom_id: end-ndas
 title: End NDAs
 full_title: An Act concerning sexual harassment policies in the commonwealth
-house_no: ""
-house_link: ""
-senate_no: S929
-senate_link: https://malegislature.gov/Bills/191/S929/
+house_no: null
+house_link: null
+senate_no: SD2389
+senate_link: https://malegislature.gov/Bills/192/SD2389
 committee: joint-judiciary
 issue: gender-equity
 img: /img/johannes-krupinski-bifm4itjnve-unsplash-1-.jpg

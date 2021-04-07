@@ -3,8 +3,8 @@ aom_id: stop-corporate-offshoring
 title: Stop Corporate Offshoring
 full_title: "Close Corporate Loopholes and Create Progressive Revenue Act:
   Tackling the Corporate Tax Evasion Crisis"
-house_no: HD.5132
-house_link: https://malegislature.gov/Bills/191/HD5132
+house_no: HD452
+house_link: https://malegislature.gov/Bills/192/HD452
 committee: joint-revenue
 issue: revenue
 img: /img/offshore.jpg
@@ -65,4 +65,6 @@ history:
   - date: 2020-07-09
     description: Referred to the Joint Committee on Revenue
 twitter_bill_name: Stop Corporate Offshoring
+senate_no: SD173
+senate_link: https://malegislature.gov/Bills/192/SD173
 ---

@@ -2,10 +2,10 @@
 aom_id: minimum-corporate-tax
 title: Minimum Corporate Tax
 full_title: ""
-house_no: H2424
-house_link: https://malegislature.gov/Bills/191/H2424
-senate_no: ""
-senate_link: https://malegislature.gov/Bills/191/
+house_no: HD3367
+house_link: https://malegislature.gov/Bills/192/HD3367
+senate_no: null
+senate_link: null
 issue: ""
 summary: []
 orgs: []
