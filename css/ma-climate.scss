@@ -1,0 +1,787 @@
+---
+---
+
+.actonmass {
+  width: 100%;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: rgba(255, 255, 255, 1);
+}
+
+.actonmass {
+  .hbox {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .cbox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  a {
+    color: inherit;
+  }
+}
+
+a {
+  text-decoration: none;
+}
+div {
+  -webkit-text-size-adjust: none;
+}
+.anima-full-width-a {
+  width: 100%;
+}
+.anima-full-height-a {
+  height: 100%;
+}
+div {
+  -webkit-text-size-adjust: none;
+}
+
+.actonmass section {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.actonmass .section-container {
+  align-items: center;
+  width: min(1024px, 90%);
+}
+
+.actonmass section.headline {
+  text-align: center;
+  padding: 80px 0;
+  background-color: rgba(46, 51, 97, 1);
+
+  .a100renewablestr {
+    margin: 0;
+    font-family: "AvenirNextCondensed-DemiBold", Helvetica, Arial, serif;
+    font-size: 52px;
+    color: rgba(255, 255, 255, 1);
+    line-height: 53px;
+  }
+}
+
+.actonmass section.the-problem {
+  padding: 80px 0;
+
+  .theproblem {
+    margin: 0;
+    font-family: "AvenirNext-DemiBold", Helvetica, Arial, serif;
+    font-size: 18px;
+    color: rgba(0, 0, 0, 1);
+    text-align: center;
+    line-height: 25px;
+    margin-bottom: 20px;
+  }
+
+  .staterepresentative {
+    margin: 0;
+    font-family: "AvenirNext-Bold", Helvetica, Arial, serif;
+    font-size: 24px;
+    color: rgba(0, 0, 0, 1);
+    text-align: center;
+    line-height: 33px;
+  }
+}
+
+.actonmass section.tofight {
+  background-color: rgba(182, 224, 240, 1);
+  padding: 20px 0;
+
+  .tofightthisweu2019re {
+    font-family: "AvenirNext-Medium", Helvetica, Arial, serif;
+    font-size: 21px;
+    color: rgba(0, 0, 0, 1);
+    text-align: center;
+    line-height: 29px;
+  }
+  .tofightthisweu2019re .span2 {
+    font-family: "AvenirNext-Bold", Helvetica, Arial, serif;
+  }
+  .tofightthisweu2019re .span4 {
+    font-family: "AvenirNext-Bold", Helvetica, Arial, serif;
+  }
+}
+
+.actonmass section.voting {
+  background-color: rgba(224, 244, 251, 0.72);
+  padding: 60px 0;
+
+  .transparentvoting {
+    margin: 0;
+    font-family: "AvenirNext-Bold", Helvetica, Arial, serif;
+    font-size: 24px;
+    color: rgba(0, 0, 0, 1);
+    text-align: center;
+    line-height: 33px;
+  }
+  .a100renewables {
+    width: 232px;
+    margin: 0;
+    font-family: "AvenirNext-Bold", Helvetica, Arial, serif;
+    font-size: 24px;
+    color: rgba(0, 0, 0, 1);
+    text-align: left;
+    line-height: 33px;
+  }
+  .withajusttransiti {
+    margin: 0;
+    font-family: "AvenirNext-Regular", Helvetica, Arial, serif;
+    font-size: 21px;
+    color: rgba(0, 0, 0, 1);
+    text-align: center;
+    line-height: 29px;
+  }
+  .sorepsknowwecan {
+    width: 282px;
+    margin: 0;
+    font-family: "AvenirNext-Regular", Helvetica, Arial, serif;
+    font-size: 21px;
+    color: rgba(0, 0, 0, 1);
+    text-align: center;
+    line-height: 29px;
+  }
+  .group13 {
+    position: relative;
+
+    height: 80px;
+    width: 106px;
+    margin: 0 5rem;
+
+    .rectangle5 {
+      background-color: rgba(182, 224, 240, 1);
+      position: absolute;
+      top: 19px;
+      height: 43px;
+      width: 60px;
+      margin: 0;
+      left: 0px;
+    }
+    .triangle {
+      position: absolute;
+
+      top: 17px;
+      height: 46px;
+      width: 79px;
+      margin: 0;
+      left: 43px;
+      transform: rotate(90deg);
+    }
+  }
+
+  .vote3 {
+    top: 631px;
+    height: 79px;
+    width: 79px;
+    margin: 0;
+    left: 217px;
+  }
+
+  .renew3 {
+    top: 628px;
+    height: 85px;
+    width: 85px;
+    margin: 0;
+    left: 743px;
+  }
+}
+
+.actonmass section.these-will-pass {
+  background-color: #b6e0f0;
+  padding: 20px 0;
+
+  .thenboldclimatea {
+    top: 943px;
+    margin: 0;
+    left: 281px;
+    font-family: "AvenirNext-Medium", Helvetica, Arial, serif;
+    font-size: 18px;
+    color: rgba(0, 0, 0, 1);
+    text-align: center;
+    line-height: 24px;
+  }
+
+  .thesewillpasswith {
+    font-family: "AvenirNext-Medium", Helvetica, Arial, serif;
+    font-size: 21px;
+    color: rgba(0, 0, 0, 1);
+    text-align: center;
+    line-height: 29px;
+    margin-bottom: 10px;
+
+    .span2 {
+      font-family: "AvenirNext-Bold", Helvetica, Arial, serif;
+    }
+    .span4 {
+      font-family: "AvenirNext-Bold", Helvetica, Arial, serif;
+    }
+  }
+}
+
+.actonmass section.form {
+  background-color: rgba(46, 51, 97, 1);
+  padding: 60px 0;
+  color: rgba(255, 255, 255, 1);
+
+  .grid {
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    row-gap: 4rem;
+  }
+
+  .joinusbysigningt {
+    font-family: "AvenirNextCondensed-Bold", Helvetica, Arial, serif;
+    font-size: 36px;
+    color: rgba(255, 255, 255, 1);
+    line-height: 47px;
+    text-align: center;
+    margin-bottom: 40px;
+  }
+
+  .circled-number {
+    height: 54px;
+    width: 54px;
+    margin: 0;
+    position: relative;
+    justify-self: end;
+    margin-right: 2rem;
+
+    .oval {
+      top: 0px;
+      height: 54px;
+      width: 54px;
+      position: absolute;
+      margin: 0;
+      left: 0px;
+    }
+    .a1 {
+      top: 11px;
+
+      position: absolute;
+      margin: 0;
+      left: 19px;
+      font-family: "AvenirNext-Bold", Helvetica, Arial, serif;
+      font-size: 24px;
+      color: rgba(255, 255, 255, 1);
+      text-align: left;
+      line-height: 33px;
+    }
+  }
+  .noprintervisitac {
+    font-family: "AvenirNext-Regular", Helvetica, Arial, serif;
+    font-size: 16px;
+    color: rgba(255, 255, 255, 1);
+    text-align: left;
+    line-height: 29px;
+    .span2 {
+      font-family: "AvenirNext-DemiBold", Helvetica, Arial, serif;
+      text-decoration: underline;
+    }
+  }
+  .printyourformata {
+    font-family: "AvenirNext-Regular", Helvetica, Arial, serif;
+    font-size: 24px;
+    color: rgba(255, 255, 255, 1);
+    text-align: left;
+    line-height: 29px;
+    .span2 {
+      font-family: "AvenirNext-DemiBold", Helvetica, Arial, serif;
+      text-decoration: underline;
+    }
+  }
+
+  .completeyourform {
+    font-family: "AvenirNext-Regular", Helvetica, Arial, serif;
+    font-size: 24px;
+    color: rgba(255, 255, 255, 1);
+    text-align: left;
+    line-height: 29px;
+  }
+  .subtitle {
+    font-family: "AvenirNext-DemiBold", Helvetica, Arial, serif;
+    font-size: 18px;
+    color: rgba(255, 255, 255, 1);
+    text-align: left;
+    line-height: 33px;
+  }
+  .visitwheredoivotema {
+    background-color: rgba(255, 255, 255, 0);
+    font-family: "AvenirNext-Regular", Helvetica, Arial, serif;
+    font-size: 16px;
+    color: rgba(254, 255, 254, 1);
+    text-align: left;
+    line-height: 31px;
+    .span2 {
+      font-family: "AvenirNext-DemiBold", Helvetica, Arial, serif;
+      text-decoration: underline;
+    }
+  }
+
+  .instruction {
+    margin-top: 1rem;
+    font-family: "AvenirNext-DemiBold", Helvetica, Arial, serif;
+    font-size: 16px;
+    color: rgba(255, 255, 255, 1);
+    text-align: left;
+    line-height: 31px;
+  }
+
+  .mailyourform {
+    font-family: "AvenirNext-Regular", Helvetica, Arial, serif;
+    font-size: 24px;
+    color: rgba(255, 255, 255, 1);
+    text-align: left;
+    line-height: 33px;
+    margin-bottom: 1rem;
+  }
+  .actonmass11beaco {
+    font-family: "AvenirNext-Bold", Helvetica, Arial, serif;
+    font-size: 18px;
+    color: rgba(255, 255, 255, 1);
+    text-align: left;
+    line-height: 25px;
+  }
+
+  .ifyouhaveanyques {
+    margin-top: 3rem;
+    font-family: "AvenirNext-Medium", Helvetica, Arial, serif;
+    font-size: 16px;
+    color: rgba(255, 255, 255, 1);
+    text-align: center;
+    line-height: 22px;
+    .span2 {
+      text-decoration: underline;
+    }
+  }
+
+  .line {
+    background-color: rgba(255, 255, 255, 0);
+    height: 8px;
+    width: 116px;
+    margin-right: 1rem;
+    margin-left: 0.5rem;
+  }
+
+  .fRegular {
+    font-family: "AvenirNext-Regular", Helvetica, Arial, serif;
+  }
+  .fDemiBold {
+    font-family: "AvenirNext-DemiBold", Helvetica, Arial, serif;
+  }
+}
+
+.actonmass section.next-steps {
+  background-color: rgba(224, 244, 251, 0.72);
+  padding: 40px 0;
+
+  .nextsteps {
+    font-family: "AvenirNext-DemiBold", Helvetica, Arial, serif;
+    font-size: 18px;
+    color: rgba(0, 0, 0, 1);
+    text-align: center;
+    line-height: 25px;
+    margin-bottom: 2rem;
+  }
+
+  .group9 {
+    height: 65px;
+    width: 65px;
+    position: relative;
+    .oval {
+      background-color: rgba(255, 255, 255, 0);
+      top: 0px;
+      height: 65px;
+      width: 65px;
+      position: absolute;
+      margin: 0;
+      left: 0px;
+    }
+    .oval1 {
+      background-color: rgba(255, 255, 255, 0);
+      top: 13px;
+      height: 7px;
+      width: 7px;
+      position: absolute;
+      margin: 0;
+      left: 30px;
+    }
+    .rectangle5 {
+      background-color: rgba(0, 0, 0, 1);
+      top: 23px;
+      height: 29px;
+      width: 5px;
+      position: absolute;
+      margin: 0;
+      left: 31px;
+      border-radius: 2px;
+    }
+  }
+
+  .next-step-actions {
+    justify-content: space-evenly;
+    .action-logo {
+      margin-bottom: 1rem;
+    }
+    .cbox {
+      margin: 0 1rem;
+    }
+  }
+}
+
+.actonmass section.logos {
+  padding: 30px 0;
+  background-color: #2e3361;
+  justify-content: center;
+}
+
+.actonmass .group3 {
+  background-color: rgba(255, 255, 255, 0);
+  top: 1309px;
+  height: 54px;
+  width: 54px;
+  position: absolute;
+  margin: 0;
+  left: 84px;
+}
+.actonmass .group3 .oval {
+  background-color: rgba(255, 255, 255, 0);
+  top: 0px;
+  height: 54px;
+  width: 54px;
+  position: absolute;
+  margin: 0;
+  left: 0px;
+}
+.actonmass .group3 .a2 {
+  background-color: rgba(255, 255, 255, 0);
+  top: 11px;
+  height: auto;
+  width: auto;
+  position: absolute;
+  margin: 0;
+  left: 19px;
+  font-family: "AvenirNext-Bold", Helvetica, Arial, serif;
+  font-size: 24px;
+  color: rgba(255, 255, 255, 1);
+  text-align: left;
+  line-height: 33px;
+}
+
+.actonmass .group5 {
+  background-color: rgba(255, 255, 255, 0);
+  top: 1925px;
+  height: 54px;
+  width: 54px;
+  position: absolute;
+  margin: 0;
+  left: 84px;
+}
+.actonmass .group5 .oval {
+  background-color: rgba(255, 255, 255, 0);
+  top: 0px;
+  height: 54px;
+  width: 54px;
+  position: absolute;
+  margin: 0;
+  left: 0px;
+}
+.actonmass .group5 .a3 {
+  background-color: rgba(255, 255, 255, 0);
+  top: 11px;
+  height: auto;
+  width: auto;
+  position: absolute;
+  margin: 0;
+  left: 19px;
+  font-family: "AvenirNext-Bold", Helvetica, Arial, serif;
+  font-size: 24px;
+  color: rgba(255, 255, 255, 1);
+  text-align: left;
+  line-height: 33px;
+}
+
+.actonmass .sendthistoyourfr {
+  background-color: rgba(255, 255, 255, 0);
+  font-family: "AvenirNext-DemiBold", Helvetica, Arial, serif;
+  font-size: 18px;
+  color: rgba(0, 0, 0, 1);
+  text-align: center;
+  line-height: 25px;
+}
+.actonmass .learnmoreatactonm {
+  font-family: "AvenirNext-DemiBold", Helvetica, Arial, serif;
+  font-size: 18px;
+  color: rgba(0, 0, 0, 1);
+  text-align: center;
+  line-height: 25px;
+}
+.actonmass .learnmoreatactonm .span2 {
+  text-decoration: underline;
+}
+.actonmass .signuptovolunteer {
+  background-color: rgba(255, 255, 255, 0);
+  font-family: "AvenirNext-DemiBold", Helvetica, Arial, serif;
+  font-size: 18px;
+  color: rgba(0, 0, 0, 1);
+  text-align: center;
+  line-height: 25px;
+  .span2 {
+    text-decoration: underline;
+  }
+}
+.actonmass .group4 {
+  background-color: rgba(255, 255, 255, 0);
+  height: 70px;
+  width: 54px;
+  margin: 0;
+  position: relative;
+
+  .group7 {
+    background-color: rgba(255, 255, 255, 0);
+    top: 0px;
+    height: 70px;
+    width: 54px;
+    position: absolute;
+    margin: 0;
+    left: 0px;
+    .rectangle7 {
+      background-color: rgba(255, 255, 255, 0);
+      top: 0px;
+      height: 70px;
+      box-sizing: border-box;
+      width: 54px;
+      position: relative;
+      margin: 0;
+      left: 0px;
+      border-radius: 3px;
+      border-style: solid;
+      border-width: 4px;
+      border-color: rgba(0, 0, 0, 1);
+    }
+  }
+  .rectangle6 {
+    background-color: rgba(215, 215, 215, 1);
+    top: 11px;
+    height: 2px;
+    box-sizing: border-box;
+    width: 34px;
+    position: absolute;
+    margin: 0;
+    left: 10px;
+    border-radius: 1px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgba(0, 0, 0, 1);
+  }
+  .rectangle11 {
+    background-color: rgba(215, 215, 215, 1);
+    top: 19px;
+    height: 2px;
+    box-sizing: border-box;
+    width: 34px;
+    position: absolute;
+    margin: 0;
+    left: 10px;
+    border-radius: 1px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgba(0, 0, 0, 1);
+  }
+  .rectangle21 {
+    background-color: rgba(215, 215, 215, 1);
+    top: 27px;
+    height: 2px;
+    box-sizing: border-box;
+    width: 34px;
+    position: absolute;
+    margin: 0;
+    left: 10px;
+    border-radius: 1px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgba(0, 0, 0, 1);
+  }
+  .rectangle31 {
+    background-color: rgba(215, 215, 215, 1);
+    top: 35px;
+    height: 2px;
+    box-sizing: border-box;
+    width: 34px;
+    position: absolute;
+    margin: 0;
+    left: 10px;
+    border-radius: 1px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgba(0, 0, 0, 1);
+  }
+  .rectangle41 {
+    background-color: rgba(215, 215, 215, 1);
+    top: 43px;
+    height: 2px;
+    box-sizing: border-box;
+    width: 34px;
+    position: absolute;
+    margin: 0;
+    left: 10px;
+    border-radius: 1px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgba(0, 0, 0, 1);
+  }
+  .rectangle5 {
+    background-color: rgba(215, 215, 215, 1);
+    top: 51px;
+    height: 2px;
+    box-sizing: border-box;
+    width: 34px;
+    position: absolute;
+    margin: 0;
+    left: 10px;
+    border-radius: 1px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgba(0, 0, 0, 1);
+  }
+}
+
+.actonmass .donatetoactonmas {
+  background-color: rgba(255, 255, 255, 0);
+  font-family: "AvenirNext-DemiBold", Helvetica, Arial, serif;
+  font-size: 18px;
+  color: rgba(0, 0, 0, 1);
+  text-align: center;
+  line-height: 25px;
+}
+.actonmass .donatetoactonmas .span2 {
+  text-decoration: underline;
+}
+.actonmass .donatetoactonmas .span4 {
+  text-decoration: underline;
+}
+
+.actonmass .logos3 {
+  height: 45px;
+  width: 64px;
+  margin-right: 5rem;
+}
+.actonmass .a350logo {
+  height: 39px;
+  width: 114px;
+}
+
+.actonmass .mail3 {
+  background-color: rgba(255, 255, 255, 0);
+  height: 56px;
+  width: 84px;
+  margin: 0;
+}
+
+.actonmass .donate3 {
+  background-color: rgba(255, 255, 255, 0);
+  height: 74px;
+  width: 74px;
+  margin: 0;
+}
+
+/* .anima-animate-appear prefix for appear animations */
+.anima-animate-appear {
+  opacity: 0;
+  display: block;
+  -webkit-animation: anima-reveal 0.3s ease-in-out 1 normal forwards;
+  -moz-animation: anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation: anima-reveal 0.3s ease-in-out 1 normal forwards;
+  animation: anima-reveal 0.3s ease-in-out 1 normal forwards;
+}
+.anima-animate-disappear {
+  display: block;
+  -webkit-animation: anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  -moz-animation: anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation: anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  animation: anima-reveal 0.3s ease-in-out 1 reverse forwards;
+}
+.anima-animate-nodelay {
+  -webkit-animation-delay: 0;
+  -moz-animation-delay: 0;
+  -o-animation-delay: 0;
+  animation-delay: 0;
+}
+@-webkit-keyframes anima-reveal {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+  }
+}
+@-moz-keyframes anima-reveal {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+  }
+}
+@-o-keyframes anima-reveal {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+  }
+}
+@keyframes anima-reveal {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+  }
+}
+.anima-component-wrapper,
+.anima-component-wrapper * {
+  pointer-events: none;
+}
+.anima-component-wrapper a *,
+.anima-component-wrapper a,
+.anima-component-wrapper input,
+.anima-component-wrapper video,
+.anima-component-wrapper iframe,
+.anima-listeners-active,
+.anima-listeners-active * {
+  pointer-events: auto;
+}
+.anima-hidden,
+.anima-hidden * {
+  visibility: hidden;
+  pointer-events: none;
+}
+.anima-smart-layers-pointers,
+.anima-smart-layers-pointers * {
+  pointer-events: auto;
+  visibility: visible;
+}
+.anima-component-wrapper.anima-not-ready,
+.anima-component-wrapper.anima-not-ready * {
+  visibility: hidden !important;
+}
+.anima-listeners-active-click,
+.anima-listeners-active-click * {
+  cursor: pointer;
+}
+.anima-word-break {
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  word-break: break-all;
+  word-break: break-word;
+}
