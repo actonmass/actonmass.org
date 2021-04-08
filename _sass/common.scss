@@ -333,8 +333,11 @@ td {
 
 .light-blue {
   background-color: #d8e5fd;
-  color: var(--primary-dark);
+}
 
+.light-blue,
+.light {
+  color: var(--primary-dark);
   .dot {
     background-color: var(--primary);
   }
