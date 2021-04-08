@@ -28,6 +28,7 @@ As Massachusetts residents, we know that our state house is not working for us. 
 -   Protections for immigrants
 -   Medicare for All
 -   Making it easier to vote
+
 ...and so much more.
 
 Why is it that, despite a Democratic supermajority, the State House fails to pass widely popular and desperately needed legislation?
