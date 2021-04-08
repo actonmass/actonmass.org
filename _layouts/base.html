@@ -13,7 +13,7 @@ Mass" %} {% endif %}
     <meta property="og:title" content="{{ title | smartify}}" />
     <meta property="og:site_name" content="ActOnMass" />
     <meta property="og:type" content="website" />
-    <meta property="og:description" content="{{ site.description }}" />
+    <meta property="og:description" content="{{ site.data.general_settings.description }}" />
     <meta property="og:image" content="{{ site.url }}{{ page.image | default: '/img/fb-thumbnail.png' }}" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="shortcut icon" href="/img/favicon.png" type="image/png" />

@@ -4,7 +4,7 @@
       <img class="head_logo" src="/img/logo.png" alt="Act On Mass logo" />
     </a>
     <ul class="hbox">
-      {% for menu_item it site.data.general_settings.menu %}
+      {% for menu_item in site.data.general_settings.menu %}
         <li>
           <a class="nav_text fRoboto fLight fDark fUppercase" href="{{menu_item.href}}">{{menu_item.title}}</a>
         </li>
@@ -16,7 +16,7 @@
           <div class="dropdown-content">
             {%for menu_item in site.data.general_settings.menu %}
               <a class="fRoboto fLight fDark fUppercase" href="{{menu_item.href}}">{{menu_item.title}}</a>
-            {% enfor %}
+            {% endfor %}
           </div>
         </div>
       </li>
