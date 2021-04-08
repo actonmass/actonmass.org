@@ -52,7 +52,7 @@ Democracy only works if everyday people are able to access and influence their g
 
 We are modeling the representative democracy we’d like to see in our state by empowering thousands of constituents to organize their communities and meet with their representatives. Together, we’re calling for common sense reforms that will allow constituents to have a voice in the government that shapes our daily lives:
 
-![](/img/newcampaign3.jpg)
+![](/img/newcampaign3.png)
 
 # History behind the campaign
 
