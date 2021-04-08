@@ -83,6 +83,10 @@ In November of 2020, Act on Mass launched our Transparency is Power campaign. Be
 
 [“Massachusetts lawmakers are debating their transparency procedures – behind closed doors”](https://www.bostonglobe.com/2021/04/07/metro/massachusetts-lawmakers-are-debating-their-transparency-procedures-behind-closed-doors/) Emma Platoff, Boston Globe, 4/07/2021
 
+[“Local Activist Groups Push for Statehouse Transparency Amendments”] (https://ottosoninsider.com/1158/news/local-activist-groups-push-for-statehouse-transparency-amendments/) Mia V., The Ottoson Insider, 02/23/2021
+
+[“Our view: Transparency with a twist”] (https://www.salemnews.com/opinion/editorials/our-view-transparency-with-a-twist/article_7613c5e5-09c6-5c89-a0c0-b809b1adbc82.html) The Salem News Editorial Board, 02/18/2021
+
 [“The Deep Rot of the Massachusetts Democratic Party”](https://newrepublic.com/article/161406/charlie-baker-massachusetts-democratic-party-failure) Daniel Boguslaw, The New Republic, 2/18/2021
 
 [“It’s time lawmakers support an open house”](https://www.bostonglobe.com/2021/01/19/opinion/its-time-lawmakers-support-an-open-house/) Boston Globe Editorial Board, 01/19/2021
