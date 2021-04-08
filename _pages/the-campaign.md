@@ -5,7 +5,7 @@ layout: default
 ---
 
 
-<h1 style="font-size:64"><b>The People's House</b></h1>
+<p style="font-size:64"><b>The People's House</b></p>
 ###  A campaign for Rules Reform by Act on Mass, Sunrise Boston, Mijente, and Indivisible Mass Coalition
 {: .centered }
 
