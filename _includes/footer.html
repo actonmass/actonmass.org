@@ -6,8 +6,8 @@
     </a>
   </div>
   <div class="footer_bottom">
-    {% for link in site.footer %}
-        <h4 class="fRoboto fUppercase fRegular"><a href="{{link.page}}">{{link.title}}</a></h4>
+    {% for link in site.data.general_settings.footer %}
+        <h4 class="fRoboto fUppercase fRegular"><a href="{{link.href}}">{{link.title}}</a></h4>
     {% endfor %}
   </div>
 </footer>

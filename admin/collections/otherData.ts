@@ -1,4 +1,4 @@
-import { legislator_picker, script, script_req_only } from "../common";
+import { legislator_picker, script, script_req_only, menu } from "../common";
 
 export default {
   name: "site_data",
@@ -7,6 +7,42 @@ export default {
     preview: false,
   },
   files: [
+    {
+      label: "Menu and general settings",
+      name: "general_settings",
+      file: "_data/general_settings.yml",
+      fields: [
+        {
+          label: "Donate button URL",
+          name: "donate_button_url",
+          widget: "string",
+        },
+        {
+          label: "Site description",
+          name: "description",
+          widget: "text",
+          hint: "This field is used when sharing a link towards the website on Facebook",
+        },
+        {
+          label: "Main Menu",
+          name: "menu",
+          widget: "list",
+          ...menu,
+        },
+        {
+          label: "Learn More Menu",
+          name: "learn_more_menu",
+          widget: "list",
+          ...menu,
+        },
+        {
+          label: "Footer",
+          name: "footer",
+          widget: "list",
+          ...menu,
+        },
+      ],
+    },
     {
       label: "Pledge signatories",
       name: "pledge_signatories",

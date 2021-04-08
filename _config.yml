@@ -3,28 +3,6 @@
 
 title: Act On Mass
 url: https://actonmass.org
-description:
-  Act on Mass is a non-profit organization that tracks what happens in the Massachusetts State House
-  and what issues matter to you.
-
-menu:
-  - title: Home
-    page: /
-  - title: The pledge
-    page: /pledge
-  - title: About us
-    page: /about-us
-  - title: Issues
-    page: /#issues
-  - title: Latest updates
-    page: /blog
-footer:
-  - title: FAQs
-    page: /faq
-  - title: Privacy Policy
-    page: /privacy
-donate_button_url: https://secure.actblue.com/donate/act-on-mass
-
 collections:
   issues:
     output: true

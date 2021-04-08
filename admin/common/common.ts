@@ -308,3 +308,19 @@ export const script_req_only_opt = {
     },
   ],
 };
+
+export const menu = {
+  collapsed: false,
+  fields: [
+    {
+      label: "URL",
+      name: "href",
+      widget: "string",
+    },
+    {
+      label: "Title",
+      name: "title",
+      widget: "string",
+    },
+  ],
+};

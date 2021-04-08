@@ -1,58 +1,44 @@
-<header class="main_header">
-  <ul>
-    <li>
-      <a href="/">
-        <img class="head_logo" src="/img/logo.png" alt="Act On Mass logo" />
-      </a>
-    </li>
-    <li>
-      <a class="nav_text fRoboto fLight fDark fUppercase" href="/about-us"
-        >About Us</a
-      >
-    </li>
-    <li>
-      <a class="nav_text fRoboto fLight fDark fUppercase" href="/the-campaign"
-        >The Campaign</a
-      >
-    </li>
-    <li>
-      <a class="nav_text fRoboto fLight fDark fUppercase" href="/right2strike"
-        >Right to Strike</a
-      >
-    </li>
-    <li>
-      <a class="nav_text fRoboto fLight fDark fUppercase" href="/pledge"
-        >The Pledge</a
-      >
-    </li>
-    <li>
-      <div class="dropdown">
-        <a class="dropbtn fRoboto fLight fDark fUppercase">Learn More</a>
-        <i class="fas fa-angle-down dropbtn"></i>
-        <div class="dropdown-content">
-          <a class="fRoboto fLight fDark fUppercase" href="/bills">bills</a>
-          <a class="fRoboto fLight fDark fUppercase" href="/#issues">issues</a>
-          <a class="fRoboto fLight fDark fUppercase" href="/legislator-search"
-            >legislator search</a
-          >
-          <a class="fRoboto fLight fDark fUppercase" href="/blog">blog</a>
+<header class="cbox">
+  <div class="main_header w1400">
+    <a href="/">
+      <img class="head_logo" src="/img/logo.png" alt="Act On Mass logo" />
+    </a>
+    <ul class="hbox">
+      {% for menu_item it site.data.general_settings.menu %}
+        <li>
+          <a class="nav_text fRoboto fLight fDark fUppercase" href="{{menu_item.href}}">{{menu_item.title}}</a>
+        </li>
+      {% endfor %}
+      <li>
+        <div class="dropdown">
+          <a class="dropbtn fRoboto fLight fDark fUppercase">Learn More</a>
+          <i class="fas fa-angle-down dropbtn"></i>
+          <div class="dropdown-content">
+            {%for menu_item in site.data.general_settings.menu %}
+              <a class="fRoboto fLight fDark fUppercase" href="{{menu_item.href}}">{{menu_item.title}}</a>
+            {% enfor %}
+          </div>
         </div>
-      </div>
-    </li>
-    <li>
-      <a class="btn btn_header fDark fRoboto fBold fUppercase" href="https://secure.actblue.com/donate/act-on-mass">
+      </li>
+      <li>
+        <a
+          class="btn btn_header fDark fRoboto fBold fUppercase"
+          href="{{site.data.general_settings.donate_button_url}}"
+        >
           donate
-      </a>
-    </li>
-    <li>
-      <a href="https://www.facebook.com/act.on.massachusetts/">
-        <i class="fab fa-facebook-f fa-lg fDark"></i>
-      </a>
-    </li>
-    <li>
-      <a href="https://twitter.com/act_on_mass?lang=en">
-        <i class="fab fa-twitter fa-lg fDark"></i>
-      </a>
-    </li>
-  </ul>
+        </a>
+        <a class="nav_text fRoboto fLight fDark fUppercase mobile-only" href="{{site.data.general_settings.donate_button_url}}">donate</a>
+      </li>
+      <li>
+        <a href="https://www.facebook.com/act.on.massachusetts/">
+          <i class="fab fa-facebook-f fa-lg fDark"></i>
+        </a>
+      </li>
+      <li>
+        <a href="https://twitter.com/act_on_mass?lang=en">
+          <i class="fab fa-twitter fa-lg fDark"></i>
+        </a>
+      </li>
+    </ul>
+  </div>
 </header>
