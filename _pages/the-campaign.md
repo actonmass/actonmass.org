@@ -21,6 +21,8 @@ In July, the Massachusetts State House will be writing its own rulebook. We’re
 });
 </script>
 
+![](/img/newcampaign1.jpg)
+
 # The Massachusetts State House is Broken
 
 As Massachusetts residents, we know that our state house is not working for us. Year after year, policies that the **majority of people in this state support** and need in order to thrive are voted down without a public vote, or stalled indefinitely.
@@ -31,6 +33,8 @@ As Massachusetts residents, we know that our state house is not working for us. 
 ...and so much more.
 
 Why is it that, despite a Democratic supermajority, the State House fails to pass widely popular and desperately needed legislation?
+
+![](/img/newcampaign2.png)
 
 # The Problem: The People Have Been Locked Out
 
@@ -47,6 +51,8 @@ Democracy only works if everyday people are able to access and influence their g
 **Constituents are united behind the need for a more transparent and accessible state house.** By activating this support to call for transparency, accountability and shared power in the state house rulebook, we can win a state house that truly works for all of us.
 
 We are modeling the representative democracy we’d like to see in our state by empowering thousands of constituents to organize their communities and meet with their representatives. Together, we’re calling for common sense reforms that will allow constituents to have a voice in the government that shapes our daily lives:
+
+![](/img/newcampaign3.jpg)
 
 # History behind the campaign
 
