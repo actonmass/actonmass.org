@@ -5,8 +5,9 @@ layout: default
 ---
 
 
-<p style="font-size:64"><b>The People's House</b></p>
-###  A campaign for Rules Reform by Act on Mass, Sunrise Boston, Mijente, and Indivisible Mass Coalition
+# **The People's House**
+{: .centered }
+###  A Campaign for Rules Reform by Act on Mass, Sunrise Boston, Mijente, and Indivisible Mass Coalition
 {: .centered }
 
 What if we, the people, could reclaim our power to shape the policies that affect our lives? What if we could hold our state representatives accountable to actually representing their districts? What if we could make the State House work to uplift the lives of millions, fulfilling the needs of our most vulnerable neighbors? **Imagine what transformative policies we could win.** 
