@@ -87,18 +87,14 @@ In November of 2020, Act on Mass launched our Transparency is Power campaign. Be
 
 [“It’s time lawmakers support an open house”](https://www.bostonglobe.com/2021/01/19/opinion/its-time-lawmakers-support-an-open-house/) Boston Globe Editorial Board, 01/19/2021
 
-["Pledge asks lawmakers to commit to voting transparency"](https://www.tauntongazette.com/news/20190912/pledge-asks-lawmakers-to-commit-to-voting-transparency) Michael Norton, State House News Service, 9/12/2019
-
-["Mass. is a participatory democracy in name only"](https://commonwealthmagazine.org/opinion/mass-is-a-participatory-democracy-in-name-only/) Erin Leahy & Ryan Daulton, Commonwealth Magazine, 11/15/2020
-
-["Retiring rep, rep-elect share insights on State House opacity"](https://commonwealthmagazine.org/state-government/retiring-rep-rep-elect-share-insights-on-state-house-opacity/) Bruce Mohl, Commonwealth Magazine, 11/23/2020
-
-["Act on Mass Interview"](https://archive.org/details/act-on-mass-enviro-show-interview-11-27-20), the Enviro Show, 11/27/2020
-
-["Police reform bill is an example of why the public is distrustful of Beacon Hill"](https://www.bostonglobe.com/2020/12/02/opinion/police-reform-bill-is-an-example-why-public-is-distrustful-beacon-hill/), Rep. Patrick Kearney, Boston Globe, 12/2/2020
+["Activists look to bolster transparency in Massachusetts House come January"](https://www.berkshireeagle.com/news/local/activists-look-to-bolster-transparency-in-massachusetts-house-come-january/article_3789b8ea-4645-11eb-90d5-df48e45fdab4.html), Interview with Sophie Coyne, Berkshire Eagle, 12/27/2020
 
 ["Don't let American democracy die"](https://www.metrowestdailynews.com/story/opinion/letters/2020/12/26/citizens-formed-organizing-group-act-mass-demand-transparency/4041860001/), Miriam Siegal and Scotia Hille, Metrowest Daily News, 12/26/2020
 
-["Activists look to bolster transparency in Massachusetts House come January"](https://www.berkshireeagle.com/news/local/activists-look-to-bolster-transparency-in-massachusetts-house-come-january/article_3789b8ea-4645-11eb-90d5-df48e45fdab4.html), Interview with Sophie Coyne, Berkshire Eagle, 12/27/2020
+["Police reform bill is an example of why the public is distrustful of Beacon Hill"](https://www.bostonglobe.com/2020/12/02/opinion/police-reform-bill-is-an-example-why-public-is-distrustful-beacon-hill/), Rep. Patrick Kearney, Boston Globe, 12/2/2020
 
+["Act on Mass Interview"](https://archive.org/details/act-on-mass-enviro-show-interview-11-27-20), the Enviro Show, 11/27/2020
 
+["Retiring rep, rep-elect share insights on State House opacity"](https://commonwealthmagazine.org/state-government/retiring-rep-rep-elect-share-insights-on-state-house-opacity/) Bruce Mohl, Commonwealth Magazine, 11/23/2020
+
+["Mass. is a participatory democracy in name only"](https://commonwealthmagazine.org/opinion/mass-is-a-participatory-democracy-in-name-only/) Erin Leahy & Ryan Daulton, Commonwealth Magazine, 11/15/2020
