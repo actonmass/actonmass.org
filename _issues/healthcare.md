@@ -5,9 +5,9 @@ title: Health Care
 subtitle: Health care is a human right
 logo: heartbeat
 img: /img/issue-healthcare.jpg
+page_img: /img/ani-kolleshi-7jjnj-qa9fy-unsplash.jpg
 catchphrase: Working families across the state are being crushed by the rising
   cost of health care. It's time for Medicare for All.
-page_img: /img/ani-kolleshi-7jjnj-qa9fy-unsplash.jpg
 bills_to_support_title: Healthcare as a Human Right
 highlighted_bills:
   - medicare-for-all
@@ -112,7 +112,7 @@ learn_more:
   - title: Western Mass Medicare for All
     img: null
     link: https://www.wmmedicareforall.org/
-  - title: Healthcare-Now! (National Medicare for All
+  - title: Healthcare-Now! (National Medicare for All)
     img: null
     link: https://www.healthcare-now.org/
 order: 50
