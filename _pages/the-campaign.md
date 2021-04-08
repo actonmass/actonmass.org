@@ -91,7 +91,7 @@ In November of 2020, Act on Mass launched our Transparency is Power campaign. Be
 
 [“It’s time lawmakers support an open house”](https://www.bostonglobe.com/2021/01/19/opinion/its-time-lawmakers-support-an-open-house/) Boston Globe Editorial Board, 01/19/2021
 
-[“Massachusetts Does Not Have a Representative Democracy”](https://www.wickedlocal.com/story/somerville-journal/2021/01/05/column-massachusetts-does-not-have-representative-democracy/6551363002/) Ella McDonald, Wicked Local, 01/05/2021
+[“Massachusetts Does Not Have a Representative Democracy”](https://www.wickedlocal.com/story/somerville-journal/2021/01/05/column-massachusetts-does-not-have-representative-democracy/6551363002/) Ella McDonald, Somerville Journal, 01/05/2021
 
 ["Activists look to bolster transparency in Massachusetts House come January"](https://www.berkshireeagle.com/news/local/activists-look-to-bolster-transparency-in-massachusetts-house-come-january/article_3789b8ea-4645-11eb-90d5-df48e45fdab4.html), Interview with Sophie Coyne, Berkshire Eagle, 12/27/2020
 
