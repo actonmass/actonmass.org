@@ -39,7 +39,7 @@ Why is it that, despite a Democratic supermajority, the State House fails to pas
 ## The Problem: The People Have Been Locked Out
 {: .centered }
 
-There is a huge gap between what MA voters support, and what actually gets passed in our state house. We elect representatives to represent our interests, but the truth is, most of the time **we don’t even know how they vote.** Massachusetts has one of the least transparent state houses in the country (hyperlink to one of the studies). For ordinary Massachusetts residents, this means that:
+There is a huge gap between what MA voters support, and what actually gets passed in our state house. We elect representatives to represent our interests, but the truth is, most of the time **we don’t even know how they vote.** Massachusetts has [one of the least transparent state houses in the country](https://ballotpedia.org/Open_States%27_Legislative_Data_Report_Card). For ordinary Massachusetts residents, this means that:
 -   It's difficult to know what's going on in the State House, and advocate for the bills we care about.
 -   Our representatives are more accountable to corporate lobbyists and the Speaker of the House than to their districts.
 
