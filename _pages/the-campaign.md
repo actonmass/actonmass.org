@@ -19,7 +19,7 @@ In July, the Massachusetts State House will be writing its own rulebook. We’re
 });
 </script>
 
-<img src="img/newcampaign1.jpg" alt="State House" style="width:800px;"/>
+<img src="img/newcampaign1.jpg" alt="State House" style="width:500px;"/>
 
 ## The Massachusetts State House is Broken
 
@@ -32,7 +32,7 @@ As Massachusetts residents, we know that our state house is not working for us. 
 
 Why is it that, despite a Democratic supermajority, the State House fails to pass widely popular and desperately needed legislation?
 
-<img src="img/newcampaign2.png" alt="State House" style="width:800px;"/>
+<img src="img/newcampaign2.png" alt="State House" style="width:500px;"/>
 
 ## The Problem: The People Have Been Locked Out
 
