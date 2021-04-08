@@ -4,7 +4,7 @@ title: The People's House
 layout: default
 ---
 # **THE PEOPLE'S HOUSE**
-#  A campaign for Rules Reform by Act on Mass, Sunrise Boston, Mijente, and Indivisible Mass Coalition
+####  A campaign for Rules Reform by Act on Mass, Sunrise Boston, Mijente, and Indivisible Mass Coalition
 
 What if we, the people, could reclaim our power to shape the policies that affect our lives? What if we could hold our state representatives accountable to actually representing their districts? What if we could make the State House work to uplift the lives of millions, fulfilling the needs of our most vulnerable neighbors?
 
@@ -23,7 +23,7 @@ In July, the Massachusetts State House will be writing its own rulebook. We’re
 
 ![](/img/newcampaign1.jpg)
 
-# The Massachusetts State House is Broken
+#### The Massachusetts State House is Broken
 
 As Massachusetts residents, we know that our state house is not working for us. Year after year, policies that the **majority of people in this state support** and need in order to thrive are voted down without a public vote, or stalled indefinitely.
 
@@ -36,7 +36,7 @@ Why is it that, despite a Democratic supermajority, the State House fails to pas
 
 ![](/img/newcampaign2.png)
 
-# The Problem: The People Have Been Locked Out
+#### The Problem: The People Have Been Locked Out
 
 There is a huge gap between what MA voters support, and what actually gets passed in our state house. We elect representatives to represent our interests, but the truth is, most of the time **we don’t even know how they vote.** Massachusetts has one of the least transparent state houses in the country (hyperlink to one of the studies). For ordinary Massachusetts residents, this means that:
 -   It's difficult to know what's going on in the State House, and advocate for the bills we care about.
@@ -46,7 +46,7 @@ Democracy only works if everyday people are able to access and influence their g
 
 **What if we, the people, could reclaim our power to shape the policies that affect our lives?**
 
-# The Solution: Build Constituent Power to Change the Broken Rules
+#### The Solution: Build Constituent Power to Change the Broken Rules
 
 **Constituents are united behind the need for a more transparent and accessible state house.** By activating this support to call for transparency, accountability and shared power in the state house rulebook, we can win a state house that truly works for all of us.
 
@@ -54,15 +54,23 @@ We are modeling the representative democracy we’d like to see in our state by 
 
 ![](/img/newcampaign3.png)
 
-# History behind the campaign
+#### History behind the campaign
 
 In November of 2020, Act on Mass launched our Transparency is Power campaign. Between November and February, over 3000 constituents in 150 districts across the state and dozens of advocacy organizations joined our campaign for a more transparent state house. Largely in reaction to the power that our movement built, the Speaker of the House decided to delay the rules vote by six months. 
 
+#### **Did your Rep commit?**
 
+<div style="max-width: 800px; margin: 1rem auto;">
+    <div style="position: relative; overflow: hidden; padding-top: 64%;">
+    <iframe src="https://actonmass.github.io/campaign-map/"
+        style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;"></iframe>
+    </div>
+</div>
+
+<script src="https://unpkg.com/papaparse@5.3.0/papaparse.min.js"></script>
+<script src="https://actonmass.github.io/campaign-map/commitment-list.js"></script>
 
 ## Media
-
-
 
 ["Pledge asks lawmakers to commit to voting transparency"](https://www.tauntongazette.com/news/20190912/pledge-asks-lawmakers-to-commit-to-voting-transparency) Michael Norton, State House News Service, 9/12/2019
 
@@ -77,59 +85,5 @@ In November of 2020, Act on Mass launched our Transparency is Power campaign. Be
 ["Don't let American democracy die"](https://www.metrowestdailynews.com/story/opinion/letters/2020/12/26/citizens-formed-organizing-group-act-mass-demand-transparency/4041860001/), Miriam Siegal and Scotia Hille, Metrowest Daily News, 12/26/2020
 
 ["Activists look to bolster transparency in Massachusetts House come January"](https://www.berkshireeagle.com/news/local/activists-look-to-bolster-transparency-in-massachusetts-house-come-january/article_3789b8ea-4645-11eb-90d5-df48e45fdab4.html), Interview with Sophie Coyne, Berkshire Eagle, 12/27/2020
-
-
-## Endorsing Organizations
-
-If your organization wants to endorse please fill out [THIS FORM](https://docs.google.com/forms/d/e/1FAIpQLSd-qiuAJ3hZmaCEgQKou9qjOlwpdOmxL-X0__DP3iYl1QXphw/viewform)
-
-<img src="/img/pledge-endorsements/MTA.png" alt="MTA" style="width:200px;"/>
-<img src="/img/pledge-endorsements/prog-mass.png" alt="Progressive Massachusetts logo" style="width:200px;"/>
-<img src="/img/pledge-endorsements/mijente.png" alt="Asamblea Mijente" style="width:200px;"/>
-<img src="/img/pledge-endorsements/SunriseBostonGrey.png" alt="Sunrise Boston" style="width:200px;"/>
-<img src="/img/pledge-endorsements/AFT-MA.png" alt="AFT Massachusetts" style="width:200px;"/>
-<img src="/img/pledge-endorsements/UUMassAction.png" alt="UU Mass Action" style="width:200px;"/>
-<img src="/img/pledge-endorsements/PDM.png" alt="Progressive Democrats of Massachusetts" style="width:200px;"/>
-<img src="/img/pledge-endorsements/ORMA.png" alt="Our Revolution MA" style="width:200px;"/>
-<img src="/img/pledge-endorsements/DSA.png" alt="Boston DSA" style="width:200px;"/>
-<img src="/img/pledge-endorsements/IndivisibleMass.jpg" alt="Indivisible Massachusetts" style="width:200px;"/>
-<img src="/img/pledge-endorsements/OurClimate.gif" alt="Our Climate" style="width:200px;"/>
-<img src="/img/pledge-endorsements/FCCPR.jpg" alt="FCCPR" style="width:200px;"/>
-<img src="/img/pledge-endorsements/350.png" alt="350" style="width:200px;"/>
-<img src="/img/pledge-endorsements/ORMalden.jpg" alt="Our Revolution Malden" style="width:200px;"/>
-<img src="/img/pledge-endorsements/NOFA.png" alt="NOFA Mass" style="width:200px;"/>
-<img src="/img/pledge-endorsements/IndivisibleActon.jpg" alt="Indivisible Action" style="width:200px;"/>
-<img src="/img/pledge-endorsements/LastTreeLawsLogo.png" alt="Last Tree Laws" style="width:200px;"/>
-<img src="/img/pledge-endorsements/SierraClub.png" alt="Sierra Club" style="width:200px;"/>
-<img src="/img/pledge-endorsements/MAPA.jpg" alt="Mass Peace Action" style="width:200px;"/>
-<img src="/img/pledge-endorsements/ZDM.png" alt="Zero Debt Massachusetts" style="width:200px;"/>
-<img src="/img/pledge-endorsements/CANWesternMass.png" alt="Clinate Action Now Western MA" style="width:200px;"/>
-<img src="/img/pledge-endorsements/MFOLMA.png" alt="March for our Lives MA" style="width:200px;"/>
-<img src="/img/pledge-endorsements/WalthamBFF.jpg" alt="Waltham Black Future Fund" style="width:200px;"/>
-<img src="/img/pledge-endorsements/MRCC.png" alt="Massachusetts Recreational Consumer Council" style="width:200px;"/>
-<img src="/img/pledge-endorsements/lynnunited.png" alt="Lynn United for Change" style="width:200px;"/>
-<img src="/img/pledge-endorsements/MMHF.png" alt="MA Moving Humanity Forward" style="width:200px;"/>
-<img src="/img/pledge-endorsements/BerkDSA.jpg" alt="Berkshires DSA" style="width:200px;"/>
-<img src="/img/pledge-endorsements/GrassrootsCentralMass.jpg" alt="Grassroots Central Mass" style="width:200px;"/>
-<img src="/img/pledge-endorsements/EWALogo.png" alt="End Workplace Abuse" style="width:200px;"/>
-<img src="/img/pledge-endorsements/MSAC.jpg" alt="Mass Senior Action Council" style="width:200px;"/>
-<img src="/img/pledge-endorsements/Masscare.jpg" alt="Mass Care" style="width:200px;"/>
-<img src="/img/pledge-endorsements/MendonDTC.jpg" alt="Mendon DTC" style="width:200px;"/>
-<img src="/img/pledge-endorsements/CDTC.jpg" alt="Carlisle DTC" style="width:200px;"/>
-<img src="/img/pledge-endorsements/WBDTC.jpg" alt="West Brookfield DTC" style="width:200px;"/>
-<img src="/img/pledge-endorsements/blanklogo.png" alt="Your logo here" style="width:200px;"/>
-<img src="/img/pledge-endorsements/blanklogo.png" alt="Your logo here" style="width:200px;"/>
-
-{: .logo-list}
-
-* Sunrise Arlington
-* Indivisible Pittsfield
-* Cohasset DTC
-* Malden Dem City Committee
-* Reading DTC
-* Somerville DTC
-* Lunenburg DTC
-* Southbridge DTC
-* Somerville City Council
 
 
