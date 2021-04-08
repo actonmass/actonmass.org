@@ -81,6 +81,8 @@ In November of 2020, Act on Mass launched our Transparency is Power campaign. Be
 ## Media
 {: .centered }
 
+[“The Deep Rot of the Massachusetts Democratic Party”] (https://newrepublic.com/article/161406/charlie-baker-massachusetts-democratic-party-failure) Daniel Boguslaw, The New Republic, 2/18/2021
+
 ["Pledge asks lawmakers to commit to voting transparency"](https://www.tauntongazette.com/news/20190912/pledge-asks-lawmakers-to-commit-to-voting-transparency) Michael Norton, State House News Service, 9/12/2019
 
 ["Mass. is a participatory democracy in name only"](https://commonwealthmagazine.org/opinion/mass-is-a-participatory-democracy-in-name-only/) Erin Leahy & Ryan Daulton, Commonwealth Magazine, 11/15/2020
