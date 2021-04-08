@@ -1,12 +1,13 @@
 ---
 aom_id: driver-license-regardless-immigration-status
-title: Driving MA Forward
+title: Work & Family Mobility Act
 full_title: The Work and Family Mobility Act
+twitter_bill_name: Work & Family Mobility Act
 house_no: HD448
 house_link: https://malegislature.gov/Bills/192/HD448
 senate_no: SD273
 senate_link: https://malegislature.gov/Bills/192/SD273
-committee: senate-ways-and-means
+committee: ""
 issue: immigration
 img: /img/nabeel-syed-jk3-uhdwjcs-unsplash.jpg
 summary:
@@ -19,6 +20,11 @@ summary:
   - The type of driver’s license an individual has will not be public information
 orgs:
   - SEIU
+house_lead_sponsors:
+  - tricia-farley-bouvier
+  - christine-barber
+senate_lead_sponsors:
+  - brendan-crighton
 co_sponsors:
   - tricia-farley-bouvier
   - christine-barber
@@ -144,10 +150,6 @@ co_sponsors:
   - eric-lesser
   - julian-cyr
   - mary-keefe
-history:
-  - description: Assigned to Transportation Committee
-    date: 2019-01-22
-  - bill_event: drivers-licenses-transpo-comm-2020
 timeline:
   - description: Assigned to Transportation Committee in 2019
     date: 2019-01-22
@@ -197,10 +199,8 @@ votes:
     vote: true
   - legislator: joseph-boncore
     vote: true
-twitter_bill_name: Driving MA Forward
-house_lead_sponsors:
-  - tricia-farley-bouvier
-  - christine-barber
-senate_lead_sponsors:
-  - brendan-crighton
+history:
+  - description: Assigned to Transportation Committee
+    date: 2019-01-22
+  - bill_event: drivers-licenses-transpo-comm-2020
 ---
