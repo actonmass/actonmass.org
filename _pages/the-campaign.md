@@ -1,13 +1,16 @@
 ---
 permalink: /the-campaign/
-title: Transparency is Power
+title: The People's House
 layout: default
 ---
-# **TRANSPARENCY IS POWER CAMPAIGN**
+# **THE PEOPLE'S HOUSE**
+#  A campaign for Rules Reform by Act on Mass, Sunrise Boston, Mijente, and Indivisible Mass Coalition
 
-At the start of every two year legislative session, the State House writes its own rulebook. A new session begins in January. Over the next few months, we’re organizing constituent power in every corner of the state to ask that our legislators change the broken, anti-democratic rules in the State House.
+What if we, the people, could reclaim our power to shape the policies that affect our lives? What if we could hold our state representatives accountable to actually representing their districts? What if we could make the State House work to uplift the lives of millions, fulfilling the needs of our most vulnerable neighbors?
 
-#### **Join Your District Team**
+**Imagine what transformative policies we could win.**
+
+In July, the Massachusetts State House will be writing its own rulebook. We’re organizing constituent power in every corner of the state to ask that our legislators change the broken, anti-democratic rules in the State House. Together, we can make the State House the People’s House. Will you join us?
 
 <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/shell.js"></script>
 
@@ -18,51 +21,37 @@ At the start of every two year legislative session, the State House writes its o
 });
 </script>
 
-#### **Did your Rep commit?**
+# The Massachusetts State House is Broken
 
-<div style="max-width: 800px; margin: 1rem auto;">
-    <div style="position: relative; overflow: hidden; padding-top: 64%;">
-    <iframe src="https://actonmass.github.io/campaign-map/"
-        style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;"></iframe>
-    </div>
-</div>
+As Massachusetts residents, we know that our state house is not working for us. Year after year, policies that the **majority of people in this state support** and need in order to thrive are voted down without a public vote, or stalled indefinitely.
 
-<script src="https://unpkg.com/papaparse@5.3.0/papaparse.min.js"></script>
-<script src="https://actonmass.github.io/campaign-map/commitment-list.js"></script>
+-   Protections for immigrants
+-   Medicare for All
+-   Making it easier to vote
+...and so much more.
 
-# The Massachusetts State House is broken.
+Why is it that, despite a Democratic supermajority, the State House fails to pass widely popular and desperately needed legislation?
 
-Year after year legislation that would uplift the lives of millions is delayed, made less ambitious, or killed behind closed doors. This pattern plays out despite clear support from constituents on a long list of policies.
+# The Problem: The People Have Been Locked Out
 
-Why is it that, despite a Democratic veto-proof majority, the State House fails to pass widely popular and desperately needed legislation year after year?
+There is a huge gap between what MA voters support, and what actually gets passed in our state house. We elect representatives to represent our interests, but the truth is, most of the time **we don’t even know how they vote.** Massachusetts has one of the least transparent state houses in the country (hyperlink to one of the studies). For ordinary Massachusetts residents, this means that:
+-   It's difficult to know what's going on in the State House, and advocate for the bills we care about.
+-   Our representatives are more accountable to corporate lobbyists and the Speaker of the House than to their districts.
 
-![](/img/small-table-with-bills.png)
+Democracy only works if everyday people are able to access and influence their government. 
 
-# **The Problem: No Transparency, No Accountability, No Progress**
+**What if we, the people, could reclaim our power to shape the policies that affect our lives?**
 
-Massachusetts has one of the least transparent State Houses in the country.  With few exceptions, our legislators vote in secret.  This fosters a corrupting system in which legislators are more accountable to corporations and special interests than to their own constituents. The devastating end result is a State House that fails us by prioritizing modest, incremental changes, instead of truly reflecting our values. Decisions about which bills pass are made in backroom deals. The State House operates more like an old boys club than a pillar of a vibrant democracy.
+# The Solution: Build Constituent Power to Change the Broken Rules
 
-![](/img/democracy-power-map.png)
+**Constituents are united behind the need for a more transparent and accessible state house.** By activating this support to call for transparency, accountability and shared power in the state house rulebook, we can win a state house that truly works for all of us.
 
-# The Solution: Use Constituent Power to Change The Broken Rules
+We are modeling the representative democracy we’d like to see in our state by empowering thousands of constituents to organize their communities and meet with their representatives. Together, we’re calling for common sense reforms that will allow constituents to have a voice in the government that shapes our daily lives:
 
-The Transparency Is Power Campaign is a grassroots campaign that works with advocacy groups, labor unions, and individuals to build constituent power across the state. Together, we pressure our state legislators through engagement and escalation to change the rules of the State House. By standing up for rules today, we can more effectively fight for bold, transformative policies tomorrow.
+# History behind the campaign
 
-![](/img/democracy-power-map-act-on-mass.png)
+In November of 2020, Act on Mass launched our Transparency is Power campaign. Between November and February, over 3000 constituents in 150 districts across the state and dozens of advocacy organizations joined our campaign for a more transparent state house. Largely in reaction to the power that our movement built, the Speaker of the House decided to delay the rules vote by six months. 
 
-# **Our Amendments**
-
-At the start of the legislative session in January 2021, the State House gets to write its own rulebook. We are fighting for the adoption of the following rules:
-
-![](/img/campaign4.jpg)
-
-# **The Strategy: Where You Come In**
-
-In order for these rules changes to pass, a majority of state representatives must vote yes at the start of the legislative session in January. That means we’re going to need at least 81 state representatives to commit. That’s a lot of meetings, which is why we need your help! 
-
-If attending a meeting with your state legislator seems scary, don’t worry! We’ll be with you every step of the way. Act On Mass is building district level teams and will provide training to ensure that everyone who meets with their legislator is prepared. Act on Mass will attend the meeting and afterwards organize alongside your district team to escalate pressure.   
-
-This is about more than transparency. This is about single payer healthcare, a rapid transition to renewable energy, immigrant protections, LGBTQ+ inclusive rights, and housing justice. This is about changing the broken system that has prevented countless desperately needed policies from becoming a reality. This is your chance to make a difference.
 
 
 ## Media
