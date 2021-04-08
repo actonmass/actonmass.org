@@ -2,6 +2,7 @@
 aom_id: age-of-criminal-majority-to-21
 title: Age of Criminal Majority to 21
 full_title: An Act to Promote Public Safety and Better Outcomes for Young Adults
+twitter_bill_name: Age of Criminal Majority to 21
 house_no: HD1432
 house_link: https://malegislature.gov/Bills/192/HD1432
 senate_no: SD697
@@ -65,12 +66,5 @@ history:
   - date: 2020-02-10
     description: Sent to study
     type: death
-timeline:
-  - date: 2019-01-22
-    description: Referred to Judiciary Committee
-  - date: 2019-10-22
-    description: Hearing scheduled
-  - date: 2020-02-03
-    description: Reporting date extended to 5/12/2020
-twitter_bill_name: Age of Criminal Majority to 21
+timeline: []
 ---
