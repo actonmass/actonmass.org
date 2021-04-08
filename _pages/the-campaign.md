@@ -83,7 +83,7 @@ In November of 2020, Act on Mass launched our Transparency is Power campaign. Be
 
 [“Massachusetts lawmakers are debating their transparency procedures – behind closed doors”](https://www.bostonglobe.com/2021/04/07/metro/massachusetts-lawmakers-are-debating-their-transparency-procedures-behind-closed-doors/) Emma Platoff, Boston Globe, 4/07/2021
 
-[“The Deep Rot of the Massachusetts Democratic Party”] (https://newrepublic.com/article/161406/charlie-baker-massachusetts-democratic-party-failure) Daniel Boguslaw, The New Republic, 2/18/2021
+[“The Deep Rot of the Massachusetts Democratic Party”](https://newrepublic.com/article/161406/charlie-baker-massachusetts-democratic-party-failure) Daniel Boguslaw, The New Republic, 2/18/2021
 
 ["Pledge asks lawmakers to commit to voting transparency"](https://www.tauntongazette.com/news/20190912/pledge-asks-lawmakers-to-commit-to-voting-transparency) Michael Norton, State House News Service, 9/12/2019
 
