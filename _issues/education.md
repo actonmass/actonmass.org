@@ -5,11 +5,11 @@ title: Education
 subtitle: Real investment in quality public education for all
 logo: pen
 img: /img/issue-education.jpg
+page_img: /img/neonbrand-zfso6bnzjtw-unsplash.jpg
 catchphrase: Massachusetts' average spending per student is one of the highest
   in the country, but it's clear that not all communities receive the same
   benefits. We need to adequately and equitably fund our public schools so that
   a child's zip code doesn't determine their right to a great public education.
-page_img: /img/neonbrand-zfso6bnzjtw-unsplash.jpg
 highlighted_bills:
   - cherish-act-fully-funded-public-higher-ed
   - moratorium-on-high-stakes-testing
@@ -30,7 +30,7 @@ failures:
     text: Standardized testing is a favorite tool of privatizers who want to use
       poor test scores against school districts rather than funding them
       appropriately. We won a victory in 2020 with the cancellation of all MCAS
-      requirements due to covid, but now we need to make that permanent.
+      requirements due to Covid, but now we need to make that permanent.
 questions:
   - title: Don't we already spend a lot of money on public education?
     text: >
