@@ -2,13 +2,11 @@
   grid-template-columns: 1fr;
   grid-template-rows: 1fr auto;
   display: grid;
-  background-color: #11447b;
   grid-area: hero;
 
   @media (min-width: 700px) {
     grid-template-columns: 3fr 0.5fr 2fr;
     grid-template-rows: 1fr;
-    padding: 10rem 20rem;
   }
 
   .hero_left {
@@ -65,10 +63,13 @@
 
   .dotted-image .image-container {
     padding-top: 0;
-    padding-bottom: 0;
+    padding-bottom: min(15%, 2rem);
+    margin-top: -2rem;
+
     @media (min-width: 700px) {
+      margin-top: -5rem;
       padding-left: 5rem;
-      padding-bottom: 8rem;
+      padding-bottom: 5rem;
     }
   }
 }
