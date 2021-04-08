@@ -3,7 +3,9 @@ permalink: /the-campaign/
 title: The People's House
 layout: default
 ---
-# **THE PEOPLE'S HOUSE**
+
+
+<h1 style="font-size:64vw"><b>The People's House</b></h1>
 ###  A campaign for Rules Reform by Act on Mass, Sunrise Boston, Mijente, and Indivisible Mass Coalition
 {: .centered }
 
