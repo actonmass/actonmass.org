@@ -2,6 +2,7 @@
 aom_id: life-without-parole
 title: Life without Parole
 full_title: An Act repealing mandatory life without parole
+twitter_bill_name: Life without Parole
 house_no: HD2124
 house_link: https://malegislature.gov/Bills/192/HD2124
 senate_no: SD1065
@@ -12,10 +13,16 @@ img: /img/emiliano-bar-pakhbttdqt0-unsplash.jpg
 summary:
   - Ends mandatory minimum sentencing that forces life without parole for
     certain crimes
+  - Reduces the incarcerated population, freeing up funding that is desperately
+    needed for essential public services like hospitals and schools
+  - Is the first step to reorienting our criminal justice system away from
+    punishment and towards rehabilitation
 orgs: []
 house_lead_sponsors:
   - liz-miranda
   - andres-vargas
+senate_lead_sponsors:
+  - cynthia-creem
 co_sponsors:
   - liz-miranda
   - andres-vargas
@@ -41,7 +48,4 @@ timeline:
     description: Referred to the Judiciary Committee
   - date: 2020-02-03
     description: Sent to study
-twitter_bill_name: Life without Parole
-senate_lead_sponsors:
-  - cynthia-creem
 ---
