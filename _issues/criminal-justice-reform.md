@@ -6,8 +6,8 @@ subtitle: End mandatory minimum sentencing
 logo: balance-scale
 img: /img/issue-crime.jpeg
 page_img: /img/emiliano-bar-pakhbttdqt0-unsplash.jpg
-catchphrase: Mass incarceration and a racist, unaccountable police system are
-  putting communities in danger
+catchphrase: Mass incarceration and a racist, unaccountable police system put
+  communities in danger.
 text: This is an example text
 bills_to_support_title: Criminal Justice Reform
 highlighted_bills:
