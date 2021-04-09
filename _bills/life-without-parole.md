@@ -16,7 +16,7 @@ summary:
   - Reduces the incarcerated population, freeing up funding that is desperately
     needed for essential public services like hospitals and schools
   - Is the first step to reorienting our criminal justice system away from
-    punishment and towards rehabilitation
+    punishment and toward rehabilitation
 orgs: []
 house_lead_sponsors:
   - liz-miranda
