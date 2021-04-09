@@ -1,18 +1,21 @@
 import React from "react";
 import { Dropdown } from "semantic-ui-react";
+import sortBy from "lodash/fp/sortBy";
 
 type Props = {
   legislators: {
     href: string;
-    name: string;
+    first_name: string;
+    last_name: string;
     chamber: "house" | "senate";
   }[];
 };
 
 export default function LegDropdown({ legislators }: Props) {
-  const options = legislators.map(({ href, name, chamber }) => {
+  const sortedLegs = sortBy("last_name", legislators);
+  const options = sortedLegs.map(({ href, first_name, last_name, chamber }) => {
     return {
-      text: `${chamber === "house" ? "Rep." : "Sen."} ${name}`,
+      text: `${chamber === "house" ? "Rep." : "Sen."} ${first_name} ${last_name}`,
       value: href,
       key: href,
     };

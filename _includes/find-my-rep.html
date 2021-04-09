@@ -20,7 +20,8 @@
         {% assign short_id = leg.id | replace: "/legislators/", "" %}
         {
           href: "{{leg.id}}",
-          name: "{{leg.first_name}} {{leg.last_name}}",
+          first_name: "{{leg.first_name}}",
+          last_name: "{{leg.last_name}}",
           chamber: "{{leg.district | split: "-" | first }}",
         },
       {% endunless %}

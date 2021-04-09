@@ -19,7 +19,8 @@ export type Props = {
   scripts: Scripts;
   legislators: {
     href: string;
-    name: string;
+    first_name: string;
+    last_name: string;
     chamber: "house" | "senate";
   }[];
 };
@@ -28,7 +29,16 @@ type InnerProps = Props & {
   onQueryReps: (query: Query) => Promise<QueryResult>;
 };
 
-function FindMyReps({ onQueryReps, title, text, theme, bill, showResultIfEmpty, scripts, legislators }: InnerProps) {
+function FindMyReps({
+  onQueryReps,
+  title,
+  text,
+  theme,
+  bill,
+  showResultIfEmpty,
+  scripts,
+  legislators,
+}: InnerProps) {
   const repInfo = useSessionLegs();
   const [error, setError] = useState(null);
   const [loading, setLoading] = useState(false);
