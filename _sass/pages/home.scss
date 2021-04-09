@@ -60,18 +60,6 @@
       padding-top: 0.5rem;
     }
   }
-
-  .dotted-image .image-container {
-    padding-top: 0;
-    padding-bottom: min(15%, 2rem);
-    margin-top: -2rem;
-
-    @media (min-width: 700px) {
-      margin-top: -5rem;
-      padding-left: 5rem;
-      padding-bottom: 5rem;
-    }
-  }
 }
 
 .header2 {
