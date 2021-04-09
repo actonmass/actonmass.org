@@ -6,8 +6,8 @@ subtitle: End mandatory minimum sentencing
 logo: balance-scale
 img: /img/issue-crime.jpeg
 page_img: /img/emiliano-bar-pakhbttdqt0-unsplash.jpg
-catchphrase: Massachusetts hasn't done enough to end mass incarceration and a
-  police force that's out of control
+catchphrase: Mass incarceration and a racist, unaccountable police system are
+  putting communities in danger
 text: This is an example text
 bills_to_support_title: Criminal Justice Reform
 highlighted_bills:
@@ -16,27 +16,59 @@ highlighted_bills:
 failures_block_title: 2018 Criminal Justice Reform left a lot out...
 failures:
   - title: Mandatory Minimum Sentences
-    text: Mandatory minimum sentences don't work, they just serve to swell our
-      prison populations for no reason. Our legislature had a chance to end
-      mandatory minimums when they passed a CJR bill back in 2018, but they left
-      mandatory minimums in place and even created a few new ones.
+    text: >-
+      As part of the War on Drugs, politicians in the early 70's introduced the
+      practice of mandatory minimum sentences to reduce the alleged crime
+      epidemic. But instead of making communities safer, mandatory minimums
+      became a catalyst for our current mass incarceration epidemic, terrorizing
+      Black communities and ignoring the root causes of poverty and crime. You
+      can almost draw a direct line between the introduction of mandatory
+      minimums and our current crisis - Massachusetts currently has much higher
+      incarceration rates than we did in the 1970's.
+
+
+
+
+      According to statewide sentencing data, Black and Latinx residents make up just 23 percent of the state's population, but more than double the percentage of people who are under mandatory minimum sentences for drug-related offenses. This is not an accident. We have had decades to address the impact of racist mandatory minimums, and we have not done so. Our legislature had a chance to end mandatory minimums when they passed a CJR bill back in 2018, but they left mandatory minimums in place and even created a few new ones.
+
+
+
+
+      In a state that has led much of the country in fighting the impact of the War on Drugs by legalizing marijuana, this is unacceptable. Mandatory minimum sentences don't work to reduce crime or incentivize lawful behavior, and incarceration should not be used as a substitute for adequate and accessible health care, jobs programs, or mental health services. We need to take action to end mandatory minimum sentencing this session.
   - title: Desperate Need for Police Reform
-    text: Massachusetts is just a handful of states without certification for
+    text: >-
+      Massachusetts is just a handful of states without certification for police
       officers, meaning that a cop who's fired by one town for misbehavior can
-      get a job down the road in the next town. This is outrageous.
-      Springfield's police department is so bad that even Trump's DOJ paid
-      attention, starting an investigation into unconstitutional policing and
-      systemic misconduct.
+      get a job down the road in the next town. This is outrageous. Police
+      officers routinely violate constitutional law and rarely receive
+      accountability. There is very little stopping someone who has committed an
+      act of violence from continuing to commit violence on the job elsewhere.
+      This lack of consequences puts the entire community at risk.
+
+
+
+
+      Municipalities across the state have already made clear the need for certification and accountability. Springfield's police department is so bad that even the Trump administration took notice and began an investigation into unconstitutional policing and systemic misconduct. A system of certification would prevent disgraced officers in Springfield from moving a few towns over and resuming police work unchanged.
+
+
+
+
+      Certification is not a substitute for defunding police budgets, which are clearly bloated and take away vital funding from needed public services. It does, however, establish a standard to which officers will have to adhere to in order to remain employed as police.
 questions:
   - title: Isn’t Massachusetts really progressive on criminal justice?
-    text: >
+    text: >-
       It’s a mixed bag. Massachusetts has a low overall incarceration rate, but
       some of the worst racial disparities. We have also been criticized for
       [sending more paroled prisoners back to prison than
       Texas](https://www.prisonpolicy.org/blog/2019/01/02/parole/?fbclid=IwAR1pVj1CJBGRyKWgUAW5SO6vcln-DW4ocCIMpltGnqKJr838RFRE_X5OL9M).
-      While other states are certainly worse, Massachusetts has serious problems
-      with its criminal justice system. Remember: even progressive U.S. states
-      lock up more people than most other countries.
+      Black and Latinx residents make up just 23 percent of the state's
+      population, but more than double the percentage of people who are under
+      mandatory minimum sentences for drug-related offenses.
+
+
+
+
+      While other states are certainly worse, Massachusetts is no less guilty of investing in the prison industrial complex and enabling the overincarceration of Black and Latinx communities than the rest of the country. Mass incarceration is not a solution to poverty or crime. It is not a substitute for the state's responsibility to make health care a human right, to make good paying jobs available to every resident, to ensure that every child in the state receives a quality public education, or to invest in underresourced communities. No matter how much worse other states might be, the fact remains that thousands of people in Massachusetts are behind bars for reasons that should have never resulted in incarceration. That in itself is a human rights crisis.
   - title: If we just passed a major bill, doesn’t that mean the legislature is
       doing a good job?
     text: >
