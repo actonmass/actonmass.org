@@ -8,7 +8,19 @@ img: /img/issue-crime.jpeg
 page_img: /img/emiliano-bar-pakhbttdqt0-unsplash.jpg
 catchphrase: Mass incarceration and a racist, unaccountable police system put
   communities in danger.
-text: This is an example text
+text: >-
+  #### MANDATORY MINIMUM SENTENCES
+
+
+  As part of the War on Drugs, politicians in the early 70’s introduced the practice of mandatory minimum sentences to reduce the alleged crime epidemic. But instead of making communities safer, mandatory minimums became a catalyst for our current mass incarceration epidemic, terrorizing Black communities and ignoring the root causes of poverty and crime. You can almost draw a direct line between the introduction of mandatory minimums and our current crisis - Massachusetts currently has much higher incarceration rates than we did in the 1970’s. According to statewide sentencing data, Black and Latinx residents make up just 23 percent of the state’s population, but more than double the percentage of people who are under mandatory minimum sentences for drug-related offenses. This is not an accident. We have had decades to address the impact of racist mandatory minimums, and we have not done so. Our legislature had a chance to end mandatory minimums when they passed a CJR bill back in 2018, but they left mandatory minimums in place and even created a few new ones. In a state that has led much of the country in fighting the impact of the War on Drugs by legalizing marijuana, this is unacceptable. Mandatory minimum sentences don’t work to reduce crime or incentivize lawful behavior, and incarceration should not be used as a substitute for adequate and accessible health care, jobs programs, or mental health services. We need to take action to end mandatory minimum sentencing this session.
+
+
+
+
+  #### DESPERATE NEED FOR POLICE REFORM
+
+
+  Massachusetts is just a handful of states without certification for police officers, meaning that a cop who’s fired by one town for misbehavior can get a job down the road in the next town. This is outrageous. Police officers routinely violate constitutional law and rarely receive accountability. There is very little stopping someone who has committed an act of violence from continuing to commit violence on the job elsewhere. This lack of consequences puts the entire community at risk. Municipalities across the state have already made clear the need for certification and accountability. Springfield’s police department is so bad that even the Trump administration took notice and began an investigation into unconstitutional policing and systemic misconduct. A system of certification would prevent disgraced officers in Springfield from moving a few towns over and resuming police work unchanged. Certification is not a substitute for defunding police budgets, which are clearly bloated and take away vital funding from needed public services. It does, however, establish a standard to which officers will have to adhere to in order to remain employed as police.
 bills_to_support_title: Criminal Justice Reform
 highlighted_bills:
   - life-without-parole
