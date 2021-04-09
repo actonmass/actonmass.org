@@ -47,6 +47,7 @@ exclude:
   - node_modules
   - src
   - .ts-dist
+  - webpack.config.js
 plugins:
   - jekyll-paginate
   - jekyll-redirect-from

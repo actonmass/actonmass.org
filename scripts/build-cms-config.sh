@@ -1,1 +1,1 @@
-node ./admin/build-config.js
+node ./_admin/build-config.js

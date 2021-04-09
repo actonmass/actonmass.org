@@ -42,9 +42,9 @@ module.exports = [
   },
   {
     target: "node",
-    entry: "./admin/index.ts",
+    entry: "./_admin/index.ts",
     output: {
-      path: __dirname + "/admin/",
+      path: __dirname + "/_admin/",
       filename: "build-config.js",
     },
     module: {

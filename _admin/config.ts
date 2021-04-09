@@ -7,6 +7,7 @@ import {
   districts,
   legislators,
   otherData,
+  pages,
 } from "./collections";
 
 export default {
@@ -17,5 +18,15 @@ export default {
   },
   local_backend: true,
   media_folder: "img",
-  collections: [blog, issues, legislators, districts, committees, bills, billEvents, otherData],
+  collections: [
+    blog,
+    pages,
+    issues,
+    legislators,
+    districts,
+    committees,
+    bills,
+    billEvents,
+    otherData,
+  ],
 };
