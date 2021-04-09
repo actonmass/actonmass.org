@@ -17,6 +17,7 @@ export type LegBase = {
   district: string;
   img: string;
   pledge: boolean;
+  supports_the_campaign: boolean;
   // Injected only for FindMyReps
   districtName?: string;
 };

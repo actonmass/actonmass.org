@@ -12,12 +12,20 @@ type Props = {
   txt?: string;
 };
 
-export function RequestSupportCampaign({ leg: legBase, scripts: rawScripts, txt: customTxt }: Props) {
+export function RequestSupportCampaign({
+  leg: legBase,
+  scripts: rawScripts,
+  txt: customTxt,
+}: Props) {
   const leg = enrichLeg(legBase);
-  const isThanks = leg.pledge;
+  const isThanks = leg.supports_the_campaign;
   const scripts = evalScripts(rawScripts, { leg });
   const legTitleShort = leg.chamber === "house" ? "rep" : "sen.";
-  const txt = customTxt ?? (isThanks ? `Thank your ${legTitleShort}` : `Tell your ${legTitleShort} to sign!`);
+  const txt =
+    customTxt ??
+    (isThanks
+      ? `Thank your ${legTitleShort}`
+      : `Ask your ${legTitleShort} to support the campaign!`);
   return <ContactLegModal txt={txt} leg={leg} scripts={scripts} isThanks={isThanks} />;
 }
 

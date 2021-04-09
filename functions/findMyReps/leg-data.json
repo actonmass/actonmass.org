@@ -18,7 +18,8 @@
       "email": "{{leg.email}}",
       "facebook": "{{leg.facebook}}",
       "twitter": "{{leg.twitter}}",
-      "pledge": {{ leg.pledge }}
+      "pledge": {{ leg.pledge }},
+      "supports_the_campaign": {%if leg.supports_the_campaign %}true{%else%}false{%endif%}
     }{% unless forloop.last %},{% endunless %}
     {% endif %}
   {% endfor %}

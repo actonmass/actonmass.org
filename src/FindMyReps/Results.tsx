@@ -4,12 +4,20 @@ import { QueryResult } from "./findReps";
 import Legislator from "./Legislator";
 import { Props as FindMyRepsProps } from "./FindMyReps";
 
-type Props = Pick<FindMyRepsProps, "bill" | "theme" | "showResultIfEmpty" | "scripts"> & {
+type Props = Pick<FindMyRepsProps, "bill" | "theme" | "showResultIfEmpty" | "scripts" | "mode"> & {
   legInfo: QueryResult | null;
   error: string | null;
 };
 
-export default function Results({ legInfo, bill, theme, showResultIfEmpty, error, scripts }: Props) {
+export default function Results({
+  legInfo,
+  bill,
+  theme,
+  showResultIfEmpty,
+  error,
+  scripts,
+  mode,
+}: Props) {
   if (!legInfo && !error && !showResultIfEmpty) {
     return null;
   }
@@ -21,7 +29,7 @@ export default function Results({ legInfo, bill, theme, showResultIfEmpty, error
             Your legislators
           </h2>
           {legInfo ? (
-            <LegResults legInfo={legInfo} bill={bill} scripts={scripts} />
+            <LegResults legInfo={legInfo} bill={bill} scripts={scripts} mode={mode} />
           ) : error ? (
             <ErrorResults errorCode={error} />
           ) : (
@@ -33,7 +41,12 @@ export default function Results({ legInfo, bill, theme, showResultIfEmpty, error
   );
 }
 
-function LegResults({ legInfo, bill, scripts }: Pick<Props, "bill" | "scripts"> & { legInfo: QueryResult }) {
+function LegResults({
+  legInfo,
+  bill,
+  scripts,
+  mode,
+}: Pick<Props, "bill" | "scripts" | "mode"> & { legInfo: QueryResult }) {
   const rep = legInfo.representative && {
     chamber: "house" as const,
     title: "rep",
@@ -46,8 +59,8 @@ function LegResults({ legInfo, bill, scripts }: Pick<Props, "bill" | "scripts"> 
   };
   return (
     <div className="legislators">
-      <Legislator leg={rep} bill={bill} scripts={scripts} chamber="house" />
-      <Legislator leg={senator} bill={bill} scripts={scripts} chamber="senate" />
+      <Legislator leg={rep} bill={bill} scripts={scripts} mode={mode} chamber="house" />
+      <Legislator leg={senator} bill={bill} scripts={scripts} mode={mode} chamber="senate" />
     </div>
   );
 }
@@ -74,7 +87,8 @@ type ErrorResultsProps = {
 function ErrorResults({ errorCode }: ErrorResultsProps) {
   const messages = {
     couldNotLocateAddressInMa: "We were not able to locate your address in Massachusetts.",
-    unexpectedError: "Something unexpected happened. If the issue persists, please let tech@actonmass.org know!",
+    unexpectedError:
+      "Something unexpected happened. If the issue persists, please let tech@actonmass.org know!",
   };
   return (
     <div className="empty_state_container">

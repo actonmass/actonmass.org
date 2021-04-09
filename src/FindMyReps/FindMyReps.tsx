@@ -16,6 +16,7 @@ export type Props = {
   theme?: string;
   showResultIfEmpty: boolean;
   bill?: Bill;
+  mode?: "pledge" | "campaign" | "bill";
   scripts: Scripts;
   legislators: {
     href: string;
@@ -38,6 +39,7 @@ function FindMyReps({
   showResultIfEmpty,
   scripts,
   legislators,
+  mode,
 }: InnerProps) {
   const repInfo = useSessionLegs();
   const [error, setError] = useState(null);
@@ -82,6 +84,7 @@ function FindMyReps({
         showResultIfEmpty={showResultIfEmpty}
         error={error}
         scripts={scripts}
+        mode={mode}
       />
     </>
   );

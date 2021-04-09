@@ -36,7 +36,8 @@
       bill: {{bill.json}},
     {% endif %}
     showResultIfEmpty: {% if include.showResultsIfEmpty == "true" %}true{% else %}false{% endif %},
-    scripts: {% if include.bill %}{{site.data.default_bill_scripts | jsonify}}{% else %}{{site.data.pledge_scripts | jsonify}}{% endif %},
+    mode: "{{include.mode}}",
+    scripts: {% if include.bill %}{{site.data.default_bill_scripts | jsonify}}{% elsif include.mode == 'pledge' %}{{site.data.pledge_scripts | jsonify}}{% else %}{{site.data.campaign_scripts | jsonify}}{% endif %},
     legislators: legislators,
   };
 

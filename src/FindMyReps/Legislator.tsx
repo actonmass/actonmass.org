@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 
+import { RequestSupportCampaign } from "../Modals/RequestSupportCampaign";
 import { RequestSignPledge } from "../Modals/RequestSignPledge";
 import { RequestCosponsorship } from "../Modals/RequestCosponsorship";
 import { Leg, Bill, Scripts } from "../types";
@@ -9,24 +10,40 @@ type Props = {
   chamber: "house" | "senate";
   bill?: Bill;
   scripts: Scripts;
+  mode?: "pledge" | "campaign" | "bill";
 };
 
-export default function Legislator({ leg, chamber, bill, scripts }: Props) {
+export default function Legislator({ leg, chamber, bill, scripts, mode }: Props) {
   const legTitle = chamber === "house" ? "rep" : "senator";
   if (leg == null) {
     return <UnkonwnLeg legTitle={legTitle} />;
   }
-  const legTitleShort = chamber === "house" ? "rep" : "sen.";
   const sponsored = bill != null && (bill.co_sponsors ?? []).includes(leg.aom_id);
 
-  const statusText = () => {
-    if (bill == null) {
-      return leg.pledge ? "Signed the pledge" : "Did not sign the pledge";
+  const getStatus = () => {
+    switch (mode) {
+      case "bill":
+        return {
+          status: sponsored,
+          txt: sponsored ? "Co-sponsored the bill" : "Did not co-sponsored the bill",
+        };
+      case "pledge":
+        return {
+          status: leg.pledge,
+          txt: leg.pledge ? "Signed the pledge" : "Did not sign the pledge",
+        };
+      default:
+      case "campaign":
+        return {
+          status: leg.supports_the_campaign,
+          txt: leg.supports_the_campaign
+            ? "Supports the campaign"
+            : "Does not support the campaign",
+        };
     }
-    return sponsored ? "Co-sponsored the bill" : "Did not co-sponsored the bill";
   };
 
-  const status = bill == null ? leg.pledge : sponsored;
+  const { status, txt: statusText } = getStatus();
   const iconClass = status ? "fas fa-check-circle fa-2x" : "fas fa-times-circle fa-2x";
 
   return (
@@ -37,12 +54,16 @@ export default function Legislator({ leg, chamber, bill, scripts }: Props) {
         <p className="fRoboto fLight">{leg.districtName}</p>
         <p className="fUppercase">
           <i className={iconClass}></i>
-          {statusText()}
+          {statusText}
         </p>
       </a>
       <div className="cbox btn-container">
         {bill == null ? (
-          <RequestSignPledge leg={leg} scripts={scripts} />
+          mode === "pledge" ? (
+            <RequestSignPledge leg={leg} scripts={scripts} />
+          ) : (
+            <RequestSupportCampaign leg={leg} scripts={scripts} />
+          )
         ) : (
           <RequestCosponsorship leg={leg} bill={bill} scripts={scripts} />
         )}
@@ -82,9 +103,9 @@ function UnkonwnLeg({ legTitle }) {
       <h3 className="fUppercase fRegular">Your {legTitle}:</h3>
       <i className="fas fa-question-circle" style={{ fontSize: "17rem" }}></i>
       <p style={{ maxWidth: "30rem", marginTop: "2rem" }}>
-        We were not able to identify your {legTitle}. The seat may be vacant, or maybe we're just not up to date with
-        the latest special election. If you know who is your {legTitle}, please contact tech@actonmass.org and we'll fix
-        this asap!
+        We were not able to identify your {legTitle}. The seat may be vacant, or maybe we're just
+        not up to date with the latest special election. If you know who is your {legTitle}, please
+        contact tech@actonmass.org and we'll fix this asap!
       </p>
     </div>
   );
