@@ -32,7 +32,26 @@ layout: base
     </section>
   {%endif%}
 
-  <section class="bills cbox">
+  <section class="failures cbox light">
+    <div class="w1400">
+      <h3 class="fRaleway fExbold fUppercase">
+        {{issue.failures_block_title}}
+      </h3>
+      <div class="failures-container hbox">
+        {% for failure in issue.failures %}
+        <div class="failure">
+          <div class="rect_sideline"></div>
+          <h4 class="fRoboto fBold fUppercase">{{ failure.title }}</h4>
+          <p class="fRoboto fLight">
+            {{ failure.text | markdownify | remove: "<p>" | remove: "</p>" }}
+          </p>
+        </div>
+        {% endfor %}
+      </div>
+    </div>
+  </section>
+
+  <section class="bills dark cbox">
     <div class="w1400">
       <h3 class="issues_bill_header fUppercase fExbold">bills to support {{issue.bills_to_support_title}}</h3>
       <div class="bill-container">
@@ -51,24 +70,6 @@ layout: base
           <div class="bill-btn-container">
             <a href="{{bill.id}}" class="btn billbtn fRoboto fBold fUppercase">read more</a>
           </div>
-        </div>
-        {% endfor %}
-      </div>
-    </div>
-  </section>
-  <section class="failures dark cbox">
-    <div class="w1400">
-      <h3 class="fRaleway fWhite fExbold fUppercase">
-        {{issue.failures_block_title}}
-      </h3>
-      <div class="failures-container hbox">
-        {% for failure in issue.failures %}
-        <div class="failure">
-          <div class="rect_sideline"></div>
-          <h4 class="fRoboto fBold fWhite fUppercase">{{ failure.title }}</h4>
-          <p class="fRoboto fLight fWhite">
-            {{ failure.text | markdownify | remove: "<p>" | remove: "</p>" }}
-          </p>
         </div>
         {% endfor %}
       </div>
