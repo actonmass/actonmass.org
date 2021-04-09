@@ -24,6 +24,8 @@ export default {
       name: "body",
       widget: "markdown",
       required: false,
+      hint:
+        "An empty body means that the page is either empty or rendered by a custom layout (and can't be edited here).",
     },
     {
       label: "Layout",
