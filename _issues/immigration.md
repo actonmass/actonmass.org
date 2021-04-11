@@ -5,28 +5,30 @@ title: Immigration
 subtitle: Ending cooperation with ICE
 logo: random
 img: /img/issue-immigration.jpg
+page_img: /img/bills/sca_hero_img.png
 catchphrase: Immigrant communities across the Commonwealth are at risk - and the
   Legislature hasn't taken action.
-page_img: /img/bills/sca_hero_img.png
 bills_to_support_title: Immigration Reform
 highlighted_bills:
   - safe-communities-act
   - driver-license-regardless-immigration-status
 failures_block_title: Massachusetts has failed to protect vulnerable immigrants.
 failures:
-  - title: Ice custody
-    text: Every day we hear horror stories about families ripped
+  - title: Years of Inaction
+    text: For the last few years, we heard horror stories about families ripped
       apart[1](#reference-1), toddlers dying of dehydration in ICE
       custody[2](#reference-2), and the federal government setting up a Muslim
-      registry[3](#reference-3).
-  - title: Sanctuary cities
-    text: "Many cities have responded by becoming sanctuary cities: This protects
-      immigrants and prevents spending our taxpayers’ money on Trump’s draconian
-      policies. Instead our police force focuses on public safety."
-  - title: Trump rating
-    text: MA has one of the lowest levels of support for Trump[4](#reference-4). Our
-      state legislature should reflect the will of voters and stand up to
-      Trump’s racist immigration policy too.
+      registry[3](#reference-3). Massachusetts could have acted during the Trump
+      administration to stand up against federal abuse, but our state government
+      dropped the ball.
+  - title: Drivers Licenses
+    text: A far too common occurence over recent years has been families torn apart
+      because an undocumented person was pulled over for a routine traffic stop.
+      A drivers' license would allow these routine traffic stops to just be
+      routine traffic stops, and contribute to road safety to boot. That's why
+      many states including most recently Virginia, have passed laws allowing
+      immigrants to get licenses regardless of immigration status. Not
+      Massachusetts.
 questions:
   - title: Will dangerous criminals be released without punishment because of SCA?
     text: No. The Act merely provides some due process protections for all
@@ -40,15 +42,6 @@ questions:
     text: Absolutely not! There are already plenty of sanctuary jurisdictions across
       the nation, and studies have found that sanctuary jurisdictions are
       actually safer than comparable non-sanctuary jurisdictions.
-  - title: Won’t Trump cut off funding to sanctuary jurisdictions?
-    text: >
-      Unlikely. Trump has ordered that federal funds be withheld from sanctuary
-      jurisdictions, but he probably doesn’t have this power. Its
-      constitutionality is being challenged in court, and a federal court issued
-      a temporary nationwide halt against enforcement of the order. So it looks
-      like the threat to cut funding is an empty one.
-
-      And, the “Sanctuary” status that they would like to punish is VERY specific, and Safe Communities does not conform to those features. So, there’s zero worry here.
 references:
   - key: "1"
     title: Cramer, Maria, “ICE arrested 7 people as they sought permanent status in
@@ -95,8 +88,5 @@ learn_more:
   - title: MIRA
     img: /img/orgs/mira.png
     link: https://www.miracoalition.org/
-  - title: Progressive Massachusetts on Safe Communities Act
-    img: /img/orgs/safecom.png
-    link: https://www.progressivemass.com/sca
 order: 30
 ---
