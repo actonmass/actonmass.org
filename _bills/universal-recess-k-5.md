@@ -2,6 +2,7 @@
 aom_id: universal-recess-k-5
 title: Recess for All Students K-5
 full_title: An Act relative to recess for elementary school children
+twitter_bill_name: Recess for All Students K-5
 house_no: H426
 house_link: https://malegislature.gov/Bills/191/H426
 senate_no: S330
@@ -16,6 +17,10 @@ summary:
     program or curriculum changes
 orgs:
   - MTA
+house_lead_sponsors:
+  - marjorie-decker
+senate_lead_sponsors:
+  - michael-rush
 co_sponsors: []
 history:
   - date: 2019-01-22
@@ -25,14 +30,7 @@ history:
   - date: 2020-02-18
     description: Sent to Study
     type: death
-timeline:
-  - date: 2019-01-22
-    description: Referred to the Education Committee
-  - date: 2019-08-26
-    description: Hearing scheduled for 9/4/2019
-twitter_bill_name: Recess for All Students K-5
-house_lead_sponsors:
-  - marjorie-decker
-senate_lead_sponsors:
-  - michael-rush
+  - date: 2021-01-29
+    description: Reintroduced as HD.3376
+timeline: []
 ---
