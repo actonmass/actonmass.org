@@ -17,13 +17,13 @@ failures:
   - title: Public K-12 Education
     text: Since 1993, MA hasn't been spending enough money on public K-12 education,
       and finally after decades of delay, the legislature passed a $1.5B school
-      funding bill. However, no new funding has been allocated to school
-      districts, and conservative think tanks are proposing we delay new school
-      funding due to Covid.
+      funding bill. However, we've already seen the initial funding timeline
+      delayed
   - title: Public Higher Education
     text: Our public higher education system is out of reach for many. Lack of
       appropriate funding to the UMass system has resulted in tuition and fee
-      hikes
+      hikes. Spending per pupil is **down 31% in the last two decades**. We must
+      pass the Cherish Act to get funding levels back up.
   - title: Cancel MCAS
     text: Standardized testing is a favorite tool of privatizers who want to use
       poor test scores against school districts rather than funding them
