@@ -15,6 +15,10 @@ summary:
     high school graduation
   - Creates a grant program for school districts to establish task forces to
     develop alternative assessment models
+text: Standardized testing might sound like a good idea on the surface. But
+  testing shows a racial bias and advantages students from wealthier
+  backgrounds. And the results of these tests are used by privatizers who hope
+  to convert our public education system into a private one.
 orgs:
   - MTA
 house_lead_sponsors:
