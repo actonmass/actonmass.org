@@ -11,12 +11,10 @@ committee: ""
 issue: immigration
 img: /img/nabeel-syed-jk3-uhdwjcs-unsplash.jpg
 summary:
-  - Allows undocumented immigrants to apply for and receive drivers’ licenses,
-    so everyone can get where they need to go without fear of detention or
-    deportation
+  - Allows undocumented immigrants to receive drivers’ licenses, so everyone can
+    get where they need to go without fear
   - Information collected about the applicant in applying for a license will not
-    be disclosed to the public, making access to a license and insurance safe to
-    obtain regardless of immigration status
+    be disclosed to the public
   - The type of driver’s license an individual has will not be public information
 orgs:
   - SEIU
