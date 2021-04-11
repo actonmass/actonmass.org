@@ -7,7 +7,7 @@ house_no: HD448
 house_link: https://malegislature.gov/Bills/192/HD448
 senate_no: SD273
 senate_link: https://malegislature.gov/Bills/192/SD273
-committee: ""
+committee: joint-transportation
 issue: immigration
 img: /img/nabeel-syed-jk3-uhdwjcs-unsplash.jpg
 summary:
