@@ -2,6 +2,7 @@
 aom_id: moratorium-on-high-stakes-testing
 title: Moratorium on High Stakes Testing
 full_title: An Act to place a moratorium on high stakes testing
+twitter_bill_name: Moratorium on High Stakes Testing
 house_no: HD952
 house_link: https://malegislature.gov/Bills/192/HD952
 senate_no: SD409
@@ -16,6 +17,10 @@ summary:
     develop alternative assessment models
 orgs:
   - MTA
+house_lead_sponsors:
+  - james-hawkins
+senate_lead_sponsors:
+  - joanne-comerford
 co_sponsors:
   - james-hawkins
   - adam-scanlon
@@ -73,16 +78,7 @@ history:
   - date: 2020-02-18
     description: Bill sent to study
     type: death
-timeline:
-  - description: Sent to the Education Committee
-    date: 2019-01-22
-  - date: 2019-06-07
-    description: Hearing scheduled for 6/17/2019
-  - date: 2020-02-18
-    description: Sent to Study
-twitter_bill_name: Moratorium on High Stakes Testing
-house_lead_sponsors:
-  - james-hawkins
-senate_lead_sponsors:
-  - joanne-comerford
+  - date: 2021-01-29
+    description: Bill filed as HD.952
+timeline: []
 ---
