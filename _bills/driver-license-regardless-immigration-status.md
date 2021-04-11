@@ -149,13 +149,8 @@ co_sponsors:
   - julian-cyr
   - mary-keefe
 timeline:
-  - description: Assigned to Transportation Committee in 2019
-    date: 2019-01-22
-  - description: Hearing held
-    date: 2019-09-04
-  - description: Sent from Transportation committee to the Senate committee on Ways
-      and Means (S.2641)
-    date: 2020-04-21T00:00:00.000Z
+  - date: 2021-01-29
+    description: Bill re-filed as HD.448
 votes:
   - legislator: william-straus
     vote: unk
@@ -201,4 +196,9 @@ history:
   - description: Assigned to Transportation Committee
     date: 2019-01-22
   - bill_event: drivers-licenses-transpo-comm-2020
+  - date: 2020-12-31
+    description: Bill left to die in committee (Senate Ways & Means)
+    type: death
+  - date: 2021-01-29
+    description: Bill re-filed as HD.448
 ---
