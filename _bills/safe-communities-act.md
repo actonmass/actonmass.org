@@ -8,7 +8,7 @@ house_no: HD1165
 house_link: https://malegislature.gov/Bills/192/HD1165
 senate_no: SD532
 senate_link: https://malegislature.gov/Bills/192/SD532
-committee: house-ways-and-means
+committee: joint-public-safety-and-homeland-security
 issue: immigration
 img: /img/bills/sca_hero_img.png
 summary:
