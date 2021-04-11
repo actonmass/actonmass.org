@@ -2,6 +2,7 @@
 aom_id: safe-communities-act
 title: Safe Communities Act
 full_title: An Act to Protect the Civil Rights and Safety of all MA Residents
+twitter_bill_name: Safe Communities Act
 article: the
 house_no: HD1165
 house_link: https://malegislature.gov/Bills/192/HD1165
@@ -11,7 +12,7 @@ committee: house-ways-and-means
 issue: immigration
 img: /img/bills/sca_hero_img.png
 summary:
-  - Limits spending of local police resources on Trump’s policies
+  - Prevents local law enforcement from cooperating with ICE
   - Prohibits police from asking questions about immigration status
   - Protects people of color from racial profiling by police
 orgs:
@@ -233,5 +234,9 @@ history:
     description: Judiciary Committee Hearing
   - date: 2013-01
     description: Filed as Trust Act H1613
-twitter_bill_name: Safe Communities Act
+  - date: 2020-07-16
+    description: Favorably reported by Public Safety Committee
+  - date: 2020-12-31
+    type: death
+    description: Bill left to die in committee (House Ways & Means)
 ---
