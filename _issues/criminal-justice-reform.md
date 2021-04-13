@@ -121,7 +121,11 @@ references:
     link: https://www.wbur.org/news/2015/06/10/mandatory-minimum-sentences-primer.
 permalink: /issues/criminal-justice-reform/
 learn_more:
-  - img: null
+  - img: /img/aclu_ma.png
     title: ACLU Massachusetts
+    link: https://www.aclum.org/en/issues/criminal-law-reform
+  - title: Families for Justice As Healing
+    link: https://justiceashealing.org/
+    img: https://justiceashealing.org/wp-content/uploads/cropped-ffjah-logo.png
 order: 80
 ---
