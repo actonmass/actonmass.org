@@ -1,0 +1,152 @@
+.hvr-float {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+
+  &:active,
+  &:focus,
+  &:hover {
+    -webkit-transform: translateY(-8px);
+    transform: translateY(-8px);
+  }
+}
+
+.pager {
+  margin-top: 3rem;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  padding-left: 0;
+
+  li {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+  }
+
+  li:first-child > a {
+    margin-right: auto;
+  }
+
+  li:last-child > a {
+    margin-left: auto;
+  }
+}
+
+.youtube-video-inner-container {
+  width: 100%;
+  max-width: 800px;
+
+  .youtube-video {
+    float: none;
+    clear: both;
+    width: 100%;
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 25px;
+    height: 0;
+  }
+
+  .youtube-video iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+}
+
+section.breadcrum {
+  padding: 0;
+}
+
+/* Style the list */
+ul.main_breadcrumb {
+  padding: 0.5rem 0 0.5rem 0;
+  list-style: none;
+
+  @media (min-width: 700px) {
+    padding: 2rem 0;
+  }
+
+  li {
+    display: inline;
+    font-size: 0.8rem;
+
+    @media (min-width: 700px) {
+      font-size: 1.68rem;
+    }
+  }
+
+  /* Add a slash symbol (/) before/behind each list item */
+  li + li:before {
+    padding: 8px;
+    content: "/\00a0";
+  }
+
+  li,
+  li a {
+    text-decoration: none;
+    font-size: 0.8rem;
+
+    @media (min-width: 700px) {
+      font-size: 1.2rem;
+    }
+  }
+
+  li a:hover {
+    text-decoration: underline;
+  }
+}
+
+.rep-icon img {
+  border-radius: 50%;
+}
+
+.rep-icon.green img {
+  border: green solid;
+}
+
+.rep-icon.red img {
+  border: red solid;
+}
+
+#bill-timeline {
+  g:hover,
+  g:hover > :not(.not-filled) {
+    fill: var(--medium-blue) !important;
+  }
+
+  g,
+  circle {
+    cursor: pointer;
+  }
+}
+
+.ui.visible.popup {
+  font-size: 1.5rem;
+}
+
+.ui.search.dropdown {
+  height: 4rem;
+}
+
+.logo-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-self: center;
+}
+
+.logo-list img {
+  align-self: center;
+  margin: 1% 5% 1% 5%;
+}
