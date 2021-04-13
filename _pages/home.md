@@ -3,8 +3,8 @@ permalink: /
 layout: home
 
 call_to_action:
-  text: Join the Right to Strike Campaign
-  page: /right2strike
+  text: Join The People's House Campaign 
+  page: /the-campaign
 
 
 video: https://www.youtube.com/embed/xflRK0RWOZ4
