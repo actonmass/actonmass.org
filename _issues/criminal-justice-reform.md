@@ -69,7 +69,7 @@ failures:
       them. Although ending qualified immunity did not ultimately make it into
       the final police reform bill passed last session, due to fierce opposition
       by the police unions, the Legislature has another opportunity to take
-      meaningful action and end qualified immunity
+      meaningful action and end qualified immunity.
 questions:
   - title: Isn’t Massachusetts really progressive on criminal justice?
     text: >-
