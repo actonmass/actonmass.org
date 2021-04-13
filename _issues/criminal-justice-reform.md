@@ -18,7 +18,7 @@ text: >-
 
 
 
-  #### DESPERATE NEED FOR POLICE REFORM
+  #### POLICE REFORM
 
 
   Massachusetts is just a handful of states without certification for police officers, meaning that a police officer who’s fired by one town for misbehavior can get a job down the road in the next town. Police officers routinely violate constitutional law and rarely receive accountability, since there is very little stopping someone who has committed an act of violence from continuing to commit violence on the job elsewhere. This lack of consequences puts the entire community at risk. Municipalities across the state have already made clear the need for certification and accountability. Springfield’s police department is so bad that even the Trump administration took notice and began an investigation into unconstitutional policing and systemic misconduct. A system of certification and ending qualified immunity would prevent disgraced officers in Springfield from moving a few towns over and resuming police work unchanged. These reforms are not a substitute for defunding police budgets, which are clearly bloated and take away vital funding from needed public services. They do, however, establish a standard to which officers will have to adhere to in order to remain employed as police.
@@ -33,19 +33,19 @@ failures:
     text: As part of the War on Drugs, politicians in the early 70's introduced the
       practice of mandatory minimum sentences to reduce the alleged crime
       epidemic. But instead of making communities safer, mandatory minimums
-      became a catalyst for our current mass incarceration epidemic, terrorizing
-      Black communities and ignoring the root causes of poverty and crime.
-      Massachusetts has much higher incarceration rates than we did in the
-      1970's, and according to statewide sentencing data Black and Latinx
-      residents make up just 23 percent of the state's population, but more than
-      double the percentage of people serving mandatory minimum sentences for
-      drug charges. This is not an accident. Our legislature had a chance to end
-      mandatory minimums when they passed a CJR bill back in 2018, but they left
+      became a catalyst for mass incarceration, terrorizing Black communities
+      and ignoring the root causes of poverty and crime. Massachusetts has much
+      higher incarceration rates than we did in the 1970's, and according to
+      statewide sentencing data Black and Latinx residents make up just 23
+      percent of the state's population, but more than double the percentage of
+      people serving mandatory minimum sentences for drug charges. This is not
+      an accident. Our legislature had a chance to end mandatory minimums when
+      they passed a criminal justice reform bill back in 2018, but they left
       mandatory minimums in place and even created a few new ones. Mandatory
       minimum sentences don't work to reduce crime or incentivize lawful
       behavior, and should not be used as a substitute for accessible health
-      care, a jobs guarantee, or mental health services. We need to take action
-      to end mandatory minimum sentencing this session.
+      care, a jobs guarantee, or mental health services. We need to end
+      mandatory minimum sentencing this session.
   - title: Decertification
     text: Massachusetts is one of just a handful of states without certification for
       police officers, meaning that a cop who's fired by one town for
