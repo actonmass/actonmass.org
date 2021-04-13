@@ -1,0 +1,143 @@
+#about_wrapper {
+  .headline {
+    padding-top: 0;
+  }
+  .top-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 2rem;
+    grid-template-areas:
+      "top_box_a"
+      "top_box_b"
+      "top_box_c";
+
+    @media (min-width: 700px) {
+      grid-template-columns: 2fr 2fr 2fr;
+      grid-template-areas: "top_box_a top_box_b top_box_c ";
+    }
+  }
+
+  .about_top {
+    justify-self: center;
+    align-self: start;
+    max-width: 30rem;
+
+    ul {
+      padding-left: 1rem;
+
+      li {
+        margin-bottom: 1rem;
+      }
+    }
+  }
+
+  .top_box_1 {
+    grid-area: top_box_a;
+
+    @media (min-width: 700px) {
+      justify-self: right;
+    }
+  }
+
+  .top_box_2 {
+    grid-area: top_box_b;
+
+    @media (min-width: 700px) {
+      justify-self: center;
+    }
+  }
+
+  .top_box_3 {
+    grid-area: top_box_c;
+
+    @media (min-width: 700px) {
+      justify-self: left;
+    }
+  }
+
+  .who_title {
+    grid-area: 4 / 1;
+    align-self: start;
+
+    @media (min-width: 700px) {
+      grid-area: 2 / 1 / 3 / 3;
+      align-self: start;
+    }
+  }
+
+  #bot_container {
+    grid-area: bot_container;
+    display: grid;
+    grid-row-gap: 2rem;
+    padding: 2rem 0rem 3rem 0rem;
+
+    @media (min-width: 700px) {
+      grid-column-gap: 5rem;
+      padding: 2rem 0;
+    }
+
+    .person {
+      max-width: 30rem;
+      display: grid;
+      grid-gap: 1rem;
+      justify-self: center;
+      grid-template-rows: auto auto 1fr;
+    }
+
+    .person img {
+      border: #56ccf2 solid 4px;
+      width: 30rem;
+      height: 30rem;
+    }
+
+    .person:first-child {
+      grid-area: 1 / 1;
+      @media (min-width: 700px) {
+        grid-area: 1 / 1;
+      }
+    }
+
+    .person:nth-child(2) {
+      grid-area: 2 / 1;
+      @media (min-width: 700px) {
+        grid-area: 1 / 2;
+      }
+    }
+
+    .person:nth-child(3) {
+      grid-area: 3 / 1;
+      @media (min-width: 700px) {
+        grid-area: 1 / 3;
+      }
+    }
+
+    .person:nth-child(4) {
+      grid-area: 4 / 1;
+      @media (min-width: 700px) {
+        grid-area: 1 / 4;
+      }
+    }
+  }
+
+  .about_title {
+    grid-area: 1 / 1;
+    padding: 2rem;
+
+    @media (min-width: 700px) {
+      grid-area: 1 / 1 / 2 / 3;
+      align-self: start;
+    }
+  }
+
+  .about_icon {
+    color: #56ccf2;
+    margin: auto;
+  }
+
+  .about_rect1 {
+    height: 0.5rem;
+    width: 10rem;
+    background-color: #56ccf2;
+    margin-bottom: 1rem;
+  }
+}

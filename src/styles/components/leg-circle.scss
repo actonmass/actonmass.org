@@ -1,0 +1,92 @@
+.leg_circ {
+  justify-self: center;
+  align-self: start;
+  text-align: center;
+  display: grid;
+  grid-template-rows: auto auto auto;
+  grid-template-columns: auto;
+  grid-gap: 0.5rem;
+  box-sizing: unset;
+
+  .image-with-check {
+    display: grid;
+
+    .leg_circ_img {
+      border-radius: 50%;
+      grid-area: 1 / 1;
+      box-sizing: unset;
+
+      &.ok img {
+        border-color: #5fad41;
+      }
+
+      &.ko img {
+        border-color: #780116;
+      }
+
+      img {
+        margin: 0rem 0.5rem;
+        width: 8rem;
+        border: solid 0.5rem grey;
+        border-radius: 50%;
+
+        @media (min-width: 700px) {
+          width: 10rem;
+          border-width: 0.75rem;
+        }
+      }
+    }
+
+    .leg_circ_check,
+    .leg_circ_x {
+      border-radius: 50%;
+      max-width: 2rem;
+      grid-area: 1 / 1;
+      align-self: end;
+      justify-self: right;
+      max-width: 2.5rem;
+
+      @media (min-width: 700px) {
+        max-width: 4rem;
+      }
+    }
+
+    .leg_circ_check {
+      background-color: #5fad41;
+    }
+
+    .leg_circ_x {
+      background-color: #780116;
+    }
+  }
+
+  &.L {
+    .leg_circ_img img {
+      width: 8.5rem;
+      @media (min-width: 700px) {
+        width: 14rem;
+      }
+    }
+  }
+
+  &.XL {
+    .leg_circ_img img {
+      width: 12rem;
+      @media (min-width: 700px) {
+        width: 17rem;
+      }
+    }
+
+    .leg_circ_check,
+    .leg_circ_x {
+      max-width: 3.5rem;
+      @media (min-width: 700px) {
+        max-width: 5rem;
+      }
+    }
+  }
+}
+
+a .leg_circ {
+  text-decoration: none;
+}

@@ -3,6 +3,7 @@ import React from "react";
 
 import { BaseLayout } from "../layouts";
 import { HeroImage } from "../components";
+import "../styles/pages/home.scss";
 
 export default function Home() {
   return (

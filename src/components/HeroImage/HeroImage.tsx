@@ -1,6 +1,8 @@
 import React from "react";
 import { range } from "lodash";
 
+import "./hero-image.scss";
+
 type Props = {
   img: string;
   alt: string;
@@ -12,12 +14,12 @@ export default function HeroImage({ img, alt }: Props) {
       <div className="dotted-image">
         <div className="background">
           <div className="bottom-left-dots">
-            {range(1, 25).map((i) => (
+            {range(25).map((i) => (
               <span className="dot" />
             ))}
           </div>
           <div className="top-right-dots">
-            {range(1, 25).map((i) => (
+            {range(25).map((i) => (
               <span className="dot" />
             ))}
           </div>

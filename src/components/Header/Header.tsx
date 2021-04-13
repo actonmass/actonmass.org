@@ -4,15 +4,16 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faAngleDown } from "@fortawesome/free-solid-svg-icons";
 import { faFacebookF, faTwitter } from "@fortawesome/free-brands-svg-icons";
 
-import { generalSettings } from "../content";
-import "../styles/header.scss";
+import { generalSettings } from "../../content";
+
+import "./header.scss";
 
 export default function Header() {
   return (
     <header className="cbox">
       <div className="main_header w1400">
         <a href="/">
-          <StaticImage src="../../img/logo.png" alt="Act On Mass logo" />
+          <StaticImage src="../../static/img/logo.png" alt="Act On Mass logo" />
         </a>
         <ul className="hbox">
           {generalSettings.menu.map((item) => (

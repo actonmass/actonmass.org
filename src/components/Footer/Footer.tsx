@@ -1,7 +1,8 @@
 import React from "react";
 
-import "../styles/footer.scss";
-import { generalSettings } from "../content";
+import { generalSettings } from "../../content";
+
+import "./footer.scss";
 
 export default function Footer() {
   return (
