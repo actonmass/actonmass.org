@@ -12,14 +12,17 @@ type Props = {
 };
 
 export default function LegDropdown({ legislators }: Props) {
-  const sortedLegs = sortBy("last_name", legislators);
-  const options = sortedLegs.map(({ href, first_name, last_name, chamber }) => {
-    return {
-      text: `${chamber === "house" ? "Rep." : "Sen."} ${first_name} ${last_name}`,
-      value: href,
-      key: href,
-    };
-  });
+  const options = legislators.map(
+    ({ href, first_name, last_name, chamber }) => {
+      return {
+        text: `${
+          chamber === "house" ? "Rep." : "Sen."
+        } ${first_name} ${last_name}`,
+        value: href,
+        key: href,
+      };
+    }
+  );
 
   return (
     <Dropdown

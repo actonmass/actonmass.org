@@ -5,24 +5,20 @@ import { faSearch } from "@fortawesome/free-solid-svg-icons";
 
 import { BaseLayout } from "../layouts";
 import { HeroImage, SignupForm, FindMyReps } from "../components";
+import { flattenQueryResult } from "../utils";
 import "../styles/pages/home.scss";
 
-type Data = {
-  issues: {
-    nodes: {
-      frontmatter: {
-        aom_id: string;
-        img: string;
-        subtitle: string;
-        title: string;
-        logo: string;
-      };
-    }[];
-  };
+type Issue = {
+  aom_id: string;
+  img: string;
+  subtitle: string;
+  title: string;
+  logo: string;
 };
 
-export default function Home({ data }: { data: Data }) {
-  const issues = getIssues(data);
+export default function Home({ data }) {
+  console.log({ data });
+  const issues = flattenQueryResult(data) as Issue[];
   return (
     <BaseLayout>
       <main className="homepage_wrapper">
@@ -191,7 +187,7 @@ export default function Home({ data }: { data: Data }) {
 
 export const query = graphql`
   query getAllIssues {
-    issues: allMarkdownRemark(
+    allMarkdownRemark(
       filter: { parent: {}, fileAbsolutePath: { regex: "/issues/" } }
       sort: { fields: frontmatter___order }
     ) {
@@ -207,7 +203,3 @@ export const query = graphql`
     }
   }
 `;
-
-function getIssues(data: Data) {
-  return data.issues.nodes.map((issueNode) => issueNode.frontmatter);
-}

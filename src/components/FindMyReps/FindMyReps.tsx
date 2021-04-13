@@ -8,6 +8,7 @@ import LoadingSpinner from "./LoadingSpinner";
 import Results from "./Results";
 import useSessionLegs from "./useSessionLegs";
 import LegDropdown from "./LegDropdown";
+import useAllCurrentLegislators from "./useAllCurrentLegislators";
 import "./legislator-search.scss";
 
 export type Props = {
@@ -18,12 +19,6 @@ export type Props = {
   bill?: Bill;
   mode?: "pledge" | "campaign" | "bill";
   scripts: Scripts;
-  legislators: {
-    href: string;
-    first_name: string;
-    last_name: string;
-    chamber: "house" | "senate";
-  }[];
 };
 
 export default function FindMyReps({
@@ -33,7 +28,6 @@ export default function FindMyReps({
   bill,
   showResultIfEmpty,
   scripts,
-  legislators,
   mode,
 }: Props) {
   const repInfo = useSessionLegs();
@@ -69,7 +63,6 @@ export default function FindMyReps({
         text={text}
         onSubmit={handleQueryReps}
         theme={theme}
-        legislators={legislators}
         loading={loading}
       />
       <Results
@@ -85,21 +78,15 @@ export default function FindMyReps({
   );
 }
 
-type FormProps = Pick<Props, "title" | "text" | "theme" | "legislators"> & {
+type FormProps = Pick<Props, "title" | "text" | "theme"> & {
   loading: boolean;
   onSubmit: (query: Query) => void;
 };
 
-function Form({
-  title,
-  text,
-  onSubmit,
-  theme,
-  loading,
-  legislators,
-}: FormProps) {
+function Form({ title, text, onSubmit, theme, loading }: FormProps) {
   const [streetAddress, setStreetAddress] = useState("");
   const [city, setCity] = useState("");
+  const legislators = useAllCurrentLegislators();
 
   const handleSubmit = (event) => {
     event.preventDefault();
