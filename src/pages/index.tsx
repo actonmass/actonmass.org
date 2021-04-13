@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faSearch } from "@fortawesome/free-solid-svg-icons";
 
 import { BaseLayout } from "../layouts";
-import { HeroImage, SignupForm } from "../components";
+import { HeroImage, SignupForm, FindMyReps } from "../components";
 import "../styles/pages/home.scss";
 
 type Data = {
@@ -181,6 +181,7 @@ export default function Home({ data }: { data: Data }) {
             </a>
           </div>
         </section>
+        <FindMyReps theme="light" mode="campaign" />
 
         {/* {% include find-my-rep.html theme="light" mode='campaign' %} */}
       </main>

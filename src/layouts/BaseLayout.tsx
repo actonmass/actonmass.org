@@ -1,6 +1,7 @@
 import React from "react";
 import { Helmet } from "react-helmet";
 import Modal from "react-modal";
+import "semantic-ui-css/semantic.min.css";
 
 import { Header, Footer } from "../components";
 import "../styles/misc.scss";
