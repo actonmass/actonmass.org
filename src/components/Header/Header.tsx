@@ -13,7 +13,7 @@ export default function Header() {
     <header className="cbox">
       <div className="main_header w1400">
         <a href="/">
-          <StaticImage src="../../static/img/logo.png" alt="Act On Mass logo" />
+          <img src="/img/logo.png" alt="Act On Mass logo" />
         </a>
         <ul className="hbox">
           {generalSettings.menu.map((item) => (

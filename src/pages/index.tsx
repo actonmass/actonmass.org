@@ -1,11 +1,25 @@
 import React from "react";
-// import { graphql } from "gatsby";
+import { graphql } from "gatsby";
 
 import { BaseLayout } from "../layouts";
 import { HeroImage } from "../components";
 import "../styles/pages/home.scss";
 
-export default function Home() {
+type Data = {
+  issues: {
+    nodes: {
+      frontmatter: {
+        aom_id: string;
+        img: string;
+        subtitle: string;
+        title: string;
+      };
+    }[];
+  };
+};
+
+export default function Home({ data }: { data: Data }) {
+  const issues = getIssues(data);
   return (
     <BaseLayout>
       <main className="homepage_wrapper">
@@ -76,19 +90,22 @@ export default function Home() {
           <div className="rect rect1"></div>
           <h2 className="issues_title fUppercase">key progressive issues:</h2>
           <div className="issues_grid">
-            {/* {% assign issues = site.issues | sort: 'order' %} {% for issue in issues %}
-      <a
-        href="{{issue.url}}"
-        className="issue-container issues_img hvr-float"
-        style="background-image: url('{{ issue.img }}');"
-      >
-        <div className="issue-content">
-          <i className="fa fa-{{ issue.logo }}"></i>
-          <h3>{{ issue.title | smartify }}</h3>
-          <p>{{ issue.subtitle | smartify }}</p>
-        </div>
-      </a>
-      {% endfor %} */}
+            {issues.map((issue) => (
+              <a
+                key={issue.aom_id}
+                href={`/issues/${issue.aom_id}`}
+                className="issue-container issues_img hvr-float"
+                style={{ backgroundImage: `url('${issue.img}')` }}
+              >
+                <div className="issue-content">
+                  <i className="fa fa-{{ issue.logo }}"></i>
+                  {/* TODO: needs smartify ? */}
+                  <h3>{issue.title}</h3>
+                  <p>{issue.subtitle}</p>
+                </div>
+              </a>
+            ))}
+
             <a
               href="/the-campaign"
               className="issue-container issues_img hvr-float"
@@ -165,4 +182,25 @@ export default function Home() {
       </main>
     </BaseLayout>
   );
+}
+
+export const query = graphql`
+  query getAllIssues {
+    issues: allMarkdownRemark(
+      filter: { parent: {}, fileAbsolutePath: { regex: "/issues/" } }
+    ) {
+      nodes {
+        frontmatter {
+          aom_id
+          title
+          subtitle
+          img
+        }
+      }
+    }
+  }
+`;
+
+function getIssues(data: Data) {
+  return data.issues.nodes.map((issueNode) => issueNode.frontmatter);
 }

@@ -15,12 +15,12 @@ export default function HeroImage({ img, alt }: Props) {
         <div className="background">
           <div className="bottom-left-dots">
             {range(25).map((i) => (
-              <span className="dot" />
+              <span key={i} className="dot" />
             ))}
           </div>
           <div className="top-right-dots">
             {range(25).map((i) => (
-              <span className="dot" />
+              <span key={i} className="dot" />
             ))}
           </div>
         </div>
