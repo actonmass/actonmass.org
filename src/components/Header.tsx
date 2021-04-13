@@ -1,4 +1,8 @@
 import React from "react";
+import { StaticImage } from "gatsby-plugin-image";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faAngleDown } from "@fortawesome/free-solid-svg-icons";
+import { faFacebookF, faTwitter } from "@fortawesome/free-brands-svg-icons";
 
 import { generalSettings } from "../content";
 import "../styles/header.scss";
@@ -8,11 +12,7 @@ export default function Header() {
     <header className="cbox">
       <div className="main_header w1400">
         <a href="/">
-          <img
-            className="head_logo"
-            src="/img/logo.png"
-            alt="Act On Mass logo"
-          />
+          <StaticImage src="../../img/logo.png" alt="Act On Mass logo" />
         </a>
         <ul className="hbox">
           {generalSettings.menu.map((item) => (
@@ -30,7 +30,11 @@ export default function Header() {
               <a className="dropbtn fRoboto fLight fDark fUppercase">
                 Learn More
               </a>
-              <i className="fas fa-angle-down dropbtn"></i>
+              <FontAwesomeIcon
+                icon={faAngleDown}
+                size="lg"
+                className="fDark dropbtn"
+              />
               <div className="dropdown-content">
                 {generalSettings.learn_more_menu.map((item) => (
                   <a
@@ -60,12 +64,12 @@ export default function Header() {
           </li>
           <li>
             <a href="https://www.facebook.com/act.on.massachusetts/">
-              <i className="fab fa-facebook-f fa-lg fDark"></i>
+              <FontAwesomeIcon icon={faFacebookF} size="lg" className="fDark" />
             </a>
           </li>
           <li>
             <a href="https://twitter.com/act_on_mass?lang=en">
-              <i className="fab fa-twitter fa-lg fDark"></i>
+              <FontAwesomeIcon icon={faTwitter} size="lg" className="fDark" />
             </a>
           </li>
         </ul>

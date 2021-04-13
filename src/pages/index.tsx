@@ -1,18 +1,8 @@
 import React from "react";
-import { graphql } from "gatsby";
+// import { graphql } from "gatsby";
 
 import { BaseLayout } from "../layouts";
 
-export default function Home({ data }) {
+export default function Home() {
   return <BaseLayout>Placeholder for home page</BaseLayout>;
 }
-
-export const query = graphql`
-  query HomePageQuery {
-    site {
-      siteMetadata {
-        description
-      }
-    }
-  }
-`;
