@@ -32,22 +32,41 @@ layout: base
           </div>
         </div>
       </section>
-      <section class="top-box top-box-b dark">
-        <h4 class="leg_pledge fUppercase fWhite fRaleway fRegular">The People's House</h4>
-        <div class="rect6">
-          {% if leg.supports_the_campaign != true %}
-          <!-- <img class="red_x" src="/img/red_x.png" alt="red X" /> -->
-          <h5 class="leg_pledge_txt fWhite fRoboto fLight">Ask {{leg_title}} {{leg.last_name}} to support the campaign!</h5>
-          {% else %}
-          <img class="green_check" src="/img/green_check.png " alt="green check" />
-          <h5 class="leg_pledge_txt fWhite fRoboto fLight">{{leg_title}} {{leg.last_name}} supports the campaign!</h5>
+      {% if leg.chamber == 'senate' %}
+        <section class="top-box top-box-b dark">
+          <h4 class="leg_pledge fUppercase fWhite fRaleway fRegular">transparency pledge</h4>
+          <div class="rect6">
+            {% if leg.pledge == false %}
+            <img class="red_x" src="/img/red_x.png" alt="red X" />
+            <h5 class="leg_pledge_txt fWhite fRoboto fLight">Ask {{leg_title}} {{leg.last_name}} to sign the pledge!</h5>
+            {% else %}
+            <img class="green_check" src="/img/green_check.png " alt="green check" />
+            <h5 class="leg_pledge_txt fWhite fRoboto fLight">{{leg_title}} {{leg.last_name}} signed the pledge!</h5>
+            {% endif %}
+          </div>
+          {% if leg.pledge == false %}
+          {% capture btn_txt %}contact {{leg_title}}{% endcapture %}
+            {% include modals/request-sign-pledge.html txt=btn_txt leg=leg %}
           {% endif %}
-        </div>
-        {% if leg.supports_the_campaign != true %}
-        {% capture btn_txt %}contact {{leg_title}}{% endcapture %}
-          {% include modals/request-support-campaign.html txt=btn_txt leg=leg %}
-        {% endif %}
-      </section>
+        </section>
+      {% else %}
+        <section class="top-box top-box-b dark">
+          <h4 class="leg_pledge fUppercase fWhite fRaleway fRegular">The People's House</h4>
+          <div class="rect6">
+            {% if leg.supports_the_campaign != true %}
+            <!-- <img class="red_x" src="/img/red_x.png" alt="red X" /> -->
+            <h5 class="leg_pledge_txt fWhite fRoboto fLight">Ask {{leg_title}} {{leg.last_name}} to support the campaign!</h5>
+            {% else %}
+            <img class="green_check" src="/img/green_check.png " alt="green check" />
+            <h5 class="leg_pledge_txt fWhite fRoboto fLight">{{leg_title}} {{leg.last_name}} supports the campaign!</h5>
+            {% endif %}
+          </div>
+          {% if leg.supports_the_campaign != true %}
+          {% capture btn_txt %}contact {{leg_title}}{% endcapture %}
+            {% include modals/request-support-campaign.html txt=btn_txt leg=leg %}
+          {% endif %}
+        </section>
+      {% endif %}
       <section class="top-box leg-committees cbox dark">
         <div class="leg-committees-container">
           <h4 class="leg_committ fRaleway fWhite fUppercase fRegular">Committees</h4>
