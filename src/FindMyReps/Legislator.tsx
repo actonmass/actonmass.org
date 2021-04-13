@@ -34,12 +34,15 @@ export default function Legislator({ leg, chamber, bill, scripts, mode }: Props)
         };
       default:
       case "campaign":
-        return {
-          status: leg.supports_the_campaign,
-          txt: leg.supports_the_campaign
-            ? "Supports the campaign"
-            : "Does not support the campaign",
-        };
+        if (chamber === "house") {
+          return {
+            status: leg.supports_the_campaign,
+            txt: leg.supports_the_campaign
+              ? "Supports the campaign"
+              : "Does not support the campaign",
+          };
+        }
+        return { status: null };
     }
   };
 
@@ -52,33 +55,51 @@ export default function Legislator({ leg, chamber, bill, scripts, mode }: Props)
         <h3 className="fUppercase fRegular">Your {legTitle}:</h3>
         <LegCircle leg={leg} status={status} />
         <p className="fRoboto fLight">{leg.districtName}</p>
-        <p className="fUppercase">
-          <i className={iconClass}></i>
-          {statusText}
-        </p>
-      </a>
-      <div className="cbox btn-container">
-        {bill == null ? (
-          mode === "pledge" ? (
-            <RequestSignPledge leg={leg} scripts={scripts} />
-          ) : (
-            <RequestSupportCampaign leg={leg} scripts={scripts} />
-          )
-        ) : (
-          <RequestCosponsorship leg={leg} bill={bill} scripts={scripts} />
+        {status != null && (
+          <p className="fUppercase">
+            <i className={iconClass}></i>
+            {statusText}
+          </p>
         )}
-      </div>
+      </a>
+      {status != null && (
+        <div className="cbox btn-container">
+          {bill == null ? (
+            mode === "pledge" ? (
+              <RequestSignPledge leg={leg} scripts={scripts} />
+            ) : (
+              <RequestSupportCampaign leg={leg} scripts={scripts} />
+            )
+          ) : (
+            <RequestCosponsorship leg={leg} bill={bill} scripts={scripts} />
+          )}
+        </div>
+      )}
     </div>
   );
 }
 
 function LegCircle({ leg, status }) {
-  const statusClass = status ? "ok" : "ko";
-  const icon = status ? (
-    <img className="leg_circ_check" src="/img/green_check.png" alt="green check" />
-  ) : (
-    <img className="leg_circ_x" src="/img/red_x.png" alt="red x" />
-  );
+  const getStatusClass = () => {
+    if (status == null) {
+      return "";
+    }
+    return status ? "ok" : "ko";
+  };
+
+  const getStatusIcon = () => {
+    if (status == null) {
+      return null;
+    }
+    return status ? (
+      <img className="leg_circ_check" src="/img/green_check.png" alt="green check" />
+    ) : (
+      <img className="leg_circ_x" src="/img/red_x.png" alt="red x" />
+    );
+  };
+
+  const statusClass = getStatusClass();
+  const icon = getStatusIcon();
 
   return (
     <div className="leg_circ XL">
