@@ -1,9 +1,12 @@
 import React from "react";
 import { graphql } from "gatsby";
+import Modal from "react-modal";
 
 import { BaseLayout } from "../layouts";
-import { HeroImage } from "../components";
+import { HeroImage, SignupForm } from "../components";
 import "../styles/pages/home.scss";
+
+Modal.setAppElement("body");
 
 type Data = {
   issues: {
@@ -52,7 +55,7 @@ export default function Home({ data }: { data: Data }) {
               <h6 className="header4 fRaleway fWhite fBold">
                 Organizing to build a functioning democracy.
               </h6>
-              {/* {% include signup-form.html %} */}
+              <SignupForm />
             </div>
           </div>
         </section>
@@ -188,6 +191,7 @@ export const query = graphql`
   query getAllIssues {
     issues: allMarkdownRemark(
       filter: { parent: {}, fileAbsolutePath: { regex: "/issues/" } }
+      sort: { fields: frontmatter___order }
     ) {
       nodes {
         frontmatter {
