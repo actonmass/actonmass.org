@@ -10,7 +10,6 @@ last_name: Garballey
 malegislature_url: https://malegislature.gov/Legislators/Profile/S_G1
 party: D
 phone: (617) 722-2090
-picture: https://arlington.wickedlocal.com/storyimage/WL/20170622/NEWS/170628603/AR/0/AR-170628603.jpg
 square_picture: /img/legislators/square-pictures/sean-garballey.jpg
 start_date: ''
 twitter: ''

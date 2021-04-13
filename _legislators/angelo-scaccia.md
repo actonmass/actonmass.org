@@ -7,7 +7,6 @@ party: D
 phone: (617) 722-2230
 email: Angelo.Scaccia@mahouse.gov
 hometown: Boston
-picture: https://malegislature.gov/Legislators/Profile/170/AMS1.jpg
 square_picture: /img/legislators/square-pictures/angelo-scaccia.jpg
 end_date: 2021-01-05
 start_date: ""

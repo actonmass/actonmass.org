@@ -7,7 +7,6 @@ party: R
 phone: (617) 722-2100
 email: Elizabeth.Poirier@mahouse.gov
 hometown: North Attleborough
-picture: https://pbs.twimg.com/profile_images/497387003483156480/RCktUnlJ_400x400.jpeg
 square_picture: /img/legislators/square-pictures/elizabeth-poirier.jpg
 end_date: 2021-01-05
 start_date: 1999-01-01

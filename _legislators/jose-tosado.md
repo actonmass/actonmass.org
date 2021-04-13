@@ -7,7 +7,6 @@ party: D
 phone: (617) 722-2060
 email: Jose.Tosado@mahouse.gov
 hometown: Springfield
-picture: https://pbs.twimg.com/profile_images/448620008898191360/vKCe-Aan_400x400.jpeg
 square_picture: /img/legislators/square-pictures/jose-tosado.jpeg
 end_date: 2021-01-05
 start_date: ""

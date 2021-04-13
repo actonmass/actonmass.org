@@ -10,7 +10,6 @@ last_name: Vitolo
 malegislature_url: https://malegislature.gov/Legislators/Profile/T_V1
 party: D
 phone: (617) 722-2460
-picture: https://malegislature.gov/Legislators/Profile/170/T_V1.jpg
 square_picture: /img/legislators/square-pictures/tommy-vitolo.jpg
 start_date: ''
 twitter: ''

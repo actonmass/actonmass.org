@@ -7,7 +7,6 @@ party: R
 phone: (617) 722-2305
 email: Shaunna.O'Connell@mahouse.gov
 hometown: Taunton
-picture: https://pbs.twimg.com/profile_images/522934915394850816/tRUSKO9__400x400.jpeg
 square_picture: /img/legislators/square-pictures/shaunna-oconnell.jpg
 end_date: 2020-01-06
 start_date: 2011-01-01

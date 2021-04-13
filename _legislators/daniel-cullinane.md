@@ -7,7 +7,6 @@ party: D
 phone: (617) 722-2430
 email: Daniel.Cullinane@mahouse.gov
 hometown: Boston
-picture: https://malegislature.gov/Legislators/Profile/170/D_C1.jpg
 square_picture: /img/legislators/square-pictures/daniel-cullinane.jpg
 end_date: 2020-12-23
 start_date: ""

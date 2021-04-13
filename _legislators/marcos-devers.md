@@ -10,7 +10,6 @@ last_name: Devers
 malegislature_url: https://malegislature.gov/Legislators/Profile/MAD1
 party: D
 phone: (617) 722-2020
-picture: https://scontent.fnyc1-1.fna.fbcdn.net/v/t1.0-9/36859533_1749348858435830_5693126919197818880_n.jpg?_nc_cat=103&_nc_ht=scontent.fnyc1-1.fna&oh=c2f1874bcbc069a58a27b0042d24386a&oe=5CD32AD6
 square_picture: /img/legislators/square-pictures/marcos-devers.jpg
 start_date: ''
 twitter: null

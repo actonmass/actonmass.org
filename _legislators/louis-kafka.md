@@ -7,7 +7,6 @@ party: D
 phone: (617) 722-2960
 email: Louis.Kafka@mahouse.gov
 hometown: Stoughton
-picture: https://malegislature.gov/Legislators/Profile/170/LLK1.jpg
 square_picture: /img/legislators/square-pictures/louis-kafka.jpg
 end_date: 2021-01-05
 start_date: ""

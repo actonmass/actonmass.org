@@ -10,7 +10,6 @@ last_name: O'Day
 malegislature_url: https://malegislature.gov/Legislators/Profile/JJO1
 party: D
 phone: (617) 722-2090
-picture: ''
 square_picture: /img/legislators/square-pictures/james-oday.jpg
 start_date: ''
 twitter: ''

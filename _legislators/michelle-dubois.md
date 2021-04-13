@@ -10,7 +10,6 @@ last_name: DuBois
 malegislature_url: https://malegislature.gov/Legislators/Profile/MMD1
 party: D
 phone: (617) 722-2210
-picture: https://malegislature.gov/Legislators/Profile/170/MMD1.jpg
 square_picture: /img/legislators/square-pictures/michelle-dubois.jpg
 start_date: ''
 twitter: ''

@@ -75,12 +75,6 @@ export default {
       required: false,
     },
     {
-      label: "Picture",
-      name: "picture",
-      widget: "string",
-      required: false,
-    },
-    {
       label: "Square Picture",
       name: "square_picture",
       widget: "string",

@@ -10,7 +10,6 @@ last_name: Markey
 malegislature_url: https://malegislature.gov/Legislators/Profile/CMM1
 party: D
 phone: (617) 722-2020
-picture: https://malegislature.gov/Legislators/Profile/170/CMM1.jpg
 square_picture: /img/legislators/square-pictures/christopher-markey.png
 start_date: '2011-01-01'
 twitter: ChrisMarkeyRep

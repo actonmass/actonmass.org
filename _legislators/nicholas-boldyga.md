@@ -10,7 +10,6 @@ last_name: Boldyga
 malegislature_url: https://malegislature.gov/Legislators/Profile/NAG1
 party: R
 phone: (617) 722-2810
-picture: https://malegislature.gov/Legislators/Profile/170/NAG1.jpg
 square_picture: /img/legislators/square-pictures/nicholas-boldyga.jpg
 start_date: ''
 twitter: RepNickBoldyga

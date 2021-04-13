@@ -7,7 +7,6 @@ party: D
 phone: (617) 722-2230
 email: Harold.Naughton@mahouse.gov
 hometown: Clinton
-picture: https://malegislature.gov/Legislators/Profile/170/HPN1.jpg
 square_picture: /img/legislators/square-pictures/harold-naughton.jpg
 end_date: 2021-01-05
 start_date: ""

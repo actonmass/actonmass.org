@@ -10,7 +10,6 @@ last_name: Connolly
 malegislature_url: https://malegislature.gov/Legislators/Profile/M_C1
 party: D
 phone: (617) 722-2060
-picture: ''
 square_picture: /img/legislators/square-pictures/mike-connolly.jpg
 start_date: ''
 twitter: MikeConnollyMA

@@ -10,7 +10,6 @@ last_name: "Gonz\xE1lez"
 malegislature_url: https://malegislature.gov/Legislators/Profile/C_G1
 party: D
 phone: (617) 722-2080
-picture: https://pbs.twimg.com/profile_images/536234827738275841/58MxeZd2_400x400.jpeg
 square_picture: /img/legislators/square-pictures/carlos-gonzalez.jpg
 start_date: ''
 twitter: vote4gonzalez
