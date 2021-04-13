@@ -1,12 +1,11 @@
 import React from "react";
 import { graphql } from "gatsby";
-import Modal from "react-modal";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faSearch } from "@fortawesome/free-solid-svg-icons";
 
 import { BaseLayout } from "../layouts";
 import { HeroImage, SignupForm } from "../components";
 import "../styles/pages/home.scss";
-
-Modal.setAppElement("body");
 
 type Data = {
   issues: {
@@ -16,6 +15,7 @@ type Data = {
         img: string;
         subtitle: string;
         title: string;
+        logo: string;
       };
     }[];
   };
@@ -101,6 +101,7 @@ export default function Home({ data }: { data: Data }) {
                 style={{ backgroundImage: `url('${issue.img}')` }}
               >
                 <div className="issue-content">
+                  <FontAwesomeIcon icon={["fas", `${issue.logo}` as any]} />
                   <i className="fa fa-{{ issue.logo }}"></i>
                   {/* TODO: needs smartify ? */}
                   <h3>{issue.title}</h3>
@@ -117,7 +118,7 @@ export default function Home({ data }: { data: Data }) {
               }}
             >
               <div className="issue-content">
-                <i className="fas fa-search"></i>
+                <FontAwesomeIcon icon={faSearch} />
                 <h3>Transparency</h3>
               </div>
             </a>
@@ -199,6 +200,7 @@ export const query = graphql`
           title
           subtitle
           img
+          logo
         }
       }
     }

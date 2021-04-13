@@ -1,9 +1,12 @@
 import React from "react";
 import { Helmet } from "react-helmet";
+import Modal from "react-modal";
 
 import { Header, Footer } from "../components";
 import "../styles/misc.scss";
 import "../styles/common.scss";
+
+Modal.setAppElement("body");
 
 export default function BaseLayout({ children }) {
   // TODO: missing <head> stuff
