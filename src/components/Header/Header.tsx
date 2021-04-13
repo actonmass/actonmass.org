@@ -30,11 +30,7 @@ export default function Header() {
               <a className="dropbtn fRoboto fLight fDark fUppercase">
                 Learn More
               </a>
-              <FontAwesomeIcon
-                icon={faAngleDown}
-                size="lg"
-                className="fDark dropbtn"
-              />
+              <FontAwesomeIcon icon={faAngleDown} size="lg" className="fDark" />
               <div className="dropdown-content">
                 {generalSettings.learn_more_menu.map((item) => (
                   <a

@@ -17,7 +17,6 @@ type Issue = {
 };
 
 export default function Home({ data }) {
-  console.log({ data });
   const issues = flattenQueryResult(data) as Issue[];
   return (
     <BaseLayout>
