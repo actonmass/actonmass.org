@@ -1,4 +1,4 @@
-const COLLECTIONS = ["legislators"];
+const COLLECTIONS = ["legislators", "districts"];
 
 exports.createSchemaCustomization = ({ actions, schema }) => {
   const { createTypes } = actions;
@@ -10,11 +10,11 @@ exports.createSchemaCustomization = ({ actions, schema }) => {
         aom_id: "String!",
         first_name: "String!",
         last_name: "String!",
-        district: "String!",
         party: "String!",
         phone: "String",
         email: "String",
         hometown: "String",
+        href: "String",
         square_picture: "String",
         malegislature_url: "String",
         website: "String",
@@ -38,6 +38,31 @@ exports.createSchemaCustomization = ({ actions, schema }) => {
           resolve: (source) =>
             source.district.startsWith("house") ? "house" : "senate",
         },
+        district_id: {
+          type: "String!",
+          resolve: (source) => source.district,
+        },
+        district: {
+          type: "districts",
+          resolve(source, args, context, info) {
+            return context.nodeModel.getNodeById({
+              id: source.district,
+              type: "districts",
+            });
+          },
+        },
+      },
+      interfaces: ["Node"],
+    }),
+    schema.buildObjectType({
+      name: "districts",
+      fields: {
+        aom_id: "String!",
+        chamber: "String!",
+        lat: "Float",
+        lng: "Float",
+        name: "String",
+        van_id: "String",
       },
       interfaces: ["Node"],
     }),
@@ -59,13 +84,15 @@ exports.onCreateNode = ({
   }
 
   const parent = getNode(node.parent);
-  let collection = parent.relativePath.split("/")[0];
+  const [collection, fileName] = parent.relativePath.split("/");
 
   if (COLLECTIONS.includes(collection)) {
     const fields = node.frontmatter;
+    const baseName = fileName.replace(/\.md$/, "");
     createNode({
       ...fields,
-      id: createNodeId(`${collection}-${node.frontmatter.aom_id}`), // hashes the inputs into an ID
+      id: fields.aom_id,
+      href: `/${collection}/${baseName}/`, // TODO: use type-level resolver ?
       parent: null,
       children: [],
       internal: {
