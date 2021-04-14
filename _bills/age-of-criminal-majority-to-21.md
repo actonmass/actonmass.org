@@ -63,8 +63,10 @@ co_sponsors:
   - erika-uyterhoeven
   - sal-didomenico
 history:
-  - date: 2020-02-10
-    description: Sent to study
-    type: death
-timeline: []
+  - date: 2021-03-29
+    description: Referred to the Committee on the Judiciary
+    type: null
+timeline:
+  - date: 2021-03-29
+    description: Referred to the Committee on the Judiciary
 ---
