@@ -46,7 +46,6 @@ const query = graphql`
         }
         id
       }
-      totalCount
     }
   }
 `;
