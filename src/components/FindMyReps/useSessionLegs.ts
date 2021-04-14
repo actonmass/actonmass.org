@@ -2,7 +2,12 @@ import { useEffect, useState } from "react";
 import { QueryResult } from "./findReps";
 
 function getSessionLegs() {
-  const sessionQuery = JSON.parse(window.sessionStorage.getItem("repQuery") ?? "null");
+  if (typeof window === "undefined" || window == null) {
+    return null;
+  }
+  const sessionQuery = JSON.parse(
+    window.sessionStorage.getItem("repQuery") ?? "null"
+  );
   if (sessionQuery == null) {
     return null;
   }
@@ -11,8 +16,10 @@ function getSessionLegs() {
 
 export default function useSessionLegs() {
   const [legInfo, setLegInfo] = useState<QueryResult | null>(getSessionLegs());
-  document.addEventListener("leg-search-results", (evt: CustomEvent) => {
-    setLegInfo(evt.detail);
-  });
+  if (typeof document !== "undefined" && document != null) {
+    document.addEventListener("leg-search-results", (evt: CustomEvent) => {
+      setLegInfo(evt.detail);
+    });
+  }
   return legInfo;
 }
