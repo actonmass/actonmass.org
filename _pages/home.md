@@ -3,8 +3,8 @@ permalink: /
 layout: home
 
 call_to_action:
-  text: Join The People's House Campaign 
-  page: /the-campaign
+  text: RSVP for The People's House Campaign  4/21 at 6:30PM
+  page: https://us02web.zoom.us/meeting/register/tZIocuGorzsiGN2nW2zxgB1QYgFIKseeyBZH
 
 
 video: https://www.youtube.com/embed/xflRK0RWOZ4
