@@ -6,6 +6,7 @@ import "semantic-ui-css/semantic.min.css";
 import { Header, Footer } from "../components";
 import "../styles/misc.scss";
 import "../styles/common.scss";
+import "../styles/components/leg-circle.scss";
 
 Modal.setAppElement("body");
 

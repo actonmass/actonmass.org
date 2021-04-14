@@ -36,6 +36,7 @@
     "gatsby-transformer-remark": "^3.2.0",
     "gatsby-transformer-sharp": "^3.2.0",
     "lodash": "^4.17.21",
+    "netlify-cli": "^3.17.2",
     "netlify-cms-app": "^2.14.40",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",

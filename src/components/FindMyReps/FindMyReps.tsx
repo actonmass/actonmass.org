@@ -57,7 +57,7 @@ export default function FindMyReps({
   }
 
   return (
-    <>
+    <div id="find-my-reps">
       <Form
         title={title ?? "legislator search"}
         text={text}
@@ -74,7 +74,7 @@ export default function FindMyReps({
         scripts={scripts}
         mode={mode}
       />
-    </>
+    </div>
   );
 }
 

@@ -18,12 +18,12 @@ export type LegBase = {
   img: string;
   pledge: boolean;
   supports_the_campaign: boolean;
+  chamber: "house" | "senate";
   // Injected only for FindMyReps
   districtName?: string;
 };
 
 export type Leg = LegBase & {
-  chamber: Chamber;
   title: string;
 };
 
@@ -67,14 +67,13 @@ export type Committee = {
 };
 
 export function enrichLeg(leg: LegBase): Leg {
-  const chamber = leg.district.split("-")[0];
+  const chamber = leg.chamber;
   if (!isChamber(chamber)) {
     throw new Error(`Invalid district: ${leg.district}`);
   }
   const title = chamber == "house" ? "rep" : "sen";
   return {
     ...leg,
-    chamber,
     title,
   };
 }

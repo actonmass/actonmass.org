@@ -92,8 +92,11 @@ async function fetchLegAtLocation(location) {
   const data = openStateResponse.data;
   console.log("Received:");
   console.log(JSON.stringify(data));
-  const senId = data.data.senator.edges[0] && data.data.senator.edges[0].node.id;
-  const repId = data.data.representative.edges[0] && data.data.representative.edges[0].node.id;
+  const senId =
+    data.data.senator.edges[0] && data.data.senator.edges[0].node.id;
+  const repId =
+    data.data.representative.edges[0] &&
+    data.data.representative.edges[0].node.id;
 
   return {
     senator: senId,
@@ -120,7 +123,7 @@ async function fetchLegAtAdrsMock() {
         resolve({
           legIds: {
             senator: "ocd-person/fb97b139-c0dd-41b5-ae52-159528f47b11",
-            representative: "ocd-person/33017dde-3525-43ff-8c3a-fb44a4a9d833",
+            representative: "ocd-person/c8fe117c-4c65-45c7-bdf1-fec80bd0f344",
           },
         }),
       500
@@ -132,7 +135,9 @@ async function handleRequest(requestBody) {
   const address = JSON.parse(requestBody);
 
   const { legIds, error } =
-    isDev && shouldMockInDev ? await fetchLegAtAdrsMock(address) : await fetchLegAtAdrs(address);
+    isDev && shouldMockInDev
+      ? await fetchLegAtAdrsMock(address)
+      : await fetchLegAtAdrs(address);
 
   if (error != null) {
     return {
