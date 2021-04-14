@@ -1,3 +1,6 @@
+const _ = require("lodash");
+const fs = require("fs");
+
 const COLLECTIONS = ["legislators", "districts"];
 
 exports.createSchemaCustomization = ({ actions, schema }) => {
@@ -24,6 +27,10 @@ exports.createSchemaCustomization = ({ actions, schema }) => {
         supports_the_campaign: {
           type: "Boolean",
           resolve: (source) => source.supports_the_campaign || false,
+        },
+        pledge: {
+          type: "Boolean",
+          resolve: (source) => source.pledge || false,
         },
         start_date: {
           type: "String",
@@ -101,4 +108,37 @@ exports.onCreateNode = ({
       },
     });
   }
+};
+
+exports.onPostBuild = async ({ graphql }) => {
+  // Run the GraphQL query (from example above).
+  await graphql(`
+    {
+      allLegislators(filter: { end_date: { eq: "" } }) {
+        nodes {
+          aom_id
+          party
+          first_name
+          last_name
+          href
+          district {
+            name
+          }
+          img: square_picture
+          phone
+          email
+          facebook
+          twitter
+          supports_the_campaign
+          pledge
+          ocd_id
+        }
+      }
+    }
+  `).then((result) => {
+    const legJsonPath = "./functions/findMyReps/leg-data.json";
+    const legs = result.data.allLegislators.nodes;
+    const legByOCDId = _.keyBy(legs, "ocd_id");
+    fs.writeFileSync(legJsonPath, JSON.stringify(legByOCDId));
+  });
 };
