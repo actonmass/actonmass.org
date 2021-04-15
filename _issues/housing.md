@@ -21,6 +21,10 @@ failures:
       Massachusetts has the 6th largest homeless population in the country \[3].
   - text: Cities and towns have taken steps to create affordable housing, but often
       **the legislature stands in the way of those efforts** \[4].
+      Municipalities throughout the state have consistently voted in favor of
+      local tenant protections, such as rent control and Tenant Right to
+      Purchase, but are overruled by statewide bans that prevent local
+      communities from implementing useful tools with public support.
     title: Towns can't act
 questions:
   - title: Isn’t Home Rule a good thing to ensure that the State enacts reasonable
