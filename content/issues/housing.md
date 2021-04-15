@@ -5,9 +5,9 @@ title: Housing
 subtitle: Housing is a human right
 logo: home
 img: /img/issue-housing.jpg
-catchphrase: "We face a housing crisis in Massachusetts: Rents are rising and
-  communities lack the tools they need to prevent displacement"
 page_img: /img/issue-housing.jpg
+catchphrase: Massachusetts is facing a housing crisis. Rents are rising and
+  communities lack the power to prevent displacement.
 highlighted_bills:
   - end-home-rule
 failures_block_title: Massachusetts is failing to take action on Housing
