@@ -17,8 +17,10 @@ failures:
       designed to make room for luxury housing** \[1]. Rental prices in Boston
       rise year after year and show no signs of slowing \[2].
   - title: Homelessness
-    text: In the past decade, **homelessness has increased by 32%** in MA. Now
-      Massachusetts has the 6th largest homeless population in the country \[3].
+    text: In the past decade, **homelessness has increased by 32%** statewide. This
+      number has only increased with the number of evictions occurring due to
+      the pandemic. Now Massachusetts has the 6th largest homeless population in
+      the country \[3].
   - text: Cities and towns have taken steps to create affordable housing, but often
       **the legislature stands in the way of those efforts** \[4].
       Municipalities throughout the state have consistently voted in favor of
