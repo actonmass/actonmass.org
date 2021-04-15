@@ -3,6 +3,8 @@ import _ from "lodash";
 
 import BaseLayout from "../BaseLayout";
 
+import "./legislator.scss";
+
 type Props = {
   leg: GatsbyTypes.Legislator;
 };

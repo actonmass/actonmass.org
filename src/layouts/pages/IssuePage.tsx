@@ -2,12 +2,13 @@ import React from "react";
 import _ from "lodash";
 import ReactMarkdown from "react-markdown";
 
-import type { Issue } from "../../types";
 import { HeroImage } from "../../components";
 import BaseLayout from "../BaseLayout";
 
+import "./issue.scss";
+
 type Props = {
-  issue: Issue;
+  issue: GatsbyTypes.Issue;
 };
 
 export default function IssuePage({ issue }) {

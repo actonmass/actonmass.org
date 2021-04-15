@@ -5,24 +5,37 @@ import { graphql } from "gatsby";
 import { IssuePage as IssuePageComponent } from "../../layouts";
 
 export default function IssuePage({ data }) {
-  return <div />;
+  return <IssuePageComponent issue={data.issue} />;
 }
 
-// export const query = graphql`
-//   query($id: String) {
-//     legislator(id: { eq: $id }) {
-//       last_name
-//       first_name
-//       chamber
-//       party
-//       email
-//       facebook
-//       twitter
-//       website
-//       phone
-//       square_picture
-//       pledge
-//       supports_the_campaign
-//     }
-//   }
-// `;
+export const query = graphql`
+  query($id: String) {
+    issue(id: { eq: $id }) {
+      title
+      page_img
+      catchphrase
+      text
+      failures_block_title
+      bills_to_support_title
+      questions {
+        title
+        text
+      }
+      learn_more {
+        title
+        img
+        link
+      }
+      failures {
+        text
+        title
+      }
+      highlighted_bills
+      references {
+        key
+        title
+        link
+      }
+    }
+  }
+`;
