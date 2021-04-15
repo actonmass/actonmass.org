@@ -5,44 +5,27 @@ import { faSearch } from "@fortawesome/free-solid-svg-icons";
 
 import { BaseLayout } from "../layouts";
 import { HeroImage, SignupForm, FindMyReps } from "../components";
-import { flattenQueryResult } from "../utils";
 import "../styles/pages/home.scss";
 
-type Issue = {
-  aom_id: string;
-  img: string;
-  subtitle: string;
-  title: string;
-  logo: string;
-};
+type Issue = GatsbyTypes.Issue;
 
 export default function Home({ data }) {
-  const issues = flattenQueryResult(data) as Issue[];
+  const issues = data.allIssue.nodes as Issue[];
   return (
     <BaseLayout>
       <main className="homepage_wrapper">
         <section className="darker cbox">
           <div className="hero w1400">
             <div className="hero_left">
-              <HeroImage
-                img="/img/home-v2.jpg"
-                alt="Young people protesting holding signs"
-              />
+              <HeroImage img="/img/home-v2.jpg" alt="Young people protesting holding signs" />
             </div>
             <div className="hero_text">
-              <h4 className="header1 fRaleway fWhite fUppercase fBold">
-                act on mass
-              </h4>
+              <h4 className="header1 fRaleway fWhite fUppercase fBold">act on mass</h4>
               <svg className="smLine" width="50" height="3">
-                <rect
-                  width="300"
-                  height="100"
-                  style={{ fill: "rgb(108,212,255)" }}
-                />
+                <rect width="300" height="100" style={{ fill: "rgb(108,212,255)" }} />
               </svg>
               <h6 className="header4 fRaleway fWhite fBold">
-                Fighting corruption and inaction in the Massachusetts State
-                House.
+                Fighting corruption and inaction in the Massachusetts State House.
               </h6>
               <h6 className="header4 fRaleway fWhite fBold">
                 Empowering constituents to hold their legislators accountable.
@@ -70,14 +53,10 @@ export default function Home({ data }) {
           <div className="act vbox action">
             <h3 className="take_action_txt fExbold">Join our campaign</h3>
             <h4 className="take_action_txt fRoboto fLight">
-              Join your district team. Advocate for a transparent and
-              functioning state house
+              Join your district team. Advocate for a transparent and functioning state house
             </h4>
             <div className="btn-container">
-              <a
-                href="/the-campaign"
-                className="fRoboto fExbold fUppercase btn"
-              >
+              <a href="/the-campaign" className="fRoboto fExbold fUppercase btn">
                 Join our campaign
               </a>
             </div>
@@ -91,7 +70,7 @@ export default function Home({ data }) {
             {issues.map((issue) => (
               <a
                 key={issue.aom_id}
-                href={`/issues/${issue.aom_id}`}
+                href={issue.href}
                 className="issue-container issues_img hvr-float"
                 style={{ backgroundImage: `url('${issue.img}')` }}
               >
@@ -122,9 +101,7 @@ export default function Home({ data }) {
 
         <section className="accountability dark">
           <div className="rect rect1"></div>
-          <h2 className="account_title fUppercase fWhite">
-            the transparency campaign:
-          </h2>
+          <h2 className="account_title fUppercase fWhite">the transparency campaign:</h2>
           <div className="pledge_left">
             <HeroImage
               img="/img/the-campaign.jpg"
@@ -132,19 +109,13 @@ export default function Home({ data }) {
             />
           </div>
           <div className="account_text">
-            <h3 className="account_text1 fUppercase fWhite fExbold">
-              Demand transparency
-            </h3>
+            <h3 className="account_text1 fUppercase fWhite fExbold">Demand transparency</h3>
             <h4 className="account_text2 fRoboto fWhite fLight">
-              At the start of every legislative session, the State House writes
-              its own rulebook. Join your district team to demand that our
-              legislators change the broken, anti-democratic rules in the State
-              House.
+              At the start of every legislative session, the State House writes its own rulebook.
+              Join your district team to demand that our legislators change the broken,
+              anti-democratic rules in the State House.
             </h4>
-            <a
-              href="/the-campaign"
-              className="fRoboto fExbold fUppercase btn btn_pledge"
-            >
+            <a href="/the-campaign" className="fRoboto fExbold fUppercase btn btn_pledge">
               the campaign
             </a>
           </div>
@@ -154,24 +125,15 @@ export default function Home({ data }) {
           <div className="rect rect1"></div>
           <h2 className="account_title fUppercase">the transparency pledge:</h2>
           <div className="pledge_left">
-            <HeroImage
-              img="/img/pledge_img.png"
-              alt="Rep Gouveia signed the pledge!"
-            />
+            <HeroImage img="/img/pledge_img.png" alt="Rep Gouveia signed the pledge!" />
           </div>
           <div className="account_text">
-            <h3 className="account_text1 fUppercase fExbold">
-              Together we can create change.
-            </h3>
+            <h3 className="account_text1 fUppercase fExbold">Together we can create change.</h3>
             <h4 className="account_text2 fRoboto fLight">
-              We can ask our elected legislators to take action to create
-              transparency today so important progressive bills don’t die in
-              darkness.
+              We can ask our elected legislators to take action to create transparency today so
+              important progressive bills don’t die in darkness.
             </h4>
-            <a
-              href="/pledge"
-              className="fRoboto fExbold fUppercase btn btn_pledge"
-            >
+            <a href="/pledge" className="fRoboto fExbold fUppercase btn btn_pledge">
               the pledge
             </a>
           </div>
@@ -185,19 +147,15 @@ export default function Home({ data }) {
 }
 
 export const query = graphql`
-  query getAllIssues {
-    allMarkdownRemark(
-      filter: { parent: {}, fileAbsolutePath: { regex: "/issues/" } }
-      sort: { fields: frontmatter___order }
-    ) {
+  {
+    allIssue {
       nodes {
-        frontmatter {
-          aom_id
-          title
-          subtitle
-          img
-          logo
-        }
+        aom_id
+        href
+        title
+        subtitle
+        img
+        logo
       }
     }
   }

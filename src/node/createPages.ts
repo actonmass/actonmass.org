@@ -7,7 +7,7 @@ export default async function createPages({ graphql, actions }) {
   buildAdminConfig();
   await graphql(`
     {
-      allLegislators(filter: { end_date: { eq: "" } }) {
+      allLegislator(filter: { end_date: { eq: null } }) {
         nodes {
           aom_id
           party
@@ -30,7 +30,7 @@ export default async function createPages({ graphql, actions }) {
     }
   `).then((result) => {
     const legJsonPath = "./functions/findMyReps/leg-data.json";
-    const legs = result.data.allLegislators.nodes;
+    const legs = result.data.allLegislator.nodes;
     const legByOCDId = _.keyBy(legs, "ocd_id");
     fs.writeFileSync(legJsonPath, JSON.stringify(legByOCDId));
   });

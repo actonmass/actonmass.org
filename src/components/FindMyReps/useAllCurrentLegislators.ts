@@ -1,7 +1,5 @@
 import { useStaticQuery, graphql } from "gatsby";
 
-import { flattenQueryResult } from "../../utils";
-
 type Leg = {
   first_name: string;
   last_name: string;
@@ -10,9 +8,9 @@ type Leg = {
 };
 
 export default function useAllCurrentLegislators(): Leg[] {
-  return useStaticQuery(graphql`
+  return useStaticQuery<GatsbyTypes.legislatorsQuery>(graphql`
     query legislators {
-      allLegislators(filter: { end_date: { eq: "" } }) {
+      allLegislator(filter: { end_date: { eq: null } }) {
         nodes {
           href
           first_name
@@ -21,5 +19,5 @@ export default function useAllCurrentLegislators(): Leg[] {
         }
       }
     }
-  `).allLegislators.nodes;
+  `).allLegislator.nodes;
 }

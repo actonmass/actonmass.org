@@ -3,23 +3,8 @@ import _ from "lodash";
 
 import BaseLayout from "../BaseLayout";
 
-type Leg = {
-  last_name: string;
-  first_name: string;
-  chamber: string;
-  party: string;
-  email: string;
-  facebook: string;
-  twitter: string;
-  website: string;
-  phone: string;
-  square_picture: string;
-  pledge: boolean;
-  supports_the_campaign: boolean;
-};
-
 type Props = {
-  leg: Leg;
+  leg: GatsbyTypes.Legislator;
 };
 
 export default function LegislatorPage({ leg }: Props) {

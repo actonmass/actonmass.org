@@ -1,11 +1,6 @@
-const COLLECTIONS = ["legislators", "districts"];
+import collections from "./collections";
 
-export default function onCreateNode({
-  node,
-  createContentDigest,
-  getNode,
-  actions,
-}) {
+export default function onCreateNode({ node, createContentDigest, getNode, actions }) {
   const { createNode } = actions;
 
   if (node.internal.type !== `MarkdownRemark`) {
@@ -13,22 +8,25 @@ export default function onCreateNode({
   }
 
   const parent = getNode(node.parent);
-  const [collection, fileName] = parent.relativePath.split("/");
+  const [collectionPath, fileName] = parent.relativePath.split("/");
 
-  if (COLLECTIONS.includes(collection)) {
+  if (collectionPath in collections) {
+    const collection = collections[collectionPath];
     const fields = node.frontmatter;
     const baseName = fileName.replace(/\.md$/, "");
-    createNode({
+    const rawItem = {
       ...fields,
       id: fields.aom_id,
       fileName: baseName,
-      href: `/${collection}/${baseName}/`, // TODO: use type-level resolver ?
+      href: `/${collectionPath}/${baseName}/`,
       parent: null,
       children: [],
       internal: {
-        type: collection,
+        type: collection.name,
         contentDigest: createContentDigest(fields),
       },
-    });
+    };
+
+    createNode(collection.process(rawItem));
   }
 }
