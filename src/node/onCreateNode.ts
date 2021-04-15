@@ -21,6 +21,7 @@ export default function onCreateNode({
     createNode({
       ...fields,
       id: fields.aom_id,
+      fileName: baseName,
       href: `/${collection}/${baseName}/`, // TODO: use type-level resolver ?
       parent: null,
       children: [],
