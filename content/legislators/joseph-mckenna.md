@@ -10,7 +10,6 @@ last_name: McKenna
 malegislature_url: https://malegislature.gov/Legislators/Profile/JDM1
 party: R
 phone: (617) 722-2060
-picture: ''
 square_picture: /img/legislators/square-pictures/joseph-mckenna.jpg
 start_date: ''
 twitter: ''

@@ -7,7 +7,6 @@ party: D
 phone: (617) 722-2520
 email: David.Nangle@mahouse.gov
 hometown: Lowell
-picture: https://malegislature.gov/Legislators/Profile/170/DMN1.jpg
 square_picture: /img/legislators/square-pictures/david-nangle.png
 end_date: 2021-01-05
 start_date: ""

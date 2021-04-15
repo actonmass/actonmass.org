@@ -10,7 +10,6 @@ last_name: Puppolo
 malegislature_url: https://malegislature.gov/Legislators/Profile/AJP1
 party: D
 phone: (617) 722-2006
-picture: https://malegislature.gov/Legislators/Profile/170/AJP1.jpg
 square_picture: /img/legislators/square-pictures/angelo-puppolo.jpg
 start_date: ''
 twitter: apuppolo

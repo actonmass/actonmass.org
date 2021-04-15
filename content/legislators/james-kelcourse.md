@@ -10,7 +10,6 @@ last_name: Kelcourse
 malegislature_url: https://malegislature.gov/Legislators/Profile/JMK1
 party: R
 phone: (617) 722-2130
-picture: https://malegislature.gov/Legislators/Profile/170/JMK1.jpg
 square_picture: /img/legislators/square-pictures/james-kelcourse.jpg
 start_date: ''
 twitter: jameskelcourse

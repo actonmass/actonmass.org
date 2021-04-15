@@ -7,7 +7,6 @@ party: D
 phone: (617) 722-2210
 email: RoseLee.Vincent@mahouse.gov
 hometown: Revere
-picture: https://malegislature.gov/Legislators/Profile/170/r_v1.jpg
 square_picture: /img/legislators/square-pictures/roselee-vincent.jpg
 end_date: 2021-01-05
 start_date: ""

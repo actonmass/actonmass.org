@@ -10,7 +10,6 @@ last_name: Decker
 malegislature_url: https://malegislature.gov/Legislators/Profile/MCD1
 party: D
 phone: (617) 722-2060
-picture: ''
 square_picture: /img/legislators/square-pictures/marjorie-decker.png
 start_date: ''
 twitter: ''

@@ -7,7 +7,6 @@ party: D
 phone: (617) 722-2575
 email: Thomas.Petrolati@mahouse.gov
 hometown: Ludlow
-picture: https://malegislature.gov/Legislators/Profile/170/TMP1.jpg
 square_picture: /img/legislators/square-pictures/thomas-petrolati.jpg
 end_date: 2021-01-05
 start_date: ""

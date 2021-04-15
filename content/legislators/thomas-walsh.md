@@ -10,7 +10,6 @@ last_name: Walsh
 malegislature_url: https://malegislature.gov/Legislators/Profile/TJW1
 party: D
 phone: (617) 722-2676
-picture: https://malegislature.gov/Legislators/Profile/170/TJW1.jpg
 square_picture: /img/legislators/square-pictures/thomas-walsh.jpg
 start_date: ''
 twitter: WalshForPeabody

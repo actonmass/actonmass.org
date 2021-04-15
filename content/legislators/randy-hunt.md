@@ -7,7 +7,6 @@ party: R
 phone: (617) 722-2396
 email: Randy.Hunt@mahouse.gov
 hometown: Sandwich
-picture: https://pbs.twimg.com/profile_images/2184267636/image_400x400.jpg
 square_picture: /img/legislators/square-pictures/randy-hunt.jpg
 end_date: 2021-01-05
 start_date: 2011-01-05

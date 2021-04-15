@@ -10,7 +10,6 @@ last_name: Chan
 malegislature_url: https://malegislature.gov/Legislators/Profile/T_C1
 party: D
 phone: (617) 722-2014
-picture: https://malegislature.gov/Legislators/Profile/170/T_C1.jpg
 square_picture: /img/legislators/square-pictures/tackey-chan.jpg
 start_date: ''
 twitter: ''

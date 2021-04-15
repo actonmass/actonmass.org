@@ -10,7 +10,6 @@ last_name: Garry
 malegislature_url: https://malegislature.gov/Legislators/Profile/CMG1
 party: D
 phone: (617) 722-2380
-picture: ''
 square_picture: /img/legislators/square-pictures/colleen-garry.jpg
 start_date: ''
 twitter: ''

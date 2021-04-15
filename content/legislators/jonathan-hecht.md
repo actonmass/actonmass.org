@@ -7,7 +7,6 @@ party: D
 phone: (617) 722-2140
 email: Jonathan.Hecht@mahouse.gov
 hometown: Watertown
-picture: ""
 square_picture: /img/legislators/square-pictures/jonathan-hecht.jpg
 end_date: 2021-01-05
 start_date: ""

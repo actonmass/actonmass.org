@@ -7,7 +7,6 @@ party: R
 phone: (617) 722-2014
 email: William.Crocker@mahouse.gov
 hometown: Barnstable
-picture: https://pbs.twimg.com/profile_images/683806580521975810/J_dbm2XQ_400x400.jpg
 square_picture: /img/legislators/square-pictures/william-crocker.jpg
 end_date: 2021-01-05
 start_date: 2017-01-04

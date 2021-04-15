@@ -7,7 +7,6 @@ party: D
 phone: (617) 722-2500
 email: Robert.DeLeo@mahouse.gov
 hometown: Winthrop
-picture: ""
 square_picture: /img/legislators/square-pictures/robert-deleo.jpeg
 end_date: 2020-12-29
 start_date: ""

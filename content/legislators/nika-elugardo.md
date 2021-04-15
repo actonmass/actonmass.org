@@ -8,7 +8,6 @@ party: D
 phone: (617) 722-2582
 email: nika.elugardo@mahouse.gov
 hometown: Boston
-picture: https://www.jamaicaplainnews.com/wp-content/uploads/2018/03/ISz5WcYC_400x400.jpg
 square_picture: /img/legislators/square-pictures/nika-elugardo.jpg
 end_date: ""
 start_date: ""

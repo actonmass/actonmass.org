@@ -7,7 +7,6 @@ party: D
 phone: (617) 722-2220
 email: Stephan.Hay@mahouse.gov
 hometown: Fitchburg
-picture: ""
 square_picture: /img/legislators/square-pictures/stephan-hay.jpg
 end_date: 2021-01-05
 start_date: ""

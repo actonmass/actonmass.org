@@ -10,7 +10,6 @@ last_name: Vieira
 malegislature_url: https://malegislature.gov/Legislators/Profile/DTV1
 party: R
 phone: (617) 722-2230
-picture: https://www.facebook.com/photo.php?fbid=918413064838351
 square_picture: /img/legislators/square-pictures/david-vieira.png
 start_date: '2011-01-05'
 twitter: null

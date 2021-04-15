@@ -7,7 +7,6 @@ party: D
 phone: (617) 722-2263
 email: Denise.Provost@mahouse.gov
 hometown: Somerville
-picture: ""
 square_picture: /img/legislators/square-pictures/denise-provost.png
 end_date: 2021-01-05
 start_date: ""
