@@ -1,6 +1,6 @@
 import axios from "axios";
 
-import { LegBase } from "../../types";
+import { LegBase } from "../../types/types";
 
 export type Query = { city: string; streetAddress: string };
 export type QueryResult = {
@@ -9,7 +9,5 @@ export type QueryResult = {
 };
 
 export default function findReps(query: Query): Promise<QueryResult> {
-  return axios
-    .post("/.netlify/functions/findMyReps", query)
-    .then((response) => response.data);
+  return axios.post("/.netlify/functions/findMyReps", query).then((response) => response.data);
 }

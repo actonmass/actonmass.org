@@ -1,7 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom";
 
-import { Scripts, LegBase, enrichLeg } from "../../types";
+import { Scripts, LegBase, enrichLeg } from "../../types/types";
 
 import { ContactLegModal } from "./ContactLegModal";
 import { evalScripts } from "./evalScripts";
@@ -26,14 +26,7 @@ export function RequestSupportCampaign({
     (isThanks
       ? `Thank your ${legTitleShort}`
       : `Ask your ${legTitleShort} to support the campaign!`);
-  return (
-    <ContactLegModal
-      txt={txt}
-      leg={leg}
-      scripts={scripts}
-      isThanks={isThanks}
-    />
-  );
+  return <ContactLegModal txt={txt} leg={leg} scripts={scripts} isThanks={isThanks} />;
 }
 
 function renderRequestSupportCampaign(targetID: string, data: Props) {

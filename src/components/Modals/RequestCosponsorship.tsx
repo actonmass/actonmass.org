@@ -2,7 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom";
 import merge from "lodash/merge";
 
-import { Scripts, LegBase, Bill, enrichLeg } from "../../types";
+import { Scripts, LegBase, Bill, enrichLeg } from "../../types/types";
 
 import { ContactLegModal } from "./ContactLegModal";
 import { evalScripts } from "./evalScripts";
@@ -29,17 +29,9 @@ export function RequestCosponsorship({
   const legTitleShort = leg.chamber === "house" ? "rep" : "sen.";
   const txt =
     customTxt ??
-    (isThanks
-      ? `Thank your ${legTitleShort}`
-      : `Tell your ${legTitleShort} to co-sponsor!`);
+    (isThanks ? `Thank your ${legTitleShort}` : `Tell your ${legTitleShort} to co-sponsor!`);
   return (
-    <ContactLegModal
-      txt={txt}
-      leg={leg}
-      scripts={scripts}
-      isThanks={isThanks}
-      style={style}
-    />
+    <ContactLegModal txt={txt} leg={leg} scripts={scripts} isThanks={isThanks} style={style} />
   );
 }
 

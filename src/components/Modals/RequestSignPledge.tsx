@@ -1,7 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom";
 
-import { Scripts, LegBase, enrichLeg } from "../../types";
+import { Scripts, LegBase, enrichLeg } from "../../types/types";
 
 import { ContactLegModal } from "./ContactLegModal";
 import { evalScripts } from "./evalScripts";
@@ -12,28 +12,14 @@ type Props = {
   txt?: string;
 };
 
-export function RequestSignPledge({
-  leg: legBase,
-  scripts: rawScripts,
-  txt: customTxt,
-}: Props) {
+export function RequestSignPledge({ leg: legBase, scripts: rawScripts, txt: customTxt }: Props) {
   const leg = enrichLeg(legBase);
   const isThanks = leg.pledge;
   const scripts = evalScripts(rawScripts, { leg });
   const legTitleShort = leg.chamber === "house" ? "rep" : "sen.";
   const txt =
-    customTxt ??
-    (isThanks
-      ? `Thank your ${legTitleShort}`
-      : `Tell your ${legTitleShort} to sign!`);
-  return (
-    <ContactLegModal
-      txt={txt}
-      leg={leg}
-      scripts={scripts}
-      isThanks={isThanks}
-    />
-  );
+    customTxt ?? (isThanks ? `Thank your ${legTitleShort}` : `Tell your ${legTitleShort} to sign!`);
+  return <ContactLegModal txt={txt} leg={leg} scripts={scripts} isThanks={isThanks} />;
 }
 
 function renderRequestSignPledge(targetID: string, data: Props) {
