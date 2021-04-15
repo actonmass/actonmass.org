@@ -1,7 +1,8 @@
 ---
 aom_id: end-home-rule
-title: End Home Rule
+title: Lift the Ban on Local Tenant Protections
 full_title: An Act enabling local options for tenant protections
+twitter_bill_name: End Home Rule
 house_no: HD3676
 house_link: https://malegislature.gov/Bills/192/HD3676
 senate_no: null
@@ -21,6 +22,7 @@ orgs: []
 house_lead_sponsors:
   - mike-connolly
   - nika-elugardo
+senate_lead_sponsors: []
 co_sponsors:
   - mike-connolly
   - nika-elugardo
@@ -46,6 +48,4 @@ timeline:
     date: 2020-03-30
   - description: Sent to House Steering, Policy, and Scheduling Committee
     date: 2020-06-04
-twitter_bill_name: End Home Rule
-senate_lead_sponsors: []
 ---
