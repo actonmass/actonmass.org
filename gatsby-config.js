@@ -33,5 +33,11 @@ module.exports = {
       },
     },
     "gatsby-transformer-remark",
+    {
+      resolve: `gatsby-plugin-typegen`,
+      options: {
+        outputPath: `src/types/__generated__/gatsby-types.d.ts`,
+      },
+    },
   ],
 };

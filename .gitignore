@@ -6,3 +6,4 @@ public
 # Generated files
 functions/findMyReps/leg-data.json
 static/admin/config.yml
+**/__generated__/
