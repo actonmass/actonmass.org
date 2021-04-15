@@ -2,4 +2,7 @@ node_modules/
 .cache/
 public
 .DS_Store
+
+# Generated files
 functions/findMyReps/leg-data.json
+static/admin/config.yml

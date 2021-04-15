@@ -1,7 +1,10 @@
 import fs from "fs";
 import _ from "lodash";
 
+import buildAdminConfig from "./admin";
+
 export default async function createPages({ graphql, actions }) {
+  buildAdminConfig();
   await graphql(`
     {
       allLegislators(filter: { end_date: { eq: "" } }) {
