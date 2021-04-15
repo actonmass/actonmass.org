@@ -11,7 +11,7 @@ type Props = {
   issue: GatsbyTypes.Issue;
 };
 
-export default function IssuePage({ issue }) {
+export default function IssuePage({ issue }: Props) {
   return (
     <BaseLayout>
       <main className="issue-page">
