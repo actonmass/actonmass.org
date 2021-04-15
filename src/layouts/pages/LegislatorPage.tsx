@@ -1,7 +1,7 @@
 import React from "react";
 import _ from "lodash";
 
-import BaseLayout from "./BaseLayout";
+import BaseLayout from "../BaseLayout";
 
 type Leg = {
   last_name: string;
