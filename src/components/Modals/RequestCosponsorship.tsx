@@ -2,7 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom";
 import merge from "lodash/merge";
 
-import { Scripts, LegBase, Bill, enrichLeg } from "../../types/types";
+import { Scripts, LegBase, Bill, enrichLeg } from "../../types";
 
 import { ContactLegModal } from "./ContactLegModal";
 import { evalScripts } from "./evalScripts";

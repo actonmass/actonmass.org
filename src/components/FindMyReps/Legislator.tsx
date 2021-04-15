@@ -3,7 +3,7 @@ import React, { useState } from "react";
 import { RequestSupportCampaign } from "../Modals/RequestSupportCampaign";
 import { RequestSignPledge } from "../Modals/RequestSignPledge";
 import { RequestCosponsorship } from "../Modals/RequestCosponsorship";
-import { Leg, Bill, Scripts } from "../../types/types";
+import { Leg, Bill, Scripts } from "../../types";
 
 type Props = {
   leg: Leg | null | undefined;

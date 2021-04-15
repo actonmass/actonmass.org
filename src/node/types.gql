@@ -26,11 +26,11 @@ type Issue implements Node @dontInfer {
   text: String
   failures_block_title: String
   bills_to_support_title: String
-  highlighted_bills: [String]
-  learn_more: [IssueLearnMore]
-  references: [IssueReference]
-  failures: [IssueTextBlock]
-  questions: [IssueTextBlock]
+  highlighted_bills: [Bill] @link
+  learn_more: [IssueLearnMore]!
+  references: [IssueReference]!
+  failures: [IssueTextBlock]!
+  questions: [IssueTextBlock]!
   order: Int
 
   # Common calculated
@@ -82,6 +82,28 @@ type District implements Node @dontInfer {
 
 type Bill implements Node @dontInfer {
   aom_id: String!
+
+  title: String
+  full_title: String
+  twitter_bill_name: String
+  article: String
+  house_no: String
+  house_link: String
+  senate_no: String
+  senate_link: String
+  committee: String
+  issue: String
+  img: String
+  summary: [String]
+  orgs: [String]
+  house_lead_sponsors: [String] # TODO: link
+  senate_lead_sponsors: [String] # TODO: link
+  co_sponsors: [String] # TODO: link
+  # scripts
+  # timeline
+  # votes
+  # scripts_com_vote
+  # history
 
   # Common calculated
   fileName: String!

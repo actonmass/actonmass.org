@@ -27,7 +27,13 @@ const collections: Collections = {
   },
   issues: {
     name: "Issue",
-    process: _.identity,
+    process: (issue) => ({
+      ...issue,
+      learn_more: issue.learn_more ?? [],
+      references: issue.references ?? [],
+      failures: issue.failures ?? [],
+      questions: issue.questions ?? [],
+    }),
   },
   bills: {
     name: "Bill",

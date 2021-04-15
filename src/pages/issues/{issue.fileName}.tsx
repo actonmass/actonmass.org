@@ -30,7 +30,11 @@ export const query = graphql`
         text
         title
       }
-      highlighted_bills
+      highlighted_bills {
+        href
+        title
+        summary
+      }
       references {
         key
         title

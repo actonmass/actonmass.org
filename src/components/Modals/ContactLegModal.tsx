@@ -3,7 +3,7 @@ import ReactDOM from "react-dom";
 import Modal from "react-modal";
 import ReactMarkdown from "react-markdown";
 
-import { LegBase, Leg, Bill, Scripts, enrichLeg } from "../../types/types";
+import { LegBase, Leg, Bill, Scripts, enrichLeg } from "../../types";
 
 Modal.setAppElement("body");
 

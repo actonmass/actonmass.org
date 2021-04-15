@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-import { Bill, Scripts } from "../../types/types";
+import { Bill, Scripts } from "../../types";
 import scrollTo from "../../utils/scrollTo";
 
 import findReps, { Query, QueryResult } from "./findReps";

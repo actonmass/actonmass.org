@@ -1,6 +1,6 @@
 import axios from "axios";
 
-import { LegBase } from "../../types/types";
+import { LegBase } from "../../types";
 
 export type Query = { city: string; streetAddress: string };
 export type QueryResult = {

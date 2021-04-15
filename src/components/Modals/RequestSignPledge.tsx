@@ -1,7 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom";
 
-import { Scripts, LegBase, enrichLeg } from "../../types/types";
+import { Scripts, LegBase, enrichLeg } from "../../types";
 
 import { ContactLegModal } from "./ContactLegModal";
 import { evalScripts } from "./evalScripts";

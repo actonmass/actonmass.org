@@ -3,7 +3,7 @@ import mapValues from "lodash/mapValues";
 import isString from "lodash/isString";
 import keys from "lodash/keys";
 
-import { Scripts } from "../../types/types";
+import { Scripts } from "../../types";
 
 type StringTree = { [key: string]: string | StringTree };
 
