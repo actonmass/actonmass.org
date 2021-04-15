@@ -15,7 +15,8 @@ failures:
   - title: Rents & Displacement
     text: Displacement is a major problem due to **skyrocketing rents and evictions
       designed to make room for luxury housing** \[1]. Rental prices in Boston
-      rise year after year and show no signs of slowing \[2].
+      rise year after year and show no signs of slowing \[2], and the pandemic
+      has only made this worse.
   - title: Homelessness
     text: In the past decade, **homelessness has increased by 32%** statewide. This
       number has only increased with the number of evictions occurring due to
