@@ -4,7 +4,7 @@ import ReactMarkdown from "react-markdown";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faPlus } from "@fortawesome/free-solid-svg-icons";
 
-import { HeroImage, SignupForm } from "../../components";
+import { HeroImage, SignupForm, BreadCrum } from "../../components";
 import BaseLayout from "../BaseLayout";
 
 import "./issue.scss";
@@ -19,8 +19,15 @@ export default function IssuePage({ issue }: Props) {
       <main className="issue-page">
         <section className="headline dark cbox">
           <div className="w1400">
-            {/* TODO: BreadCrum */}
-            {/* {% include breadcrum.html %} */}
+            <BreadCrum
+              title={issue.title}
+              links={[
+                {
+                  text: "ISSUES",
+                  href: "/#issues",
+                },
+              ]}
+            />
             <div className="headline-container">
               <h1 className="hero_title fBold">{issue.title}</h1>
               <div className="issues_hero_a">
