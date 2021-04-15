@@ -46,5 +46,9 @@
     "sass": "^1.32.8",
     "semantic-ui-css": "^2.4.1",
     "semantic-ui-react": "^2.0.3"
+  },
+  "devDependencies": {
+    "source-map-support": "^0.5.19",
+    "ts-node": "^9.1.1"
   }
 }
