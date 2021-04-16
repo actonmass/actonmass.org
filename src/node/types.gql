@@ -164,3 +164,9 @@ type BillEvent implements Node @dontInfer {
   fileName: String!
   href: String!
 }
+
+type Page implements Node @dontInfer {
+  permalink: String
+  title: String
+  layout: String
+}

@@ -19,7 +19,7 @@ export default function onCreateNode({ node, createContentDigest, getNode, actio
       id: fields.aom_id,
       fileName: baseName,
       href: `/${collectionPath}/${baseName}/`,
-      parent: null,
+      parent: node.id,
       children: [],
       internal: {
         type: collection.name,
