@@ -7,6 +7,9 @@ logo: transgender-alt
 img: /img/issue-gender.jpg
 page_img: /img/simon-maage-tximrx3gc-g-unsplash.jpg
 catchphrase: Massachusetts must do more to ensure healthcare access & gender equity
+text: Although the legislature passed a watered down version of the ROE Act in
+  2020, there is still much work to do and we've identified a few key bills that
+  are important for our legislature to pass.
 bills_to_support_title: Gender & Reproductive Justice
 highlighted_bills:
   - campaign-childcare
