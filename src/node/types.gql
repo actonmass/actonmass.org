@@ -38,6 +38,11 @@ type Issue implements Node @dontInfer {
   href: String!
 }
 
+type LegislatorCommittee {
+  committee: Committee! @link
+  role: String!
+}
+
 type Legislator implements Node @dontInfer {
   aom_id: String!
   first_name: String!
@@ -61,6 +66,8 @@ type Legislator implements Node @dontInfer {
 
   # Calculated
   chamber: String!
+  committees: [LegislatorCommittee]!
+  cosponsored_bills: [Bill]! @link
 
   # Common calculated
   fileName: String!
@@ -92,13 +99,13 @@ type Bill implements Node @dontInfer {
   senate_no: String
   senate_link: String
   committee: String
-  issue: String
+  issue: Issue @link
   img: String
   summary: [String]
   orgs: [String]
-  house_lead_sponsors: [String] # TODO: link
-  senate_lead_sponsors: [String] # TODO: link
-  co_sponsors: [String] # TODO: link
+  house_lead_sponsors: [Legislator] @link
+  senate_lead_sponsors: [Legislator] @link
+  co_sponsors: [Legislator] @link
   # scripts
   # timeline
   # votes
@@ -138,7 +145,7 @@ type BillEventVote {
   vote: String
 }
 
-type BillEVent implements Node @dontInfer {
+type BillEvent implements Node @dontInfer {
   aom_id: String!
 
   date: Date
