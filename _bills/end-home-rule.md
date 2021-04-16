@@ -24,24 +24,50 @@ house_lead_sponsors:
   - nika-elugardo
 senate_lead_sponsors: []
 co_sponsors:
-  - mike-connolly
-  - nika-elugardo
-  - jack-lewis
-  - christopher-hendricks
-  - lindsay-sabadosa
-  - liz-miranda
-  - david-rogers
+  - james-oday
+  - kay-khan
+  - ruth-balser
   - christine-barber
-  - steve-owens
+  - marcos-devers
+  - patricia-duffy
+  - tricia-farley-bouvier
+  - dylan-fernandes
+  - sean-garballey
+  - tami-gouveia
+  - vanna-howard
+  - mary-keefe
+  - david-leboeuf
+  - jack-lewis
+  - adrian-madaro
+  - elizabeth-malia
+  - joseph-mcgonagle
+  - tram-nguyen
+  - orlando-ramos
+  - lindsay-sabadosa
+  - thomas-stanley
+  - steven-ultrino
+  - michelle-dubois
+  - carlos-gonzalez
   - erika-uyterhoeven
+  - maria-robinson
+  - sal-didomenico
+  - joseph-boncore
+  - cindy-friedman
+  - jack-lewis
+  - elizabeth-malia
+  - kay-khan
+  - mary-keefe
+  - joanne-comerford
+  - thomas-stanley
+  - maria-robinson
+  - erika-uyterhoeven
+  - sal-didomenico
 history:
   - date: 2020-01-14
     description: Hearing in Housing Committee
   - date: 2020-06-04
     description: Reported favorably by the Housing Committee
 timeline:
-  - date: 2019-06-24
-    description: Referred to the Housing Committee
   - date: 2020-12-10
     description: Joint hearing scheduled for 1/14/20
   - description: Reporting date extended to 5/31/2020
