@@ -5,11 +5,10 @@ title: Gender Equity
 subtitle: Reproductive rights for all
 logo: transgender-alt
 img: /img/issue-gender.jpg
-catchphrase: Massachusetts must do more to ensure healthcare access & gender equity
 page_img: /img/simon-maage-tximrx3gc-g-unsplash.jpg
+catchphrase: Massachusetts must do more to ensure healthcare access & gender equity
 bills_to_support_title: Gender & Reproductive Justice
 highlighted_bills:
-  - the-roe-act
   - campaign-childcare
   - end-ndas
 failures_block_title: Massachusetts has failed to enshrine basic equity into our laws
