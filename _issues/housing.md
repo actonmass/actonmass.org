@@ -21,28 +21,31 @@ failures:
     text: In the past decade, **homelessness has increased by 32%** statewide. This
       number has only increased with the number of evictions occurring due to
       the pandemic. Now Massachusetts has the 6th largest homeless population in
-      the country \[3].
+      the country \[3], and very little has been done to provide stable and safe
+      housing outside of some local ordinances in municipalities such as
+      Cambridge.
   - text: Cities and towns have taken steps to create affordable housing, but often
       **the legislature stands in the way of those efforts** \[4].
       Municipalities throughout the state have consistently voted in favor of
-      local tenant protections, such as rent control and Tenant Right to
-      Purchase, but are overruled by statewide bans that prevent local
+      local tenant protections, such as rent control and banning no-fault
+      evictions, but are overruled by statewide bans that prevent local
       communities from implementing useful tools with public support.
-    title: Towns can't act
+    title: Towns can't take action to stop the crisis
 questions:
-  - title: Isn’t Home Rule a good thing to ensure that the State enacts reasonable
-      policies?
+  - title: Aren't statewide bans a good thing to ensure that municipalities don't
+      pass harmful policies?
     text: >
-      **No**. A 2007 report by the Rapaport Insitute at Harvard found that
-      Massachusetts has a uniquely restrictive legal framework governing how
-      cities can govern themselves. No other cities they studied were as limited
-      in law-making power as Boston (or other Massachusetts cities).
+      **No**. A 2007 report by the Rapaport Insitute at Harvard found that in
+      comparison to the rest of the country, Massachusetts has a uniquely
+      restrictive legal framework governing how cities can govern themselves.
+      This limits what local governments can do in response to the statewide
+      eviction crisis even if the Legislature has not yet taken action.
 
 
       The authors note: “Because the Home Rule Amendment to the Massachusetts Constitution exempts taxing, borrowing, the regulation of private and civil affairs, and municipal elections from its scope, Boston has less authority than the six other major U.S. cities we examined. For example, the Illinois Constitution grants municipalities home rule powers that pertain to local matters and then expressly defines them in an expansive fashion.1 As a result, Chicago has the power to tax, the power to borrow, and the power to “regulate for the protection of the public health, safety, morals, and welfare . ...”2 Moreover, the Illinois Constitution provides—as the Massachusetts Constitution does not—that the “[p]owers and functions of home rule units shall be construed liberally.”3 Consistent with that instruction, the Illinois Supreme Court has construed the grant of home rule to include the power to regulate municipal elections, including the authority to require them to be nonpartisan.4 Similarly, none of the other cities we studied operates under a grant of home rule that exempts taxing, borrowing, the regulation of private or civil affairs, and the regulation of municipal elections from its coverage.”
 
 
-      Read more [here](https://www.hks.harvard.edu/sites/default/files/centers/rappaport/files/boston_bound.pdf).
+      You can read more about the study [here].(https://www.hks.harvard.edu/sites/default/files/centers/rappaport/files/boston_bound.pdf).
   - title: Doesn't rent control just limit the building of new housing?
     text: "**No.** Rent control works to keep people in their homes. Studies have
       shown that rent control increases the probability of tenants continuing to
@@ -50,11 +53,13 @@ questions:
       communities. While there is a shortage of housing available to bring a
       true end to the housing crisis, the shortage is due to loopholes in the
       law that allow land speculation and displacement in the interest of
-      profit, as well as systemic underfunding of public housing."
-  - title: Is there anything the Legislature can do to protect tenants after the
-      eviction moratorium ends?
-    text: "**Yes.** While the eviction moratorium, which expires on October 17, is
-      preventing the wave of evictions right now, it's a temporary solution to a
+      profit, as well as the systematic underfunding of public housing in favor
+      of public-private partnerships that "
+  - title: Is there anything the Legislature can do to protect tenants now that the
+      eviction moratorium has ended?
+    text: "**Yes.** The statewide eviction moratorium expired on October 17, and
+      while the federal CDC moratorium is preventing the expected spike in
+      evictions from taking place at the moment, it's a temporary solution to a
       long-term problem. We need a full ban on evictions that lasts the length
       of the pandemic and tenant protections, such as lifting the ban on rent
       control and an end to no-fault evictions."
@@ -98,5 +103,8 @@ learn_more:
   - title: Right to the City
     img: /img/rttc-logo.png
     link: https://righttothecity.org/
+  - title: Homes for All Massachusetts
+    img: https://www.homesforallmass.org/assets/images/hfamass-logo.png
+    link: https://www.homesforallmass.org/
 order: 40
 ---
