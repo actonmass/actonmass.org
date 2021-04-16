@@ -8,6 +8,13 @@ img: /img/issue-housing.jpg
 page_img: /img/issue-housing.jpg
 catchphrase: Massachusetts is facing a housing crisis. Rents are rising and
   communities lack the power to prevent displacement.
+text: We are facing a historic eviction crisis nationwide, but the systematic
+  displacement of working class renters is not new. Massachusetts has been
+  facing a housing crisis for a long time, as rents have gone up drastically
+  making more and more neighborhoods unaffordable and pushing renters into
+  displacement, financial instability, or homelessness. The Legislature has the
+  ability to put an end to the crisis and empower municipalities to implement
+  tools such as rent control on a local level.
 highlighted_bills:
   - end-home-rule
 failures_block_title: Massachusetts is failing to take action on Housing
@@ -47,14 +54,13 @@ questions:
 
       You can read more about the study [here].(https://www.hks.harvard.edu/sites/default/files/centers/rappaport/files/boston_bound.pdf).
   - title: Doesn't rent control just limit the building of new housing?
-    text: "**No.** Rent control works to keep people in their homes. Studies have
-      shown that rent control increases the probability of tenants continuing to
-      stay at their address, promoting long-term stability and strengthening
-      communities. While there is a shortage of housing available to bring a
-      true end to the housing crisis, the shortage is due to loopholes in the
-      law that allow land speculation and displacement in the interest of
-      profit, as well as the systematic underfunding of public housing in favor
-      of public-private partnerships that "
+    text: "**No.** Studies have shown that rent control increases the probability of
+      tenants continuing to stay at their address, promoting long-term stability
+      and strengthening communities. While there is a shortage of housing
+      available to bring a true end to the housing crisis, the shortage is due
+      to loopholes in the law that allow land speculation and displacement in
+      the interest of profit, as well as the systematic underfunding of public
+      housing in favor of public-private partnerships that "
   - title: Is there anything the Legislature can do to protect tenants now that the
       eviction moratorium has ended?
     text: "**Yes.** The statewide eviction moratorium expired on October 17, and
