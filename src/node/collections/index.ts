@@ -39,6 +39,23 @@ const collections: Collections = {
     name: "Bill",
     process: _.identity,
   },
+  committees: {
+    name: "Committee",
+    process: _.identity,
+  },
+  pages: {
+    name: "Page",
+    process: (post) => ({
+      ...post,
+    }),
+  },
+  blog: {
+    name: "Posts",
+    process: (post) => ({
+      ...post,
+      id: post.permalink.replace(/\//g, "-").replace(/^-/, "").replace(/-$/, ""),
+    }),
+  },
 };
 
 export default collections;

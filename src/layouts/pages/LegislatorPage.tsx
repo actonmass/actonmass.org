@@ -7,9 +7,13 @@ import "./legislator.scss";
 
 type Props = {
   leg: GatsbyTypes.Legislator;
+  committees: {
+    title: string;
+    role: "Chair" | "Vice-chair" | "Member";
+  }[];
 };
 
-export default function LegislatorPage({ leg }: Props) {
+export default function LegislatorPage({ leg, committees }: Props) {
   const legTitle = leg.chamber === "house" ? "Rep." : "Sen";
   return (
     <BaseLayout>
@@ -118,28 +122,27 @@ export default function LegislatorPage({ leg }: Props) {
               </section>
             )}
 
-            {/* <section className="top-box leg-committees cbox dark">
-        <div className="leg-committees-container">
-          <h4 className="leg_committ fRaleway fWhite fUppercase fRegular">Committees</h4>
-          {% if leg.committees.size > 0 %}
-            <div className="leg-list-committees">
-            {% assign committees = leg.committees | sort: "priority" %}
-            {% for committee in committees %}
-              {% if committee.role != "Member" %}
-                <div className="rect7 chair">
-                  <p className="fWhite fRegular">{{committee.role}}</p>
-                  <h5 className="fWhite fRoboto fLight">{{ committee.title }}</h5>
-                </div>
-              {% else %}
-                <div className="rect7">
-                  <h5 className="fWhite fRoboto fLight">{{ committee.title }}</h5>
-                </div>
-              {% endif %}
-            {% endfor %}
-            </div>
-          {% endif %}
-        </div>
-      </section> */}
+            <section className="top-box leg-committees cbox dark">
+              <div className="leg-committees-container">
+                <h4 className="leg_committ fRaleway fWhite fUppercase fRegular">Committees</h4>
+                {!_.isEmpty(committees) && (
+                  <div className="leg-list-committees">
+                    {committees.map((committee) =>
+                      committee.role !== "Member" ? (
+                        <div className="rect7 chair">
+                          <p className="fWhite fRegular">{committee.role}</p>
+                          <h5 className="fWhite fRoboto fLight">{committee.title}</h5>
+                        </div>
+                      ) : (
+                        <div className="rect7">
+                          <h5 className="fWhite fRoboto fLight">{committee.title}</h5>
+                        </div>
+                      )
+                    )}
+                  </div>
+                )}
+              </div>
+            </section>
           </div>
         </div>
         {/* <div className="cbox">

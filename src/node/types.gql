@@ -109,3 +109,20 @@ type Bill implements Node @dontInfer {
   fileName: String!
   href: String!
 }
+
+type Committee implements Node @dontInfer {
+  aom_id: String!
+  malegislature_url: String
+  title: String
+  chamber: String!
+  senate_chair: Legislator @link
+  senate_vice_chair: Legislator @link
+  senate_members: [Legislator] @link
+  house_chair: Legislator @link
+  house_vice_chair: Legislator @link
+  house_members: [Legislator] @link
+
+  # Common calculated
+  fileName: String!
+  href: String!
+}
