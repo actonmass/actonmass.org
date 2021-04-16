@@ -109,6 +109,7 @@ type Bill implements Node @dontInfer {
   house_lead_sponsors: [Legislator] @link
   senate_lead_sponsors: [Legislator] @link
   co_sponsors: [Legislator] @link
+  hidden: Boolean
   # scripts
   # timeline
   # votes
