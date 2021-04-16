@@ -45,16 +45,21 @@ const collections: Collections = {
   },
   pages: {
     name: "Page",
-    process: (post) => ({
-      ...post,
+    process: (page) => ({
+      ...page,
+      id: page.permalink.replace(/\//g, "-").replace(/^-/, "").replace(/-$/, ""),
     }),
   },
-  blog: {
+  posts: {
     name: "Posts",
     process: (post) => ({
       ...post,
-      id: post.permalink.replace(/\//g, "-").replace(/^-/, "").replace(/-$/, ""),
+      id: post.fileName,
     }),
+  },
+  bill_events: {
+    name: "BillEvent",
+    process: _.identity,
   },
 };
 

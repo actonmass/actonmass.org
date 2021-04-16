@@ -126,3 +126,30 @@ type Committee implements Node @dontInfer {
   fileName: String!
   href: String!
 }
+
+type BillEVentVoteDesc {
+  yes: String
+  no: String
+  unk: String
+}
+
+type BillEventVote {
+  legislator: Legislator @link
+  vote: String
+}
+
+type BillEVent implements Node @dontInfer {
+  aom_id: String!
+
+  date: Date
+  description: String
+  bill: Bill @link
+  progressive_vote: String
+  type: String
+  vote_descriptions: BillEVentVoteDesc
+  votes: [BillEventVote]
+
+  # Common calculated
+  fileName: String!
+  href: String!
+}
