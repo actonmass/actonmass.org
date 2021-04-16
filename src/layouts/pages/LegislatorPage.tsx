@@ -7,9 +7,11 @@ import "./legislator.scss";
 
 type Props = {
   leg: GatsbyTypes.Legislator;
+  issues: GatsbyTypes.Issue[];
 };
 
-export default function LegislatorPage({ leg }: Props) {
+export default function LegislatorPage({ leg, issues }: Props) {
+  const cosponsoredBillIds = leg.cosponsored_bills.map((bill) => bill.id);
   const legTitle = leg.chamber === "house" ? "Rep." : "Sen";
   return (
     <BaseLayout>
@@ -145,15 +147,19 @@ export default function LegislatorPage({ leg }: Props) {
         <div className="cbox">
           <div className="w1400 bottom-container">
             <ul className="tabs dark">
-              <li data-tab-target="#tab1" className="fInactive fUppercase fRaleway active tab dark">
-                Progressive History
-              </li>
-              <li data-tab-target="#tab2" className="fInactive fUppercase fRaleway tab dark">
+              {false && (
+                <li data-tab-target="#tab1" className="fInactive fUppercase fRaleway tab dark">
+                  Progressive History
+                </li>
+              )}
+              <li data-tab-target="#tab2" className="fInactive active fUppercase fRaleway tab dark">
                 Co-Sponsored Bills
               </li>
-              <li data-tab-target="#tab3" className="fInactive fUppercase fRaleway tab dark">
-                {leg.first_name} Says...
-              </li>
+              {false && (
+                <li data-tab-target="#tab3" className="fInactive fUppercase fRaleway tab dark">
+                  {leg.first_name} Says...
+                </li>
+              )}
             </ul>
 
             <div className="tab-content darker">
@@ -179,10 +185,44 @@ export default function LegislatorPage({ leg }: Props) {
           {% endfor %}
               </div> */}
               <div id="tab2" data-tab-content>
-                {/* {% for issue in site.issues %}
-          {% assign short_id = issue.id | replace: "/issues/", "" %}
-          {% assign bills = site.data.cache.issues_by_id[short_id].bills %}
-          {% if bills %}
+                {issues.map((issue) => {
+                  if (_.isEmpty(issue.bills)) {
+                    return null;
+                  }
+                  return (
+                    <>
+                      <h3 className="cosponsor_title fWhite fRoboto fRegular">{issue.title}</h3>
+                      {issue.bills.map((bill) => {
+                        const sponsored = cosponsoredBillIds.includes(bill.id);
+                        return (
+                          <div className="item_1">
+                            {sponsored ? (
+                              <img
+                                className="green_check"
+                                src="/img/green_check.png"
+                                alt="green check"
+                              />
+                            ) : (
+                              <img className="red_x" src="/img/red_x.png" alt="red x"></img>
+                            )}
+                            <p className="fWhite fLight">
+                              <a href={bill.href}>{bill.title}</a>
+                            </p>
+
+                            {!sponsored && (
+                              <>
+                                {/* {% include modals/request-co-sponsorship.html txt="request co-sponsorship" style="S" leg=leg bill=bill %} */}
+                              </>
+                            )}
+                          </div>
+                        );
+                      })}
+                    </>
+                  );
+                })}
+              </div>
+
+              {/*
             <h3 className="cosponsor_title fWhite fRoboto fRegular">{{issue.title}}</h3>
             {% for bill_id in bills %}
             {% assign bill = site.data.cache.bills_by_id[bill_id] %}
@@ -198,8 +238,9 @@ export default function LegislatorPage({ leg }: Props) {
               {% endunless %}
             </div>
             {% endfor %}
-          {% endif %}
-          {% endfor %} */}
+
+
+          }
               </div>
               {/* DISABLED FOR NOW */}
               {/* <div id="tab3" data-tab-content>

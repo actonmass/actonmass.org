@@ -33,6 +33,9 @@ type Issue implements Node @dontInfer {
   questions: [IssueTextBlock]!
   order: Int
 
+  # Calculated
+  bills: [Bill]! @link
+
   # Common calculated
   fileName: String!
   href: String!

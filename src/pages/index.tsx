@@ -148,7 +148,7 @@ export default function Home({ data }) {
 
 export const query = graphql`
   {
-    allIssue {
+    allIssue(sort: { fields: order }) {
       nodes {
         aom_id
         href

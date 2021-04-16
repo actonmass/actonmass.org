@@ -10,8 +10,7 @@ export default function ({ createResolvers }) {
             },
             type: "Bill",
           });
-          console.log(bills.map((bill) => bill.id));
-          return bills.map((bill) => bill.id);
+          return bills;
         },
       },
       committees: {
@@ -73,6 +72,20 @@ export default function ({ createResolvers }) {
               role: "Member" as const,
             })),
           ];
+        },
+      },
+    },
+    Issue: {
+      bills: {
+        type: ["Bill"],
+        resolve: async (issue, args, context, info) => {
+          const bills = await context.nodeModel.runQuery({
+            query: {
+              filter: { issue: { id: { eq: issue.id } } },
+            },
+            type: "Bill",
+          });
+          return bills;
         },
       },
     },

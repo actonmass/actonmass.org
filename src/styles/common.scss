@@ -432,10 +432,6 @@ td {
 }
 
 [data-tab-content] {
-  display: none;
-}
-
-.active[data-tab-content] {
   display: flex;
   flex-direction: column;
 }
@@ -527,4 +523,3 @@ td {
   bottom: 0px;
   background-color: rgba(100, 100, 100, 0.8);
 }
-

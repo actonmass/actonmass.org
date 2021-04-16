@@ -6,10 +6,11 @@ import { LegislatorPage as LegislatorPageComponent } from "../../layouts";
 
 type QueryProps = {
   legislator: GatsbyTypes.Legislator;
+  allIssue: { nodes: GatsbyTypes.Issue[] };
 };
 
 export default function LegislatorPage({ data }: PageProps<QueryProps>) {
-  return <LegislatorPageComponent leg={data.legislator} />;
+  return <LegislatorPageComponent leg={data.legislator} issues={data.allIssue.nodes} />;
 }
 
 export const query = graphql`
@@ -33,27 +34,20 @@ export const query = graphql`
           title
         }
       }
+      cosponsored_bills {
+        id
+      }
+    }
+
+    allIssue(sort: { fields: order }) {
+      nodes {
+        title
+        bills {
+          id
+          href
+          title
+        }
+      }
     }
   }
 `;
-
-// Query to get the bill events. Very inefficient without a custom resolver so skipping for now since we're not displaying anyway
-// allBillEvent(filter: {votes: {elemMatch: {legislator: {id: {eq: $id}}}}}) {
-//   nodes {
-//     aom_id
-//     votes {
-//       vote
-//       legislator {
-//         aom_id
-//       }
-//     }
-//     vote_descriptions {
-//       no
-//       unk
-//       yes
-//     }
-//     type
-//     progressive_vote
-//     description
-//   }
-// }
