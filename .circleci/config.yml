@@ -43,7 +43,7 @@ jobs:
 
       - run:
           name: Validate HTML spec compliance
-          command: $HOME/.local/bin/html5validator --root _site --ignore iframe anima-src
+          command: $HOME/.local/bin/html5validator --root public --ignore iframe anima-src
 
       - run:
           name: Start server
