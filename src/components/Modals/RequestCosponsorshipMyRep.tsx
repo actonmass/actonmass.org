@@ -1,13 +1,12 @@
 import React from "react";
+import _ from "lodash";
 
-import { Scripts, Bill } from "../../types";
 import useSessionLegs from "../FindMyReps/useSessionLegs";
 
 import { RequestCosponsorship } from "./RequestCosponsorship";
 
 type Props = {
-  scripts: Scripts;
-  bill: Bill;
+  bill: GatsbyTypes.Bill;
 };
 
 export function RequestCosponsorshipMyRep({ bill }: Props) {
@@ -15,7 +14,7 @@ export function RequestCosponsorshipMyRep({ bill }: Props) {
   if (
     legInfo == null ||
     legInfo.representative == null ||
-    (bill.co_sponsors ?? []).includes(legInfo.representative.aom_id)
+    _.map(bill.co_sponsors, "id").includes(legInfo.representative.aom_id)
   ) {
     return null;
   }
