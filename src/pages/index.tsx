@@ -139,8 +139,6 @@ export default function Home({ data }) {
           </div>
         </section>
         <FindMyReps theme="light" mode="campaign" />
-
-        {/* {% include find-my-rep.html theme="light" mode='campaign' %} */}
       </main>
     </BaseLayout>
   );

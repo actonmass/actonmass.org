@@ -4,8 +4,9 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import _ from "lodash";
 
 import { BreadCrum } from "../../components";
-import { BaseLayout } from "../../layouts";
-import "../../styles/pages/bills.scss";
+import { BaseLayout } from "..";
+
+import "./bills.scss";
 
 type QueryProps = {
   allIssue: { nodes: GatsbyTypes.Issue[] };

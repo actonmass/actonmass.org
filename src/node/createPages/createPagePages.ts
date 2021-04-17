@@ -29,6 +29,7 @@ export default async function createPagePages(graphql, createPage) {
 
     const layouts = {
       default: path.resolve(`src/layouts/pages/DefaultPage.tsx`),
+      bills: path.resolve(`src/layouts/pages/BillsPage.tsx`),
     };
 
     result.data.allPage.nodes.forEach((page) => {

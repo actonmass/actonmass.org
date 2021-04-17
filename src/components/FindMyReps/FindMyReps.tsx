@@ -97,7 +97,7 @@ function Form({ title, text, onSubmit, theme, loading }: FormProps) {
     <section className={`${theme || ""} cbox leg-search`} id="leg-search">
       <div className="w1400">
         <div className="legislator-search">
-          {title && <h1 className="fRaleway fExbold">{title}</h1>}
+          {titleToDisplay && <h1 className="fRaleway fExbold">{titleToDisplay}</h1>}
           {text && <h3 className="text fRaleway fExbold">{text}</h3>}
           <form className="form-block">
             <div className="entry_2">
