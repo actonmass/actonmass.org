@@ -3,9 +3,9 @@ import { graphql } from "gatsby";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faSearch } from "@fortawesome/free-solid-svg-icons";
 
-import { BaseLayout } from "../layouts";
-import { HeroImage, SignupForm, FindMyReps } from "../components";
-import "../styles/pages/home.scss";
+import BaseLayout from "../BaseLayout";
+import { HeroImage, SignupForm, FindMyReps } from "../../components";
+import "./home.scss";
 
 type Issue = GatsbyTypes.Issue;
 
