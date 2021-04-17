@@ -33,6 +33,8 @@ export default async function createPagePages(graphql, createPage) {
       about: path.resolve(`src/layouts/pages/AboutUsPage.tsx`),
       pledge: path.resolve(`src/layouts/pages/PledgePage.tsx`),
       "the-campaign": path.resolve(`src/layouts/pages/TheCampaignPage.tsx`),
+      "legislator-search": path.resolve(`src/layouts/pages/LegislatorSearchPage.tsx`),
+      climate: path.resolve(`src/layouts/pages/ClimatePage.tsx`),
     };
 
     result.data.allPage.nodes.forEach((page) => {
