@@ -26,16 +26,19 @@ export default function BaseLayout({ children }) {
   // TODO: missing <head> stuff
   return (
     <>
-      <Helmet
-        script={[
-          {
-            type: "text/javascript",
-            src: "//js.hsforms.net/forms/shell.js",
-            charset: "utf-8",
-          },
-        ]}
-      />
-      ;
+      <Helmet>
+        <script
+          defer
+          charSet="utf-8"
+          type="text/javascript"
+          src="//js.hsforms.net/forms/shell.js"
+        ></script>
+
+        <link
+          href="https://fonts.googleapis.com/css?family=Raleway:500,700,800%7CRoboto:300,400,500,700&display=swap"
+          rel="stylesheet"
+        />
+      </Helmet>
       <Header />
       <MDXProvider components={components}>{children}</MDXProvider>
       <Footer />
