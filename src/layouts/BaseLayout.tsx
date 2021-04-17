@@ -6,9 +6,10 @@ import HubspotForm from "react-hubspot-form";
 import { MDXProvider } from "@mdx-js/react";
 
 import { Header, Footer } from "../components";
-import "../styles/misc.scss";
-import "../styles/common.scss";
-import "../styles/components/leg-circle.scss";
+
+import "./misc.scss";
+import "./common.scss";
+import "./leg-circle.scss";
 
 Modal.setAppElement("body");
 

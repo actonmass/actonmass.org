@@ -18,7 +18,7 @@ export default function BillHistory({ data }: { data: HistoryEvent[] }) {
     <div className="bill-history-container">
       <HistoryYear year={Number(eventsByYear[0].year) + 1} events={[]} />
       {eventsByYear.map(({ events, year }) => (
-        <HistoryYear year={year} events={events} />
+        <HistoryYear key={year} year={year} events={events} />
       ))}
     </div>
   );

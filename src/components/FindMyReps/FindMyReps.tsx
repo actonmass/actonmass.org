@@ -1,18 +1,19 @@
+import _ from "lodash";
 import React, { useState } from "react";
 
 import { Bill, Scripts } from "../../types";
 import scrollTo from "../../utils/scrollTo";
+import useAllCurrentLegislators from "../useAllCurrentLegislators";
 
 import findReps, { Query, QueryResult } from "./findReps";
 import LoadingSpinner from "./LoadingSpinner";
 import Results from "./Results";
 import useSessionLegs from "./useSessionLegs";
 import LegDropdown from "./LegDropdown";
-import useAllCurrentLegislators from "./useAllCurrentLegislators";
 import "./legislator-search.scss";
 
 export type Props = {
-  title: string;
+  title?: string;
   text?: string;
   theme?: string;
   showResultIfEmpty: boolean;
@@ -58,13 +59,7 @@ export default function FindMyReps({
 
   return (
     <div id="find-my-reps">
-      <Form
-        title={title ?? "legislator search"}
-        text={text}
-        onSubmit={handleQueryReps}
-        theme={theme}
-        loading={loading}
-      />
+      <Form title={title} text={text} onSubmit={handleQueryReps} theme={theme} loading={loading} />
       <Results
         legInfo={repInfo}
         bill={bill}
@@ -95,6 +90,8 @@ function Form({ title, text, onSubmit, theme, loading }: FormProps) {
     }
     onSubmit({ city, streetAddress });
   };
+
+  const titleToDisplay = title ?? (_.isEmpty(text) ? "legislator search" : "");
 
   return (
     <section className={`${theme || ""} cbox leg-search`} id="leg-search">

@@ -2,7 +2,7 @@ import React from "react";
 import _ from "lodash";
 import ReactMarkdown from "react-markdown";
 
-import { HeroImage, LegCircle, FindMyReps, BreadCrum, BillHistory } from "../../components";
+import { HeroImage, LegCircle, FindMyReps, BreadCrum, BillHistory, Map } from "../../components";
 import BaseLayout from "../BaseLayout";
 
 import "./bill.scss";
@@ -14,7 +14,6 @@ type Props = {
 export default function BillPage({ bill }: Props) {
   const co_sponsors = new Set(bill.co_sponsors.map((leg) => leg.id));
   const committee = bill.committee;
-  console.log(bill.committee);
   return (
     <BaseLayout>
       <main className="bill-page">
@@ -114,7 +113,11 @@ export default function BillPage({ bill }: Props) {
 
                     <div className="members">
                       {committee.senate_members.map((member) => (
-                        <LegCircle rep={member} status={co_sponsors.has(member.id) ? "ok" : "ko"} />
+                        <LegCircle
+                          key={member.id}
+                          rep={member}
+                          status={co_sponsors.has(member.id) ? "ok" : "ko"}
+                        />
                       ))}
                     </div>
                   </div>
@@ -149,7 +152,11 @@ export default function BillPage({ bill }: Props) {
 
                     <div className="members">
                       {committee.house_members.map((member) => (
-                        <LegCircle rep={member} status={co_sponsors.has(member.id) ? "ok" : "ko"} />
+                        <LegCircle
+                          key={member.id}
+                          rep={member}
+                          status={co_sponsors.has(member.id) ? "ok" : "ko"}
+                        />
                       ))}
                     </div>
                   </div>
@@ -164,7 +171,7 @@ export default function BillPage({ bill }: Props) {
           <div className="w1400">
             <h3 className="fUppercase fExbold">Who has co-sponsored:</h3>
             <div className="map-block dark">
-              {/* {% include map.html greens = bill.co_sponsors %} */}
+              <Map bill={bill} />
             </div>
             <div className="cbox">
               {/* {% include modals/request-co-sponsorship-my-rep.html bill=bill %} */}

@@ -6,3 +6,4 @@ export { default as FindMyReps } from "./FindMyReps";
 export { default as BreadCrum } from "./BreadCrum";
 export { default as BillHistory } from "./BillHistory";
 export { default as LegCircle } from "./LegCircle";
+export { default as Map } from "./Map";
