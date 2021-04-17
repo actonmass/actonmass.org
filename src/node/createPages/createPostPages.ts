@@ -12,6 +12,7 @@ export default async function createPostPages(graphql, createPage) {
             date
             fileName
             href
+            image
             parent {
               ... on MarkdownRemark {
                 html
