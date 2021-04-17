@@ -1,7 +1,7 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faAngleDown } from "@fortawesome/free-solid-svg-icons";
-import { faFacebookF, faTwitter } from "@fortawesome/free-brands-svg-icons";
+import { faFacebookF, faInstagram, faTwitter } from "@fortawesome/free-brands-svg-icons";
 
 import { generalSettings } from "../../content";
 
@@ -17,27 +17,18 @@ export default function Header() {
         <ul className="hbox">
           {generalSettings.menu.map((item) => (
             <li key={item.href}>
-              <a
-                className="nav_text fRoboto fLight fDark fUppercase"
-                href={item.href}
-              >
+              <a className="nav_text fRoboto fLight fDark fUppercase" href={item.href}>
                 {item.title}
               </a>
             </li>
           ))}
           <li>
             <div className="dropdown">
-              <a className="dropbtn fRoboto fLight fDark fUppercase">
-                Learn More
-              </a>
+              <a className="dropbtn fRoboto fLight fDark fUppercase">Learn More</a>
               <FontAwesomeIcon icon={faAngleDown} size="lg" className="fDark" />
               <div className="dropdown-content">
                 {generalSettings.learn_more_menu.map((item) => (
-                  <a
-                    key={item.href}
-                    className="fRoboto fLight fDark fUppercase"
-                    href={item.href}
-                  >
+                  <a key={item.href} className="fRoboto fLight fDark fUppercase" href={item.href}>
                     {item.title}
                   </a>
                 ))}
@@ -59,13 +50,18 @@ export default function Header() {
             </a>
           </li>
           <li>
-            <a href="https://www.facebook.com/act.on.massachusetts/">
+            <a href="https://www.facebook.com/act.on.massachusetts/" target="_blank">
               <FontAwesomeIcon icon={faFacebookF} size="lg" className="fDark" />
             </a>
           </li>
           <li>
-            <a href="https://twitter.com/act_on_mass?lang=en">
+            <a href="https://twitter.com/act_on_mass?lang=en" target="_blank">
               <FontAwesomeIcon icon={faTwitter} size="lg" className="fDark" />
+            </a>
+          </li>
+          <li>
+            <a href="https://www.instagram.com/act_on_mass/" target="_blank">
+              <FontAwesomeIcon icon={faInstagram} size="lg" className="fDark" />
             </a>
           </li>
         </ul>
