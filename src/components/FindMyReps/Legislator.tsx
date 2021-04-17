@@ -1,4 +1,7 @@
-import React, { useState } from "react";
+import React from "react";
+
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faCheckCircle, faQuestionCircle, faTimesCircle } from "@fortawesome/free-solid-svg-icons";
 
 import { RequestSupportCampaign } from "../Modals/RequestSupportCampaign";
 import { RequestSignPledge } from "../Modals/RequestSignPledge";
@@ -44,7 +47,7 @@ export default function Legislator({ leg, chamber, bill, scripts, mode }: Props)
   };
 
   const { status, txt: statusText } = getStatus();
-  const iconClass = status ? "fas fa-check-circle fa-2x" : "fas fa-times-circle fa-2x";
+  const icon = status ? faCheckCircle : faTimesCircle;
 
   return (
     <div>
@@ -53,7 +56,7 @@ export default function Legislator({ leg, chamber, bill, scripts, mode }: Props)
         <LegCircle leg={leg} status={status} />
         <p className="fRoboto fLight">{leg.districtName}</p>
         <p className="fUppercase">
-          <i className={iconClass}></i>
+          <FontAwesomeIcon icon={icon} />
           {statusText}
         </p>
       </a>
@@ -101,7 +104,7 @@ function UnkonwnLeg({ legTitle }) {
   return (
     <div className="legislator">
       <h3 className="fUppercase fRegular">Your {legTitle}:</h3>
-      <i className="fas fa-question-circle" style={{ fontSize: "17rem" }}></i>
+      <FontAwesomeIcon icon={faQuestionCircle} style={{ fontSize: "17rem" }} />
       <p style={{ maxWidth: "30rem", marginTop: "2rem" }}>
         We were not able to identify your {legTitle}. The seat may be vacant, or maybe we're just
         not up to date with the latest special election. If you know who is your {legTitle}, please

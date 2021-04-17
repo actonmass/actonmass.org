@@ -1,4 +1,6 @@
 import React from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faExclamationCircle, faSearchLocation } from "@fortawesome/free-solid-svg-icons";
 
 import { QueryResult } from "./findReps";
 import Legislator from "./Legislator";
@@ -69,7 +71,7 @@ function EmptyResults() {
   return (
     <div className="empty_state_container">
       <div className="empty_state">
-        <i className="fas empt_st fa-search-location fa-10x"></i>
+        <FontAwesomeIcon icon={faSearchLocation} size="10x" className="empt_st" />
         <h4 className="fRaleway fUppercase">no results</h4>
         <p className="fRaleway">
           Enter your address above to <br />
@@ -93,7 +95,7 @@ function ErrorResults({ errorCode }: ErrorResultsProps) {
   return (
     <div className="empty_state_container">
       <div className="empty_state">
-        <i className="fas empt_st fa-exclamation-circle fa-10x"></i>
+        <FontAwesomeIcon icon={faExclamationCircle} size="10x" className="empt_st" />
         <h4 className="fRaleway fUppercase">Error</h4>
         <p className="fRaleway">{messages[errorCode]}</p>
       </div>

@@ -1,5 +1,8 @@
 import React from "react";
 import _ from "lodash";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faEnvelope, faPhone, faWindowMaximize } from "@fortawesome/free-solid-svg-icons";
+import { faFacebookF, faTwitter } from "@fortawesome/free-brands-svg-icons";
 
 import BaseLayout from "../BaseLayout";
 import { BreadCrum } from "../../components";
@@ -46,28 +49,27 @@ export default function LegislatorPage({ leg, issues }: Props) {
                 <div className="icons">
                   {!_.isEmpty(leg.email) && (
                     <a href={`mailto:${leg.email}`}>
-                      <i className="far fa-envelope fa-2x"></i>
+                      <FontAwesomeIcon icon={faEnvelope} size="2x" />
                     </a>
                   )}
                   {!_.isEmpty(leg.facebook) && (
                     <a href={leg.facebook} target="_blank">
-                      <i className="fab fa-facebook-f fa-2x"></i>
+                      <FontAwesomeIcon icon={faFacebookF} size="2x" />
                     </a>
                   )}
                   {!_.isEmpty(leg.twitter) && (
                     <a href={`https://twitter.com/${leg.twitter}`} target="_blank">
-                      <i className="fab fa-twitter fa-2x"></i>
+                      <FontAwesomeIcon icon={faTwitter} size="2x" />
                     </a>
                   )}
                   {!_.isEmpty(leg.website) && (
                     <a href={leg.website} target="_blank">
-                      <i className="far fa-window-maximize fa-2x"></i>
+                      <FontAwesomeIcon icon={faWindowMaximize} size="2x" />
                     </a>
                   )}
                   {!_.isEmpty(leg.phone) && (
-                    // TODO: Fix this
-                    <a href="tel:{{leg.phone | uri_escape}}">
-                      <i className="fas fa-phone fa-2x"></i>
+                    <a href={`tel:${encodeURIComponent(leg.phone)}`}>
+                      <FontAwesomeIcon icon={faPhone} size="2x" />
                     </a>
                   )}
                 </div>
@@ -189,7 +191,7 @@ export default function LegislatorPage({ leg, issues }: Props) {
               <p className="fWhite fLight">{{vote.date | date: "%Y" }} - {{ vote.description | markdownify | remove: "<p>" | remove: "</p>" }}</p>
             {% else %}
               <div className="grey_question">
-                <i className="fas fa-question-circle"></i>
+                <FontAwesomeIcon icon={faQuestionCircle}/>
               </div>
               <p className="fWhite fLight">{{vote.date | date: "%Y" }} - {{ vote.description | markdownify | remove: "<p>" | remove: "</p>" }}</p>
           {% endcase %}

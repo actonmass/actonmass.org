@@ -2,8 +2,11 @@ import React from "react";
 import ReactDOM from "react-dom";
 import Modal from "react-modal";
 import ReactMarkdown from "react-markdown";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faEnvelope, faPhone, faTimes } from "@fortawesome/free-solid-svg-icons";
+import { faTwitter } from "@fortawesome/free-brands-svg-icons";
 
-import { LegBase, Leg, Bill, Scripts, enrichLeg } from "../../types";
+import { LegBase, Scripts, enrichLeg } from "../../types";
 
 Modal.setAppElement("body");
 
@@ -91,7 +94,7 @@ export function ContactLegModal({ txt, leg: legBase, scripts, style, isThanks = 
               target="_blank"
               href={getThankYouTweetIntent(actionType, scripts, isThanks)}
             >
-              <i className="fab fa-twitter fa-lg"></i>
+              <FontAwesomeIcon icon={faTwitter} size="lg" />
               Tweet to @Act_On_Mass
             </a>
           </div>
@@ -104,32 +107,22 @@ export function ContactLegModal({ txt, leg: legBase, scripts, style, isThanks = 
         <div className="vbox">
           {leg.phone && (
             <a className="btn" onClick={() => setModalContent("call")}>
-              <i className="fas fa-phone fa-lg"></i>
+              <FontAwesomeIcon icon={faPhone} size="lg" />
               Call {fullName} now
             </a>
           )}
           {leg.email && (
             <a className="btn" onClick={() => setModalContent("email")}>
-              <i className="far fa-envelope fa-lg"></i>
+              <FontAwesomeIcon icon={faEnvelope} size="lg" />
               Email {fullName} now
             </a>
           )}
           {leg.twitter && (
             <a className="btn" target="_blank" href={getTweeterIntentUrl(scripts, isThanks)}>
-              <i className="fab fa-twitter fa-lg"></i>
+              <FontAwesomeIcon icon={faTwitter} size="lg" />
               Send {fullName} a tweet
             </a>
           )}
-
-          {
-            // Not supported for now
-            /* {leg.facebook && (
-            <a className="btn" onClick={() => setModalContent("")}>
-              <i className="fab fa-facebook-f fa-lg"></i>
-              Contact {fullName} on Facebook
-            </a>
-          )} */
-          }
         </div>
       </div>
     );
@@ -150,7 +143,7 @@ export function ContactLegModal({ txt, leg: legBase, scripts, style, isThanks = 
         overlayClassName="modal-overlay"
       >
         <div className="modal-header">
-          <i className="fas fa-times fa-2x" onClick={closeModal}></i>
+          <FontAwesomeIcon icon={faTimes} size="lg" onClick={closeModal} />
         </div>
 
         {renderModalContent()}

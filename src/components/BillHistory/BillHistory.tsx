@@ -1,6 +1,7 @@
 import React from "react";
-import { render } from "react-dom";
 import moment from "moment";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faSkullCrossbones } from "@fortawesome/free-solid-svg-icons";
 
 import map from "lodash/fp/map";
 import groupBy from "lodash/fp/groupBy";
@@ -57,7 +58,7 @@ function renderEvent(event, idx) {
           <p className="fRoboto fLight">{addLineBreaks(event.description)}</p>
         </div>
         {event.type == "death" && (
-          <i className="fas fa-skull-crossbones fa-4x" aria-hidden="true"></i>
+          <FontAwesomeIcon icon={faSkullCrossbones} size="4x" aria-hidden="true" />
         )}
       </div>
     </div>
