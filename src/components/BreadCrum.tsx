@@ -18,7 +18,7 @@ export default function BreadCrum({ title, links }: Props) {
       {links &&
         links.map((link) => (
           <li key={link.href}>
-            <a href={link.href}>{link.text}</a>
+            <a href={link.href}>{link.text.toUpperCase()}</a>
           </li>
         ))}
 
