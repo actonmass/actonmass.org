@@ -16,4 +16,5 @@ website: ""
 facebook: ""
 ocd_id: ocd-person/c8fe117c-4c65-45c7-bdf1-fec80bd0f344
 twitter: ""
+pledge: true
 ---
