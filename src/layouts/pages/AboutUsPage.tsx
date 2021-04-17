@@ -19,7 +19,7 @@ export default function AboutUsPage({ data }: PageProps<QueryProps>) {
   const frontmatter = (data.page.parent as any).frontmatter;
   console.log(frontmatter);
   return (
-    <BaseLayout>
+    <BaseLayout title={page.title}>
       <div id="about_wrapper">
         <section className="headline dark cbox">
           <div className="w1400">

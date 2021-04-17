@@ -12,13 +12,14 @@ import "./post.scss";
 type PageContext = {
   title: string;
   date: any;
+  image?: string;
   previous?: { title: string; url: string };
   next?: { title: string; url: string };
 } & ({ html: string; body: undefined } | { body: any; html: undefined });
 
 export default function PostPage({ pageContext: page }: PageProps<{}, PageContext>) {
   return (
-    <BaseLayout>
+    <BaseLayout title={page.title} image={page.image}>
       <main className="default-page cbox light-blue">
         <div className="w1400">
           <BreadCrum title={page.title} links={[{ text: "BLOG", href: "/blog" }]} />

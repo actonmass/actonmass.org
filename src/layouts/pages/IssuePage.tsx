@@ -15,7 +15,7 @@ type Props = {
 
 export default function IssuePage({ issue }: Props) {
   return (
-    <BaseLayout>
+    <BaseLayout title={issue.title}>
       <main className="issue-page">
         <section className="headline dark cbox">
           <div className="w1400">

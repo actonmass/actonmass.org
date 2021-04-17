@@ -12,7 +12,7 @@ type DataProps = {
 
 export default function LegislatorSearchPage({ data }: PageProps<DataProps>) {
   return (
-    <BaseLayout>
+    <BaseLayout title={data.page.title}>
       <div className="search-page">
         <section className="breadcrum dark cbox">
           <div className="w1400">

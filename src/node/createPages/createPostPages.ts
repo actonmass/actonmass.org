@@ -40,6 +40,7 @@ export default async function createPostPages(graphql, createPage) {
         html: post.parent.html,
         date: post.date,
         title: post.title,
+        image: post.image,
         ...(prevPost && { previous: { title: prevPost.title, url: prevPost.href } }),
         ...(nextPost && { next: { title: nextPost.title, url: nextPost.href } }),
       };

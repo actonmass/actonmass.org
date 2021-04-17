@@ -14,7 +14,7 @@ type PageContext = { title: string } & (
 
 export default function DefaultPage({ pageContext }: PageProps<{}, PageContext>) {
   return (
-    <BaseLayout>
+    <BaseLayout title={pageContext.title}>
       <main className="default-page cbox light-blue">
         <div className="w1400">
           <BreadCrum title={pageContext.title} links={[]} />

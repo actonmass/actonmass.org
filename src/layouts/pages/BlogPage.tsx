@@ -24,7 +24,7 @@ type PageContext = {
 export default function BlogPage({ data, pageContext }: PageProps<DataProps, PageContext>) {
   const posts = data.allPost.nodes;
   return (
-    <BaseLayout>
+    <BaseLayout title="Blog">
       <main className="blog-page medium-blue cbox">
         <div className="w1400">
           <BreadCrum title="Blog" links={[]} />

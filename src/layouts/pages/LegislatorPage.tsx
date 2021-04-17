@@ -2,6 +2,7 @@ import React from "react";
 import _ from "lodash";
 
 import BaseLayout from "../BaseLayout";
+import { BreadCrum } from "../../components";
 
 import "./legislator.scss";
 
@@ -13,11 +14,22 @@ type Props = {
 export default function LegislatorPage({ leg, issues }: Props) {
   const cosponsoredBillIds = leg.cosponsored_bills.map((bill) => bill.id);
   const legTitle = leg.chamber === "house" ? "Rep." : "Sen";
+  const pageTitle = `${leg.first_name} ${leg.last_name}`;
   return (
-    <BaseLayout>
+    <BaseLayout title={pageTitle}>
       <main className="legislator-page">
         <div className="cbox">
-          <div className="w1400">{/* {% include breadcrum.html %} */}</div>
+          <div className="w1400">
+            <BreadCrum
+              title={pageTitle}
+              links={[
+                {
+                  text: "Legislator Search",
+                  href: "/legislator-search",
+                },
+              ]}
+            />
+          </div>
         </div>
         <div className="cbox">
           <div className="w1400 top-container">

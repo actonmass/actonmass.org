@@ -15,7 +15,8 @@ type QueryProps = {
 export default function BillsPage({ data }: PageProps<QueryProps>) {
   const issues = data.allIssue.nodes;
   return (
-    <BaseLayout>
+    // TODO: use gql to get the title
+    <BaseLayout title="Bills">
       <main className="bills-page">
         <section className="cbox headline">
           <div className="w1400">

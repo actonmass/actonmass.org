@@ -1,13 +1,18 @@
 import React from "react";
 import HubspotForm from "react-hubspot-form";
+import { PageProps, graphql } from "gatsby";
 
 import BaseLayout from "../BaseLayout";
 
 import "./the-campaign.scss";
 
-export default function TheCampaignPage() {
+type DataProps = {
+  page: { title: string };
+};
+
+export default function TheCampaignPage({ data }: PageProps<DataProps>) {
   return (
-    <BaseLayout>
+    <BaseLayout title={data.page.title}>
       <main className="campaign_page">
         <section className="dark cbox">
           <div className="w1000">
@@ -282,3 +287,11 @@ export default function TheCampaignPage() {
     </BaseLayout>
   );
 }
+
+export const query = graphql`
+  query {
+    page(id: { eq: "/legislator-search/" }) {
+      title
+    }
+  }
+`;

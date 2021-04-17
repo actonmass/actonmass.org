@@ -15,7 +15,7 @@ export default function BillPage({ bill }: Props) {
   const co_sponsors = new Set(bill.co_sponsors.map((leg) => leg.id));
   const committee = bill.committee;
   return (
-    <BaseLayout>
+    <BaseLayout title={bill.title}>
       <main className="bill-page">
         <section className="headline dark cbox">
           <div className="w1400">

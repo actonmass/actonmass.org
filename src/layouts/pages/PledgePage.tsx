@@ -19,7 +19,7 @@ export default function PledgePage({ data }: PageProps<QueryProps>) {
   const [reps, sens] = _.partition(data.legs.nodes, (leg) => leg.chamber === "house");
 
   return (
-    <BaseLayout>
+    <BaseLayout title={page.title}>
       <main className="pledge-page">
         <section className="headline dark cbox">
           <div className="w1400">

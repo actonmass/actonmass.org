@@ -6,6 +6,7 @@ import HubspotForm from "react-hubspot-form";
 import { MDXProvider } from "@mdx-js/react";
 
 import { Header, Footer } from "../components";
+import { generalSettings } from "../content";
 
 import "./misc.scss";
 import "./common.scss";
@@ -22,11 +23,28 @@ const CenteredImage = ({ img, alt }) => (
 
 const components = { CenteredBlock, HubspotForm, CenteredImage };
 
-export default function BaseLayout({ children }) {
-  // TODO: missing <head> stuff
+type Props = {
+  children: any;
+  title?: string;
+  image?: string;
+};
+
+export default function BaseLayout({ children, title, image }: Props) {
+  const pageTitle = title ? `${title} | Act On Mass` : "Act On Mass";
   return (
     <>
       <Helmet>
+        <title>{pageTitle}</title>
+        <meta property="og:title" content={pageTitle} />
+        <meta property="og:site_name" content="ActOnMass" />
+        <meta property="og:type" content="website" />
+        <meta property="og:description" content={generalSettings.description} />
+        <meta
+          property="og:image"
+          content={`${generalSettings.url}${image ?? "/img/fb-thumbnail.png"}`}
+        />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="shortcut icon" href="/img/favicon.png" type="image/png" />
         <script
           defer
           charSet="utf-8"

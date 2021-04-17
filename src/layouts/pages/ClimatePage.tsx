@@ -15,7 +15,7 @@ type DataProps = {
 
 export default function ClimatePage({ data }: PageProps<DataProps>) {
   return (
-    <BaseLayout>
+    <BaseLayout title={data.page.title}>
       <Helmet>
         <script defer charSet="utf-8" type="text/javascript" src="/js/anima.js"></script>
       </Helmet>
