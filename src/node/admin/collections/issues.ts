@@ -3,7 +3,7 @@ import { id_field } from "../common";
 export default {
   name: "issues",
   label: "Issues",
-  folder: "_issues/",
+  folder: "content/issues/",
   create: true,
   slug: "{{title}}",
   editor: {

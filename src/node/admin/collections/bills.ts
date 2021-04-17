@@ -9,7 +9,7 @@ import {
 export default {
   name: "bills",
   label: "Bills",
-  folder: "_bills/",
+  folder: "content/bills/",
   create: true,
   slug: "{{title}}",
   identifier_field: "title",

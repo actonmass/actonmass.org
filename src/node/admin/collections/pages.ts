@@ -1,7 +1,7 @@
 export default {
   name: "pages",
   label: "Pages",
-  folder: "_pages/",
+  folder: "content/pages/",
   create: true,
   identifier_field: "permalink",
   editor: {

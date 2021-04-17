@@ -2,7 +2,7 @@ export default {
   name: "blog",
   label: "Blog post",
   sort: "date:desc",
-  folder: "_posts/",
+  folder: "content/posts/",
   create: true,
   slug: "{{year}}-{{month}}-{{day}}-{{slug}}",
   editor: {

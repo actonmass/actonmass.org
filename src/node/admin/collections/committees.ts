@@ -3,7 +3,7 @@ import { id_field, legislator_picker } from "../common";
 export default {
   name: "committees",
   label: "Committees",
-  folder: "_committees/",
+  folder: "content/committees/",
   create: true,
   slug: "{{chamber}}-{{name}}",
   identifier_field: "title",

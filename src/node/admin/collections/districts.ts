@@ -3,7 +3,7 @@ import { id_field } from "../common";
 export default {
   name: "districts",
   label: "Districts",
-  folder: "_districts/",
+  folder: "content/districts/",
   create: true,
   slug: "{{chamber}}-{{name}}",
   identifier_field: "name",

@@ -3,7 +3,7 @@ import { id_field, date_picker } from "../common";
 export default {
   name: "legislators",
   label: "Legislators",
-  folder: "_legislators/",
+  folder: "content/legislators/",
   create: true,
   slug: "{{first_name}}-{{last_name}}",
   identifier_field: "last_name",

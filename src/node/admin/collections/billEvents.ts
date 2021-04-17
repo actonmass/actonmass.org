@@ -4,7 +4,7 @@ export default {
   name: "bill_events",
   path: "{{bill}}/{{description}}",
   label: "Detailed bill events",
-  folder: "_bill_events/",
+  folder: "content/bill_events/",
   create: true,
   slug: "{{description}}",
   identifier_field: "description",
@@ -76,13 +76,15 @@ export default {
           label: "Yes vote description",
           name: "yes",
           widget: "string",
-          hint: "Example: Voted to send the [Safe Communities Act](/bills/safe-communities-act/) to study",
+          hint:
+            "Example: Voted to send the [Safe Communities Act](/bills/safe-communities-act/) to study",
         },
         {
           label: "No vote description",
           name: "no",
           widget: "string",
-          hint: "Example: Voted against sending the [Safe Communities Act](/bills/safe-communities-act/) to study",
+          hint:
+            "Example: Voted against sending the [Safe Communities Act](/bills/safe-communities-act/) to study",
         },
         {
           label: "Unknown vote description",
