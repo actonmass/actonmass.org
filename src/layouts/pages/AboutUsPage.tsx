@@ -2,6 +2,7 @@ import React from "react";
 import { graphql, PageProps } from "gatsby";
 import _ from "lodash";
 import ReactMarkdown from "react-markdown";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 import { BreadCrum, YoutubeVideo } from "../../components";
 import { BaseLayout } from "..";
@@ -12,9 +13,11 @@ type QueryProps = {
   page: GatsbyTypes.Page;
 };
 
-export default function BillsPage({ data }: PageProps<QueryProps>) {
+export default function AboutUsPage({ data }: PageProps<QueryProps>) {
   const page = data.page;
+  console.log(page);
   const frontmatter = (data.page.parent as any).frontmatter;
+  console.log(frontmatter);
   return (
     <BaseLayout>
       <div id="about_wrapper">
@@ -24,14 +27,18 @@ export default function BillsPage({ data }: PageProps<QueryProps>) {
 
             <h2 className="about_title fWhite fRegular fUppercase">what we do:</h2>
             <div className="top-container">
-              {frontmatter.map((section) => (
-                <div className="about_top top_box_{{forloop.index}}">
+              {frontmatter.header.map((section, idx) => (
+                <div className={`about_top top_box_${idx + 1}`}>
                   <div className="about_rect">
-                    <i className="about_icon fas fa-{{section.icon}} fa-3x"></i>
+                    <FontAwesomeIcon
+                      icon={["fas", `${section.icon}` as any]}
+                      className="about_icon"
+                      size="3x"
+                    />
                     <h3 className="fWhite fRegular fUppercase">{section.title}</h3>
                     <div className="about_rect1"></div>
                     <div className="fWhite fLight fRoboto">
-                      <ReactMarkdown source="section.description" />
+                      <ReactMarkdown source={section.description} />
                     </div>
                   </div>
                 </div>
@@ -50,7 +57,7 @@ export default function BillsPage({ data }: PageProps<QueryProps>) {
             <div id="bot_container">
               {frontmatter.team.map((person) => (
                 <div className="person">
-                  <img src="{{person.photo}}" alt="{{person.name}}" />
+                  <img src={person.photo} alt={person.name} />
                   <p className="fRoboto fBold fUppercase">{person.name}</p>
                   <p className="fRoboto fLight">{person.text}</p>
                 </div>
@@ -66,7 +73,7 @@ export default function BillsPage({ data }: PageProps<QueryProps>) {
 // TODO: will need to adapt when we switch to MDX
 export const query = graphql`
   query {
-    page(id: { eq: "about-us" }) {
+    page(id: { eq: "/about-us/" }) {
       id
       title
       parent {
@@ -76,6 +83,7 @@ export const query = graphql`
             header {
               title
               description
+              icon
             }
             team {
               link

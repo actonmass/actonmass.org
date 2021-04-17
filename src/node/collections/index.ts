@@ -47,7 +47,7 @@ const collections: Collections = {
     name: "Page",
     process: (page) => ({
       ...page,
-      id: page.permalink.replace(/\//g, "-").replace(/^-/, "").replace(/-$/, ""),
+      id: page.permalink,
     }),
   },
   posts: {
