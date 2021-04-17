@@ -14,7 +14,7 @@ type Props = {
 };
 
 export default function BillPage({ bill }: Props) {
-  const co_sponsors = new Set(bill.co_sponsors.map((leg) => leg.id));
+  const co_sponsors = new Set((bill.co_sponsors ?? []).map((leg) => leg.id));
   const committee = bill.committee;
   return (
     <BaseLayout title={bill.title}>
@@ -26,8 +26,8 @@ export default function BillPage({ bill }: Props) {
               links={[
                 { text: "Bills", href: "/bills" },
                 {
-                  text: bill.issue.title.toUpperCase(),
-                  href: bill.issue.href,
+                  text: bill.issue?.title?.toUpperCase() ?? "",
+                  href: bill.issue?.href ?? "",
                 },
               ]}
             />

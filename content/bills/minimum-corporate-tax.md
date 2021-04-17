@@ -6,7 +6,7 @@ house_no: HD3367
 house_link: https://malegislature.gov/Bills/192/HD3367
 senate_no: null
 senate_link: null
-issue: ""
+issue: "revenue"
 summary: []
 orgs: []
 co_sponsors:

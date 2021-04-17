@@ -1,15 +1,23 @@
 import React from "react";
 import ReactDOMServer from "react-dom/server";
-import L from "leaflet";
-import { Map, TileLayer, Marker, Popup } from "react-leaflet";
+import { MapContainer, TileLayer, Marker, Popup } from "react-leaflet";
 import "leaflet/dist/leaflet.css";
 
 const defaultZoom = 11;
-const defaultCenter = screen.width >= 700 ? [42.3587811, -71.2] : [42.3587811, -71.1];
 const tileURL =
   "https://api.mapbox.com/styles/v1/mapbox/streets-v11/tiles/{z}/{x}/{y}?access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpejY4NXVycTA2emYycXBndHRqcmZ3N3gifQ.rJcFIG214AriISLbB6B5aw";
 const attribution =
   'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.mapbox.com/">Mapbox</a>';
+
+let L;
+
+const isBrowser = typeof window != "undefined" && window != null;
+
+if (isBrowser) {
+  import("leaflet")
+    .then((obj) => (L = obj))
+    .catch((err) => console.error("Failed to import leaflet"));
+}
 
 function getIconClass(leg) {
   if (leg.style === "green") {
@@ -76,6 +84,10 @@ export default class LegislatorMap extends React.Component {
   }
 
   render() {
+    if (!isBrowser) {
+      return null;
+    }
+    const defaultCenter = screen.width >= 700 ? [42.3587811, -71.2] : [42.3587811, -71.1];
     const { data } = this.props;
     const refSize = this.state.refSize;
     return (
@@ -113,7 +125,7 @@ export default class LegislatorMap extends React.Component {
           </li>
         </ul>
         <div className="map-container darker">
-          <Map
+          <MapContainer
             ref={(ref) => {
               this.map = ref;
             }}
@@ -142,7 +154,7 @@ export default class LegislatorMap extends React.Component {
                   </Marker>
                 )
             )}
-          </Map>
+          </MapContainer>
         </div>
       </>
     );

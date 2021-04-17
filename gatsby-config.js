@@ -39,5 +39,6 @@ module.exports = {
         outputPath: `src/types/__generated__/gatsby-types.ts`,
       },
     },
+    "gatsby-plugin-react-leaflet",
   ],
 };

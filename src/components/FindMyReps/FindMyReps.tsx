@@ -21,6 +21,8 @@ export type Props = {
   mode?: "pledge" | "campaign" | "bill";
 };
 
+const isBrowser = typeof window != "undefined" && window != null;
+
 export default function FindMyReps({
   title,
   text,

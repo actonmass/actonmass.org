@@ -10,7 +10,7 @@ type Props = {
 
 export default function MapWrapper({ bill }: Props) {
   const legs = useLegislators() as GatsbyTypes.Legislator[];
-  const co_sponsors = new Set(bill.co_sponsors.map((leg) => leg.id));
+  const co_sponsors = new Set((bill.co_sponsors ?? []).map((leg) => leg.id));
   const data = legs.map((leg) => ({
     ...leg,
     img: leg.square_picture,
