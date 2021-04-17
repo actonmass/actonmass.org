@@ -3,7 +3,7 @@ layout: post
 title: 2020 Primary Endorsements
 date: 2020-08-10T19:47:11.920Z
 redirect_from:
-  - \2020PrimaryEndorsements
+  - /2020PrimaryEndorsements
 image: /img/facebook-endorsements-graphic.png
 ---
 If you’ve followed our coverage of the State House, you’ve seen how things are done. Important bills sit for months with no action, progressive legislation is frequently killed without a public vote, and decisions are made in secret. Session was extended this year to deal with the budget, but there’s almost no hope for any of the key bills we’ve been tracking -- like the Safe Communities Act, Healthy Youth Act, or repealing the statewide ban on rent control.

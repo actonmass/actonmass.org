@@ -2,8 +2,6 @@
 layout: post
 title: We need a safe school reopening
 date: 2020-08-27T20:07:52.459Z
-redirect_from:
-  - "Example: /covid"
 image: /img/school-reopening1.jpg
 ---
 Municipalities across the Commonwealth who have taken steps to protect teachers and students in absence of leadership from the governor or the Legislature by mandating remote classes, were undercut on Friday when [Education Commissioner Jeff Riley sent a memo recommending teachers working in remote school districts hold classes from inside their classrooms](https://www.wbur.org/edify/2020/08/21/massachusetts-remote-learning-teachers-in-classrooms-dese-guidance). Educators across the state have made it clear that physically going back to school is just not safe right now, and the state has responded in turn to prioritize returning to normal as soon as economically feasible over the safety of our children, of our teachers, and of school employees.

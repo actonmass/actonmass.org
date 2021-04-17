@@ -2,7 +2,6 @@
 layout: post
 title: Death by Default
 date: 2020-05-04T13:52:52.774Z
-redirect_from: []
 image: /img/hallway-with-window-1309902.jpg
 ---
 
