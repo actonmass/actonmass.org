@@ -12,15 +12,17 @@ type QueryProps = {
   allIssue: { nodes: GatsbyTypes.Issue[] };
 };
 
-export default function BillsPage({ data }: PageProps<QueryProps>) {
+export default function BillsPage({
+  data,
+  pageContext,
+}: PageProps<QueryProps, { title?: string }>) {
   const issues = data.allIssue.nodes;
   return (
-    // TODO: use gql to get the title
-    <BaseLayout title="Bills">
+    <BaseLayout title={pageContext.title}>
       <main className="bills-page">
         <section className="cbox headline">
           <div className="w1400">
-            <BreadCrum title="Bills" links={[]} />
+            <BreadCrum title={pageContext.title} links={[]} />
             <h1 className="fUppercase fBold">progressive bills</h1>
             <div className="list-bills">
               {issues.map((issue) => {
