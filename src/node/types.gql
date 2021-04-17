@@ -170,3 +170,12 @@ type Page implements Node @dontInfer {
   title: String
   layout: String
 }
+
+type Post implements Node @dontInfer {
+  title: String
+  date: Date
+  image: String
+
+  # Common calculated
+  fileName: String!
+}

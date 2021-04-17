@@ -51,7 +51,7 @@ const collections: Collections = {
     }),
   },
   posts: {
-    name: "Posts",
+    name: "Post",
     process: (post) => ({
       ...post,
       id: post.fileName,
