@@ -1,7 +1,6 @@
 import React from "react";
-import ReactDOM from "react-dom";
 
-import { Scripts, enrichLeg, Bill } from "../types";
+import { Scripts, Bill } from "../../types";
 import useSessionLegs from "../FindMyReps/useSessionLegs";
 
 import { RequestCosponsorship } from "./RequestCosponsorship";
@@ -11,7 +10,7 @@ type Props = {
   bill: Bill;
 };
 
-export function RequestCosponsorshipMyRep({ scripts, bill }: Props) {
+export function RequestCosponsorshipMyRep({ bill }: Props) {
   const legInfo = useSessionLegs();
   if (
     legInfo == null ||
@@ -20,12 +19,5 @@ export function RequestCosponsorshipMyRep({ scripts, bill }: Props) {
   ) {
     return null;
   }
-  return <RequestCosponsorship leg={legInfo.representative} bill={bill} scripts={scripts} />;
+  return <RequestCosponsorship leg={legInfo.representative} bill={bill} />;
 }
-
-function renderRequestCosponsorshipMyRep(targetID: string, data: Props) {
-  const targetEl = document.getElementById(targetID);
-  ReactDOM.render(<RequestCosponsorshipMyRep {...data} />, targetEl);
-}
-
-export default { renderRequestCosponsorshipMyRep };

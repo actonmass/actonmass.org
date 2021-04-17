@@ -1,11 +1,9 @@
 import axios from "axios";
 
-import { LegBase } from "../../types";
-
 export type Query = { city: string; streetAddress: string };
 export type QueryResult = {
-  senator?: LegBase;
-  representative?: LegBase;
+  senator?: GatsbyTypes.Legislator;
+  representative?: GatsbyTypes.Legislator;
 };
 
 export default function findReps(query: Query): Promise<QueryResult> {

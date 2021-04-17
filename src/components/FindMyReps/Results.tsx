@@ -6,20 +6,12 @@ import { QueryResult } from "./findReps";
 import Legislator from "./Legislator";
 import { Props as FindMyRepsProps } from "./FindMyReps";
 
-type Props = Pick<FindMyRepsProps, "bill" | "theme" | "showResultIfEmpty" | "scripts" | "mode"> & {
+type Props = Pick<FindMyRepsProps, "bill" | "theme" | "showResultIfEmpty" | "mode"> & {
   legInfo: QueryResult | null;
   error: string | null;
 };
 
-export default function Results({
-  legInfo,
-  bill,
-  theme,
-  showResultIfEmpty,
-  error,
-  scripts,
-  mode,
-}: Props) {
+export default function Results({ legInfo, bill, theme, showResultIfEmpty, error, mode }: Props) {
   if (!legInfo && !error && !showResultIfEmpty) {
     return null;
   }
@@ -31,7 +23,7 @@ export default function Results({
             Your legislators
           </h2>
           {legInfo ? (
-            <LegResults legInfo={legInfo} bill={bill} scripts={scripts} mode={mode} />
+            <LegResults legInfo={legInfo} bill={bill} mode={mode} />
           ) : error ? (
             <ErrorResults errorCode={error} />
           ) : (
@@ -46,9 +38,8 @@ export default function Results({
 function LegResults({
   legInfo,
   bill,
-  scripts,
   mode,
-}: Pick<Props, "bill" | "scripts" | "mode"> & { legInfo: QueryResult }) {
+}: Pick<Props, "bill" | "mode"> & { legInfo: QueryResult }) {
   const rep = legInfo.representative && {
     chamber: "house" as const,
     title: "rep",
@@ -61,8 +52,8 @@ function LegResults({
   };
   return (
     <div className="legislators">
-      <Legislator leg={rep} bill={bill} scripts={scripts} mode={mode} chamber="house" />
-      <Legislator leg={senator} bill={bill} scripts={scripts} mode={mode} chamber="senate" />
+      <Legislator leg={rep} bill={bill} mode={mode} chamber="house" />
+      <Legislator leg={senator} bill={bill} mode={mode} chamber="senate" />
     </div>
   );
 }

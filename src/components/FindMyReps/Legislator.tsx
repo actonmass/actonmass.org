@@ -1,4 +1,5 @@
 import React from "react";
+import _ from "lodash";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCheckCircle, faQuestionCircle, faTimesCircle } from "@fortawesome/free-solid-svg-icons";
@@ -6,22 +7,20 @@ import { faCheckCircle, faQuestionCircle, faTimesCircle } from "@fortawesome/fre
 import { RequestSupportCampaign } from "../Modals/RequestSupportCampaign";
 import { RequestSignPledge } from "../Modals/RequestSignPledge";
 import { RequestCosponsorship } from "../Modals/RequestCosponsorship";
-import { Leg, Bill, Scripts } from "../../types";
 
 type Props = {
-  leg: Leg | null | undefined;
+  leg: GatsbyTypes.Legislator;
   chamber: "house" | "senate";
-  bill?: Bill;
-  scripts: Scripts;
+  bill?: GatsbyTypes.Bill;
   mode?: "pledge" | "campaign" | "bill";
 };
 
-export default function Legislator({ leg, chamber, bill, scripts, mode }: Props) {
+export default function Legislator({ leg, chamber, bill, mode }: Props) {
   const legTitle = chamber === "house" ? "rep" : "senator";
   if (leg == null) {
     return <UnkonwnLeg legTitle={legTitle} />;
   }
-  const sponsored = bill != null && (bill.co_sponsors ?? []).includes(leg.aom_id);
+  const sponsored = bill != null && _.map(bill.co_sponsors, "id").includes(leg.aom_id);
 
   const getStatus = () => {
     switch (mode) {
@@ -54,7 +53,7 @@ export default function Legislator({ leg, chamber, bill, scripts, mode }: Props)
       <a href={leg.href} className="legislator">
         <h3 className="fUppercase fRegular">Your {legTitle}:</h3>
         <LegCircle leg={leg} status={status} />
-        <p className="fRoboto fLight">{leg.districtName}</p>
+        <p className="fRoboto fLight">{leg.district.name}</p>
         <p className="fUppercase">
           <FontAwesomeIcon icon={icon} />
           {statusText}
@@ -63,12 +62,12 @@ export default function Legislator({ leg, chamber, bill, scripts, mode }: Props)
       <div className="cbox btn-container">
         {bill == null ? (
           mode === "pledge" ? (
-            <RequestSignPledge leg={leg} scripts={scripts} />
+            <RequestSignPledge leg={leg} />
           ) : (
-            <RequestSupportCampaign leg={leg} scripts={scripts} />
+            <RequestSupportCampaign leg={leg} />
           )
         ) : (
-          <RequestCosponsorship leg={leg} bill={bill} scripts={scripts} />
+          <RequestCosponsorship leg={leg} bill={bill} />
         )}
       </div>
     </div>

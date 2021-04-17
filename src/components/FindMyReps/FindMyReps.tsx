@@ -1,7 +1,6 @@
 import _ from "lodash";
 import React, { useState } from "react";
 
-import { Bill, Scripts } from "../../types";
 import scrollTo from "../../utils/scrollTo";
 import useAllCurrentLegislators from "../useAllCurrentLegislators";
 
@@ -16,10 +15,10 @@ export type Props = {
   title?: string;
   text?: string;
   theme?: string;
-  showResultIfEmpty: boolean;
-  bill?: Bill;
+  allowSelect?: boolean;
+  showResultIfEmpty?: boolean;
+  bill?: GatsbyTypes.Bill;
   mode?: "pledge" | "campaign" | "bill";
-  scripts: Scripts;
 };
 
 export default function FindMyReps({
@@ -28,8 +27,8 @@ export default function FindMyReps({
   theme,
   bill,
   showResultIfEmpty,
-  scripts,
   mode,
+  allowSelect,
 }: Props) {
   const repInfo = useSessionLegs();
   const [error, setError] = useState(null);
@@ -59,26 +58,32 @@ export default function FindMyReps({
 
   return (
     <div id="find-my-reps">
-      <Form title={title} text={text} onSubmit={handleQueryReps} theme={theme} loading={loading} />
+      <Form
+        title={title}
+        text={text}
+        onSubmit={handleQueryReps}
+        theme={theme}
+        loading={loading}
+        allowSelect={allowSelect}
+      />
       <Results
         legInfo={repInfo}
         bill={bill}
         theme={theme}
         showResultIfEmpty={showResultIfEmpty}
         error={error}
-        scripts={scripts}
         mode={mode}
       />
     </div>
   );
 }
 
-type FormProps = Pick<Props, "title" | "text" | "theme"> & {
+type FormProps = Pick<Props, "title" | "text" | "theme" | "allowSelect"> & {
   loading: boolean;
   onSubmit: (query: Query) => void;
 };
 
-function Form({ title, text, onSubmit, theme, loading }: FormProps) {
+function Form({ title, text, onSubmit, theme, loading, allowSelect }: FormProps) {
   const [streetAddress, setStreetAddress] = useState("");
   const [city, setCity] = useState("");
   const legislators = useAllCurrentLegislators();
@@ -130,8 +135,12 @@ function Form({ title, text, onSubmit, theme, loading }: FormProps) {
                 }}
               />
             </div>
-            Or search a legislator by name:
-            <LegDropdown legislators={legislators} />
+            {allowSelect && (
+              <>
+                Or search a legislator by name:
+                <LegDropdown legislators={legislators} />
+              </>
+            )}
             <div className="cbox btn-container">
               <a className="btn btn_search" onClick={handleSubmit}>
                 <span className="hbox centered">

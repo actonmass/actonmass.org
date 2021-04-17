@@ -1,41 +1,44 @@
 import React from "react";
-import ReactDOM from "react-dom";
 import mapValues from "lodash/mapValues";
-import merge from "lodash/merge";
+import _ from "lodash";
 
-import { Bill, Scripts, Committee, LegBase, enrichLeg } from "../types";
+import { enrichLeg } from "../../types";
 import useSessionLegs from "../FindMyReps/useSessionLegs";
+import { default_bill_scripts_com_vote } from "../../content";
 
 import { ContactLegModal } from "./ContactLegModal";
-import { evalScripts } from "./evalScripts";
+import { evalScripts, merge } from "./evalScripts";
 
 type Props = {
-  bill: Bill;
-  scripts: Scripts;
-  committee: Committee;
+  bill: GatsbyTypes.Bill;
 };
 
-function isOnCommittee(committee: Committee, leg: LegBase | null | undefined) {
+function isOnCommittee(
+  committee: GatsbyTypes.Committee,
+  leg: GatsbyTypes.Legislator | null | undefined
+) {
   if (leg == null) {
     return false;
   }
   const legId = leg.aom_id;
   return [
-    committee.house_chair,
-    committee.house_vice_chair,
-    committee.senate_chair,
-    committee.senate_vice_chair,
-    ...(committee.senate_members ?? []),
-    ...(committee.house_members ?? []),
+    committee.house_chair.id,
+    committee.house_vice_chair.id,
+    committee.senate_chair.id,
+    committee.senate_vice_chair.id,
+    ...(_.map(committee.senate_members, "id") ?? []),
+    ...(_.map(committee.house_members, "id") ?? []),
   ].includes(legId);
 }
 
-function RequestCommitteeVote({ bill, committee, scripts: defaultRawScripts }: Props) {
+export function RequestCommitteeVote({ bill }: Props) {
   const legInfo = useSessionLegs();
   if (legInfo == null) {
     return null;
   }
-  const rawScripts = merge({}, defaultRawScripts, bill.scripts_com_vote);
+  const committee = bill.committee;
+  const rawScripts = merge(default_bill_scripts_com_vote, bill.scripts_com_vote);
+  console.log({ default_bill_scripts_com_vote, rawScripts });
   const { senator, representative } = mapValues(legInfo, enrichLeg);
   return (
     <div className="hbox" style={{ justifyContent: "space-evenly" }}>
@@ -56,10 +59,3 @@ function RequestCommitteeVote({ bill, committee, scripts: defaultRawScripts }: P
     </div>
   );
 }
-
-function renderRequestCommitteeVote(targetID: string, data: Props) {
-  const targetEl = document.getElementById(targetID);
-  ReactDOM.render(<RequestCommitteeVote {...data} />, targetEl);
-}
-
-export default { renderRequestCommitteeVote };

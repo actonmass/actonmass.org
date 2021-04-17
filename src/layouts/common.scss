@@ -448,8 +448,7 @@ td {
   }
 }
 
-// TODO: sus
-.fa-times {
+.close-button {
   justify-self: right;
   grid-row: 1;
   cursor: pointer;
@@ -508,7 +507,7 @@ td {
     text-align: left;
   }
 
-  .fa-times {
+  .svg-inline--fa {
     color: #235396;
     margin-right: 1rem;
   }

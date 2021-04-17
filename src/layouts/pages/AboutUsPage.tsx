@@ -15,9 +15,7 @@ type QueryProps = {
 
 export default function AboutUsPage({ data }: PageProps<QueryProps>) {
   const page = data.page;
-  console.log(page);
   const frontmatter = (data.page.parent as any).frontmatter;
-  console.log(frontmatter);
   return (
     <BaseLayout title={page.title}>
       <div id="about_wrapper">

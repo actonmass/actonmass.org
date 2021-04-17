@@ -1,25 +1,20 @@
 import React from "react";
-import ReactDOM from "react-dom";
 
-import { Scripts, LegBase, enrichLeg } from "../../types";
+import { enrichLeg } from "../../types";
+import { campaign_scripts } from "../../content";
 
 import { ContactLegModal } from "./ContactLegModal";
 import { evalScripts } from "./evalScripts";
 
 type Props = {
-  leg: LegBase;
-  scripts: Scripts;
+  leg: GatsbyTypes.Legislator;
   txt?: string;
 };
 
-export function RequestSupportCampaign({
-  leg: legBase,
-  scripts: rawScripts,
-  txt: customTxt,
-}: Props) {
+export function RequestSupportCampaign({ leg: legBase, txt: customTxt }: Props) {
   const leg = enrichLeg(legBase);
   const isThanks = leg.supports_the_campaign;
-  const scripts = evalScripts(rawScripts, { leg });
+  const scripts = evalScripts(campaign_scripts, { leg });
   const legTitleShort = leg.chamber === "house" ? "rep" : "sen.";
   const txt =
     customTxt ??
@@ -28,10 +23,3 @@ export function RequestSupportCampaign({
       : `Ask your ${legTitleShort} to support the campaign!`);
   return <ContactLegModal txt={txt} leg={leg} scripts={scripts} isThanks={isThanks} />;
 }
-
-function renderRequestSupportCampaign(targetID: string, data: Props) {
-  const targetEl = document.getElementById(targetID);
-  ReactDOM.render(<RequestSupportCampaign {...data} />, targetEl);
-}
-
-export default { renderRequestSupportCampaign };

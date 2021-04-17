@@ -46,6 +46,27 @@ export const query = graphql`
           id
           href
           title
+          twitter_bill_name
+          senate_no
+          house_no
+          scripts {
+            call_thanks
+            call_request
+            tweet_thanks
+            tweet_request
+            tweet_after_thanks_email
+            tweet_after_thanks_call
+            tweet_after_request_email
+            tweet_after_request_call
+            email_thanks {
+              subject
+              body
+            }
+            email_request {
+              subject
+              body
+            }
+          }
         }
       }
     }

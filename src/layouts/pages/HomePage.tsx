@@ -136,7 +136,7 @@ export default function Home({ data }) {
             </a>
           </div>
         </section>
-        <FindMyReps theme="light" mode="campaign" />
+        <FindMyReps theme="light" mode="campaign" allowSelect={true} />
       </main>
     </BaseLayout>
   );

@@ -3,6 +3,8 @@ import _ from "lodash";
 import ReactMarkdown from "react-markdown";
 
 import { HeroImage, LegCircle, FindMyReps, BreadCrum, BillHistory, Map } from "../../components";
+import { RequestCommitteeVote } from "../../components/Modals/RequestCommitteeVote";
+import { RequestCosponsorshipMyRep } from "../../components/Modals/RequestCosponsorshipMyRep";
 import BaseLayout from "../BaseLayout";
 
 import "./bill.scss";
@@ -162,7 +164,7 @@ export default function BillPage({ bill }: Props) {
                   </div>
                 )}
               </div>
-              {/* {% include modals/request-committee-vote.html bill=bill committee=committee %} */}
+              <RequestCommitteeVote bill={bill} />
             </div>
           </section>
         )}
@@ -174,7 +176,7 @@ export default function BillPage({ bill }: Props) {
               <Map bill={bill} />
             </div>
             <div className="cbox">
-              {/* {% include modals/request-co-sponsorship-my-rep.html bill=bill %} */}
+              <RequestCosponsorshipMyRep bill={bill} />
             </div>
           </div>
         </section>
@@ -185,7 +187,8 @@ export default function BillPage({ bill }: Props) {
               <h3 className="billpg_timeln_header fUppercase fExbold">
                 Timeline of bill during this session:
               </h3>
-              {/* {% include bill-timeline.html timeline = bill.timeline %} */}
+              {/* DISABLED FOR NOW
+              {% include bill-timeline.html timeline = bill.timeline %} */}
             </div>
           </section>
         )}

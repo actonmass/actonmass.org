@@ -6,6 +6,9 @@ import { faFacebookF, faTwitter } from "@fortawesome/free-brands-svg-icons";
 
 import BaseLayout from "../BaseLayout";
 import { BreadCrum } from "../../components";
+import { RequestSignPledge } from "../../components/Modals/RequestSignPledge";
+import { RequestSupportCampaign } from "../../components/Modals/RequestSupportCampaign";
+import { RequestCosponsorship } from "../../components/Modals/RequestCosponsorship";
 
 import "./legislator.scss";
 
@@ -85,24 +88,19 @@ export default function LegislatorPage({ leg, issues }: Props) {
                     <>
                       <img className="red_x" src="/img/red_x.png" alt="red X" />
                       <h5 className="leg_pledge_txt fWhite fRoboto fLight">
-                        Ask {legTitle}
-                        {leg.last_name} to sign the pledge!
+                        Ask {legTitle} {leg.last_name} to sign the pledge!
                       </h5>
                     </>
                   ) : (
                     <>
                       <img className="green_check" src="/img/green_check.png " alt="green check" />
                       <h5 className="leg_pledge_txt fWhite fRoboto fLight">
-                        {legTitle}
-                        {leg.last_name} signed the pledge!
+                        {legTitle} {leg.last_name} signed the pledge!
                       </h5>
                     </>
                   )}
                 </div>
-                {/* {% if leg.pledge == false %}
-          {% capture btn_txt %}contact {legTitle}{% endcapture %}
-            {% include modals/request-sign-pledge.html txt=btn_txt leg=leg %}
-          {% endif %} */}
+                {!leg.pledge && <RequestSignPledge leg={leg} txt={`Contact ${legTitle}`} />}
               </section>
             ) : (
               <section className="top-box top-box-b dark">
@@ -112,26 +110,23 @@ export default function LegislatorPage({ leg, issues }: Props) {
                 <div className="rect6">
                   {!leg.supports_the_campaign ? (
                     <>
-                      {/* <img className="red_x" src="/img/red_x.png" alt="red X" /> */}
+                      {false && <img className="red_x" src="/img/red_x.png" alt="red X" />}
                       <h5 className="leg_pledge_txt fWhite fRoboto fLight">
-                        Ask {legTitle}
-                        {leg.last_name} to support the campaign!
+                        Ask {legTitle} {leg.last_name} to support the campaign!
                       </h5>
                     </>
                   ) : (
                     <>
                       <img className="green_check" src="/img/green_check.png " alt="green check" />
                       <h5 className="leg_pledge_txt fWhite fRoboto fLight">
-                        {legTitle}
-                        {leg.last_name} supports the campaign!
+                        {legTitle} {leg.last_name} supports the campaign!
                       </h5>
                     </>
                   )}
                 </div>
-                {/* {% if leg.supports_the_campaign != true %}
-          {% capture btn_txt %}contact {legTitle}{% endcapture %}
-            {% include modals/request-support-campaign.html txt=btn_txt leg=leg %}
-          {% endif %} */}
+                {!leg.supports_the_campaign && (
+                  <RequestSupportCampaign leg={leg} txt={`Contact ${legTitle}`} />
+                )}
               </section>
             )}
 
@@ -177,8 +172,8 @@ export default function LegislatorPage({ leg, issues }: Props) {
             </ul>
 
             <div className="tab-content darker">
-              {/* DISABLED FOR NOW */}
-              {/* <div id="tab1" data-tab-content className="active">
+              {/* DISABLED FOR NOW
+              <div id="tab1" data-tab-content className="active">
                 {% assign votes = leg.votes | sort:"date" | reverse %}
           {% for vote in votes %}
           <div className="item_1">
@@ -224,9 +219,12 @@ export default function LegislatorPage({ leg, issues }: Props) {
                             </p>
 
                             {!sponsored && (
-                              <>
-                                {/* {% include modals/request-co-sponsorship.html txt="request co-sponsorship" style="S" leg=leg bill=bill %} */}
-                              </>
+                              <RequestCosponsorship
+                                bill={bill}
+                                style="S"
+                                leg={leg}
+                                txt="Request co-sponsorship"
+                              />
                             )}
                           </div>
                         );
@@ -236,28 +234,8 @@ export default function LegislatorPage({ leg, issues }: Props) {
                 })}
               </div>
 
-              {/*
-            <h3 className="cosponsor_title fWhite fRoboto fRegular">{{issue.title}}</h3>
-            {% for bill_id in bills %}
-            {% assign bill = site.data.cache.bills_by_id[bill_id] %}
-            <div className="item_1">
-              {% if leg.cosponsored_bills contains bill_id %}
-                <img className="green_check" src="/img/green_check.png" alt="green check">
-              {% else %}
-                <img className="red_x" src="/img/red_x.png" alt="red x">
-              {% endif %}
-              <p className="fWhite fLight"><a href="{{bill.id}}">{{bill.title}}</a></p>
-              {% unless leg.cosponsored_bills contains bill_id %}
-                {% include modals/request-co-sponsorship.html txt="request co-sponsorship" style="S" leg=leg bill=bill %}
-              {% endunless %}
-            </div>
-            {% endfor %}
-
-
-          }
-              </div>
-              {/* DISABLED FOR NOW */}
-              {/* <div id="tab3" data-tab-content>
+              {/*  DISABLED FOR NOW
+              <div id="tab3" data-tab-content>
                 <p className="quote_text fWhite fRegular">No quote yet!</p>
               </div> */}
             </div>

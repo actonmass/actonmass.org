@@ -6,14 +6,14 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faEnvelope, faPhone, faTimes } from "@fortawesome/free-solid-svg-icons";
 import { faTwitter } from "@fortawesome/free-brands-svg-icons";
 
-import { LegBase, Scripts, enrichLeg } from "../../types";
+import { Scripts, enrichLeg } from "../../types";
 
 Modal.setAppElement("body");
 
 type Props = {
   txt: string;
   style?: string;
-  leg: LegBase;
+  leg: GatsbyTypes.Legislator;
   scripts: Scripts;
   isThanks?: boolean;
 };
@@ -129,7 +129,7 @@ export function ContactLegModal({ txt, leg: legBase, scripts, style, isThanks = 
   }
 
   return (
-    <>
+    <div>
       <a
         className={`btn contact-modal ${style === "S" ? "btn-sm" : ""}`}
         onClick={() => setIsOpen(true)}
@@ -139,16 +139,16 @@ export function ContactLegModal({ txt, leg: legBase, scripts, style, isThanks = 
       <Modal
         isOpen={modalIsOpen}
         onRequestClose={closeModal}
-        className={`modal contact-leg-modal`}
+        className="modal"
         overlayClassName="modal-overlay"
       >
         <div className="modal-header">
-          <FontAwesomeIcon icon={faTimes} size="lg" onClick={closeModal} />
+          <FontAwesomeIcon icon={faTimes} size="2x" onClick={closeModal} className="close-button" />
         </div>
 
         {renderModalContent()}
       </Modal>
-    </>
+    </div>
   );
 }
 

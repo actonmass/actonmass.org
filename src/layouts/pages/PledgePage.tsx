@@ -1,9 +1,9 @@
 import React from "react";
 import { graphql, PageProps } from "gatsby";
 import _ from "lodash";
-import ReactMarkdown from "react-markdown";
 
 import { BreadCrum, HeroImage, FindMyReps, LegCircle } from "../../components";
+import { RequestSignPledgeMyRep } from "../../components/Modals";
 import { BaseLayout } from "..";
 
 import "./pledge.scss";
@@ -55,7 +55,7 @@ export default function PledgePage({ data }: PageProps<QueryProps>) {
                 action to create transparency today so important progressive bills don’t die in
                 darkness.
               </h4>
-              {/* {% include modals/request-sign-pledge-my-rep.html unique_id="after-pledge-presentation" %} */}
+              <RequestSignPledgeMyRep />
             </div>
           </div>
         </section>
@@ -70,17 +70,17 @@ export default function PledgePage({ data }: PageProps<QueryProps>) {
             </h4>
             <div className="legislator-grid">
               {reps.map((rep) => (
-                <LegCircle rep={rep} size="L" status="ok" />
+                <LegCircle key={rep.href} rep={rep} size="L" status="ok" />
               ))}
             </div>
             <h4 className="pledge_leg_subtitle fRaleway fUppercase fRegular">state senators:</h4>
             <div className="legislator-grid">
               {sens.map((sen) => (
-                <LegCircle rep={sen} size="L" status="ok" />
+                <LegCircle key={sen.href} rep={sen} size="L" status="ok" />
               ))}
             </div>
             <div className="cbox">
-              {/* {% include modals/request-sign-pledge-my-rep.html unique_id="after-current-signatories" %} */}
+              <RequestSignPledgeMyRep />
             </div>
           </div>
         </section>
@@ -90,7 +90,7 @@ export default function PledgePage({ data }: PageProps<QueryProps>) {
             <h3 className="pledge_endorse_title fUppercase fBold">endorsing organizations:</h3>
             <div className="pledge-endorse-container">
               {frontmatter.endorsing_orgs.map((org) => (
-                <img className="endorse_img" src={org.img} alt={org.title} />
+                <img key={org.img} className="endorse_img" src={org.img} alt={org.title} />
               ))}
             </div>
           </div>

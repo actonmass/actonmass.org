@@ -26,6 +26,42 @@ export const query = graphql`
         description
         type
       }
+      scripts {
+        call_thanks
+        call_request
+        tweet_thanks
+        tweet_request
+        tweet_after_thanks_email
+        tweet_after_thanks_call
+        tweet_after_request_email
+        tweet_after_request_call
+        email_thanks {
+          subject
+          body
+        }
+        email_request {
+          subject
+          body
+        }
+      }
+      scripts_com_vote {
+        call_thanks
+        call_request
+        tweet_thanks
+        tweet_request
+        tweet_after_thanks_email
+        tweet_after_thanks_call
+        tweet_after_request_email
+        tweet_after_request_call
+        email_thanks {
+          subject
+          body
+        }
+        email_request {
+          subject
+          body
+        }
+      }
       committee {
         title
         chamber
@@ -92,6 +128,7 @@ export const query = graphql`
       summary
       text
       title
+      twitter_bill_name
       co_sponsors {
         id
       }

@@ -1,32 +1,3 @@
-const chambers = ["house", "senate"] as const;
-
-type Chamber = typeof chambers[number];
-
-type LegId = string;
-
-export type LegBase = {
-  aom_id: LegId;
-  facebook?: string;
-  first_name: string;
-  last_name: string;
-  twitter?: string;
-  phone?: string;
-  email?: string;
-  party: string;
-  href: string;
-  district: string;
-  img: string;
-  pledge: boolean;
-  supports_the_campaign: boolean;
-  chamber: "house" | "senate";
-  // Injected only for FindMyReps
-  districtName?: string;
-};
-
-export type Leg = LegBase & {
-  title: string;
-};
-
 export type Bill = {
   article?: string;
   title: string;
@@ -53,31 +24,10 @@ export type EmailScript = {
   body: string;
 };
 
-export type Committee = {
-  aom_id: LegId;
-  title: string;
-  chamber: Chamber | "joint";
-  house_chair?: LegId;
-  house_members?: LegId[];
-  house_vice_chair?: LegId;
-  malegislature_url?: string;
-  senate_chair?: LegId;
-  senate_members?: LegId[];
-  senate_vice_chair?: LegId;
-};
-
-export function enrichLeg(leg: LegBase): Leg {
-  const chamber = leg.chamber;
-  if (!isChamber(chamber)) {
-    throw new Error(`Invalid district: ${leg.district}`);
-  }
-  const title = chamber == "house" ? "rep" : "sen";
+export function enrichLeg(leg: GatsbyTypes.Legislator) {
+  const title = leg.chamber == "house" ? "rep" : "sen";
   return {
     ...leg,
     title,
   };
-}
-
-function isChamber(chamber: string): chamber is Chamber {
-  return chambers.includes(chamber as Chamber);
 }

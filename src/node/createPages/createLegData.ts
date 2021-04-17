@@ -11,6 +11,7 @@ export default async function createLegData(graphql) {
           first_name
           last_name
           href
+          chamber
           district {
             name
           }

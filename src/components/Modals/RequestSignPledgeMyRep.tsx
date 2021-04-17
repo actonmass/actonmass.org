@@ -1,36 +1,26 @@
 import React from "react";
-import ReactDOM from "react-dom";
 
-import { Scripts, LegBase, enrichLeg } from "../types";
 import useSessionLegs from "../FindMyReps/useSessionLegs";
+import scrollTo from "../../utils/scrollTo";
+import { pledge_scripts } from "../../content";
 
 import { RequestSignPledge } from "./RequestSignPledge";
 
-import scrollTo from "../scrollTo";
-
-type Props = {
-  scripts: Scripts;
-};
-
-export function RequestSignPledgeMyRep({ scripts }: Props) {
+export function RequestSignPledgeMyRep() {
   const legInfo = useSessionLegs();
   const txt = "Ask your rep to sign";
+
   if (legInfo == null) {
     return (
-      <a className="btn" onClick={() => scrollTo("leg-search")}>
-        {txt}
-      </a>
+      <div>
+        <a className="btn" onClick={() => scrollTo("leg-search")}>
+          {txt}
+        </a>
+      </div>
     );
   }
   if (legInfo.representative == null || legInfo.representative.pledge) {
     return null;
   }
-  return <RequestSignPledge txt={txt} leg={legInfo.representative} scripts={scripts} />;
+  return <RequestSignPledge txt={txt} leg={legInfo.representative} scripts={pledge_scripts} />;
 }
-
-function renderRequestSignPledgeMyRep(targetID: string, data: Props) {
-  const targetEl = document.getElementById(targetID);
-  ReactDOM.render(<RequestSignPledgeMyRep {...data} />, targetEl);
-}
-
-export default { renderRequestSignPledgeMyRep };

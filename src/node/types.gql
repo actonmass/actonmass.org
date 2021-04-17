@@ -102,6 +102,24 @@ type BillTimelineItem {
   description: String
 }
 
+type EmailScript {
+  subject: String
+  body: String
+}
+
+type Script {
+  tweet_request: String
+  tweet_thanks: String
+  call_request: String
+  call_thanks: String
+  tweet_after_request_call: String
+  tweet_after_thanks_call: String
+  email_request: EmailScript
+  email_thanks: EmailScript
+  tweet_after_request_email: String
+  tweet_after_thanks_email: String
+}
+
 type Bill implements Node @dontInfer {
   aom_id: String!
 
@@ -125,9 +143,8 @@ type Bill implements Node @dontInfer {
   history: [BillHistoryItem]
   text: String
   timeline: [BillTimelineItem]
-  # scripts
-  # scripts_com_vote
-  # votes
+  scripts: Script
+  scripts_com_vote: Script
 
   # Common calculated
   fileName: String!

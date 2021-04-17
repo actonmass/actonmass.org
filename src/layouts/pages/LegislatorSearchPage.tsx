@@ -15,7 +15,7 @@ export default function LegislatorSearchPage({ pageContext }: PageProps<{}, { ti
             <BreadCrum title={pageContext.title} />
           </div>
         </section>
-        <FindMyReps theme="dark" showResultsIfEmpty={true} mode="campaign" />
+        <FindMyReps theme="dark" showResultsIfEmpty={true} mode="campaign" allowSelect={true} />
       </div>
     </BaseLayout>
   );
