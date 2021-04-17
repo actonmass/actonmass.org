@@ -2,7 +2,7 @@ import React from "react";
 import _ from "lodash";
 import { graphql } from "gatsby";
 
-import { BillPage as BillPageComponent } from "../../layouts";
+import BillPageComponent from "../../layouts/pages/BillPage";
 
 export default function BillPage({ data }) {
   return <BillPageComponent bill={data.bill} />;

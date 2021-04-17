@@ -2,7 +2,7 @@ import React from "react";
 import _ from "lodash";
 import { graphql } from "gatsby";
 
-import { IssuePage as IssuePageComponent } from "../../layouts";
+import IssuePageComponent from "../../layouts/pages/IssuePage";
 
 export default function IssuePage({ data }) {
   return <IssuePageComponent issue={data.issue} />;

@@ -2,7 +2,7 @@ import React from "react";
 import _ from "lodash";
 import { graphql, PageProps } from "gatsby";
 
-import { LegislatorPage as LegislatorPageComponent } from "../../layouts";
+import LegislatorPageComponent from "../../layouts/pages/LegislatorPage";
 
 type QueryProps = {
   legislator: GatsbyTypes.Legislator;
