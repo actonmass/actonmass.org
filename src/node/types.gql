@@ -205,6 +205,7 @@ type Post implements Node @dontInfer {
   title: String
   date: Date
   image: String
+  redirect_from: [String]
 
   # Common calculated
   fileName: String!

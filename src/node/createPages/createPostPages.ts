@@ -1,7 +1,7 @@
 import path from "path";
 import _ from "lodash";
 
-export default async function createPostPages(graphql, createPage) {
+export default async function createPostPages(graphql, createPage, createRedirect) {
   return graphql(
     `
       {
@@ -13,6 +13,7 @@ export default async function createPostPages(graphql, createPage) {
             fileName
             href
             image
+            redirect_from
             parent {
               ... on MarkdownRemark {
                 html
@@ -51,6 +52,19 @@ export default async function createPostPages(graphql, createPage) {
         component,
         context,
       });
+
+      if (!_.isEmpty(post.redirect_from)) {
+        post.redirect_from.forEach((redir) => {
+          console.log("\n\nCreate redirect between", redir, post.href);
+
+          createRedirect({
+            fromPath: redir,
+            toPath: post.href,
+            isPermanent: true,
+            redirectInBrowser: true,
+          });
+        });
+      }
     });
   });
 }

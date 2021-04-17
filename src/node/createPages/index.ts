@@ -8,10 +8,10 @@ import createPostPages from "./createPostPages";
 import createBlogPages from "./createBlogPages";
 
 export default async function createPages({ graphql, actions }) {
-  const { createPage } = actions;
+  const { createPage, createRedirect } = actions;
   buildAdminConfig();
   await createLegData(graphql);
   await createPagePages(graphql, createPage);
-  await createPostPages(graphql, createPage);
+  await createPostPages(graphql, createPage, createRedirect);
   await createBlogPages(graphql, createPage);
 }

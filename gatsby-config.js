@@ -40,7 +40,7 @@ module.exports = {
       },
     },
     "gatsby-plugin-react-leaflet",
-    "gatsby-redirect-from",
     "gatsby-plugin-meta-redirect",
+    "gatsby-plugin-netlify",
   ],
 };
