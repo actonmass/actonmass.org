@@ -7,3 +7,4 @@ export { default as BreadCrum } from "./BreadCrum";
 export { default as BillHistory } from "./BillHistory";
 export { default as LegCircle } from "./LegCircle";
 export { default as Map } from "./Map";
+export { default as YoutubeVideo } from "./YoutubeVideo";
