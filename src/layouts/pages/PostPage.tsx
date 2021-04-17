@@ -17,7 +17,6 @@ type PageContext = {
 } & ({ html: string; body: undefined } | { body: any; html: undefined });
 
 export default function PostPage({ pageContext: page }: PageProps<{}, PageContext>) {
-  console.log(page);
   return (
     <BaseLayout>
       <main className="default-page cbox light-blue">

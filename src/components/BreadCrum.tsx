@@ -16,7 +16,7 @@ export default function BreadCrum({ title, links }: Props) {
       </li>
 
       {links.map((link) => (
-        <li>
+        <li key={link.href}>
           <a href={link.href}>{link.text}</a>
         </li>
       ))}

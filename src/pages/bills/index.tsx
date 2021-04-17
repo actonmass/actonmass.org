@@ -43,7 +43,7 @@ export default function BillsPage({ data }: PageProps<QueryProps>) {
                         (bill) =>
                           !bill.hidden && (
                             <h4 className="bill fRoboto">
-                              <a href={bill.id}>{bill.title}</a>
+                              <a href={bill.href}>{bill.title}</a>
                             </h4>
                           )
                       )}

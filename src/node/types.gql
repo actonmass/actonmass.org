@@ -90,6 +90,18 @@ type District implements Node @dontInfer {
   href: String!
 }
 
+type BillHistoryItem {
+  date: Date
+  description: String
+  type: String
+  bill_event: BillEvent @link
+}
+
+type BillTimelineItem {
+  date: Date
+  description: String
+}
+
 type Bill implements Node @dontInfer {
   aom_id: String!
 
@@ -101,7 +113,7 @@ type Bill implements Node @dontInfer {
   house_link: String
   senate_no: String
   senate_link: String
-  committee: String
+  committee: Committee @link
   issue: Issue @link
   img: String
   summary: [String]
@@ -110,11 +122,12 @@ type Bill implements Node @dontInfer {
   senate_lead_sponsors: [Legislator] @link
   co_sponsors: [Legislator] @link
   hidden: Boolean
+  history: [BillHistoryItem]
+  text: String
+  timeline: [BillTimelineItem]
   # scripts
-  # timeline
-  # votes
   # scripts_com_vote
-  # history
+  # votes
 
   # Common calculated
   fileName: String!
@@ -138,7 +151,7 @@ type Committee implements Node @dontInfer {
   href: String!
 }
 
-type BillEVentVoteDesc {
+type BillEventVoteDesc {
   yes: String
   no: String
   unk: String
@@ -157,7 +170,7 @@ type BillEvent implements Node @dontInfer {
   bill: Bill @link
   progressive_vote: String
   type: String
-  vote_descriptions: BillEVentVoteDesc
+  vote_descriptions: BillEventVoteDesc
   votes: [BillEventVote]
 
   # Common calculated
