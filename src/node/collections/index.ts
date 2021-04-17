@@ -55,6 +55,8 @@ const collections: Collections = {
     process: (post) => ({
       ...post,
       id: post.fileName,
+      href: getPostPath(post),
+      date: getPostDate(post),
     }),
   },
   bill_events: {
@@ -64,3 +66,17 @@ const collections: Collections = {
 };
 
 export default collections;
+
+function getPostPath(post) {
+  const [year, month, day, ...titleBits] = post.fileName.split("-");
+  const title = _.kebabCase(titleBits.join("-"));
+  return `/post/${year}/${month}/${day}/${title}`;
+}
+
+function getPostDate(post) {
+  if (post.date != null) {
+    return post.date;
+  }
+  const [year, month, day, ...titleBits] = post.fileName.split("-");
+  return [year, month, day].join("-");
+}

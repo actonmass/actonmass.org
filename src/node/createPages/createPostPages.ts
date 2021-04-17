@@ -11,6 +11,7 @@ export default async function createPostPages(graphql, createPage) {
             title
             date
             fileName
+            href
             parent {
               ... on MarkdownRemark {
                 html
@@ -34,28 +35,20 @@ export default async function createPostPages(graphql, createPage) {
       const prevPost = result.data.allPost.nodes[idx - 1];
       const nextPost = result.data.allPost.nodes[idx + 1];
 
-      const [year, month, day, ...other] = post.fileName.split("-");
-
       const context = {
         body: post.parent.body,
         html: post.parent.html,
-        date: post.date ?? [year, month, day].join("-"),
+        date: post.date,
         title: post.title,
-        ...(prevPost && { previous: { title: prevPost.title, url: getPath(prevPost) } }),
-        ...(nextPost && { next: { title: nextPost.title, url: getPath(nextPost) } }),
+        ...(prevPost && { previous: { title: prevPost.title, url: prevPost.href } }),
+        ...(nextPost && { next: { title: nextPost.title, url: nextPost.href } }),
       };
 
       createPage({
-        path: getPath(post),
+        path: post.href,
         component,
         context,
       });
     });
   });
-}
-
-function getPath(post) {
-  const [year, month, day, ...titleBits] = post.fileName.split("-");
-  const title = _.kebabCase(titleBits.join("-"));
-  return `/post/${year}/${month}/${day}/${title}`;
 }

@@ -178,4 +178,5 @@ type Post implements Node @dontInfer {
 
   # Common calculated
   fileName: String!
+  href: String!
 }
