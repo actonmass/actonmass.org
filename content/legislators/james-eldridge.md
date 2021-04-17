@@ -10,4 +10,5 @@ party: D
 phone: 617-722-1120
 square_picture: /img/legislators/square-pictures/james-eldridge.jpg
 ocd_id: ocd-person/23704722-a50c-4148-8f14-98c7d78324b9
+pledge: true
 ---

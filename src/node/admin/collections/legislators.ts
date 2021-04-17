@@ -42,6 +42,12 @@ export default {
       default: false,
     },
     {
+      label: "Signed the pledge",
+      name: "pledge",
+      widget: "boolean",
+      default: false,
+    },
+    {
       label: "Party",
       name: "party",
       widget: "select",

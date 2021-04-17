@@ -11,4 +11,5 @@ phone: 617-722-1555
 square_picture: /img/legislators/square-pictures/rebecca-rausch.jpg
 ocd_id: ocd-person/fb97b139-c0dd-41b5-ae52-159528f47b11
 twitter: Becca_Rausch
+pledge: true
 ---
