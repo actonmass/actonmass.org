@@ -26,6 +26,64 @@ export const query = graphql`
         description
         type
       }
+      committee {
+        title
+        chamber
+        senate_chair {
+          id
+          href
+          square_picture
+          first_name
+          last_name
+          party
+          hometown
+        }
+        senate_vice_chair {
+          id
+          href
+          square_picture
+          first_name
+          last_name
+          party
+          hometown
+        }
+        senate_members {
+          id
+          href
+          square_picture
+          first_name
+          last_name
+          party
+          hometown
+        }
+        house_chair {
+          id
+          href
+          square_picture
+          first_name
+          last_name
+          party
+          hometown
+        }
+        house_vice_chair {
+          id
+          href
+          square_picture
+          first_name
+          last_name
+          party
+          hometown
+        }
+        house_members {
+          id
+          href
+          square_picture
+          first_name
+          last_name
+          party
+          hometown
+        }
+      }
       house_link
       house_no
       img
@@ -34,6 +92,9 @@ export const query = graphql`
       summary
       text
       title
+      co_sponsors {
+        id
+      }
     }
   }
 `;

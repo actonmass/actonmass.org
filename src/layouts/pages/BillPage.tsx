@@ -1,20 +1,20 @@
 import React from "react";
 import _ from "lodash";
 import ReactMarkdown from "react-markdown";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faPlus } from "@fortawesome/free-solid-svg-icons";
 
-import { HeroImage, SignupForm, FindMyReps, BreadCrum, BillHistory } from "../../components";
+import { HeroImage, LegCircle, FindMyReps, BreadCrum, BillHistory } from "../../components";
 import BaseLayout from "../BaseLayout";
 
 import "./bill.scss";
-import { text } from "@fortawesome/fontawesome-svg-core";
 
 type Props = {
   bill: GatsbyTypes.Bill;
 };
 
 export default function BillPage({ bill }: Props) {
+  const co_sponsors = new Set(bill.co_sponsors.map((leg) => leg.id));
+  const committee = bill.committee;
+  console.log(bill.committee);
   return (
     <BaseLayout>
       <main className="bill-page">
@@ -70,115 +70,95 @@ export default function BillPage({ bill }: Props) {
           mode="bill"
         />
 
-        {/* {% if committee %}
-  <section className="decision-makers dark cbox">
-    <div className="w1400">
-      <h2 className="billpg_decision_header fWhite fBold fUppercase">the decision makers</h2>
-      <h3 className="billpg_decision_header1  fWhite fRegular">{{committee.title}}</h3>
-      <div className="cbox">
-        <div className="rect_underline1"></div>
-      </div>
-      <h4 className="billpg_decision_header2 fUppercase fWhite fRaleway fBold">Who on committee has co-sponsored:</h4>
-      <div className="committee-block {{committee.chamber}}">
-        {% if committee.chamber != "house" %}
-        <div className="senators vbox">
-          <h4 className="fUppercase fWhite fRaleway fRegular">state senators:</h4>
-          {% assign senate_chair = site.data.cache.legislators_by_id[committee.senate_chair] %}
-          {% if  bill.co_sponsors contains committee.senate_chair %}
-              {% assign senate_chair_status = 'ok' %}
-          {% else %}
-              {% assign senate_chair_status = 'ko' %}
-          {% endif %}
-
-          {% assign senate_vice_chair = site.data.cache.legislators_by_id[committee.senate_vice_chair] %}
-          {% if  bill.co_sponsors contains committee.senate_vice_chair %}
-          {% assign senate_vice_chair_status = 'ok' %}
-          {% else %}
-          {% assign senate_vice_chair_status = 'ko' %}
-          {% endif %}
-
-          <div className="chairs hbox">
-            {% if senate_chair %}
-              <div className="vbox">
-                {% include leg-circle.html rep=senate_chair status=senate_chair_status size='L' %}
-                <p className="fRoboto fWhite fBold fUppercase">chair</p>
+        {bill.committee != null && (
+          <section className="decision-makers dark cbox">
+            <div className="w1400">
+              <h2 className="billpg_decision_header fWhite fBold fUppercase">
+                the decision makers
+              </h2>
+              <h3 className="billpg_decision_header1  fWhite fRegular">{bill.committee.title}</h3>
+              <div className="cbox">
+                <div className="rect_underline1"></div>
               </div>
-            {% endif %}
-            {% if senate_vice_chair %}
-              <div className="vbox">
-                {% include leg-circle.html rep=senate_vice_chair status=senate_vice_chair_status size='L' %}
-                <p className="fRoboto fWhite fBold fUppercase">vice-chair</p>
+              <h4 className="billpg_decision_header2 fUppercase fWhite fRaleway fBold">
+                Who on committee has co-sponsored:
+              </h4>
+              <div className={`committee-block ${committee.chamber}`}>
+                {bill.committee.chamber !== "house" && (
+                  <div className="senators vbox">
+                    <h4 className="fUppercase fWhite fRaleway fRegular">state senators:</h4>
+
+                    <div className="chairs hbox">
+                      {committee.senate_chair && (
+                        <div className="vbox">
+                          <LegCircle
+                            rep={committee.senate_chair}
+                            status={co_sponsors.has(committee.senate_chair.id) ? "ok" : "ko"}
+                            size="L"
+                          />
+                          <p className="fRoboto fWhite fBold fUppercase">chair</p>
+                        </div>
+                      )}
+
+                      {committee.senate_vice_chair && (
+                        <div className="vbox">
+                          <LegCircle
+                            rep={committee.senate_vice_chair}
+                            status={co_sponsors.has(committee.senate_vice_chair.id) ? "ok" : "ko"}
+                            size="L"
+                          />
+                          <p className="fRoboto fWhite fBold fUppercase">chair</p>
+                        </div>
+                      )}
+                    </div>
+
+                    <div className="members">
+                      {committee.senate_members.map((member) => (
+                        <LegCircle rep={member} status={co_sponsors.has(member.id) ? "ok" : "ko"} />
+                      ))}
+                    </div>
+                  </div>
+                )}
+                {bill.committee.chamber !== "senate" && (
+                  <div className="reps vbox">
+                    <h4 className="fUppercase fWhite fRaleway fRegular">state representatives:</h4>
+
+                    <div className="chairs hbox">
+                      {committee.house_chair && (
+                        <div className="vbox">
+                          <LegCircle
+                            rep={committee.house_chair}
+                            status={co_sponsors.has(committee.house_chair.id) ? "ok" : "ko"}
+                            size="L"
+                          />
+                          <p className="fRoboto fWhite fBold fUppercase">chair</p>
+                        </div>
+                      )}
+
+                      {committee.house_vice_chair && (
+                        <div className="vbox">
+                          <LegCircle
+                            rep={committee.house_vice_chair}
+                            status={co_sponsors.has(committee.house_vice_chair.id) ? "ok" : "ko"}
+                            size="L"
+                          />
+                          <p className="fRoboto fWhite fBold fUppercase">chair</p>
+                        </div>
+                      )}
+                    </div>
+
+                    <div className="members">
+                      {committee.house_members.map((member) => (
+                        <LegCircle rep={member} status={co_sponsors.has(member.id) ? "ok" : "ko"} />
+                      ))}
+                    </div>
+                  </div>
+                )}
               </div>
-            {% endif %}
-          </div>
-
-
-          <div className="members">
-            {% for member_id in committee.senate_members %}
-            {% assign rep = site.data.cache.legislators_by_id[member_id] %}
-              {% if bill.co_sponsors contains member_id %}
-                {% assign status = 'ok' %}
-              {% else %}
-                {% assign status = 'ko' %}
-              {% endif %}
-              {% include leg-circle.html rep=rep status=status %}
-            {% endfor %}
-          </div>
-        </div>
-        {% endif %}
-        {% if committee.chamber != "senate" %}
-        <div className="reps vbox">
-          <h4 className="fUppercase fWhite fRaleway fRegular">state representatives:</h4>
-
-          {% assign house_chair = site.data.cache.legislators_by_id[committee.house_chair] %}
-          {% if  bill.co_sponsors contains committee.house_chair %}
-              {% assign house_chair_status = 'ok' %}
-          {% else %}
-              {% assign house_chair_status = 'ko' %}
-          {% endif %}
-
-          {% assign house_vice_chair = site.data.cache.legislators_by_id[committee.house_vice_chair] %}
-          {% if  bill.co_sponsors contains committee.house_vice_chair %}
-          {% assign house_vice_chair_status = 'ok' %}
-          {% else %}
-          {% assign house_vice_chair_status = 'ko' %}
-          {% endif %}
-
-          <div className="chairs hbox">
-            {% if house_chair %}
-              <div className="vbox">
-                {% include leg-circle.html rep=house_chair status=house_chair_status size='L' %}
-                <p className="fRoboto fWhite fBold fUppercase">chair</p>
-              </div>
-            {% endif %}
-            {% if house_vice_chair %}
-              <div className="vbox">
-                {% include leg-circle.html rep=house_vice_chair status=house_vice_chair_status size='L' %}
-                <p className="fRoboto fWhite fBold fUppercase">vice-chair</p>
-              </div>
-            {% endif %}
-          </div>
-
-          <div className="members">
-            {% for member_id in committee.house_members %}
-            {% assign rep = site.data.cache.legislators_by_id[member_id] %}
-              {% if bill.co_sponsors contains member_id %}
-                {% assign status = 'ok' %}
-              {% else %}
-                {% assign status = 'ko' %}
-              {% endif %}
-              {% include leg-circle.html rep=rep status=status %}
-            {% endfor %}
-
-          </div>
-
-        </div>
-        {% endif %}
-      </div>
-      {% include modals/request-committee-vote.html bill=bill committee=committee %}
-    </div>
-  </section>
-  {% endif %} */}
+              {/* {% include modals/request-committee-vote.html bill=bill committee=committee %} */}
+            </div>
+          </section>
+        )}
 
         <section className="map cbox">
           <div className="w1400">
@@ -192,14 +172,16 @@ export default function BillPage({ bill }: Props) {
           </div>
         </section>
 
-        <section className="timeline light-blue cbox">
-          <div className="w1400">
-            <h3 className="billpg_timeln_header fUppercase fExbold">
-              Timeline of bill during this session:
-            </h3>
-            {/* {% include bill-timeline.html timeline = bill.timeline %} */}
-          </div>
-        </section>
+        {false && (
+          <section className="timeline light-blue cbox">
+            <div className="w1400">
+              <h3 className="billpg_timeln_header fUppercase fExbold">
+                Timeline of bill during this session:
+              </h3>
+              {/* {% include bill-timeline.html timeline = bill.timeline %} */}
+            </div>
+          </section>
+        )}
         {!_.isEmpty(bill.history) && (
           <section className="history medium-blue cbox">
             <div className="w1400">
