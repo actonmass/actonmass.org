@@ -1,15 +1,13 @@
 # https://actonmass.org
 
+### _Lot of content here is obsolete, will try to update soon_
+
 ## Content edition
 
 ### What to edit
 
-The website content is located in the following directories:
-- [`_pages`](/_pages) for general pages
-- [`_posts`](/_posts) for blog posts
-- [`_issues`](/_issues) for issues
-- [`img`](/img) for images and pictures
-- [`assets`](/assets) for assets, such as PDF documents
+_TODO_
+
 
 ### Syntax
 
@@ -72,7 +70,7 @@ Pages layout (HTML and CSS) can be edited in the following places:
 
 All branches (draft versions of the website) are automatically deployed to preview changes. A branch named `test` would be deployed on the domain https://test--actonmass.netlify.com/.
 
-Branch deployment should not take more than 2 minutes.
+Branch deployment should not take more than 6 minutes.
 If a deployment doesn't work, logs can be checked on [Netlify](https://app.netlify.com/sites/actonmass/deploys) (requires login).
 
 
@@ -80,7 +78,6 @@ If a deployment doesn't work, logs can be checked on [Netlify](https://app.netli
 
 To build and serve locally
 ```
-npm install
-npm run dev
+yarn clean && yarn develop
 ```
 
