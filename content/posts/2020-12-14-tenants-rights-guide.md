@@ -4,8 +4,7 @@ title: Tenants Rights Guide
 date: 2020-12-14T19:03:20.220Z
 image: /img/triple-decker.jpg
 ---
-{: style="text-align: center" }
-## Worried about eviction?
+<CenteredTitle txt="Worried about eviction?"/>
 
 27% of renters in Massachusetts are currently at risk of eviction, and the courts are set to be overloaded with eviction cases this winter and beyond. We’re in a pandemic that has forced many into financial ruin, and this is nothing to be ashamed of. There’s help.
 
@@ -19,8 +18,7 @@ If you exercise your legal rights in any way (contacting the Board of Health, jo
 
 If you are a Section 8 tenant or you live in a building under your local Housing Authority, you may have different rights and responsibilities than those summarized in this section. Contact the agency that provided the subsidy.
 
-{: style="text-align: center" }
-## How do evictions work?
+<CenteredTitle txt="How do evictions work?"/>
 
 First, your landlord must provide you with a ‘Notice to Quit’ **in writing**. The notice must state two things:
 
@@ -29,13 +27,12 @@ First, your landlord must provide you with a ‘Notice to Quit’ **in writing**
 
 The landlord is only allowed to file a case in housing court after the date listed on the Notice to Quit. Afterwards, they are required to file what’s called a ‘Summons and Complaint’ in court and give you a copy before your first court date. They can only get the court order to evict you if they win the case.
 
-{: style="text-align: center" }
-### These rules still apply even if you don’t have a written lease!
+
+<CenteredTitle txt="These rules still apply even if you don’t have a written lease!" level="3"/>
 
 Once you receive a court date, it’s important that you attend. If you don't attend your court date, the judge has a right to grant your landlord the eviction and will almost certainly do so, even if you have a legal defense.
 
-{: style="text-align: center" }
-## What can I do?
+<CenteredTitle txt="What can I do?"/>
 
 If you have received a Notice to Quit, donʼt panic. This is only the beginning of the process, not the end. You have time. Start collecting evidence to prepare for the legal battle, and contact legal services as soon as possible. You can find legal aid in your area [here](https://masslrf.org/en/home).
 
@@ -45,8 +42,7 @@ You should also demand information and documents from your landlord through Disc
 
 (If it turns out you missed your first court date, it’s not too late! In many cases, you may be allowed to file a late Answer. Talk to a lawyer as soon as possible.)
 
-{: style="text-align: center" }
-## Common Legal Defenses Against Eviction
+<CenteredTitle txt="Common Legal Defenses Against Eviction"/>
 
 **Bad conditions**
 -   Do you have pests? Does the plumbing leak? Are any locks broken? Does cold air seep in through the windows? If your apartment has problems or, and your landlord knows or should know about them, you are owed for the loss in value of the home. You have the right to a safe, sanitary home. You can call your local Inspectional Services Department for more information about the sanitary code or to request an inspection.
@@ -60,8 +56,7 @@ You should also demand information and documents from your landlord through Disc
 **Interference with the quiet enjoyment of your home**
 -   Does the landlord barge into your apartment in non-emergency situations without warning you? Did they change the locks on you, or put your stuff out onto the street? Depending on the facts of the case, this may count as an illegal eviction!
 
-{: style="text-align: center" }
-## Federal/CDC Eviction Ban
+<CenteredTitle txt="Federal/CDC Eviction Ban"/>
 
 The Center for Disease Control has ordered the suspension of physical evictions for non-payment of rent until December 31, 2020. If you meet all 5 points of criteria below, you can submit the CDC declaration form to your landlord to protect yourself from eviction and to use as a legal tool in court:
 

@@ -60,9 +60,7 @@ A few of the amendments, like amendment #23 have “further” amendments filed 
 
 This is completely unnecessary confusion, because the MA State Senate provides an example of how to link to the votes in question right on the main page of the bill, making the process easier for regular voters to get involved:
 
-![S9SenateVote.JPG](/img/S9SenateVote_JPG.png)
-(From [https://malegislature.gov/Bills/191/S9](https://malegislature.gov/Bills/191/S9)  )
-{: .centered-image }
+<CenteredImage img="/img/S9SenateVote_JPG.png" alt="S9SenateVote.JPG" txt="(From [https://malegislature.gov/Bills/191/S9](https://malegislature.gov/Bills/191/S9)  )" />
 
 ### 3. “Sent to Study”
 
@@ -85,9 +83,7 @@ Of the 275 items that the Committee on Public Safety & Homeland Security reporte
 Voters would be better served by Committees actually exercising their power to vote bills up or down and go on the record supporting or opposing certain bills. There are indeed bills introduced by conservative Republicans who you would expect the legislature to kill. Why are legislators shirking their duty?
 
 ​
-![SafeCommReport.JPG](/img/SafeCommReport_JPG.png)
-It only takes less than 50 words to kill a bill!
-{: .centered-image }
+<CenteredImage img="/img/SafeCommReport_JPG.png" alt="SafeCommReport.JPG" txt="It only takes less than 50 words to kill a bill!" />
 
 
 ### 4. Committee Reports - no info!
@@ -102,8 +98,7 @@ The public deserves to know what information led a committee to decide one way o
 
 Additionally, when the committee advances or kills legislation, they don’t have to give a reason. When the Safe Communities Act was killed (by “sending to study”), there was a 7 line study order that made no reference to the reason for the bill’s failure.
 
-![FullSafeCommReport.JPG](/img/FullSafeCommReport_JPG.png)
-{: .centered-image }
+<CenteredImage img="/img/FullSafeCommReport_JPG.png" alt="FullSafeCommReport.JPG" />
 
 We don't know why the 19 member committee voted to kill the bill. We don't have any public report on who testified against the bill​.
 

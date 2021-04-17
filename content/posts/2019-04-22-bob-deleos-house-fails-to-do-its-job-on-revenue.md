@@ -5,9 +5,7 @@ image: /img/posts/withdrawn-amendment.jpg
 ---
 
 
-![Amendment #1357 withdrawn without debate, without a vote, without any action](/img/posts/withdrawn-amendment.jpg)
-Amendment #1357 withdrawn without debate, without a vote, without any action
-{: .centered-image }
+<CenteredImage img="/img/posts/withdrawn-amendment.jpg" alt="Amendment #1357 withdrawn without debate, without a vote, without any action" txt="Amendment #1357 withdrawn without debate, without a vote, without any action" />
 
 Today, as the Massachusetts House of Representatives debated revenue-raising amendments to the state budget, the legislative culture that has come under criticism in recent months was again on display.
 

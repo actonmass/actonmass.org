@@ -2,26 +2,17 @@ import React from "react";
 import { Helmet } from "react-helmet";
 import Modal from "react-modal";
 import "semantic-ui-css/semantic.min.css";
-import HubspotForm from "react-hubspot-form";
 import { MDXProvider } from "@mdx-js/react";
 
 import { Header, Footer } from "../components";
 import { generalSettings } from "../content";
+import MdxComponents from "../components/MDXComponents";
 
 import "./misc.scss";
 import "./common.scss";
 import "./leg-circle.scss";
 
 Modal.setAppElement("body");
-
-const CenteredBlock = ({ children }) => <div className="centered">{children}</div>;
-const CenteredImage = ({ img, alt }) => (
-  <p className="centered">
-    <img src={img} alt={alt ?? ""} />
-  </p>
-);
-
-const components = { CenteredBlock, HubspotForm, CenteredImage };
 
 type Props = {
   children: any;
@@ -58,7 +49,7 @@ export default function BaseLayout({ children, title, image }: Props) {
         />
       </Helmet>
       <Header />
-      <MDXProvider components={components}>{children}</MDXProvider>
+      <MDXProvider components={MdxComponents}>{children}</MDXProvider>
       <Footer />
     </>
   );

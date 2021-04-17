@@ -34,18 +34,14 @@ Everyone has heard the joke about "Taxachusetts" but the reality is far more com
 
 ### 1. Massachusetts has seen the third largest decrease in taxes of any state over the last 40 years.
 
-![MA among states with the largest tax decreases](/img/posts/tax-decrease.png)
-From [MassBudget Report](http://www.massbudget.org/report_window.php?loc=How-Has-the-Level-of-Taxes-in-Massachusetts-Changed-Compared-to-Other-States.html)
-{: .centered-image }
+<CenteredImage img="/img/posts/tax-decrease.png" alt="MA among states with the largest tax decreases" txt="From [MassBudget Report](http://www.massbudget.org/report_window.php?loc=How-Has-the-Level-of-Taxes-in-Massachusetts-Changed-Compared-to-Other-States.html)" />
 
 
 ### 2. These tax decreases have gone disproportionately to the richest in our society.
 
 The Top 20% of income earners have taken 67% of all the tax gains, and the poorest 20% have gotten almost no tax relief
 
-![Top 20% gets two thirds of income tax cuts benefits](/img/posts/income-tax-cuts.png)
-From [MassBudget Report](http://www.massbudget.org/report_window.php?loc=Income-Tax-Cuts-Cost-Massachusetts-Over-$4-Billion-Annually.html)
-{: .centered-image }
+<CenteredImage img="/img/posts/income-tax-cuts.png" alt="Top 20% gets two thirds of income tax cuts benefits" txt="From [MassBudget Report](http://www.massbudget.org/report_window.php?loc=Income-Tax-Cuts-Cost-Massachusetts-Over-$4-Billion-Annually.html)" />
 
 
 ### 3. The wealthiest 1% in MA are paying a dramatically lower share of their income in taxes
@@ -58,9 +54,7 @@ MassBudget puts the situation in stark terms:
 
 Source: [MassBudget Report: 14 Options for Raising Progressive Revenue](http://massbudget.org/report_window.php?loc=14-Options-for-Raising-Progressive-Revenue.html)
 
-![Highest income taxpayers pay smaller share of income in state and local taxes](/img/posts/highest-income-taxpayer.png)
-From [MassBudget Report](http://massbudget.org/report_window.php?loc=Who-Pays-Low-and-Middle-Earners-in-Massachusetts-Pay-Larger-Share-of-their-Incomes-in-Taxes.html)
-{: .centered-image }
+<CenteredImage img="/img/posts/highest-income-taxpayer.png" alt="Highest income taxpayers pay smaller share of income in state and local taxes" txt="From [MassBudget Report](http://massbudget.org/report_window.php?loc=Who-Pays-Low-and-Middle-Earners-in-Massachusetts-Pay-Larger-Share-of-their-Incomes-in-Taxes.html)" />
 
 
 ### 4. We are underfunding critical programs like education
