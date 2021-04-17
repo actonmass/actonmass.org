@@ -1,0 +1,57 @@
+# CircleCI 2.0 configuration file. See <https://circleci.com/docs/2.0/language-ruby/>.
+version: 2
+jobs:
+  build:
+    docker:
+      - image: circleci/node:12.9.1-buster
+
+    steps:
+      - checkout
+      - restore_cache:
+          key: general-cache-v2
+      - restore_cache:
+          key: node-cache-{{ checksum "package.json" }}
+
+      - run:
+          name: Install Node dependencies
+          command: yarn
+
+      - run:
+          name: Install html5validator
+          command: |
+            sudo apt-get update
+            sudo apt-get install -y python-pip
+            pip install --user --upgrade html5validator  # will install in $HOME/.local
+
+      - save_cache:
+          key: general-cache-v2
+          paths:
+            - $HOME/.local
+
+      - save_cache:
+          key: node-cache-{{ checksum "package.json" }}
+          paths:
+            - ./node_modules
+
+      - run:
+          name: Compile website
+          command: yarn build
+
+      - run:
+          name: Check homepage was compiled
+          command: test -s public/index.html
+
+      - run:
+          name: Validate HTML spec compliance
+          command: $HOME/.local/bin/html5validator --root _site --ignore iframe anima-src
+
+      - run:
+          name: Start server
+          command: yarn serve
+          background: true
+      - run:
+          name: Wait for server to start
+          command: |
+            while ! curl --silent http://localhost:9000
+            do sleep 1
+            done
