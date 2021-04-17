@@ -55,8 +55,6 @@ export default async function createPostPages(graphql, createPage, createRedirec
 
       if (!_.isEmpty(post.redirect_from)) {
         post.redirect_from.forEach((redir) => {
-          console.log("\n\nCreate redirect between", redir, post.href);
-
           createRedirect({
             fromPath: redir,
             toPath: post.href,

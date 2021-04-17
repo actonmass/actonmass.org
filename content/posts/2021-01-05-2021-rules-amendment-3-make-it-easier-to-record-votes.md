@@ -6,17 +6,19 @@ image: /img/amendment3rollcallgraphic.jpg
 ---
 ## What does the amendment do?
 
-* It lowers the number of Reps required to force a vote to be recorded from 16 to 8.
+* It lowers the number of Reps required to force a vote to be recorded from 16 to 8
+.
 
 You can read the full language of our amendment [here](https://actonmass.org/assets/RulesAmendment3.pdf).
 
 ## How do we stack up to other states?
 
-Floor votes are not recorded in the Massachusetts House of Representatives unless 16 reps stand and request it, creating a huge barrier to votes being recorded. And even though we're a blue state with a Democratic supermajority, we have a higher threshold than 40 other states!
+Floor votes are not recorded in the Massachusetts House of Representatives unless 16 reps stand and request it, creating a huge barrier to votes being recorded
+. And even though we're a blue state with a Democratic supermajority, we have a higher threshold than 40 other states!
 
 (In the chart below, Massachusetts is ranked behind 3 other states who also require 16 Reps in normal circumstances, because state house rules require a set percentage of elected representatives while these other states require a percentage of present representatives. Reps are not always present in session every time a vote is recorded, so in circumstances where several Reps aren't present, there would be fewer reps required to stand for roll call.)
 
-<img src="/img/rollcallchart2.JPG" alt="MA has a higher threshold than 40 other states" style="width:600px;">
+<img src="/img/rollcallchart2.JPG" alt="MA has a higher threshold than 40 other states" style="width:600px;"/>
 
 ## Why does this matter?
 
@@ -69,4 +71,5 @@ A number of Reps have already signed up to support this amendment, but we are he
 
 - Asking reps to support these amendments doesn't at all imply that we mistrust them! We want to be up front about what we expect to see changed, and unless reps have a good argument why you oppose this change, we'd like to see them commit to supporting it.
 
-Want to know who's committed to vote in favor of Amendment #3 so far? You can learn more at [www.ActOnMass.org/the-campaign](https://www.actonmass.org/the-campaign).
+Want to know who's committed to vote in favor of Amendment #3 so far? You can learn more at [www.ActOnMass.org/the-campaign](https://www.actonmass.org/the-campaign)
+.

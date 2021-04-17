@@ -3,7 +3,7 @@ import collections from "./collections";
 export default function onCreateNode({ node, createContentDigest, getNode, actions }) {
   const { createNode } = actions;
 
-  if (node.internal.type !== `MarkdownRemark` && node.internal.type !== `Mdx`) {
+  if (node.internal.type !== `Mdx`) {
     return null;
   }
 

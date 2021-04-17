@@ -28,7 +28,7 @@ Because some committees are governed by the House Rules and others are governed 
 
 27 states make committee votes public on their legislature's website.
 
-<img src="/img/rules1map.png" alt="27 States make committee votes public on the website" style="width:600px;">
+<img src="/img/rules1map.png" alt="27 States make committee votes public on the website" style="width:600px;"/>
 
 ------------------------
 
@@ -76,7 +76,7 @@ Over 13 Reps have already signed up to support this amendment, but we are hearin
 
 * The MA Senate already displays committee votes in a clear and easy to read format. Here's an example:
 
-<img src="/img/rule1senateexample.png" alt="MA Senate puts committee votes online" style="width:600px;">
+<img src="/img/rule1senateexample.png" alt="MA Senate puts committee votes online" style="width:600px;"/>
 
 
 

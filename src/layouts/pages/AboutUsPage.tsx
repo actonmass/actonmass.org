@@ -68,7 +68,6 @@ export default function AboutUsPage({ data }: PageProps<QueryProps>) {
   );
 }
 
-// TODO: will need to adapt when we switch to MDX
 export const query = graphql`
   query {
     page(id: { eq: "/about-us/" }) {
@@ -76,7 +75,7 @@ export const query = graphql`
       title
       parent {
         id
-        ... on MarkdownRemark {
+        ... on Mdx {
           frontmatter {
             header {
               title
