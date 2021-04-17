@@ -56,10 +56,9 @@ export default function IssuePage({ issue }: Props) {
                 <div className="failure" key={failure.title}>
                   <div className="rect_sideline"></div>
                   <h4 className="fRoboto fBold fUppercase">{failure.title}</h4>
-                  <p className="fRoboto fLight">
+                  <div className="fRoboto fLight">
                     <ReactMarkdown source={failure.text} />
-                    {/* TODO: we used to remove <p> and </p> in Liquid. Need something similar? */}
-                  </p>
+                  </div>
                 </div>
               ))}
             </div>

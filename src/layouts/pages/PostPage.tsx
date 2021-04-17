@@ -28,7 +28,6 @@ export default function PostPage({ pageContext: page }: PageProps<{}, PageContex
           <div className="w1000 content">
             <div className="blog-post">
               <div className="post-header">
-                {/*  TODO: need smartify? */}
                 <h2 className="fUppercase fExbold">{page.title}</h2>
                 <p className="post-date fLight">Posted on {formatDate(page.date)}</p>
               </div>

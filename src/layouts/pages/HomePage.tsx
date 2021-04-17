@@ -77,7 +77,6 @@ export default function Home({ data }) {
                 <div className="issue-content">
                   <FontAwesomeIcon icon={["fas", `${issue.logo}` as any]} />
                   <i className="fa fa-{{ issue.logo }}"></i>
-                  {/* TODO: needs smartify ? */}
                   <h3>{issue.title}</h3>
                   <p>{issue.subtitle}</p>
                 </div>
