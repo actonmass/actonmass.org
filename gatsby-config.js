@@ -13,7 +13,13 @@ module.exports = {
       },
     },
     "gatsby-plugin-react-helmet",
-    "gatsby-plugin-mdx",
+    {
+      resolve: "gatsby-plugin-mdx",
+      options: {
+        extensions: [".mdx", ".md"],
+      },
+    },
+
     "gatsby-plugin-sharp",
     "gatsby-transformer-sharp",
     "gatsby-plugin-typescript",
