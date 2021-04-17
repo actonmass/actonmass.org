@@ -13,7 +13,7 @@ import {
 export default {
   backend: {
     name: "git-gateway",
-    branch: "gatsby",
+    branch: "next",
     // publish_mode: editorial_workflow // Deactivate on next since we are still collection data and don't want to go through a PR for each change
   },
   local_backend: true,
