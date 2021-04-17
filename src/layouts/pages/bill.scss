@@ -1,0 +1,406 @@
+.bill-page {
+  .headline {
+    padding-top: 0;
+    .headline-container {
+      display: grid;
+      grid-template-areas:
+        "hero_title"
+        "hero_a"
+        "hero_b";
+
+      @media (min-width: 700px) {
+        grid-template-areas:
+          "hero_title hero_a "
+          "hero_b hero_a ";
+      }
+    }
+
+    .billpg_title {
+      grid-area: hero_title;
+      align-self: end;
+      padding: 0;
+      z-index: 1;
+      text-align: center;
+
+      @media (min-width: 700px) {
+        margin-bottom: 0;
+        text-align: left;
+      }
+
+      h2 {
+        text-transform: uppercase;
+      }
+    }
+
+    .billpg_hero_a {
+      grid-area: hero_a;
+      max-width: 30rem;
+      justify-self: center;
+
+      @media (min-width: 700px) {
+        max-width: 50rem;
+        justify-self: inherit;
+      }
+    }
+
+    .billpg_hero_b {
+      grid-area: hero_b;
+      align-self: center;
+      margin-bottom: -2rem;
+
+      @media (min-width: 700px) {
+        max-width: 40rem;
+        box-sizing: unset;
+      }
+
+      li {
+        margin-bottom: 2rem;
+      }
+    }
+  }
+
+  .history {
+    h2 {
+      margin-bottom: 2rem;
+    }
+    .event-container,
+    .year-container {
+      display: grid;
+      grid-template-columns: 1fr;
+
+      @media (min-width: 700px) {
+        grid-template-columns: 2fr 1fr 2fr;
+      }
+    }
+
+    .year-rect {
+      background-color: var(--primary);
+      border-radius: 1rem;
+      text-align: center;
+      padding: 1rem;
+      justify-self: center;
+      box-sizing: unset;
+      height: 3rem;
+      width: 20rem;
+      font-size: 2rem;
+
+      @media (min-width: 700px) {
+        grid-column-start: 2;
+      }
+
+      &.small {
+        width: 10rem;
+        height: 2rem;
+      }
+    }
+
+    .history-line {
+      display: grid;
+      min-height: 5rem;
+      grid-area: 1 / 1;
+
+      @media (min-width: 700px) {
+        grid-column-start: 2;
+      }
+
+      .cbox {
+        grid-area: 1 / 1;
+        width: 100%;
+        height: 100%;
+      }
+
+      .bill_hist_circ {
+        height: 3rem;
+        width: 3rem;
+        background-color: #eca632;
+        border-radius: 50%;
+        display: none;
+
+        @media (min-width: 700px) {
+          display: initial;
+        }
+      }
+
+      .hist_line {
+        width: 0.5rem;
+        height: 100%;
+        background-color: #eca632;
+      }
+    }
+
+    .event-description {
+      grid-area: 1 / 1;
+      justify-self: center;
+      width: min(36rem, 100%);
+      padding: 1rem;
+      background-color: var(--light);
+      border-radius: 1rem;
+      flex-wrap: nowrap;
+      justify-content: space-between;
+      margin: 4rem 0;
+
+      @media (min-width: 700px) {
+        grid-column-start: 1;
+        justify-self: end;
+      }
+
+      .event-text,
+      i,
+      .svg-inline--fa {
+        margin: 0;
+      }
+
+      &.death {
+        background-color: #780116;
+        color: var(--light);
+      }
+
+      .fa-skull-crossbones {
+        color: #56ccf2;
+        align-self: center;
+      }
+    }
+
+    .event-container.odd .event-description {
+      @media (min-width: 700px) {
+        grid-column-start: 3;
+        justify-self: start;
+      }
+    }
+
+    .event-container + .event-container {
+      .event-description {
+        @media (max-width: 699px) {
+          margin-top: 0;
+        }
+      }
+    }
+  }
+
+  .btn {
+    margin-bottom: 3rem;
+  }
+}
+
+/*--------------------- BILL PAGE / SEARCH RESULTS------------------------*/
+
+.leg_img {
+  height: 15rem;
+}
+
+.billpg_result_rep {
+  padding-top: 10rem;
+  justify-self: center;
+}
+
+.billpg_result_sen {
+  padding-top: 10rem;
+  justify-self: center;
+}
+
+.fa-check-circle {
+  margin: 0rem 1rem 0rem 0rem;
+  color: #5fad41;
+}
+
+.fa-times-circle {
+  margin: 0rem 1rem 0rem 0rem;
+  color: #780116;
+}
+
+.bill-page .decision-makers {
+  h2,
+  h3 {
+    text-align: center;
+  }
+
+  .billpg_decision_header {
+    padding: 0 0rem 1rem 0rem;
+  }
+
+  .billpg_decision_header2 {
+    padding: 3rem 0rem 1rem 0;
+    text-align: center;
+
+    @media (min-width: 700px) {
+      padding-left: 20rem;
+      text-align: left;
+    }
+  }
+
+  .rect_underline1 {
+    height: 0.5rem;
+    width: 80%;
+    background-color: #56ccf2;
+    margin-top: 2rem;
+  }
+
+  .committee-block {
+    &.joint {
+      display: grid;
+
+      grid-template-areas:
+        "senators"
+        "reps";
+
+      .senators,
+      .reps {
+        .members {
+          grid-template-columns: auto auto auto;
+        }
+      }
+      @media (min-width: 700px) {
+        grid-template-areas: "senators reps";
+
+        .senators {
+          grid-area: senators;
+          padding-right: 10rem;
+        }
+
+        .reps {
+          grid-area: reps;
+        }
+
+        .reps .members {
+          grid-template-columns: auto auto auto auto;
+        }
+      }
+    }
+
+    h4 {
+      margin-bottom: 1.5rem;
+    }
+
+    .senators,
+    .reps {
+      padding-top: 3rem;
+      padding-bottom: 5rem;
+
+      .chairs {
+        justify-content: space-evenly;
+        margin-bottom: 4rem;
+
+        p {
+          text-align: center;
+        }
+      }
+
+      .members {
+        display: grid;
+        grid-column-gap: 1rem;
+        grid-row-gap: 1rem;
+        grid-template-columns: auto auto auto;
+
+        @media (min-width: 700px) {
+          grid-template-columns: repeat(6, auto);
+        }
+      }
+    }
+
+    .reps {
+      padding-left: 0rem;
+    }
+  }
+}
+
+/*--------------------- BILL PAGE / MISC ------------------------*/
+
+.btn_inactive {
+  background-color: #bdbdbd;
+  color: #4f4f4f;
+}
+
+.btn_inactive:hover {
+  background-color: #bdbdbd;
+}
+
+section.map {
+  h3 {
+    margin-bottom: 1.5rem;
+
+    @media (min-width: 700px) {
+      margin-bottom: 3rem;
+    }
+  }
+
+  .map-block {
+    border-radius: 1rem;
+    width: 100%;
+    margin-bottom: 5rem;
+
+    .tab a {
+      display: block;
+      width: 100%;
+      text-decoration: none;
+    }
+
+    .map-container {
+      padding-top: 1rem;
+      padding-bottom: 0.5rem;
+
+      @media (min-width: 700px) {
+        padding-top: 5rem;
+        padding-left: 7.5rem;
+        padding-right: 7.5rem;
+        padding-bottom: 5rem;
+      }
+    }
+
+    .leaflet-container {
+      height: 90vh;
+      @media (min-width: 700px) {
+        height: 600px;
+      }
+      width: 100%;
+      margin-bottom: 20px;
+      z-index: 0;
+    }
+  }
+}
+
+/*----------- BILL PAGE / TIMELINE ------------------------*/
+
+.timeline {
+  text {
+    font-size: 1.6rem;
+  }
+}
+
+.billpg_timeln_header {
+  text-align: center;
+  padding-bottom: 3rem;
+
+  @media (min-width: 700px) {
+    padding-left: 20rem;
+    padding-right: 20rem;
+    padding-bottom: 5rem;
+    text-align: left;
+  }
+}
+
+@keyframes buttonTransition {
+  0% {
+    r: 10;
+  }
+  14% {
+    r: 13;
+  }
+  28% {
+    r: 10;
+  }
+  42% {
+    r: 13;
+  }
+  70% {
+    r: 10;
+  }
+}
+
+.today-dot {
+  animation-delay: 2s;
+  animation-duration: 2s;
+  animation-fill-mode: both;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-name: buttonTransition;
+}

@@ -1,0 +1,204 @@
+.pledge-page {
+  // The image already has transparent padding included
+  .dotted-image .image-container {
+    padding-top: 0;
+    padding-left: 0;
+  }
+
+  .headline {
+    padding-top: 0;
+    h1 {
+      text-align: center;
+      text-transform: uppercase;
+      padding-top: 2rem;
+      font-size: 1.8rem;
+
+      @media (min-width: 700px) {
+        padding: 0;
+        font-size: 5rem;
+      }
+    }
+
+    .hero_box_a {
+      max-width: 30rem;
+      justify-self: center;
+      box-sizing: unset;
+
+      @media (min-width: 700px) {
+        padding: 2rem 0 0 0rem;
+        max-width: 50rem;
+      }
+    }
+
+    .hero_box_b {
+      max-width: 30rem;
+      display: grid;
+      justify-self: center;
+      box-sizing: unset;
+
+      @media (min-width: 700px) {
+        padding: 5rem 0rem 0 0;
+        max-width: 45rem;
+      }
+
+      .pledge_hero_text {
+        display: grid;
+        grid-template-rows: auto auto;
+        align-content: center;
+      }
+
+      .hero_quote {
+        opacity: 0.3;
+        font-size: 6em;
+        align-self: end;
+        justify-self: right;
+      }
+
+      .hero_quote_txt {
+        align-self: center;
+        text-align: left;
+        max-width: 33rem;
+        justify-self: right;
+      }
+    }
+  }
+
+  .the-pledge {
+    .pledge_box_a {
+      display: grid;
+      max-width: 30rem;
+      justify-self: center;
+      box-sizing: unset;
+
+      @media (min-width: 700px) {
+        padding: 0 5rem 0 0;
+        max-width: 50rem;
+      }
+
+      .pledge {
+        justify-self: center;
+        max-height: 40rem;
+      }
+    }
+
+    .pledge_box_b {
+      display: grid;
+      grid-template-rows: repeat(4, auto);
+      grid-template-columns: 1fr;
+      max-width: 30rem;
+      justify-self: center;
+      box-sizing: unset;
+      padding-top: 5rem;
+
+      @media (min-width: 700px) {
+        max-width: 45rem;
+      }
+
+      .small_rect {
+        height: 0.5rem;
+        width: 10rem;
+        margin: 1rem 0rem 1rem 0rem;
+        background-color: #eca632;
+        align-self: end;
+
+        @media (min-width: 700px) {
+          height: 1rem;
+          width: 10rem;
+          background-color: #eca632;
+          align-self: end;
+        }
+      }
+    }
+
+    .btn_trans_pledge {
+      justify-self: center;
+      align-self: center;
+      margin-top: 3rem;
+
+      @media (min-width: 700px) {
+        margin-top: 0;
+        justify-self: left;
+        padding: 1.5rem 5rem;
+        max-width: none;
+      }
+    }
+  }
+
+  .pledge_reps {
+    display: flex;
+    flex-direction: column;
+    padding: 5rem 0rem 5rem 0rem;
+    justify-self: center;
+    box-sizing: unset;
+
+    @media (min-width: 700px) {
+      padding: 10rem 20rem;
+      max-width: none;
+      justify-self: normal;
+    }
+
+    .legislator-grid {
+      display: grid;
+      grid-gap: 1rem;
+      grid-template-columns: repeat(3, auto);
+
+      @media (min-width: 700px) {
+        grid-template-columns: repeat(5, 1fr);
+      }
+    }
+
+    .pledge_leg_title {
+      margin-bottom: 1rem;
+      margin-top: 0;
+    }
+
+    .pledge_leg_subtitle {
+      margin-bottom: 1.5rem;
+      margin-top: 2rem;
+    }
+
+    .btn_trans_pledge2 {
+      grid-area: 8 / 1 / 8 / 6;
+      justify-self: center;
+      margin: 2rem 0rem 2rem 0rem;
+    }
+  }
+
+  .pledge_endorse {
+    .pledge_endorse_title {
+      margin-bottom: 2.5rem;
+
+      @media (min-width: 700px) {
+        margin-bottom: 5rem;
+      }
+    }
+    .pledge-endorse-container {
+      display: grid;
+      grid-template-rows: repeat(5, auto);
+      grid-template-columns: repeat(2, auto);
+      grid-row-gap: 2rem;
+      grid-column-gap: 1rem;
+      justify-self: center;
+
+      @media (min-width: 700px) {
+        grid-column-gap: 2rem;
+        grid-template-columns: repeat(3, auto);
+        justify-self: normal;
+      }
+    }
+
+    .endorse_img {
+      max-width: 15rem;
+      max-height: 10rem;
+      align-self: center;
+      justify-self: center;
+
+      @media (min-width: 700px) {
+        max-width: 20rem;
+        max-height: 15rem;
+        align-self: center;
+        justify-self: center;
+      }
+    }
+  }
+}

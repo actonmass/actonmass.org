@@ -1,16 +1,13 @@
-_site
+node_modules/
+.cache/
+public
 .DS_Store
 .env
-node_modules
-js/bundle.js
-.sass-cache
-.ts-dist
 
 # Local Netlify folder
 .netlify
 
-# Compiled TS script used for build
-_admin/build-config.js
-
-# Netlify CMS config built during built
-config.yml
+# Generated files
+functions/findMyReps/leg-data.json
+static/admin/config.yml
+**/__generated__/

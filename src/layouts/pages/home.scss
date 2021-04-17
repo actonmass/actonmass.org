@@ -1,0 +1,449 @@
+.homepage_wrapper .hero {
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr auto;
+  display: grid;
+  grid-area: hero;
+
+  @media (min-width: 700px) {
+    grid-template-columns: 3fr 0.5fr 2fr;
+    grid-template-rows: 1fr;
+  }
+
+  .hero_left {
+    grid-area: 1 / 1;
+
+    .btn {
+      width: 100%;
+    }
+  }
+
+  .hero_text {
+    display: grid;
+    grid-area: 3 / 1;
+    color: #fefbf8;
+    align-self: center;
+    max-width: 30rem;
+    padding: 2rem;
+
+    @media (min-width: 700px) {
+      display: grid;
+      grid-area: 1 / 3;
+      color: #fefbf8;
+      align-self: center;
+      max-width: none;
+      padding: 1rem;
+    }
+
+    .btn {
+      @media (min-width: 700px) {
+        margin-top: 1rem;
+        max-width: 20rem;
+      }
+    }
+
+    .smLine {
+      grid-area: 1 / 1;
+      align-self: start;
+      padding-left: 0;
+
+      @media (min-width: 700px) {
+        grid-area: 1 / 1;
+        align-self: center;
+        margin-left: 14rem;
+        background-color: #56ccf2;
+      }
+    }
+
+    .header1 {
+      grid-area: 1 / 1;
+      align-self: end;
+      padding-top: 0.5rem;
+    }
+  }
+}
+
+.header2 {
+  margin-top: 1rem;
+}
+
+.header4 {
+  font-size: 1.75rem;
+  font-weight: 500;
+  margin: 1rem 0rem 1rem 0rem;
+
+  @media (min-width: 700px) {
+    font-size: 2.5rem;
+  }
+}
+
+/* ------------- HOMEPAGE TAKE ACTION ------------- */
+.take_action {
+  background-color: var(--primary);
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding: 2rem;
+
+  @media (min-width: 700px) {
+    text-align: left;
+    justify-content: space-evenly;
+    padding: 5rem 20rem 5rem 20rem;
+  }
+
+  .action {
+    justify-content: space-between;
+
+    @media (min-width: 700px) {
+      max-width: 30rem;
+    }
+
+    .btn-container {
+      display: flex;
+      justify-content: center;
+
+      @media (min-width: 700px) {
+        justify-content: start;
+      }
+    }
+
+    .btn {
+      width: 100%;
+      padding: 1rem;
+      margin-top: 1rem;
+      color: var(--dark);
+      text-decoration: none;
+      text-align: center;
+    }
+
+    &.learn {
+      display: none;
+
+      @media (min-width: 700px) {
+        display: flex;
+      }
+    }
+  }
+
+  .take_action_txt {
+    color: var(--light);
+    margin-bottom: 1rem;
+  }
+}
+
+/* --------------------- HOMEPAGE HOUSE FAILURES -----------------*/
+
+.homepage_wrapper .failures {
+  grid-area: failures;
+  padding: 0;
+  display: grid;
+  padding: 3rem 0rem 3rem 2rem;
+  grid-column-gap: 5rem;
+}
+
+@media (min-width: 700px) {
+  .homepage_wrapper .failures {
+    grid-area: failures;
+    padding: 10rem 20rem;
+    display: grid;
+  }
+}
+
+.failures .immigration {
+  grid-area: 2 / 1;
+  padding-top: 5rem;
+  max-width: 20rem;
+  justify-self: center;
+  display: grid;
+  grid-template-rows: auto auto auto 1fr;
+}
+
+.immigration .immigration_img {
+  height: 13rem;
+  padding: 0rem 0rem 2rem 0rem;
+}
+
+.immigration .immig_text {
+  line-height: 2.4rem;
+}
+
+@media (min-width: 700px) {
+  .failures .immigration {
+    grid-area: 2 / 1;
+    padding-top: 5rem;
+    max-width: 25rem;
+    justify-self: center;
+  }
+}
+
+.failures .climate_change {
+  grid-area: 3 / 1;
+  padding-top: 5rem;
+  max-width: 20rem;
+  justify-self: center;
+  display: grid;
+  grid-template-rows: auto auto auto 1fr;
+}
+
+.climate_change .climate_img {
+  height: 13rem;
+  padding: 1rem 0rem 2rem 0rem;
+  color: #eca632;
+}
+
+.climate_change .climate_text {
+  line-height: 2.4rem;
+}
+
+@media (min-width: 700px) {
+  .failures .climate_change {
+    grid-area: 2 / 2;
+    padding-top: 5rem;
+    max-width: 27rem;
+    justify-self: center;
+  }
+}
+
+.failures .lgbt {
+  grid-area: 4 / 1;
+  padding-top: 5rem;
+  max-width: 20rem;
+  justify-self: center;
+  display: grid;
+  grid-template-rows: auto auto auto 1fr;
+}
+
+@media (min-width: 700px) {
+  .failures .lgbt {
+    grid-area: 2 / 3;
+    padding-top: 5rem;
+    max-width: 25rem;
+    justify-self: center;
+  }
+}
+
+.lgbt .lgbt_img {
+  height: 13rem;
+  padding: 0rem 0rem 2rem 0rem;
+}
+
+.lgbt .lgbt_text {
+  line-height: 2.4rem;
+}
+
+.rect {
+  height: 0.5rem;
+  width: 15rem;
+}
+
+.rect2 {
+  background-color: #56ccf2;
+  margin-bottom: 2rem;
+}
+
+.rect1 {
+  grid-area: 1 / 1;
+  background-color: #eca632;
+}
+
+.failure_title {
+  grid-area: 1 / 1;
+  margin-top: 1rem;
+}
+
+@media (min-width: 700px) {
+  .failure_title {
+    grid-area: 1 / 1 / 1 / 4;
+    margin-top: 1rem;
+  }
+}
+
+/*---------------- HOMEPAGE ISSUES --------------*/
+
+.issue-container {
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  width: 100%;
+  height: 190px;
+  margin: 5px;
+  background-color: rgb(100, 100, 100);
+  border: 4px rgb(255, 190, 82) solid;
+  display: block;
+  background-blend-mode: multiply;
+}
+
+.issue-content {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  color: white;
+  text-align: center;
+  padding: 1em;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+
+  h3 {
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 0;
+    font-size: 1.6rem;
+    @media (min-width: 700px) {
+      font-size: 2rem;
+    }
+  }
+
+  i, .svg-inline--fa {
+    font-size: 2.7em;
+    width: 100%;
+    color: rgb(226, 147, 24);
+  }
+
+  p {
+    font-size: 1.4rem;
+    color: white;
+    margin: 0;
+    @media (min-width: 700px) {
+      font-size: 1.4rem;
+    }
+  }
+}
+
+.homepage_wrapper .issues {
+  grid-area: issues;
+  display: grid;
+
+  padding: 2rem;
+
+  @media (min-width: 700px) {
+    padding: 10rem 20rem;
+  }
+
+  .issues_grid {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: repeat(9, auto);
+    grid-gap: 2rem;
+    padding: 2rem;
+
+    @media (min-width: 700px) {
+      grid-template-columns: auto auto auto;
+      grid-template-rows: auto auto auto;
+      padding: 5rem 3rem 5rem 3rem;
+    }
+  }
+}
+
+.issues_title {
+  margin-top: 1rem;
+}
+
+.issues_img {
+  background-size: cover;
+  align-self: center;
+  justify-self: center;
+  max-width: 275px;
+}
+
+@media (min-width: 600px) {
+  .issues_img {
+    align-self: center;
+    justify-self: center;
+  }
+}
+
+/*----------------- HOMEPAGE ACCOUNTABILITY -----------*/
+.homepage_wrapper .accountability {
+  grid-area: accountability;
+  display: grid;
+  padding: 0;
+  padding: 3rem 2rem 3rem 2rem;
+
+  @media (min-width: 700px) {
+    padding: 10rem 20rem;
+  }
+
+  .account_text {
+    grid-area: 3 / 1;
+    max-width: 30rem;
+    display: grid;
+    grid-template-rows: auto auto auto;
+    grid-row-gap: 1rem;
+    max-height: 30rem;
+    align-self: center;
+
+    @media (min-width: 700px) {
+      grid-area: 2 / 3;
+      max-width: 35rem;
+      display: grid;
+    }
+  }
+
+  .account_title {
+    grid-area: 1 / 1;
+    text-transform: uppercase;
+    padding-top: 1rem;
+    margin: 0;
+
+    @media (min-width: 700px) {
+      grid-area: 1 / 1 / 1 / 3;
+      text-transform: uppercase;
+      padding-top: 1rem;
+      margin: 0;
+    }
+  }
+
+  .pledge_left {
+    grid-area: 2 / 1 / 2 / 2;
+
+    @media (min-width: 700px) {
+      justify-self: center;
+      max-width: 60rem;
+    }
+  }
+}
+
+.pledge .dotted-image .image-container {
+  padding-top: 0;
+  padding-left: 0;
+
+  @media (min-width: 700px) {
+    padding-left: 5rem;
+    padding-right: 10rem;
+  }
+}
+
+@media (max-width: 767px) {
+  .account_text {
+    grid-area: 4 / 2 / 4 / 3;
+    max-width: 20rem;
+    justify-self: center;
+  }
+}
+
+.accountability .account_text1 {
+  margin: 0;
+  grid-area: 1 / 1;
+}
+
+@media (min-width: 700px) {
+  .accountability .account_text1 {
+    margin: 0;
+  }
+}
+
+.accountability .btn_pledge {
+  grid-area: 3 / 1;
+  text-decoration: none;
+  text-align: center;
+}
+
+@media (max-width: 767px) {
+  .btn_pledge {
+    grid-area: 5 / 2 / 5 / 3;
+    align-self: center;
+  }
+}

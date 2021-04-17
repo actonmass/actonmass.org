@@ -3,35 +3,25 @@ version: 2
 jobs:
   build:
     docker:
-      - image: circleci/ruby:2.6.6-node-browsers # use the browsers variant image to have Java preinstalled as it is a dependency of html5validator
+      - image: circleci/node:12.16.1-buster-browsers # use the browsers variant image to have Java preinstalled as it is a dependency of html5validator
 
     steps:
       - checkout
       - restore_cache:
-          key: general-cache-v1
-      - restore_cache:
-          key: ruby-cache-{{ checksum "Gemfile" }}
+          key: general-cache-v2
       - restore_cache:
           key: node-cache-{{ checksum "package.json" }}
-
-      - run:
-          name: Update bundler
-          command: gem install bundle
-
-      - run:
-          name: Install Ruby dependencies
-          command: bundle install --jobs=4 --retry=3 --path vendor/bundle
 
       - run:
           name: Install Node dependencies
           command: yarn
 
-      - run:
-          name: Install html5validator
-          command: |
-            sudo apt-get update
-            sudo apt-get install -y python-pip
-            pip install --user --upgrade html5validator  # will install in $HOME/.local
+      # - run:
+      #     name: Install html5validator
+      #     command: |
+      #       sudo apt-get update
+      #       sudo apt-get install -y python-pip
+      #       pip install --user --upgrade html5validator  # will install in $HOME/.local
 
       - save_cache:
           key: general-cache-v2
@@ -39,18 +29,9 @@ jobs:
             - $HOME/.local
 
       - save_cache:
-          key: ruby-cache-{{ checksum "Gemfile" }}
-          paths:
-            - ./vendor/bundle
-
-      - save_cache:
           key: node-cache-{{ checksum "package.json" }}
           paths:
             - ./node_modules
-
-      - run:
-          name: Check Jekyll configuration
-          command: bundle exec jekyll doctor
 
       - run:
           name: Compile website
@@ -58,25 +39,19 @@ jobs:
 
       - run:
           name: Check homepage was compiled
-          command: test -s _site/index.html
+          command: test -s public/index.html
 
-      - run:
-          name: Check HTML common mistakes
-          command:
-            bundle exec htmlproofer ./_site --assume-extension --check-html --disable-external
-            --empty-alt-ignore --check-img-http
-
-      - run:
-          name: Validate HTML spec compliance
-          command: $HOME/.local/bin/html5validator --root _site --ignore iframe anima-src
+      # - run:
+      #     name: Validate HTML spec compliance
+      #     command: $HOME/.local/bin/html5validator --root public --ignore iframe anima-src
 
       - run:
           name: Start server
-          command: bundle exec jekyll serve --no-watch --skip-initial-build
+          command: yarn serve
           background: true
       - run:
           name: Wait for server to start
           command: |
-            while ! curl --silent http://localhost:4000
+            while ! curl --silent http://localhost:9000
             do sleep 1
             done

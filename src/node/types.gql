@@ -1,0 +1,213 @@
+type IssueTextBlock {
+  title: String
+  text: String
+}
+
+type IssueReference {
+  key: String
+  title: String
+  link: String
+}
+
+type IssueLearnMore {
+  title: String
+  img: String
+  link: String
+}
+
+type Issue implements Node @dontInfer {
+  aom_id: String!
+  subtitle: String
+  img: String
+  logo: String
+  title: String
+  page_img: String
+  catchphrase: String
+  text: String
+  failures_block_title: String
+  bills_to_support_title: String
+  highlighted_bills: [Bill] @link
+  learn_more: [IssueLearnMore]!
+  references: [IssueReference]!
+  failures: [IssueTextBlock]!
+  questions: [IssueTextBlock]!
+  order: Int
+
+  # Calculated
+  bills: [Bill]! @link
+
+  # Common calculated
+  fileName: String!
+  href: String!
+}
+
+type LegislatorCommittee {
+  committee: Committee! @link
+  role: String!
+}
+
+type Legislator implements Node @dontInfer {
+  aom_id: String!
+  first_name: String!
+  last_name: String!
+  party: String!
+  phone: String
+  email: String
+  hometown: String
+  href: String
+  square_picture: String
+  malegislature_url: String
+  website: String
+  facebook: String
+  ocd_id: String
+  twitter: String
+  district: District @link
+  supports_the_campaign: Boolean!
+  pledge: Boolean!
+  start_date: String!
+  end_date: String!
+
+  # Calculated
+  chamber: String!
+  committees: [LegislatorCommittee]!
+  cosponsored_bills: [Bill]! @link
+
+  # Common calculated
+  fileName: String!
+  href: String!
+}
+
+type District implements Node @dontInfer {
+  aom_id: String!
+  chamber: String!
+  lat: Float
+  lng: Float
+  name: String
+  van_id: String
+
+  # Common calculated
+  fileName: String!
+  href: String!
+}
+
+type BillHistoryItem {
+  date: Date
+  description: String
+  type: String
+  bill_event: BillEvent @link
+}
+
+type BillTimelineItem {
+  date: Date
+  description: String
+}
+
+type EmailScript {
+  subject: String
+  body: String
+}
+
+type Script {
+  tweet_request: String
+  tweet_thanks: String
+  call_request: String
+  call_thanks: String
+  tweet_after_request_call: String
+  tweet_after_thanks_call: String
+  email_request: EmailScript
+  email_thanks: EmailScript
+  tweet_after_request_email: String
+  tweet_after_thanks_email: String
+}
+
+type Bill implements Node @dontInfer {
+  aom_id: String!
+
+  title: String
+  full_title: String
+  twitter_bill_name: String
+  article: String
+  house_no: String
+  house_link: String
+  senate_no: String
+  senate_link: String
+  committee: Committee @link
+  issue: Issue @link
+  img: String
+  summary: [String]
+  orgs: [String]
+  house_lead_sponsors: [Legislator] @link
+  senate_lead_sponsors: [Legislator] @link
+  co_sponsors: [Legislator] @link
+  hidden: Boolean
+  history: [BillHistoryItem]
+  text: String
+  timeline: [BillTimelineItem]
+  scripts: Script
+  scripts_com_vote: Script
+
+  # Common calculated
+  fileName: String!
+  href: String!
+}
+
+type Committee implements Node @dontInfer {
+  aom_id: String!
+  malegislature_url: String
+  title: String
+  chamber: String!
+  senate_chair: Legislator @link
+  senate_vice_chair: Legislator @link
+  senate_members: [Legislator] @link
+  house_chair: Legislator @link
+  house_vice_chair: Legislator @link
+  house_members: [Legislator] @link
+
+  # Common calculated
+  fileName: String!
+  href: String!
+}
+
+type BillEventVoteDesc {
+  yes: String
+  no: String
+  unk: String
+}
+
+type BillEventVote {
+  legislator: Legislator @link
+  vote: String
+}
+
+type BillEvent implements Node @dontInfer {
+  aom_id: String!
+
+  date: Date
+  description: String
+  bill: Bill @link
+  progressive_vote: String
+  type: String
+  vote_descriptions: BillEventVoteDesc
+  votes: [BillEventVote]
+
+  # Common calculated
+  fileName: String!
+  href: String!
+}
+
+type Page implements Node @dontInfer {
+  permalink: String
+  title: String
+  layout: String
+}
+
+type Post implements Node @dontInfer {
+  title: String
+  date: Date
+  image: String
+  redirect_from: [String]
+
+  # Common calculated
+  fileName: String!
+  href: String!
+}
