@@ -41,9 +41,9 @@ jobs:
           name: Check homepage was compiled
           command: test -s public/index.html
 
-      - run:
-          name: Validate HTML spec compliance
-          command: $HOME/.local/bin/html5validator --root public --ignore iframe anima-src
+      # - run:
+      #     name: Validate HTML spec compliance
+      #     command: $HOME/.local/bin/html5validator --root public --ignore iframe anima-src
 
       - run:
           name: Start server
