@@ -48,5 +48,6 @@ module.exports = {
     "gatsby-plugin-react-leaflet",
     "gatsby-plugin-meta-redirect",
     "gatsby-plugin-netlify",
+    "gatsby-plugin-remove-fingerprints", // Optimized for Netlify
   ],
 };
