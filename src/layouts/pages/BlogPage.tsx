@@ -1,5 +1,5 @@
 import React from "react";
-import { graphql, PageProps } from "gatsby";
+import { graphql, PageProps, Link } from "gatsby";
 import moment from "moment";
 
 import BaseLayout from "../BaseLayout";
@@ -36,7 +36,7 @@ export default function BlogPage({ data, pageContext }: PageProps<DataProps, Pag
                 <div className="date_rect">
                   <p className="blog_date fLight fWhite">Posted on {formatDate(post.date)}</p>
                 </div>
-                <a href={post.href} className="post-text dark">
+                <Link to={post.href} className="post-text dark">
                   <div className="post-text-container">
                     <div className="title-container">
                       <h4 className="blog_post_title fUppercase fWhite fRaleway fRegular">
@@ -48,7 +48,7 @@ export default function BlogPage({ data, pageContext }: PageProps<DataProps, Pag
                       {(post.parent as any).mdExcerpt ?? (post.parent as any).mdxExcerpt}.
                     </p>
                   </div>
-                </a>
+                </Link>
               </div>
             ))}
           </div>
@@ -56,12 +56,12 @@ export default function BlogPage({ data, pageContext }: PageProps<DataProps, Pag
             <ul className="pager">
               <li>
                 {pageContext.previousPagePath && (
-                  <a href={pageContext.previousPagePath}>&larr; Newer Posts</a>
+                  <Link to={pageContext.previousPagePath}>&larr; Newer Posts</Link>
                 )}
               </li>
               <li>
                 {pageContext.nextPagePath && (
-                  <a href={pageContext.nextPagePath}>Older Posts &rarr;</a>
+                  <Link to={pageContext.nextPagePath}>Older Posts &rarr;</Link>
                 )}
               </li>
             </ul>

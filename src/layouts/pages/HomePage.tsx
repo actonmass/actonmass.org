@@ -1,5 +1,5 @@
 import React from "react";
-import { graphql } from "gatsby";
+import { graphql, Link } from "gatsby";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faSearch } from "@fortawesome/free-solid-svg-icons";
 
@@ -45,9 +45,9 @@ export default function Home({ data }) {
               We're building a democracy that answers to the many.
             </h4>
             <div className="btn-container">
-              <a href="/about-us" className="fRoboto fExbold fUppercase btn">
+              <Link to="/about-us" className="fRoboto fExbold fUppercase btn">
                 Explore our work
-              </a>
+              </Link>
             </div>
           </div>
           <div className="act vbox action">
@@ -56,9 +56,9 @@ export default function Home({ data }) {
               Join your district team. Advocate for a transparent and functioning state house
             </h4>
             <div className="btn-container">
-              <a href="/the-campaign" className="fRoboto fExbold fUppercase btn">
+              <Link to="/the-campaign" className="fRoboto fExbold fUppercase btn">
                 Join our campaign
-              </a>
+              </Link>
             </div>
           </div>
         </section>
@@ -68,9 +68,9 @@ export default function Home({ data }) {
           <h2 className="issues_title fUppercase">key progressive issues:</h2>
           <div className="issues_grid">
             {issues.map((issue) => (
-              <a
+              <Link
                 key={issue.aom_id}
-                href={issue.href}
+                to={issue.href}
                 className="issue-container issues_img hvr-float"
                 style={{ backgroundImage: `url('${issue.img}')` }}
               >
@@ -79,11 +79,11 @@ export default function Home({ data }) {
                   <h3>{issue.title}</h3>
                   <p>{issue.subtitle}</p>
                 </div>
-              </a>
+              </Link>
             ))}
 
-            <a
-              href="/the-campaign"
+            <Link
+              to="/the-campaign"
               className="issue-container issues_img hvr-float"
               style={{
                 backgroundImage: "url('/img/issue-transparency.jpg')",
@@ -93,7 +93,7 @@ export default function Home({ data }) {
                 <FontAwesomeIcon icon={faSearch} />
                 <h3>Transparency</h3>
               </div>
-            </a>
+            </Link>
           </div>
         </section>
 
@@ -113,9 +113,9 @@ export default function Home({ data }) {
               Join your district team to demand that our legislators change the broken,
               anti-democratic rules in the State House.
             </h4>
-            <a href="/the-campaign" className="fRoboto fExbold fUppercase btn btn_pledge">
+            <Link to="/the-campaign" className="fRoboto fExbold fUppercase btn btn_pledge">
               the campaign
-            </a>
+            </Link>
           </div>
         </section>
 
@@ -131,9 +131,9 @@ export default function Home({ data }) {
               We can ask our elected legislators to take action to create transparency today so
               important progressive bills don’t die in darkness.
             </h4>
-            <a href="/pledge" className="fRoboto fExbold fUppercase btn btn_pledge">
+            <Link to="/pledge" className="fRoboto fExbold fUppercase btn btn_pledge">
               the pledge
-            </a>
+            </Link>
           </div>
         </section>
         <FindMyReps theme="light" mode="campaign" allowSelect={true} />

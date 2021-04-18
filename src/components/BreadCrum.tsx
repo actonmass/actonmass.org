@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "gatsby";
 
 type Props = {
   title: string;
@@ -12,13 +13,13 @@ export default function BreadCrum({ title, links }: Props) {
   return (
     <ul className="main_breadcrumb">
       <li>
-        <a href="/">HOME</a>
+        <Link to="/">HOME</Link>
       </li>
 
       {links &&
         links.map((link) => (
           <li key={link.href}>
-            <a href={link.href}>{link.text.toUpperCase()}</a>
+            <Link to={link.href}>{link.text.toUpperCase()}</Link>
           </li>
         ))}
 

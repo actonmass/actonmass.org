@@ -2,6 +2,7 @@ import React from "react";
 import ReactDOMServer from "react-dom/server";
 import { MapContainer, TileLayer, Marker, Popup } from "react-leaflet";
 import "leaflet/dist/leaflet.css";
+import { Link } from "gatsby";
 
 const defaultZoom = 11;
 const tileURL =
@@ -148,7 +149,7 @@ export default class LegislatorMap extends React.Component {
                   <Marker position={[leg.lat, leg.lng]} icon={getIcon(leg, refSize)} key={leg.href}>
                     <Popup offset={[0, -20 * refSize]}>
                       <span>
-                        <a href={leg.href}>{leg.name}</a> - {leg.party}
+                        <Link to={leg.href}>{leg.name}</Link> - {leg.party}
                       </span>
                     </Popup>
                   </Marker>

@@ -3,6 +3,7 @@ import _ from "lodash";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faEnvelope, faPhone, faWindowMaximize } from "@fortawesome/free-solid-svg-icons";
 import { faFacebookF, faTwitter } from "@fortawesome/free-brands-svg-icons";
+import { Link } from "gatsby";
 
 import BaseLayout from "../BaseLayout";
 import { BreadCrum } from "../../components";
@@ -217,7 +218,7 @@ export default function LegislatorPage({ leg, issues }: Props) {
                                 <img className="red_x" src="/img/red_x.png" alt="red x"></img>
                               )}
                               <p className="fWhite fLight">
-                                <a href={bill.href}>{bill.title}</a>
+                                <Link to={bill.href}>{bill.title}</Link>
                               </p>
 
                               {!sponsored && (

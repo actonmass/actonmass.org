@@ -3,6 +3,7 @@ import _ from "lodash";
 import ReactMarkdown from "react-markdown";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faPlus } from "@fortawesome/free-solid-svg-icons";
+import { Link } from "gatsby";
 
 import { HeroImage, SignupForm, BreadCrum } from "../../components";
 import BaseLayout from "../BaseLayout";
@@ -89,9 +90,9 @@ export default function IssuePage({ issue }: Props) {
                       </ul>
                     </div>
                     <div className="bill-btn-container">
-                      <a href={bill.href} className="btn billbtn fRoboto fBold fUppercase">
+                      <Link to={bill.href} className="btn billbtn fRoboto fBold fUppercase">
                         read more
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 ))}

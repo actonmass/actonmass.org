@@ -1,5 +1,5 @@
 import React from "react";
-import { PageProps } from "gatsby";
+import { PageProps, Link } from "gatsby";
 import { MDXRenderer } from "gatsby-plugin-mdx";
 import moment from "moment";
 
@@ -44,19 +44,19 @@ export default function PostPage({ pageContext: page }: PageProps<{}, PageContex
             <ul className="pager">
               <li>
                 {page.next && (
-                  <a href={page.next.url} title={page.next.title}>
+                  <Link to={page.next.url} title={page.next.title}>
                     &larr; Next Post
-                  </a>
+                  </Link>
                 )}
               </li>
               <li>
-                <a href="/blog">All posts</a>
+                <Link to="/blog">All posts</Link>
               </li>
               <li>
                 {page.previous && (
-                  <a href={page.previous.url} title={page.previous.title}>
+                  <Link to={page.previous.url} title={page.previous.title}>
                     Previous Post &rarr;
-                  </a>
+                  </Link>
                 )}
               </li>
             </ul>

@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "gatsby";
 
 import { generalSettings } from "../../content";
 
@@ -9,8 +10,8 @@ export default function Footer() {
     <footer className="main_footer">
       <div className="footer_top">
         <h3 className="footer_txt fBold">
-          Act on Mass is a non-profit organization that doesn't take money from
-          corporations. Please support our mission.
+          Act on Mass is a non-profit organization that doesn't take money from corporations. Please
+          support our mission.
         </h3>
         <a
           className="btn btn_footer fLight fRoboto fBold fUppercase"
@@ -22,7 +23,7 @@ export default function Footer() {
       <div className="footer_bottom">
         {generalSettings.footer.map((item) => (
           <h4 key={item.href} className="fRoboto fUppercase fRegular">
-            <a href={item.href}>{item.title}</a>
+            <Link to={item.href}>{item.title}</Link>
           </h4>
         ))}
       </div>

@@ -2,6 +2,7 @@ import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faAngleDown } from "@fortawesome/free-solid-svg-icons";
 import { faFacebookF, faInstagram, faTwitter } from "@fortawesome/free-brands-svg-icons";
+import { Link } from "gatsby";
 
 import { generalSettings } from "../../content";
 
@@ -11,15 +12,15 @@ export default function Header() {
   return (
     <header className="cbox">
       <div className="main_header w1400">
-        <a href="/">
+        <Link to="/">
           <img src="/img/logo.png" alt="Act On Mass logo" />
-        </a>
+        </Link>
         <ul className="hbox">
           {generalSettings.menu.map((item) => (
             <li key={item.href}>
-              <a className="nav_text fRoboto fLight fDark fUppercase" href={item.href}>
+              <Link className="nav_text fRoboto fLight fDark fUppercase" to={item.href}>
                 {item.title}
-              </a>
+              </Link>
             </li>
           ))}
           <li>
@@ -28,9 +29,9 @@ export default function Header() {
               <FontAwesomeIcon icon={faAngleDown} size="lg" className="fDark" />
               <div className="dropdown-content">
                 {generalSettings.learn_more_menu.map((item) => (
-                  <a key={item.href} className="fRoboto fLight fDark fUppercase" href={item.href}>
+                  <Link key={item.href} className="fRoboto fLight fDark fUppercase" to={item.href}>
                     {item.title}
-                  </a>
+                  </Link>
                 ))}
               </div>
             </div>

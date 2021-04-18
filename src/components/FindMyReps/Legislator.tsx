@@ -1,5 +1,6 @@
 import React from "react";
 import _ from "lodash";
+import { Link } from "gatsby";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCheckCircle, faQuestionCircle, faTimesCircle } from "@fortawesome/free-solid-svg-icons";
@@ -53,7 +54,7 @@ export default function Legislator({ leg, chamber, bill, mode }: Props) {
 
   return (
     <div>
-      <a href={leg.href} className="legislator">
+      <Link to={leg.href} className="legislator">
         <h3 className="fUppercase fRegular">Your {legTitle}:</h3>
         <LegCircle leg={leg} status={status} />
         <p className="fRoboto fLight">{leg.district.name}</p>
@@ -63,7 +64,7 @@ export default function Legislator({ leg, chamber, bill, mode }: Props) {
             {statusText}
           </p>
         )}
-      </a>
+      </Link>
       {status != null && (
         <div className="cbox btn-container">
           {bill == null ? (

@@ -1,5 +1,5 @@
 import React from "react";
-import { graphql, PageProps } from "gatsby";
+import { graphql, PageProps, Link } from "gatsby";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import _ from "lodash";
 
@@ -47,7 +47,7 @@ export default function BillsPage({
                         (bill) =>
                           !bill.hidden && (
                             <h4 className="bill fRoboto">
-                              <a href={bill.href}>{bill.title}</a>
+                              <Link to={bill.href}>{bill.title}</Link>
                             </h4>
                           )
                       )}

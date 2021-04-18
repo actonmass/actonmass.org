@@ -3,6 +3,7 @@ import { graphql, PageProps } from "gatsby";
 import { Helmet } from "react-helmet";
 
 import BaseLayout from "../BaseLayout";
+import { generalSettings } from "../../content";
 
 import "./climate.scss";
 
@@ -268,7 +269,7 @@ export default function ClimatePage({ pageContext }: PageProps<{}, { title?: str
                   <div className="donatetoactonmas">
                     <span className="span1">Donate to </span>
                     <span className="span2">
-                      <a href="{{site.data.general_settings.donate_button_url}}">Act On Mass</a>
+                      <a href={generalSettings.donate_button_url}>Act On Mass</a>
                     </span>
                     <span className="span3">
                       {" "}
