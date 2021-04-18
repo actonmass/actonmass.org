@@ -64,8 +64,8 @@ type Legislator implements Node @dontInfer {
   district: District @link
   supports_the_campaign: Boolean!
   pledge: Boolean!
-  start_date: String!
-  end_date: String!
+  start_date: String
+  end_date: String
 
   # Calculated
   chamber: String!

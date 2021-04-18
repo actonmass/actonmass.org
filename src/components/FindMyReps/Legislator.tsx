@@ -127,9 +127,9 @@ function UnkonwnLeg({ legTitle }) {
       <h3 className="fUppercase fRegular">Your {legTitle}:</h3>
       <FontAwesomeIcon icon={faQuestionCircle} style={{ fontSize: "17rem" }} />
       <p style={{ maxWidth: "30rem", marginTop: "2rem" }}>
-        We were not able to identify your {legTitle}. The seat may be vacant, or maybe we're just
-        not up to date with the latest special election. If you know who is your {legTitle}, please
-        contact tech@actonmass.org and we'll fix this asap!
+        We were not able to identify your {legTitle}. The seat may be vacant, or maybe there was a
+        special election and your legislator has not been sworn it yet. If you know who is your{" "}
+        {legTitle}, please contact tech@actonmass.org and we'll fix this asap!
       </p>
     </div>
   );
