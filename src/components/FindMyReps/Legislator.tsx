@@ -108,7 +108,7 @@ function LegCircle({ leg, status }) {
       <div className="cbox">
         <div className="image-with-check">
           <div className={`leg_circ_img ${statusClass}`}>
-            <img src={leg.img} alt={getFullName(leg)} />
+            <img src={leg.img ?? "/img/person-icon.png"} alt={getFullName(leg)} />
           </div>
           {icon}
         </div>

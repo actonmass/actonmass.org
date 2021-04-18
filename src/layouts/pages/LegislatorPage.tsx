@@ -201,34 +201,36 @@ export default function LegislatorPage({ leg, issues }: Props) {
                   return (
                     <>
                       <h3 className="cosponsor_title fWhite fRoboto fRegular">{issue.title}</h3>
-                      {issue.bills.map((bill) => {
-                        const sponsored = cosponsoredBillIds.includes(bill.id);
-                        return (
-                          <div className="item_1">
-                            {sponsored ? (
-                              <img
-                                className="green_check"
-                                src="/img/green_check.png"
-                                alt="green check"
-                              />
-                            ) : (
-                              <img className="red_x" src="/img/red_x.png" alt="red x"></img>
-                            )}
-                            <p className="fWhite fLight">
-                              <a href={bill.href}>{bill.title}</a>
-                            </p>
+                      {issue.bills
+                        .filter((bill) => !bill.hidden)
+                        .map((bill) => {
+                          const sponsored = cosponsoredBillIds.includes(bill.id);
+                          return (
+                            <div className="item_1">
+                              {sponsored ? (
+                                <img
+                                  className="green_check"
+                                  src="/img/green_check.png"
+                                  alt="green check"
+                                />
+                              ) : (
+                                <img className="red_x" src="/img/red_x.png" alt="red x"></img>
+                              )}
+                              <p className="fWhite fLight">
+                                <a href={bill.href}>{bill.title}</a>
+                              </p>
 
-                            {!sponsored && (
-                              <RequestCosponsorship
-                                bill={bill}
-                                style="S"
-                                leg={leg}
-                                txt="Request co-sponsorship"
-                              />
-                            )}
-                          </div>
-                        );
-                      })}
+                              {!sponsored && (
+                                <RequestCosponsorship
+                                  bill={bill}
+                                  style="S"
+                                  leg={leg}
+                                  txt="Request co-sponsorship"
+                                />
+                              )}
+                            </div>
+                          );
+                        })}
                     </>
                   );
                 })}

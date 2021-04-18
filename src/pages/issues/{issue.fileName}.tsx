@@ -31,6 +31,7 @@ export const query = graphql`
         title
       }
       highlighted_bills {
+        hidden
         href
         title
         summary

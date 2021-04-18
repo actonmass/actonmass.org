@@ -71,26 +71,30 @@ export default function IssuePage({ issue }: Props) {
               bills to support {issue.bills_to_support_title}
             </h3>
             <div className="bill-container">
-              {issue.highlighted_bills.map((bill) => (
-                <div className="bill vbox" key={bill.href}>
-                  <div className="bill-text">
-                    <h4 className="issues_bill_title fRaleway fExbold fUppercase">{bill.title}</h4>
-                    <div className="rect_underline"></div>
-                    <ul className="issues_bills_bullets">
-                      {bill.summary.map((point) => (
-                        <li key={point}>
-                          <p className="fRoboto fRegular">{point}</p>
-                        </li>
-                      ))}
-                    </ul>
+              {issue.highlighted_bills
+                .filter((bill) => !bill.hidden)
+                .map((bill) => (
+                  <div className="bill vbox" key={bill.href}>
+                    <div className="bill-text">
+                      <h4 className="issues_bill_title fRaleway fExbold fUppercase">
+                        {bill.title}
+                      </h4>
+                      <div className="rect_underline"></div>
+                      <ul className="issues_bills_bullets">
+                        {bill.summary.map((point) => (
+                          <li key={point}>
+                            <p className="fRoboto fRegular">{point}</p>
+                          </li>
+                        ))}
+                      </ul>
+                    </div>
+                    <div className="bill-btn-container">
+                      <a href={bill.href} className="btn billbtn fRoboto fBold fUppercase">
+                        read more
+                      </a>
+                    </div>
                   </div>
-                  <div className="bill-btn-container">
-                    <a href={bill.href} className="btn billbtn fRoboto fBold fUppercase">
-                      read more
-                    </a>
-                  </div>
-                </div>
-              ))}
+                ))}
             </div>
           </div>
         </section>

@@ -29,7 +29,7 @@ function getIconClass(leg) {
 const LegIcon = ({ leg, size }) => {
   return (
     <img
-      src={leg.img}
+      src={leg.img ?? "/img/person-icon.png"}
       alt="Avatar"
       width={`${40 * size}px`}
       height={`${40 * size}px`}

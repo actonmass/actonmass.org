@@ -49,6 +49,7 @@ export const query = graphql`
           twitter_bill_name
           senate_no
           house_no
+          hidden
           scripts {
             call_thanks
             call_request
