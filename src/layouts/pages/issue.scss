@@ -247,6 +247,10 @@
       }
     }
 
+    .accordion.active + .panel {
+      display: block;
+    }
+
     /* Style the accordion panel. Note: hidden by default */
     .panel {
       padding: 1rem 0rem 2rem 1rem;

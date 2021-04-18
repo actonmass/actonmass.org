@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import _ from "lodash";
 import ReactMarkdown from "react-markdown";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -15,6 +15,7 @@ type Props = {
 };
 
 export default function IssuePage({ issue }: Props) {
+  const [activeAccordion, setActiveAccordion] = useState<number | null>(null);
   return (
     <BaseLayout title={issue.title}>
       <main className="issue-page">
@@ -112,9 +113,14 @@ export default function IssuePage({ issue }: Props) {
           <section className="questions cbox medium-blue">
             <div className="w1400">
               <h3 className="issues_faq_header fExbold fUppercase">common questions:</h3>
-              {issue.questions.map((question) => (
+              {issue.questions.map((question, idx) => (
                 <React.Fragment key={question.title}>
-                  <a className="accordion">
+                  <a
+                    className={`accordion ${activeAccordion === idx ? "active" : ""}`}
+                    onClick={() =>
+                      activeAccordion === idx ? setActiveAccordion(null) : setActiveAccordion(idx)
+                    }
+                  >
                     <h4 className="accordian_question fRaleway fRegular">{question.title}</h4>
                     <FontAwesomeIcon icon={faPlus} size="2x" className="plus" />
                   </a>
