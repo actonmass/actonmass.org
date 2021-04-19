@@ -29,22 +29,26 @@ failures_block_title: Despite recent victories, our criminal justice system
   still has a long way to go....
 failures:
   - title: Ending Mandatory Minimum Sentencing
-    text: As part of the War on Drugs, politicians in the early 70's introduced the
-      practice of mandatory minimum sentences to reduce the alleged crime
-      epidemic. But instead of making communities safer, mandatory minimums
-      became a catalyst for mass incarceration, terrorizing Black communities
-      and ignoring the root causes of poverty and crime. Massachusetts has much
-      higher incarceration rates than we did in the 1970's, and according to
-      statewide sentencing data Black and Latinx residents make up just 23
-      percent of the state's population, but more than double the percentage of
-      people serving mandatory minimum sentences for drug charges. This is not
-      an accident. Our legislature had a chance to end mandatory minimums when
-      they passed a criminal justice reform bill back in 2018, but they left
-      mandatory minimums in place and even created a few new ones. Mandatory
-      minimum sentences don't work to reduce crime or incentivize lawful
-      behavior, and should not be used as a substitute for accessible health
-      care, a jobs guarantee, or mental health services. We need to end
-      mandatory minimum sentencing this session.
+    text: "**In 2018, after years of delay, the Legislature passed a criminal
+      justice reform bill. There were some important reforms made in that bill,
+      but it didn’t go far enough. Reformers hoped to see a broad ability for
+      juvenile expungement to prevent youth’s criminal records from haunting
+      them the rest of their lives, but only a limited form of expungement was
+      included. And instead of eliminating all mandatory minimum sentences, the
+      bill created a new one.** Instead of making communities safer, mandatory
+      minimums became a catalyst for mass incarceration, terrorizing Black
+      communities and ignoring the root causes of poverty and crime.
+      Massachusetts has much higher incarceration rates than we did in the
+      1970's, and according to statewide sentencing data Black and Latinx
+      residents make up just 23 percent of the state's population, but more than
+      double the percentage of people serving mandatory minimum sentences for
+      drug charges. This is not an accident. Our legislature had a chance to end
+      mandatory minimums when they passed a criminal justice reform bill back in
+      2018, but they left mandatory minimums in place and even created a few new
+      ones. Mandatory minimum sentences don't work to reduce crime or
+      incentivize lawful behavior, and should not be used as a substitute for
+      accessible health care, a jobs guarantee, or mental health services. We
+      need to end mandatory minimum sentencing this session."
   - title: Decertification
     text: Massachusetts is one of just a handful of states without certification for
       police officers, meaning that a cop who's fired by one town for
