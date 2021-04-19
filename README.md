@@ -1,83 +1,41 @@
 # https://actonmass.org
 
-### _Lot of content here is obsolete, will try to update soon_
-
 ## Content edition
 
-### What to edit
+Most content can be edited via the https://actonmass.org/admin/ admin UI.
 
-_TODO_
-
+It can also be edited directly here in the [content](./content) directorory.
 
 ### Syntax
 
-Page and posts content is written in [Markdown](https://www.markdownguide.org/basic-syntax/).
+Page and posts content are written in [Markdown](https://www.markdownguide.org/basic-syntax/).
 
-On top of each page file, a "front matter" can also be found. It defines metadata about the page using the [YAML](https://lzone.de/cheat-sheet/YAML) format.
+In addition to standard markdown features, you can use custom tags to format a page.
 
-### Styling in Markdown
+Some examples:
 
-While most page styling happens in CSS and templates, some basic pre-made styles can be added to style a paragraph.
+```mdx
 
-For instance, to apply the style `centered` to a paragraph, use the following syntax:
+<HubspotForm portalId="6201350" formId="fd6d4250-b852-453a-922e-705e792f4167" />
+
+<Button href="https://some.meeting.zoom.us">
+  Sign-up for an event!
+</Button>
+
+<CenteredBlock>
+  # A centered title
+</CenteredBlock>
+
+
+<CenteredImage img="/img/some-image.jpg" alt="Image description for accessibility" width="500"/>
+
+<Section color="light-blue" width="1000">
+
+  ## A title
+
+  In November of 2020, Act on Mass launched our Transparency is Power campaign. Between
+  November and February, over 3000 constituents...
+
+</Section>
 
 ```
-Text to center
-{: .centered }
-```
-
-Several styles can be added on the same paragraph:
-
-```
-Important text to center
-{: .centered .important }
-```
-
-The following styles are available:
-
-- `centered`: Center a paragraph
-- `small`: Use a smaller font size for text in the paragraph.
-- `important`: Use a bigger font size for text in the paragraph.
-- `centered-image`: Center an image and its legend.
-- `small-image`: Ensure that image height won't be more than 400px.
-
-More styles can be built if necessary.
-
-### Including reusable components
-
-Some pre-mades components can be added to a page or a post.
-
-- Include a Youtube video:
-  ```
-  {% include youtube-video.html src="https://www.youtube.com/embed/VIDEO_ID" %}
-  ```
-- Include the sign-up form:
-  ```
-  {% include signup-form.html %}
-  ```
-
-
-
-## Style edition
-
-Pages layout (HTML and CSS) can be edited in the following places:
-- [`_layouts`](/_layouts) for page layouts
-- [`blog/index.html`](/blog/index.html) for the [/blog](https://actonmass.org/blog/) page layout
-- [`css`](/css) for CSS stylesheets
-
-
-## Live deployment
-
-All branches (draft versions of the website) are automatically deployed to preview changes. A branch named `test` would be deployed on the domain https://test--actonmass.netlify.com/.
-
-Branch deployment should not take more than 6 minutes.
-If a deployment doesn't work, logs can be checked on [Netlify](https://app.netlify.com/sites/actonmass/deploys) (requires login).
-
-
-# Development #
-
-To build and serve locally
-```
-yarn clean && yarn develop
-```
-
