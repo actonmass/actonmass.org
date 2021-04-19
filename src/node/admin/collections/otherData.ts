@@ -44,35 +44,6 @@ export default {
       ],
     },
     {
-      label: "Pledge signatories",
-      name: "pledge_signatories",
-      file: "_data/pledge_signatories.yml",
-      fields: [
-        {
-          label: "House signatories",
-          name: "house",
-          widget: "list",
-          collapsed: false,
-          field: {
-            ...legislator_picker,
-            label: "Rep",
-            name: "rep",
-          },
-        },
-        {
-          label: "Senate signatories",
-          name: "senate",
-          widget: "list",
-          collapsed: false,
-          field: {
-            ...legislator_picker,
-            label: "Senator",
-            name: "senator",
-          },
-        },
-      ],
-    },
-    {
       ...script,
       label: "Pledge scripts",
       name: "pledge_scripts",
