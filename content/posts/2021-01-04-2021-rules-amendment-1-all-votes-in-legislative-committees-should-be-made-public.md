@@ -7,7 +7,9 @@ redirect_from:
   - /Amendment1Rules2021
 image: /img/rules1map.png
 ---
-<CenteredTitle txt="What does the amendment do?"/>
+<CenteredBlock>
+## What does the amendment do?
+</CenteredBlock>
 
 * **It requires all committees to make their votes public on the website.**
 * **It requires all testimony submitted to the committee to be made public.** 
@@ -22,7 +24,9 @@ Because some committees are governed by the House Rules and others are governed 
 
 ------------------------
 
-<CenteredTitle txt="How do we stack up to other states?"/>
+<CenteredBlock>
+## How do we stack up to other states?
+</CenteredBlock>
 
 27 states make committee votes public on their legislature's website.
 
@@ -30,7 +34,9 @@ Because some committees are governed by the House Rules and others are governed 
 
 ------------------------
 
-<CenteredTitle txt="Why does it matter?"/>
+<CenteredBlock>
+## Why does it matter?
+</CenteredBlock>
 
 A lot of important progressive bills die in committee each session without a record of how they were voted on. Not only does important policy not get passed, but the public doesn't know who opposed them. If we know who votes against our interests, we could at least set up meetings with those Reps and seek common ground.
 
@@ -43,7 +49,9 @@ Here are some examples of bills that were killed in committee without a vote:
 
 ------------------------
 
-<CenteredTitle txt="What are the arguments against this?"/>
+<CenteredBlock>
+## What are the arguments against this?
+</CenteredBlock>
 
 Over 13 Reps have already signed up to support this amendment, but we are hearing some arguments against it from various Reps.  Below you'll find the most common arguments Reps have made against this amendment and ways to respond:
 
