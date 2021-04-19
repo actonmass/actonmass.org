@@ -1,6 +1,9 @@
 import React from "react";
+import _ from "lodash";
 import HubspotForm from "react-hubspot-form";
 import ReactMarkdown from "react-markdown";
+import { MDXProvider } from "@mdx-js/react";
+import { faCpanel } from "@fortawesome/free-brands-svg-icons";
 
 const CenteredBlock = ({ children }) => (
   <div className="centered">
@@ -15,6 +18,15 @@ const CenteredImage = ({ img, alt, txt, size }) => (
   </p>
 );
 
-const MD = ({ children }) => <ReactMarkdown source={children} />;
+const MD = ({ children }) => {
+  if (_.isString(children)) {
+    return <ReactMarkdown source={children} />;
+  }
+  return <MDX>{children}</MDX>;
+};
 
-export default { CenteredBlock, HubspotForm, CenteredImage, MD };
+const components = { CenteredBlock, HubspotForm, CenteredImage, MD };
+
+export default function MDX({ children }) {
+  return <MDXProvider components={components}>{children}</MDXProvider>;
+}

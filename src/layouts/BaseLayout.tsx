@@ -2,11 +2,10 @@ import React from "react";
 import { Helmet } from "react-helmet";
 import Modal from "react-modal";
 import "semantic-ui-css/semantic.min.css";
-import { MDXProvider } from "@mdx-js/react";
 
 import { Header, Footer } from "../components";
 import { generalSettings } from "../content";
-import MdxComponents from "../components/MDXComponents";
+import MDX from "../components/MDXComponents";
 
 import "./misc.scss";
 import "./common.scss";
@@ -49,7 +48,7 @@ export default function BaseLayout({ children, title, image }: Props) {
         />
       </Helmet>
       <Header />
-      <MDXProvider components={MdxComponents}>{children}</MDXProvider>
+      <MDX>{children}</MDX>
       <Footer />
     </>
   );
