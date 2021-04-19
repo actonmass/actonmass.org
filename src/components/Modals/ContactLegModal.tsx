@@ -102,6 +102,14 @@ export function ContactLegModal({ txt, leg: legBase, scripts, style, isThanks = 
       );
     }
 
+    if (!leg.phone && !leg.email && !leg.twitter) {
+      return (
+        <p>
+          Sorry, we don't have this legislator's coordinates in our system. We'll add them soon!
+        </p>
+      );
+    }
+
     return (
       <div>
         <div className="vbox">
