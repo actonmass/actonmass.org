@@ -14,7 +14,7 @@ In addition to standard markdown features, you can use custom tags to format a p
 
 Some examples:
 
-```jsx
+```html
 
 <HubspotForm portalId="6201350" formId="fd6d4250-b852-453a-922e-705e792f4167" />
 
