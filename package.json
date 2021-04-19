@@ -1,9 +1,9 @@
 {
-  "name": "actonmass.org-gatsby",
+  "name": "actonmass-website",
   "version": "1.0.0",
   "private": true,
-  "description": "actonmass.org-gatsby",
-  "author": "Florian Pagnoux",
+  "description": "ActOnMass website",
+  "author": "Florian Pagnoux, Jordan Williams, Evan Lynch",
   "keywords": [
     "gatsby"
   ],
