@@ -3,7 +3,6 @@ import _ from "lodash";
 import HubspotForm from "react-hubspot-form";
 import ReactMarkdown from "react-markdown";
 import { MDXProvider } from "@mdx-js/react";
-import { faCpanel } from "@fortawesome/free-brands-svg-icons";
 
 const CenteredBlock = ({ children }) => (
   <div className="centered">

@@ -52,17 +52,17 @@ export default function Header() {
           </li>
           <li>
             <a href="https://www.facebook.com/act.on.massachusetts/" target="_blank">
-              <FontAwesomeIcon icon={faFacebookF} size="lg" className="fDark" />
+              <FontAwesomeIcon icon={faFacebookF} size="lg" className="fDark social_media_link" />
             </a>
           </li>
           <li>
             <a href="https://twitter.com/act_on_mass?lang=en" target="_blank">
-              <FontAwesomeIcon icon={faTwitter} size="lg" className="fDark" />
+              <FontAwesomeIcon icon={faTwitter} size="lg" className="fDark social_media_link" />
             </a>
           </li>
           <li>
             <a href="https://www.instagram.com/act_on_mass/" target="_blank">
-              <FontAwesomeIcon icon={faInstagram} size="lg" className="fDark" />
+              <FontAwesomeIcon icon={faInstagram} size="lg" className="fDark social_media_link" />
             </a>
           </li>
         </ul>
