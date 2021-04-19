@@ -28,12 +28,12 @@ export default async function createPagePages(graphql, createPage) {
     }
 
     const layouts = {
+      base: path.resolve(`src/layouts/pages/BasePage.tsx`),
       home: path.resolve(`src/layouts/pages/HomePage.tsx`),
       default: path.resolve(`src/layouts/pages/DefaultPage.tsx`),
       bills: path.resolve(`src/layouts/pages/BillsPage.tsx`),
       about: path.resolve(`src/layouts/pages/AboutUsPage.tsx`),
       pledge: path.resolve(`src/layouts/pages/PledgePage.tsx`),
-      "the-campaign": path.resolve(`src/layouts/pages/TheCampaignPage.tsx`),
       "legislator-search": path.resolve(`src/layouts/pages/LegislatorSearchPage.tsx`),
       climate: path.resolve(`src/layouts/pages/ClimatePage.tsx`),
     };
