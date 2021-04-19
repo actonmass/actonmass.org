@@ -47,7 +47,14 @@ module.exports = {
     },
     "gatsby-plugin-react-leaflet",
     "gatsby-plugin-meta-redirect",
-    "gatsby-plugin-netlify",
+    {
+      // Useful for redirects, but we don't want their caching policy.
+      resolve: `gatsby-plugin-netlify`,
+      options: {
+        mergeLinkHeaders: false,
+        mergeCachingHeaders: false,
+      },
+    },
     "gatsby-plugin-remove-fingerprints", // Optimized for Netlify
   ],
 };
