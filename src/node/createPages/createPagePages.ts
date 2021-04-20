@@ -34,6 +34,7 @@ export default async function createPagePages(graphql, createPage) {
       bills: path.resolve(`src/layouts/pages/BillsPage.tsx`),
       about: path.resolve(`src/layouts/pages/AboutUsPage.tsx`),
       pledge: path.resolve(`src/layouts/pages/PledgePage.tsx`),
+      campaign: path.resolve(`src/layouts/pages/CampaignPage.tsx`),
       "legislator-search": path.resolve(`src/layouts/pages/LegislatorSearchPage.tsx`),
       climate: path.resolve(`src/layouts/pages/ClimatePage.tsx`),
     };

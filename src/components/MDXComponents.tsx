@@ -44,9 +44,13 @@ const Button = ({ children, href }) => (
   </a>
 );
 
-const Script = ({ src }) => <script src={src}></script>;
-
-const components = { CenteredBlock, HubspotForm, CenteredImage, Section, Button, Script };
+const components = {
+  Button,
+  CenteredBlock,
+  CenteredImage,
+  HubspotForm,
+  Section,
+};
 
 export default function MDX({ children }) {
   return <MDXProvider components={components}>{children}</MDXProvider>;

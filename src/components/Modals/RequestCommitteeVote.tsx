@@ -38,7 +38,6 @@ export function RequestCommitteeVote({ bill }: Props) {
   }
   const committee = bill.committee;
   const rawScripts = merge(default_bill_scripts_com_vote, bill.scripts_com_vote);
-  console.log({ default_bill_scripts_com_vote, rawScripts });
   const { senator, representative } = mapValues(legInfo, enrichLeg);
   return (
     <div className="hbox" style={{ justifyContent: "space-evenly" }}>

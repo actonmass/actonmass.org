@@ -1,7 +1,7 @@
 ---
 permalink: /the-campaign/
 title: The People's House
-layout: base
+layout: campaign
 ---
 
 <Section color="dark" width="1000">
@@ -111,9 +111,11 @@ months.
 
 </Section>
 
+<LegislatorSearch theme="dark" mode="campaign" text="Did your Rep commit?" width="1000" hideSenator={true} />
+
 <Section color="medium-blue" width="1000">
 
-## Did your Rep commit?
+## Reps supporting the campaign
 
 <div style="max-width: 800px; margin: 1rem auto;">
   <div style="position: relative; overflow: hidden; padding-top: 64%;">
@@ -124,9 +126,7 @@ months.
   </div>
 </div>
 
-<Script src="https://unpkg.com/papaparse@5.3.0/papaparse.min.js"></Script>
-
-<Script src="https://actonmass.github.io/campaign-map/commitment-list.js"></Script>
+<SupportingReps />
 
 </Section>
 

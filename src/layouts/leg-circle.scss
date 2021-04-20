@@ -60,6 +60,30 @@
     }
   }
 
+  &.XS {
+    margin-right: 1rem;
+    max-width: 15rem;
+
+    .leg_circ_img img {
+      margin: 0rem 0.5rem;
+      width: 4rem;
+      border-width: 0.2rem;
+
+      @media (min-width: 700px) {
+        border-width: 0.3rem;
+        width: 6rem;
+      }
+    }
+
+    .leg_circ_check,
+    .leg_circ_x {
+      max-width: 1.35rem;
+      @media (min-width: 700px) {
+        max-width: 2rem;
+      }
+    }
+  }
+
   &.L {
     .leg_circ_img img {
       width: 8.5rem;

@@ -120,7 +120,7 @@ async function fetchLegAtAdrsMock() {
         resolve({
           legIds: {
             senator: "ocd-person/fb97b139-c0dd-41b5-ae52-159528f47b11",
-            representative: "ocd-person/33017dde-3525-43ff-8c3a-fb44a4a9d833",
+            representative: "ocd-person/a3f4c05a-b51a-4b8f-bc5d-d4cb82d74164",
           },
         }),
       500

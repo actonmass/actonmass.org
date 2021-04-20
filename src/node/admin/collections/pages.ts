@@ -32,6 +32,10 @@ export default {
           label: "Minimal",
           value: "base",
         },
+        {
+          label: "Custom - The Campaign",
+          value: "campaign",
+        },
       ],
       default: "default",
       hint:

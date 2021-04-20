@@ -270,6 +270,10 @@ td {
   flex-wrap: wrap;
 }
 
+.vcenter {
+  align-items: center;
+}
+
 .two-blocks {
   display: grid;
   grid-template-areas:

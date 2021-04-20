@@ -19,6 +19,8 @@ export type Props = {
   showResultIfEmpty?: boolean;
   bill?: GatsbyTypes.Bill;
   mode?: "pledge" | "campaign" | "bill";
+  width?: string;
+  hideSenator?: boolean;
 };
 
 const isBrowser = typeof window != "undefined" && window != null;
@@ -31,6 +33,8 @@ export default function FindMyReps({
   showResultIfEmpty,
   mode,
   allowSelect,
+  width,
+  hideSenator,
 }: Props) {
   const repInfo = useSessionLegs();
   const [error, setError] = useState(null);
@@ -67,6 +71,7 @@ export default function FindMyReps({
         theme={theme}
         loading={loading}
         allowSelect={allowSelect}
+        width={width}
       />
       <Results
         legInfo={repInfo}
@@ -75,17 +80,19 @@ export default function FindMyReps({
         showResultIfEmpty={showResultIfEmpty}
         error={error}
         mode={mode}
+        width={width}
+        hideSenator={hideSenator}
       />
     </div>
   );
 }
 
-type FormProps = Pick<Props, "title" | "text" | "theme" | "allowSelect"> & {
+type FormProps = Pick<Props, "title" | "text" | "theme" | "allowSelect" | "width"> & {
   loading: boolean;
   onSubmit: (query: Query) => void;
 };
 
-function Form({ title, text, onSubmit, theme, loading, allowSelect }: FormProps) {
+function Form({ title, text, onSubmit, theme, loading, allowSelect, width }: FormProps) {
   const [streetAddress, setStreetAddress] = useState("");
   const [city, setCity] = useState("");
   const legislators = useAllCurrentLegislators();
@@ -99,10 +106,11 @@ function Form({ title, text, onSubmit, theme, loading, allowSelect }: FormProps)
   };
 
   const titleToDisplay = title ?? (_.isEmpty(text) ? "legislator search" : "");
+  const w = width === "1200" ? "w1200" : width === "1000" ? "w1000" : "w1400";
 
   return (
     <section className={`${theme || ""} cbox leg-search`} id="leg-search">
-      <div className="w1400">
+      <div className={w}>
         <div className="legislator-search">
           {titleToDisplay && <h1 className="fRaleway fExbold">{titleToDisplay}</h1>}
           {text && <h3 className="text fRaleway fExbold">{text}</h3>}
@@ -144,11 +152,15 @@ function Form({ title, text, onSubmit, theme, loading, allowSelect }: FormProps)
               </>
             )}
             <div className="cbox btn-container">
-              <a className="btn btn_search" onClick={handleSubmit}>
-                <span className="hbox centered">
+              <a className="btn btn_search cbox" onClick={handleSubmit}>
+                <div className="hbox vcenter">
                   <span>Submit</span>
-                  {loading && <LoadingSpinner />}
-                </span>
+                  {loading && (
+                    <span style={{ marginLeft: "1rem" }}>
+                      <LoadingSpinner />
+                    </span>
+                  )}
+                </div>
               </a>
             </div>
           </form>

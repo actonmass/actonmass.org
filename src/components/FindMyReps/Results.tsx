@@ -6,24 +6,38 @@ import { QueryResult } from "./findReps";
 import Legislator from "./Legislator";
 import { Props as FindMyRepsProps } from "./FindMyReps";
 
-type Props = Pick<FindMyRepsProps, "bill" | "theme" | "showResultIfEmpty" | "mode"> & {
+type Props = Pick<
+  FindMyRepsProps,
+  "bill" | "theme" | "showResultIfEmpty" | "mode" | "width" | "hideSenator"
+> & {
   legInfo: QueryResult | null;
   error: string | null;
 };
 
-export default function Results({ legInfo, bill, theme, showResultIfEmpty, error, mode }: Props) {
+export default function Results({
+  legInfo,
+  bill,
+  theme,
+  showResultIfEmpty,
+  error,
+  mode,
+  width,
+  hideSenator,
+}: Props) {
   if (!legInfo && !error && !showResultIfEmpty) {
     return null;
   }
+  const w = width === "1200" ? "w1200" : width === "1000" ? "w1000" : "w1400";
+
   return (
     <section className={`results-container cbox ${theme !== "dark" ? "light-blue" : ""}`}>
-      <div className="w1400">
+      <div className={w}>
         <div className="results">
           <h2 className="fRaleway fUppercase fRegular" id="leg-search-results">
-            Your legislators
+            {!hideSenator && "Your legislators"}
           </h2>
           {legInfo ? (
-            <LegResults legInfo={legInfo} bill={bill} mode={mode} />
+            <LegResults legInfo={legInfo} bill={bill} mode={mode} hideSenator={hideSenator} />
           ) : error ? (
             <ErrorResults errorCode={error} />
           ) : (
@@ -39,7 +53,8 @@ function LegResults({
   legInfo,
   bill,
   mode,
-}: Pick<Props, "bill" | "mode"> & { legInfo: QueryResult }) {
+  hideSenator,
+}: Pick<Props, "bill" | "mode" | "hideSenator"> & { legInfo: QueryResult }) {
   const rep = legInfo.representative && {
     chamber: "house" as const,
     title: "rep",
@@ -53,7 +68,7 @@ function LegResults({
   return (
     <div className="legislators">
       <Legislator leg={rep} bill={bill} mode={mode} chamber="house" />
-      <Legislator leg={senator} bill={bill} mode={mode} chamber="senate" />
+      {!hideSenator && <Legislator leg={senator} bill={bill} mode={mode} chamber="senate" />}
     </div>
   );
 }

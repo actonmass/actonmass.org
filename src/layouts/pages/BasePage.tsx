@@ -11,7 +11,7 @@ type PageContext = { title: string } & (
   | { body: any; html: undefined }
 );
 
-export default function DefaultPage({ pageContext }: PageProps<{}, PageContext>) {
+export default function BasePage({ pageContext }: PageProps<{}, PageContext>) {
   return (
     <BaseLayout title={pageContext.title}>
       <main className="base_page">

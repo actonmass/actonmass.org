@@ -16,4 +16,13 @@
   .btn {
     margin-bottom: 1rem;
   }
+
+  .leg-grid {
+    display: grid;
+
+    grid-template-columns: repeat(4, 1fr);
+    @media (min-width: 700px) {
+      grid-template-columns: repeat(8, 1fr);
+    }
+  }
 }
