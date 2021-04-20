@@ -15,4 +15,5 @@ start_date: ''
 twitter: paultuckersalem
 website: null
 ocd_id: ocd-person/4246ee2e-3e90-40c2-ae05-76bf836889ee
+supports_the_campaign: true
 ---

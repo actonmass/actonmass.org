@@ -16,4 +16,5 @@ twitter: MikeConnollyMA
 website: ""
 ocd_id: ocd-person/a8225754-d88c-4343-8829-aa168b564cbd
 pledge: true
+supports_the_campaign: true
 ---

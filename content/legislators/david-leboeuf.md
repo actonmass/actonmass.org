@@ -15,4 +15,5 @@ start_date: ''
 twitter: ''
 website: ''
 ocd_id: ocd-person/ca659c30-e49e-420b-8213-797cfeb3c378
+supports_the_campaign: true
 ---

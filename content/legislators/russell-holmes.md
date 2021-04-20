@@ -16,4 +16,5 @@ twitter: ""
 website: ""
 ocd_id: ocd-person/078692f2-2afe-4aa1-a320-d4747edacbbb
 pledge: true
+supports_the_campaign: true
 ---

@@ -3,7 +3,7 @@ aom_id: nika-elugardo
 first_name: Nika
 last_name: Elugardo
 district: house-15th-suffolk
-supports_the_campaign: false
+supports_the_campaign: true
 party: D
 phone: (617) 722-2582
 email: nika.elugardo@mahouse.gov
