@@ -41,7 +41,13 @@ export default function BaseLayout({ children, title, image }: Props) {
           type="text/javascript"
           src="//js.hsforms.net/forms/shell.js"
         ></script>
-
+        <link
+          rel="preload"
+          href="https://d3rse9xjbp8270.cloudfront.net/at.js"
+          as="script"
+          crossOrigin="anonymous"
+        />
+        <link rel="preload" href="https://d3rse9xjbp8270.cloudfront.net/at.min.css" as="style" />
         <link
           href="https://fonts.googleapis.com/css?family=Raleway:500,700,800%7CRoboto:300,400,500,700&display=swap"
           rel="stylesheet"

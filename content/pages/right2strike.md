@@ -6,8 +6,7 @@ layout: default
 
 <CenteredImage img="/img/right-to-strike_website.jpg" alt=""/>
 
-<HubspotForm portalId="6201350" formId="4cc0ca22-fecd-4e1d-8ab1-44d902ba3e4b" region="na1"/>
-
+<NGPVanForm formId="https://secure.everyaction.com/v1/Forms/IT9iifOukEyDNGdYdy9mTQ2" />
 
 **End the Prohibition on Strikes for Public Sector Workers**
 

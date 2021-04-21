@@ -488,19 +488,26 @@ td {
 }
 
 .modal {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  right: auto;
-  bottom: auto;
+  box-sizing: border-box;
+  padding: 20px;
+  overflow-y: auto;
+  margin: auto;
+
   border: 1px solid rgb(204, 204, 204);
   overflow: auto;
   border-radius: 4px;
   outline: none;
   padding: 20px;
-  margin-right: -50%;
-  transform: translate(-50%, -50%);
   background: #f2f2f2;
+  overflow-x: hidden;
+
+  .svg-inline--fa.fa-times {
+    cursor: pointer;
+  }
+
+  &.white {
+    background: white;
+  }
 
   .modal-header {
     text-align: right;
@@ -519,6 +526,10 @@ td {
 }
 
 .modal-overlay {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
   z-index: 2;
   position: fixed;
   top: 0px;
