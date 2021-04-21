@@ -150,3 +150,35 @@ ul.main_breadcrumb {
   align-self: center;
   margin: 1% 5% 1% 5%;
 }
+
+// VAN stuff
+
+#fastaction-signup,
+#fastaction-login {
+  display: none;
+}
+
+.recaptcha-container {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.grecaptcha-badge {
+  position: unset !important;
+}
+
+.ngp-form {
+  section {
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+  }
+}
+
+.at label,
+.at textarea {
+  font-size: unset !important;
+}
+
+.at select {
+  font-size: 1rem !important;
+}

@@ -501,6 +501,15 @@ td {
   margin-right: -50%;
   transform: translate(-50%, -50%);
   background: #f2f2f2;
+  overflow-x: hidden;
+
+  .svg-inline--fa.fa-times {
+    cursor: pointer;
+  }
+
+  &.white {
+    background: white;
+  }
 
   .modal-header {
     text-align: right;

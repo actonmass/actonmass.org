@@ -4,6 +4,8 @@ import HubspotForm from "react-hubspot-form";
 import ReactMarkdown from "react-markdown";
 import { MDXProvider } from "@mdx-js/react";
 
+import NGPVanForm from "../components/NGPVanForm";
+
 const CenteredBlock = ({ children }) => (
   <div className="centered">
     <MD>{children}</MD>
@@ -50,6 +52,7 @@ const components = {
   CenteredImage,
   HubspotForm,
   Section,
+  NGPVanForm,
 };
 
 export default function MDX({ children }) {
