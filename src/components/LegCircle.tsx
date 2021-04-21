@@ -5,9 +5,10 @@ type Props = {
   rep: GatsbyTypes.Legislator;
   status: "ok" | "ko";
   size?: string;
+  msg?: string;
 };
 
-export default function LegCircle({ rep, status, size }: Props) {
+export default function LegCircle({ rep, status, size, msg }: Props) {
   return (
     <div className={`leg_circ ${size ?? ""}`}>
       <div className="cbox">
@@ -25,10 +26,11 @@ export default function LegCircle({ rep, status, size }: Props) {
           {status === "ko" && <img className="leg_circ_x" src="/img/red_x.png" alt="red x" />}
         </div>
       </div>
-      <p className="fRoboto fLight">
+      <div className="fRoboto fLight">
         {rep.first_name} {rep.last_name} ({rep.party})
-      </p>
-      <h5 className="fRoboto fLight">{rep.hometown}</h5>
+      </div>
+      {rep.hometown && <h5 className="fRoboto fLight">{rep.hometown}</h5>}
+      {msg && <h5 className="fRoboto fLight">{msg}</h5>}
     </div>
   );
 }

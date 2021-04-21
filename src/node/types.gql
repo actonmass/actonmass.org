@@ -63,6 +63,9 @@ type Legislator implements Node @dontInfer {
   twitter: String
   district: District @link
   supports_the_campaign: Boolean!
+  supports_the_campaign_public_bills: Boolean
+  supports_the_campaign_term_limits: Boolean
+  supports_the_campaign_committee_votes: Boolean
   pledge: Boolean!
   start_date: String
   end_date: String

@@ -42,6 +42,24 @@ export default {
       default: false,
     },
     {
+      label: "Supports the campaign - Public Bills",
+      name: "supports_the_campaign_public_bills",
+      widget: "boolean",
+      default: false,
+    },
+    {
+      label: "Supports the campaign - Committee Votes",
+      name: "supports_the_campaign_committee_votes",
+      widget: "boolean",
+      default: false,
+    },
+    {
+      label: "Supports the campaign - Term limits",
+      name: "supports_the_campaign_term_limits",
+      widget: "boolean",
+      default: false,
+    },
+    {
       label: "Signed the pledge",
       name: "pledge",
       widget: "boolean",

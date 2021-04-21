@@ -20,9 +20,13 @@
   .leg-grid {
     display: grid;
 
-    grid-template-columns: repeat(4, 1fr);
+    .leg_circ {
+      margin-bottom: 1rem;
+    }
+
+    grid-template-columns: repeat(3, 1fr);
     @media (min-width: 700px) {
-      grid-template-columns: repeat(8, 1fr);
+      grid-template-columns: repeat(6, 1fr);
     }
   }
 }

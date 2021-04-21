@@ -46,9 +46,15 @@ export default function CampaignPage({ pageContext, data }: PageProps<Data, Page
 
 const SupporterList = ({ reps }) => (
   <div className="leg-grid">
-    {reps.map((rep) => (
-      <LegCircle key={rep.href} rep={rep} status="ok" size="XS" />
-    ))}
+    {reps.map((rep) => {
+      const commitments = [
+        rep.supports_the_campaign_committee_votes && "1",
+        rep.supports_the_campaign_public_bills && "2",
+        rep.supports_the_campaign_term_limits && "3",
+      ].filter((i) => i);
+      const msg = `Amendment${commitments.length > 1 ? "s" : ""} ${commitments.join(", ")}`;
+      return <LegCircle key={rep.href} rep={rep} status="ok" size="XS" msg={msg} />;
+    })}
   </div>
 );
 
@@ -61,6 +67,9 @@ export const query = graphql`
         last_name
         party
         square_picture
+        supports_the_campaign_public_bills
+        supports_the_campaign_term_limits
+        supports_the_campaign_committee_votes
         district {
           name
         }
