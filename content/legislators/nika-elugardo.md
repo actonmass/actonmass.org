@@ -17,4 +17,7 @@ facebook: ""
 ocd_id: ocd-person/c8fe117c-4c65-45c7-bdf1-fec80bd0f344
 twitter: ""
 pledge: true
+supports_the_campaign_public_bills: true
+supports_the_campaign_term_limits: false
+supports_the_campaign_committee_votes: true
 ---

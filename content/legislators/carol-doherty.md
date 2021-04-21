@@ -8,4 +8,7 @@ start_date: 2020-06-10
 malegislature_url: https://malegislature.gov/Legislators/Profile/CAD1
 ocd_id: ocd-person/55824639-e627-48ad-9a3d-01b53caee00c
 supports_the_campaign: true
+supports_the_campaign_public_bills: true
+supports_the_campaign_term_limits: false
+supports_the_campaign_committee_votes: true
 ---

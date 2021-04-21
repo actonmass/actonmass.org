@@ -17,4 +17,7 @@ website: ""
 ocd_id: ocd-person/0a288f3d-397f-4e7b-8bfd-b5032ae1421f
 pledge: true
 supports_the_campaign: true
+supports_the_campaign_public_bills: true
+supports_the_campaign_term_limits: false
+supports_the_campaign_committee_votes: true
 ---

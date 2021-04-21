@@ -9,4 +9,7 @@ malegislature_url: https://malegislature.gov/Legislators/Profile/SCO1
 ocd_id: ocd-person/f20dd448-92ef-458c-bf92-90e7e766072a
 pledge: true
 supports_the_campaign: true
+supports_the_campaign_public_bills: true
+supports_the_campaign_term_limits: false
+supports_the_campaign_committee_votes: true
 ---
