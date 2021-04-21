@@ -9,7 +9,7 @@ export default function NGPVanForm({ formId }: Props) {
     loadNGPScripts();
   }, []);
   return (
-    <div>
+    <div id="ngp-van-container">
       <div
         className="ngp-form"
         data-form-url={formId}
@@ -28,11 +28,13 @@ function loadNGPScripts() {
   try {
     //@ts-ignore
     delete window.nvtag;
-    var head = document.getElementsByTagName("head")[0];
-    var script = document.createElement("script");
+    const container = document.getElementById("ngp-van-container");
+    const script = document.createElement("script");
     script.src = "https://d3rse9xjbp8270.cloudfront.net/at.js";
     script.setAttribute("crossorigin", '"anonymous"');
-    head.appendChild(script);
+    container.appendChild(script);
+    // Fix scrolling somehow broken by this van script... yikes...
+    script.onload = window.scrollTo = (...args) => document.querySelector("body").scrollTo(...args);
   } catch (e) {
     console.error("Failed to load the Van form");
   }
