@@ -20,7 +20,7 @@ export default function SignupForm() {
 
   const renderModalContent = () => {
     return (
-      <div style={{ width: "min(1400px, 80vw)", maxHeight: "80vh" }}>
+      <div style={{ width: "min(1000px, 80vw)", maxHeight: "80vh" }}>
         <NGPVanForm formId="https://secure.everyaction.com/v1/Forms/89W8SSTEgESvjQcBrZD_3Q2" />
       </div>
     );
