@@ -9,15 +9,9 @@ export default async function createPostPages(graphql, createPage, createRedirec
           nodes {
             id
             title
-            date
-            fileName
             href
-            image
             redirect_from
             parent {
-              ... on MarkdownRemark {
-                html
-              }
               ... on Mdx {
                 body
               }
@@ -38,11 +32,7 @@ export default async function createPostPages(graphql, createPage, createRedirec
       const nextPost = result.data.allPost.nodes[idx + 1];
 
       const context = {
-        body: post.parent.body,
-        html: post.parent.html,
-        date: post.date,
-        title: post.title,
-        image: post.image,
+        id: post.id,
         ...(prevPost && { previous: { title: prevPost.title, url: prevPost.href } }),
         ...(nextPost && { next: { title: nextPost.title, url: nextPost.href } }),
       };
