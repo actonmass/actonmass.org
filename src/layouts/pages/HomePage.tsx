@@ -99,7 +99,7 @@ export default function Home({ data }) {
 
         <section className="accountability dark">
           <div className="rect rect1"></div>
-          <h2 className="account_title fUppercase fWhite">the transparency campaign:</h2>
+          <h2 className="account_title fUppercase fWhite">The People's House</h2>
           <div className="pledge_left">
             <HeroImage
               img="/img/the-campaign.jpg"
@@ -107,11 +107,9 @@ export default function Home({ data }) {
             />
           </div>
           <div className="account_text">
-            <h3 className="account_text1 fUppercase fWhite fExbold">Demand transparency</h3>
+            <h3 className="account_text1 fUppercase fWhite fExbold">A Campaign for Democracy</h3>
             <h4 className="account_text2 fRoboto fWhite fLight">
-              At the start of every legislative session, the State House writes its own rulebook.
-              Join your district team to demand that our legislators change the broken,
-              anti-democratic rules in the State House.
+              This July, the State House will be writing its own rulebook. Join your district team to demand that our legislators change the broken, anti-democratic rules in the State House.
             </h4>
             <Link to="/the-campaign" className="fRoboto fExbold fUppercase btn btn_pledge">
               the campaign
