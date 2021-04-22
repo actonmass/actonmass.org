@@ -3,13 +3,12 @@ permalink: /the-campaign/
 title: The People's House
 layout: campaign
 ---
-
 <Section color="dark" width="1000">
   <CenteredBlock>
     # The People's House
   </CenteredBlock>
 
-### A Campaign for Rules Reform by Act on Mass, Sunrise Boston, Mijente, and Indivisible Mass Coalition
+### A Campaign for Rules Reform by Act on Mass, Sunrise Boston, Mijente Boston Asamblea, Indivisible Mass Coalition, & Our Climate
 
 What if we, the people, could reclaim our power to shape the policies that affect our lives? What if
 we could hold our state representatives accountable to actually representing their districts? What
@@ -45,9 +44,9 @@ As Massachusetts residents, we know that our state house is not working for us. 
 policies that the **majority of people in this state support** and need in order to thrive are voted
 down without a public vote, or stalled indefinitely.
 
-- Protections for immigrants
-- Medicare for All
-- Making it easier to vote
+* Protections for immigrants
+* Medicare for All
+* Making it easier to vote
 
 ...and so much more.
 
@@ -67,9 +66,9 @@ don’t even know how they vote.** Massachusetts has
 [one of the least transparent state houses in the country](https://ballotpedia.org/Open_States%27_Legislative_Data_Report_Card)
 . For ordinary Massachusetts residents, this means that:
 
-- It's difficult to know what's going on in the State House, and advocate for the bills we care
+* It's difficult to know what's going on in the State House, and advocate for the bills we care
   about.
-- Our representatives are more accountable to corporate lobbyists and the Speaker of the House than
+* Our representatives are more accountable to corporate lobbyists and the Speaker of the House than
   to their districts.
 
 Democracy only works if everyday people are able to access and influence their government.
@@ -135,29 +134,29 @@ months.
 
 ## Media
 
-- [“Massachusetts lawmakers are debating their transparency procedures – behind closed doors”](https://www.bostonglobe.com/2021/04/07/metro/massachusetts-lawmakers-are-debating-their-transparency-procedures-behind-closed-doors/)
+* [“Massachusetts lawmakers are debating their transparency procedures – behind closed doors”](https://www.bostonglobe.com/2021/04/07/metro/massachusetts-lawmakers-are-debating-their-transparency-procedures-behind-closed-doors/)
   Emma Platoff, Boston Globe, 4/07/2021
-- [“Local Activist Groups Push for Statehouse Transparency Amendments”](https://ottosoninsider.com/1158/news/local-activist-groups-push-for-statehouse-transparency-amendments/)
+* [“Local Activist Groups Push for Statehouse Transparency Amendments”](https://ottosoninsider.com/1158/news/local-activist-groups-push-for-statehouse-transparency-amendments/)
   Mia V., The Ottoson Insider, 02/23/2021
-- [“Our view: Transparency with a twist”](https://www.salemnews.com/opinion/editorials/our-view-transparency-with-a-twist/article_7613c5e5-09c6-5c89-a0c0-b809b1adbc82.html)
+* [“Our view: Transparency with a twist”](https://www.salemnews.com/opinion/editorials/our-view-transparency-with-a-twist/article_7613c5e5-09c6-5c89-a0c0-b809b1adbc82.html)
   The Salem News Editorial Board, 02/18/2021
-- [“The Deep Rot of the Massachusetts Democratic Party”](https://newrepublic.com/article/161406/charlie-baker-massachusetts-democratic-party-failure)
+* [“The Deep Rot of the Massachusetts Democratic Party”](https://newrepublic.com/article/161406/charlie-baker-massachusetts-democratic-party-failure)
   Daniel Boguslaw, The New Republic, 2/18/2021
-- [“It’s time lawmakers support an open house”](https://www.bostonglobe.com/2021/01/19/opinion/its-time-lawmakers-support-an-open-house/)
+* [“It’s time lawmakers support an open house”](https://www.bostonglobe.com/2021/01/19/opinion/its-time-lawmakers-support-an-open-house/)
   Boston Globe Editorial Board, 01/19/2021
-- [“Massachusetts Does Not Have a Representative Democracy”](https://www.wickedlocal.com/story/somerville-journal/2021/01/05/column-massachusetts-does-not-have-representative-democracy/6551363002/)
+* [“Massachusetts Does Not Have a Representative Democracy”](https://www.wickedlocal.com/story/somerville-journal/2021/01/05/column-massachusetts-does-not-have-representative-democracy/6551363002/)
   Ella McDonald, Somerville Journal, 01/05/2021
-- ["Activists look to bolster transparency in Massachusetts House come January"](https://www.berkshireeagle.com/news/local/activists-look-to-bolster-transparency-in-massachusetts-house-come-january/article_3789b8ea-4645-11eb-90d5-df48e45fdab4.html),
+* ["Activists look to bolster transparency in Massachusetts House come January"](https://www.berkshireeagle.com/news/local/activists-look-to-bolster-transparency-in-massachusetts-house-come-january/article_3789b8ea-4645-11eb-90d5-df48e45fdab4.html),
   Interview with Sophie Coyne, Berkshire Eagle, 12/27/2020
-- ["Don't let American democracy die"](https://www.metrowestdailynews.com/story/opinion/letters/2020/12/26/citizens-formed-organizing-group-act-mass-demand-transparency/4041860001/),
+* ["Don't let American democracy die"](https://www.metrowestdailynews.com/story/opinion/letters/2020/12/26/citizens-formed-organizing-group-act-mass-demand-transparency/4041860001/),
   Miriam Siegal and Scotia Hille, Metrowest Daily News, 12/26/2020
-- ["Police reform bill is an example of why the public is distrustful of Beacon Hill"](https://www.bostonglobe.com/2020/12/02/opinion/police-reform-bill-is-an-example-why-public-is-distrustful-beacon-hill/),
+* ["Police reform bill is an example of why the public is distrustful of Beacon Hill"](https://www.bostonglobe.com/2020/12/02/opinion/police-reform-bill-is-an-example-why-public-is-distrustful-beacon-hill/),
   Rep. Patrick Kearney, Boston Globe, 12/2/2020
-- ["Act on Mass Interview"](https://archive.org/details/act-on-mass-enviro-show-interview-11-27-20),
+* ["Act on Mass Interview"](https://archive.org/details/act-on-mass-enviro-show-interview-11-27-20),
   the Enviro Show, 11/27/2020
-- ["Retiring rep, rep-elect share insights on State House opacity"](https://commonwealthmagazine.org/state-government/retiring-rep-rep-elect-share-insights-on-state-house-opacity/)
+* ["Retiring rep, rep-elect share insights on State House opacity"](https://commonwealthmagazine.org/state-government/retiring-rep-rep-elect-share-insights-on-state-house-opacity/)
   Bruce Mohl, Commonwealth Magazine, 11/23/2020
-- ["Mass. is a participatory democracy in name only"](https://commonwealthmagazine.org/opinion/mass-is-a-participatory-democracy-in-name-only/)
+* ["Mass. is a participatory democracy in name only"](https://commonwealthmagazine.org/opinion/mass-is-a-participatory-democracy-in-name-only/)
   Erin Leahy & Ryan Daulton, Commonwealth Magazine, 11/15/2020
 
 </Section>
