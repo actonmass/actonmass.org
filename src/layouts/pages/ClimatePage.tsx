@@ -10,9 +10,13 @@ import "./climate.scss";
 const img_folder = "/img/climate-ballot/";
 const formatted_url = "ActOnMass.org";
 
-export default function ClimatePage({ pageContext }: PageProps<{}, { title?: string }>) {
+type Data = {
+  page: { title: string };
+};
+
+export default function ClimatePage({ data }: PageProps<Data>) {
   return (
-    <BaseLayout title={pageContext.title}>
+    <BaseLayout title={data.page.title}>
       <Helmet>
         <script defer charSet="utf-8" type="text/javascript" src="/js/anima.js"></script>
       </Helmet>
@@ -317,3 +321,11 @@ function CircledNumber({ number }: { number: string }) {
     </div>
   );
 }
+
+export const query = graphql`
+  query($id: String) {
+    page(id: { eq: $id }) {
+      title
+    }
+  }
+`;

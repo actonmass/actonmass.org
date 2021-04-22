@@ -10,6 +10,7 @@ import "./bills.scss";
 
 type QueryProps = {
   allIssue: { nodes: GatsbyTypes.Issue[] };
+  page: { title: string };
 };
 
 export default function BillsPage({
@@ -18,11 +19,11 @@ export default function BillsPage({
 }: PageProps<QueryProps, { title?: string }>) {
   const issues = data.allIssue.nodes;
   return (
-    <BaseLayout title={pageContext.title}>
+    <BaseLayout title={data.page.title}>
       <main className="bills-page">
         <section className="cbox headline">
           <div className="w1400">
-            <BreadCrum title={pageContext.title} links={[]} />
+            <BreadCrum title={data.page.title} links={[]} />
             <h1 className="fUppercase fBold">progressive bills</h1>
             <div className="list-bills">
               {issues.map((issue) => {
@@ -64,7 +65,11 @@ export default function BillsPage({
 }
 
 export const query = graphql`
-  query {
+  query($id: String) {
+    page(id: { eq: $id }) {
+      title
+    }
+
     allIssue(sort: { fields: order }) {
       nodes {
         title

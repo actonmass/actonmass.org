@@ -6,13 +6,17 @@ import { BreadCrum, FindMyReps } from "../../components";
 
 import "./legislator-search.scss";
 
-export default function LegislatorSearchPage({ pageContext }: PageProps<{}, { title?: string }>) {
+type Data = {
+  page: { title: string };
+};
+
+export default function LegislatorSearchPage({ data }: PageProps<Data>) {
   return (
-    <BaseLayout title={pageContext.title}>
+    <BaseLayout title={data.page.title}>
       <div className="search-page">
         <section className="breadcrum dark cbox">
           <div className="w1400">
-            <BreadCrum title={pageContext.title} />
+            <BreadCrum title={data.page.title} />
           </div>
         </section>
         <FindMyReps theme="dark" showResultsIfEmpty={true} mode="campaign" allowSelect={true} />
@@ -20,3 +24,11 @@ export default function LegislatorSearchPage({ pageContext }: PageProps<{}, { ti
     </BaseLayout>
   );
 }
+
+export const query = graphql`
+  query($id: String) {
+    page(id: { eq: $id }) {
+      title
+    }
+  }
+`;
