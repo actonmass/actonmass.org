@@ -9,16 +9,16 @@ import LegCircle from "../../components/LegCircle";
 
 import "./base.scss";
 
-type PageContext = { title: string } & (
-  | { html: string; body: undefined }
-  | { body: any; html: undefined }
-);
-
 type Data = {
+  page: {
+    title: string;
+    parent: { body: any };
+  };
   allLegislator: { nodes: GatsbyTypes.Legislator[] };
 };
 
-export default function CampaignPage({ pageContext, data }: PageProps<Data, PageContext>) {
+export default function CampaignPage({ data }: PageProps<Data>) {
+  const page = data.page;
   const components = useMemo(
     () => ({
       LegislatorSearch,
@@ -27,7 +27,7 @@ export default function CampaignPage({ pageContext, data }: PageProps<Data, Page
     []
   );
   return (
-    <BaseLayout title={pageContext.title}>
+    <BaseLayout title={page.title}>
       <main className="base_page">
         <MDXProvider components={components}>
           <MDXRenderer
@@ -35,7 +35,7 @@ export default function CampaignPage({ pageContext, data }: PageProps<Data, Page
               legs: data.allLegislator.nodes[0].last_name,
             }}
           >
-            {pageContext.body}
+            {page.parent.body}
           </MDXRenderer>
         </MDXProvider>
         ;
@@ -59,7 +59,16 @@ const SupporterList = ({ reps }) => (
 );
 
 export const query = graphql`
-  {
+  query($id: String) {
+    page(id: { eq: $id }) {
+      title
+      parent {
+        ... on Mdx {
+          body
+        }
+      }
+    }
+
     allLegislator(sort: { fields: last_name }, filter: { supports_the_campaign: { eq: true } }) {
       nodes {
         href

@@ -9,15 +9,6 @@ export default async function createPagePages(graphql, createPage) {
             id
             layout
             permalink
-            title
-            parent {
-              ... on MarkdownRemark {
-                html
-              }
-              ... on Mdx {
-                body
-              }
-            }
           }
         }
       }
@@ -53,9 +44,7 @@ export default async function createPagePages(graphql, createPage) {
         path: page.permalink,
         component: layout,
         context: {
-          body: page.parent.body,
-          html: page.parent.html,
-          title: page.title,
+          id: page.id,
         },
       });
     });

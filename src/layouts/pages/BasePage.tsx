@@ -1,22 +1,38 @@
 import React from "react";
-import { PageProps } from "gatsby";
+import { PageProps, graphql } from "gatsby";
 import { MDXRenderer } from "gatsby-plugin-mdx";
 
 import BaseLayout from "../BaseLayout";
 
 import "./base.scss";
 
-type PageContext = { title: string } & (
-  | { html: string; body: undefined }
-  | { body: any; html: undefined }
-);
+type Data = {
+  page: {
+    title: string;
+    parent: { body: any };
+  };
+};
 
-export default function BasePage({ pageContext }: PageProps<{}, PageContext>) {
+export default function BasePage({ data }: PageProps<Data>) {
+  const page = data.page;
   return (
-    <BaseLayout title={pageContext.title}>
+    <BaseLayout title={page.title}>
       <main className="base_page">
-        <MDXRenderer>{pageContext.body}</MDXRenderer>
+        <MDXRenderer>{page.parent.body}</MDXRenderer>
       </main>
     </BaseLayout>
   );
 }
+
+export const query = graphql`
+  query($id: String) {
+    page(id: { eq: $id }) {
+      title
+      parent {
+        ... on Mdx {
+          body
+        }
+      }
+    }
+  }
+`;

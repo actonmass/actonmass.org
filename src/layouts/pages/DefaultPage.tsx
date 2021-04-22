@@ -1,5 +1,5 @@
 import React from "react";
-import { PageProps } from "gatsby";
+import { PageProps, graphql } from "gatsby";
 import { MDXRenderer } from "gatsby-plugin-mdx";
 
 import { BreadCrum } from "../../components";
@@ -7,28 +7,40 @@ import BaseLayout from "../BaseLayout";
 
 import "./default.scss";
 
-type PageContext = { title: string } & (
-  | { html: string; body: undefined }
-  | { body: any; html: undefined }
-);
+type Data = {
+  page: {
+    title: string;
+    parent: { body: any };
+  };
+};
 
-export default function DefaultPage({ pageContext }: PageProps<{}, PageContext>) {
+export default function DefaultPage({ data }: PageProps<Data>) {
+  const page = data.page;
   return (
-    <BaseLayout title={pageContext.title}>
+    <BaseLayout title={page.title}>
       <main className="default-page cbox light-blue">
         <div className="w1400">
-          <BreadCrum title={pageContext.title} links={[]} />
+          <BreadCrum title={page.title} links={[]} />
         </div>
         <div className="w1200 cbox">
-          {pageContext.body != null ? (
-            <div className="w1000 content">
-              <MDXRenderer>{pageContext.body}</MDXRenderer>
-            </div>
-          ) : (
-            <div className="w1000 content" dangerouslySetInnerHTML={{ __html: pageContext.html }} />
-          )}
+          <div className="w1000 content">
+            <MDXRenderer>{page.parent.body}</MDXRenderer>
+          </div>
         </div>
       </main>
     </BaseLayout>
   );
 }
+
+export const query = graphql`
+  query($id: String) {
+    page(id: { eq: $id }) {
+      title
+      parent {
+        ... on Mdx {
+          body
+        }
+      }
+    }
+  }
+`;
