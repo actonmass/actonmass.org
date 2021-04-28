@@ -16,8 +16,8 @@ if we could make the State House work to uplift the lives of millions, fulfillin
 most vulnerable neighbors? **Imagine what transformative policies we could win.**
 
 <CenteredBlock>
-  <Button href="https://www.youtube.com/watch?v=VW_Q_9BUWd8">
-    Watch our April 21 Campaign Launch
+  <Button href="https://secure.everyaction.com/p/O114QFmSd0qUkDCj0odNSA2?results=True&date_start=04-27-2021">
+    Volunteer for the Campaign
   </Button>
 </CenteredBlock>
 
