@@ -10,12 +10,11 @@ layout: default
 * To look up your State Rep, please <a href="https://malegislature.gov/Search/FindMyLegislator" target="_blank">click here</a>
 * To find out if your State Rep has already agreed to support the People's House Amendments, <a href="https://actonmass.org/the-campaign/" target="_blank">check under the map on this page</a>
 
-# \
-Scripts for Calling your Rep
 
-#### \
-\
-**1. Persuasion Script: For reps who have not yet committed to the People’s House Amendments**
+
+## Scripts for Calling your Rep
+
+#### **1. Persuasion Script: For reps who have not yet committed to the People’s House Amendments**
 
 Hi, my name is (NAME) and I'm a resident of your district at (ADDRESS/NEIGHBORHOOD) in (CITY).
 
