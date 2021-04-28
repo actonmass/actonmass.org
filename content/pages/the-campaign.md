@@ -10,6 +10,12 @@ layout: campaign
 
 ### A Campaign for Rules Reform by Act on Mass, Sunrise Boston, Mijente Boston Asamblea, Indivisible Mass Coalition, & Our Climate
 
+<CenteredBlock>
+  <Button href="https://www.youtube.com/watch?v=VW_Q_9BUWd8">
+    Watch Campaign Launch
+  </Button>
+</CenteredBlock>
+
 What if we, the people, could reclaim our power to shape the policies that affect our lives? What if
 we could hold our state representatives accountable to actually representing their districts? What
 if we could make the State House work to uplift the lives of millions, fulfilling the needs of our
@@ -17,7 +23,7 @@ most vulnerable neighbors? **Imagine what transformative policies we could win.*
 
 <CenteredBlock>
   <Button href="https://secure.everyaction.com/p/O114QFmSd0qUkDCj0odNSA2?results=True&date_start=04-27-2021">
-    Volunteer for the Campaign
+    Volunteer Events
   </Button>
 </CenteredBlock>
 
@@ -30,7 +36,7 @@ Will you join us?
 
 <Section color="light-blue" width="1000">
 
-## Sign up
+## Join the Campaign
 
 <NGPVanForm formId="https://secure.everyaction.com/v1/Forms/wijiUWYM2E-yHmua-U_gnQ2" />
 
