@@ -23,9 +23,10 @@ The Right to Strike campaign has a clear objective: to remove Section 9A from Ma
 
 Our campaign is working with state representatives who have committed to file an amendment removing Section 9A from law during the supplemental budget debate this fall. Our job as a campaign is to build pressure on enough representatives to pass the amendment. Public employees and allies across the state are organizing a statewide campaign in state representative districts to ask our representatives to stand with public employees.
 
-**Endorsing Union Locals (and Growing)** 
+**Endorsing Union Locals (to Date)** 
 
 * AFT Amesbury 
+* Billerica Federation of Teachers
 * Gloucester Teachers Association 
 * Malden Education Association 
 * Somerville Educators Union
