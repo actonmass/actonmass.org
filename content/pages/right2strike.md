@@ -28,5 +28,6 @@ Our campaign is working with state representatives who have committed to file an
 * AFT Amesbury 
 * Billerica Federation of Teachers
 * Gloucester Teachers Association 
+* Haverhill Education Association
 * Malden Education Association 
 * Somerville Educators Union
