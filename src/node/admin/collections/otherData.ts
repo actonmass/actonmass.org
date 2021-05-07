@@ -10,7 +10,7 @@ export default {
     {
       label: "Menu and general settings",
       name: "general_settings",
-      file: "_data/general_settings.yml",
+      file: "content/other/general_settings.yml",
       fields: [
         {
           label: "Donate button URL",
@@ -47,25 +47,25 @@ export default {
       ...script,
       label: "Pledge scripts",
       name: "pledge_scripts",
-      file: "_data/pledge_scripts.yml",
+      file: "content/other/pledge_scripts.yml",
     },
     {
       ...script,
       label: "The campaign script",
       name: "campaign_scripts",
-      file: "_data/campaign_scripts.yml",
+      file: "content/other/campaign_scripts.yml",
     },
     {
       ...script,
       label: "Default bill scripts - Request co-sponsorship",
       name: "default_bill_scripts",
-      file: "_data/default_bill_scripts.yml",
+      file: "content/other/default_bill_scripts.yml",
     },
     {
       ...script_req_only,
       label: "Default bill scripts - Request vote from committee",
       name: "default_bill_scripts_com_vote",
-      file: "_data/default_bill_scripts_com_vote.yml",
+      file: "content/other/default_bill_scripts_com_vote.yml",
     },
   ],
 };
