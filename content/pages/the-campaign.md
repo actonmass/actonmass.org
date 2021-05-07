@@ -18,7 +18,7 @@ layout: campaign
 
   <Block>
 
-### What if we could make the State House work to uplift the lives of millions, fulfilling the needs of our most vulnerable neighbors? **Imagine what transformative policies we could win.**
+##### What if we could make the State House work to uplift the lives of millions, fulfilling the needs of our most vulnerable neighbors? **Imagine what transformative policies we could win.**
 
   In July, the Massachusetts State House will be writing its own rulebook. We’re organizing
   constituent power in every corner of the state to ask that our legislators change the broken,
