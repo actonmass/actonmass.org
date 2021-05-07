@@ -38,7 +38,6 @@ export default function CampaignPage({ data }: PageProps<Data>) {
             {page.parent.body}
           </MDXRenderer>
         </MDXProvider>
-        ;
       </main>
     </BaseLayout>
   );

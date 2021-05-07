@@ -155,6 +155,31 @@ months. During the Joint Rules vote in February, House Leadership made a major c
 
 </Section>
 
+<Section color="light-blue" width="1000">
+
+## Endorsements
+
+<div className="logo-list">
+  <img src="/img/campaign-endorsements/OR-Malden.jpg" alt="Our Revolution Malden" />
+  <img src="/img/campaign-endorsements/Resonant-Energy.png" alt="Resonant Energy" />
+  <img src="/img/campaign-endorsements/Boston DSA.png" alt="Boston DSA" />
+  <img src="/img/campaign-endorsements/PHENOM.jpg" alt="PHENOM" />
+  <img src="/img/campaign-endorsements/Sunrise-Arlington.png" alt="Sunrise Arlington" />
+  <img src="/img/campaign-endorsements/mass-peace-action.png" alt="Mass Peace Action" />
+  <img src="/img/campaign-endorsements/NOFA.png" alt="NOFA" />
+  <img src="/img/campaign-endorsements/Indivisible-Acton-Area.png" alt="Indivisible Acton Area" />
+  <img src="/img/campaign-endorsements/MassCare.png" alt="MassCare" />
+  <img src="/img/campaign-endorsements/FCCPR.jpg" alt="FCCPR" />
+  <img src="/img/campaign-endorsements/end-workplace-abuse.png" alt="End Workplace Abuse" />
+  <img src="/img/campaign-endorsements/Grassroots-Central-Mass.png" alt="Grassroots Central Mass" />
+  <img src="/img/campaign-endorsements/Zero-Debt-MA.png" alt="Zero Debt MA" />
+  <img src="/img/campaign-endorsements/Waltham-Black-Future-Fund.jpg" alt="Waltham Black Future Fund" />
+  <img src="/img/campaign-endorsements/progressive-mass-massachusetts-color-center.png" alt="Progressive Mass" />
+  <img src="/img/campaign-endorsements/Green-Newton.png" alt="Green Newton" />
+</div>
+
+</Section>
+
 <Section color="light" width="1000">
 
 ## Media
