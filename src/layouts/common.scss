@@ -299,6 +299,26 @@ td {
   }
 }
 
+.two-sided-block {
+  display: flex;
+  flex-direction: column;
+
+  & > :nth-child(1) {
+    margin-bottom: 2rem;
+  }
+
+  @media (min-width: 700px) {
+    flex-direction: row;
+    justify-content: space-between;
+
+    & > :nth-child(1),
+    & > :nth-child(2) {
+      width: 47.5%;
+      margin-bottom: 0rem;
+    }
+  }
+}
+
 .w1400 {
   width: min(1400px, 90%);
 }

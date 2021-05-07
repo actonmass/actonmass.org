@@ -5,9 +5,28 @@ import ReactMarkdown from "react-markdown";
 import { MDXProvider } from "@mdx-js/react";
 
 import NGPVanForm from "../components/NGPVanForm";
+import YoutubeVideo from "../components/YoutubeVideo";
 
 const CenteredBlock = ({ children }) => (
   <div className="centered">
+    <MD>{children}</MD>
+  </div>
+);
+
+const TwoSidedBlock = ({ children }) => (
+  <div className="two-sided-block">
+    <MD>{children}</MD>
+  </div>
+);
+
+const LeftBlock = ({ children }) => (
+  <div className="left-block">
+    <MD>{children}</MD>
+  </div>
+);
+
+const RightBlock = ({ children }) => (
+  <div className="right-block">
     <MD>{children}</MD>
   </div>
 );
@@ -51,8 +70,12 @@ const components = {
   CenteredBlock,
   CenteredImage,
   HubspotForm,
-  Section,
+  LeftBlock,
   NGPVanForm,
+  RightBlock,
+  Section,
+  TwoSidedBlock,
+  YoutubeVideo,
 };
 
 export default function MDX({ children }) {

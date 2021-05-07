@@ -4,7 +4,7 @@ type Props = {
   src: string;
 };
 
-export default function YoutbeVideo({ src }: Props) {
+export default function YoutubeVideo({ src }: Props) {
   return (
     <div className="centered full-width">
       <div className="youtube-video-inner-container">
