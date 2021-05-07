@@ -18,9 +18,7 @@ layout: campaign
 
   <Block>
 
-  What if we, the people, could reclaim our power to shape the policies that affect our lives? What if
-  we could hold our state representatives accountable to actually representing their districts? What
-  if we could make the State House work to uplift the lives of millions, fulfilling the needs of our
+  What if we could make the State House work to uplift the lives of millions, fulfilling the needs of our
   most vulnerable neighbors? **Imagine what transformative policies we could win.**
 
   In July, the Massachusetts State House will be writing its own rulebook. We’re organizing
