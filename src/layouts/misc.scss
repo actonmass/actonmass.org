@@ -73,6 +73,10 @@ ul.main_breadcrumb {
   padding: 0.5rem 0 0.5rem 0;
   list-style: none;
 
+  a {
+    color: inherit;
+  }
+
   @media (min-width: 700px) {
     padding: 2rem 0;
   }
