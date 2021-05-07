@@ -23,23 +23,22 @@ layout: campaign
   if we could make the State House work to uplift the lives of millions, fulfilling the needs of our
   most vulnerable neighbors? **Imagine what transformative policies we could win.**
 
+  In July, the Massachusetts State House will be writing its own rulebook. We’re organizing
+  constituent power in every corner of the state to ask that our legislators change the broken,
+  anti-democratic rules in the State House. Together, we can make the State House the People’s House.
+  Will you join us?
+
   <CenteredBlock>
     <Button href="https://secure.everyaction.com/p/O114QFmSd0qUkDCj0odNSA2?results=True&date_start=04-27-2021">
       Volunteer Events
     </Button>
   </CenteredBlock>
 
-  In July, the Massachusetts State House will be writing its own rulebook. We’re organizing
-  constituent power in every corner of the state to ask that our legislators change the broken,
-  anti-democratic rules in the State House. Together, we can make the State House the People’s House.
-  Will you join us?
-
   </Block>
 
 </TwoSidedBlock>
 
 </Section>
-
 
 <Section color="light-blue" width="1000">
 
@@ -78,7 +77,6 @@ desperately needed legislation?
 
 ## The Problem: The People Have Been Locked Out
 
-
 <TwoSidedBlock>
 <CenteredImage img="/img/campaign-locked-out.png" alt="" width="500"/>
 <Block>
@@ -87,10 +85,10 @@ desperately needed legislation?
   don’t even know how they vote on our behalf.** In fact, Massachusetts has
   [one of the least transparent state houses in the country](https://ballotpedia.org/Open_States%27_Legislative_Data_Report_Card). For ordinary residents, this means that:
 
-  * It's difficult to know what's going on in the State House, and advocate for the bills we care
-    about.
-  * Our representatives are more accountable to corporate lobbyists and the Speaker of the House than
-    to their districts.
+* It's difficult to know what's going on in the State House, and advocate for the bills we care
+  about.
+* Our representatives are more accountable to corporate lobbyists and the Speaker of the House than
+  to their districts.
 
   Democracy only works if everyday people are able to access and influence their government.
 
