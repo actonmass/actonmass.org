@@ -16,7 +16,7 @@ layout: campaign
     <YoutubeVideo src="https://www.youtube.com/embed/VW_Q_9BUWd8" />
   </CenteredBlock>
 
-  <div>
+  <Block>
 
   What if we, the people, could reclaim our power to shape the policies that affect our lives? What if
   we could hold our state representatives accountable to actually representing their districts? What
@@ -34,7 +34,7 @@ layout: campaign
   anti-democratic rules in the State House. Together, we can make the State House the People’s House.
   Will you join us?
 
-  </div>
+  </Block>
 
 </TwoSidedBlock>
 
@@ -45,13 +45,20 @@ layout: campaign
 
 ## Join the Campaign
 
-<NGPVanForm formId="https://secure.everyaction.com/v1/Forms/wijiUWYM2E-yHmua-U_gnQ2" />
+<TwoSidedBlock>
+  <NGPVanForm formId="https://secure.everyaction.com/v1/Forms/wijiUWYM2E-yHmua-U_gnQ2" />
+  <CenteredImage img="/img/newcampaign2.png" alt="Protesters" width="500"/>
+</TwoSidedBlock>
 
 </Section>
 
 <Section color="medium-blue" width="1000">
 
 ## The Massachusetts State House is Broken
+
+<TwoSidedBlock>
+
+<Block>
 
 As Massachusetts residents, we know that our state house is not working for us. Year after year,
 policies that the **majority of people in this state support** and need in order to thrive are voted
@@ -60,37 +67,53 @@ down without a public vote, or stalled indefinitely. This is true of vital legis
 Why is it that, despite a Democratic supermajority, the State House fails to pass widely popular and
 desperately needed legislation?
 
-  <CenteredImage img="/img/newcampaign1.jpg" alt="State House" width="500"/>
+</Block>
+
+<CenteredImage img="/img/newcampaign1.jpg" alt="State House" width="500"/>
+
+</TwoSidedBlock>
 </Section>
 
 <Section color="light-blue" width="1000">
 
 ## The Problem: The People Have Been Locked Out
 
-We elect representatives to represent our interests, but the truth is, most of the time **we
-don’t even know how they vote on our behalf.** In fact, Massachusetts has
-[one of the least transparent state houses in the country](https://ballotpedia.org/Open_States%27_Legislative_Data_Report_Card). For ordinary residents, this means that:
 
-* It's difficult to know what's going on in the State House, and advocate for the bills we care
-  about.
-* Our representatives are more accountable to corporate lobbyists and the Speaker of the House than
-  to their districts.
+<TwoSidedBlock>
+<CenteredImage img="/img/campaign-locked-out.png" alt="" width="500"/>
+<Block>
 
-Democracy only works if everyday people are able to access and influence their government.
+  We elect representatives to represent our interests, but the truth is, most of the time **we
+  don’t even know how they vote on our behalf.** In fact, Massachusetts has
+  [one of the least transparent state houses in the country](https://ballotpedia.org/Open_States%27_Legislative_Data_Report_Card). For ordinary residents, this means that:
 
-  <CenteredImage img="/img/newcampaign2.png" alt="Protesters" width="500"/>
+  * It's difficult to know what's going on in the State House, and advocate for the bills we care
+    about.
+  * Our representatives are more accountable to corporate lobbyists and the Speaker of the House than
+    to their districts.
+
+  Democracy only works if everyday people are able to access and influence their government.
+
+</Block>
+</TwoSidedBlock>
 </Section>
 
 <Section color="medium-blue" width="1000">
 
 ## The Solution: Build Constituent Power to Change the Broken Rules
 
-**Constituents are united behind the need for a more transparent and accessible State House.** By
-activating this support to call for transparency, accountability and shared power in the State House
-rulebook, we can win a State House that truly works for all of us.
+<TwoSidedBlock>
 
-Our strategy is to model the representative democracy we’d like to see in our state by empowering thousands
-of constituents to organize their communities, meet with their representatives, and lobby for changes to the House Rules. Together, we’re calling for three common sense reforms that will allow constituents to have a voice in the government that shapes our daily lives:
+<Block>
+
+  **Constituents are united behind the need for a more transparent and accessible State House.** By
+  activating this support to call for transparency, accountability and shared power in the State House
+  rulebook, we can win a State House that truly works for all of us.
+
+  Our strategy is to model the representative democracy we’d like to see in our state by empowering thousands
+  of constituents to organize their communities, meet with their representatives, and lobby for changes to the House Rules. Together, we’re calling for three common sense reforms that will allow constituents to have a voice in the government that shapes our daily lives:
+
+</Block>
 
 <CenteredImage
   img="/img/newcampaign3.png"
@@ -98,6 +121,7 @@ of constituents to organize their communities, meet with their representatives, 
   width="800"
 />
 
+</TwoSidedBlock>
 </Section>
 
 <Section color="light-blue" width="1000">

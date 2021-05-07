@@ -13,6 +13,12 @@ const CenteredBlock = ({ children }) => (
   </div>
 );
 
+const Block = ({ children }) => (
+  <div>
+    <MD>{children}</MD>
+  </div>
+);
+
 const TwoSidedBlock = ({ children }) => (
   <div className="two-sided-block">
     <MD>{children}</MD>
@@ -66,6 +72,7 @@ const Button = ({ children, href }) => (
 );
 
 const components = {
+  Block,
   Button,
   CenteredBlock,
   CenteredImage,
