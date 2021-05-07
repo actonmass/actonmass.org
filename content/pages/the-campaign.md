@@ -163,6 +163,7 @@ months. During the Joint Rules vote in February, House Leadership made a major c
   <img src="/img/campaign-endorsements/OR-Malden.jpg" alt="Our Revolution Malden" />
   <img src="/img/campaign-endorsements/Resonant-Energy.png" alt="Resonant Energy" />
   <img src="/img/campaign-endorsements/Boston-DSA.png" alt="Boston DSA" />
+  <img src="/img/campaign-endorsements/bdsa.png" alt="Berkshires DSA" />
   <img src="/img/campaign-endorsements/PHENOM.jpg" alt="PHENOM" />
   <img src="/img/campaign-endorsements/Sunrise-Arlington.png" alt="Sunrise Arlington" />
   <img src="/img/campaign-endorsements/mass-peace-action.png" alt="Mass Peace Action" />
