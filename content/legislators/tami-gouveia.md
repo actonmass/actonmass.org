@@ -6,7 +6,7 @@ district: house-14th-middlesex
 supports_the_campaign: true
 supports_the_campaign_public_bills: true
 supports_the_campaign_committee_votes: true
-supports_the_campaign_term_limits: false
+supports_the_campaign_term_limits: true
 pledge: true
 party: D
 phone: (617) 722-2011
