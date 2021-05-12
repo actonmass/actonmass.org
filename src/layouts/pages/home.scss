@@ -12,6 +12,13 @@
   .hero_left {
     grid-area: 1 / 1;
 
+    .dotted-image {
+      @media (min-width: 700px) {
+        min-width: min(550px, 45vh);
+      }
+      width: 100%;
+    }
+
     .btn {
       width: 100%;
     }
@@ -296,7 +303,8 @@
     }
   }
 
-  i, .svg-inline--fa {
+  i,
+  .svg-inline--fa {
     font-size: 2.7em;
     width: 100%;
     color: rgb(226, 147, 24);

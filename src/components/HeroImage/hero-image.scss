@@ -1,8 +1,11 @@
 .dotted-image {
-  max-width: 80%;
   display: grid;
   padding-top: 2rem;
   padding-bottom: 2rem;
+
+  @media (min-width: 700px) {
+    max-width: 80%;
+  }
 
   .background {
     grid-area: 1 / 1 / 1 / 1;

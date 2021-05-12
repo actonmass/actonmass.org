@@ -4,7 +4,8 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faSearch } from "@fortawesome/free-solid-svg-icons";
 
 import BaseLayout from "../BaseLayout";
-import { HeroImage, SignupForm, FindMyReps } from "../../components";
+import { HeroImage, SignupForm, FindMyReps, YoutubeVideo } from "../../components";
+import HeroContainer from "../../components/HeroImage/HeroContainer";
 import "./home.scss";
 
 type Issue = GatsbyTypes.Issue;
@@ -17,7 +18,9 @@ export default function Home({ data }) {
         <section className="darker cbox">
           <div className="hero w1400">
             <div className="hero_left">
-              <HeroImage img="/img/home-v2.jpg" alt="Young people protesting holding signs" />
+              <HeroContainer>
+                <YoutubeVideo src="https://www.youtube.com/embed/xflRK0RWOZ4" />
+              </HeroContainer>
             </div>
             <div className="hero_text">
               <h4 className="header1 fRaleway fWhite fUppercase fBold">act on mass</h4>
@@ -109,7 +112,9 @@ export default function Home({ data }) {
           <div className="account_text">
             <h3 className="account_text1 fUppercase fWhite fExbold">A Campaign for Democracy</h3>
             <h4 className="account_text2 fRoboto fWhite fLight">
-              This July, the State House will be writing its own rulebook. Join your district team to demand that our legislators change the broken, anti-democratic rules in the State House.
+              This July, the State House will be writing its own rulebook. Join your district team
+              to demand that our legislators change the broken, anti-democratic rules in the State
+              House.
             </h4>
             <Link to="/the-campaign" className="fRoboto fExbold fUppercase btn btn_pledge">
               the campaign
