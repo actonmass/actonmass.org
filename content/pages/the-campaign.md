@@ -195,7 +195,7 @@ months. During the Joint Rules vote in February, House Leadership made a major c
 * ["Activists look to bolster transparency in Massachusetts House come January"](https://www.berkshireeagle.com/news/local/activists-look-to-bolster-transparency-in-massachusetts-house-come-january/article_3789b8ea-4645-11eb-90d5-df48e45fdab4.html),
   Interview with Sophie Coyne, Berkshire Eagle, 12/27/2020
 * ["Don't let American democracy die"](https://www.metrowestdailynews.com/story/opinion/letters/2020/12/26/citizens-formed-organizing-group-act-mass-demand-transparency/4041860001/),
-  Miriam Siegal and Scotia Hille, Metrowest Daily News, 12/26/2020
+  Miriam Siegel and Scotia Hille, Metrowest Daily News, 12/26/2020
 * ["Police reform bill is an example of why the public is distrustful of Beacon Hill"](https://www.bostonglobe.com/2020/12/02/opinion/police-reform-bill-is-an-example-why-public-is-distrustful-beacon-hill/),
   Rep. Patrick Kearney, Boston Globe, 12/2/2020
 * ["Act on Mass Interview"](https://archive.org/details/act-on-mass-enviro-show-interview-11-27-20),
