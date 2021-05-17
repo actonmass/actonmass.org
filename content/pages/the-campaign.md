@@ -172,6 +172,8 @@ months. During the Joint Rules vote in February, House Leadership made a major c
   <img src="/img/campaign-endorsements/Waltham-Black-Future-Fund.jpg" alt="Waltham Black Future Fund" />
   <img src="/img/campaign-endorsements/progressive-mass-massachusetts-color-center.png" alt="Progressive Mass" />
   <img src="/img/campaign-endorsements/Green-Newton.png" alt="Green Newton" />
+  <img src="/img/campaign-endorsements/Worcester-DSA.jpeg" alt="Worcester DSA" />
+  <img src="/img/campaign-endorsements/Sunrise-Natick-High.png" alt="Sunrise Natick High.png" />
 </div>
 
 </Section>
