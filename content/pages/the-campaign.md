@@ -154,6 +154,20 @@ months. During the Joint Rules vote in February, House Leadership made a major c
 
 ## Endorsements
 
+### Coalition Partners
+
+<div className="logo-list">
+
+  <img src="/img/campaign-partners/AOM.png" alt="Act On Mass" />
+  <CenteredImage img="/img/campaign-partners/Sunrise-Boston-Grey.png" alt="Sunrise Boston" txt="Sunrise" />
+  <img src="/img/campaign-partners/MijenteBAlogo.png" alt="Mijente Boston Asamblea" />
+  <img src="/img/campaign-partners/Our-Climate.png" alt="Our Climate" />
+  <img src="/img/campaign-partners/Indivisible.png" alt="Indivisible Mass Coalition" />
+  
+</div>
+
+### Endorsing organizations
+
 <div className="logo-list">
   <img src="/img/campaign-endorsements/OR-Malden.jpg" alt="Our Revolution Malden" />
   <img src="/img/campaign-endorsements/Resonant-Energy.png" alt="Resonant Energy" />
