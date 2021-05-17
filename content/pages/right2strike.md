@@ -30,4 +30,5 @@ Our campaign is working with state representatives who have committed to file an
 * Gloucester Teachers Association 
 * Haverhill Education Association
 * Malden Education Association 
+* Medford Teachers Association
 * Somerville Educators Union
