@@ -159,7 +159,7 @@ months. During the Joint Rules vote in February, House Leadership made a major c
 <div className="logo-list">
 
   <img src="/img/campaign-partners/AOM.png" alt="Act On Mass" />
-  <CenteredImage img="/img/campaign-partners/Sunrise-Boston-Grey.png" alt="Sunrise Boston" txt="Sunrise" />
+  <CenteredImage img="/img/campaign-partners/Sunrise-Boston-Grey.png" alt="Sunrise Boston" txt="Sunrise Boston" />
   <img src="/img/campaign-partners/MijenteBAlogo.png" alt="Mijente Boston Asamblea" />
   <img src="/img/campaign-partners/Our-Climate.png" alt="Our Climate" />
   <img src="/img/campaign-partners/Indivisible.png" alt="Indivisible Mass Coalition" />
@@ -174,7 +174,7 @@ months. During the Joint Rules vote in February, House Leadership made a major c
   <img src="/img/campaign-endorsements/Boston-DSA.png" alt="Boston DSA" />
   <img src="/img/campaign-endorsements/bdsa.png" alt="Berkshires DSA" />
   <img src="/img/campaign-endorsements/PHENOM.jpg" alt="PHENOM" />
-  <img src="/img/campaign-endorsements/Sunrise-Arlington.png" alt="Sunrise Arlington" />
+  <CenteredImage img="/img/campaign-endorsements/Sunrise-Arlington.png" alt="Sunrise Arlington" txt="Sunrise Arlington" />
   <img src="/img/campaign-endorsements/mass-peace-action.png" alt="Mass Peace Action" />
   <img src="/img/campaign-endorsements/NOFA.png" alt="NOFA" />
   <img src="/img/campaign-endorsements/Indivisible-Acton-Area.png" alt="Indivisible Acton Area" />
@@ -187,7 +187,8 @@ months. During the Joint Rules vote in February, House Leadership made a major c
   <img src="/img/campaign-endorsements/progressive-mass-massachusetts-color-center.png" alt="Progressive Mass" />
   <img src="/img/campaign-endorsements/Green-Newton.png" alt="Green Newton" />
   <img src="/img/campaign-endorsements/Worcester-DSA.jpeg" alt="Worcester DSA" />
-  <img src="/img/campaign-endorsements/Sunrise-Natick-High.png" alt="Sunrise Natick High.png" />
+  <CenteredImage img="/img/campaign-endorsements/Sunrise-Natick-High.png" alt="Sunrise Natick High" txt="Sunrise Natick High" />
+  <CenteredImage img="/img/campaign-endorsements/MFOLMA.png" alt="March For Our Lives Massachusetts" txt="March For Our Lives Massachusetts" />
 </div>
 
 </Section>
