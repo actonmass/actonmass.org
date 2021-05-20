@@ -25,8 +25,9 @@ Our campaign is working with state representatives who have committed to file an
 
 **Endorsing Union Locals (to Date)** 
 
-* AFT Amesbury 
+* AFT Amesbury
 * Billerica Federation of Teachers
+* Dedham Education Association 
 * Gloucester Teachers Association 
 * Haverhill Education Association
 * Malden Education Association 
