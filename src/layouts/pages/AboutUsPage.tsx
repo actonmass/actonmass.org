@@ -3,18 +3,22 @@ import { graphql, PageProps } from "gatsby";
 import _ from "lodash";
 import ReactMarkdown from "react-markdown";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { MDXRenderer } from "gatsby-plugin-mdx";
 
 import { BreadCrum, YoutubeVideo } from "../../components";
+
 import { BaseLayout } from "..";
 
 import "./about.scss";
 
 type QueryProps = {
   page: GatsbyTypes.Page;
+  allTeamMember: { nodes: GatsbyTypes.TeamMember[] };
 };
 
 export default function AboutUsPage({ data }: PageProps<QueryProps>) {
   const page = data.page;
+  const allTeamMember = data.allTeamMember.nodes;
   const frontmatter = (data.page.parent as any).frontmatter;
   return (
     <BaseLayout title={page.title}>
@@ -53,11 +57,13 @@ export default function AboutUsPage({ data }: PageProps<QueryProps>) {
           <div className="w1400">
             <h2 className="who_title fRegular fUppercase">our team:</h2>
             <div id="bot_container">
-              {frontmatter.team.map((person) => (
+              {allTeamMember.map((person) => (
                 <div className="person">
                   <img src={person.photo} alt={person.name} />
                   <p className="fRoboto fBold fUppercase">{person.name}</p>
-                  <p className="fRoboto fLight">{person.text}</p>
+                  <p className="fRoboto fLight">
+                    <MDXRenderer>{person.body}</MDXRenderer>
+                  </p>
                 </div>
               ))}
             </div>
@@ -70,6 +76,14 @@ export default function AboutUsPage({ data }: PageProps<QueryProps>) {
 
 export const query = graphql`
   query {
+    allTeamMember(sort: { fields: order }, filter: { hidden: { eq: false } }) {
+      nodes {
+        name
+        body
+        photo
+        link
+      }
+    }
     page(id: { eq: "/about-us/" }) {
       id
       title
@@ -81,12 +95,6 @@ export const query = graphql`
               title
               description
               icon
-            }
-            team {
-              link
-              name
-              photo
-              text
             }
             video
           }

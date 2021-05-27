@@ -63,6 +63,10 @@ const collections: Collections = {
     name: "BillEvent",
     process: _.identity,
   },
+  team: {
+    name: "TeamMember",
+    process: _.identity,
+  },
 };
 
 export default collections;
