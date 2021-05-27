@@ -89,5 +89,22 @@ export default function ({ createResolvers }) {
         },
       },
     },
+    TeamMember: {
+      body: {
+        type: "String",
+        resolve: async (member, args, context, info) => {
+          const mdx = await context.nodeModel.getNodeById({
+            id: member.parent,
+            type: "Mdx",
+          });
+          const mdxType = info.schema.getType("Mdx");
+          const resolver = mdxType.getFields()["body"].resolve;
+          const body = await resolver(mdx, args, context, {
+            fieldName: "body",
+          });
+          return body;
+        },
+      },
+    },
   });
 }

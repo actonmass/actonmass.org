@@ -214,3 +214,16 @@ type Post implements Node @dontInfer {
   fileName: String!
   href: String!
 }
+
+type TeamMember implements Node @dontInfer {
+  name: String!
+  photo: String
+  link: String
+  hidden: Boolean
+  order: Int
+  body: String
+
+  # Common calculated
+  fileName: String!
+  href: String!
+}

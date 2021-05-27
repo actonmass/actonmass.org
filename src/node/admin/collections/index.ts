@@ -7,5 +7,17 @@ import { default as issues } from "./issues";
 import { default as legislators } from "./legislators";
 import { default as otherData } from "./otherData";
 import { default as pages } from "./pages";
+import { default as teamMembers } from "./teamMembers";
 
-export { bills, billEvents, blog, issues, committees, districts, legislators, otherData, pages };
+export {
+  billEvents,
+  bills,
+  blog,
+  committees,
+  districts,
+  issues,
+  legislators,
+  otherData,
+  pages,
+  teamMembers,
+};
