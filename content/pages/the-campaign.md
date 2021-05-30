@@ -18,9 +18,9 @@ layout: campaign
 
   <Block>
 
-The Massachusetts State House is one of the least transparent in the country. When decisions about what bills will pass are made in backroom deals with a small handful of people, that’s not democracy. Bay Staters deserve a government that centers the voices of everyday people - not one that bends over backwards to keep them out.  
+The Massachusetts State House is one of the least transparent in the country. When decisions about what bills will pass are made in backroom deals with a small handful of people, that’s not democracy. Bay Staters deserve a government that centers their voices - not one that bends over backwards to keep them out.  
 
-In July, the State House will be writing its own rulebook. We’re organizing constituent power to change the broken, anti-democratic rules. Together, we can make the State House the People’s House. Will you join us?
+In July, the State House will be writing its own rulebook. We’re fighting to change the broken, anti-democratic rules. Together, we can make the State House the People’s House. Will you join us?
 
   <CenteredBlock>
     <Button href="https://secure.everyaction.com/p/O114QFmSd0qUkDCj0odNSA2?results=True&date_start=04-27-2021">
