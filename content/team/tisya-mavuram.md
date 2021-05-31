@@ -1,7 +1,7 @@
 ---
 aom_id: "tisya-mavuram "
 name: "Tisya Mavuram "
-photo: /img/team/screen-shot-2021-05-31-at-7.48.40-pm.png
+photo: /img/team/aom-bios.png
 hidden: false
 order: false
 ---
