@@ -345,11 +345,11 @@ td {
 .darker {
   color: var(--light);
 
-  a:not(.btn) {
+  a:not(.btn):not(.no-color) {
     color: var(--medium-blue);
   }
 
-  a:hover:not(.btn) {
+  a:hover:not(.btn):not(.no-color) {
     color: #56ccf2;
   }
 }
@@ -428,7 +428,9 @@ td {
 
   &.active {
     border-bottom: 0.3rem solid #56ccf2;
-    color: var(--light);
+    a {
+      color: var(--light);
+    }
   }
 
   a {

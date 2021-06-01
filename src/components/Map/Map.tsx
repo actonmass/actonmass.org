@@ -101,6 +101,7 @@ export default class LegislatorMap extends React.Component {
           >
             <a
               href="#"
+              className="no-color"
               onClick={(e) => {
                 e.preventDefault();
                 this.setState({ chamber: "house" });
@@ -116,6 +117,7 @@ export default class LegislatorMap extends React.Component {
           >
             <a
               href="#"
+              className="no-color"
               onClick={(e) => {
                 e.preventDefault();
                 this.setState({ chamber: "senate" });

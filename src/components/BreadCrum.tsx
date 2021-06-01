@@ -13,13 +13,17 @@ export default function BreadCrum({ title, links }: Props) {
   return (
     <ul className="main_breadcrumb">
       <li>
-        <Link to="/">HOME</Link>
+        <Link className="no-color" to="/">
+          HOME
+        </Link>
       </li>
 
       {links &&
         links.map((link) => (
           <li key={link.href}>
-            <Link to={link.href}>{link.text.toUpperCase()}</Link>
+            <Link className="no-color" to={link.href}>
+              {link.text.toUpperCase()}
+            </Link>
           </li>
         ))}
 

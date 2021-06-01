@@ -35,11 +35,11 @@ export default function BillPage({ bill }: Props) {
               <div className="billpg_title">
                 <h2 className="billpg_title fExbold">{bill.title}</h2>
                 <p>
-                  {bill.full_title} -
+                  {bill.full_title} -{" "}
                   <a href={bill.house_link} target="_blank">
                     {bill.house_no}
-                  </a>
-                  -
+                  </a>{" "}
+                  -{" "}
                   <a href={bill.senate_link} target="_blank">
                     {bill.senate_no}
                   </a>
