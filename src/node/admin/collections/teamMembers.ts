@@ -50,7 +50,6 @@ export default {
       label: "Order",
       name: "order",
       widget: "number",
-      default: false,
       hint: "Lower number appear first in the list",
     },
   ],
