@@ -56,7 +56,7 @@ export default function AboutUsPage({ data }: PageProps<QueryProps>) {
         <section className="cbox">
           <div className="w1400">
             <h2 className="who_title fRegular fUppercase">our team:</h2>
-            <div id="bot_container">
+            <div id="team_members">
               {allTeamMember.map((person) => (
                 <div className="person">
                   <img src={person.photo} alt={person.name} />
