@@ -38,6 +38,8 @@ In July, the State House will be writing its own rulebook. We’re fighting to c
 
 ## Join the Campaign
 
+Sign up here to join your District Team and get plugged into the organizing happening in your area.
+
 <TwoSidedBlock>
   <NGPVanForm formId="https://secure.everyaction.com/v1/Forms/wijiUWYM2E-yHmua-U_gnQ2" />
   <CenteredImage img="/img/newcampaign2.png" alt="Protesters" width="500"/>
