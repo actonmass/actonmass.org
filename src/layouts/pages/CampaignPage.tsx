@@ -22,7 +22,7 @@ export default function CampaignPage({ data }: PageProps<Data>) {
   const components = useMemo(
     () => ({
       LegislatorSearch,
-      SupportingReps: () => <SupporterList reps={data.allLegislator.nodes} />,
+      SupportingReps: () => <SupportingReps reps={data.allLegislator.nodes} />,
     }),
     []
   );
@@ -43,7 +43,7 @@ export default function CampaignPage({ data }: PageProps<Data>) {
   );
 }
 
-const SupporterList = ({ reps }) => (
+const SupportingReps = ({ reps }) => (
   <div className="leg-grid">
     {reps.map((rep) => {
       const commitments = [

@@ -168,27 +168,41 @@ months. During the Joint Rules vote in February, House Leadership made a major c
 ### Endorsing organizations
 
 <div className="logo-list">
+  <img src="/img/campaign-endorsements/ORMA Logo.png" alt="Our Revolution MA" />
+  <img src="/img/campaign-endorsements/350 Mass.png" alt="350 Mass" />
+  <img src="/img/campaign-endorsements/Boston-DSA.png" alt="Boston DSA" />
+  <img src="/img/campaign-endorsements/progressive-mass-massachusetts-color-center.png" alt="Progressive Mass" />
+  <img src="/img/campaign-endorsements/mass-peace-action.png" alt="Mass Peace Action" />
+  <img src="/img/campaign-endorsements/MassCare.png" alt="MassCare" />
   <img src="/img/campaign-endorsements/OR-Malden.jpg" alt="Our Revolution Malden" />
   <img src="/img/campaign-endorsements/Resonant-Energy.png" alt="Resonant Energy" />
-  <img src="/img/campaign-endorsements/Boston-DSA.png" alt="Boston DSA" />
   <img src="/img/campaign-endorsements/bdsa.png" alt="Berkshires DSA" />
   <img src="/img/campaign-endorsements/PHENOM.jpg" alt="PHENOM" />
   <CenteredImage img="/img/campaign-endorsements/Sunrise-Arlington.png" alt="Sunrise Arlington" txt="Sunrise Arlington" />
-  <img src="/img/campaign-endorsements/mass-peace-action.png" alt="Mass Peace Action" />
   <img src="/img/campaign-endorsements/NOFA.png" alt="NOFA" />
   <img src="/img/campaign-endorsements/Indivisible-Acton-Area.png" alt="Indivisible Acton Area" />
-  <img src="/img/campaign-endorsements/MassCare.png" alt="MassCare" />
   <img src="/img/campaign-endorsements/FCCPR.jpg" alt="FCCPR" />
   <img src="/img/campaign-endorsements/end-workplace-abuse.png" alt="End Workplace Abuse" />
   <img src="/img/campaign-endorsements/Grassroots-Central-Mass.png" alt="Grassroots Central Mass" />
   <img src="/img/campaign-endorsements/Zero-Debt-MA.png" alt="Zero Debt MA" />
   <img src="/img/campaign-endorsements/Waltham-Black-Future-Fund.jpg" alt="Waltham Black Future Fund" />
-  <img src="/img/campaign-endorsements/progressive-mass-massachusetts-color-center.png" alt="Progressive Mass" />
   <img src="/img/campaign-endorsements/Green-Newton.png" alt="Green Newton" />
   <img src="/img/campaign-endorsements/Worcester-DSA.jpeg" alt="Worcester DSA" />
   <CenteredImage img="/img/campaign-endorsements/Sunrise-Natick-High.png" alt="Sunrise Natick High" txt="Sunrise Natick High" />
   <CenteredImage img="/img/campaign-endorsements/MFOLMA.png" alt="March For Our Lives Massachusetts" txt="March For Our Lives Massachusetts" />
+  <CenteredImage img="/img/campaign-endorsements/Harvard-Dems.png" alt="Harvard College Democrats" txt="Harvard College Democrats" />
+  <img src="/img/campaign-endorsements/MassPoliticalCooperative.png" alt="Mass Political Cooperative" />
+  <img src="/img/campaign-endorsements/DefundNPD.png" alt="Defound NPD" />
+  <img src="/img/campaign-endorsements/SommDems_Logo-Small-1.png" alt="Sommerville Democrats" />
 </div>
+
+
+
+
+
+
+
+
 
 </Section>
 
