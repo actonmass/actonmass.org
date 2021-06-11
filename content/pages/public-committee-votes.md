@@ -20,9 +20,7 @@ On this issue, the Massachusetts House of Representatives is in the minority. 27
 
 1. "If anyone wants to know how I voted, they can call me and I'll tell them."
 
-* * That's great, but there are approximately 43,000 people in each State Rep district. Does each one of them need to call their rep's office to find out how they voted?
-
-<!---->
+That's great, but there are approximately 43,000 people in each State Rep district. Does each one of them need to call their rep's office to find out how they voted?
 
 * Why not automate this process?
 
