@@ -22,20 +22,21 @@ On this issue, the Massachusetts House of Representatives is in the minority. 27
 
 That's great, but there are approximately 43,000 people in each State Rep district. Does each one of them need to call their rep's office to find out how they voted?
 
-* Why not automate this process?
+Why not automate this process?
 
 2. "My committee makes these votes public."
 
-* A few committees have adopted rules to make their own votes public upon request. That is a great start, but again, why should all the residents of the Commonwealth need to send an email request to see how their Reps voted? 27 other states publish votes on their website. Why not Massachusetts?
+A few committees have adopted rules to make their own votes public upon request. That is a great start, but again, why should all the residents of the Commonwealth need to send an email request to see how their Reps voted? 27 other states publish votes on their website. Why not Massachusetts?
 
 3. "All our committee votes are already disclosed in the House Journal."
 
-* This isn't true. The House Journal shows only "dissents," which is an old, rarely used method for reps to indicate their disagreement with the committee's actions.
+This isn't true. The House Journal shows only "dissents," which is an old, rarely used method for reps to indicate their disagreement with the committee's actions.
 
 4. "People would vote differently - more conservatively - in committee if votes were public, because they’re afraid of a challenge from Republicans.”
 
-* We are a representative democracy, and it's crucial for voters to know how their elected representatives are voting.
-* Republican opponents are extremely unlikely to successfully unseat a Democratic incumbent in Massachusetts. Massachusetts already has among the [least competitive](https://ballotpedia.org/Annual_State_Legislative_Competitiveness_Report:_Vol._10,_2020) elections in the country, and in 2020, we had the [lowest rate](https://ballotpedia.org/Major_party_candidates_with_major_party_competition_in_the_November_2020_state_legislative_elections) of Republican challengers in the country.
+We are a representative democracy, and it's crucial for voters to know how their elected representatives are voting.
+
+Republican opponents are extremely unlikely to successfully unseat a Democratic incumbent in Massachusetts. Massachusetts already has among the [least competitive](https://ballotpedia.org/Annual_State_Legislative_Competitiveness_Report:_Vol._10,_2020) elections in the country, and in 2020, we had the [lowest rate](https://ballotpedia.org/Major_party_candidates_with_major_party_competition_in_the_November_2020_state_legislative_elections) of Republican challengers in the country.
 
 ## Sample Amendment Language
 
