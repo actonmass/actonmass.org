@@ -18,11 +18,12 @@ On this issue, the Massachusetts House of Representatives is in the minority. 27
 
 ## What are the arguments against this?
 
-
-
 1. "If anyone wants to know how I voted, they can call me and I'll tell them."
 
-* That's great, but there are approximately 43,000 people in each State Rep district. Does each one of them need to call their rep's office to find out how they voted?
+* * That's great, but there are approximately 43,000 people in each State Rep district. Does each one of them need to call their rep's office to find out how they voted?
+
+<!---->
+
 * Why not automate this process?
 
 2. "My committee makes these votes public."
@@ -37,8 +38,6 @@ On this issue, the Massachusetts House of Representatives is in the minority. 27
 
 * We are a representative democracy, and it's crucial for voters to know how their elected representatives are voting.
 * Republican opponents are extremely unlikely to successfully unseat a Democratic incumbent in Massachusetts. Massachusetts already has among the [least competitive](https://ballotpedia.org/Annual_State_Legislative_Competitiveness_Report:_Vol._10,_2020) elections in the country, and in 2020, we had the [lowest rate](https://ballotpedia.org/Major_party_candidates_with_major_party_competition_in_the_November_2020_state_legislative_elections) of Republican challengers in the country.
-
-
 
 ## Sample Amendment Language
 
