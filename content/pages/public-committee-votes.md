@@ -40,7 +40,8 @@ Republican opponents are extremely unlikely to successfully unseat a Democratic 
 
 ## Sample Amendment Language
 
-\[Representative] moves to amend the order in Rule 17B by inserting after line 500 the following paragraph:- All votes by the committee to give any legislation a favorable report, adverse report, or study order, whether by recorded vote at an executive session or by an electronic poll of the committee, shall be recorded on appropriate forms that show the names of all members voting in the affirmative, members voting in the negative, members not voting, and members reserving their rights, shall be kept in the offices of the committee, and shall be posted on the website of the General Court as soon as practicable; provided that votes may also be recorded in LAWS. 
+\[Representative] moves to amend the order in Rule 17B by inserting after line 500 the following paragraph:- All votes by the committee to give any legislation a favorable report, adverse report, or study order, whether by recorded vote at an executive session or by an electronic poll of the committee, shall be recorded on appropriate forms that show the names of all members voting in the affirmative, members voting in the negative, members not voting, and members reserving their rights, shall be kept in the offices of the committee, and shall be posted on the website of the General Court as soon as practicable; provided that votes may also be recorded in LAWS.
 
-**\
-See who has committed to this and learn more at [www.ActOnMass.org/the-campaign](http://www.actonmass.org/the-campaign)**
+
+
+**See who has committed to this and learn more at [www.ActOnMass.org/the-campaign](http://www.actonmass.org/the-campaign)**
