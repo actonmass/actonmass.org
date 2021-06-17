@@ -2,9 +2,3 @@
   functions = "functions"
   publish = "public"
   command = "yarn build"
-
-[[redirects]]
-  from = "/email"
-  to = "https://secure.everyaction.com/4qacRcvvQkyHojBqMS9Jgg2"
-  status = 302
-  force = true
