@@ -4,3 +4,5 @@ https://www.actenmasse.org/* https://actonmass.org/:splat 301!
 
 # Optional: Redirect default Netlify subdomain to primary domain
 https://actonmass.netlify.com/* https://actonmass.org/:splat 301!
+ 
+/email https://secure.everyaction.com/4qacRcvvQkyHojBqMS9Jgg2 302!
