@@ -84,14 +84,14 @@ export default function Header() {
         }}
       >
         <a
-          href="https://linktr.ee/TPH_Rallies"
+          href="https://secure.everyaction.com/p/O114QFmSd0qUkDCj0odNSA2?results=True&date_start=04-27-2021"
           style={{
             width: "100%",
             textAlign: "center",
             height: "100%",
           }}
         >
-          Sign up for The People's House Rally on 6/27
+          Sign Up for our Week of Action Events
         </a>
       </div>
     </>
