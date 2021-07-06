@@ -13,7 +13,7 @@ layout: default
 
 Hi, my name is (NAME) and I'm a resident of your district at (ADDRESS/NEIGHBORHOOD) in (CITY).
 
-I'm writing to ask that you vote in favor of three amendments to The House Rules package (H.3930) to make the State House more democratic and accessible to the public: making all committee votes public and available on the legislature’s website, ensuring reps and the public have 72 hours to read bills prior to a floor vote, and reinstating an 8-year term limit for the Speaker.
+I'm writing to ask that you vote in favor of three amendments to The House Rules package (H.3930) to make the State House more democratic and accessible to the public: making all committee votes public and available on the legislature’s website (#16), ensuring reps and the public have 72 hours to read bills prior to a floor vote (#17), and reinstating an 8-year term limit for the Speaker (#2).
 
 *[Include your own personal story (optional but encouraged) -*
 
