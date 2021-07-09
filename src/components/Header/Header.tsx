@@ -73,27 +73,6 @@ export default function Header() {
           </ul>
         </div>
       </header>
-      <div
-        className="cbox"
-        style={{
-          padding: "1rem",
-          background: "var(--medium-blue)",
-          fontSize: "2rem",
-          fontWeight: 600,
-          textDecoration: "underline",
-        }}
-      >
-        <a
-          href="https://secure.everyaction.com/p/O114QFmSd0qUkDCj0odNSA2?results=True&date_start=04-27-2021"
-          style={{
-            width: "100%",
-            textAlign: "center",
-            height: "100%",
-          }}
-        >
-          Sign Up for our Week of Action Events
-        </a>
-      </div>
     </>
   );
 }
