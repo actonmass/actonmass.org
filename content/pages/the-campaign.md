@@ -208,8 +208,8 @@ In November of 2020, Act on Mass launched the Transparency is Power campaign. In
 
 * [“The Mass. House Dodges on Transparency”](https://www.bostonglobe.com/2021/07/11/opinion/mass-house-dodges-transparency/)
   Boston Globe Editorial Board, 7/11/202
-* [“The Mass. House Dodges on Transparency”](https://www.bostonglobe.com/2021/07/11/opinion/mass-house-dodges-transparency/)
-  Boston Globe Editorial Board, 7/11/202
+* [“Massachusetts House rejects rules changes backed by transparency advocates”](https://www.berkshireeagle.com/news/local/massachusetts-house-rejects-rules-changes-backed-by-transparency-advocates/article_34f963ca-df72-11eb-9fd3-9fa0e8319d93.html)
+  Danny Jin, Berkshire Eagle, 7/07/202
 * [“Advocates decry new Mass. House rules, saying they fall short on transparency”](https://www.bostonglobe.com/2021/07/07/metro/advocates-decry-new-mass-house-rules-saying-they-fall-short-transparency/)
   Jasper Goodman, Boston Globe, 7/07/202
 * [“Massachusetts lawmakers are debating their transparency procedures – behind closed doors”](https://www.bostonglobe.com/2021/04/07/metro/massachusetts-lawmakers-are-debating-their-transparency-procedures-behind-closed-doors/)
