@@ -206,12 +206,14 @@ In November of 2020, Act on Mass launched the Transparency is Power campaign. In
 
 
 
+* [“Should you get to see how Statehouse members vote? Boston City Council, U.S. Rep. Seth Moulton say yes"](https://www.berkshireeagle.com/news/state/should-you-get-to-see-how-statehouse-members-vote-boston-city-council-u-s-rep/article_157eb62a-ea59-11eb-b2b3-bb50974a5ca3.html)
+  Danny Jin, Berkshire Eagle, 7/21/2021
 * [“The Mass. House Dodges on Transparency”](https://www.bostonglobe.com/2021/07/11/opinion/mass-house-dodges-transparency/)
-  Boston Globe Editorial Board, 7/11/202
+  Boston Globe Editorial Board, 7/11/2021
 * [“Massachusetts House rejects rules changes backed by transparency advocates”](https://www.berkshireeagle.com/news/local/massachusetts-house-rejects-rules-changes-backed-by-transparency-advocates/article_34f963ca-df72-11eb-9fd3-9fa0e8319d93.html)
-  Danny Jin, Berkshire Eagle, 7/07/202
+  Danny Jin, Berkshire Eagle, 7/07/2021
 * [“Advocates decry new Mass. House rules, saying they fall short on transparency”](https://www.bostonglobe.com/2021/07/07/metro/advocates-decry-new-mass-house-rules-saying-they-fall-short-transparency/)
-  Jasper Goodman, Boston Globe, 7/07/202
+  Jasper Goodman, Boston Globe, 7/07/2021
 * [“Massachusetts lawmakers are debating their transparency procedures – behind closed doors”](https://www.bostonglobe.com/2021/04/07/metro/massachusetts-lawmakers-are-debating-their-transparency-procedures-behind-closed-doors/)
   Emma Platoff, Boston Globe, 4/07/2021
 * [“Local Activist Groups Push for Statehouse Transparency Amendments”](https://ottosoninsider.com/1158/news/local-activist-groups-push-for-statehouse-transparency-amendments/)
