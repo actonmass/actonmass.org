@@ -65,8 +65,8 @@ const Section = ({ color, width, children }: { color: string; width: string; chi
   );
 };
 
-const Button = ({ children, href }) => (
-  <a href={href} className="btn">
+const Button = ({ children, href, target }) => (
+  <a href={href} target={target} className="btn">
     {children}
   </a>
 );

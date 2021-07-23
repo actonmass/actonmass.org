@@ -126,6 +126,18 @@ In November of 2020, Act on Mass launched the Transparency is Power campaign. In
 
 </Section>
 
+<Section color="medium-blue" width="1000">
+
+## The House voted on the Rules on July 7!
+
+<CenteredBlock>
+    <Button href="https://docs.google.com/spreadsheets/d/1YCSUxomsY8Lgq1FL0b0qbe3bt72K080RBLgJ0atqjQw/edit#gid=0" target="_blank">
+      See how your rep voted here
+    </Button>
+  </CenteredBlock>
+
+</Section>
+
 <LegislatorSearch theme="dark" mode="campaign" text="Did your Rep commit?" width="1000" hideSenator={true} />
 
 <Section color="medium-blue" width="1000">
