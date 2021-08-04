@@ -62,6 +62,9 @@ co_sponsors:
   - maria-robinson
   - erika-uyterhoeven
   - sal-didomenico
+  - dan-sena
+  - michelle-ciccolo
+  - mike-connolly
 history:
   - date: 2021-03-29
     description: Referred to the Committee on the Judiciary
