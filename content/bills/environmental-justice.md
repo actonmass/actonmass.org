@@ -17,15 +17,7 @@ summary:
   - Department of Environmental Protection will create a Supplemental
     Environmental Project bank, which maintains an inventory of outstanding
     environmental justice needs in frontline communities
-text: This is text that can be used to explain what a bill looks like. If we
-  think we need about a paragraph of text to explain this, even with **bold
-  text** or other formatting in markdown we can. Lorem ipsum dolor sit amet,
-  consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere,
-  magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo
-  magna eros quis urna. Nunc viverra imperdiet enim. Fusce est. Vivamus a
-  tellus. Pellentesque habitant morbi tristique senectus et netus et malesuada
-  fames ac turpis egestas. Proin pharetra nonummy pede. Mauris et orci. Aenean
-  nec lorem.
+text: ""
 orgs:
   - MA Power Forward
   - CWA
@@ -73,6 +65,21 @@ co_sponsors:
   - patricia-jehlen
   - adam-hinds
   - thomas-stanley
+  - mike-connolly
+  - brian-murray
+  - tami-gouveia
+  - kay-khan
+  - david-linsky
+  - patrick-kearney
+  - brandy-fluker-oakley
+  - david-leboeuf
+  - steve-owens
+  - dan-sena
+  - marcos-devers
+  - natalie-higgins
+  - kenneth-gordon
+  - kathleen-lanatra
+  - ted-philips
 history:
   - date: 2019-01-22
     description: Referred to the committee on Environment, Natural Resources and Agriculture
