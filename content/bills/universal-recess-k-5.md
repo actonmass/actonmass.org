@@ -18,10 +18,46 @@ summary:
 orgs:
   - MTA
 house_lead_sponsors:
-  - marjorie-decker
+  - jon-santiago
 senate_lead_sponsors:
   - michael-rush
-co_sponsors: []
+co_sponsors:
+  - lindsay-sabadosa
+  - jack-lewis
+  - peter-capano
+  - adam-scanlon
+  - carmine-gentile
+  - michael-day
+  - james-murphy
+  - james-hawkins
+  - kate-lipper-garabedian
+  - natalie-higgins
+  - david-leboeuf
+  - richard-haggerty
+  - erika-uyterhoeven
+  - sean-garballey
+  - paul-mcmurtry
+  - tram-nguyen
+  - michael-brady
+  - james-oday
+  - brian-murray
+  - tommy-vitolo
+  - daniel-cahill
+  - tackey-chan
+  - adrian-madaro
+  - angelo-puppolo
+  - dan-sena
+  - brian-ashe
+  - walter-timilty
+  - christina-minicucci
+  - william-galvin
+  - patrick-oconnor
+  - edward-coppinger
+  - maria-robinson
+  - mary-keefe
+  - marc-pacheco
+  - marcos-devers
+  - mike-connolly
 history:
   - date: 2019-01-22
     description: Sent to the Education Committee
@@ -31,6 +67,11 @@ history:
     description: Sent to Study
     type: death
   - date: 2021-01-29
-    description: Reintroduced as HD.3376
+    description: Reintroduced as H.695
+  - description: Sent to the Education Committee
+    type: null
+    date: 2021-03-29
+  - date: 2021-06-11
+    description: Committee Hearing
 timeline: []
 ---
