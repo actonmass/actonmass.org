@@ -74,6 +74,7 @@ co_sponsors:
   - walter-timilty
   - maria-robinson
   - mary-keefe
+  - mike-connolly
 history:
   - date: 2019-01-22
     description: Bill filed
