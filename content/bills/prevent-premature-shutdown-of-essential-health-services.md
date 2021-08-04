@@ -2,6 +2,7 @@
 aom_id: prevent-premature-shutdown-of-essential-health-services
 title: Prevent Premature Shutdown of Essential Health Services
 full_title: An Act Relative to the Closing of Hospital Essential Services
+twitter_bill_name: Prevent Premature Shutdown of Essential Health Services
 house_no: HD681
 house_link: https://malegislature.gov/Bills/192/HD681
 senate_no: SD847
@@ -16,6 +17,10 @@ summary:
     closure unless the essential service is restored
 orgs:
   - MNA
+house_lead_sponsors:
+  - edward-coppinger
+senate_lead_sponsors:
+  - julian-cyr
 co_sponsors:
   - edward-coppinger
   - michael-kushmerek
@@ -58,6 +63,9 @@ co_sponsors:
   - david-leboeuf
   - adam-scanlon
   - maria-robinson
+  - erika-uyterhoeven
+  - marc-pacheco
+  - natalie-higgins
 history:
   - date: 2019-05-28
     description: Hearing (Health Care Financing)
@@ -67,9 +75,4 @@ history:
 timeline:
   - date: 2019-05-28
     description: Hearing (Health Care Financing)
-twitter_bill_name: Prevent Premature Shutdown of Essential Health Services
-house_lead_sponsors:
-  - edward-coppinger
-senate_lead_sponsors:
-  - julian-cyr
 ---
