@@ -37,6 +37,11 @@ co_sponsors:
   - bud-williams
   - cynthia-creem
   - joanne-comerford
+  - jack-lewis
+  - tami-gouveia
+  - marjorie-decker
+  - mary-keefe
+  - mike-connolly
 history:
   - date: 2019-01-22
     description: Sent to the Judiciary Committee
