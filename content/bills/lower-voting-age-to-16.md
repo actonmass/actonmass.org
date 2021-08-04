@@ -2,6 +2,7 @@
 aom_id: lower-voting-age-to-16
 title: Lower Voting Age to 16
 full_title: An Act ensuring municipal participation of the widest eligible range
+twitter_bill_name: Lower Voting Age to 16
 house_no: HD3217
 house_link: https://malegislature.gov/Bills/192/HD3217
 senate_no: SD2235
@@ -14,6 +15,11 @@ summary:
     vote to 16 and 17 year olds
 orgs:
   - Common Cause Massachusetts
+house_lead_sponsors:
+  - andres-vargas
+  - dylan-fernandes
+senate_lead_sponsors:
+  - harriette-chandler
 co_sponsors:
   - andres-vargas
   - dylan-fernandes
@@ -28,6 +34,8 @@ co_sponsors:
   - michael-barrett
   - tami-gouveia
   - lindsay-sabadosa
+  - adam-hinds
+  - mike-connolly
 history: []
 timeline:
   - description: Sent to the Election Laws Committee
@@ -38,10 +46,4 @@ timeline:
     description: Reporting date extended to 6/29/2020
   - date: 2020-06-29
     description: Reporting date extended to 12/31/2020
-twitter_bill_name: Lower Voting Age to 16
-house_lead_sponsors:
-  - andres-vargas
-  - dylan-fernandes
-senate_lead_sponsors:
-  - harriette-chandler
 ---
