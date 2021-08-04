@@ -75,6 +75,7 @@ co_sponsors:
   - maria-robinson
   - mary-keefe
   - mike-connolly
+  - diana-dizoglio
 history:
   - date: 2019-01-22
     description: Bill filed
