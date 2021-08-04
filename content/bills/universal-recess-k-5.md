@@ -3,10 +3,10 @@ aom_id: universal-recess-k-5
 title: Recess for All Students K-5
 full_title: An Act relative to recess for elementary school children
 twitter_bill_name: Recess for All Students K-5
-house_no: H426
-house_link: https://malegislature.gov/Bills/191/H426
-senate_no: S330
-senate_link: https://malegislature.gov/Bills/191/S330
+house_no: H695
+house_link: https://malegislature.gov/Bills/192/H695/Cosponsor
+senate_no: S383
+senate_link: https://malegislature.gov/Bills/192/S383
 committee: joint-education
 issue: education
 img: /img/jason-sung-4ycqdagemyk-unsplash-1-.jpg
