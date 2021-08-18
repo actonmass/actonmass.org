@@ -2,6 +2,7 @@
 aom_id: ranked-choice-voting
 title: Ranked Choice Voting
 full_title: An Act to Use of Ranked Choice Voting in Elections
+twitter_bill_name: Ranked Choice Voting
 house_no: HD652
 house_link: https://malegislature.gov/Bills/192/HD652
 senate_no: SD241
@@ -13,6 +14,10 @@ summary:
 orgs:
   - Yes on 2
   - Common Cause Massachusetts
+house_lead_sponsors:
+  - smitty-pignatelli
+senate_lead_sponsors:
+  - rebecca-rausch
 co_sponsors:
   - smitty-pignatelli
   - maria-robinson
@@ -26,7 +31,8 @@ co_sponsors:
   - daniel-carey
   - elizabeth-malia
   - rebecca-rausch
-  - joanne-comerford
+  - tram-nguyen
+  - edward-coppinger
 history: []
 timeline:
   - description: Sent to the Committee on Election Laws
@@ -37,9 +43,4 @@ timeline:
     date: 2020-04-09
   - description: Reporting date extended to 12/31/2020
     date: 2020-06-29
-twitter_bill_name: Ranked Choice Voting
-house_lead_sponsors:
-  - smitty-pignatelli
-senate_lead_sponsors:
-  - rebecca-rausch
 ---
