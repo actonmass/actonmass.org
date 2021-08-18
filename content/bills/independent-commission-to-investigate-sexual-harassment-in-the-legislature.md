@@ -22,5 +22,6 @@ co_sponsors:
   - michael-moore
   - eric-lesser
   - dan-sena
+  - mike-connolly
 history: []
 ---
