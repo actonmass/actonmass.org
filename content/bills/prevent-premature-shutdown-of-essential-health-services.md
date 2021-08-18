@@ -66,6 +66,7 @@ co_sponsors:
   - erika-uyterhoeven
   - marc-pacheco
   - natalie-higgins
+  - mike-connolly
 history:
   - date: 2019-05-28
     description: Hearing (Health Care Financing)
