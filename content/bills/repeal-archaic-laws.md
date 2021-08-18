@@ -2,6 +2,7 @@
 aom_id: repeal-archaic-laws
 title: Repeal Archaic Laws
 full_title: An Act Relative to Archaic Crimes
+twitter_bill_name: Repeal Archaic Laws
 house_no: HD2269
 house_link: https://malegislature.gov/Bills/192/HD2269
 senate_no: null
@@ -14,11 +15,15 @@ summary:
     Massachusetts
 orgs:
   - MassEquality
+house_lead_sponsors:
+  - jay-livingstone
+senate_lead_sponsors: []
 co_sponsors:
   - jay-livingstone
   - mindy-domb
   - elizabeth-malia
   - tami-gouveia
+  - mike-connolly
 history:
   - date: 2019-05-14
     description: Judiciary committee hearing
@@ -30,8 +35,4 @@ timeline:
     description: Referred to Judiciary Committee
   - date: 2020-02-12
     description: Sent to study
-twitter_bill_name: Repeal Archaic Laws
-house_lead_sponsors:
-  - jay-livingstone
-senate_lead_sponsors: []
 ---
