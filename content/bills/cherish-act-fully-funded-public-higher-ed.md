@@ -4,9 +4,9 @@ title: "The Cherish Act: Fully Funded Public Higher Ed"
 full_title: An Act committing to higher education the resources to insure a
   strong and healthy public higher education system
 twitter_bill_name: "The Cherish Act: Fully Funded Public Higher Ed"
-house_no: HD1224
+house_no: H.1325
 house_link: https://malegislature.gov/Bills/192/HD1224
-senate_no: SD410
+senate_no: S.824
 senate_link: https://malegislature.gov/Bills/192/SD410
 committee: joint-higher-education
 issue: education
@@ -135,6 +135,36 @@ co_sponsors:
   - maria-robinson
   - adam-hinds
   - mary-keefe
+  - brian-ashe
+  - marc-pacheco
+  - james-hawkins
+  - susannah-whipps
+  - steven-ultrino
+  - rebecca-rausch
+  - james-eldridge
+  - christopher-hendricks
+  - michelle-dubois
+  - carlos-gonzalez
+  - richard-haggerty
+  - paul-mcmurtry
+  - james-arciero
+  - jacob-oliveira
+  - ruth-balser
+  - meghan-kilcoyne
+  - patrick-kearney
+  - ted-philips
+  - orlando-ramos
+  - paul-donato
+  - william-galvin
+  - alan-silvia
+  - liz-miranda
+  - nika-elugardo
+  - gerard-cassidy
+  - sally-kerans
+  - mathew-muratore
+  - john-barrett
+  - joan-meschino
+  - kevin-honan
 history:
   - date: 2019-01-16
     description: Bill filed
