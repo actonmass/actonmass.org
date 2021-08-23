@@ -3,9 +3,9 @@ aom_id: campaign-childcare
 title: Campaign Childcare
 full_title: An Act Supporting Parents Running for Public Office
 twitter_bill_name: Campaign Childcare
-house_no: HD1418
+house_no: H.769
 house_link: https://malegislature.gov/Bills/192/HD1418
-senate_no: SD994
+senate_no: S.475
 senate_link: https://malegislature.gov/Bills/192/SD994
 committee: joint-election-laws
 issue: gender-equity
@@ -72,6 +72,12 @@ co_sponsors:
   - joanne-comerford
   - michael-moore
   - joan-lovely
+  - david-rogers
+  - christina-minicucci
+  - kevin-honan
+  - natalie-higgins
+  - nika-elugardo
+  - paul-donato
 history:
   - date: 2019-05-15
     description: Committee Hearing (Election Laws)
