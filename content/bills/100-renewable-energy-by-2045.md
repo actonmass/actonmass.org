@@ -2,9 +2,10 @@
 aom_id: 100-renewable-energy-by-2045
 title: 100% Renewable Energy by 2045
 full_title: An Act re-powering Massachusetts with 100 percent renewable energy
-house_no: HD3551
+twitter_bill_name: 100% Renewable Energy by 2045
+house_no: H.3288
 house_link: https://malegislature.gov/Bills/192/HD3551
-senate_no: SD2205
+senate_no: S.2136
 senate_link: https://malegislature.gov/Bills/192/SD2205
 committee: joint-telecommunications-utilities-and-energy
 issue: climate
@@ -96,6 +97,20 @@ co_sponsors:
   - mary-keefe
   - brendan-crighton
   - sal-didomenico
+  - harriette-chandler
+  - james-eldridge
+  - patrick-oconnor
+  - christopher-hendricks
+  - christina-minicucci
+  - john-barrett
+  - michael-barrett
+  - julian-cyr
+  - kay-khan
+  - patricia-duffy
+  - paul-mcmurtry
+  - jacob-oliveira
+  - linda-campbell
+  - tackey-chan
 scripts:
   tweet_thanks: ""
   tweet_after_thanks_call: ""
@@ -110,8 +125,7 @@ history:
   - date: 2019-07-23
     description: Committee Hearing
   - date: 2020-07-31
-    description:
-      Climate bill passes House without including this bill, Bill sent to study
+    description: Climate bill passes House without including this bill, Bill sent to study
     type: death
 timeline:
   - date: 2019-01-22
@@ -120,5 +134,4 @@ timeline:
     description: Committee Hearing
   - date: 2020-07-31
     description: Climate bill passes House without 100% renewables
-twitter_bill_name: 100% Renewable Energy by 2045
 ---
