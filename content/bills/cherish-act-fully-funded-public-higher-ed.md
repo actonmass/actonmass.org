@@ -165,6 +165,15 @@ co_sponsors:
   - john-barrett
   - joan-meschino
   - kevin-honan
+  - michael-rush
+  - joan-lovely
+  - john-velis
+  - adam-gomez
+  - julian-cyr
+  - paul-feeney
+  - edward-kennedy
+  - michael-brady
+  - claire-cronin
 history:
   - date: 2019-01-16
     description: Bill filed
