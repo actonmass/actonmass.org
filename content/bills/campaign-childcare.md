@@ -78,6 +78,10 @@ co_sponsors:
   - natalie-higgins
   - nika-elugardo
   - paul-donato
+  - frank-moran
+  - michael-moran
+  - rebecca-rausch
+  - adam-hinds
 history:
   - date: 2019-05-15
     description: Committee Hearing (Election Laws)
