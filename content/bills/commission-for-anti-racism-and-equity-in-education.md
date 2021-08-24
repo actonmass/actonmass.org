@@ -1,6 +1,6 @@
 ---
 aom_id: "Exemple: antiracism-in-education"
-title: Commission for Anti-Racism and Equity in Education
+title: Commission for Anti-Racism in Education
 full_title: An Act relative to anti-racism, equity and justice in education
 twitter_bill_name: Commission for Anti-Racism and Equity in Education
 house_no: H.584
