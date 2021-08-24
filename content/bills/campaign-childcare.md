@@ -68,7 +68,6 @@ co_sponsors:
   - jason-lewis
   - john-cronin
   - sal-didomenico
-  - susan-moran
   - joanne-comerford
   - michael-moore
   - joan-lovely
@@ -78,10 +77,9 @@ co_sponsors:
   - natalie-higgins
   - nika-elugardo
   - paul-donato
-  - frank-moran
-  - michael-moran
   - rebecca-rausch
   - adam-hinds
+  - susan-moran
 history:
   - date: 2019-05-15
     description: Committee Hearing (Election Laws)
