@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "The House Rules Debate: Here’s What Happened"
-date: 2021-08-27T14:38:09.061Z
+date: 2021-07-16T14:38:09.061Z
 image: /img/screen-shot-2021-08-27-at-10.44.14-am.png
 ---
 In April 2021, we launched [The People’s House](https://actonmass.org/the-campaign/) campaign - a grassroots lobbying campaign for commonsense rules reform in the MA State House. This campaign was aimed at the adoption of three changes to the House Rules: 
