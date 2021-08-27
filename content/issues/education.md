@@ -8,7 +8,7 @@ img: /img/issue-education.jpg
 page_img: /img/neonbrand-zfso6bnzjtw-unsplash.jpg
 catchphrase: We must equitably fund our public schools so that a child's zip
   code doesn't determine their right to a great public education.
-text: test
+text: ""
 highlighted_bills:
   - cherish-act-fully-funded-public-higher-ed
   - moratorium-on-high-stakes-testing
