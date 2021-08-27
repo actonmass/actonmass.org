@@ -85,21 +85,15 @@ Our three amendments were filed by ally representatives, as follows:
 
 
 
-* Amendment #2 - Speaker Term Limits
-
-  Filed by Reps Uyterhoeven and Gouveia, cosponsored by Rep. Connolly
+* **Amendment #2 - Speaker Term Limits**, filed by Reps Uyterhoeven and Gouveia, cosponsored by Rep. Connolly
 
  
 
-* Amendment #16 - Public Committee Votes 
-
-  Filed by Reps Connolly and Uyterhoeven, cosponsored by Reps Gouveia, Sena, and Elugardo
+* **Amendment #16 - Public Committee Votes**, Filed by Reps Connolly and Uyterhoeven, cosponsored by Reps Gouveia, Sena, and Elugardo
 
  
 
-* Amendment #17 - Adequate Time to Review
-
-  Filed by Reps Connolly and Uyterhoeven, cosponsored by Reps Gouveia, Sena, and Elugardo
+* **Amendment #17 - Adequate Time to Review**, filed by Reps Connolly and Uyterhoeven, cosponsored by Reps Gouveia, Sena, and Elugardo
 
 
 
@@ -107,7 +101,7 @@ You can read the Fact Sheet for these three amendments, which was circulated to 
 
 
 
-#### Amendment #2 - Speaker Term Limits
+## Amendment #2 - Speaker Term Limits
 
 
 
@@ -153,7 +147,7 @@ Representative O’Day spoke on the sanctity of the speakership, claiming that t
 
 
 
-*Nowhere that I can recall here in the state are term limits qualified for, whether it's for our governor, lieutenant governor, Senate president, our constitutional officers, all of us in this body, all Senators across the body, none of us are faced with term limits. So my question is, why would we want to discriminate against the Speaker of the House?*
+> "Nowhere that I can recall here in the state are term limits qualified for, whether it's for our governor, lieutenant governor, Senate president, our constitutional officers, all of us in this body, all Senators across the body, none of us are faced with term limits. So my question is, why would we want to discriminate against the Speaker of the House?"
 
 
 
@@ -167,7 +161,7 @@ Representative Markey laments the effort for speaker term limits as antithetical
 
 
 
-The first vote we take is for Speaker. With that, it's the most important vote of the session. I can't think of a less democratic way that we as elected officials support our own communities to be the best and the brightest to say that we think this person, whoever it is, should be the speaker and then not be able to do that because of a term limit. Change for the sake of change is not good. It's not good for our society. It's not good for our communities that we represent. It's definitely not good for democracy if people don't want change.
+> "The first vote we take is for Speaker. With that, it's the most important vote of the session. I can't think of a less democratic way that we as elected officials support our own communities to be the best and the brightest to say that we think this person, whoever it is, should be the speaker and then not be able to do that because of a term limit. Change for the sake of change is not good. It's not good for our society. It's not good for our communities that we represent. It's definitely not good for democracy if people don't want change."
 
 
 
@@ -181,7 +175,7 @@ Representative Lewis, who voted in favor of Speaker term limits when they came t
 
 
 
-I've never once heard, ‘Jack, I'm concerned there are no term limits for speaker of the Massachusetts House.’ I ask my colleagues: have any of you ever heard a voter bring this up as an issue? I'm confident that nearly universally, the answer is no.
+> "I've never once heard, ‘Jack, I'm concerned there are no term limits for speaker of the Massachusetts House.’ I ask my colleagues: have any of you ever heard a voter bring this up as an issue? I'm confident that nearly universally, the answer is no."
 
 
 
@@ -193,7 +187,7 @@ But here’s the thing: it shouldn’t matter if Rep. Lewis heard from his const
 
 
 
-Amendment #16 - Public Committee Votes
+## Amendment #16 - Public Committee Votes
 
 
 
@@ -201,13 +195,13 @@ The second of our three amendments to be voted on was #16 - Public Committee Vot
 
 
 
-Rep. Erika Uyterhoeven - in Favor
+**Rep. Erika Uyterhoeven - in Favor**
 
 Rep. Uyterhoeven, who presented the amendment, begun her argument by referencing a ballot question asking whether or not constituents wanted their State Representative to support public committee votes: 
 
 
 
-Actions speak louder than words, and the public is entitled to know how we act on their behalf. As it turns out, many constituents agree. I owe it to my constituents to bring this amendment forward because more than 94 percent of them voted in favor of publicly-available committee votes on a ballot question this past November. In fact 10 percent of the Legislature had this on the ballot, voting on average 90 percent in favor. Because holding us accountable and making our actions transparent is critical for a healthy democracy. I want to be clear, I don't see this as doing our constituents a favor. This is something that makes us better legislators.
+> "Actions speak louder than words, and the public is entitled to know how we act on their behalf. As it turns out, many constituents agree. I owe it to my constituents to bring this amendment forward because more than 94 percent of them voted in favor of publicly-available committee votes on a ballot question this past November. In fact 10 percent of the Legislature had this on the ballot, voting on average 90 percent in favor. Because holding us accountable and making our actions transparent is critical for a healthy democracy. I want to be clear, I don't see this as doing our constituents a favor. This is something that makes us better legislators."
 
 
 
@@ -217,13 +211,13 @@ Rep. Uyterhoeven is absolutely correct that this measure is overwhelmingly popul
 
 
 
-Rep. Kate Hogan - Oppose
+**Rep. Kate Hogan - Oppose**
 
 Rep. Hogan argued that constituents shouldn’t be able to see how their representatives vote in committee because that vote could change later on in the process:
 
 
 
-A committee vote is reflective of a specific proposal at a moment in time during the committee process and policy development stage. Support or opposition can - and should - change as the bill is refined and members learn more about the topic from colleagues, experts and the public.
+> "A committee vote is reflective of a specific proposal at a moment in time during the committee process and policy development stage. Support or opposition can - and should - change as the bill is refined and members learn more about the topic from colleagues, experts and the public."
 
 
 
@@ -231,12 +225,13 @@ While it’s true that a bill can and should evolve during the committee process
 
 
 
-Rep. Dan Cahill - Oppose\
+**Rep. Dan Cahill - Oppose**
+
 Rep. Cahill posited that making committee votes public would pose an undue burden on staffers, arguing:
 
 
 
-Our committee staff — I've learned this as the new chair of Human Resources — our staff are working tirelessly, especially as a result of COVID-19. To have them take on additional duties to get down to a granular level of information, to provide that would be unfair to our staff.
+> "Our committee staff — I've learned this as the new chair of Human Resources — our staff are working tirelessly, especially as a result of COVID-19. To have them take on additional duties to get down to a granular level of information, to provide that would be unfair to our staff."
 
 
 
@@ -244,11 +239,11 @@ Remember that the Senate already makes their committee votes public; they use a 
 
 
 
-Amendment #3 - Time to Review Bills
+## Amendment #3 - Time to Review Bills
 
 
 
-KEY - 
+**KEY -** 
 
 
 
@@ -284,13 +279,13 @@ Because of this, the floor debate about Adequate Time to Review took place over 
 
 
 
-Rep. Chris Markey - in Favor
+**Rep. Chris Markey - in Favor**
 
 Representative Markey argued that more time to read a bill was necessary for representatives to succeed at their jobs. He explained that the amendment was a safeguard for community involvement and allowed representatives adequate time to review a bill that would impact their community, saying:
 
 
 
-When you have such little time to review a bill, it doesn't give people an opportunity to be heard. Yes it is uncomfortable sometimes, yes it slows down the process. But it's the process that allows people to actually trust us. It allows people to elect us and say we trust you as the representative.
+> "When you have such little time to review a bill, it doesn't give people an opportunity to be heard. Yes it is uncomfortable sometimes, yes it slows down the process. But it's the process that allows people to actually trust us. It allows people to elect us and say we trust you as the representative."
 
 
 
@@ -298,13 +293,13 @@ Rep. Markey is correct: more time to read a bill will allow for representatives 
 
 
 
-Rep. Erika Uyterhoeven - in Favor
+**Rep. Erika Uyterhoeven - in Favor**
 
 Representative Uyterhoeven expressed skepticism about why the system in place is the way that it is. She asked:
 
 
 
-When a bill is in committee for several months, unavailable from public view, and then is rushed to a vote in a day, one must ask: why?
+> "When a bill is in committee for several months, unavailable from public view, and then is rushed to a vote in a day, one must ask: why?"
 
 
 
@@ -312,13 +307,13 @@ Rep. Uyterhoeven raised a concern that so many advocates and constituents share.
 
 
 
-Rep. Sarah Peake - Oppose
+**Rep. Sarah Peake - Oppose**
 
 Rep. Peake stood in opposition to the amendments for adequate time to read a bill, claiming that it would grind the legislative body to a halt and leave important bills in the dustbin. She drew an example of the ROE Act, saying:
 
 
 
-I don't know about all my colleagues but I'm not prepared to say to women in this state, “I'm sorry but while Supreme Court has cases making its way to you to take away your right to choose, because of a technical glitch and failure to get a two thirds vote, you have to wait for next session when it has a hearing again and comes to the floor for a vote.”
+> "I don't know about all my colleagues but I'm not prepared to say to women in this state, “I'm sorry but while Supreme Court has cases making its way to you to take away your right to choose, because of a technical glitch and failure to get a two thirds vote, you have to wait for next session when it has a hearing again and comes to the floor for a vote.”
 
 
 
@@ -336,13 +331,13 @@ The bill gained new momentum after the death of Justice Ruth Bader Ginsburg (Sep
 
 The legislative session is 730 days long. Where in this actual timeline would a 48 hour delay have caused it to not have been passed? 
 
-Rep. Ruth Balser - Oppose
+**Rep. Ruth Balser - Oppose**
 
 Rep. Balser also invoked the ROE Act in her argument against 48 hours to review bills, stating:
 
 
 
-All of us \[were] shaking in our boots as the Supreme Court changed and this Legislature wanted to protect the women of the state. We remember the back and forth with the governor. If we had this rule in place, the future of women's health would have been in jeopardy. So too with climate action as the Legislature moved forward historic climate legislation. At the end of a session with COVID, the pandemic, the crisis, I would argue this rule would have, could have, jeopardized it.
+> "All of us \[were] shaking in our boots as the Supreme Court changed and this Legislature wanted to protect the women of the state. We remember the back and forth with the governor. If we had this rule in place, the future of women's health would have been in jeopardy. So too with climate action as the Legislature moved forward historic climate legislation. At the end of a session with COVID, the pandemic, the crisis, I would argue this rule would have, could have, jeopardized it."
 
 
 
@@ -350,7 +345,7 @@ Remember, the ROE Act was actually never passed as a bill, but rather parts of i
 
 
 
-A Concession on Public Committee Votes
+## A Concession on Public Committee Votes
 
 
 
