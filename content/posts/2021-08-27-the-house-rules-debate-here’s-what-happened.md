@@ -43,7 +43,7 @@ Find the full vote results [here](https://docs.google.com/spreadsheets/d/1YCSUxo
 
 
 
-The House Rules Package
+### **The House Rules Package**
 
 
 
@@ -69,11 +69,11 @@ We were particularly disappointed in their attempt to address the issue of secre
 
 
 
-There was no concession or addressment of our demand to reinstate term limits for the Speaker.
+There was no concession or reference to our demand to reinstate term limits for the Speaker.
 
 
 
-Our Amendments
+## **Our Amendments**
 
 
 
@@ -85,21 +85,21 @@ Our three amendments were filed by ally representatives, as follows:
 
 
 
-Amendment #2 - Speaker Term Limits
+* Amendment #2 - Speaker Term Limits
 
-Filed by Reps Uyterhoeven and Gouveia, cosponsored by Rep. Connolly
-
- 
-
-Amendment #16 - Public Committee Votes 
-
-Filed by Reps Connolly and Uyterhoeven, cosponsored by Reps Gouveia, Sena, and Elugardo
+  Filed by Reps Uyterhoeven and Gouveia, cosponsored by Rep. Connolly
 
  
 
-Amendment #17 - Adequate Time to Review
+* Amendment #16 - Public Committee Votes 
 
-Filed by Reps Connolly and Uyterhoeven, cosponsored by Reps Gouveia, Sena, and Elugardo
+  Filed by Reps Connolly and Uyterhoeven, cosponsored by Reps Gouveia, Sena, and Elugardo
+
+ 
+
+* Amendment #17 - Adequate Time to Review
+
+  Filed by Reps Connolly and Uyterhoeven, cosponsored by Reps Gouveia, Sena, and Elugardo
 
 
 
@@ -107,7 +107,7 @@ You can read the Fact Sheet for these three amendments, which was circulated to 
 
 
 
-Amendment #2 - Speaker Term Limits
+#### Amendment #2 - Speaker Term Limits
 
 
 
@@ -119,13 +119,13 @@ Several representatives spoke on the floor in favor and against this amendment.
 
 
 
-Rep. Tami Gouveia - in Favor
+**Rep. Tami Gouveia - in Favor**
 
 Representative Gouveia, the sponsor of this amendment, opened the debate by laying out compelling arguments in favor of speaker term limits. She noted that term limits would act as a guardrail to ensure a more democratic house and encourage more regular and predictable transitions. Most importantly, she spoke about the unchecked power the Speaker currently holds over the entire legislative body:
 
 
 
-The speaker decides how many staff we get, he handles hiring and firing of staff, he decides who becomes committee chair or vice chair, determining how much each of us earn to support our families and how much influence we have in the Legislature. The speaker's office is crucial in deciding what comes up for a vote, how long we can review it, and the opportunity for us as members to consult with constituents. Speakers achieve immense power instantaneously. 
+> "The speaker decides how many staff we get, he handles hiring and firing of staff, he decides who becomes committee chair or vice chair, determining how much each of us earn to support our families and how much influence we have in the Legislature. The speaker's office is crucial in deciding what comes up for a vote, how long we can review it, and the opportunity for us as members to consult with constituents. Speakers achieve immense power instantaneously."
 
 
 
@@ -133,13 +133,13 @@ Rep. Gouveia is absolutely right that the speaker’s power in these capacities 
 
 
 
-Rep. Erika Uyterhoeven - in Favor
+**Rep. Erika Uyterhoeven - in Favor**
 
 Representative Uyterhoeven gave a brief history of speaker term limits in the MA House, noting that they were first adopted in 1985 during a push for good governance. They were removed in 2001, and reinstated by Speaker DeLeo in 2009 who then removed the limit in 2015 as his would-be term limit approached.
 
 
 
-This measure is about democracy, ensuring that voices of constituents are heard through their representatives fairly. Having a new speaker every eight years, like the presidency, is revitalizing to our democracy and brings much-needed perspective. This is not about any individual, but about this institution.
+> "This measure is about democracy, ensuring that voices of constituents are heard through their representatives fairly. Having a new speaker every eight years, like the presidency, is revitalizing to our democracy and brings much-needed perspective. This is not about any individual, but about this institution."
 
 
 
@@ -147,15 +147,13 @@ Rep. Uyterhoeven asserts that speaker term limits are imperative to promote more
 
 
 
-Rep. Jim O’Day - Oppose
+**Rep. Jim O’Day - Oppose**
 
 Representative O’Day spoke on the sanctity of the speakership, claiming that the person chosen for the position is necessarily a strong leader who is well-respected by their peers in the House. He continued:
 
 
 
-Nowhere that I can recall here in the state are term limits qualified for, whether it's for
-
-our governor, lieutenant governor, Senate president, our constitutional officers, all of us in this body, all Senators across the body, none of us are faced with term limits. So my question is, why would we want to discriminate against the Speaker of the House?
+*Nowhere that I can recall here in the state are term limits qualified for, whether it's for our governor, lieutenant governor, Senate president, our constitutional officers, all of us in this body, all Senators across the body, none of us are faced with term limits. So my question is, why would we want to discriminate against the Speaker of the House?*
 
 
 
@@ -163,7 +161,7 @@ Contrary to Rep. O’Day’s claim here, the Massachusetts Senate President (the
 
 
 
-Rep. Christopher Markey - Oppose
+**Rep. Christopher Markey - Oppose**
 
 Representative Markey laments the effort for speaker term limits as antithetical to the purpose of the body, claiming:
 
@@ -177,7 +175,7 @@ Enshrined in U.S. law all the way up to the Constitution, term limits are an ext
 
 
 
-Rep. Jack Lewis - Oppose
+**Rep. Jack Lewis - Oppose**
 
 Representative Lewis, who voted in favor of Speaker term limits when they came to a vote in 2017, this time testified against the measure. Opening with a sweeping anecdote of knocking doors, he claimed:
 
