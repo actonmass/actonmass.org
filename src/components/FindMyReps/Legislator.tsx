@@ -27,7 +27,7 @@ export default function Legislator({ leg, chamber, bill, mode }: Props) {
     switch (mode) {
       case "bill":
         return {
-          status: sponsored,
+          status: bill.no_sponsorship_data ? null : sponsored,
           txt: sponsored ? "Co-sponsored the bill" : "Did not co-sponsored the bill",
         };
       case "pledge":

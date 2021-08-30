@@ -50,6 +50,7 @@ export const query = graphql`
           senate_no
           house_no
           hidden
+          no_sponsorship_data
           scripts {
             call_thanks
             call_request

@@ -46,4 +46,5 @@ twitter_bill_name: Fair Share Amendment
 house_lead_sponsors:
   - james-oday
 senate_lead_sponsors: []
+no_sponsorship_data: true
 ---

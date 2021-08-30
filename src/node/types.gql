@@ -148,6 +148,7 @@ type Bill implements Node @dontInfer {
   timeline: [BillTimelineItem]
   scripts: Script
   scripts_com_vote: Script
+  no_sponsorship_data: Boolean
 
   # Common calculated
   fileName: String!

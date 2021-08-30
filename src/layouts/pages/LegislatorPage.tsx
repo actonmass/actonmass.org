@@ -202,7 +202,7 @@ export default function LegislatorPage({ leg, issues }: Props) {
                     <>
                       <h3 className="cosponsor_title fWhite fRoboto fRegular">{issue.title}</h3>
                       {issue.bills
-                        .filter((bill) => !bill.hidden)
+                        .filter((bill) => !bill.hidden && !bill.no_sponsorship_data)
                         .map((bill) => {
                           const sponsored = cosponsoredBillIds.includes(bill.id);
                           return (

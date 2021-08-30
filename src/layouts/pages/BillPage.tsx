@@ -14,6 +14,7 @@ type Props = {
 };
 
 export default function BillPage({ bill }: Props) {
+  const shouldShowSponsors = !bill.no_sponsorship_data;
   const co_sponsors = new Set((bill.co_sponsors ?? []).map((leg) => leg.id));
   const committee = bill.committee;
   return (
@@ -56,7 +57,6 @@ export default function BillPage({ bill }: Props) {
             </div>
           </div>
         </section>
-
         {bill.text && (
           <section className="light-blue cbox">
             <div className="w1400">
@@ -64,13 +64,11 @@ export default function BillPage({ bill }: Props) {
             </div>
           </section>
         )}
-
         <FindMyReps
           text="Please enter your address so we can help you contact your legislator."
           bill={bill}
           mode="bill"
         />
-
         {bill.committee != null && (
           <section className="decision-makers dark cbox">
             <div className="w1400">
@@ -94,7 +92,13 @@ export default function BillPage({ bill }: Props) {
                         <div className="vbox">
                           <LegCircle
                             rep={committee.senate_chair}
-                            status={co_sponsors.has(committee.senate_chair.id) ? "ok" : "ko"}
+                            status={
+                              bill.no_sponsorship_data
+                                ? null
+                                : co_sponsors.has(committee.senate_chair.id)
+                                ? "ok"
+                                : "ko"
+                            }
                             size="L"
                           />
                           <p className="fRoboto fWhite fBold fUppercase">chair</p>
@@ -105,7 +109,13 @@ export default function BillPage({ bill }: Props) {
                         <div className="vbox">
                           <LegCircle
                             rep={committee.senate_vice_chair}
-                            status={co_sponsors.has(committee.senate_vice_chair.id) ? "ok" : "ko"}
+                            status={
+                              bill.no_sponsorship_data
+                                ? null
+                                : co_sponsors.has(committee.senate_vice_chair.id)
+                                ? "ok"
+                                : "ko"
+                            }
                             size="L"
                           />
                           <p className="fRoboto fWhite fBold fUppercase">chair</p>
@@ -118,7 +128,13 @@ export default function BillPage({ bill }: Props) {
                         <LegCircle
                           key={member.id}
                           rep={member}
-                          status={co_sponsors.has(member.id) ? "ok" : "ko"}
+                          status={
+                            bill.no_sponsorship_data
+                              ? null
+                              : co_sponsors.has(member.id)
+                              ? "ok"
+                              : "ko"
+                          }
                         />
                       ))}
                     </div>
@@ -133,7 +149,13 @@ export default function BillPage({ bill }: Props) {
                         <div className="vbox">
                           <LegCircle
                             rep={committee.house_chair}
-                            status={co_sponsors.has(committee.house_chair.id) ? "ok" : "ko"}
+                            status={
+                              bill.no_sponsorship_data
+                                ? null
+                                : co_sponsors.has(committee.house_chair.id)
+                                ? "ok"
+                                : "ko"
+                            }
                             size="L"
                           />
                           <p className="fRoboto fWhite fBold fUppercase">chair</p>
@@ -144,7 +166,13 @@ export default function BillPage({ bill }: Props) {
                         <div className="vbox">
                           <LegCircle
                             rep={committee.house_vice_chair}
-                            status={co_sponsors.has(committee.house_vice_chair.id) ? "ok" : "ko"}
+                            status={
+                              bill.no_sponsorship_data
+                                ? null
+                                : co_sponsors.has(committee.house_vice_chair.id)
+                                ? "ok"
+                                : "ko"
+                            }
                             size="L"
                           />
                           <p className="fRoboto fWhite fBold fUppercase">chair</p>
@@ -157,7 +185,13 @@ export default function BillPage({ bill }: Props) {
                         <LegCircle
                           key={member.id}
                           rep={member}
-                          status={co_sponsors.has(member.id) ? "ok" : "ko"}
+                          status={
+                            bill.no_sponsorship_data
+                              ? null
+                              : co_sponsors.has(member.id)
+                              ? "ok"
+                              : "ko"
+                          }
                         />
                       ))}
                     </div>
@@ -168,19 +202,19 @@ export default function BillPage({ bill }: Props) {
             </div>
           </section>
         )}
-
-        <section className="map cbox">
-          <div className="w1400">
-            <h3 className="fUppercase fExbold">Who has co-sponsored:</h3>
-            <div className="map-block dark">
-              <Map bill={bill} />
+        {shouldShowSponsors && (
+          <section className="map cbox">
+            <div className="w1400">
+              <h3 className="fUppercase fExbold">Who has co-sponsored:</h3>
+              <div className="map-block dark">
+                <Map bill={bill} />
+              </div>
+              <div className="cbox">
+                <RequestCosponsorshipMyRep bill={bill} />
+              </div>
             </div>
-            <div className="cbox">
-              <RequestCosponsorshipMyRep bill={bill} />
-            </div>
-          </div>
-        </section>
-
+          </section>
+        )}
         {false && (
           <section className="timeline light-blue cbox">
             <div className="w1400">

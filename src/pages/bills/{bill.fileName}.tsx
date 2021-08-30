@@ -16,6 +16,7 @@ export const query = graphql`
         href
       }
       full_title
+      no_sponsorship_data
       history {
         bill_event {
           date
