@@ -43,6 +43,12 @@ co_sponsors:
   - elizabeth-malia
   - david-leboeuf
   - dan-sena
+  - natalie-higgins
+  - marcos-devers
+  - michelle-ciccolo
+  - carmine-gentile
+  - vanna-howard
+  - kenneth-gordon
 history:
   - description: Bill filed
     date: 2021-03-29
