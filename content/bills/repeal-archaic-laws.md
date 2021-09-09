@@ -3,7 +3,7 @@ aom_id: repeal-archaic-laws
 title: Repeal Archaic Laws
 full_title: An Act Relative to Archaic Crimes
 twitter_bill_name: Repeal Archaic Laws
-house_no: HD2269
+house_no: H.1758
 house_link: https://malegislature.gov/Bills/192/HD2269
 senate_no: null
 senate_link: null
