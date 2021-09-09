@@ -3,9 +3,9 @@ aom_id: life-without-parole
 title: Life without Parole
 full_title: An Act repealing mandatory life without parole
 twitter_bill_name: Life without Parole
-house_no: HD2124
+house_no: H.2503
 house_link: https://malegislature.gov/Bills/192/HD2124
-senate_no: SD1065
+senate_no: S.1560
 senate_link: https://malegislature.gov/Bills/192/SD1065
 committee: joint-judiciary
 issue: criminal-justice-reform
