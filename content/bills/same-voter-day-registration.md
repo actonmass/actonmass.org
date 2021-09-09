@@ -2,9 +2,10 @@
 aom_id: same-voter-day-registration
 title: Same Voter Day Registration
 full_title: An Act Relative to Election Day Registration
-house_no: HD1536
+twitter_bill_name: Same Voter Day Registration
+house_no: H.805
 house_link: https://malegislature.gov/Bills/192/HD1536
-senate_no: SD1002
+senate_no: S.459
 senate_link: https://malegislature.gov/Bills/192/SD1002
 committee: joint-election-laws
 issue: voting-rights
@@ -13,6 +14,10 @@ summary:
     to register to vote or change the address at which they are registered on
     Election Day
 orgs: []
+house_lead_sponsors:
+  - john-lawn
+senate_lead_sponsors:
+  - cynthia-creem
 co_sponsors:
   - john-lawn
   - sean-garballey
@@ -148,9 +153,4 @@ timeline:
     description: Reporting date extended to 6/26/2020
   - description: Reporting date extended to 12/31/2020
     date: 2020-06-29
-twitter_bill_name: Same Voter Day Registration
-house_lead_sponsors:
-  - john-lawn
-senate_lead_sponsors:
-  - cynthia-creem
 ---
