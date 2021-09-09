@@ -3,9 +3,9 @@ aom_id: ranked-choice-voting
 title: Ranked Choice Voting
 full_title: An Act to Use of Ranked Choice Voting in Elections
 twitter_bill_name: Ranked Choice Voting
-house_no: HD652
+house_no: H.825
 house_link: https://malegislature.gov/Bills/192/HD652
-senate_no: SD241
+senate_no: S.485
 senate_link: https://malegislature.gov/Bills/192/SD241
 committee: joint-election-laws
 issue: voting-rights
