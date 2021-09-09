@@ -3,9 +3,9 @@ aom_id: driver-license-regardless-immigration-status
 title: Work & Family Mobility Act
 full_title: The Work and Family Mobility Act
 twitter_bill_name: Work & Family Mobility Act
-house_no: HD448
+house_no: H.3456
 house_link: https://malegislature.gov/Bills/192/HD448
-senate_no: SD273
+senate_no: S.2289
 senate_link: https://malegislature.gov/Bills/192/SD273
 committee: joint-transportation
 issue: immigration
