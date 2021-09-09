@@ -2,9 +2,10 @@
 aom_id: fair-scheduling
 title: Fair Scheduling
 full_title: An Act relative to the scheduling of employees
-house_no: HD1546
+twitter_bill_name: Fair Scheduling
+house_no: H.1974
 house_link: https://malegislature.gov/Bills/192/HD1546
-senate_no: SD412
+senate_no: S.1236
 senate_link: https://malegislature.gov/Bills/192/SD412
 committee: joint-labor-and-workforce-development
 issue: labor
@@ -17,6 +18,11 @@ summary:
   - "Requires employers to pay out predictability pay if the details of their
     employees' shift are changed after the 14 day period ends "
 orgs: []
+house_lead_sponsors:
+  - sean-garballey
+  - maria-robinson
+senate_lead_sponsors:
+  - marc-pacheco
 co_sponsors:
   - sean-garballey
   - maria-robinson
@@ -81,10 +87,4 @@ timeline:
     description: Reporting date extended to 6/5/2020
   - date: 2020-06-02
     description: Reporting date extended to 10/27/2020
-twitter_bill_name: Fair Scheduling
-house_lead_sponsors:
-  - sean-garballey
-  - maria-robinson
-senate_lead_sponsors:
-  - marc-pacheco
 ---
