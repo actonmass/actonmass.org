@@ -4,9 +4,9 @@ title: Environmental Justice
 full_title: An Act relative to environmental justice and toxics reduction in the
   Commonwealth
 twitter_bill_name: Environmental Justice
-house_no: HD1968
+house_no: H.1792
 house_link: https://malegislature.gov/Bills/192/HD1968
-senate_no: SD1893
+senate_no: S.996
 senate_link: https://malegislature.gov/Bills/192/SD1893
 issue: climate
 img: /img/ella-ivanescu-jbfhnrpq_dw-unsplash.jpg
