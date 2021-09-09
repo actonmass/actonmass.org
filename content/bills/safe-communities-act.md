@@ -4,9 +4,9 @@ title: Safe Communities Act
 full_title: An Act to Protect the Civil Rights and Safety of all MA Residents
 twitter_bill_name: Safe Communities Act
 article: the
-house_no: HD1165
+house_no: H.2418
 house_link: https://malegislature.gov/Bills/192/HD1165
-senate_no: SD532
+senate_no: S.1579
 senate_link: https://malegislature.gov/Bills/192/SD532
 committee: joint-public-safety-and-homeland-security
 issue: immigration
