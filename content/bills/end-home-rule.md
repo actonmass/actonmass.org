@@ -3,7 +3,7 @@ aom_id: end-home-rule
 title: Lift the Ban on Local Tenant Protections
 full_title: An Act enabling local options for tenant protections
 twitter_bill_name: End Home Rule
-house_no: HD3676
+house_no: H.1378
 house_link: https://malegislature.gov/Bills/192/HD3676
 senate_no: null
 senate_link: null
