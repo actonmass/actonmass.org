@@ -2,9 +2,10 @@
 aom_id: medicare-for-all
 title: Medicare for All
 full_title: An Act Establishing Medicare for all in Massachusetts
-house_no: HD2656
+twitter_bill_name: Medicare for All
+house_no: H.1267
 house_link: https://malegislature.gov/Bills/192/HD2656
-senate_no: SD546
+senate_no: S.766
 senate_link: https://malegislature.gov/Bills/192/SD546
 committee: joint-health-care-financing
 issue: healthcare
@@ -17,6 +18,11 @@ summary:
   - Bans private insurance coverage for services already covered by the
     single-payer system
 orgs: []
+house_lead_sponsors:
+  - denise-garlick
+  - lindsay-sabadosa
+senate_lead_sponsors:
+  - james-eldridge
 co_sponsors:
   - denise-garlick
   - lindsay-sabadosa
@@ -126,10 +132,4 @@ timeline:
     date: 2020-04-29
   - date: 2020-06-22
     description: Reporting date extended to 12/31/2020
-twitter_bill_name: Medicare for All
-house_lead_sponsors:
-  - denise-garlick
-  - lindsay-sabadosa
-senate_lead_sponsors:
-  - james-eldridge
 ---
