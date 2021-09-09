@@ -2,9 +2,10 @@
 aom_id: healthy-youth-act
 title: Healthy Youth Act
 full_title: An Act relative to healthy youth
-house_no: HD3454
+twitter_bill_name: Healthy Youth Act
+house_no: H.673
 house_link: https://malegislature.gov/Bills/192/HD3454
-senate_no: SD2178
+senate_no: S.318
 senate_link: https://malegislature.gov/Bills/192/SD2178
 committee: joint-health-care-financing
 issue: lgbtq-rights
@@ -17,6 +18,11 @@ summary:
 orgs:
   - RAINN
   - Planned Parenthood Advocacy Fund of Massachusetts
+house_lead_sponsors:
+  - james-oday
+  - vanna-howard
+senate_lead_sponsors:
+  - sal-didomenico
 co_sponsors:
   - james-oday
   - vanna-howard
@@ -163,10 +169,4 @@ timeline:
       Care Financing
   - description: Reporting date extended to 12/31/2020
     date: 2020-06-22
-twitter_bill_name: Healthy Youth Act
-house_lead_sponsors:
-  - james-oday
-  - vanna-howard
-senate_lead_sponsors:
-  - sal-didomenico
 ---
