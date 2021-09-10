@@ -2,7 +2,8 @@
 aom_id: the-right-to-strike
 title: Right to Strike
 full_title: An Act protecting the right to strike
-house_no: HD488
+twitter_bill_name: Right to Strike
+house_no: H.1946
 house_link: https://malegislature.gov/Bills/192/HD488
 senate_no: null
 senate_link: null
@@ -16,6 +17,7 @@ orgs:
 house_lead_sponsors:
   - mike-connolly
   - erika-uyterhoeven
+senate_lead_sponsors: []
 co_sponsors:
   - mike-connolly
   - erika-uyterhoeven
@@ -35,6 +37,4 @@ timeline:
     description: Hearing
   - description: Sent to study
     date: 2020-02-12
-twitter_bill_name: Right to Strike
-senate_lead_sponsors: []
 ---
