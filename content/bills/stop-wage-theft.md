@@ -1,12 +1,12 @@
 ---
 aom_id: stop-wage-theft
 title: Stop Wage Theft
-full_title:
-  An Act to prevent wage theft, promote employer accountability, and enhance
-  public enforcement
-house_no: HD967
+full_title: An Act to prevent wage theft, promote employer accountability, and
+  enhance public enforcement
+twitter_bill_name: Stop Wage Theft
+house_no: H.1959
 house_link: https://malegislature.gov/Bills/192/HD967
-senate_no: SD774
+senate_no: S.1179
 senate_link: https://malegislature.gov/Bills/192/SD774
 committee: joint-labor-and-workforce-development
 issue: labor
@@ -22,6 +22,10 @@ summary:
     enforce wage theft laws
 orgs:
   - AFL-CIO
+house_lead_sponsors:
+  - daniel-donahue
+senate_lead_sponsors:
+  - sal-didomenico
 co_sponsors:
   - daniel-donahue
   - mathew-muratore
@@ -190,8 +194,7 @@ history:
   - date: 2017-01-23
     description: H.1033 (previous version) sent to Labor committee
   - date: 2018-03-09
-    description:
-      Favorably reported by Labor committee, sent to Senate Ways & Means
+    description: Favorably reported by Labor committee, sent to Senate Ways & Means
   - date: 2018-06-07
     description: "Favorable Report by Senate Ways & Means "
   - date: 2018-06-21
@@ -204,8 +207,7 @@ history:
   - date: 2015-09-22
     description: Hearing in Labor committee
   - date: 2016-04-07
-    description:
-      Favorable report by Labor committee, sent to Senate Ways & Means
+    description: Favorable report by Labor committee, sent to Senate Ways & Means
   - date: 2016-07-08
     description: Favorable report by Senate Ways & Means
   - date: 2016-07-13
@@ -222,9 +224,4 @@ timeline:
     description: Reporting date extended to 6/5/2020
   - description: Reporting date extended to 10/27/2020
     date: 2020-06-02
-twitter_bill_name: Stop Wage Theft
-house_lead_sponsors:
-  - daniel-donahue
-senate_lead_sponsors:
-  - sal-didomenico
 ---
