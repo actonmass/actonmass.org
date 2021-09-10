@@ -3,8 +3,11 @@ aom_id: stop-corporate-offshoring
 title: Stop Corporate Offshoring
 full_title: "Close Corporate Loopholes and Create Progressive Revenue Act:
   Tackling the Corporate Tax Evasion Crisis"
-house_no: HD452
+twitter_bill_name: Stop Corporate Offshoring
+house_no: H.2826
 house_link: https://malegislature.gov/Bills/192/HD452
+senate_no: S.1851
+senate_link: https://malegislature.gov/Bills/192/SD173
 committee: joint-revenue
 issue: revenue
 img: /img/offshore.jpg
@@ -17,6 +20,8 @@ summary:
     that profits are earned in offshore tax shelters
 house_lead_sponsors:
   - christine-barber
+senate_lead_sponsors:
+  - sonia-chang-diaz
 co_sponsors:
   - christine-barber
   - jack-lewis
@@ -104,9 +109,4 @@ history:
     date: 2020-07-02
   - date: 2020-07-09
     description: Referred to the Joint Committee on Revenue
-twitter_bill_name: Stop Corporate Offshoring
-senate_no: SD173
-senate_link: https://malegislature.gov/Bills/192/SD173
-senate_lead_sponsors:
-  - sonia-chang-diaz
 ---
