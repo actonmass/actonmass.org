@@ -25,6 +25,7 @@ bills_to_support_title: Criminal Justice Reform
 highlighted_bills:
   - life-without-parole
   - age-of-criminal-majority-to-21
+  - "Exemple: prison-moratorium"
 failures_block_title: Despite recent victories, our criminal justice system
   still has a long way to go....
 failures:
