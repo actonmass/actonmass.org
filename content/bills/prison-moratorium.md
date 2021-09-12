@@ -9,6 +9,7 @@ senate_no: S.2030
 senate_link: https://malegislature.gov/Bills/192/S2030
 committee: joint-state-administration-and-regulatory-oversight
 issue: criminal-justice-reform
+img: /img/pexels-rodnae-productions-6064890.jpg
 hidden: false
 summary:
   - Establishes a moratorium on building new prisons or jails for five years
