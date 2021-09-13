@@ -11,4 +11,5 @@ supports_the_campaign: true
 supports_the_campaign_public_bills: true
 supports_the_campaign_term_limits: false
 supports_the_campaign_committee_votes: true
+square_picture: /img/legislators/square-pictures/adam-scanlon.jpeg
 ---

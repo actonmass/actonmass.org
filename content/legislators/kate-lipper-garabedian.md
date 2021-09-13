@@ -8,4 +8,5 @@ district: house-32nd-middlesex
 end_date: ""
 start_date: 2020-03-16
 malegislature_url: https://malegislature.gov/Legislators/Profile/KLG1
+square_picture: /img/legislators/square-pictures/kate-lipper-garabedian.jpeg
 ---
