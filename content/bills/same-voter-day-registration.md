@@ -1,7 +1,7 @@
 ---
 aom_id: same-voter-day-registration
 title: Same Voter Day Registration
-full_title: An Act Relative to Election Day Registration
+full_title: An Act fostering voting opportunities, trust, equity, and security
 twitter_bill_name: Same Voter Day Registration
 house_no: H.805
 house_link: https://malegislature.gov/Bills/192/HD1536
@@ -143,6 +143,8 @@ co_sponsors:
   - adam-gomez
   - susan-moran
   - joan-lovely
+  - diana-dizoglio
+  - natalie-blais
 history: []
 timeline:
   - description: Sent to the Election Laws Committee
