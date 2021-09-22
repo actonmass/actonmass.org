@@ -7,7 +7,7 @@ logo: temperature-high
 img: /img/issue-climate.jpg
 page_img: /img/screen-shot-2020-09-11-at-6.20.30-pm.png
 catchphrase: "The science is clear: we are running out of time to address climate change"
-text: This is text that can be added to an issue page.
+text: ""
 highlighted_bills:
   - 100-renewable-energy-by-2045
   - environmental-justice
