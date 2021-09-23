@@ -33,6 +33,7 @@ co_sponsors:
   - rebecca-rausch
   - tram-nguyen
   - edward-coppinger
+  - mike-connolly
 history: []
 timeline:
   - description: Sent to the Committee on Election Laws
