@@ -168,6 +168,11 @@ history:
     description: reporting deadline extended until 12/31/2020, almost ensuring the
       bill will die again
     type: death
+  - description: Bill filed again, as H.673
+    date: 2021-01-15
+    type: null
+  - date: 2021-09-23
+    description: Passes in the Senate as S.2495, referred to House Ways & Means
 timeline:
   - date: 2019-01-22
     description: Referred to the Education Committee
