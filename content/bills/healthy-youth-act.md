@@ -5,8 +5,8 @@ full_title: An Act relative to healthy youth
 twitter_bill_name: Healthy Youth Act
 house_no: H.673
 house_link: https://malegislature.gov/Bills/192/HD3454
-senate_no: S.318
-senate_link: https://malegislature.gov/Bills/192/SD2178
+senate_no: S.2495
+senate_link: https://malegislature.gov/Bills/192/S2495
 committee: joint-health-care-financing
 issue: lgbtq-rights
 img: /img/download-3-.jpeg
@@ -125,6 +125,13 @@ co_sponsors:
   - patricia-jehlen
   - mike-connolly
   - adam-gomez
+  - sonia-chang-diaz
+  - mathew-muratore
+  - edward-kennedy
+  - brandy-fluker-oakley
+  - marcos-devers
+  - michael-kushmerek
+  - diana-dizoglio
 history:
   - date: 2011-01-05
     description: Bill filed as H.1063
