@@ -1,34 +1,33 @@
-tweet_request: .@{leg.twitter} please support the transparency campaign
-tweet_thanks:
-  .@{leg.twitter} thank you for supporting the @Act_On_Mass transparency campaign. I hope more of your colleagues will
-  join you! www.ActOnMass.org/the-campaign
-call_request: >-
-  Hi! My name is \_\_\_\_\_ and I'm a constituent of Rep./Sen. \_\_\_\_\_. I'm calling to ask that they sign the Act on
-  Mass transparency campaing...
-call_thanks:
-  Hi! My name is \_\_\_\_\_ and I'm a constituent of Rep./Sen. \_\_\_\_\_. I'm just calling to thank them for supporting
-  the Act on Mass transparency campaign. I'm so glad to have a representative who is standing up for greater
-  transparency.
-tweet_after_request_call:
-  I just called @{leg.twitter} to ask they support the @Act_On_Mass transparency campaiogn. Transparency is power
-  www.ActOnMass.org/the-campaign
-tweet_after_thanks_call:
-  I just called @{leg.twitter} to thank them for supporting the @Act_On_Mass transparency campaign. Transparency is
-  power www.ActOnMass.org/the-campaign
+tweet_request: .@{leg.twitter} please support The People's House campaign
+  www.ActOnMass.org/the-campaign @Act_On_Mass
+tweet_thanks: .@{leg.twitter} thank you for supporting The People's House
+  campaign. I hope more of your colleagues will join you!
+  www.ActOnMass.org/the-campaign @Act_On_Mass
+call_request: Hi! My name is \_\_\_\_\_ and I'm a constituent of Rep./Sen.
+  \_\_\_\_\_. I'm calling to ask that they sign on in support of The People's
+  House campaign because...
+call_thanks: Hi! My name is \_\_\_\_\_ and I'm a constituent of Rep./Sen.
+  \_\_\_\_\_. I'm just calling to thank them for supporting The People's House
+  campaign. I'm so glad to have a representative who is standing up for greater
+  transparency and good governance.
+tweet_after_request_call: I just called @{leg.twitter} to ask them to support
+  The People's House campaign www.ActOnMass.org/the-campaign @Act_On_Mass
+tweet_after_thanks_call: I just called @{leg.twitter} to thank them for
+  supporting The People's House campaign www.ActOnMass.org/the-campaign
+  @Act_On_Mass
 email_request:
-  subject: Please sign the Voter Deserve to Know Pledge!
-  body: >-
-    Hi! My name is \_\_\_\_\_ and I'm a constituent of Rep./Sen. \_\_\_\_\_. I'm calling to ask that they support the
-    Act on Mass transparency campaign...
+  subject: Please support The People's House campaign!
+  body: Hi! My name is \_\_\_\_\_ and I'm a constituent of Rep./Sen. \_\_\_\_\_.
+    I'm calling to ask that they sign on in support of The People's House
+    campaign because...
 email_thanks:
-  subject: Thank you for supporting the Transparency campaign!
-  body:
-    Hi! My name is \_\_\_\_\_ and I'm a constituent of Rep./Sen. \_\_\_\_\_. I'm just emailing to thank them for
-    supporting the Act on Mass transparency campaign. I'm so glad to have a representative who is standing up for
-    greater transparency
-tweet_after_request_email:
-  I just emailed @{leg.twitter} to ask them to support the @Act_On_Mass transparency campaign. Transparency is power
-  www.ActOnMass.org/the-campaign
-tweet_after_thanks_email:
-  I just emailed @{leg.twitter} to thank them for supporting the @Act_On_Mass transparency campaign. Transparency is
-  power www.ActOnMass.org/the-campaign
+  subject: Thank you for supporting the The People's House campaign!
+  body: Hi! My name is \_\_\_\_\_ and I'm a constituent of Rep./Sen. \_\_\_\_\_.
+    I'm just emailing to thank them for supporting The People's House campaign.
+    I'm so glad to have a representative who is standing up for greater
+    transparency and good governance.
+tweet_after_request_email: I just emailed @{leg.twitter} to ask them to support
+  The People's House campaign www.ActOnMass.org/the-campaign @Act_On_Mass
+tweet_after_thanks_email: I just emailed @{leg.twitter} to thank them for
+  supporting The People's House campaign www.ActOnMass.org/the-campaign
+  @Act_On_Mass
