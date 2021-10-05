@@ -17,4 +17,7 @@ failures:
       [shown](http://gonetowar.com/wp-content/uploads/2020/07/Mascot-Effects.pdf)
       to have negative psychological impacts on Native students, including
       lowered self-esteem and lowered ambition.
+learn_more:
+  - title: http://maindigenousagenda.org/
+references: []
 ---
