@@ -18,6 +18,7 @@ failures:
       to have negative psychological impacts on Native students, including
       lowered self-esteem and lowered ambition.
 learn_more:
-  - title: http://maindigenousagenda.org/
+  - title: MA Indigenous Legislative Agenda
+    link: http://maindigenousagenda.org/
 references: []
 ---
