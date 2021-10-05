@@ -15,6 +15,7 @@ import {
   faGraduationCap,
   faVoteYea,
   faUsers,
+  faGlobeAmericas,
 } from "@fortawesome/free-solid-svg-icons";
 
 // TODO: This should be generated dynamically from the issues, but that would require some gatsby-node magic
@@ -30,6 +31,7 @@ library.add(
   faEquals,
   faDollarSign,
   faCheckSquare,
+  faGlobeAmericas,
 
   // For about us page
   faGraduationCap,
