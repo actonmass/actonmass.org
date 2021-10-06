@@ -6,8 +6,8 @@ subtitle: Equity and justice for all Native Peoples
 logo: globe-americas
 img: /img/pexels-nicole-seidl-9745198.jpg
 page_img: /img/5c48256e-ee3b-45ed-904d-23faafa28fa7.jpg
-catchphrase: There are over 50,000 Native Americans in Massachusetts. Every
-  session, the State House fails to stand by them.
+catchphrase: There are over 50,000 Native Americans in Massachusetts. It's time
+  the State House stood by them.
 highlighted_bills:
   - indigenous-peoples-day
 failures:
