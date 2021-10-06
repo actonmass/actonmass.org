@@ -30,5 +30,8 @@ failures:
 learn_more:
   - title: MA Indigenous Legislative Agenda
     link: http://maindigenousagenda.org/
-references: []
+references:
+  - key: "1"
+    title: New England Board of Higher Education
+    link: https://nebhe.org/journal/native-tribal-scholars-building-an-academic-community-for-massachusetts/
 ---
