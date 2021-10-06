@@ -21,9 +21,9 @@ failures:
       to have negative psychological impacts on Native students, including
       lowered self-esteem and lowered ambition.
   - title: Close the Opportunity Gap
-    text: Over half of Native high students enrolled in the Boston Public School
-      system do not graduate with their class, and 27% end up dropping out. This
-      is much higher than the rates for BPS students generally, which are 41%
+    text: Over 50% of Native high school students enrolled in the Boston Public
+      School system do not graduate with their class, and 27% ultimately drop
+      out. This is much higher than the rates for BPS students generally - 41%
       and 20%, respectively. Massachusetts schools are already woefully
       underfunded, and Native students face numerous additional barriers to
       academic success and opportunities that are not being addressed through
