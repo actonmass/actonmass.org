@@ -11,6 +11,7 @@ catchphrase: The 50,000 Native Americans in Massachusetts deserve opportunity,
 highlighted_bills:
   - indigenous-peoples-day
   - mascots
+  - support-native-students
 failures:
   - title: Racist Mascots
     text: There are 25 - 30 schools in Massachusetts that currently use Native
