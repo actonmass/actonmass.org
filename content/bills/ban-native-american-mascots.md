@@ -10,7 +10,7 @@ senate_no: S.294
 senate_link: https://malegislature.gov/Bills/192/SD417
 committee: joint-education
 issue: indigenous-peoples-rights
-img: ""
+img: /img/pexels-tom-fisk-3448246.jpg
 hidden: false
 summary:
   - Prohibits the use of Native American mascots in public schools
