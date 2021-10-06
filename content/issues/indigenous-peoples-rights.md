@@ -7,7 +7,7 @@ logo: globe-americas
 img: /img/pexels-nicole-seidl-9745198.jpg
 page_img: /img/5c48256e-ee3b-45ed-904d-23faafa28fa7.jpg
 catchphrase: The 50,000 Native Americans in Massachusetts deserve opportunity,
-  civil rights, and recognition.
+  civil rights, and self-determination.
 highlighted_bills:
   - indigenous-peoples-day
   - mascots
