@@ -151,7 +151,19 @@ co_sponsors:
   - joan-lovely
   - diana-dizoglio
   - natalie-blais
-history: []
+history:
+  - date: 2021-01-15
+    description: Bill filed as H.805 and S.459
+  - date: 2021-05-19
+    description: Joint Committee Hearing
+  - date: 2021-07-21
+    description: Reported favorably from Committee on Election Laws, referred to
+      Ways & Means
+  - date: 2021-09-30
+    description: Reported favorably out of Senate Ways & Means as a new draft,
+      assigned new number S.2545
+  - date: 2021-10-06
+    description: Senate passes S.2545 with amendments
 timeline:
   - description: Sent to the Election Laws Committee
     date: 2019-01-22
