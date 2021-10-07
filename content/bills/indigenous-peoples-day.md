@@ -8,6 +8,7 @@ house_link: https://malegislature.gov/Bills/192/HD2422
 senate_no: S.2027
 senate_link: https://malegislature.gov/Bills/192/SD664
 committee: joint-state-administration-and-regulatory-oversight
+issue: indigenous-peoples-rights
 img: /img/indigenousdaypc08.webp
 hidden: false
 summary:
