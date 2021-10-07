@@ -1,8 +1,8 @@
 ---
 aom_id: same-day-voter-registration
-title: Same Day Voter Registration
+title: VOTES Act
 full_title: An Act fostering voting opportunities, trust, equity, and security
-twitter_bill_name: Same Day Voter Registration
+twitter_bill_name: VOTES Act
 house_no: H.805
 house_link: https://malegislature.gov/Bills/192/HD1536
 senate_no: S.459
@@ -13,6 +13,12 @@ summary:
   - Ensures that all Massachusetts residents that are eligible to vote are able
     to register to vote or change the address at which they are registered on
     Election Day
+  - Requires that vote-by-mail and in-person early voting be available to all
+    Massachusetts voters
+  - Includes jail-based voting reforms to ensure that eligible incarcerated
+    voters are given everything they need to cast their ballots
+  - Implements risk limiting audits which would improve the state's election
+    auditing process by reducing cost while improving trust in our elections
 orgs: []
 house_lead_sponsors:
   - john-lawn
