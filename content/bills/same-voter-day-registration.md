@@ -9,6 +9,7 @@ senate_no: S.459
 senate_link: https://malegislature.gov/Bills/192/SD1002
 committee: joint-election-laws
 issue: voting-rights
+img: /img/pexels-edmond-dantès-7103122.jpg
 summary:
   - Ensures that all Massachusetts residents that are eligible to vote are able
     to register to vote or change the address at which they are registered on
