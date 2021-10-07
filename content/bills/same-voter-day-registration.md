@@ -1,8 +1,8 @@
 ---
-aom_id: same-voter-day-registration
-title: Same Voter Day Registration
+aom_id: same-day-voter-registration
+title: Same Day Voter Registration
 full_title: An Act fostering voting opportunities, trust, equity, and security
-twitter_bill_name: Same Voter Day Registration
+twitter_bill_name: Same Day Voter Registration
 house_no: H.805
 house_link: https://malegislature.gov/Bills/192/HD1536
 senate_no: S.459
