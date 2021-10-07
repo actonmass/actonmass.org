@@ -13,10 +13,7 @@ type QueryProps = {
   page: { title: string };
 };
 
-export default function BillsPage({
-  data,
-  pageContext,
-}: PageProps<QueryProps, { title?: string }>) {
+export default function BillsPage({ data }: PageProps<QueryProps, { title?: string }>) {
   const issues = data.allIssue.nodes;
   return (
     <BaseLayout title={data.page.title}>
