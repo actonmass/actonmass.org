@@ -5,14 +5,14 @@ title: Voting Rights
 subtitle: Easy and accessible voting for all MA residents
 logo: check-square
 img: /img/issue-vote.jpg
+page_img: /img/voting-booth.jpg
 catchphrase: "Crucial voting reforms that have succeeded elsewhere in making the
   political process more open and democratic, such as ranked choice voting and
   same-day voter registration, have been held up by the Legislature for years.
   Here's where we're at now:"
-page_img: /img/voting-booth.jpg
 highlighted_bills:
   - ranked-choice-voting
-  - same-voter-day-registration
+  - same-day-voter-registration
 failures_block_title: Massachusetts refuses to pass commonsense voter reforms
   that would make the right to vote accessible for every eligible voter in the
   state.
