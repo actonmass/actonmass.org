@@ -88,6 +88,30 @@ co_sponsors:
   - patrick-kearney
   - maria-robinson
   - sal-didomenico
+  - rebecca-rausch
+  - julian-cyr
+  - anne-gobi
+  - marcos-devers
+  - john-keenan
+  - diana-dizoglio
+  - natalie-higgins
+  - daniel-donahue
+  - thomas-stanley
+  - david-linsky
+  - james-oday
+  - jon-santiago
+  - bud-williams
+  - daniel-ryan
+  - chynah-tyler
+  - kevin-honan
+  - david-rogers
+  - carol-doherty
+  - andres-vargas
+  - nika-elugardo
+  - michael-kushmerek
+  - brian-murray
+  - michelle-dubois
+  - kip-diggs
 history:
   - date: 2011-01-24
     description: Bill filed (as H338)
