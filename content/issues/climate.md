@@ -31,7 +31,7 @@ questions:
       Our  [latest clean energy bill](https://malegislature.gov/Bills/190/H4857)  has been widely criticized by climate advocates including the Sierra Club. The State Senate passed a strong bill, but the final legislation was [watered down significantly](https://pv-magazine-usa.com/2018/07/31/massachusetts-committee-produces-weaker-energy-bill/), mostly to match the weaker bills from the House of Representatives.
 
 
-      Funding for the Massachusetts Department of Environmental Protection (MassDEP) has declined by over 30% since 2001;
+      Funding for the Massachusetts Department of Environmental Protection (MassDEP) has declined by over 30% since 2001.
   - title: Isn’t climate a federal issue? What can state reps actually do about it?
     text: States play a major role in environmental protection, and their role is
       even more important when we cannot depend on our federal government to
@@ -63,8 +63,8 @@ references:
       Commonwealth of Massachusetts.usetts with 100 percent renewable energy
     link: https://malegislature.gov/Bills/191/HD3092
   - key: "7"
-    title: Order H.4651 “House Matters Before the )”, Joint Committee on
-      Telecommunications, Utilities and Energy, January 1, 2019.Committee
+    title: Order H.4651 “House Matters Before the Committee," Joint Committee on
+      Telecommunications, Utilities and Energy, January 1, 2019.
     link: https://malegislature.gov/Bills/190/H4651
 permalink: /issues/climate/
 learn_more:
