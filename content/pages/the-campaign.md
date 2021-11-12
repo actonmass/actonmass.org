@@ -57,10 +57,10 @@ the People’s House. Will you join us?
 
 Sign up here to join your District Team and get plugged into the organizing happening in your area.
 
-<TwoSidedBlock>
-  <NGPVanForm formId="https://secure.everyaction.com/v1/Forms/wijiUWYM2E-yHmua-U_gnQ2" />
+<CenteredBlock>
   <CenteredImage img="/img/newcampaign2.png" alt="Protesters" width="500"/>
-</TwoSidedBlock>
+  <ModalForm title="Join the Campaign" formId="https://secure.everyaction.com/v1/Forms/wijiUWYM2E-yHmua-U_gnQ2" />
+</CenteredBlock>
 
 </Section>
 
