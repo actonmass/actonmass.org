@@ -6,6 +6,7 @@ import { MDXProvider } from "@mdx-js/react";
 
 import NGPVanForm from "../components/NGPVanForm";
 import YoutubeVideo from "../components/YoutubeVideo";
+import ModalForm from "../components/ModalForm";
 
 const CenteredBlock = ({ children }) => (
   <div className="centered">
@@ -77,6 +78,7 @@ const components = {
   CenteredBlock,
   CenteredImage,
   HubspotForm,
+  ModalForm,
   LeftBlock,
   NGPVanForm,
   RightBlock,
