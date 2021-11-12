@@ -5,12 +5,13 @@ description: Act on Mass is a non-profit organization that tracks what happens
 menu:
   - href: /about-us
     title: About Us
+initiatives_menu:
   - href: /the-campaign
-    title: The Campaign
+    title: The People's House Campaign
   - href: /right2strike
     title: Right to Strike
   - href: /pledge
-    title: The Pledge
+    title: Voters Deserve To Know Pledge
 learn_more_menu:
   - href: /bills
     title: Bills

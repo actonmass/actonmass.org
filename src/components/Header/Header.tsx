@@ -25,21 +25,10 @@ export default function Header() {
               </li>
             ))}
             <li>
-              <div className="dropdown">
-                <a className="dropbtn fRoboto fLight fDark fUppercase">Learn More</a>
-                <FontAwesomeIcon icon={faAngleDown} size="lg" className="fDark" />
-                <div className="dropdown-content">
-                  {generalSettings.learn_more_menu.map((item) => (
-                    <Link
-                      key={item.href}
-                      className="fRoboto fLight fDark fUppercase"
-                      to={item.href}
-                    >
-                      {item.title}
-                    </Link>
-                  ))}
-                </div>
-              </div>
+              <DropdownMenu title="Initiatives" items={generalSettings.initiatives_menu} />
+            </li>
+            <li>
+              <DropdownMenu title="Learn More" items={generalSettings.learn_more_menu} />
             </li>
             <li>
               <a
@@ -74,5 +63,27 @@ export default function Header() {
         </div>
       </header>
     </>
+  );
+}
+
+function DropdownMenu({
+  title,
+  items,
+}: {
+  title: string;
+  items: { href: string; title: string }[];
+}) {
+  return (
+    <div className="dropdown">
+      <a className="dropbtn fRoboto fLight fDark fUppercase">{title}</a>
+      <FontAwesomeIcon icon={faAngleDown} size="lg" className="fDark" />
+      <div className="dropdown-content">
+        {items.map((item) => (
+          <Link key={item.href} className="fRoboto fLight fDark fUppercase" to={item.href}>
+            {item.title}
+          </Link>
+        ))}
+      </div>
+    </div>
   );
 }

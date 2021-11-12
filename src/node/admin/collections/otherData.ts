@@ -30,6 +30,12 @@ export default {
           ...menu,
         },
         {
+          label: "Initiatives Menu",
+          name: "initiatives_menu",
+          widget: "list",
+          ...menu,
+        },
+        {
           label: "Learn More Menu",
           name: "learn_more_menu",
           widget: "list",
