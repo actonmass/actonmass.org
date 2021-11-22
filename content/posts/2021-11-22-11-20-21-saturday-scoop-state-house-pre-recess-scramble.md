@@ -2,6 +2,7 @@
 layout: post
 title: "11/20/21 Saturday Scoop: State House pre-recess scramble"
 date: 2021-11-20T20:21:38.846Z
+image: /img/the.png
 ---
 
 
