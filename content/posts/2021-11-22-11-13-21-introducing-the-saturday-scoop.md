@@ -2,6 +2,7 @@
 layout: post
 title: "11/13/21: Introducing the Saturday Scoop!"
 date: 2021-11-13T20:06:45.851Z
+image: /img/saturday-scoop-logo.png
 ---
 Back by popular demand, welcome to our second weekly Saturday morning digest. With these new weekly emails, we hope to 1) send you fewer emails overall, while 2) providing more information and State House updates, and 3) keeping you in the loop about volunteer opportunities and events on the horizon. Let’s get into it, shall we?
 
