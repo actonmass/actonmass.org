@@ -16,3 +16,6 @@ It worked. After only 3 months of concerted organizing, we earned a major conces
 ### Why a Toolkit?
 
 We decided to take this strategy, as well as our learnings, our resources, templates, trainings, and all other internal documents that we generated over the course of the campaign, and make them available to the public. Whether you're an individual hoping to organize in your community or an established advocacy group trying to pass a major bill through the legislature, we hope this toolkit and campaign strategy can help you build the power you need to achieve your goals, as it's helped us achieve ours.
+
+* #### [LTE/Op-Ed Writing Guide](https://docs.google.com/document/d/1Zugwp8YVzqw0rLIwUJFbmhc-nUsHJ4-U2YZacqBmqNo/edit?usp=sharing)
+* #### [Lobby Meeting Training](https://docs.google.com/presentation/d/1mUF1aiddnaobRIMCrLY-UbtVPDwJTaJk/edit?usp=sharing&ouid=113371579987126328185&rtpof=true&sd=true)
