@@ -1,5 +1,6 @@
 ---
-layout: bills
 permalink: /bills/
 title: Bills
+layout: bills
 ---
+test
