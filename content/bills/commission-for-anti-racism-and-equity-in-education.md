@@ -49,6 +49,12 @@ co_sponsors:
   - carmine-gentile
   - vanna-howard
   - kenneth-gordon
+  - smitty-pignatelli
+  - james-arciero
+  - mike-connolly
+  - thomas-stanley
+  - mindy-domb
+  - brendan-crighton
 history:
   - description: Bill filed
     date: 2021-03-29
