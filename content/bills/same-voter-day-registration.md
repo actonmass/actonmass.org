@@ -152,6 +152,8 @@ co_sponsors:
   - joan-lovely
   - diana-dizoglio
   - natalie-blais
+  - michelle-dubois
+  - marcos-devers
 history:
   - date: 2021-01-15
     description: Bill filed as H.805 and S.459
