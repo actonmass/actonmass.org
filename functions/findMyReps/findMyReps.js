@@ -29,7 +29,7 @@ async function geolocate(address) {
   return await axios
     .get("https://maps.googleapis.com/maps/api/geocode/json", {
       params: {
-        address: `${address.streetAddress}, ${address.city}`,
+        address: `${address.streetAddress}, ${address.city}, MA`,
         components: `country:US|administrative_area:MA`,
         key: GOOGLE_API_KEY,
       },
@@ -39,8 +39,13 @@ async function geolocate(address) {
         return response.data.results[0].geometry.location;
       } else {
         // couldn't geolocate the address
+        console.error(response.data);
         return null;
       }
+    })
+    .catch((err) => {
+      console.error("Error sending request to Google API:");
+      console.error(err);
     });
 }
 
