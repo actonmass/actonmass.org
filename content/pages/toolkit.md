@@ -1,5 +1,5 @@
 ---
-permalink: /Toolkit/
+permalink: /Toolkit
 title: The Action Toolkit
 layout: default
 ---
