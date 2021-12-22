@@ -235,7 +235,7 @@ export default function BillPage({ bill }: Props) {
             </div>
           </section>
         )}
-        {bill.orgs.toString() != (null || "") && (
+        {bill.orgs != null && (
           <section className="map cbox">
             <div className="w1400">
               <h3 className="fUppercase fExbold">Advocacy Organizations:</h3>
