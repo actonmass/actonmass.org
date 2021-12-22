@@ -17,6 +17,7 @@ export default function BillPage({ bill }: Props) {
   const shouldShowSponsors = !bill.no_sponsorship_data;
   const co_sponsors = new Set((bill.co_sponsors ?? []).map((leg) => leg.id));
   const committee = bill.committee;
+
   return (
     <BaseLayout title={bill.title}>
       <main className="bill-page">
@@ -231,6 +232,24 @@ export default function BillPage({ bill }: Props) {
             <div className="w1400">
               <h2 className="fUppercase fExbold">History of the bill</h2>
               <BillHistory bill={bill} />
+            </div>
+          </section>
+        )}
+        {bill.orgs.toString() != (null || "") && (
+          <section className="map cbox">
+            <div className="w1400">
+              <h3 className="fUppercase fExbold">Advocacy Organizations:</h3>
+              <div className="cbox">
+                <ul>
+                  {
+                  bill.orgs.map((org) => (
+                    <li key={org}>
+                      <h4>{org}</h4>
+                    </li>
+                  ))
+                }
+                </ul>
+              </div>
             </div>
           </section>
         )}
