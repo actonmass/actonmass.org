@@ -16,7 +16,7 @@ export default function onCreateNode({ node, createContentDigest, getNode, actio
     const baseName = fileName.replace(/\.md$/, "");
     const rawItem = {
       ...fields,
-      id: fields.aom_id,
+      id: fields.aom_id ?? baseName,
       fileName: baseName,
       href: `/${collectionPath}/${baseName}/`,
       parent: node.id,

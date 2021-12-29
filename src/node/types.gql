@@ -228,3 +228,16 @@ type TeamMember implements Node @dontInfer {
   fileName: String!
   href: String!
 }
+
+type News implements Node @dontInfer {
+  title: String!
+  author: String!
+  date: String!
+  href: String!
+  category: String
+  extract: String
+
+  # Common calculated
+  fileName: String!
+  href: String!
+}
