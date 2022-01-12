@@ -2,8 +2,12 @@ import React from "react";
 import _ from "lodash";
 import { graphql } from "gatsby";
 
+import NewsPageComponent from "../components/NewsPage";
+
+import "./news.scss";
+
 export default function IssuePage({ data }) {
-  return <pre style={{ whiteSpace: "pre-wrap" }}>{JSON.stringify(data.allNews.nodes)}</pre>;
+  return <NewsPageComponent articles={data.allNews.nodes} />;
 }
 
 export const query = graphql`

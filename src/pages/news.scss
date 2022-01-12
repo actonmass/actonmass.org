@@ -1,0 +1,43 @@
+
+
+.news-page {
+  .headline {
+    padding-top: 0;
+    h1 {
+      text-align: center;
+      text-transform: uppercase;
+      padding-top: 2rem;
+      font-size: 1.8rem;
+
+      @media (min-width: 700px) {
+        padding: 0;
+        font-size: 5rem;
+      }
+    }
+  }
+  ul.articles {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    a:last-child li {
+      border: none;
+    }
+    a, a:hover, a:active, a:focus a {
+      text-decoration: none;
+    }
+    a:hover h3 {
+      text-decoration: underline;
+    }
+    li {
+      padding: 30px 0;
+      border-bottom: 1px solid var(--orange);
+      display: block;
+      .category {
+        margin: 10px 0;
+      }
+      .extract {
+        margin-top: 10px;
+      }
+    }
+  }
+}

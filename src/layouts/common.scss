@@ -147,6 +147,10 @@ a:hover {
   text-transform: uppercase;
 }
 
+.fCapitalize {
+  text-transform: capitalize;
+}
+
 .container {
   display: grid;
   grid-template-columns: repeat(12, 1fr);
