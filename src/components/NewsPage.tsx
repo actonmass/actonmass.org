@@ -14,7 +14,17 @@ export default function NewsPage({ articles }: Data) {
         <section className="headline dark cbox">
           <div className="w1400">
             <BreadCrum title="News" />
-            <h1>News</h1>
+            <div className="centered">
+              <div className="w1000">
+                <h1>
+                  NEWS &amp; MEDIA
+                  <span className="subheading">
+                    Latest updates from Act on Mass and the fight for transparency in the State
+                    House
+                  </span>
+                </h1>
+              </div>
+            </div>
           </div>
         </section>
         <section className="news-articles light-blue cbox">

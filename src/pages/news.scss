@@ -3,17 +3,6 @@
 .news-page {
   .headline {
     padding-top: 0;
-    h1 {
-      text-align: center;
-      text-transform: uppercase;
-      padding-top: 2rem;
-      font-size: 1.8rem;
-
-      @media (min-width: 700px) {
-        padding: 0;
-        font-size: 5rem;
-      }
-    }
   }
   ul.articles {
     list-style-type: none;
