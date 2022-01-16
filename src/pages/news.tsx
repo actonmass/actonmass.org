@@ -2,9 +2,7 @@ import React from "react";
 import _ from "lodash";
 import { graphql } from "gatsby";
 
-import NewsPageComponent from "../components/NewsPage";
-
-import "./news.scss";
+import NewsPageComponent from "../layouts/pages/NewsPage";
 
 export default function IssuePage({ data }) {
   return <NewsPageComponent articles={data.allNews.nodes} />;

@@ -1,7 +1,9 @@
 import React from "react";
 
-import BaseLayout from "../layouts/BaseLayout";
-import { BreadCrum } from ".";
+import BaseLayout from "../BaseLayout";
+import { BreadCrum } from "../../components";
+
+import "./news.scss";
 
 type Data = {
   articles: GatsbyTypes.News[];
