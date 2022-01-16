@@ -1,15 +1,27 @@
 import React from "react";
+import { graphql, PageProps, Link } from "gatsby";
 
 import BaseLayout from "../BaseLayout";
 import { BreadCrum } from "../../components";
 
 import "./news.scss";
 
-type Data = {
-  articles: GatsbyTypes.News[];
+type DataProps = {
+  allNews: { nodes: GatsbyTypes.News[] };
 };
 
-export default function NewsPage({ articles }: Data) {
+type PageContext = {
+  humanPageNumber: number;
+  limit: number;
+  nextPagePath: string;
+  numberOfPages: number;
+  pageNumber: number;
+  previousPagePath: string;
+  skip: number;
+};
+
+export default function NewsPage({ data, pageContext }: PageProps<DataProps, PageContext>) {
+  const articles = data.allNews.nodes;
   return (
     <BaseLayout title="News">
       <div className="news-page">
@@ -56,9 +68,39 @@ export default function NewsPage({ articles }: Data) {
                 );
               })}
             </ul>
+
+            {pageContext.numberOfPages > 1 && (
+              <ul className="pager">
+                <li>
+                  {pageContext.previousPagePath && (
+                    <Link to={pageContext.previousPagePath}>&larr; See Newer</Link>
+                  )}
+                </li>
+                <li>
+                  {pageContext.nextPagePath && (
+                    <Link to={pageContext.nextPagePath}>See Older &rarr;</Link>
+                  )}
+                </li>
+              </ul>
+            )}
           </div>
         </section>
       </div>
     </BaseLayout>
   );
 }
+
+export const query = graphql`
+  query($skip: Int!, $limit: Int!) {
+    allNews(sort: { fields: [date], order: DESC }, skip: $skip, limit: $limit) {
+      nodes {
+        title
+        author
+        date
+        href
+        category
+        extract
+      }
+    }
+  }
+`;
