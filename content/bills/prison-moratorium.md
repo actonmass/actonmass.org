@@ -62,4 +62,10 @@ co_sponsors:
   - maria-robinson
   - adam-gomez
   - william-driscoll
+  - diana-dizoglio
+  - rebecca-rausch
+  - james-eldridge
+  - liz-miranda
+  - carmine-gentile
+  - marjorie-decker
 ---
