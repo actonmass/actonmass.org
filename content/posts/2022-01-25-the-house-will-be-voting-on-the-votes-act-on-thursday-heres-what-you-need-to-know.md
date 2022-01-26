@@ -28,8 +28,6 @@ Massachusetts currently has a voter registration deadline 20 days before an elec
 
 **& here’s what you can do:**
 
-**[Tell your rep to support the VOTES Act, including Same-Day Voter Registration:](https://actonmass.org/bills/same-voter-day-registration/#leg-search)**
+**[Tell your rep to support the VOTES Act, and demand that it include Same-Day Voter Registration:](https://actonmass.org/bills/same-voter-day-registration/#leg-search)**
 
 **[CONTACT YOUR REP ABOUT THE VOTES ACT TODAY >>](https://actonmass.org/bills/same-voter-day-registration/#leg-search)**
-
-**Stay tuned for updates as the final text of the bill is released and amendments are filed.** If there is no SDR in the released version of the bill, any State Representative can file an amendment to put that language back in. Once we have an amendment number for it, we can again call on our reps to support that specific amendment.
