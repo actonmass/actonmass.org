@@ -5,7 +5,14 @@ title: The House will be voting on the VOTES Act on Thursday - here's what you
 date: 2022-01-25T19:55:45.828Z
 image: /img/pexels-element-digital-1550339.jpg
 ---
-On Friday night, legislators received an email from the Speaker of the House stating that this coming Thursday they would be voting on a version of the [VOTES Act](https://actonmass.org/bills/same-voter-day-registration/?utm_medium=&emci=c615a540-067e-ec11-94f6-c896650d4442&emdi=ea000000-0000-0000-0000-000000000001&ceid={{ContactsEmailID}}) - the voting reform package passed in the Senate back in October. This is excellent and exciting news, but we’re not in the clear just yet. 
+On Friday night (1/21) legislators received an email from the Speaker of the House stating that on the following Thursday (1/27) the House will be voting on a package of voting reforms. This package would be a version of the [VOTES Act](https://actonmass.org/bills/same-voter-day-registration/?utm_medium=&emci=c615a540-067e-ec11-94f6-c896650d4442&emdi=ea000000-0000-0000-0000-000000000001&ceid={{ContactsEmailID}}) - the voting reform package passed in the Senate back in October. The VOTES Act includes four main voting reforms: 
+
+* Vote-by-mail becomes permanent
+* Early voting becomes permanent
+* Strengthens access for jail-based voting
+* Establishes Same-Day Voter Registration
+
+This is exciting news, but we’re not in the clear just yet. The House released their version of the bill Wednesday morning, and ***it does not include Same-Day Voter Registration.***
 
 **Here’s what you need to know:**
 
