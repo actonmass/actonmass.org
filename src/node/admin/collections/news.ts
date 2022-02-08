@@ -21,7 +21,7 @@ export default {
     },
     {
       label: "Link",
-      name: "href",
+      name: "link",
       widget: "string",
     },
     {

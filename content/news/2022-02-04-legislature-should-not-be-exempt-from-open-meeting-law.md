@@ -1,7 +1,7 @@
 ---
 title: Legislature should not be exempt from Open Meeting Law
 author: Kim Driscoll
-href: https://www.bostonglobe.com/2021/03/29/opinion/legislature-should-not-be-exempt-open-meeting-law/
+link: https://www.bostonglobe.com/2021/03/29/opinion/legislature-should-not-be-exempt-open-meeting-law/
 category: news
 date: 2022-03-29T22:12:00.000Z
 extract: '"If 351 cities and towns can adopt budgets, engage in policy debates,

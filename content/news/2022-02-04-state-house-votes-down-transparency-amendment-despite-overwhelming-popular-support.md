@@ -2,7 +2,7 @@
 title: State House Votes Down Transparency Amendment Despite Overwhelming
   Popular Support
 author: Act on Mass
-href: https://docs.google.com/document/d/148NeNtB5sU9D_ADPc9-ve07DPeIV8xONB0L0CxPdgIc/edit
+link: https://docs.google.com/document/d/148NeNtB5sU9D_ADPc9-ve07DPeIV8xONB0L0CxPdgIc/edit
 category: press_release
 date: 2021-02-24T23:07:00.000Z
 extract: "“It’s shocking that many of the arguments against the amendment blamed

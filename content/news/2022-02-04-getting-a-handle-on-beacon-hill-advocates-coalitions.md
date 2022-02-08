@@ -1,7 +1,7 @@
 ---
 title: Getting a handle on Beacon Hill advocates, coalitions
 author: Shira Schoenberg
-href: https://commonwealthmagazine.org/state-government/getting-a-handle-on-beacon-hill-advocates-coalitions/
+link: https://commonwealthmagazine.org/state-government/getting-a-handle-on-beacon-hill-advocates-coalitions/
 category: news
 date: 2021-02-15T23:00:00.000Z
 extract: '"Matt Miller, co-founder of Act on Mass...called it “shocking” that

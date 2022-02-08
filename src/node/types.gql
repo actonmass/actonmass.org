@@ -233,7 +233,7 @@ type News implements Node @dontInfer {
   title: String!
   author: String!
   date: String!
-  href: String!
+  link: String!
   category: String
   extract: String
 

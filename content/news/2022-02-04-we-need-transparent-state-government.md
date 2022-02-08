@@ -1,7 +1,7 @@
 ---
 title: We need transparent state government
 author: Sara Harari
-href: https://www.wickedlocal.com/story/belmont-citizen-herald/2021/01/14/we-need-transparent-state-government/6626549002/
+link: https://www.wickedlocal.com/story/belmont-citizen-herald/2021/01/14/we-need-transparent-state-government/6626549002/
 category: news
 date: 2021-01-14T22:48:11.049Z
 extract: '"Every session, bills that would improve the life of every

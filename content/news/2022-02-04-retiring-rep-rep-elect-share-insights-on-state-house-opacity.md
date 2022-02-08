@@ -1,7 +1,7 @@
 ---
 title: Retiring rep, rep-elect share insights on State House opacity
 author: Bruce Mohl
-href: https://commonwealthmagazine.org/state-government/retiring-rep-rep-elect-share-insights-on-state-house-opacity/
+link: https://commonwealthmagazine.org/state-government/retiring-rep-rep-elect-share-insights-on-state-house-opacity/
 category: news
 date: 2020-11-23T22:40:38.149Z
 extract: Act on Mass’s initial goals are fairly simple – disclose how lawmakers

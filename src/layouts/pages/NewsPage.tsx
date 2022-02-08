@@ -46,7 +46,7 @@ export default function NewsPage({ data, pageContext }: PageProps<DataProps, Pag
             <ul className="articles">
               {articles.map((article) => {
                 return (
-                  <a href={article.href}>
+                  <a href={article.link}>
                     <li>
                       <div className="category fBold fDark fUppercase">
                         {article.category.replace("_", " ")}
@@ -97,7 +97,7 @@ export const query = graphql`
         title
         author
         date
-        href
+        link
         category
         extract
       }

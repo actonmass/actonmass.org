@@ -1,7 +1,7 @@
 ---
 title: It’s time lawmakers support an ‘open’ House
 author: Globe Editorial Board
-href: https://www.bostonglobe.com/2021/01/19/opinion/its-time-lawmakers-support-an-open-house/
+link: https://www.bostonglobe.com/2021/01/19/opinion/its-time-lawmakers-support-an-open-house/
 category: news
 date: 2021-01-19T22:49:36.290Z
 extract: '"If ever there were a moment for common-sense rules reforms aimed at
