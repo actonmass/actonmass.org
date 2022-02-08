@@ -1,5 +1,5 @@
 ---
-title: MASSACHUSETTS NEEDS CONSISTENT, PROACTIVE PLAN TO FIGHT COVID-19
+title: Massachusetts needs consistent, proactive plan to fight COVID-19
 author: Act On Mass
 href: https://actonmass.org/post/some_article
 category: press_release
