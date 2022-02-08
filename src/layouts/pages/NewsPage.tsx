@@ -46,7 +46,7 @@ export default function NewsPage({ data, pageContext }: PageProps<DataProps, Pag
             <ul className="articles">
               {articles.map((article) => {
                 return (
-                  <a href={article.link}>
+                  <a href={article.link} target="_blank">
                     <li>
                       <div className="category fBold fDark fUppercase">
                         {article.category.replace("_", " ")}
