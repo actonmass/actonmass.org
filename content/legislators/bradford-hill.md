@@ -1,18 +1,23 @@
 ---
 aom_id: bradford-hill
-district: house-4th-essex
-email: Brad.Hill@mahouse.gov
-end_date: ''
-facebook: https://www.facebook.com/repbradhill/
 first_name: Bradford
-hometown: Ipswich
 last_name: Hill
-malegislature_url: https://malegislature.gov/Legislators/Profile/BRH1
+district: house-4th-essex
+supports_the_campaign: false
+supports_the_campaign_public_bills: false
+supports_the_campaign_committee_votes: false
+supports_the_campaign_term_limits: false
+pledge: false
 party: R
 phone: (617) 722-2100
-square_picture: /img/legislators/square-pictures/bradford-hill.jpg
-start_date: ''
-twitter: null
-website: https://www.repbradhill.com/
+facebook: https://www.facebook.com/repbradhill/
 ocd_id: ocd-person/6e64e8db-c1f5-4f72-994b-dbe9cfdab8a5
+email: Brad.Hill@mahouse.gov
+hometown: Ipswich
+square_picture: /img/legislators/square-pictures/bradford-hill.jpg
+end_date: 2022-02-10
+start_date: ""
+malegislature_url: https://malegislature.gov/Legislators/Profile/BRH1
+website: https://www.repbradhill.com/
+twitter: null
 ---
