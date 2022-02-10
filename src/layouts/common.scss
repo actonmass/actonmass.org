@@ -61,6 +61,13 @@ h6 {
   font-size: 1.3rem;
 }
 
+.subheading {
+  margin-top: 0.5em;
+  font-size: 0.7em;
+  line-height: 1.2em;
+  display: block;
+}
+
 a:hover {
   text-decoration: underline;
 }
@@ -145,6 +152,10 @@ a:hover {
 
 .fUppercase {
   text-transform: uppercase;
+}
+
+.fCapitalize {
+  text-transform: capitalize;
 }
 
 .container {

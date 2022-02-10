@@ -21,6 +21,8 @@ learn_more_menu:
     title: Legislator Search
   - href: /blog
     title: Blog
+  - href: /news
+    title: News & Media
 footer:
   - title: FAQs
     href: /faq

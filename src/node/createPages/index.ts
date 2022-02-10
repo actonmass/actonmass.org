@@ -6,6 +6,7 @@ import createLegData from "./createLegData";
 import createPagePages from "./createPagePages";
 import createPostPages from "./createPostPages";
 import createBlogPages from "./createBlogPages";
+import createNewsPages from "./createNewsPages";
 
 export default async function createPages({ graphql, actions }) {
   const { createPage, createRedirect } = actions;
@@ -14,4 +15,5 @@ export default async function createPages({ graphql, actions }) {
   await createPagePages(graphql, createPage);
   await createPostPages(graphql, createPage, createRedirect);
   await createBlogPages(graphql, createPage);
+  await createNewsPages(graphql, createPage);
 }

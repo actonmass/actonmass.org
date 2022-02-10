@@ -1,7 +1,7 @@
 ---
 title: "Our Opinion: Democracy demands a more transparent House"
 author: Eagle Editorial Board
-href: https://www.berkshireeagle.com/opinion/editorials/our-opinion-democracy-demands-a-more-transparent-house/article_11f7824a-d9ef-11eb-ab09-6ff2252d112a.html
+link: https://www.berkshireeagle.com/opinion/editorials/our-opinion-democracy-demands-a-more-transparent-house/article_11f7824a-d9ef-11eb-ab09-6ff2252d112a.html
 category: news
 date: 2021-06-30T22:23:00.000Z
 extract: '"At its core, this issue is, or should be, above politics. It’s about

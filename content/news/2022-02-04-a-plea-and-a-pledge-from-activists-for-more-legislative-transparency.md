@@ -1,7 +1,7 @@
 ---
 title: "A Plea And A Pledge From Activists For More Legislative Transparency "
 author: Deb Bayer
-href: https://thehulltimes.com/a-plea-and-a-pledge-from-activists-for-more-legislative-transparency/
+link: https://thehulltimes.com/a-plea-and-a-pledge-from-activists-for-more-legislative-transparency/
 category: news
 date: 2021-01-29T22:57:22.191Z
 extract: '"Transparency is the key to good governance, and the Act on Mass

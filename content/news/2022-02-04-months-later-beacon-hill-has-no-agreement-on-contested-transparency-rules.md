@@ -1,7 +1,7 @@
 ---
 title: Months later, Beacon Hill has no agreement on contested transparency rules
 author: Emma Platoff
-href: https://www.bostonglobe.com/2021/07/04/metro/months-later-beacon-hill-has-no-agreement-contested-transparency-rules/?event=event12
+link: https://www.bostonglobe.com/2021/07/04/metro/months-later-beacon-hill-has-no-agreement-contested-transparency-rules/?event=event12
 category: news
 date: 2021-07-04T22:24:00.000Z
 extract: “We don’t know if they’ve been meeting, who is in those meetings, who
