@@ -12,6 +12,7 @@ party: D
 phone: (617) 722-2800 x7320
 email: jamie.belsito@mahouse.gov
 start_date: 2022-02-10
+square_picture: /img/legislators/square-pictures/jamie-belsito.jpg
 malegislature_url: https://malegislature.gov/Legislators/Profile/JZB1
 facebook: https://www.facebook.com/JamieBelsito4StateRep
 twitter: JamieBelsito
