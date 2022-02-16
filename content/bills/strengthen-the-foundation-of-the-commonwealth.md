@@ -45,5 +45,4 @@ history:
   - date: 2020-11-19
     description: Sent to study
     type: death
-  - {}
 ---
