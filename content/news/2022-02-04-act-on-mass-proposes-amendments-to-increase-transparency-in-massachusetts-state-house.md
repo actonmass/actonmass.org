@@ -4,7 +4,7 @@ title: Act On Mass proposes amendments to increase transparency in Massachusetts
 author: Zoe Kava
 link: https://tuftsdaily.com/news/2021/03/02/act-on-mass-proposes-amendments-to-increase-transparency-in-massachusetts-state-house/
 category: news
-date: 2022-03-02T23:09:00.000Z
+date: 2021-03-02T23:09:00.000Z
 extract: >-
   Murphy, a junior, said that without a roll call vote, it’s difficult to know
   which representatives to hold accountable for climate justice bills dying in
