@@ -11,9 +11,10 @@ pledge: false
 party: D
 phone: (617) 722-2800 x7320
 email: jamie.belsito@mahouse.gov
-start_date: 2022-02-10
+start_date: 2021-12-08
 square_picture: /img/legislators/square-pictures/jamie-belsito.jpg
 malegislature_url: https://malegislature.gov/Legislators/Profile/JZB1
 facebook: https://www.facebook.com/JamieBelsito4StateRep
 twitter: JamieBelsito
+ocd_id: ocd-person/ec6ea7c7-5e71-4f0e-a151-92d2f83c99b2
 ---

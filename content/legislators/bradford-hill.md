@@ -15,7 +15,7 @@ ocd_id: ocd-person/6e64e8db-c1f5-4f72-994b-dbe9cfdab8a5
 email: Brad.Hill@mahouse.gov
 hometown: Ipswich
 square_picture: /img/legislators/square-pictures/bradford-hill.jpg
-end_date: 2022-02-10
+end_date: 2021-12-08
 start_date: ""
 malegislature_url: https://malegislature.gov/Legislators/Profile/BRH1
 website: https://www.repbradhill.com/
