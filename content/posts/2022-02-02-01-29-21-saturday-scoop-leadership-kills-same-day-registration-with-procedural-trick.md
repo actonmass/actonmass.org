@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "01/29/21 Saturday Scoop: Leadership kills Same Day Registration with
+title: "01/29/22 Saturday Scoop: Leadership kills Same Day Registration with
   procedural trick"
 date: 2022-01-29T21:55:25.696Z
 image: /img/saturday-scoop-logo.png
