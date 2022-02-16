@@ -12,7 +12,7 @@ Groundhog day, indeed!
 
 **\--**
 
-## **State House Scoop:** 
+## **State House Scoop:**
 
 
 
@@ -25,33 +25,23 @@ A few things are unclear as of the writing of this newsletter Wednesday afternoo
 * For one, the legislature has yet to update the bill pages to reflect the new statuses of the bills. What happened to Medicare for All, the Safe Communities Act, or Universal Pre-K? Did they get killed or are they advancing to the next committee? The answers are floating around the halls of Beacon Hill, but the public is still in the dark. We'll be keeping an eye out and updating the statuses of our [priority bills](https://actonmass.org/bills?utm_medium=&emci=43fb068f-f085-ec11-94f6-281878b85110&emdi=ea000000-0000-0000-0000-000000000001&ceid={{ContactsEmailID}}) on our website as soon as we have them.
 * Second, what committee votes, if any, will we get to see? During the Transparency is Power campaign, we fought for public committee votes and got the concession that at least the “no” votes would be published online, but these new rules haven’t taken effect. The Joint Rules, debated almost exactly a year ago, *are still in conference committee.* I’m not saying it’s cursed, but I’m not *not* saying it: two of the six members appointed to this conference committee have left the legislature since being appointed.
 
-
-
 ## **COVID relief bill grows to $101 million, passes during informal session**
 
 Nearly doubled in size since initially passing the House two weeks ago, a $101 million COVID relief spending bill [landed on Governor Baker’s desk](https://commonwealthmagazine.org/state-government/covid-spending-bill-grows-to-101m-passes-within-hours/?utm_medium=&emci=43fb068f-f085-ec11-94f6-281878b85110&emdi=ea000000-0000-0000-0000-000000000001&ceid={{ContactsEmailID}}) Thursday afternoon. Instead of forming a conference committee to hammer out the differences between the House and Senate versions, the final bill was ironed out by just two legislators, and was passed in a lightly-attended informal session without a roll call vote. 
-
-
 
 ## **Baker proposes tax breaks in his 2023 annual budget**
 
 Gov. Baker unveiled his 2023 [budget proposal](https://www.wbur.org/news/2022/01/27/massachusetts-tax-proposal-charlie-baker?utm_medium=&emci=43fb068f-f085-ec11-94f6-281878b85110&emdi=ea000000-0000-0000-0000-000000000001&ceid={{ContactsEmailID}}) last week, which included $700 million in tax breaks. Along with tax relief for low-income families (great), the budget includes slashing estate and capital gains tax rates (not great). State House leadership has yet to take a clear position on this and other elements of the Governor’s budget. Remember -- while the Governor can propose a budget, the legislature ultimately controls the state’s purse strings.
 
-
-
 ## **After shutting its doors for nearly two years, President Spilka hints that the State House may reopen soon**
 
 The MA State House has been closed to the public since March 2020 (happy almost two year anniversary!) making it the only [state house on the continent](https://www.bostonglobe.com/2021/11/14/metro/after-600-days-massachusetts-state-house-remains-closed-public-it-appears-be-only-state-capitol-still-shut-this-continent/?event=event25&utm_medium=&emci=317df342-9449-ec11-9820-c896653b26c8&emdi=ea000000-0000-0000-0000-000000000001&ceid=%7B%7BContactsEmailID%7D%7D&) that has yet to reopen. According to Spilka, this two year streak may finally end later this month. While there's no definitive timeline or rollout plan, it seems likely that visitors to the State House will have to show proof of vaccination and wear masks while inside.
-
- 
 
 ## **Commission studying DOC funding says increased staffing is justified**
 
 After two years of study, the [commission](http://correctionalfunding.com/?utm_medium=&emci=43fb068f-f085-ec11-94f6-281878b85110&emdi=ea000000-0000-0000-0000-000000000001&ceid={{ContactsEmailID}}) tasked with reviewing appropriate levels of funding for the Department of Corrections has filed their [final report](https://correctionalfunding.com/wp-content/uploads/2022/01/Final-Report-of-the-Special-Commission-on-Correctional-Spending-For-Filing.pdf?utm_medium=&emci=43fb068f-f085-ec11-94f6-281878b85110&emdi=ea000000-0000-0000-0000-000000000001&ceid={{ContactsEmailID}}). Their big takeaway: it’s fine that correctional staffing and spending have increased while incarceration numbers have declined. As critics of the report have already pointed out, nearly half of the 19-person commission were law enforcement officials who stand to benefit from increased DOC spending.
 
 \--
-
-
 
 ## **Housekeeping**
 
@@ -60,8 +50,6 @@ After two years of study, the [commission](http://correctionalfunding.com/?utm_
 ## **1/20 Prison Moratorium forum recording available on YouTube**
 
 Missed the virtual event on the Prison Moratorium bill we sponsored a few weeks back? We’ve got you covered! [Watch the recording of the event here](https://www.youtube.com/watch?v=VLv2M58E3CE&utm_medium=&emci=43fb068f-f085-ec11-94f6-281878b85110&emdi=ea000000-0000-0000-0000-000000000001&ceid={{ContactsEmailID}}).
-
- 
 
 ## **Joint Rules Petition delivered to conference committee** 
 
@@ -85,13 +73,11 @@ The bill has just landed in a freshly appointed conference committee where House
 
 \--
 
- 
-
 ![](https://nvlupin.blob.core.windows.net/images/van/EA/EA007/1/90151/images/Youth%20Forum%20Mass.png)
 
- 
-
 ## **Youth Forum for Anti-Racist Education Bill, Thursday, Feb. 10, 2022, 6:00 PM**
+
+
 
 ## **[REGISTER FOR THE FORUM >>](https://us02web.zoom.us/webinar/register/WN_QJXT4IbITp2J5olktNdolQ?utm_medium=&emci=43fb068f-f085-ec11-94f6-281878b85110&emdi=ea000000-0000-0000-0000-000000000001&ceid={{ContactsEmailID}})**
 
