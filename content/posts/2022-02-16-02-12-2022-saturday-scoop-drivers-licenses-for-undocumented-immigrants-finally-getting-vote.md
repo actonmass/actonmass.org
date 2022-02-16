@@ -3,6 +3,7 @@ layout: post
 title: "02/12/2022 Saturday Scoop: Driver's licenses for undocumented immigrants
   finally getting vote"
 date: 2022-02-12T17:16:28.541Z
+image: /img/saturday-scoop-logo.png
 ---
  
 
