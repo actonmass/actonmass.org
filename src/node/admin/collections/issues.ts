@@ -1,4 +1,4 @@
-import { id_field } from "../common";
+import { id_field, linkWithImg } from "../common";
 
 export default {
   name: "issues",
@@ -140,26 +140,7 @@ export default {
       required: false,
       collapsed: true,
       widget: "list",
-      fields: [
-        {
-          label: "Title",
-          name: "title",
-          required: true,
-          widget: "string",
-        },
-        {
-          label: "Image",
-          name: "img",
-          required: false,
-          widget: "image",
-        },
-        {
-          label: "Answer",
-          name: "link",
-          required: false,
-          widget: "string",
-        },
-      ],
+      fields: linkWithImg,
     },
     {
       label: "References",
