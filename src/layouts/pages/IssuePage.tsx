@@ -6,6 +6,7 @@ import { faPlus } from "@fortawesome/free-solid-svg-icons";
 import { Link } from "gatsby";
 
 import { HeroImage, SignupForm, BreadCrum } from "../../components";
+import { ImageLink } from "../../components/ImageLink";
 import BaseLayout from "../BaseLayout";
 
 import "./issue.scss";
@@ -134,23 +135,13 @@ export default function IssuePage({ issue }: Props) {
             </div>
           </section>
         )}
-        <section className="learn-more cbox light-blue">
+        <section className="orgs cbox light-blue">
           <div className="w1400">
-            <h3 className="issues_learn_header fExbold fUppercase">learn more:</h3>
-            <div className="hbox learn-more-container">
-              {issue.learn_more.map((learn_more_link) => (
-                <div key={learn_more_link.title}>
-                  <a href={learn_more_link.link} target="_blank">
-                    {learn_more_link.img ? (
-                      <img
-                        className="sca_learn_icon"
-                        src={learn_more_link.img}
-                        alt={learn_more_link.title}
-                      />
-                    ) : (
-                      <p>{learn_more_link.title}</p>
-                    )}
-                  </a>
+            <h3 className="fExbold fUppercase">learn more:</h3>
+            <div className="hbox orgs-container">
+              {issue.learn_more.map((org) => (
+                <div key={org.title}>
+                  <ImageLink title={org.title} link={org.link} img={org.img} />
                 </div>
               ))}
             </div>

@@ -20,8 +20,8 @@ orgs:
     img: ""
     link: ""
   - title: Planned Parenthood Advocacy Fund of Massachusetts
-    img: ""
-    link: ""
+    img: /img/pplm.jpg
+    link: https://www.plannedparenthoodaction.org/planned-parenthood-advocacy-fund-massachusetts-inc/
 house_lead_sponsors:
   - james-oday
   - vanna-howard

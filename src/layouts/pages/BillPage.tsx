@@ -4,6 +4,7 @@ import ReactMarkdown from "react-markdown";
 
 import { HeroImage, LegCircle, FindMyReps, BreadCrum, BillHistory, Map } from "../../components";
 import { RequestCommitteeVote } from "../../components/Modals/RequestCommitteeVote";
+import { ImageLink } from "../../components/ImageLink";
 import { RequestCosponsorshipMyRep } from "../../components/Modals/RequestCosponsorshipMyRep";
 import BaseLayout from "../BaseLayout";
 
@@ -236,19 +237,15 @@ export default function BillPage({ bill }: Props) {
           </section>
         )}
         {bill.orgs != null && (
-          <section className="map cbox">
+          <section className="orgs cbox light-blue">
             <div className="w1400">
-              <h3 className="fUppercase fExbold">Advocacy Organizations:</h3>
-              <div className="cbox">
-                <ul>
-                  {
-                  bill.orgs.map((org) => (
-                    <li key={org}>
-                      <h4>{org}</h4>
-                    </li>
-                  ))
-                }
-                </ul>
+              <h3 className="fExbold fUppercase">Advocacy Organizations</h3>
+              <div className="hbox orgs-container">
+                {bill.orgs.map((org) => (
+                  <div key={org.title}>
+                    <ImageLink title={org.title} link={org.link} img={org.img} />
+                  </div>
+                ))}
               </div>
             </div>
           </section>
