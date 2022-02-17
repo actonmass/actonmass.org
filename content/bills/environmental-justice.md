@@ -1,7 +1,8 @@
 ---
 aom_id: environmental-justice
 title: Environmental Justice
-full_title: An Act relative to environmental justice and toxics reduction in the
+full_title:
+  An Act relative to environmental justice and toxics reduction in the
   Commonwealth
 twitter_bill_name: Environmental Justice
 house_no: H.1792
@@ -19,8 +20,12 @@ summary:
     environmental justice needs in frontline communities
 text: ""
 orgs:
-  - MA Power Forward
-  - CWA
+  - title: MA Power Forward
+    img: ""
+    link: ""
+  - title: CWA
+    img: ""
+    link: ""
 house_lead_sponsors:
   - joan-meschino
   - adrian-madaro
@@ -82,11 +87,15 @@ co_sponsors:
   - ted-philips
 history:
   - date: 2019-01-22
-    description: Referred to the committee on Environment, Natural Resources and Agriculture
+    description:
+      Referred to the committee on Environment, Natural Resources and
+      Agriculture
   - description: Hearing scheduled
     date: 2019-06-04
 timeline:
-  - description: Referred to the committee on Environment, Natural Resources and Agriculture
+  - description:
+      Referred to the committee on Environment, Natural Resources and
+      Agriculture
     date: 2019-01-22
   - description: Hearing scheduled
     date: 2019-06-04

@@ -14,7 +14,9 @@ summary:
   - Repeals archaic unconstitutional laws still technically on the books in
     Massachusetts
 orgs:
-  - MassEquality
+  - title: MassEquality
+    img: ""
+    link: ""
 house_lead_sponsors:
   - jay-livingstone
 senate_lead_sponsors: []

@@ -16,7 +16,9 @@ summary:
   - Prevent hospitals / health companies from expanding 3 years after the
     closure unless the essential service is restored
 orgs:
-  - MNA
+  - title: MNA
+    img: ""
+    link: ""
 house_lead_sponsors:
   - edward-coppinger
 senate_lead_sponsors:

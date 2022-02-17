@@ -16,7 +16,9 @@ summary:
   - Prohibits schools from decreasing time allotted for recess because of
     program or curriculum changes
 orgs:
-  - MTA
+  - title: MTA
+    img: ""
+    link: ""
 house_lead_sponsors:
   - jon-santiago
 senate_lead_sponsors:

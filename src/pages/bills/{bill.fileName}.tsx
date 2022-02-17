@@ -133,6 +133,11 @@ export const query = graphql`
       co_sponsors {
         id
       }
+      orgs {
+        img
+        title
+        link
+      }
     }
   }
 `;

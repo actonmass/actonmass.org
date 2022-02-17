@@ -4,6 +4,7 @@ import ReactMarkdown from "react-markdown";
 
 import { HeroImage, LegCircle, FindMyReps, BreadCrum, BillHistory, Map } from "../../components";
 import { RequestCommitteeVote } from "../../components/Modals/RequestCommitteeVote";
+import { ImageLink } from "../../components/ImageLink";
 import { RequestCosponsorshipMyRep } from "../../components/Modals/RequestCosponsorshipMyRep";
 import BaseLayout from "../BaseLayout";
 
@@ -17,6 +18,7 @@ export default function BillPage({ bill }: Props) {
   const shouldShowSponsors = !bill.no_sponsorship_data;
   const co_sponsors = new Set((bill.co_sponsors ?? []).map((leg) => leg.id));
   const committee = bill.committee;
+
   return (
     <BaseLayout title={bill.title}>
       <main className="bill-page">
@@ -231,6 +233,20 @@ export default function BillPage({ bill }: Props) {
             <div className="w1400">
               <h2 className="fUppercase fExbold">History of the bill</h2>
               <BillHistory bill={bill} />
+            </div>
+          </section>
+        )}
+        {bill.orgs != null && (
+          <section className="orgs cbox light-blue">
+            <div className="w1400">
+              <h3 className="fExbold fUppercase">Advocacy Organizations</h3>
+              <div className="hbox orgs-container">
+                {bill.orgs.map((org) => (
+                  <div key={org.title}>
+                    <ImageLink title={org.title} link={org.link} img={org.img} />
+                  </div>
+                ))}
+              </div>
             </div>
           </section>
         )}

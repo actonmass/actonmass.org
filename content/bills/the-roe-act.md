@@ -1,7 +1,8 @@
 ---
 aom_id: the-roe-act
 title: The ROE Act
-full_title: An Act removing obstacles and expanding access to women's reproductive health
+full_title:
+  An Act removing obstacles and expanding access to women's reproductive health
 twitter_bill_name: The ROE Act
 house_no: H3320
 house_link: https://malegislature.gov/Bills/191/H3320
@@ -18,9 +19,15 @@ summary:
     disproportionately impacts access to abortion care for low income teens and
     Black and Brown teens
 orgs:
-  - NARAL
-  - PP
-  - NOW
+  - title: NARAL
+    img: ""
+    link: ""
+  - title: PP
+    img: ""
+    link: ""
+  - title: NOW
+    img: ""
+    link: ""
 co_sponsors:
   - patricia-haddad
   - jay-livingstone

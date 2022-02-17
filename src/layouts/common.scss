@@ -605,3 +605,18 @@ td {
     }
   }
 }
+
+.orgs {
+  .orgs-container {
+    margin-top: 2rem;
+    justify-content: space-evenly;
+
+    @media (min-width: 700px) {
+      margin-top: 5rem;
+    }
+  }
+
+  .org-icon {
+    max-width: 25rem;
+  }
+}
