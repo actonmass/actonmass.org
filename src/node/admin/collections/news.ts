@@ -37,6 +37,14 @@ export default {
           label: "Press release",
           value: "press_release",
         },
+        {
+          label: "Opinion",
+          value: "opinion",
+        },
+        {
+          label: "Media Appearance",
+          value: "media_appearance",
+        },
       ],
     },
     {
