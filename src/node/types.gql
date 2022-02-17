@@ -9,7 +9,7 @@ type IssueReference {
   link: String
 }
 
-type IssueLearnMore {
+type LinkWithImg {
   title: String
   img: String
   link: String
@@ -27,7 +27,7 @@ type Issue implements Node @dontInfer {
   failures_block_title: String
   bills_to_support_title: String
   highlighted_bills: [Bill] @link
-  learn_more: [IssueLearnMore]!
+  learn_more: [LinkWithImg]!
   references: [IssueReference]!
   failures: [IssueTextBlock]!
   questions: [IssueTextBlock]!
@@ -138,7 +138,7 @@ type Bill implements Node @dontInfer {
   issue: Issue @link
   img: String
   summary: [String]
-  orgs: [String]
+  orgs: [LinkWithImg]
   house_lead_sponsors: [Legislator] @link
   senate_lead_sponsors: [Legislator] @link
   co_sponsors: [Legislator] @link
@@ -223,6 +223,19 @@ type TeamMember implements Node @dontInfer {
   hidden: Boolean
   order: Int
   body: String
+
+  # Common calculated
+  fileName: String!
+  href: String!
+}
+
+type News implements Node @dontInfer {
+  title: String!
+  author: String!
+  date: String!
+  link: String!
+  category: String
+  extract: String
 
   # Common calculated
   fileName: String!

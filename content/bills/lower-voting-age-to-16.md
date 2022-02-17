@@ -14,7 +14,9 @@ summary:
   - Lowers the age requirement to register to vote to 16, extending the right to
     vote to 16 and 17 year olds
 orgs:
-  - Common Cause Massachusetts
+  - title: Common Cause Massachusetts
+    img: ""
+    link: ""
 house_lead_sponsors:
   - andres-vargas
   - dylan-fernandes

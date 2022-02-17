@@ -1,8 +1,9 @@
 ---
 aom_id: cherish-act-fully-funded-public-higher-ed
 title: "The Cherish Act: Fully Funded Public Higher Ed"
-full_title: An Act committing to higher education the resources to insure a
-  strong and healthy public higher education system
+full_title:
+  An Act committing to higher education the resources to insure a strong and
+  healthy public higher education system
 twitter_bill_name: "The Cherish Act: Fully Funded Public Higher Ed"
 house_no: H.1325
 house_link: https://malegislature.gov/Bills/192/HD1224
@@ -17,18 +18,24 @@ summary:
     pace with enrollments
   - Freezes tuition and fees for five years to ensure higher ed is in reach of
     all students who want to attend
-text: >-
-  Most Americans, when polled, think that Higher education is receiving the same
-  or more funding than it did in the past.  But per pupil funding from the state
-  is down 31% since 2001, and this is forcing public institutions to delay
+text: "Most Americans, when polled, think that Higher education is receiving the
+  same or more funding than it did in the past.  But per pupil funding from the
+  state is down 31% since 2001, and this is forcing public institutions to delay
   repairs, try to cut costs, and push higher tuition and fees on students who
   can ill afford them.
 
 
-  The Commission on Public Higher Education Finance issued a report in 2014 outlining this chronic underfunding, but our legislature hasn't taken major action. Every year, tiny increases in the state budget barely keep up for inflation, meanwhile students and educators pay the costs.
+  The Commission on Public Higher Education Finance issued a report in 2014
+  outlining this chronic underfunding, but our legislature hasn't taken major
+  action. Every year, tiny increases in the state budget barely keep up for
+  inflation, meanwhile students and educators pay the costs."
 orgs:
-  - FOF
-  - PHENOM
+  - title: FOF
+    img: ""
+    link: ""
+  - title: PHENOM
+    img: ""
+    link: ""
 house_lead_sponsors:
   - sean-garballey
   - paul-mark
@@ -181,8 +188,9 @@ history:
   - date: 2019-04-30
     description: Committee Hearing - Joint Committee on Education
   - date: 2020-11-20
-    description: Extension Order - committee allowed until Nov 20th to act, far too
-      late to allow the bill to pass this session
+    description:
+      Extension Order - committee allowed until Nov 20th to act, far too late to
+      allow the bill to pass this session
     type: death
   - date: 2020-12-23
     description: Bill killed via study order

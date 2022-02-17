@@ -40,6 +40,9 @@ history:
   - description: Bill filed for the first time
     date: 2019-01-22
   - description: Hearing scheduled with Joint Committee on Revenue
-    type: death
+    type: null
     date: 2019-10-17
+  - date: 2020-11-19
+    description: Sent to study
+    type: death
 ---

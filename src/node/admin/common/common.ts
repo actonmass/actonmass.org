@@ -324,3 +324,24 @@ export const menu = {
     },
   ],
 };
+
+export const linkWithImg = [
+  {
+    label: "Title",
+    name: "title",
+    required: true,
+    widget: "string",
+  },
+  {
+    label: "Image",
+    name: "img",
+    required: false,
+    widget: "image",
+  },
+  {
+    label: "Link",
+    name: "link",
+    required: false,
+    widget: "string",
+  },
+];

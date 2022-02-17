@@ -12,8 +12,12 @@ issue: voting-rights
 summary:
   - Establishes a ranked-choice voting system for all elections in Massachusetts
 orgs:
-  - Yes on 2
-  - Common Cause Massachusetts
+  - title: Yes on 2
+    img: ""
+    link: ""
+  - title: Common Cause Massachusetts
+    img: ""
+    link: ""
 house_lead_sponsors:
   - smitty-pignatelli
 senate_lead_sponsors:

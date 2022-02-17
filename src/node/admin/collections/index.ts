@@ -7,6 +7,7 @@ import { default as issues } from "./issues";
 import { default as legislators } from "./legislators";
 import { default as otherData } from "./otherData";
 import { default as pages } from "./pages";
+import { default as news } from "./news";
 import { default as teamMembers } from "./teamMembers";
 
 export {
@@ -17,6 +18,7 @@ export {
   districts,
   issues,
   legislators,
+  news,
   otherData,
   pages,
   teamMembers,

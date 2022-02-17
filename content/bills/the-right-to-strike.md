@@ -13,7 +13,9 @@ img: /img/photo1-dedham-education-association-cropped.jpg
 summary:
   - Abolishes the prohibition on public employees striking (including teachers)
 orgs:
-  - Mass Teachers
+  - title: Mass Teachers
+    img: ""
+    link: ""
 house_lead_sponsors:
   - mike-connolly
   - erika-uyterhoeven

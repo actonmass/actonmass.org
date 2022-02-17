@@ -14,9 +14,15 @@ hidden: false
 summary:
   - Establishes a moratorium on building new prisons or jails for five years
 orgs:
-  - SURJ
-  - Massachusetts Peace Action
-  - Families for Justice as Healing
+  - title: SURJ
+    img: ""
+    link: ""
+  - title: Massachusetts Peace Action
+    img: ""
+    link: ""
+  - title: Families for Justice as Healing
+    img: ""
+    link: ""
 house_lead_sponsors:
   - chynah-tyler
 senate_lead_sponsors:
@@ -62,4 +68,10 @@ co_sponsors:
   - maria-robinson
   - adam-gomez
   - william-driscoll
+  - diana-dizoglio
+  - rebecca-rausch
+  - james-eldridge
+  - liz-miranda
+  - carmine-gentile
+  - marjorie-decker
 ---

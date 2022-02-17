@@ -17,7 +17,9 @@ summary:
     impactful rehabilitative programs that are not available in the adult
     correctional system
 orgs:
-  - NASW
+  - title: NASW
+    img: ""
+    link: ""
 house_lead_sponsors:
   - james-oday
   - kay-khan

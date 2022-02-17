@@ -15,8 +15,12 @@ summary:
   - Improve energy efficiency to reduce consumption
   - Prioritize a just transition for impacted workers & front line communities
 orgs:
-  - MA Power Forward
-  - CWA
+  - title: MA Power Forward
+    img: ""
+    link: ""
+  - title: CWA
+    img: ""
+    link: ""
 house_lead_sponsors:
   - marjorie-decker
   - sean-garballey
@@ -125,7 +129,8 @@ history:
   - date: 2019-07-23
     description: Committee Hearing
   - date: 2020-07-31
-    description: Climate bill passes House without including this bill, Bill sent to study
+    description:
+      Climate bill passes House without including this bill, Bill sent to study
     type: death
 timeline:
   - date: 2019-01-22

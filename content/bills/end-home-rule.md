@@ -34,6 +34,26 @@ co_sponsors:
   - christine-barber
   - steve-owens
   - erika-uyterhoeven
+  - vanna-howard
+  - james-eldridge
+  - sal-didomenico
+  - patricia-jehlen
+  - david-leboeuf
+  - marcos-devers
+  - james-hawkins
+  - jon-santiago
+  - dan-sena
+  - peter-capano
+  - tami-gouveia
+  - natalie-higgins
+  - kevin-honan
+  - carmine-gentile
+  - adam-gomez
+  - russell-holmes
+  - carlos-gonzalez
+  - brandy-fluker-oakley
+  - adam-hinds
+  - adrian-madaro
 history:
   - date: 2020-01-14
     description: Hearing in Housing Committee

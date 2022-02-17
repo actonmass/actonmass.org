@@ -67,6 +67,10 @@ const collections: Collections = {
     name: "TeamMember",
     process: _.identity,
   },
+  news: {
+    name: "News",
+    process: _.identity,
+  },
 };
 
 export default collections;

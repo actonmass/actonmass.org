@@ -4,6 +4,7 @@ import {
   date_picker,
   script_opt,
   script_req_only_opt,
+  linkWithImg,
 } from "../common";
 
 export default {
@@ -126,11 +127,7 @@ export default {
       required: false,
       widget: "list",
       collapsed: false,
-      field: {
-        label: "Org",
-        name: "org",
-        widget: "string",
-      },
+      fields: linkWithImg,
     },
     {
       ...legislator_picker,

@@ -1,11 +1,12 @@
 import {
-  bills,
   billEvents,
+  bills,
   blog,
-  issues,
   committees,
   districts,
+  issues,
   legislators,
+  news,
   otherData,
   pages,
   teamMembers,
@@ -30,6 +31,7 @@ export default {
     bills,
     billEvents,
     teamMembers,
+    news,
     otherData,
   ],
 };
