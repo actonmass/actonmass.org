@@ -2,7 +2,7 @@
 title: "Andrew Ahern: 'Who’s delaying climate action in Massachusetts?'"
 author: Andrew Ahern
 link: https://www.telegram.com/story/opinion/2021/02/17/andrew-ahern-whos-delaying-climate-action-massachusetts/6792980002/
-category: news
+category: opinion
 date: 2021-02-17T23:01:00.000Z
 extract: "\"Utility companies and their special interest friends like real
   estate and fossil fuel corporations are not just to blame though. It’s also
