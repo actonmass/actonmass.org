@@ -14,7 +14,9 @@ hidden: false
 summary:
   - Replaces Columbus Day with Indigenous People's Day in Massachusetts Law
 orgs:
-  - SURJ
+  - title: SURJ
+    img: ""
+    link: ""
 house_lead_sponsors:
   - jack-lewis
   - brandy-fluker-oakley

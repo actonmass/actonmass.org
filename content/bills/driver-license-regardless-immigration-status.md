@@ -17,7 +17,9 @@ summary:
     be disclosed to the public
   - The type of driver’s license an individual has will not be public information
 orgs:
-  - SEIU
+  - title: SEIU
+    img: ""
+    link: ""
 house_lead_sponsors:
   - tricia-farley-bouvier
   - christine-barber
