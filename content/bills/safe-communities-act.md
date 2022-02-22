@@ -16,12 +16,9 @@ summary:
   - Prohibits police from asking questions about immigration status
   - Protects people of color from racial profiling by police
 orgs:
-  - title: SCA
-    img: ""
-    link: ""
   - title: MIRA
-    img: ""
-    link: ""
+    img: /img/mira_logo.svg
+    link: https://miracoalition.org/
 house_lead_sponsors:
   - ruth-balser
   - liz-miranda
@@ -148,11 +145,11 @@ co_sponsors:
   - cindy-friedman
   - christina-minicucci
 scripts:
-  call_request: "Please support the Safe Communities Act.
+  call_request: >-
+    Please support the Safe Communities Act.
 
 
-    Immigrant communities in Massachusetts should not be subjected to Trump's
-    racist policies."
+    Immigrant communities in Massachusetts should not be subjected to Trump's racist policies.
   email_request:
     subject: Please support the Safe Communities Act!
 timeline: []
