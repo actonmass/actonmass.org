@@ -18,7 +18,7 @@ summary:
 orgs:
   - title: MIRA
     img: /img/mira_logo.svg
-    link: https://miracoalition.org/
+    link: https://miracoalition.org/our-work/safe-communities/
 house_lead_sponsors:
   - ruth-balser
   - liz-miranda
