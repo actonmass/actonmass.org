@@ -15,11 +15,7 @@ Lastly, when we celebrate victories like this one, we must remember that they do
 
 All right, all right, I'll put away my soapbox. Let's get to the Scoop.
 
-
-
 ## **State House Scoop**
-
-
 
 **Work & Family Mobility Act passes the House**
 
@@ -27,27 +23,19 @@ A bill that would allow all qualified Massachusetts residents to obtain a state 
 
 The bill passed the House with a veto-proof margin, easing concerns that the Governor would block it down the line. Next, the bill heads to the Senate for a vote.
 
-
-
 **After almost two years, State House to reopen to the public Tuesday**
 
 In other “it’s good that it finally happened but it took way too long” news, Speaker Mariano and President Spilka [announced last week](https://www.bostonglobe.com/2022/02/14/metro/massachusetts-state-house-will-reopen-public-feb-22-here-are-rules/?utm_medium=&emci=44afb4af-a591-ec11-a507-281878b83d8a&emdi=ea000000-0000-0000-0000-000000000001&ceid={{ContactsEmailID}}) that the Massachusetts State House will finally reopen on Tuesday February 22. The state house has been closed to the public for 718 days -- longer than any other capitol in the U.S.. This is great news for activists, journalists, and constituents who have only been able to access reps by requesting zoom meetings for the last two years (and we know some reps have a nasty habit of ignoring these requests).
 
 Masks and either proof of vaccination or a negative covid test within a day are required to enter. 
 
-
-
 **Baker signs $101 million Covid relief bill**
 
 Last Saturday, Governor Baker [signed](https://commonwealthmagazine.org/state-government/baker-vetoes-unrealistic-deadlines-in-supp-budget/?utm_medium=&emci=44afb4af-a591-ec11-a507-281878b83d8a&emdi=ea000000-0000-0000-0000-000000000001&ceid={{ContactsEmailID}}) the $101 million Covid relief spending bill that swiftly passed the House and Senate earlier this month. Baker left the text of the bill mostly unchanged, save for vetoing what he called “unrealistic” deadlines. In addition to funding for masks and vaccine outreach programs, this bill also established September 6th as the primary election date – mark your calendars! Hopefully we’ll have same-day or Election-day voter registration by then, but that’s a whole [other story](https://www.wbur.org/news/2022/02/14/equity-advocates-same-day-elections-registration-voter-reform-massachusetts?utm_medium=&emci=44afb4af-a591-ec11-a507-281878b83d8a&emdi=ea000000-0000-0000-0000-000000000001&ceid={{ContactsEmailID}}). 
 
- 
-
 **Another day, another deadline extension**
 
 For good measure, the Covid relief bill also included a provision to again extend the deadline for the commission to [redesign](https://boston.cbslocal.com/2021/01/12/baker-approves-commission-to-redesign-massachusetts-state-seal/?utm_medium=&emci=44afb4af-a591-ec11-a507-281878b83d8a&emdi=ea000000-0000-0000-0000-000000000001&ceid={{ContactsEmailID}}) the racist Massachusetts state flag. Indigenous leaders and activists have been demanding a new flag, which currently depicts a colonist's arm holding a sword over a Native American man, since the 80's. Formed in early 2021, the commission has only just begun meeting regularly. While their pace is discouragingly slow, the redesign *is* happening…I think.
-
-
 
 ## **A bit of housekeeping**
 
@@ -55,15 +43,9 @@ For good measure, the Covid relief bill also included a provision to again exten
 
 If you've ever thought to yourself “I wish there were a place where I could find news articles, columns, and press releases about the movement for State House reform!”, boy do I have a solution for you. Click through our new [News & Media page](https://actonmass.org/news?utm_medium=&emci=44afb4af-a591-ec11-a507-281878b83d8a&emdi=ea000000-0000-0000-0000-000000000001&ceid={{ContactsEmailID}}) to stay up-to-date and to dig through a mini media archive of the movement for state house transparency and democracy starting with our first campaign in 2020.
 
-
-
 \--
 
-
-
 ## **Take Action**
-
-![]()
 
 **Join our Ballot Question Campaign**
 
@@ -72,8 +54,6 @@ This spring we are going to be collecting signatures to run our second non-bindi
 The signature gathering period is May through the end of June, and we’re going to need all hands on deck to reach as many voters and reps as possible. **[Join the campaign below:](https://docs.google.com/forms/d/e/1FAIpQLSdwajpL3WZeMHagH3UDAy7ycIK7B0XXIUd2chtyLsaWczTOOQ/viewform?usp=sf_link&utm_medium=&emci=44afb4af-a591-ec11-a507-281878b83d8a&emdi=ea000000-0000-0000-0000-000000000001&ceid={{ContactsEmailID}})**
 
 ## **[SIGN UP TO COLLECT SIGNATURES >>](https://docs.google.com/forms/d/e/1FAIpQLSdwajpL3WZeMHagH3UDAy7ycIK7B0XXIUd2chtyLsaWczTOOQ/viewform?emci=44afb4af-a591-ec11-a507-281878b83d8a&emdi=ea000000-0000-0000-0000-000000000001&ceid={{ContactsEmailID}})**
-
-
 
 \--
 
