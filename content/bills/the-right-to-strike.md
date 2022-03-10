@@ -34,6 +34,12 @@ history:
   - date: 2020-02-12
     description: Sent to study
     type: death
+  - date: 2017-01-06
+    description: Filed as H.2361
+    type: null
+  - date: 2018-06-10
+    description: Sent to study
+    type: death
 timeline:
   - date: 2019-07-09
     description: Hearing
