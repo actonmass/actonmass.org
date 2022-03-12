@@ -13,6 +13,33 @@ type QueryProps = {
   legs: { nodes: GatsbyTypes.Legislator[] };
 };
 
+const candidateSignatories: GatsbyTypes.Legislator[] = [
+  {
+    first_name: "Vivian",
+    last_name: "Birchall",
+    party: "D",
+    // @ts-expect-error
+    district: {
+      chamber: "house",
+      name: "14th Middlesex",
+    },
+    square_picture: "img/legislators/candidates/vivian-birchall.jpg",
+  },
+  {
+    first_name: "Raul",
+    last_name: "Fernandez",
+    party: "D",
+    // @ts-expect-error
+    district: {
+      chamber: "house",
+      name: "15th Norfolk",
+    },
+
+    square_picture: "img/legislators/candidates/raul-fernandez.jpg",
+  },
+  ,
+];
+
 export default function PledgePage({ data }: PageProps<QueryProps>) {
   const page = data.page;
   const frontmatter = (data.page.parent as any).frontmatter;
@@ -79,6 +106,18 @@ export default function PledgePage({ data }: PageProps<QueryProps>) {
                 <LegCircle key={sen.href} rep={sen} size="L" status="ok" />
               ))}
             </div>
+            <h4 className="pledge_leg_subtitle fRaleway fUppercase fRegular">Candidates:</h4>
+            <div className="legislator-grid">
+              {candidateSignatories.map((candidate) => (
+                <LegCircle
+                  key={candidate.href}
+                  rep={candidate}
+                  size="L"
+                  status="ok"
+                  showChamber={true}
+                />
+              ))}
+            </div>
             <div className="cbox">
               <RequestSignPledgeMyRep />
             </div>
@@ -126,6 +165,9 @@ export const query = graphql`
         party
         hometown
         chamber
+        district {
+          name
+        }
       }
     }
   }
