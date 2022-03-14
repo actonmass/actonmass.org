@@ -115,4 +115,7 @@ history:
   - date: 2021-03-01
     description: Reintroduced as H.2826
     type: null
+  - date: 2021-03-29
+    description: Referred to Joint Committee on Revenue
+    type: null
 ---
