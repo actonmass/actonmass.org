@@ -48,4 +48,7 @@ history:
   - date: 2022-03-01
     type: null
     description: Reintroduced as H.2851
+  - date: 2021-03-29
+    description: Hearing scheduled with Joint Committee on Revenue
+    type: null
 ---
