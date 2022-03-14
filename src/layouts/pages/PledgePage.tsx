@@ -92,6 +92,18 @@ export default function PledgePage({ data }: PageProps<QueryProps>) {
         <section className="pledge_reps cbox light-blue">
           <div className="w1400">
             <h6 className="pledge_leg_title fRaleway fUppercase fExbold">Current signatories</h6>
+            <h4 className="pledge_leg_subtitle fRaleway fUppercase fRegular">Candidates:</h4>
+            <div className="legislator-grid">
+              {candidateSignatories.map((candidate) => (
+                <LegCircle
+                  key={candidate.href}
+                  rep={candidate}
+                  size="L"
+                  status="ok"
+                  showChamber={true}
+                />
+              ))}
+            </div>
             <h4 className="pledge_leg_subtitle fRaleway fUppercase fRegular">
               state representatives:
             </h4>
@@ -106,18 +118,7 @@ export default function PledgePage({ data }: PageProps<QueryProps>) {
                 <LegCircle key={sen.href} rep={sen} size="L" status="ok" />
               ))}
             </div>
-            <h4 className="pledge_leg_subtitle fRaleway fUppercase fRegular">Candidates:</h4>
-            <div className="legislator-grid">
-              {candidateSignatories.map((candidate) => (
-                <LegCircle
-                  key={candidate.href}
-                  rep={candidate}
-                  size="L"
-                  status="ok"
-                  showChamber={true}
-                />
-              ))}
-            </div>
+
             <div className="cbox">
               <RequestSignPledgeMyRep />
             </div>
