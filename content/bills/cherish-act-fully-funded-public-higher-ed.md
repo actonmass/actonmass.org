@@ -197,5 +197,7 @@ history:
     description: Referred to House Committee on Higher Education as H.1325
   - date: 2021-05-18
     description: Hearing scheduled - Joint Committee on Higher Education
+  - date: 2022-02-07
+    description: Reporting date extended to April 4, 2022
 timeline: []
 ---
