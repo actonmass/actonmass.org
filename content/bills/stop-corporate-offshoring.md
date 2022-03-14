@@ -112,4 +112,7 @@ history:
   - date: 2021-01-05
     description: No further action taken
     type: death
+  - date: 2021-03-01
+    description: Reintroduced as H.2826
+    type: null
 ---
