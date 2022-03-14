@@ -17,11 +17,10 @@ summary:
   - The Commission would also advise the Department of Elementary and Secondary
     Education on how to increase, support, and retain educators and counselors
     of color
-text:
-  Students and staff of color are underrepresented and underserved in our public
-  schools in many ways, including the curriculum itself. History and social
-  studies taught in our schools often exclude ethnic studies, center the history
-  and narratives of white people, and uphold colonial frameworks.
+text: Students and staff of color are underrepresented and underserved in our
+  public schools in many ways, including the curriculum itself. History and
+  social studies taught in our schools often exclude ethnic studies, center the
+  history and narratives of white people, and uphold colonial frameworks.
 orgs:
   - title: CARE
     img: ""
@@ -61,4 +60,6 @@ co_sponsors:
 history:
   - description: Bill filed
     date: 2021-03-29
+  - date: 2021-03-29
+    description: Referred to the House Committee on Education
 ---
