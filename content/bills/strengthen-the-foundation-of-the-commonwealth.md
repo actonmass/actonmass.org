@@ -51,4 +51,7 @@ history:
   - date: 2021-03-29
     description: Hearing scheduled with Joint Committee on Revenue
     type: null
+  - date: 2022-02-01
+    description: Sent to Study
+    type: death
 ---
