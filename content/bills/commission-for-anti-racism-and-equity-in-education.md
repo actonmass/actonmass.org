@@ -62,4 +62,6 @@ history:
     date: 2021-03-29
   - date: 2021-03-29
     description: Referred to the House Committee on Education
+  - date: 2021-09-13
+    description: Hearing scheduled - Joint Committee on Education
 ---
