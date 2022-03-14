@@ -195,5 +195,7 @@ history:
     description: Bill re-filed as HD.1224
   - date: 2021-03-29
     description: Referred to House Committee on Higher Education as H.1325
+  - date: 2021-05-18
+    description: Hearing scheduled - Joint Committee on Higher Education
 timeline: []
 ---
