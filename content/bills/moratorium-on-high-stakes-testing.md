@@ -90,5 +90,7 @@ history:
     description: Bill filed as HD.952
   - date: 2021-03-29
     description: Referred to the committee on Education
+  - date: 2021-09-20
+    description: Hearing in Joint Committee on Education
 timeline: []
 ---
