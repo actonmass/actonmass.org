@@ -118,4 +118,7 @@ history:
   - date: 2021-03-29
     description: Referred to Joint Committee on Revenue
     type: null
+  - date: 2022-01-01
+    description: "Extended "
+    type: null
 ---
