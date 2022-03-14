@@ -92,5 +92,8 @@ history:
     description: Referred to the committee on Education
   - date: 2021-09-20
     description: Hearing in Joint Committee on Education
+  - date: 2022-02-01
+    description: Sent to Study
+    type: death
 timeline: []
 ---
