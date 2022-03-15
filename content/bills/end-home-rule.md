@@ -68,6 +68,8 @@ history:
     description: Referred to the committee on Housing
   - date: 2022-01-11
     description: Joint Committee hearing scheduled
+  - date: 2022-02-07
+    description: Reporting date extended to May 9, 2022
 timeline:
   - description: Referred to the Committee on Housing
     date: 2021-03-29
