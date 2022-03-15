@@ -152,6 +152,8 @@ history:
     description: Bill reintroduced as H.1267
   - date: 2021-10-26
     description: Joint Committee Hearing scheduled (Health Care Financing)
+  - date: 2022-02-01
+    description: Reporting date extended
 timeline:
   - date: 2019-01-22
     description: Referred to the Committee on Health Care Financing
