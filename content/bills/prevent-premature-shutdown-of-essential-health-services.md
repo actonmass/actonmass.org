@@ -75,6 +75,8 @@ history:
   - date: 2020-12-31
     description: Reporting date extended to last possible day of session
     type: death
+  - date: 2021-03-29
+    description: Bill reintroduced as H.1253
 timeline:
   - date: 2019-05-28
     description: Hearing (Health Care Financing)
