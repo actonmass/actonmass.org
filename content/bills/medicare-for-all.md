@@ -150,6 +150,8 @@ history:
     type: death
   - date: 2021-03-29
     description: Bill reintroduced as H.1267
+  - date: 2021-10-26
+    description: Joint Committee Hearing schedule (Health Care Financing)
 timeline:
   - date: 2019-01-22
     description: Referred to the Committee on Health Care Financing
