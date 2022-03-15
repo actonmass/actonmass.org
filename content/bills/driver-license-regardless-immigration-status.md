@@ -162,6 +162,8 @@ history:
     description: Referred to the committee on Transportation
   - date: 2022-01-31
     description: Reporting date extended to March 4, 2022
+  - date: 2022-02-16
+    description: Bill passed as H4470
 timeline:
   - date: 2021-01-29
     description: Bill re-filed as HD.448
