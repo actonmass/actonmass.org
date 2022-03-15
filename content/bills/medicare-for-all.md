@@ -148,6 +148,8 @@ history:
   - date: 2021-01-05
     description: No further action taken
     type: death
+  - date: 2021-03-29
+    description: Bill reintroduced as H.1267
 timeline:
   - date: 2019-01-22
     description: Referred to the Committee on Health Care Financing
