@@ -84,6 +84,7 @@ history:
   - date: 2021-11-15
     description: Accompanied a new draft, added to omnibus bill H.4248
   - description: Reported favorably, omnibus bill passed as H.4262
+    date: 2021-11-17
 timeline:
   - date: 2019-05-28
     description: Hearing (Health Care Financing)
