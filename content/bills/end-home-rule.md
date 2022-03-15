@@ -59,6 +59,9 @@ history:
     description: Hearing in Housing Committee
   - date: 2020-06-04
     description: Reported favorably by the Housing Committee
+  - date: 2021-01-05
+    description: No further action taken
+    type: death
 timeline:
   - description: Referred to the Committee on Housing
     date: 2021-03-29
