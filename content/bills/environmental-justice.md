@@ -31,59 +31,94 @@ house_lead_sponsors:
 senate_lead_sponsors:
   - sal-didomenico
 co_sponsors:
-  - joan-meschino
-  - adrian-madaro
-  - dylan-fernandes
-  - lindsay-sabadosa
-  - christina-minicucci
-  - carmine-gentile
-  - david-rogers
-  - james-hawkins
+  - marjorie-decker
+  - sean-garballey
+  - mindy-domb
+  - danielle-gregoire
+  - daniel-carey
   - jack-lewis
-  - michelle-dubois
-  - michelle-ciccolo
-  - james-arciero
-  - edward-coppinger
-  - paul-tucker
-  - erika-uyterhoeven
-  - steven-ultrino
-  - james-eldridge
-  - patrick-oconnor
-  - frank-moran
-  - sal-didomenico
-  - william-driscoll
-  - tram-nguyen
+  - tami-gouveia
   - christine-barber
-  - elizabeth-malia
+  - paul-tucker
+  - tram-nguyen
   - jay-livingstone
+  - maria-robinson
+  - jason-lewis
+  - kenneth-gordon
+  - david-linsky
+  - james-oday
+  - william-galvin
+  - jessica-giannino
+  - kevin-honan
+  - natalie-blais
+  - lindsay-sabadosa
+  - carlos-gonzalez
+  - dan-sena
+  - ted-philips
+  - david-rogers
+  - steve-owens
+  - david-leboeuf
+  - michelle-ciccolo
+  - peter-capano
+  - carol-doherty
+  - tommy-vitolo
+  - james-arciero
+  - kate-lipper-garabedian
+  - lori-ehrlich
+  - brian-murray
+  - nika-elugardo
+  - vanna-howard
+  - ruth-balser
+  - adrian-madaro
+  - edward-coppinger
+  - tricia-farley-bouvier
+  - dylan-fernandes
+  - richard-haggerty
+  - john-lawn
+  - john-mahoney
+  - alice-peisch
   - thomas-stanley
-  - sal-didomenico
+  - steven-ultrino
+  - kathleen-lanatra
+  - marcos-devers
+  - john-rogers
+  - frank-moran
+  - mike-connolly
+  - michael-kushmerek
+  - daniel-ryan
+  - mary-keefe
+  - david-biele
+  - natalie-higgins
+  - andres-vargas
+  - joanne-comerford
+  - daniel-donahue
+  - jon-santiago
+  - joseph-boncore
+  - jack-lewis
   - joanne-comerford
   - jason-lewis
   - carmine-gentile
-  - james-eldridge
-  - erika-uyterhoeven
-  - john-keenan
-  - susan-moran
-  - joseph-boncore
-  - patricia-jehlen
-  - adam-hinds
   - thomas-stanley
-  - mike-connolly
-  - brian-murray
-  - tami-gouveia
+  - rebecca-rausch
+  - john-rogers
+  - nick-collins
+  - mary-keefe
+  - brendan-crighton
+  - sal-didomenico
+  - harriette-chandler
+  - james-eldridge
+  - patrick-oconnor
+  - christopher-hendricks
+  - christina-minicucci
+  - john-barrett
+  - michael-barrett
+  - julian-cyr
   - kay-khan
-  - david-linsky
-  - patrick-kearney
-  - brandy-fluker-oakley
-  - david-leboeuf
-  - steve-owens
-  - dan-sena
-  - marcos-devers
-  - natalie-higgins
-  - kenneth-gordon
-  - kathleen-lanatra
-  - ted-philips
+  - patricia-duffy
+  - paul-mcmurtry
+  - jacob-oliveira
+  - linda-campbell
+  - tackey-chan
 history:
   - date: 2019-01-22
     description: Referred to the committee on Environment, Natural Resources and Agriculture
@@ -95,6 +130,8 @@ history:
     description: Referred to the committee on The Judiciary
   - date: 2022-02-01
     description: Reporting date extended to April 15, 2022
+  - date: 2020-01-01
+    description: No further action taken
 timeline:
   - description: Referred to the committee on Environment, Natural Resources and Agriculture
     date: 2019-01-22
