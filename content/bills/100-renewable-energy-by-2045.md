@@ -129,9 +129,10 @@ history:
   - date: 2019-07-23
     description: Committee Hearing
   - date: 2020-07-31
-    description:
-      Climate bill passes House without including this bill, Bill sent to study
+    description: Climate bill passes House without including this bill, Bill sent to study
     type: death
+  - date: 2021-03-29
+    description: "Bill reintroduced "
 timeline:
   - date: 2019-01-22
     description: Bill referred to TUE Committee
