@@ -62,6 +62,8 @@ history:
   - date: 2021-01-05
     description: No further action taken
     type: death
+  - date: 2021-03-29
+    description: Bill reintroduced as H.1378
 timeline:
   - description: Referred to the Committee on Housing
     date: 2021-03-29
