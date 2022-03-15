@@ -137,6 +137,8 @@ history:
     description: Referred to the committee on Telecommunications, Utilities and Energy
   - date: 2021-12-09
     description: Joint Hearing scheduled for December 14, 2021
+  - date: 2022-02-09
+    description: Reporting date extended to May 2, 2022
 timeline:
   - date: 2019-01-22
     description: Bill referred to TUE Committee
