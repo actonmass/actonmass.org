@@ -133,6 +133,8 @@ history:
     type: death
   - date: 2021-03-29
     description: "Bill reintroduced "
+  - date: 2021-03-29
+    description: Referred to the committee on Telecommunications, Utilities and Energy
 timeline:
   - date: 2019-01-22
     description: Bill referred to TUE Committee
