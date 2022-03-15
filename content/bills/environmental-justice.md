@@ -93,6 +93,8 @@ history:
     description: "Bill reintroduced "
   - date: 2021-03-29
     description: Referred to the committee on The Judiciary
+  - date: 2022-02-01
+    description: Reporting date extended to April 15, 2022
 timeline:
   - description: Referred to the committee on Environment, Natural Resources and Agriculture
     date: 2019-01-22
