@@ -189,6 +189,8 @@ history:
     description: Bill reintroduced as H2418
   - date: 2021-03-29
     description: Referred to the committee on Public Safety and Homeland Security
+  - date: 2021-12-01
+    description: Joint Committee Hearing scheduled
 timeline: []
 votes:
   - legislator: william-straus
