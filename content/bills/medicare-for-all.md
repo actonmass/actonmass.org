@@ -145,6 +145,9 @@ history:
     description: Introduced as H1194
   - date: 2019-06-04
     description: Hearing (Health Care Financing)
+  - date: 2021-01-05
+    description: No further action taken
+    type: death
 timeline:
   - date: 2019-01-22
     description: Referred to the Committee on Health Care Financing
