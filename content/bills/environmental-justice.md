@@ -91,6 +91,8 @@ history:
     date: 2019-06-04
   - date: 2021-03-29
     description: "Bill reintroduced "
+  - date: 2021-03-29
+    description: Referred to the committee on The Judiciary
 timeline:
   - description: Referred to the committee on Environment, Natural Resources and Agriculture
     date: 2019-01-22
