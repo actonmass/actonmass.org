@@ -79,6 +79,8 @@ history:
     description: Bill reintroduced as H.1253
   - date: 2021-03-29
     description: Referred to the committee on Health Care Financing
+  - date: 2021-06-29
+    description: Joint Committee Hearing scheduled
 timeline:
   - date: 2019-05-28
     description: Hearing (Health Care Financing)
