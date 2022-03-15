@@ -124,14 +124,14 @@ history:
     description: Referred to the committee on Environment, Natural Resources and Agriculture
   - description: Hearing scheduled
     date: 2019-06-04
+  - date: 2020-01-01
+    description: No further action taken
   - date: 2021-03-29
     description: "Bill reintroduced "
   - date: 2021-03-29
     description: Referred to the committee on The Judiciary
   - date: 2022-02-01
     description: Reporting date extended to April 15, 2022
-  - date: 2020-01-01
-    description: No further action taken
 timeline:
   - description: Referred to the committee on Environment, Natural Resources and Agriculture
     date: 2019-01-22
