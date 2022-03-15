@@ -191,6 +191,8 @@ history:
     description: Referred to the committee on Public Safety and Homeland Security
   - date: 2021-12-01
     description: Joint Committee Hearing scheduled
+  - date: 2022-02-09
+    description: Reporting date extended to May 4, 2022
 timeline: []
 votes:
   - legislator: william-straus
