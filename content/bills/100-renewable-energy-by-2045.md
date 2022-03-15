@@ -135,6 +135,8 @@ history:
     description: "Bill reintroduced "
   - date: 2021-03-29
     description: Referred to the committee on Telecommunications, Utilities and Energy
+  - date: 2021-12-09
+    description: Joint Hearing scheduled for December 14, 2021
 timeline:
   - date: 2019-01-22
     description: Bill referred to TUE Committee
