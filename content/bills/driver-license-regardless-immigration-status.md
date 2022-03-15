@@ -5,7 +5,6 @@ full_title: The Work and Family Mobility Act
 twitter_bill_name: Work & Family Mobility Act
 house_no: H.3456
 house_link: https://malegislature.gov/Bills/192/HD448
-senate_no: S.2289
 senate_link: https://malegislature.gov/Bills/192/SD273
 committee: joint-transportation
 issue: immigration
@@ -150,6 +149,17 @@ co_sponsors:
   - eric-lesser
   - julian-cyr
   - mary-keefe
+history:
+  - description: Assigned to Transportation Committee
+    date: 2019-01-22
+  - bill_event: drivers-licenses-transpo-comm-2020
+  - date: 2020-12-31
+    description: Bill left to die in committee (Senate Ways & Means)
+    type: death
+  - date: 2021-01-29
+    description: Bill re-filed as HD.448
+  - date: 2021-03-29
+    description: Referred to the committee on Transportation
 timeline:
   - date: 2021-01-29
     description: Bill re-filed as HD.448
@@ -194,13 +204,5 @@ votes:
     vote: true
   - legislator: joseph-boncore
     vote: true
-history:
-  - description: Assigned to Transportation Committee
-    date: 2019-01-22
-  - bill_event: drivers-licenses-transpo-comm-2020
-  - date: 2020-12-31
-    description: Bill left to die in committee (Senate Ways & Means)
-    type: death
-  - date: 2021-01-29
-    description: Bill re-filed as HD.448
+senate_no: S.2289
 ---
