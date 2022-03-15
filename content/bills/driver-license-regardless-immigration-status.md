@@ -160,6 +160,8 @@ history:
     description: Bill re-filed as HD.448
   - date: 2021-03-29
     description: Referred to the committee on Transportation
+  - date: 2022-01-31
+    description: Reporting date extended to March 4, 2022
 timeline:
   - date: 2021-01-29
     description: Bill re-filed as HD.448
