@@ -64,4 +64,6 @@ history:
     description: Referred to the House Committee on Education
   - date: 2021-09-13
     description: Hearing scheduled - Joint Committee on Education
+  - date: 2022-02-01
+    description: Advanced out of committee - Added to omnibus bill
 ---
