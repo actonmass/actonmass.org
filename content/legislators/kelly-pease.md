@@ -8,7 +8,7 @@ supports_the_campaign_public_bills: false
 supports_the_campaign_committee_votes: false
 supports_the_campaign_term_limits: false
 pledge: false
-party: D
+party: R
 phone: (617) 722-2800 x7306
 email: Kelly.Pease@mahouse.gov
 square_picture: /img/legislators/square-pictures/kelly-pease.jpeg
