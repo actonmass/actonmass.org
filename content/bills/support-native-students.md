@@ -53,4 +53,5 @@ co_sponsors:
   - kay-khan
   - bradley-jones
   - elizabeth-malia
+  - mike-connolly
 ---
