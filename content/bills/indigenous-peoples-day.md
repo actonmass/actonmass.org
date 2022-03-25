@@ -53,6 +53,7 @@ co_sponsors:
   - michael-barrett
   - adam-hinds
   - julian-cyr
+  - mike-connolly
 history:
   - date: 2021-01-15
     description: Introduced as H.3191
