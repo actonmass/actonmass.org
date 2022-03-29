@@ -37,6 +37,18 @@ const candidateSignatories: GatsbyTypes.Legislator[] = [
 
     square_picture: "img/legislators/candidates/raul-fernandez.jpg",
   },
+  {
+    first_name: "Kevin",
+    last_name: "Kalkut",
+    party: "D",
+    // @ts-expect-error
+    district: {
+      chamber: "house",
+      name: "9th Norfolk",
+    },
+
+    square_picture: "img/legislators/candidates/kevil-kalkut.jpg",
+  },
   ,
 ];
 
