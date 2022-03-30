@@ -1,7 +1,7 @@
 ---
 aom_id: erin-leahy
 name: Erin Leahy
-photo: /img/team/Erin.jpg
+photo: /img/team/Erin.png
 hidden: false
 order: 20
 ---
