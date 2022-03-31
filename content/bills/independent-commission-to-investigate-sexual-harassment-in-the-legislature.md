@@ -1,10 +1,8 @@
 ---
 aom_id: independent-commission-to-investigate-sexual-harassment-in-the-legislature
-title:
-  Independent Commission to Investigate Sexual Harassment in the Legislature
+title: Independent Commission to Investigate Sexual Harassment in the Legislature
 full_title: An Act promoting equality and respect in the legislature
-twitter_bill_name:
-  Independent Commission to Investigate Sexual Harassment in the Legislature
+twitter_bill_name: Independent Commission to Investigate Sexual Harassment in the Legislature
 house_no: null
 house_link: null
 senate_no: S.2102
@@ -27,5 +25,18 @@ co_sponsors:
   - eric-lesser
   - dan-sena
   - mike-connolly
-history: []
+history:
+  - date: 2019-01-02
+    description: Introduced as S.1898
+  - type: death
+    date: 2020-02-03
+    description: Sent to study
+  - date: 2021-01-04
+    description: Refiled as S.1202
+  - date: 2021-03-01
+    description: |
+      Sent to State Admin and Regulatory Oversight Committee
+  - description: Sent to study
+    type: death
+    date: 2022-01-03
 ---
