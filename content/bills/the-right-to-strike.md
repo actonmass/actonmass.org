@@ -40,6 +40,15 @@ history:
   - date: 2018-06-10
     description: Sent to study
     type: death
+  - date: 2021-01-04
+    type: null
+    description: Refiled as H.1946
+  - date: 2021-07-31
+    description: Hearing in labor committee
+    type: null
+  - date: 2022-01-03
+    description: Sent to study
+    type: death
 timeline:
   - date: 2019-07-09
     description: Hearing
