@@ -49,6 +49,18 @@ const candidateSignatories: GatsbyTypes.Legislator[] = [
 
     square_picture: "img/legislators/candidates/kevil-kalkut.jpg",
   },
+  {
+    first_name: "Terri",
+    last_name: "Tauro",
+    party: "D",
+    // @ts-expect-error
+    district: {
+      chamber: "house",
+      name: "8th Essex",
+    },
+
+    square_picture: "img/legislators/candidates/terri-tauro.jpg",
+  },
   ,
 ];
 
