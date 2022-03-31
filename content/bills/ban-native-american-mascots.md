@@ -76,4 +76,21 @@ co_sponsors:
   - patricia-jehlen
   - daniel-carey
   - elizabeth-malia
+history:
+  - date: 2019-01-01
+    description: "Introduced "
+  - date: 2019-01-21
+    description: Sent to Education Committee
+  - description: Reported favorably and referred to Senate Ways and Means Committee
+    date: 2020-03-12
+  - date: 2021-01-05
+    description: Let die in Senate Ways and Means
+    type: death
+  - description: "Refiled "
+    date: 2021-01-05
+  - date: 2021-03-29
+    description: Referred committee on Education
+  - description: Reported favorably and referred to Senate Ways and Means Committee
+    date: 2021-07-21
+  - {}
 ---
