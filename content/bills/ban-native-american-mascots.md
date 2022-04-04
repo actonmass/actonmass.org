@@ -92,7 +92,6 @@ history:
     description: Referred committee on Education
   - description: Reported favorably and referred to Senate Ways and Means Committee
     date: 2021-07-21
-  - {}
 timeline:
   - date: 2019-01-01
 ---
