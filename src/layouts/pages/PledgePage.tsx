@@ -61,6 +61,18 @@ const candidateSignatories: GatsbyTypes.Legislator[] = [
 
     square_picture: "img/legislators/candidates/terri-tauro.jpg",
   },
+  {
+    first_name: "Peter",
+    last_name: "Lally",
+    party: "D",
+    // @ts-expect-error
+    district: {
+      chamber: "house",
+      name: "1st Bristol",
+    },
+
+    square_picture: "img/legislators/candidates/peter-lally.jpg",
+  },
   ,
 ];
 
