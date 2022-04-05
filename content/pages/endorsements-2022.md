@@ -5,9 +5,7 @@ layout: default
 ---
 # 2022 State Representative Endorsements
 
-
-
-If you're a candidate for State Representative and wish to apply for endorsement, please complete **this questionnaire** and follow the directions outlined therein for submission.
+If you're a candidate for State Representative and wish to apply for endorsement, please complete **[this questionnaire](https://docs.google.com/document/d/1jt30AzUuSszzKM8tXS2zw51W2g6b2sx1ryCmLwGoK6A/edit)** and follow the directions outlined therein for submission.
 
 The deadline for consideration in our first round of endorsements is May 1st. The deadline for consideration in our second round of endorsements is June 1st. We aim to announce our endorsement decisions in the two to three weeks following their respective deadlines. Once announced, our list of endorsed candidates will be found on this page.
 
