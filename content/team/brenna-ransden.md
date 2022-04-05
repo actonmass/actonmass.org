@@ -1,6 +1,6 @@
 ---
 aom_id: brenna-ransden
-name: Matt Miller
+name: Brenna Ransden
 photo: /img/team/brenna-ransden.jpg
 hidden: false
 order: 25
