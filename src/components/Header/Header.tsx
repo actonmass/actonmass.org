@@ -62,6 +62,23 @@ export default function Header() {
           </ul>
         </div>
       </header>
+      <div
+        className="cbox"
+        style={{
+          padding: "2rem",
+          background: "var(--medium-blue)",
+          fontSize: "2rem",
+          fontWeight: 600,
+          textDecoration: "underline",
+        }}
+      >
+        <a
+          className="btn"
+          href="https://docs.google.com/forms/d/e/1FAIpQLSdwajpL3WZeMHagH3UDAy7ycIK7B0XXIUd2chtyLsaWczTOOQ/viewform?usp=sf_link"
+        >
+          Sign up for our 2022 Ballot Campaign
+        </a>
+      </div>
     </>
   );
 }
