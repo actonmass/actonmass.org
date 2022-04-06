@@ -73,6 +73,18 @@ const candidateSignatories: GatsbyTypes.Legislator[] = [
 
     square_picture: "img/legislators/candidates/peter-lally.jpg",
   },
+  {
+    first_name: "Tara",
+    last_name: "Hong",
+    party: "D",
+    // @ts-expect-error
+    district: {
+      chamber: "house",
+      name: "18th Middlesex",
+    },
+
+    square_picture: "img/legislators/candidates/tara-hong.jpg",
+  },
   ,
 ];
 
@@ -128,6 +140,10 @@ export default function PledgePage({ data }: PageProps<QueryProps>) {
         <section className="pledge_reps cbox light-blue">
           <div className="w1400">
             <h6 className="pledge_leg_title fRaleway fUppercase fExbold">Current signatories</h6>
+            <h6 style={{ backgroundColor: "#afcbff", padding: "2rem" }}>
+              Are you a legislator or candidate and want to sign the Pledge? Contact us at{" "}
+              <a href="mailto:info@actonmass.org">info@actonmass.org</a> to learn how.
+            </h6>
             <h4 className="pledge_leg_subtitle fRaleway fUppercase fRegular">Candidates:</h4>
             <div className="legislator-grid">
               {candidateSignatories.map((candidate) => (
