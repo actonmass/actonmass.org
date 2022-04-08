@@ -39,6 +39,8 @@ the People’s House. Will you join us?
 
 </Section>
 
+<Section color="light-blue" width="1000">
+
 <div
   style={{
     position: "relative",
@@ -72,6 +74,7 @@ the People’s House. Will you join us?
   ></iframe>
 </div>
 
+</Section>
 
 <Section color="medium-blue" width="1000">
 
