@@ -10,9 +10,9 @@ senate_link: https://malegislature.gov/Bills/192/SD1539
 issue: gender-equity
 summary: []
 orgs:
-  - title: PM
-    img: ""
-    link: ""
+  - title: League of Woman Voters Massachusetts
+    img: /img/lwvma.png
+    link: https://lwvma.org/advocacy/league-supported-legislation-2/
 house_lead_sponsors: []
 senate_lead_sponsors:
   - rebecca-rausch
