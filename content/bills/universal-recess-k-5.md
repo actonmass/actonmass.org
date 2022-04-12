@@ -17,8 +17,8 @@ summary:
     program or curriculum changes
 orgs:
   - title: MTA
-    img: ""
-    link: ""
+    img: /img/download-2-.png
+    link: https://massteacher.org/current-initiatives/legislative-action
 house_lead_sponsors:
   - jon-santiago
 senate_lead_sponsors:
