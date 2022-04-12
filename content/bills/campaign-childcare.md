@@ -14,7 +14,10 @@ summary:
   - Allows candidates for office to pay for necessary child care expenses from
     campaign funds
   - Catches MA up to states like Texas, Alabama, and Wisconsin
-orgs: []
+orgs:
+  - link: https://lwvma.org/advocacy/league-supported-legislation-2/
+    title: League of Woman Voters Massachusetts
+    img: /img/lwvma.png
 house_lead_sponsors:
   - mike-connolly
   - joan-meschino
