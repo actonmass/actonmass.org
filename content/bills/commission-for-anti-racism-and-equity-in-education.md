@@ -23,8 +23,8 @@ text: Students and staff of color are underrepresented and underserved in our
   history and narratives of white people, and uphold colonial frameworks.
 orgs:
   - title: CARE
-    img: ""
-    link: ""
+    img: /img/care-long-logo_jan2022_edited.png
+    link: https://www.care4eduequity.org/our-biills
 house_lead_sponsors:
   - nika-elugardo
   - erika-uyterhoeven
