@@ -21,8 +21,8 @@ text: Standardized testing might sound like a good idea on the surface. But
   to convert our public education system into a private one.
 orgs:
   - title: MTA
-    img: ""
-    link: ""
+    img: /img/mta_logo_new_color.png
+    link: https://massteacher.org/current-initiatives/high-stakes-testing
 house_lead_sponsors:
   - james-hawkins
 senate_lead_sponsors:
