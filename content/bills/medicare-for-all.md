@@ -17,7 +17,10 @@ summary:
     deductibles
   - Bans private insurance coverage for services already covered by the
     single-payer system
-orgs: []
+orgs:
+  - title: MassCare
+    link: https://masscare.org/
+    img: /img/masscare-copy.png
 house_lead_sponsors:
   - denise-garlick
   - lindsay-sabadosa
