@@ -23,6 +23,9 @@ orgs:
   - title: MTA
     img: /img/mta_logo_new_color.png
     link: https://massteacher.org/current-initiatives/high-stakes-testing
+  - link: https://massedjustice.org/highstakes-testing
+    title: MEJA
+    img: /img/meja-logo-final.png
 house_lead_sponsors:
   - james-hawkins
 senate_lead_sponsors:
