@@ -17,8 +17,8 @@ summary:
     closure unless the essential service is restored
 orgs:
   - title: MNA
-    img: ""
-    link: ""
+    img: /img/mna_logo_.png
+    link: https://www.massnurses.org/news-and-events/p/openItem/11323
 house_lead_sponsors:
   - edward-coppinger
 senate_lead_sponsors:
