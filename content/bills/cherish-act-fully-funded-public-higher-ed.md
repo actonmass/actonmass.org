@@ -30,9 +30,6 @@ orgs:
   - title: Fund our Future
     img: /img/fin_fundourfuture_coalition_logo_small_yellow_web-1.png
     link: https://fundourfuturema.org/higher-ed/
-  - title: PHENOM
-    img: ""
-    link: ""
 house_lead_sponsors:
   - sean-garballey
   - paul-mark
