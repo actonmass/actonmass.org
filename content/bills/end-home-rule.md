@@ -18,7 +18,16 @@ summary:
   - Enables municipalities to enact just cause eviction protections, prohibiting
     landlords from evicting tenants without just cause (such as failure to pay
     rent, property damage, etc.)
-orgs: []
+orgs:
+  - title: Mass Alliance of HUD Tenants
+    link: https://www.maht.org/2022_priority_bills
+    img: /img/244642792_227877849376781_5867340939073692798_n.jpg
+  - title: Homes for all Massachusetts
+    link: https://www.homesforallmass.org/
+    img: /img/screen-shot-2022-04-12-at-3.49.55-pm.png
+  - title: City Life/Vida Urbana
+    link: https://www.clvu.org/
+    img: /img/logo_with_tagline-01.png
 house_lead_sponsors:
   - mike-connolly
   - nika-elugardo
