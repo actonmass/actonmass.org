@@ -59,3 +59,9 @@ candidates:
     chamber: senate
     district_name: 2nd Essex
     square_picture: /img/legislators/candidates/kyle-davis.jpg
+  - first_name: Michael
+    last_name: Lavery
+    party: GRP
+    district_name: 3rd Berkshire
+    chamber: house
+    square_picture: /img/legislators/candidates/michael-lavery.png
