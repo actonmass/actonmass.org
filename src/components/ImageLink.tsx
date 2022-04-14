@@ -12,7 +12,7 @@ export function ImageLink({ img, title, link, imgClassName }: Props) {
   const inside = _.isEmpty(img) ? (
     <p>{title}</p>
   ) : (
-    <img className={imgClassName} src={img} alt={title} />
+    <img className={`${imgClassName} image-link`} src={img} alt={title} />
   );
   if (_.isEmpty(img)) {
     return inside;
