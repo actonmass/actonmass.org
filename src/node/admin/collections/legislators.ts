@@ -4,6 +4,7 @@ export const partySelector = {
   label: "Party",
   name: "party",
   widget: "select",
+  required: false,
   options: [
     {
       label: "Democrat",
@@ -12,6 +13,10 @@ export const partySelector = {
     {
       label: "Republican",
       value: "R",
+    },
+    {
+      label: "Green-Rainbow Party",
+      value: "GRP",
     },
   ],
 };
