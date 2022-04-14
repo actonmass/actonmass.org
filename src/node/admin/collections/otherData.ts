@@ -102,6 +102,8 @@ export default {
               name: "square_picture",
               widget: "image",
               required: false,
+              media_folder: "/static/img/legislators/candidates/",
+              public_folder: "/img/legislators/candidates/",
             },
           ],
         },

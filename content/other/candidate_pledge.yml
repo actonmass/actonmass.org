@@ -41,3 +41,15 @@ candidates:
     district_name: 18th Middlesex
     chamber: house
     square_picture: /img/legislators/candidates/tara-hong.jpg
+  - first_name: Tamisha
+    last_name: Civil
+    party: D
+    district_name: 6th Norfolk
+    chamber: house
+    square_picture: /img/legislators/candidates/tamisha-civil.jpeg
+  - first_name: Paula
+    last_name: Kingsbury-Evans
+    party: D
+    district_name: 1st Berkshire
+    chamber: house
+    square_picture: /img/legislators/candidates/paula-kingsbury-evans.jpeg
