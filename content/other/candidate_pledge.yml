@@ -1,0 +1,43 @@
+candidates:
+  - first_name: Vivian
+    last_name: Birchall
+    party: D
+    district: house-14th-middlesex
+    district_name: 14th Middlesex
+    chamber: house
+    square_picture: /img/legislators/candidates/vivian-birchall.jpg
+  - first_name: Raul
+    last_name: Fernandez
+    party: D
+    district: house-15th-norfolk
+    district_name: 15th Norfolk
+    chamber: house
+    square_picture: /img/legislators/candidates/raul-fernandez.jpg
+  - first_name: Kevin
+    last_name: Kalkut
+    party: D
+    district: house-9th-norfolk
+    district_name: 9th Norfolk
+    chamber: house
+    square_picture: /img/legislators/candidates/kevil-kalkut.jpg
+  - square_picture: /img/legislators/candidates/terri-tauro.jpg
+    district: house-8th-essex
+    district_name: 8th Essex
+    chamber: house
+    party: D
+    last_name: Tauro
+    first_name: Terri
+  - first_name: Peter
+    square_picture: /img/legislators/candidates/peter-lally.jpg
+    district: house-1st-bristol
+    district_name: 1st Bristol
+    chamber: house
+    party: D
+    last_name: Lally
+  - first_name: Tara
+    last_name: Hong
+    party: D
+    district: house-18th-middlesex
+    district_name: 18th Middlesex
+    chamber: house
+    square_picture: /img/legislators/candidates/tara-hong.jpg

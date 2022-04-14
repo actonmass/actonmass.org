@@ -1,4 +1,6 @@
-import { legislator_picker, script, script_req_only, menu } from "../common";
+import { script, script_req_only, menu } from "../common";
+
+import { districtSelector, partySelector } from "./legislators";
 
 export default {
   name: "site_data",
@@ -46,6 +48,62 @@ export default {
           name: "footer",
           widget: "list",
           ...menu,
+        },
+      ],
+    },
+    {
+      label: "Candidate pledges",
+      name: "candidate_pledges",
+      file: "content/other/candidate_pledge.yml",
+      fields: [
+        {
+          label: "Candidates who signed the pledge",
+          name: "candidates",
+          widget: "list",
+          collapsed: false,
+          fields: [
+            {
+              label: "First name",
+              name: "first_name",
+              widget: "string",
+            },
+            {
+              label: "Last name",
+              name: "last_name",
+              widget: "string",
+            },
+            partySelector,
+            {
+              label: "District Name",
+              name: "district_name",
+              widget: "relation",
+              collection: "districts",
+              search_fields: ["name"],
+              display_fields: ["name"],
+              value_field: "name",
+            },
+            {
+              label: "Chamber",
+              name: "chamber",
+              widget: "select",
+              options: [
+                {
+                  label: "House",
+                  value: "house",
+                },
+                {
+                  label: "Senate",
+                  value: "senate",
+                },
+              ],
+            },
+            {
+              label: "Square Picture",
+              name: "square_picture",
+              widget: "image",
+              required: false,
+            },
+          ],
         },
       ],
     },

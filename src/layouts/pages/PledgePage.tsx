@@ -5,6 +5,8 @@ import _ from "lodash";
 import { BreadCrum, HeroImage, FindMyReps, LegCircle } from "../../components";
 import { RequestSignPledgeMyRep } from "../../components/Modals";
 import { BaseLayout } from "..";
+// @ts-ignore
+import { candidates } from "../../../content/other/candidate_pledge.yml";
 
 import "./pledge.scss";
 
@@ -13,80 +15,14 @@ type QueryProps = {
   legs: { nodes: GatsbyTypes.Legislator[] };
 };
 
-const candidateSignatories: GatsbyTypes.Legislator[] = [
-  {
-    first_name: "Vivian",
-    last_name: "Birchall",
-    party: "D",
-    // @ts-expect-error
-    district: {
-      chamber: "house",
-      name: "14th Middlesex",
-    },
-    square_picture: "img/legislators/candidates/vivian-birchall.jpg",
+// A little hacky... Ideally we should properly put this data in GQL
+const candidateSignatories = candidates.map((raw) => ({
+  ...raw,
+  district: {
+    name: raw.district_name,
+    chamber: raw.chamber,
   },
-  {
-    first_name: "Raul",
-    last_name: "Fernandez",
-    party: "D",
-    // @ts-expect-error
-    district: {
-      chamber: "house",
-      name: "15th Norfolk",
-    },
-
-    square_picture: "img/legislators/candidates/raul-fernandez.jpg",
-  },
-  {
-    first_name: "Kevin",
-    last_name: "Kalkut",
-    party: "D",
-    // @ts-expect-error
-    district: {
-      chamber: "house",
-      name: "9th Norfolk",
-    },
-
-    square_picture: "img/legislators/candidates/kevil-kalkut.jpg",
-  },
-  {
-    first_name: "Terri",
-    last_name: "Tauro",
-    party: "D",
-    // @ts-expect-error
-    district: {
-      chamber: "house",
-      name: "8th Essex",
-    },
-
-    square_picture: "img/legislators/candidates/terri-tauro.jpg",
-  },
-  {
-    first_name: "Peter",
-    last_name: "Lally",
-    party: "D",
-    // @ts-expect-error
-    district: {
-      chamber: "house",
-      name: "1st Bristol",
-    },
-
-    square_picture: "img/legislators/candidates/peter-lally.jpg",
-  },
-  {
-    first_name: "Tara",
-    last_name: "Hong",
-    party: "D",
-    // @ts-expect-error
-    district: {
-      chamber: "house",
-      name: "18th Middlesex",
-    },
-
-    square_picture: "img/legislators/candidates/tara-hong.jpg",
-  },
-  ,
-];
+}));
 
 export default function PledgePage({ data }: PageProps<QueryProps>) {
   const page = data.page;

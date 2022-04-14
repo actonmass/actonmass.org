@@ -1,5 +1,31 @@
 import { id_field, date_picker } from "../common";
 
+export const partySelector = {
+  label: "Party",
+  name: "party",
+  widget: "select",
+  options: [
+    {
+      label: "Democrat",
+      value: "D",
+    },
+    {
+      label: "Republican",
+      value: "R",
+    },
+  ],
+};
+
+export const districtSelector = {
+  label: "District",
+  name: "district",
+  widget: "relation",
+  collection: "districts",
+  search_fields: ["chamber", "name"],
+  display_fields: ["chamber", "name"],
+  value_field: "aom_id",
+};
+
 export default {
   name: "legislators",
   label: "Legislators",
@@ -26,15 +52,7 @@ export default {
       name: "last_name",
       widget: "string",
     },
-    {
-      label: "District",
-      name: "district",
-      widget: "relation",
-      collection: "districts",
-      search_fields: ["chamber", "name"],
-      display_fields: ["chamber", "name"],
-      value_field: "aom_id",
-    },
+    districtSelector,
     {
       label: "Supports the campaign",
       name: "supports_the_campaign",
@@ -65,21 +83,7 @@ export default {
       widget: "boolean",
       default: false,
     },
-    {
-      label: "Party",
-      name: "party",
-      widget: "select",
-      options: [
-        {
-          label: "Democrat",
-          value: "D",
-        },
-        {
-          label: "Republican",
-          value: "R",
-        },
-      ],
-    },
+    partySelector,
     {
       label: "Phone number",
       name: "phone",
