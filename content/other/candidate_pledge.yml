@@ -53,3 +53,9 @@ candidates:
     district_name: 1st Berkshire
     chamber: house
     square_picture: /img/legislators/candidates/paula-kingsbury-evans.jpeg
+  - first_name: Kyle
+    last_name: Davis
+    party: D
+    chamber: senate
+    district_name: 2nd Essex
+    square_picture: /img/legislators/candidates/rep-pics-for-website-1-.png
