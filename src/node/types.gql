@@ -50,7 +50,7 @@ type Legislator implements Node @dontInfer {
   aom_id: String!
   first_name: String!
   last_name: String!
-  party: String!
+  party: String
   phone: String
   email: String
   hometown: String

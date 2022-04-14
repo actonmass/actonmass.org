@@ -115,7 +115,7 @@ function LegCircle({ leg, status }) {
         </div>
       </div>
       <h4 className="fRoboto fBold">
-        {getFullName(leg)} ({leg.party})
+        {getFullName(leg)} {leg.party && `(${leg.party})`}
       </h4>
     </div>
   );

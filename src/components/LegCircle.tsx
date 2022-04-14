@@ -30,7 +30,7 @@ export default function LegCircle({ rep, status, size, msg, showChamber }: Props
         </div>
       </div>
       <div className="fRoboto fLight">
-        {rep.first_name} {rep.last_name} ({rep.party})
+        {rep.first_name} {rep.last_name} {rep.party && `(${rep.party})`}
       </div>
       {repLocation && (
         <h5 className="fRoboto fLight">

@@ -47,7 +47,8 @@ export default function LegislatorPage({ leg, issues }: Props) {
                 )}
 
                 <p className="fRoboto fLight fWhite">
-                  {legTitle} {leg.first_name} {leg.last_name} - {leg.party}
+                  {legTitle} {leg.first_name} {leg.last_name}
+                  {leg.party && <> - {leg.party}</>}
                 </p>
                 <div className="icons">
                   {!_.isEmpty(leg.email) && (

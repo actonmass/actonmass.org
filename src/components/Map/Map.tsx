@@ -151,7 +151,8 @@ export default class LegislatorMap extends React.Component {
                   <Marker position={[leg.lat, leg.lng]} icon={getIcon(leg, refSize)} key={leg.href}>
                     <Popup offset={[0, -20 * refSize]}>
                       <span>
-                        <Link to={leg.href}>{leg.name}</Link> - {leg.party}
+                        <Link to={leg.href}>{leg.name}</Link>
+                        {leg.party && <> - {leg.party}</>}
                       </span>
                     </Popup>
                   </Marker>

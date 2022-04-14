@@ -8,8 +8,7 @@ supports_the_campaign_public_bills: true
 supports_the_campaign_committee_votes: true
 supports_the_campaign_term_limits: true
 pledge: true
-party: D
-phone: (617) 722-2800 x7314
+phone: (617) 722-2800 7314
 facebook: https://www.facebook.com/electerika/
 ocd_id: ocd-person/a3f4c05a-b51a-4b8f-bc5d-d4cb82d74164
 email: Erika.Uyterhoeven@mahouse.gov
