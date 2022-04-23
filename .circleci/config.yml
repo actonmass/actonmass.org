@@ -3,7 +3,7 @@ version: 2
 jobs:
   build:
     docker:
-      - image: circleci/node:12.16.1-buster-browsers # use the browsers variant image to have Java preinstalled as it is a dependency of html5validator
+      - image: circleci/node:14.18.0-buster-browsers # use the browsers variant image to have Java preinstalled as it is a dependency of html5validator
 
     steps:
       - checkout
