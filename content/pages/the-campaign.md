@@ -262,6 +262,7 @@ our campaign for a healthy democracy.
   <img src="/img/campaign-endorsements/MassPoliticalCooperative.png" alt="Mass Political Cooperative" />
   <img src="/img/campaign-endorsements/DefundNPD.png" alt="Defound NPD" />
   <img src="/img/campaign-endorsements/SommDems_Logo-Small-1.png" alt="Sommerville Democrats" />
+  <img src="/img/campaign-endorsements/Regeneration-Massachusetts.png" alt="Regeneration Massachusetts" />
   <CenteredBlock>Social Justice Committee of First Parish Unitarian Universalist of Arlington</CenteredBlock>
   <CenteredBlock>Mystic Valley Action for Choice</CenteredBlock>
   <CenteredBlock>Milford Democratic Town Commitee</CenteredBlock>
