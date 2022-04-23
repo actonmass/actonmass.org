@@ -7,6 +7,7 @@ import BaseLayout from "../BaseLayout";
 import { HeroImage, SignupForm, FindMyReps, YoutubeVideo } from "../../components";
 import HeroContainer from "../../components/HeroImage/HeroContainer";
 import "./home.scss";
+import ModalForm from "../../components/ModalForm";
 
 type Issue = GatsbyTypes.Issue;
 
@@ -66,9 +67,76 @@ export default function Home({ data }) {
           </div>
         </section>
 
-        <section id="issues" className="issues">
+        <section className="accountability light-blue">
+          <div className="rect rect1"></div>
+          <h2 className="account_title fUppercase">The People's House</h2>
+          <div className="pledge_left">
+            <HeroImage
+              img="/img/the-campaign.jpg"
+              alt="Protesters in front of the Massachusetts State House"
+            />
+          </div>
+          <div className="account_text">
+            <h3 className="account_text1 fUppercase fExbold">A Campaign for Democracy</h3>
+            <h4 className="account_text2 fRoboto fLight">
+              This July, the State House will be writing its own rulebook. Join your district team
+              to demand that our legislators change the broken, anti-democratic rules in the State
+              House.
+            </h4>
+            <Link to="/the-campaign" className="fRoboto fExbold fUppercase btn btn_pledge">
+              the campaign
+            </Link>
+          </div>
+        </section>
+
+        <section className="pledge accountability dark">
+          <div className="rect rect1"></div>
+          <h2 className="account_title fUppercase">the transparency pledge:</h2>
+          <div className="pledge_left">
+            <HeroImage img="/img/pledge_img.png" alt="Rep Gouveia signed the pledge!" />
+          </div>
+          <div className="account_text">
+            <h3 className="account_text1 fUppercase fExbold">Together we can create change.</h3>
+            <h4 className="account_text2 fRoboto fLight">
+              We can ask our elected legislators to take action to create transparency today so
+              important progressive bills don’t die in darkness.
+            </h4>
+            <Link to="/pledge" className="fRoboto fExbold fUppercase btn btn_pledge">
+              the pledge
+            </Link>
+          </div>
+        </section>
+
+        <section className="accountability light-blue">
+          <div className="rect rect1"></div>
+          <h2 className="account_title fUppercase">Saturday Scoop</h2>
+          <div className="pledge_left">
+            <HeroImage img="/img/saturday-scoop-logo.png" alt="Saturday scoop ice cream" />
+          </div>
+          <div className="account_text">
+            {/* <h3 className="account_text1 fUppercase fExbold">A Campaign for Democracy</h3> */}
+            <h4 className="account_text2 fRoboto fLight">
+              Sign up for the Saturday Scoop: the weekly newsletter with our breakdown & analysis
+              what's happening on Beacon Hill, and how to take action.
+            </h4>
+            <ModalForm
+              formId="https://secure.everyaction.com/v1/Forms/89W8SSTEgESvjQcBrZD_3Q2"
+              title="Sign up"
+            />
+            {/* <button to="/the-campaign" className="fRoboto fExbold fUppercase btn btn_pledge">
+              Sign up for the scoop
+            </button> */}
+          </div>
+        </section>
+
+        <section id="issues" className="issues light">
           <div className="rect rect1"></div>
           <h2 className="issues_title fUppercase">key progressive issues:</h2>
+          <p>
+            There's a lot at stake when it comes to reforming the State House. Explore these
+            progressive issue areas to see where Massachusetts is falling short, and what bills
+            advocates and experts are fighting for.
+          </p>
           <div className="issues_grid">
             {issues.map((issue) => (
               <Link
@@ -99,47 +167,7 @@ export default function Home({ data }) {
             </Link>
           </div>
         </section>
-
-        <section className="accountability dark">
-          <div className="rect rect1"></div>
-          <h2 className="account_title fUppercase fWhite">The People's House</h2>
-          <div className="pledge_left">
-            <HeroImage
-              img="/img/the-campaign.jpg"
-              alt="Protesters in front of the Massachusetts State House"
-            />
-          </div>
-          <div className="account_text">
-            <h3 className="account_text1 fUppercase fWhite fExbold">A Campaign for Democracy</h3>
-            <h4 className="account_text2 fRoboto fWhite fLight">
-              This July, the State House will be writing its own rulebook. Join your district team
-              to demand that our legislators change the broken, anti-democratic rules in the State
-              House.
-            </h4>
-            <Link to="/the-campaign" className="fRoboto fExbold fUppercase btn btn_pledge">
-              the campaign
-            </Link>
-          </div>
-        </section>
-
-        <section className="pledge accountability light-blue">
-          <div className="rect rect1"></div>
-          <h2 className="account_title fUppercase">the transparency pledge:</h2>
-          <div className="pledge_left">
-            <HeroImage img="/img/pledge_img.png" alt="Rep Gouveia signed the pledge!" />
-          </div>
-          <div className="account_text">
-            <h3 className="account_text1 fUppercase fExbold">Together we can create change.</h3>
-            <h4 className="account_text2 fRoboto fLight">
-              We can ask our elected legislators to take action to create transparency today so
-              important progressive bills don’t die in darkness.
-            </h4>
-            <Link to="/pledge" className="fRoboto fExbold fUppercase btn btn_pledge">
-              the pledge
-            </Link>
-          </div>
-        </section>
-        <FindMyReps theme="light" mode="campaign" allowSelect={true} />
+        <FindMyReps theme="dark" mode="campaign" allowSelect={true} />
       </main>
     </BaseLayout>
   );
