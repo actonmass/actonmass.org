@@ -65,3 +65,9 @@ candidates:
     district_name: 3rd Berkshire
     chamber: house
     square_picture: /img/legislators/candidates/michael-lavery.jpg
+  - first_name: Teresa
+    last_name: English
+    party: D
+    district_name: 22nd Middlesex
+    chamber: house
+    square_picture: /img/legislators/candidates/teresa-english.jpg
