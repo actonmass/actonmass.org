@@ -71,3 +71,9 @@ candidates:
     district_name: 22nd Middlesex
     chamber: house
     square_picture: /img/legislators/candidates/teresa-english.jpg
+  - first_name: Mark
+    last_name: Martinez
+    party: D
+    district_name: 7th Suffolk
+    chamber: house
+    square_picture: /img/legislators/candidates/mark-martinez2.png
