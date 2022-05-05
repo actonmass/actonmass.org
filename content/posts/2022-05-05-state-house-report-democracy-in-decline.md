@@ -42,6 +42,4 @@ Democracy in Decline concludes by listing proposed solutions to the various prob
 The harsh facts outlined in this report must shape our advocacy. As the movement for State House Reform, we must seek to establish a democracy where no single person is able to orchestrate their own political theater. 
 
 \
--- 
-
-*Blog post by Sergio Aguirre, Spring Digital Organizing Intern*
+-- *Blog post by Sergio Aguirre, Spring Digital Organizing Intern*
