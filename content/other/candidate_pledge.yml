@@ -77,3 +77,9 @@ candidates:
     district_name: 7th Suffolk
     chamber: house
     square_picture: /img/legislators/candidates/mark-martinez2.png
+  - first_name: Polly
+    last_name: Titcomb
+    party: D
+    district_name: 8th Essex
+    chamber: house
+    square_picture: /img/legislators/candidates/polly-titcomb.jpg
