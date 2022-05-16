@@ -83,3 +83,9 @@ candidates:
     district_name: 8th Essex
     chamber: house
     square_picture: /img/legislators/candidates/polly-titcomb.jpg
+  - first_name: Sam
+    last_name: Montano
+    party: D
+    district_name: 15th Suffolk
+    chamber: house
+    square_picture: /img/legislators/candidates/sam-montano.png
