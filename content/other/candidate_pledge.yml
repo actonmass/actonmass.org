@@ -95,3 +95,9 @@ candidates:
     district_name: 4th Barnstable
     chamber: house
     square_picture: /img/legislators/candidates/jack-stanton.jpg
+  - first_name: Nichole
+    last_name: Mossalam
+    party: D
+    district_name: 35th Middlesex
+    chamber: house
+    square_picture: /img/legislators/candidates/nichole-mossalam.png
