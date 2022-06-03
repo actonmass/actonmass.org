@@ -58,7 +58,7 @@
     "sass": "^1.32.8",
     "semantic-ui-css": "^2.4.1",
     "semantic-ui-react": "^2.0.3",
-    "sharp": "^0.30.4",
+    "sharp": "^0.30.5",
     "yarn": "^1.22.10"
   },
   "devDependencies": {
