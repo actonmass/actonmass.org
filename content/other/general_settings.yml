@@ -2,6 +2,10 @@ url: https://actonmass.org
 donate_button_url: https://secure.actblue.com/donate/aom2022-q2-web
 description: Act on Mass is a non-profit organization that tracks what happens
   in the Massachusetts State House and the issues that matter to you.
+cta:
+  active: true
+  title: Sign up for our 2022 Ballot Campaign
+  href: https://docs.google.com/forms/d/e/1FAIpQLSdwajpL3WZeMHagH3UDAy7ycIK7B0XXIUd2chtyLsaWczTOOQ/viewform?usp=sf_link
 menu:
   - href: /about-us
     title: About Us
