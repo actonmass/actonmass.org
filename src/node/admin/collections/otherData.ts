@@ -26,6 +26,31 @@ export default {
           hint: "This field is used when sharing a link towards the website on Facebook",
         },
         {
+          label: "Call to action",
+          name: "cta",
+          hint: "If active, this call to action will appear on every page of the website.",
+          widget: "object",
+          fields: [
+            {
+              label: "Active",
+              name: "active",
+              widget: "boolean",
+            },
+            {
+              label: "Title",
+              name: "title",
+              widget: "string",
+              hint: "The text to display in the CTA.",
+            },
+            {
+              label: "Link",
+              name: "href",
+              widget: "string",
+              hint: "The link the CTA points to.",
+            },
+          ],
+        },
+        {
           label: "Main Menu",
           name: "menu",
           widget: "list",
