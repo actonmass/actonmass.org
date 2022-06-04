@@ -157,6 +157,9 @@ history:
     description: Joint Committee Hearing scheduled (Health Care Financing)
   - date: 2022-02-01
     description: Reporting date extended
+  - date: 2022-06-02
+    description: Sent to study
+    type: death
 timeline:
   - date: 2019-01-22
     description: Referred to the Committee on Health Care Financing
