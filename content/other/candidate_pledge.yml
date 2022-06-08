@@ -101,3 +101,9 @@ candidates:
     district_name: 35th Middlesex
     chamber: house
     square_picture: /img/legislators/candidates/nichole-mossalam.png
+  - first_name: Roberto
+    last_name: Jiménez Rivera
+    party: D
+    district_name: 11th Suffolk
+    chamber: house
+    square_picture: /img/legislators/candidates/roberto-jimenez-rivera.png
