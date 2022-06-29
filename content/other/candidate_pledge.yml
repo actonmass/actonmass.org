@@ -107,3 +107,9 @@ candidates:
     district_name: 11th Suffolk
     chamber: house
     square_picture: /img/legislators/candidates/roberto-jimenez-rivera.png
+  - first_name: Shirley
+    last_name: Arriaga
+    party: D
+    district_name: 8th Hampden
+    chamber: house
+    square_picture: /img/legislators/candidates/shirley_arriaga.webp
