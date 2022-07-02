@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "06/11/2022 Saturday Scoop: You win some, you lose some"
-date: 2022-06-12T03:11:06.445Z
+date: 2022-06-11T16:11:00.000Z
 redirect_from: []
 image: /img/saturday-scoop-logo.png
 ---
