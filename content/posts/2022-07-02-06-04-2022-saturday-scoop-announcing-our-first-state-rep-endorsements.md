@@ -35,9 +35,7 @@ The Senate [passed](https://click.everyaction.com/k/46130233/348937015/-1109178
 
 ## **\*Endorsement Alert\***
 
-We at Act on Mass are absolutely over the moon to announce our first round of endorsements for State Representative. It’s no easy task to find candidates who are down the line progressives, have shown they are dedicated to serving their communities, AND are willi
-
-ng to fight the status quo at the State House. Another thing these candidates all have in common? They can win. They just need our help to do it.
+We at Act on Mass are absolutely over the moon to announce our first round of endorsements for State Representative. It’s no easy task to find candidates who are down the line progressives, have shown they are dedicated to serving their communities, AND are willing to fight the status quo at the State House. Another thing these candidates all have in common? They can win. They just need our help to do it.
 
 ![](/img/unnamed-2.png)
 
