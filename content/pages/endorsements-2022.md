@@ -5,8 +5,27 @@ layout: default
 ---
 # 2022 State Representative Endorsements
 
-If you're a candidate for State Representative and wish to apply for endorsement, please complete **[this questionnaire](https://docs.google.com/document/d/1jt30AzUuSszzKM8tXS2zw51W2g6b2sx1ryCmLwGoK6A/edit)** and follow the directions outlined therein for submission. Candidates who return exceptional questionnaires will be invited to an interview. After the interviews are complete, we will announce our endorsement decisions.
+We are thrilled to endorse the following candidates for State Representative:
 
-The deadline for consideration in our first round of endorsements is May 1st. The deadline for consideration in our second round of endorsements is June 1st. We aim to announce our endorsement decisions in the two to three weeks following their respective deadlines. Once announced, our list of endorsed candidates will be found on this page.
+Raul Fernandez, 15th Norfolk \
+[Website](https://www.raulforrep.com/) / [Volunteer](https://www.raulforrep.com/take-action)
+
+Vivian Birchall, 14th Middlesex\
+[Website](https://www.vivianbirchall.com/) / [Volunteer](https://www.vivianbirchall.com/volunteer)
+
+Jack Stanton, 4th Barnstable\
+[Website](https://www.electjackstanton.org/) / [Volunteer](https://secure.ngpvan.com/AbrezKgRAECTR9MSLJebvw2)
+
+Heather May, 9th Middlesex\
+[Website](https://www.heatherforwaltham.com/) / [Volunteer](https://www.heatherforwaltham.com/get-involved)
+
+Sam Montaño, 15th Suffolk\
+[Website](https://www.samforboston.com/) / [Volunteer](https://www.samforboston.com/#contact)
+
+Nichole Mossalam, 35th Middlesex\
+[Website](https://votemossalam.com/) / [Volunteer](https://votemossalam.com/campaign-events-iframe/)
+
+Teresa English, 22nd Middlesex\
+[Website](https://www.voteteresaenglish.org/) / [Volunteer](https://www.voteteresaenglish.org/get-involved)
 
 View our [2020 endorsements here](https://actonmass.org/post/2020/08/10/2020-primary-endorsements), and our [2021 19th Suffolk special election endorsement here](https://actonmass.org/post/2021/02/09/were-endorsing-juan-jaramillo-for-state-representative).
