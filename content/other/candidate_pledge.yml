@@ -113,3 +113,9 @@ candidates:
     district_name: 8th Hampden
     chamber: house
     square_picture: /img/legislators/candidates/shirley_arriaga.webp
+  - first_name: Timmy
+    last_name: Sullivan
+    party: D
+    district_name: 21st Middlesex
+    chamber: house
+    square_picture: /img/legislators/candidates/timmy-sullivan.png
