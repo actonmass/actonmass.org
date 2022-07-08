@@ -5,7 +5,15 @@ layout: default
 ---
 # 2022 State Representative Endorsements
 
-We are thrilled to endorse the following candidates for State Representative:
+**It’s no easy task to find candidates who are down the line progressives, have shown they are dedicated to serving their communities, and are willing to fight the status quo at the State House. Another thing these candidates all have in common? They can win. They just need our help to do it.**
+
+**Join us for our weekly phonebanks for our endorsed candidates Thursdays 6:00PM - 8:00PM:**
+
+**[SIGN UP TO VOLUNTEER >>](https://secure.everyaction.com/p/4RaZvzFwfUuqxjOYDB8jxQ2)**
+
+
+
+## Our endorsed candidates:
 
 ### Raul Fernandez, 15th Norfolk
 
