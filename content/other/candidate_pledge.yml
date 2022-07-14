@@ -119,3 +119,9 @@ candidates:
     district_name: 21st Middlesex
     chamber: house
     square_picture: /img/legislators/candidates/timmy-sullivan.png
+  - first_name: Cameron
+    last_name: Costa
+    party: D
+    district_name: 9th Bristol
+    chamber: house
+    square_picture: /img/legislators/candidates/cameron-costa.jpg
