@@ -621,7 +621,76 @@ td {
   }
 }
 
-.endorsement-card {
-  max-width: 700px;
-  width: 100%;
+
+.endorsement {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+  grid-template-areas:
+    "box-a"
+    "box-b";
+
+  .endorsement-card {
+    grid-area: box-a;
+    padding: 3rem 2rem 0rem 2rem;
+    display: grid;
+    grid-template-rows: auto 1fr;
+  }
+
+  .endorsement-text {
+    grid-area: box-b;
+    padding: 1rem 2rem 8rem 2rem;
+    display: grid;
+    grid-template-rows: auto 1fr;
+
+    .endorsement-quote {
+      font-style: italic;
+      font-size: 1.5em;
+
+      &::before {
+        content: "“";
+      }
+
+      &::after {
+        content: "“";
+      }
+    }
+
+    .btn-container {
+      text-align: center;
+      padding: 0.5em 0em;
+
+      .btn {
+        margin: 1em 1em;
+      }
+    }
+  }
+
+  @media (min-width: 1100px) {
+    grid-template-columns: 1.25fr 1fr;
+    margin: 0rem 0rem 6rem 0rem;
+    grid-template-areas:
+      "box-a box-b";
+
+    .endorsement-quote {
+      font-size: 1.2em;
+    }
+
+    .endorsement-card {
+      padding: 3rem 2rem 0rem 2rem;
+    }
+
+    .endorsement-text {
+      padding: 4rem 2rem 4rem 2rem;
+    }
+  }
+
+  @media (min-width: 1250px) {
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "box-a box-b";
+
+    .endorsement-quote {
+      font-size: 1.5em;
+    }
+  }
 }
