@@ -145,51 +145,46 @@ history:
   - date: 2013-01-22
     description: Bill filed again as H.450
   - date: 2013-11-27
-    description:
-      Favorably reported from Education committee, referred to Ways & Means
+    description: Favorably reported from Education committee, referred to Ways & Means
   - date: 2014-07-31
     description: dies in House Ways & Means (no action taken)
     type: death
   - date: 2015-01-22
     description: Filed again as H.448
   - date: 2015-09-10
-    description:
-      Education favorably reports, sends to Health Care Financing committee
+    description: Education favorably reports, sends to Health Care Financing committee
   - type: death
     date: 2016-09-26
     description: sent to study
   - date: 2017-01-23
     description: Bill filed again as H.2053
   - date: 2017-05-19
-    description:
-      Education committee favorably reports, sends to Health Care financing
+    description: Education committee favorably reports, sends to Health Care financing
   - date: 2018-06-07
-    description:
-      Health Care Financing committee favorably reports, sends to House Ways &
-      Means
+    description: Health Care Financing committee favorably reports, sends to House
+      Ways & Means
   - date: 2018-07-31
-    description:
-      House Ways & Means committee allows the bill to die (no action taken)
+    description: House Ways & Means committee allows the bill to die (no action taken)
     type: death
   - date: 2019-01-22
     description: Bill filed again, as H.410
-  - date: 2020-06-22
-    description:
-      reporting deadline extended until 12/31/2020, almost ensuring the bill
-      will die again
+  - date: 2020-12-31
+    description: Sent to study
     type: death
   - description: Bill filed again, as H.673
     date: 2021-01-15
     type: null
   - date: 2021-09-23
     description: Passes in the Senate as S.2495, referred to House Ways & Means
+  - date: 2022-07-31
+    description: Died in House Ways & Means
+    type: death
 timeline:
   - date: 2019-01-22
     description: Referred to the Education Committee
   - date: 2020-02-20
-    description:
-      Reported out of committee, referred to Joint Committee on Health Care
-      Financing
+    description: Reported out of committee, referred to Joint Committee on Health
+      Care Financing
   - description: Reporting date extended to 12/31/2020
     date: 2020-06-22
 ---
