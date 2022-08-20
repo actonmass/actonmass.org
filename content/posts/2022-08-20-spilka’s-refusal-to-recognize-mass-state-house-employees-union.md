@@ -1,0 +1,23 @@
+---
+layout: post
+title: Spilka’s refusal to recognize Mass. State House Employee's Union
+date: 2022-08-20T18:08:38.281Z
+image: /img/state-house-union-photo.png
+---
+The 192nd session of the Massachusetts legislature ended at 10:10 AM on August 1st, after an arduous 23-hour final session. While a number of bills were passed at the last minute, some important pieces of legislation such as the “no-cost calls” bill for incarcerated people and their families and tax relief were left behind. Despite pleas from constituents and advocates to extend the formal session by another week or more to finish what they started, legislative leaders opted to close the door on passing any major legislation for the rest of the year. But hey, at least they legalized sports betting, right? 
+
+Not only was this all-nighter session the direct result of our legislature’s chronic procrastination and entirely avoidable, but this 23-hour workday took place mere days after Senate President Karen Spilka sent an email to staffers announcing her [refusal to acknowledge](https://www.nbcboston.com/news/local/spilka-senate-sees-no-path-for-employee-union/2792939/) their long standing unionization movement. The Massachusetts State House Union push dates back to March, when union representatives and employees delivered a letter to Spilka’s office in which they [announced](https://www.wbur.org/news/2022/04/05/mass-senate-staff-launch-unionization-push) their intent to form a union with IBEW Local 2222. If successful, they would become the second unionized state legislative staff in the country after Oregon.
+
+There has long been discontent brewing among staffers concerning working conditions at the State House; a [Beacon Bloc survey](https://www.beaconbloc.us/staff-led-survey-results-summary) conducted in May 2021 found that almost 90% of staffers believed they were not fairly compensated, and 16% said they have experienced food insecurity.
+
+“Staffers explained that the cost of living in the greater Boston area demanded a higher, more livable wage. Legislative Aides in particular – with a salary of around $43,000 annually – felt that their take home salary of around $28,000 was unlivable in the Boston area. Many respondents reporting needing a second job in order to make ends meet. Some staffers said that they lived with their parents or other family members in order to cut costs, saying that they would be unable to afford rent and other expenses in the Boston area with their current salary,” ([Beacon Bloc Survey Results](https://www.beaconbloc.us/staff-led-survey-results-summary)). 
+
+Almost a whole year later, the unionization effort was launched by the nearly 300-person workforce of legislative staffers. The union’s goal was to negotiate a [contract](https://www.wgbh.org/news/local-news/2022/04/04/were-not-disposable-massachusetts-senate-staff-move-to-form-union) which would ensure a fair and equitable pay under a transparent pay structure, a workplace free from sexual harassment and identity-based discrimination, and health insurance benefits which would start on the first day of employment (there is currently a 60-day delay in eligibility for benefits for State House staffers). 
+
+Senate President Spilka’s refusal to recognize the union because of the ‘unique structure of the Senate’ coupled with the blatant overworking of these legislative staffers - especially in the last weeks before the end of this session - is not only a slap in the face to the State Houses’ own staff, but an insult to the values of democracy that the State House supposedly espouses. Any statutory barriers to allowing legislative staff to unionize could be quickly changed if State House leadership had any interest in doing so. The truth is, like many in positions of power over employees, Spilka wants to maintain [her power](https://www.bostonglobe.com/2022/03/03/metro/state-senate-hires-pay-consultant-wake-report-that-says-staff-pay-breaks-with-best-practice/?et_rid=1767637600&s_campaign=todaysheadlines:newsletter) rather than recognize the right to unionize. 
+
+Despite Spilka and Senate leaders’ blatant disregard of the staffers’ efforts, the union has not given up and have vowed to continue the fight for improving their workplace conditions and treatment. Organizers for the State House Employee Union have outlined their plans to meet with staff in the coming days and weeks, [assuring](https://www.wgbh.org/news/local-news/2022/07/29/state-house-staffers-arent-buying-spilkas-reason-to-reject-their-union) supporters that their “pursuit of an equal, just, and supportive legislative workplace is just the beginning” of their plans. 
+
+
+
+*Blog by Siham Araye*
