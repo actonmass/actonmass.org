@@ -11,7 +11,6 @@ layout: default
 
 **[SIGN UP TO VOLUNTEER >>](https://secure.everyaction.com/p/4RaZvzFwfUuqxjOYDB8jxQ2)**
 
-
 <hr/><br/>
 
 ## Our endorsed candidates:
@@ -112,6 +111,22 @@ layout: default
 <p class="endorsement-quote">As a Civics teacher, I know how important it is for our neighbors to be educated and engaged. I am proud to work with Act on Mass to ensure the fundamental tenets of our democracy, transparency and accountability, are finally enacted at our State House. Together we will continue working towards a healthy democracy and brighter tomorrow.</p>
 
 <div class="btn-container"><a class="btn" href="https://www.voteteresaenglish.org/">Website</a> <a class="btn" href="https://www.voteteresaenglish.org/get-involved">Volunteer</a></div>
+
+</div>
+</div>
+
+### Timmy Sullivan, 21st Middlesex
+
+<div class="endorsement">
+
+
+![](/img/timmy-sullivan.jpg)
+
+<div class="endorsement-text">
+
+<p class="endorsement-quote">Act on Mass’ advocacy taught me so much about how the State House (doesn’t) work. In many ways, they are why I am running— to transform power in our Commonwealth by building up our grassroots democracy. I am so happy to have earned their support in our race and look forward to what we will accomplish together.</p>
+
+<div class="btn-container"><a class="btn" href="https://www.votetimmysullivan.com/">Website</a> <a class="btn" href="https://docs.google.com/forms/d/e/1FAIpQLSeLW_WpSqrkNBQxAle6idzgM2K_COzqLD14mv1DzGXjdfPLqg/viewform?c=0&flr=0&vc=0&w=1">Volunteer</a></div>
 
 </div>
 </div>
