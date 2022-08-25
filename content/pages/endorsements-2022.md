@@ -118,9 +118,7 @@ layout: default
 ### Timmy Sullivan, 21st Middlesex
 
 <div class="endorsement">
-
-
-![](/img/timmy-sullivan.jpg)
+<img src="/img/timmy-sullivan.jpg" class="endorsement-card" alt="Headshot of Timmy Sullivan with text: &quot;Act on Mass proudly endorses Timmy Sullivan - State Representative, 21st Middlesex&quot;"/>
 
 <div class="endorsement-text">
 
