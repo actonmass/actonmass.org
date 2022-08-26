@@ -219,7 +219,15 @@ history:
     type: death
   - description: Reported favorably and referred to House Ways & Means
     date: 2020-10-29
+    type: null
   - description: Bill left to die in Ways & Means
+    type: death
+  - description: Bill filed as H.1959
+    type: null
+  - description: Committee Hearing
+    type: null
+  - description: Reported favorably by committee, referred to House Ways & Means
+  - {}
 timeline:
   - description: Sent to the Labor and Workforce Committee
     date: 2019-01-22
