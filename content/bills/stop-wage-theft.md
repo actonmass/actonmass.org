@@ -1,9 +1,8 @@
 ---
 aom_id: stop-wage-theft
 title: Stop Wage Theft
-full_title:
-  An Act to prevent wage theft, promote employer accountability, and enhance
-  public enforcement
+full_title: An Act to prevent wage theft, promote employer accountability, and
+  enhance public enforcement
 twitter_bill_name: Stop Wage Theft
 house_no: H.1959
 house_link: https://malegislature.gov/Bills/192/HD967
@@ -197,8 +196,7 @@ history:
   - date: 2017-01-23
     description: H.1033 (previous version) sent to Labor committee
   - date: 2018-03-09
-    description:
-      Favorably reported by Labor committee, sent to Senate Ways & Means
+    description: Favorably reported by Labor committee, sent to Senate Ways & Means
   - date: 2018-06-07
     description: "Favorable Report by Senate Ways & Means "
   - date: 2018-06-21
@@ -211,8 +209,7 @@ history:
   - date: 2015-09-22
     description: Hearing in Labor committee
   - date: 2016-04-07
-    description:
-      Favorable report by Labor committee, sent to Senate Ways & Means
+    description: Favorable report by Labor committee, sent to Senate Ways & Means
   - date: 2016-07-08
     description: Favorable report by Senate Ways & Means
   - date: 2016-07-13
@@ -220,6 +217,9 @@ history:
   - date: 2016-07-31
     description: DIes in House Ways & Means committeee after no action
     type: death
+  - description: Reported favorably and referred to House Ways & Means
+    date: 2020-10-29
+  - description: Bill left to die in Ways & Means
 timeline:
   - description: Sent to the Labor and Workforce Committee
     date: 2019-01-22
