@@ -5,17 +5,13 @@ layout: default
 ---
 # 2022 State Representative Endorsements
 
-**It’s no easy task to find candidates who are down the line progressives, have shown they are dedicated to serving their communities, and are willing to fight the status quo at the State House. Another thing these candidates all have in common? They can win. They just need our help to do it.**
-
-**Join us for our weekly phonebanks for our endorsed candidates Thursdays 6:00PM - 8:00PM:**
-
-**[SIGN UP TO VOLUNTEER >>](https://secure.everyaction.com/p/4RaZvzFwfUuqxjOYDB8jxQ2)**
+**It’s no easy task to find candidates who are down the line progressives, have shown they are dedicated to serving their communities, and are willing to fight the status quo at the State House. Another thing these candidates all have in common? They can win. They just need our help to do it. Use the links below to sign up to volunteer for these campaigns.**
 
 <hr/><br/>
 
-## Our endorsed candidates:
-
 <br/>
+
+
 
 ### Raul Fernandez, 15th Norfolk
 
@@ -128,5 +124,9 @@ layout: default
 
 </div>
 </div>
+
+
+
+You can find all the endorsement questionnaires received by Act on Mass this campaign cycle [here](https://drive.google.com/drive/folders/1Hg46U-NtlLtecZ1cXVap3VMG46U97aJw?usp=sharing). 
 
 View our [2020 endorsements here](https://actonmass.org/post/2020/08/10/2020-primary-endorsements), and our [2021 19th Suffolk special election endorsement here](https://actonmass.org/post/2021/02/09/were-endorsing-juan-jaramillo-for-state-representative).
