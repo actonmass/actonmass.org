@@ -125,8 +125,6 @@ layout: default
 </div>
 </div>
 
-
-
-You can find all the endorsement questionnaires received by Act on Mass this campaign cycle [here](https://drive.google.com/drive/folders/1Hg46U-NtlLtecZ1cXVap3VMG46U97aJw?usp=sharing). 
+You can find all the endorsement questionnaires received by Act on Mass this campaign cycle [here](https://drive.google.com/drive/folders/1Hg46U-NtlLtecZ1cXVap3VMG46U97aJw?usp=sharing).
 
 View our [2020 endorsements here](https://actonmass.org/post/2020/08/10/2020-primary-endorsements), and our [2021 19th Suffolk special election endorsement here](https://actonmass.org/post/2021/02/09/were-endorsing-juan-jaramillo-for-state-representative).
