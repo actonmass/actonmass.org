@@ -227,7 +227,6 @@ history:
   - description: Committee Hearing
     type: null
   - description: Reported favorably by committee, referred to House Ways & Means
-  - {}
 timeline:
   - description: Sent to the Labor and Workforce Committee
     date: 2019-01-22
