@@ -44,6 +44,8 @@ the People’s House. Will you join us?
 
 ## We're on the ballot in 20 districts across the state!
 
+<Section>
+
 | **Question 5**                | **Question 6**                                     | **Question 8**                                |
 | ----------------------------- | -------------------------------------------------- | --------------------------------------------- |
 | 8th Essex — Rep. Ehrlich      | 4th Barnstable — Rep. Peake                        | \*3rd Plymouth — Rep. Meschino (HINGHAM ONLY) |
@@ -67,7 +69,7 @@ the People’s House. Will you join us?
 
 <Section color="medium-blue" width="1000">
 
-  <Block>
+</Section>
 
 ## The House voted on the Rules on July 7!
 
