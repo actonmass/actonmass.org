@@ -40,6 +40,8 @@ the People’s House. Will you join us?
 
 <Section color="light-blue" width="1000">
 
+  <Block>
+
 ## We're on the ballot in 20 districts across the state!
 
 | **Question 5**                | **Question 6**                                     | **Question 8**                                |
@@ -64,6 +66,8 @@ the People’s House. Will you join us?
 |                               | 12th Worcester — Rep. Kilcoyne                     |                                               |
 
 <Section color="medium-blue" width="1000">
+
+  <Block>
 
 ## The House voted on the Rules on July 7!
 
