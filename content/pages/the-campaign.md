@@ -40,11 +40,8 @@ the People’s House. Will you join us?
 
 <Section color="light-blue" width="1000">
 
-  <Block>
-
 ## We're on the ballot in 20 districts across the state!
 
-<Section>
 
 | **Question 5**                | **Question 6**                                     | **Question 8**                                |
 | ----------------------------- | -------------------------------------------------- | --------------------------------------------- |
