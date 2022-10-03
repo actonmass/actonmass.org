@@ -40,61 +40,12 @@ the People’s House. Will you join us?
 
 <Section color="light-blue" width="1000">
 
-<Section color="light-blue" width="1000">
-
-## We're on the ballot in 20 districts across the state!
-
-Transparency will be on the ballot in the following 20 districts. The question number changes based on which district you are registered to vote in.
-
-<TwoSidedBlock>
-
-<Block>
-
-**Question 5**
-
-* 8th Essex — Rep. Erlich
-* 19th Worcester — New District
-
-**Question 8**
-
-* \*3rd Plymouth — Rep. Meschino (HINGHAM ONLY)
-
-</Block>
-
-<Block>
-
-**Question 6**
-
-* 4th Barnstable — Rep. Peake
-* 2nd Berkshire — Rep. Farley-Bouvier
-* 1st Essex — Rep. Kelcourse
-* 2nd Franklin — Rep. Whipps
-* 8th Hampden — Rep. Wagner
-* 12th Hampden — Rep. Puppolo
-* 4th Middlesex — Rep. Gregoire
-* 14th Middlesex — Rep. Gouveia
-* 25th Middlesex — Rep. Decker
-* 33rd Middlesex — Rep. Ultrino
-* 34th Middlesex — Rep. Barber
-* 35th Middlesex — Rep. Donato
-* 3rd Norfolk — Speaker Mariano
-* \*3rd Plymouth — Rep. Meschino (COHASSET AND HULL)
-* 12th Suffolk — Rep. Fluker-Oakley
-* 13th Suffolk — Rep. Hunt
-* 15th Suffolk — Rep. Elugardo
-* 12th Worcester — Rep. Kilcoyne
-
-</Block>
-
-</TwoSidedBlock>
-
-</Section>
 
 ## We're on the ballot in 20 districts across the state!
 
 | **Question 5**                | **Question 6**                                     | **Question 8**                                |
 | ----------------------------- | -------------------------------------------------- | --------------------------------------------- |
-| 8th Essex — Rep. Ehrlich      | 4th Barnstable — Rep. Peake                        | \*3rd Plymouth — Rep. Meschino (HINGHAM ONLY) |
+| 8th Essex — Rep. Ehrlich      | 4th Barnstable — Rep. Peake                        | 3rd Plymouth — Rep. Meschino (HINGHAM ONLY) |
 | 19th Worcester — New District | 2nd Berkshire — Rep. Farley-Bouvier                |                                               |
 |                               | 1st Essex — Rep. Kelcourse                         |                                               |
 |                               | 2nd Franklin — Rep. Whipps                         |                                               |
@@ -107,23 +58,23 @@ Transparency will be on the ballot in the following 20 districts. The question n
 |                               | 34th Middlesex – Rep. Barber                       |                                               |
 |                               | 35th Middlesex — Rep. Donato                       |                                               |
 |                               | 3rd Norfolk — Speaker Mariano                      |                                               |
-|                               | \*3rd Plymouth — Rep. Meschino (COHASSET AND HULL) |                                               |
+|                               | 3rd Plymouth — Rep. Meschino (COHASSET AND HULL) |                                               |
 |                               | 12th Suffolk — Rep. Fluker-Oakley                  |                                               |
 |                               | 13th Suffolk — Rep. Hunt                           |                                               |
 |                               | 15th Suffolk — Rep. Elugardo                       |                                               |
 |                               | 12th Worcester — Rep. Kilcoyne                     |                                               |
 
- </CenteredBlock>
-
 </Section>
+
+<Section color="medium-blue" width="1000">
 
 ## The House voted on the Rules on July 7!
 
 <CenteredBlock>
-    <Button href="https://docs.google.com/spreadsheets/d/1YCSUxomsY8Lgq1FL0b0qbe3bt72K080RBLgJ0atqjQw/edit#gid=0" target="_blank">
-      See how your rep voted here
-    </Button>
-  </CenteredBlock>
+  <Button href="https://docs.google.com/spreadsheets/d/1YCSUxomsY8Lgq1FL0b0qbe3bt72K080RBLgJ0atqjQw/edit#gid=0" target="_blank">
+    See how your rep voted here
+  </Button>
+</CenteredBlock>
 
 </Section>
 
