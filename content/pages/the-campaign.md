@@ -40,29 +40,36 @@ the People’s House. Will you join us?
 
 <Section color="light-blue" width="1000">
 
-
 ## We're on the ballot in 20 districts across the state!
 
-| **Question 5**                | **Question 6**                                     | **Question 8**                                |
-| ----------------------------- | -------------------------------------------------- | --------------------------------------------- |
-| 8th Essex — Rep. Ehrlich      | 4th Barnstable — Rep. Peake                        | 3rd Plymouth — Rep. Meschino (HINGHAM ONLY) |
-| 19th Worcester — New District | 2nd Berkshire — Rep. Farley-Bouvier                |                                               |
-|                               | 1st Essex — Rep. Kelcourse                         |                                               |
-|                               | 2nd Franklin — Rep. Whipps                         |                                               |
-|                               | 8th Hampden — Rep. Wagner                          |                                               |
-|                               | 12th Hampden — Rep. Puppolo                        |                                               |
-|                               | 4th Middlesex — Rep. Gregoire                      |                                               |
-|                               | 14th Middlesex — Rep. Gouveia                      |                                               |
-|                               | 25th Middlesex — Rep. Decker                       |                                               |
-|                               | 33rd Middlesex — Rep. Ultrino                      |                                               |
-|                               | 34th Middlesex – Rep. Barber                       |                                               |
-|                               | 35th Middlesex — Rep. Donato                       |                                               |
-|                               | 3rd Norfolk — Speaker Mariano                      |                                               |
-|                               | 3rd Plymouth — Rep. Meschino (COHASSET AND HULL) |                                               |
-|                               | 12th Suffolk — Rep. Fluker-Oakley                  |                                               |
-|                               | 13th Suffolk — Rep. Hunt                           |                                               |
-|                               | 15th Suffolk — Rep. Elugardo                       |                                               |
-|                               | 12th Worcester — Rep. Kilcoyne                     |                                               |
+O﻿ur non-binding ballot question asking voters if they support public committee votes will be on the November 8th ballot in 20 state house districts. These non-binding ballot questions (also referred to as “policy questions”) don’t become law if passed, but rather serve as a way for constituents to directly and publicly tell their representative how they want them to vote on an issue. And, frankly, our movement has a lot to say.
+
+T﻿he question: "Shall the representative for this district be instructed to vote in favor of changes to the applicable House of Representative rules to make each legislator’s vote in that body's Legislative committees publicly available on the Legislature's website?"
+
+D﻿ownload and share our campaign flyer [here](https://drive.google.com/file/d/1m1VxKjBbfK4MlYV-st-tJ9eqb169G1Fd/view?usp=sharing)
+
+S﻿ee where we're on the ballot, and as what question number, [here](https://docs.google.com/spreadsheets/d/1cPYfcztFbcXMANnJ9gUlkesu58lfEKdzwGKxUxOf3fk/edit#gid=0):
+
+| **Question 5**                | **Question 6**                                   | **Question 8**                              |
+| ----------------------------- | ------------------------------------------------ | ------------------------------------------- |
+| 8th Essex — Rep. Ehrlich      | 4th Barnstable — Rep. Peake                      | 3rd Plymouth — Rep. Meschino (HINGHAM ONLY) |
+| 19th Worcester — New District | 2nd Berkshire — Rep. Farley-Bouvier              |                                             |
+|                               | 1st Essex — Rep. Kelcourse                       |                                             |
+|                               | 2nd Franklin — Rep. Whipps                       |                                             |
+|                               | 8th Hampden — Rep. Wagner                        |                                             |
+|                               | 12th Hampden — Rep. Puppolo                      |                                             |
+|                               | 4th Middlesex — Rep. Gregoire                    |                                             |
+|                               | 14th Middlesex — Rep. Gouveia                    |                                             |
+|                               | 25th Middlesex — Rep. Decker                     |                                             |
+|                               | 33rd Middlesex — Rep. Ultrino                    |                                             |
+|                               | 34th Middlesex – Rep. Barber                     |                                             |
+|                               | 35th Middlesex — Rep. Donato                     |                                             |
+|                               | 3rd Norfolk — Speaker Mariano                    |                                             |
+|                               | 3rd Plymouth — Rep. Meschino (COHASSET AND HULL) |                                             |
+|                               | 12th Suffolk — Rep. Fluker-Oakley                |                                             |
+|                               | 13th Suffolk — Rep. Hunt                         |                                             |
+|                               | 15th Suffolk — Rep. Elugardo                     |                                             |
+|                               | 12th Worcester — Rep. Kilcoyne                   |                                             |
 
 </Section>
 
