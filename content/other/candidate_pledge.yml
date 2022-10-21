@@ -125,3 +125,8 @@ candidates:
     district_name: 9th Bristol
     chamber: house
     square_picture: /img/legislators/candidates/cameron-costa.jpg
+  - first_name: Terence
+    last_name: Cudney
+    district_name: First Essex and Middlesex
+    chamber: senate
+    square_picture: /img/legislators/candidates/terence_cudney.jpg
