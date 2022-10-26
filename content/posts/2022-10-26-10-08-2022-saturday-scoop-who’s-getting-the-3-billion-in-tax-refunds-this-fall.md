@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "10/08/2022 Saturday Scoop: Who’s getting the $3 billion in tax refunds
-  this fall"
+title: "10/08/2022 Saturday Scoop: What Biden’s marijuana pardons means for
+  Massachusetts"
 date: 2022-10-08T14:53:10.806Z
 redirect_from: []
 image: /img/saturday-scoop-logo.png
