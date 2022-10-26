@@ -2,7 +2,7 @@
 layout: post
 title: "09/17/2022 Saturday Scoop: DeSantis trafficks migrants to Martha’s
   Vineyard as political stunt"
-date: 2022-10-26T01:43:02.704Z
+date: 2022-09-18T01:43:02.704Z
 redirect_from: []
 image: /img/saturday-scoop-logo.png
 ---
