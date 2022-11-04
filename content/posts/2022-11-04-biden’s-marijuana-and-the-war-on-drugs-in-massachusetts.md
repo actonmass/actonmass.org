@@ -2,6 +2,7 @@
 layout: post
 title: Biden’s Marijuana and the War on Drugs in Massachusetts
 date: 2022-11-04T14:58:47.968Z
+image: /img/pexels-aphiwat-chuangchoem-2178565.jpg
 ---
 
 
