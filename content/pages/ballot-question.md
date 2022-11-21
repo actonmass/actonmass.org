@@ -13,7 +13,7 @@ T﻿he question language: "Shall the representative for this district be instruc
 
 Because this is a non-binding question, it doesn't become law if passed, but rather serves as a way for constituents to directly and publicly tell their representative how they want them to vote on an issue. And, frankly, our movement had a lot to say.
 
-An average of 85% of voters across 20 districts voted YES to instruct their legislators to vote to make committee votes public. We're still waiting for some results to trickle in from town clerks, and we'll continue to update the results.
+**An average of 85% of voters across 20 districts voted YES to instruct their legislators to vote to make committee votes public.** We're still waiting for some results to trickle in from town clerks, and we'll continue to update the results.
 
 
 
@@ -42,10 +42,6 @@ An average of 85% of voters across 20 districts voted YES to instruct their legi
 | 12th Worcester | Meghan Kilcoyne       | 9786      | 2184     | 82%    | 18%    | Missing Clinton                                                                            |
 |                |                       |           |          |        |        |                                                                                            |
 |                | TOTAL                 | 188733    | 32810    | 85.19% | 14.81% |                                                                                            |
-
-
-
-
 
 # Ballot Question 4, 2020
 
