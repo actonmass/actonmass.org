@@ -1,5 +1,5 @@
 ---
-permalink: /ballot-question
+permalink: /ballot-question/
 title: Ballot Question 6 for Public Committee Votes
 layout: default
 ---
