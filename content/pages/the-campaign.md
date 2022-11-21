@@ -40,7 +40,7 @@ the People’s House. Will you join us?
 
 <Section color="light-blue" width="1000">
 
-## WBallot question 6 for Public Committee Votes passed in all 20 districts across the state! See [full results here](https://actonmass.org/ballot-question/).
+## Ballot question 6 for Public Committee Votes passed in all 20 districts across the state! See [full results here](https://actonmass.org/ballot-question/).
 
 </Section>
 
