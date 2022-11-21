@@ -15,8 +15,6 @@ Because this is a non-binding question, it doesn't become law if passed, but rat
 
 **An average of 85% of voters across 20 districts voted YES to instruct their legislators to vote to make committee votes public.** We're still waiting for some results to trickle in from town clerks, and we'll continue to update the results.
 
-
-
 |                |                       |           |          |        |        |                                                                                            |
 | -------------- | --------------------- | --------- | -------- | ------ | ------ | ------------------------------------------------------------------------------------------ |
 | District       | Rep or Rep-Elect      | Votes Yes | Votes No | % Yes  | % No   | 100% Reporting?                                                                            |
@@ -43,32 +41,32 @@ Because this is a non-binding question, it doesn't become law if passed, but rat
 |                |                       |           |          |        |        |                                                                                            |
 |                | TOTAL                 | 188733    | 32810    | 85.19% | 14.81% |                                                                                            |
 
+![]()
+
 # Ballot Question 4, 2020
 
-Act on Mass ran a similar ballot question in 16 districts in 2020, which passed with an average of 90%:
+Act on Mass ran a similar ballot question in 16 districts in 2020, which passed with an average of 90%.
 
 2020 Ballot Question Language: "Shall the representative for this district be instructed to vote in favor of changes to the applicable House of Representative rules to make the results of all the votes in that body's Legislative committees publicly available on the Legislature's website?"
 
-
-
-|                |                       |           |          |       |       |                                             |
-| -------------- | --------------------- | --------- | -------- | ----- | ----- | ------------------------------------------- |
-| District       | Rep                   | Votes Yes | Votes No | % Yes | % No  | Rep's vote on public committe votes in 2021 |
-| 5th Essex      | Ann-Margaret Ferrante | 19338     | 3264     | 85.6% | 14.4% | NO                                          |
-| 1st Franklin   | Natalie Blais         | 21539     | 2762     | 88.6% | 11.4% | NO                                          |
-| 2nd Hampshire  | Daniel Carey          | 20212     | 2982     | 87.1% | 12.9% | NO                                          |
-| 3rd Hampshire  | Mindy Domb            | 12402     | 919      | 93.1% | 6.9%  | NO                                          |
-| 11th Middlesex | Kay Khan              | 19170     | 1790     | 91.5% | 8.5%  | NO                                          |
-| 12th Middlesex | Ruth Balser           | 18368     | 1746     | 91.3% | 8.7%  | NO                                          |
-| 21st Middlesex | Kenneth Gordon        | 19530     | 3569     | 84.5% | 15.5% | NO                                          |
-| 27th Middlesex | Erika Uyterhoeven     | 20704     | 1250     | 94.3% | 5.7%  | YES                                         |
-| 29th Middlesex | Steve Owens           | 20458     | 1707     | 92.3% | 7.7%  | YES                                         |
-| 11th Norfolk   | Paul McMurtry         | 20296     | 3139     | 86.6% | 13.4% | NO                                          |
-| 15th Norfolk   | Tommy Vitolo          | 17287     | 1258     | 93.2% | 6.8%  | NO                                          |
-| 11th Suffolk   | Liz Malia             | 15948     | 1682     | 90.5% | 9.5%  | NO                                          |
-| 15th Suffolk   | Nika Elugardo         | 15688     | 1294     | 92.4% | 7.6%  | YES                                         |
-| 17th Suffolk   | Kevin Honan           | 13991     | 996      | 93.4% | 6.6%  | NO                                          |
-| 18th Suffolk   | Michael Moran         | 11557     | 903      | 92.8% | 7.2%  | NO                                          |
-| 19th Suffolk   | Jeffrey Turco         | 11796     | 2418     | 83.0% | 17.0% | NO                                          |
-|                |                       |           |          |       |       |                                             |
-|                | TOTAL                 | 278284    | 31679    | 90%   | 10.0% |                                             |
+|                |                       |           |          |       |       |                                              |
+| -------------- | --------------------- | --------- | -------- | ----- | ----- | -------------------------------------------- |
+| District       | Rep                   | Votes Yes | Votes No | % Yes | % No  | Rep's vote on public committee votes in 2021 |
+| 5th Essex      | Ann-Margaret Ferrante | 19338     | 3264     | 85.6% | 14.4% | NO                                           |
+| 1st Franklin   | Natalie Blais         | 21539     | 2762     | 88.6% | 11.4% | NO                                           |
+| 2nd Hampshire  | Daniel Carey          | 20212     | 2982     | 87.1% | 12.9% | NO                                           |
+| 3rd Hampshire  | Mindy Domb            | 12402     | 919      | 93.1% | 6.9%  | NO                                           |
+| 11th Middlesex | Kay Khan              | 19170     | 1790     | 91.5% | 8.5%  | NO                                           |
+| 12th Middlesex | Ruth Balser           | 18368     | 1746     | 91.3% | 8.7%  | NO                                           |
+| 21st Middlesex | Kenneth Gordon        | 19530     | 3569     | 84.5% | 15.5% | NO                                           |
+| 27th Middlesex | Erika Uyterhoeven     | 20704     | 1250     | 94.3% | 5.7%  | YES                                          |
+| 29th Middlesex | Steve Owens           | 20458     | 1707     | 92.3% | 7.7%  | YES                                          |
+| 11th Norfolk   | Paul McMurtry         | 20296     | 3139     | 86.6% | 13.4% | NO                                           |
+| 15th Norfolk   | Tommy Vitolo          | 17287     | 1258     | 93.2% | 6.8%  | NO                                           |
+| 11th Suffolk   | Liz Malia             | 15948     | 1682     | 90.5% | 9.5%  | NO                                           |
+| 15th Suffolk   | Nika Elugardo         | 15688     | 1294     | 92.4% | 7.6%  | YES                                          |
+| 17th Suffolk   | Kevin Honan           | 13991     | 996      | 93.4% | 6.6%  | NO                                           |
+| 18th Suffolk   | Michael Moran         | 11557     | 903      | 92.8% | 7.2%  | NO                                           |
+| 19th Suffolk   | Jeffrey Turco         | 11796     | 2418     | 83.0% | 17.0% | NO                                           |
+|                |                       |           |          |       |       |                                              |
+|                | TOTAL                 | 278284    | 31679    | 90%   | 10.0% |                                              |
