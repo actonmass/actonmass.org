@@ -13,9 +13,7 @@ T﻿he question language: "Shall the representative for this district be instruc
 
 Because this is a non-binding question, it doesn't become law if passed, but rather serves as a way for constituents to directly and publicly tell their representative how they want them to vote on an issue. And, frankly, our movement had a lot to say.
 
-**An average of 84% of voters across 20 districts voted YES to instruct their legislators to vote to make committee votes public.** We're still waiting for some results to trickle in from town clerks, and we'll continue to update the results.
-
-
+**An average of 84% of voters across 20 districts voted YES to instruct their legislators to vote to make committee votes public.** 
 
 | District       | Representative        | Yes     | Yes%   | No    | No%    | T﻿otal |
 | -------------- | --------------------- | ------- | ------ | ----- | ------ | ------ |
@@ -39,7 +37,6 @@ Because this is a non-binding question, it doesn't become law if passed, but rat
 | 12th Hampden   | Angelo Puppolo        | 10,728  | 78.42% | 2,953 | 21.58% | 13,681 |
 | 3rd Norfolk    | Ronald Mariano        | 8,853   | 77.99% | 2,499 | 22.01% | 11,352 |
 | 8th Hampden    | Shirley Arriaga       | 8,673   | 74.64% | 2,947 | 25.36% | 11,620 |
-|                |                       |         |        |       |        |        |
 | TOTAL          |                       | 233,400 | 84.25% | 43637 | 15.75% | 277,03 |
 
 ![]()
