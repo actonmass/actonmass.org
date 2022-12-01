@@ -5,7 +5,7 @@ layout: default
 ---
 # Question 6 Passed in all 20 Districts!
 
-**Question 6 for public committee votes passed overwhelmingly in all 20 districts. See below for up-to-date vote tallies.**
+**Question 6 for public committee votes passed overwhelmingly in all 20 districts. See below for official vote tallies.**
 
 As part of The People's House campaign for rules reform, we organized to put a non-binding policy question on 20 ballots across the Commonwealth. Our question asks voters if they support requiring legislators on Beacon Hill to make their committee votes public. 
 
@@ -13,33 +13,34 @@ T﻿he question language: "Shall the representative for this district be instruc
 
 Because this is a non-binding question, it doesn't become law if passed, but rather serves as a way for constituents to directly and publicly tell their representative how they want them to vote on an issue. And, frankly, our movement had a lot to say.
 
-**An average of 85% of voters across 20 districts voted YES to instruct their legislators to vote to make committee votes public.** We're still waiting for some results to trickle in from town clerks, and we'll continue to update the results.
+**An average of 84% of voters across 20 districts voted YES to instruct their legislators to vote to make committee votes public.** We're still waiting for some results to trickle in from town clerks, and we'll continue to update the results.
 
-|                |                       |           |          |        |        |                                                                                            |
-| -------------- | --------------------- | --------- | -------- | ------ | ------ | ------------------------------------------------------------------------------------------ |
-| District       | Rep or Rep-Elect      | Votes Yes | Votes No | % Yes  | % No   | 100% Reporting?                                                                            |
-| 33rd Middlesex | Steven Ultrino        | 6369      | 1420     | 82%    | 18%    | TRUE                                                                                       |
-| 3rd Plymouth   | Joan Meschino         | 16400     | 2743     | 86%    | 14%    | TRUE                                                                                       |
-| 19th Worcester | Kate Donaghue         | 13,124    | 2128     | 86%    | 14%    | TRUE                                                                                       |
-| 25th Middlesex | Marjorie Decker       | 9,314     | 586      | 94%    | 6%     | TRUE                                                                                       |
-| 4th Middlesex  | Danielle Gregoire     | 9721      | 2024     | 83%    | 17%    | TRUE                                                                                       |
-| 1st Essex      | Dawne Shand           | 10908     | 1694     | 87%    | 13%    | TRUE                                                                                       |
-| 2nd Berkshire  | Tricia Farley-Bouvier | 10422     | 1670     | 86%    | 14%    | TRUE                                                                                       |
-| 8th Hampden    | Shirley Arriaga       | 8652      | 2942     | 75%    | 25%    | TRUE                                                                                       |
-| 3rd Norfolk    | Ronald Mariano        | 16400     | 2743     | 86%    | 14%    | TRUE                                                                                       |
-| 15th Suffolk   | Sam Montaño           | 11733     | 810      | 94%    | 6%     | TRUE                                                                                       |
-| 12th Suffolk   | Brandy Fluker-Oakley  | 8298      | 1737     | 83%    | 17%    | TRUE                                                                                       |
-| 13th Suffolk   | Daniel Hunt           | 7038      | 1743     | 80%    | 20%    | TRUE                                                                                       |
-| 4th Barnstable | Sarah Peake           | 17977     | 3251     | 85%    | 15%    | TRUE                                                                                       |
-| 14th Middlesex | Simon Cataldo         | 15986     | 2046     | 89%    | 11%    | TRUE                                                                                       |
-| 8th Essex      | Jenny Armini          | 5072      | 1063     | 83%    | 17%    | Missing Marblehead                                                                         |
-| 2nd Franklin   | Susannah Whipps       | 3062      | 930      | 77%    | 23%    | Missing Erving, Greenfield, Northfield, Orange, Philipston, Royalston, Warwick, Winchendon |
-| 12th Hampden   | Angelo Puppolo        | \-        | \-       | \-%    | \-%    | No data yet                                                                                |
-| 34th Middlesex | Christine Barber      | 5,878     | 607      | 91%    | 9%     | Missing Medford                                                                            |
-| 35th Middlesex | Paul Donato           | 2593      | 489      | 84%    | 16%    | Missing Medford                                                                            |
-| 12th Worcester | Meghan Kilcoyne       | 9786      | 2184     | 82%    | 18%    | Missing Clinton                                                                            |
-|                |                       |           |          |        |        |                                                                                            |
-|                | TOTAL                 | 188733    | 32810    | 85.19% | 14.81% |                                                                                            |
+
+
+| District       | Representative        | Yes     | Yes%   | No    | No%    | T﻿otal |
+| -------------- | --------------------- | ------- | ------ | ----- | ------ | ------ |
+| 25th Middlesex | Marjorie Decker       | 10,854  | 94.24% | 663   | 5.76%  | 11,517 |
+| 15th Suffolk   | Sam Montaño           | 11,715  | 93.52% | 812   | 6.48%  | 12,527 |
+| 34th Middlesex | Christine Barber      | 11,165  | 89.16% | 1,358 | 10.84% | 12,523 |
+| 14th Middlesex | Simon Cataldo         | 16,247  | 88.56% | 2,098 | 11.44% | 18,345 |
+| 8th Essex      | Jenny Armini          | 13,987  | 86.55% | 2,174 | 13.45% | 16,161 |
+| 2nd Berkshire  | Tricia Farley-Bouvier | 10,588  | 86.16% | 1,701 | 13.84% | 12,289 |
+| 19th Worcester | Kate Donaghue         | 13,300  | 86.05% | 2,156 | 13.95% | 15,456 |
+| 3rd Plymouth   | Joan Meschino         | 16,725  | 85.71% | 2,789 | 14.29% | 19,514 |
+| 4th Barnstable | Sarah Peake           | 18,166  | 84.69% | 3,283 | 15.31% | 21,449 |
+| 1st Essex      | Dawne Shand           | 16,108  | 84.00% | 3,069 | 16.00% | 19,177 |
+| 4th Middlesex  | Danielle Gregoire     | 9,860   | 82.81% | 2,047 | 17.19% | 11,907 |
+| 12th Suffolk   | Brandy Fluker-Oakley  | 8,448   | 82.81% | 1,754 | 17.19% | 10,202 |
+| 35th Middlesex | Paul Donato           | 9,443   | 82.09% | 2,060 | 17.91% | 11,503 |
+| 33rd Middlesex | Steve Ultrino         | 6,469   | 81.76% | 1,443 | 18.24% | 7,912  |
+| 12th Worcester | Meg Kilcoyne          | 13,234  | 81.07% | 3,090 | 18.93% | 16,324 |
+| 13th Suffolk   | Dan Hunt              | 7,214   | 80.35% | 1,764 | 19.65% | 8,978  |
+| 2nd Franklin   | Susannah Whipps       | 11,623  | 79.61% | 2,977 | 20.39% | 14,600 |
+| 12th Hampden   | Angelo Puppolo        | 10,728  | 78.42% | 2,953 | 21.58% | 13,681 |
+| 3rd Norfolk    | Ronald Mariano        | 8,853   | 77.99% | 2,499 | 22.01% | 11,352 |
+| 8th Hampden    | Shirley Arriaga       | 8,673   | 74.64% | 2,947 | 25.36% | 11,620 |
+|                |                       |         |        |       |        |        |
+| TOTAL          |                       | 233,400 | 84.25% | 43637 | 15.75% | 277,03 |
 
 ![]()
 
