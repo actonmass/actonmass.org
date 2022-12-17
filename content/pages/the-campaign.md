@@ -27,7 +27,7 @@ We’re fighting to change the broken, anti-democratic rules. Together, we can m
 the People’s House. Will you join us?
 
   <CenteredBlock>
-    <Button href="https://secure.everyaction.com/p/bbp3bh0B1EqLUsRwLWqJQA2">
+    <Button href="https://secure.everyaction.com/oITinRw4Ck-JRO3NetrRFA2">
       Volunteer Events
     </Button>
   </CenteredBlock>
