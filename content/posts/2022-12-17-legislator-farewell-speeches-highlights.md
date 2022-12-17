@@ -16,5 +16,7 @@ As is tradition on Beacon Hill, lawmakers who won’t be returning for the next 
 
 On a very different note, **Rep. Paul Tucker** used his farewell speech to tell an anecdote about going to a conference in Arkansas with his colleague Rep. Joseph McGonagle. Then-Speaker Robert DeLeo told Tucker not to let McGonagle “out of his sight” during the trip. And apparently, it was for good reason: the moment the two were separated, McGonagle was lost. "I searched those streets for about two hours, dejectedly went back to the hotel not having found him \[…] I hit the button to open the elevator, and there was the gentleman from Everett, surrounded by a flock of pink lawn flamingos."
 
+No, we don't have any idea either.
+
 \
 Source: [State House News Service via 22 News](https://www.wwlp.com/news/state-politics/lawmakers-open-up-while-closing-out-careers/)
