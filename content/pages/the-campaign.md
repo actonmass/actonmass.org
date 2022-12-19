@@ -28,7 +28,7 @@ the People’s House. Will you join us?
 
   <CenteredBlock>
     <Button href="https://secure.everyaction.com/oITinRw4Ck-JRO3NetrRFA2">
-      Volunteer Events
+      Join the campaign!
     </Button>
   </CenteredBlock>
 
@@ -64,7 +64,7 @@ Sign up here to join your District Team and get plugged into the organizing happ
 
 <CenteredBlock>
   <CenteredImage img="/img/newcampaign2.png" alt="Protesters" width="500"/>
-  <ModalForm title="Join the Campaign" formId="https://secure.everyaction.com/v1/Forms/wijiUWYM2E-yHmua-U_gnQ2" />
+  <ModalForm title="Join the Campaign" formId="https://secure.everyaction.com/oITinRw4Ck-JRO3NetrRFA2" />
 </CenteredBlock>
 
 </Section>
