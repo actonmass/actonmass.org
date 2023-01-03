@@ -19,3 +19,4 @@ We decided to take this strategy, as well as our learnings, our resources, templ
 
 * #### [LTE/Op-Ed Writing Guide](https://docs.google.com/document/d/1Zugwp8YVzqw0rLIwUJFbmhc-nUsHJ4-U2YZacqBmqNo/edit?usp=sharing)
 * #### [Lobby Meeting Training](https://docs.google.com/presentation/d/1mUF1aiddnaobRIMCrLY-UbtVPDwJTaJk/edit?usp=sharing&ouid=113371579987126328185&rtpof=true&sd=true)
+* #### [Email Template Library](https://docs.google.com/document/d/1mvEGmYvJVuWtOUiIUov9nRddK8GtkQ4tG_QOX_wDRZw/edit#)
