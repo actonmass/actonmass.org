@@ -2,7 +2,6 @@ import React, { useMemo } from "react";
 import { PageProps, graphql } from "gatsby";
 import { MDXRenderer } from "gatsby-plugin-mdx";
 import { MDXProvider } from "@mdx-js/react";
-import { HeroImage } from "../../components";
 
 import BaseLayout from "../BaseLayout";
 import LegislatorSearch from "../../components/FindMyReps";
@@ -32,7 +31,7 @@ export default function CampaignPage({ data }: PageProps<Data>) {
       <main className="campaign-page">
         <section className="headline dark">
           <div className="campaign_title_div">
-            <h2 className="campaign_title">{page.title} Campaign</h2>
+            <h2 className="campaign_title">{page.title}</h2>
             <p className="supporting_text">The MA State House is broken, and we need your help to fix it.</p>
           </div>
           <img className="campaign_main_image" src="https://d33wubrfki0l68.cloudfront.net/35ebe6a915c3cbb8337a5d629e6fe5df99eda82c/770cf/img/newcampaign1.jpg" alt="State House" width="500px"></img>
@@ -147,8 +146,7 @@ export default function CampaignPage({ data }: PageProps<Data>) {
             Check out our LTE Toolkit
           </a>
         </section>
-        {/* placeholder for where does your rep stand on public committee votes */}
-        {/* <MDXProvider components={components}>
+        <MDXProvider components={components}>
           <MDXRenderer
             scope={{
               legs: data.allLegislator.nodes[0].last_name,
@@ -156,7 +154,7 @@ export default function CampaignPage({ data }: PageProps<Data>) {
           >
             {page.parent.body}
           </MDXRenderer>
-        </MDXProvider> */}
+        </MDXProvider>
       </main>
     </BaseLayout>
   );
