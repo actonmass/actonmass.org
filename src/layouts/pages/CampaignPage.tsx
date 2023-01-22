@@ -7,7 +7,7 @@ import BaseLayout from "../BaseLayout";
 import LegislatorSearch from "../../components/FindMyReps";
 import LegCircle from "../../components/LegCircle";
 
-import "./base.scss";
+import "./campaign.scss";
 
 type Data = {
   page: {
@@ -27,9 +27,93 @@ export default function CampaignPage({ data }: PageProps<Data>) {
     []
   );
   return (
-    <BaseLayout title={page.title}>
-      <main className="base_page">
-        <MDXProvider components={components}>
+    <BaseLayout>
+      <main className="campaign-page">
+        <section className="headline dark">
+          <div className="campaign_title_div">
+            <h2 className="campaign_title">{page.title} Campaign</h2>
+            <p className="supporting_text">The MA State House is broken, and we need your help to fix it.</p>
+          </div>
+          <img className="campaign_main_image" src="https://d33wubrfki0l68.cloudfront.net/35ebe6a915c3cbb8337a5d629e6fe5df99eda82c/770cf/img/newcampaign1.jpg" alt="State House" width="500px"></img>
+          <div className="campaign_main_container">
+            <div className="campaign_starter_text">
+              <p className="campaign_text_block">The Massachusetts State House is one of the least transparent in the country. When decisions about
+  what bills will pass are made in backroom deals with a small handful of people, that’s not
+  democracy. Bay Staters deserve a government that centers their voices - not one that bends over
+  backwards to keep them out.</p>
+              <br />
+              <p className="campaign_text_block">Together, we can make the State House the People's House. Will you join us?</p>
+            </div>
+            <div className="campaign_main_buttons">
+              <a href="https://secure.everyaction.com/oITinRw4Ck-JRO3NetrRFA2" className="campaign_btn btn">
+                Join the campaign!
+              </a>
+              <br />
+              <a href="https://actonmass.org/transparency/" className="campaign_btn btn learn_more">
+                Learn more about state house reform 
+              </a>
+            </div>
+          </div>
+        </section>
+        <section className="problem_and_solution">
+          <div className="problem">
+            <h1>text</h1>
+          </div>
+          <div className="solution">
+            <h1>hi</h1>
+          </div>
+          {/* change image */}
+          <img className="campaign_main_image" src="https://d33wubrfki0l68.cloudfront.net/35ebe6a915c3cbb8337a5d629e6fe5df99eda82c/770cf/img/newcampaign1.jpg" alt="State House" width="500px"></img>
+        </section>
+        <section className="public_committee_votes dark">
+          <div className="campaign_title_div">
+            <h2 className="campaign_title">Our 2023 priority: Public Committee Votes</h2>
+          </div>
+          <div className="campaign_info_boxes_containter">
+            <div className="info_box">
+              <p>test.</p>
+            </div>
+            <div className="info_box">
+              <p>test </p>
+            </div>
+          </div>
+        </section>
+        <section className="transparency_captain dark">
+          <div>
+            <h2 className="campaign_title">Become a Transparency Captain!</h2>
+          </div>
+          <div className="campaign_main_container">
+            <div className="campaign_starter_text">
+              <p>Our strategy...</p>
+            </div>
+            <div className="captain_image">
+              {/* chagne image */}
+            <img className="campaign_main_image" src="https://d33wubrfki0l68.cloudfront.net/35ebe6a915c3cbb8337a5d629e6fe5df99eda82c/770cf/img/newcampaign1.jpg" alt="State House" width="500px"></img>
+            </div>
+          </div>
+          <a href="https://actonmass.org/transparency/" className="btn">
+            Become a Transparency Captain
+          </a>
+        </section>
+        {/* place holder for write a letter to the editor!
+        <section className="transparency_captain dark">
+          <div>
+            <h2 className="campaign_title">Become a Transparency Captain!</h2>
+          </div>
+          <div className="campaign_main_container">
+            <div className="campaign_starter_text">
+              <p>Our strategy...</p>
+            </div>
+            <div className="captain_image">
+            <img className="campaign_main_image" src="https://d33wubrfki0l68.cloudfront.net/35ebe6a915c3cbb8337a5d629e6fe5df99eda82c/770cf/img/newcampaign1.jpg" alt="State House" width="500px"></img>
+            </div>
+          </div>
+          <a href="https://actonmass.org/transparency/" className="btn">
+            Become a Transparency Captain
+          </a>
+        </section> */}
+        {/* placeholder for where does your rep stand on public committee votes */}
+        {/* <MDXProvider components={components}>
           <MDXRenderer
             scope={{
               legs: data.allLegislator.nodes[0].last_name,
@@ -37,7 +121,7 @@ export default function CampaignPage({ data }: PageProps<Data>) {
           >
             {page.parent.body}
           </MDXRenderer>
-        </MDXProvider>
+        </MDXProvider> */}
       </main>
     </BaseLayout>
   );
