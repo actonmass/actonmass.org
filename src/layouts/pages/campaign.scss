@@ -54,7 +54,7 @@
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: center;
-        padding: 5rem 10rem 5rem 10rem;
+        padding: 5rem 10rem 0rem 10rem;
 
         .campaign_starter_text {
             width: 100%;
@@ -66,18 +66,18 @@
               }
           }
 
-        @media screen and (min-width: 1034px) {
+        @media (min-width: 1034px) {
           .campaign_main_buttons {
-            max-width: 100%;
+            padding-left: 8rem;
           }
           .campaign_starter_text {
             width: 70%;
           }
         }
         .campaign_main_buttons {
-          max-width: 15%;
+          max-width: 10%;
           min-width: 250px;
-          padding-left: 5rem;
+          text-align: center;
           
           .campaign_btn {
             color: white;
@@ -89,7 +89,51 @@
             font-size: 12px;
           }
         }
-    }
+      }
+
+      .problem_and_solution {
+        .campaign_blocks{
+          justify-content: space-evenly;
+
+          .campaign_ps {
+            max-width: 40%;
+            min-width: 200px;
+            padding: 3rem;
+
+            h3, h4 {
+              color: rgb(200, 228, 255);
+
+            }
+
+            li {
+              padding: 1rem;
+            }
+
+            a {
+              text-decoration: underline;
+              color: white;
+            }
+          } 
+        }
+        .campaign_ps_image_container {
+          padding-top: 5rem;
+          justify-content: center;
+        }
+      }
+      
+      .public_committee_votes {
+        .campaign_underline {
+          text-decoration: underline;
+        }
+        
+        .info_box {
+          color: var(--dark);
+          max-width: 90%;
+          min-width: 200px;
+          padding: 2rem;
+          margin: 1rem;
+        }
+      }
 
 
 }

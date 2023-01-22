@@ -2,6 +2,7 @@ import React, { useMemo } from "react";
 import { PageProps, graphql } from "gatsby";
 import { MDXRenderer } from "gatsby-plugin-mdx";
 import { MDXProvider } from "@mdx-js/react";
+import { HeroImage } from "../../components";
 
 import BaseLayout from "../BaseLayout";
 import LegislatorSearch from "../../components/FindMyReps";
@@ -55,26 +56,60 @@ export default function CampaignPage({ data }: PageProps<Data>) {
             </div>
           </div>
         </section>
-        <section className="problem_and_solution">
-          <div className="problem">
-            <h1>text</h1>
-          </div>
-          <div className="solution">
-            <h1>hi</h1>
-          </div>
+        <section className="problem_and_solution medium-blue">
+          <div className="campaign_blocks hbox">
+              <div className="campaign_ps dark">
+                <h3>The Problem:</h3>
+                <h4>A legislature that de-centers and devalues constituent voices</h4>
+                <ul>
+                  <li>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore 
+                  </li>
+                  <li>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore 
+                  </li>
+                  <li>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore 
+                  </li>
+                </ul>
+                <a href="https://actonmass.org/about-us">Learn more about the need for State House reform.</a>
+              </div>
+              <div className="campaign_ps dark">
+                <h3>Our Solution:</h3>
+                <h4>Build grassroots power to reform the broken State House</h4>
+                <ul>
+                  <li>
+                  Recruit and organize District Teams in State House districts across the Commonwealth
+                  </li>
+                  <li>
+                  Meet with state legislators to request that they vote for state house reform when the new House and Joint Rules are written
+                  </li>
+                  <li>
+                  Escalate pressure alongside District Teans
+                  </li>
+                </ul>
+              </div>
+            </div>
           {/* change image */}
-          <img className="campaign_main_image" src="https://d33wubrfki0l68.cloudfront.net/35ebe6a915c3cbb8337a5d629e6fe5df99eda82c/770cf/img/newcampaign1.jpg" alt="State House" width="500px"></img>
+          <div className="campaign_ps_image_container cbox">
+            <img className="campaign_ps_image" src="https://d33wubrfki0l68.cloudfront.net/35ebe6a915c3cbb8337a5d629e6fe5df99eda82c/770cf/img/newcampaign1.jpg" alt="State House" width="500px"></img>
+          </div>
         </section>
         <section className="public_committee_votes dark">
           <div className="campaign_title_div">
             <h2 className="campaign_title">Our 2023 priority: Public Committee Votes</h2>
           </div>
-          <div className="campaign_info_boxes_containter">
-            <div className="info_box">
-              <p>test.</p>
+          <div className="campaign_info_boxes_containter cbox">
+            <div className="info_box medium-blue">
+              <p>The Legislature starts every new session by writing their own rulebook. Every two years the legislature adopts anti-transparent rules that deliberately exclude the public from participating in the lawmaking process. Namely, the House and Joint rules do not require that votes taken in legislative committees be made public. This is disastrous for democracy--how can we hold our legislators accountable when we can't see how they're voting?</p>
+              {/* make below an accordian */}
+              <p>Read more about why making public committee votes is so crucial</p>  
             </div>
-            <div className="info_box">
-              <p>test </p>
+            <div className="info_box medium-blue">
+              <p>Our aim is the adoption of an amendment to make all committee votes public. This is an exceptionally popular piece of legislation: since 2020, our <span className="campaign_underline">non-binding ballot question </span> for public committee votes received an average of <span className="campaign_underline">87% approval among the electorate</span>
+              . Despite an overwhelming mandate for public committee votes, the legislature has, until now, refused to show us how they vote.</p>
+              <br />
+              <p>That's where you come in.</p>
             </div>
           </div>
         </section>
