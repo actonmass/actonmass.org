@@ -49,6 +49,12 @@
         width: 60%;
     }
 
+    .campaign_btn {
+      color: white;
+      border-radius: 10% / 50%;
+      margin-bottom: 2rem;
+      }
+
     .campaign_main_container {
         display: flex;
         flex-direction: row;
@@ -59,11 +65,6 @@
         .campaign_starter_text {
             width: 100%;
             align-self: center;
-
-            .campaign_text_block {
-              // come back too as this is not being applied
-                font-weight: 300px;
-              }
           }
 
         @media (min-width: 1034px) {
@@ -78,12 +79,6 @@
           max-width: 10%;
           min-width: 250px;
           text-align: center;
-          
-          .campaign_btn {
-            color: white;
-            border-radius: 15% / 50%;
-            margin-bottom: 2rem;
-            }
           
           .learn_more {
             font-size: 12px;
@@ -132,6 +127,13 @@
           min-width: 200px;
           padding: 2rem;
           margin: 1rem;
+        }
+      }
+
+      .campaign_transparency_container, .write_a_letter {
+
+        .hero_box_a, .hero_box_b {
+          padding: 3rem;
         }
       }
 

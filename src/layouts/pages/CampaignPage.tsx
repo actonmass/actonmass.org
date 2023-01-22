@@ -113,40 +113,40 @@ export default function CampaignPage({ data }: PageProps<Data>) {
             </div>
           </div>
         </section>
-        <section className="transparency_captain dark">
+        <section className="transparency_captain dark cbox">
           <div>
             <h2 className="campaign_title">Become a Transparency Captain!</h2>
           </div>
-          <div className="campaign_main_container">
-            <div className="campaign_starter_text">
-              <p>Our strategy...</p>
-            </div>
-            <div className="captain_image">
-              {/* chagne image */}
-            <img className="campaign_main_image" src="https://d33wubrfki0l68.cloudfront.net/35ebe6a915c3cbb8337a5d629e6fe5df99eda82c/770cf/img/newcampaign1.jpg" alt="State House" width="500px"></img>
-            </div>
+          <div className="campaign_transparency_container two-blocks">
+              <div className="hero_box_a ">
+                <p>Our strategy is to organize across the Commonwealth to hold as many grassroots lobby meetings with legislators as possible where their constituents ask them to support public committee votes when it comes to a vote in January. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip e</p>
+              </div>
+              <div className="hero_box_b">
+                <img className="campaign_transparency_image" src="https://d33wubrfki0l68.cloudfront.net/35ebe6a915c3cbb8337a5d629e6fe5df99eda82c/770cf/img/newcampaign1.jpg" alt="State House" width="500px"></img>
+              </div>
           </div>
-          <a href="https://actonmass.org/transparency/" className="btn">
+          <a href="https://actonmass.org/transparency/" className="campaign_btn btn">
             Become a Transparency Captain
           </a>
         </section>
-        {/* place holder for write a letter to the editor!
-        <section className="transparency_captain dark">
+        <section className="write_a_letter dark cbox">
           <div>
-            <h2 className="campaign_title">Become a Transparency Captain!</h2>
+            <h2 className="campaign_title">Write a Letter to the Editor!</h2>
           </div>
           <div className="campaign_main_container">
-            <div className="campaign_starter_text">
-              <p>Our strategy...</p>
-            </div>
-            <div className="captain_image">
-            <img className="campaign_main_image" src="https://d33wubrfki0l68.cloudfront.net/35ebe6a915c3cbb8337a5d629e6fe5df99eda82c/770cf/img/newcampaign1.jpg" alt="State House" width="500px"></img>
+            <div className="campaign_letter_container two-blocks rev">
+              <div className="hero_box_a ">
+                <p>Our strategy is to organize across the Commonwealth to hold as many grassroots lobby meetings with legislators as possible where their constituents ask them to support public committee votes when it comes to a vote in January. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip e</p>
+              </div>
+              <div className="hero_box_b">
+                <img className="campaign_transparency_image" src="https://d33wubrfki0l68.cloudfront.net/35ebe6a915c3cbb8337a5d629e6fe5df99eda82c/770cf/img/newcampaign1.jpg" alt="State House" width="500px"></img>
+              </div>
             </div>
           </div>
-          <a href="https://actonmass.org/transparency/" className="btn">
-            Become a Transparency Captain
+          <a href="https://actonmass.org/transparency/" className="campaign_btn btn">
+            Check out our LTE Toolkit
           </a>
-        </section> */}
+        </section>
         {/* placeholder for where does your rep stand on public committee votes */}
         {/* <MDXProvider components={components}>
           <MDXRenderer
