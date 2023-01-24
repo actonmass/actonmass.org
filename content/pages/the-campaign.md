@@ -24,7 +24,7 @@ our campaign for a healthy democracy.
 
 <LegislatorSearch theme="dark" mode="campaign" text="Where does your rep stand on public committee votes?" width="1000" hideSenator={true} />
 
-<Section color="medium-blue" width="1000">
+<!-- <Section color="medium-blue" width="1000">
 
 ## Reps supporting the campaign
 
@@ -39,7 +39,7 @@ our campaign for a healthy democracy.
 
 <SupportingReps />
 
-</Section>
+</Section> -->
 
 <Section color="light-blue" width="1000">
 

@@ -102,7 +102,7 @@ export default function CampaignPage({ data }: PageProps<Data>) {
             <div className="info_box medium-blue">
               <p>The Legislature starts every new session by writing their own rulebook. Every two years the legislature adopts anti-transparent rules that deliberately exclude the public from participating in the lawmaking process. Namely, the House and Joint rules do not require that votes taken in legislative committees be made public. This is disastrous for democracy--how can we hold our legislators accountable when we can't see how they're voting?</p>
               {/* make below an accordian */}
-              <p>Read more about why making public committee votes is so crucial</p>  
+              <a href="https://actonmass.org/transparency/" style={{color: "black"}}>Read more about why making public committee votes is so crucial.</a>  
             </div>
             <div className="info_box medium-blue">
               <p>Our aim is the adoption of an amendment to make all committee votes public. This is an exceptionally popular piece of legislation: since 2020, our <span className="campaign_underline">non-binding ballot question </span> for public committee votes received an average of <span className="campaign_underline">87% approval among the electorate</span>
@@ -124,7 +124,7 @@ export default function CampaignPage({ data }: PageProps<Data>) {
                 <img className="campaign_transparency_image" src="https://d33wubrfki0l68.cloudfront.net/35ebe6a915c3cbb8337a5d629e6fe5df99eda82c/770cf/img/newcampaign1.jpg" alt="State House" width="500px"></img>
               </div>
           </div>
-          <a href="https://actonmass.org/transparency/" className="campaign_btn btn">
+          <a href="https://secure.everyaction.com/oITinRw4Ck-JRO3NetrRFA2" className="campaign_btn btn">
             Become a Transparency Captain
           </a>
         </section>
