@@ -8,7 +8,7 @@ layout: campaign
     # The People's House
   </CenteredBlock>
 
-### A Campaign for Rules Reform by Act on Mass, Sunrise Boston, Mijente Boston Asamblea, Indivisible Mass Coalition, & Our Climate
+### A Campaign for Rules Reform by Act on Mass, Sunrise Boston, Mijente Boston Asamblea, Indivisible Mass Coalition, Our Climate & Mass-Care
 
 <TwoSidedBlock>
 
@@ -45,18 +45,6 @@ the People’s House. Will you join us?
 </Section>
 
 <Section color="medium-blue" width="1000">
-
-## The House voted on the Rules on July 7!
-
-<CenteredBlock>
-  <Button href="https://docs.google.com/spreadsheets/d/1YCSUxomsY8Lgq1FL0b0qbe3bt72K080RBLgJ0atqjQw/edit#gid=0" target="_blank">
-    See how your rep voted here
-  </Button>
-</CenteredBlock>
-
-</Section>
-
-<Section color="light-blue" width="1000">
 
 ## Join the Campaign
 
@@ -163,6 +151,18 @@ three amendments were voted down, we successfully changed the landscape of this 
 Massachusetts. This partial victory is a huge step towards a State House that is transparent,
 accessible, and accountable to the people. But there is more work to be done! Join us as we continue
 our campaign for a healthy democracy.
+
+## The House voted on the Rules on July 7!
+
+<CenteredBlock>
+  <Button href="https://docs.google.com/spreadsheets/d/1YCSUxomsY8Lgq1FL0b0qbe3bt72K080RBLgJ0atqjQw/edit#gid=0" target="_blank">
+    See how your rep voted here
+  </Button>
+</CenteredBlock>
+
+</Section>
+
+<Section color="light-blue" width="1000">
 
 </Section>
 
