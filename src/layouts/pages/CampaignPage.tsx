@@ -6,8 +6,20 @@ import { MDXProvider } from "@mdx-js/react";
 import BaseLayout from "../BaseLayout";
 import LegislatorSearch from "../../components/FindMyReps";
 import LegCircle from "../../components/LegCircle";
-
+import { campaign_message } from "../../../content/other/campaign.yml"
 import "./campaign.scss";
+
+// A little hacky... Ideally we should properly put this data in GQL
+console.log("campaign data", campaign_message)
+const campaignData = campaign_message.map((raw) => ({
+  ...raw,
+  // message: {
+  //   first_paragraph: raw.first_main_paragraph, 
+  //   second_paragraph: raw.second_main_paragraph,
+  //   main_image: raw.main_picture,
+  // }
+}));
+console.log("campaign data AFTER", campaignData)
 
 type Data = {
   page: {
@@ -16,6 +28,7 @@ type Data = {
   };
   allLegislator: { nodes: GatsbyTypes.Legislator[] };
 };
+
 
 export default function CampaignPage({ data }: PageProps<Data>) {
   const page = data.page;
@@ -26,6 +39,7 @@ export default function CampaignPage({ data }: PageProps<Data>) {
     }),
     []
   );
+
   return (
     <BaseLayout>
       <main className="campaign-page">
@@ -34,15 +48,12 @@ export default function CampaignPage({ data }: PageProps<Data>) {
             <h2 className="campaign_title">{page.title}</h2>
             <p className="supporting_text">The MA State House is broken, and we need your help to fix it.</p>
           </div>
-          <img className="campaign_main_image" src="https://d33wubrfki0l68.cloudfront.net/35ebe6a915c3cbb8337a5d629e6fe5df99eda82c/770cf/img/newcampaign1.jpg" alt="State House" width="500px"></img>
+          <img className="campaign_main_image" src={campaignData[0].main_image} alt="State House"></img>
           <div className="campaign_main_container">
             <div className="campaign_starter_text">
-              <p className="campaign_text_block">The Massachusetts State House is one of the least transparent in the country. When decisions about
-  what bills will pass are made in backroom deals with a small handful of people, that’s not
-  democracy. Bay Staters deserve a government that centers their voices - not one that bends over
-  backwards to keep them out.</p>
+              <p className="campaign_text_block">{campaignData[0].first_main_paragraph}</p>
               <br />
-              <p className="campaign_text_block">Together, we can make the State House the People's House. Will you join us?</p>
+              <p className="campaign_text_block">{campaignData[0].second_main_paragraph}</p>
             </div>
             <div className="campaign_main_buttons">
               <a href="https://secure.everyaction.com/oITinRw4Ck-JRO3NetrRFA2" className="campaign_btn btn">

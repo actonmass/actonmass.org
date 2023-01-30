@@ -135,6 +135,39 @@ export default {
       ],
     },
     {
+      label: "The Campaign",
+      name: "campaign_page",
+      file: "content/other/campaign_page.yml",
+      fields: [
+        {
+          label: "The main message",
+          name: "campaign_message",
+          widget: "list",
+          collapsed: false,
+          fields: [
+            {
+              label: "First main paragraph",
+              name: "first_main_paragraph",
+              widget: "string",
+            },
+            {
+              label: "Second main paragraph",
+              name: "second_main_paragraph",
+              widget: "string",
+            },
+            {
+              label: "Main Picture",
+              name: "main_picture",
+              widget: "image",
+              required: false,
+              media_folder: "/static/img/",
+              public_folder: "/img/",
+            },
+          ],
+        },
+      ],
+    },
+    {
       ...script,
       label: "Pledge scripts",
       name: "pledge_scripts",
