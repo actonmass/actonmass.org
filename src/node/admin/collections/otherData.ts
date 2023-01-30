@@ -146,6 +146,16 @@ export default {
           collapsed: false,
           fields: [
             {
+              label: "Title",
+              name: "title",
+              widget: "string",
+            },
+            {
+              label: "Main text",
+              name: "main_text",
+              widget: "string",
+            },
+            {
               label: "First main paragraph",
               name: "first_main_paragraph",
               widget: "string",
@@ -156,12 +166,23 @@ export default {
               widget: "string",
             },
             {
-              label: "Main Picture",
-              name: "main_picture",
+              label: "Main Image",
+              name: "main_image",
               widget: "image",
-              required: false,
               media_folder: "/static/img/",
               public_folder: "/img/",
+            },
+            {
+              label: "First Link",
+              name: "first_href",
+              widget: "string",
+              hint: "JOIN THE CAMPAIGN.",
+            },
+            {
+              label: "Second Link",
+              name: "second_href",
+              widget: "string",
+              hint: "LEARN MORE ABOUT STATE HOUSE REFORM.",
             },
           ],
         },

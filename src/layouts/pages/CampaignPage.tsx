@@ -6,20 +6,21 @@ import { MDXProvider } from "@mdx-js/react";
 import BaseLayout from "../BaseLayout";
 import LegislatorSearch from "../../components/FindMyReps";
 import LegCircle from "../../components/LegCircle";
-import { campaign_message } from "../../../content/other/campaign.yml"
+import { campaign_message } from "../../../content/other/campaign_page.yml"
 import "./campaign.scss";
 
 // A little hacky... Ideally we should properly put this data in GQL
 console.log("campaign data", campaign_message)
-const campaignData = campaign_message.map((raw) => ({
-  ...raw,
-  // message: {
-  //   first_paragraph: raw.first_main_paragraph, 
-  //   second_paragraph: raw.second_main_paragraph,
-  //   main_image: raw.main_picture,
-  // }
-}));
-console.log("campaign data AFTER", campaignData)
+// const campaignData = campaign_message.map((raw) => ({
+//   ...raw,
+//   // message: {
+//   //   first_paragraph: raw.first_main_paragraph, 
+//   //   second_paragraph: raw.second_main_paragraph,
+//   //   main_image: raw.main_picture,
+//   // }
+// }));
+const campaignMainMessageData = campaign_message;
+console.log("campaign data AFTER", campaignMainMessageData)
 
 type Data = {
   page: {
@@ -45,22 +46,22 @@ export default function CampaignPage({ data }: PageProps<Data>) {
       <main className="campaign-page">
         <section className="headline dark">
           <div className="campaign_title_div">
-            <h2 className="campaign_title">{page.title}</h2>
-            <p className="supporting_text">The MA State House is broken, and we need your help to fix it.</p>
+            <h2 className="campaign_title">{campaignMainMessageData[0].title}</h2>
+            <p className="supporting_text">{campaignMainMessageData[0].main_text}</p>
           </div>
-          <img className="campaign_main_image" src={campaignData[0].main_image} alt="State House"></img>
+          <img className="campaign_main_image" src={campaignMainMessageData[0].main_image} alt="State House"></img>
           <div className="campaign_main_container">
             <div className="campaign_starter_text">
-              <p className="campaign_text_block">{campaignData[0].first_main_paragraph}</p>
+              <p className="campaign_text_block">{campaignMainMessageData[0].first_main_paragraph}</p>
               <br />
-              <p className="campaign_text_block">{campaignData[0].second_main_paragraph}</p>
+              <p className="campaign_text_block">{campaignMainMessageData[0].second_main_paragraph}</p>
             </div>
             <div className="campaign_main_buttons">
-              <a href="https://secure.everyaction.com/oITinRw4Ck-JRO3NetrRFA2" className="campaign_btn btn">
+              <a href={campaignMainMessageData[0].first_href} className="campaign_btn btn">
                 Join the campaign!
               </a>
               <br />
-              <a href="https://actonmass.org/transparency/" className="campaign_btn btn learn_more">
+              <a href={campaignMainMessageData[0].second_href} className="campaign_btn btn learn_more">
                 Learn more about state house reform 
               </a>
             </div>
