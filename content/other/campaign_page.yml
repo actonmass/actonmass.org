@@ -10,3 +10,62 @@ campaign_message:
     main_image: /img/newcampaign1.jpg
     first_href: https://secure.everyaction.com/oITinRw4Ck-JRO3NetrRFA2
     second_href: https://actonmass.org/transparency/
+campaign_problem_and_solution:
+  - second_solution: Meet with state legislators to request that they vote for state
+      house reform when the new House and Joint Rules are written
+    third_problem: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+      eiusmod tempor incididunt ut labore
+    first_solution: Recruit and organize District Teams in State House districts
+      across the Commonwealth
+    problem_href: https://actonmass.org/about-us
+    solution_main_text: Build grassroots power to reform the broken State House
+    first_problem: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+      eiusmod tempor incididunt ut labore
+    third_solution: Escalate pressure alongside District Teans
+    solution_title: Our Solution
+    problem_main_text: A legislature that de-centers and devalues constituent voices
+    second_problem: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+      eiusmod tempor incididunt ut labore
+    problem_title: The Problem
+    problem_and_solution_image: /img/newcampaign2.png
+campaign_priority_message:
+  - priority_title: "Our 2023 priority: Public Committee Votes"
+    priority_first_main_paragraph: The Legislature starts every new session by
+      writing their own rulebook. Every two years the legislature adopts
+      anti-transparent rules that deliberately exclude the public from
+      participating in the lawmaking process. Namely, the House and Joint rules
+      do not require that votes taken in legislative committees be made public.
+      This is disastrous for democracy--how can we hold our legislators
+      accountable when we can't see how they're voting?
+    priority_second_main_paragraph: Read more about why making public committee votes is so crucial.
+    priority_fourth_main_paragraph: That's where you come in.
+    priority_third_main_paragraph: 'Our aim is the adoption of an amendment to make
+      all committee votes public. This is an exceptionally popular piece of
+      legislation: since 2020, our non-binding ballot question for
+      public committee votes received an average of 87% approval among the
+      electorate. Despite an overwhelming mandate for
+      public committee votes, the legislature has, until now, refused to show us
+      how they vote.'
+    priority_href: https://actonmass.org/transparency/
+campaign_transparency_message:
+  - transparency_title: Become a Transparency Captain!
+    transparency_main_text: Our strategy is to organize across the Commonwealth to
+      hold as many grassroots lobby meetings with legislators as possible where
+      their constituents ask them to support public committee votes when it
+      comes to a vote in January. Lorem ipsum dolor sit amet, consectetur
+      adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+      magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+      laboris nisi ut aliquip e
+    transparency_image: /img/newcampaign2.png
+    transparency_href: https://secure.everyaction.com/oITinRw4Ck-JRO3NetrRFA2
+campaign_letter_message:
+  - letter_title: Write a Letter to the Editor!
+    letter_main_text: Our strategy is to organize across the Commonwealth to hold as
+      many grassroots lobby meetings with legislators as possible where their
+      constituents ask them to support public committee votes when it comes to a
+      vote in January. Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+      sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+      ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+      e
+    letter_href: https://actonmass.org/transparency/
+    letter_image: /img/newcampaign2.png

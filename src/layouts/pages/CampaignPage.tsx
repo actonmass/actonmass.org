@@ -6,21 +6,15 @@ import { MDXProvider } from "@mdx-js/react";
 import BaseLayout from "../BaseLayout";
 import LegislatorSearch from "../../components/FindMyReps";
 import LegCircle from "../../components/LegCircle";
-import { campaign_message } from "../../../content/other/campaign_page.yml"
+import { campaign_message, campaign_problem_and_solution, campaign_priority_message, campaign_transparency_message, campaign_letter_message } from "../../../content/other/campaign_page.yml"
 import "./campaign.scss";
 
 // A little hacky... Ideally we should properly put this data in GQL
-console.log("campaign data", campaign_message)
-// const campaignData = campaign_message.map((raw) => ({
-//   ...raw,
-//   // message: {
-//   //   first_paragraph: raw.first_main_paragraph, 
-//   //   second_paragraph: raw.second_main_paragraph,
-//   //   main_image: raw.main_picture,
-//   // }
-// }));
-const campaignMainMessageData = campaign_message;
-console.log("campaign data AFTER", campaignMainMessageData)
+const campaignMainMessage = campaign_message;
+const campaignProblemAndSolution = campaign_problem_and_solution;
+const campaignPriorityMessage = campaign_priority_message;
+const campaignTransparencyMessage = campaign_transparency_message;
+const campaignLetterMessage = campaign_letter_message;
 
 type Data = {
   page: {
@@ -46,22 +40,22 @@ export default function CampaignPage({ data }: PageProps<Data>) {
       <main className="campaign-page">
         <section className="headline dark">
           <div className="campaign_title_div">
-            <h2 className="campaign_title">{campaignMainMessageData[0].title}</h2>
-            <p className="supporting_text">{campaignMainMessageData[0].main_text}</p>
+            <h2 className="campaign_title">{campaignMainMessage[0].title}</h2>
+            <p className="supporting_text">{campaignMainMessage[0].main_text}</p>
           </div>
-          <img className="campaign_main_image" src={campaignMainMessageData[0].main_image} alt="State House"></img>
+          <img className="campaign_main_image" src={campaignMainMessage[0].main_image} alt="State House"></img>
           <div className="campaign_main_container">
             <div className="campaign_starter_text">
-              <p className="campaign_text_block">{campaignMainMessageData[0].first_main_paragraph}</p>
+              <p className="campaign_text_block">{campaignMainMessage[0].first_main_paragraph}</p>
               <br />
-              <p className="campaign_text_block">{campaignMainMessageData[0].second_main_paragraph}</p>
+              <p className="campaign_text_block">{campaignMainMessage[0].second_main_paragraph}</p>
             </div>
             <div className="campaign_main_buttons">
-              <a href={campaignMainMessageData[0].first_href} className="campaign_btn btn">
+              <a href={campaignMainMessage[0].first_href} className="campaign_btn btn">
                 Join the campaign!
               </a>
               <br />
-              <a href={campaignMainMessageData[0].second_href} className="campaign_btn btn learn_more">
+              <a href={campaignMainMessage[0].second_href} className="campaign_btn btn learn_more">
                 Learn more about state house reform 
               </a>
             </div>
@@ -70,93 +64,91 @@ export default function CampaignPage({ data }: PageProps<Data>) {
         <section className="problem_and_solution medium-blue">
           <div className="campaign_blocks hbox">
               <div className="campaign_ps dark">
-                <h3>The Problem:</h3>
-                <h4>A legislature that de-centers and devalues constituent voices</h4>
+                <h3>{campaignProblemAndSolution[0].problem_title}:</h3>
+                <h4>{campaignProblemAndSolution[0].problem_main_text}</h4>
                 <ul>
                   <li>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore 
+                  {campaignProblemAndSolution[0].first_problem} 
                   </li>
                   <li>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore 
+                  {campaignProblemAndSolution[0].second_problem}
                   </li>
                   <li>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore 
+                  {campaignProblemAndSolution[0].third_problem}
                   </li>
                 </ul>
-                <a href="https://actonmass.org/about-us">Learn more about the need for State House reform.</a>
+                <a href={campaignProblemAndSolution[0].problem_href}>Learn more about the need for State House reform.</a>
               </div>
               <div className="campaign_ps dark">
-                <h3>Our Solution:</h3>
-                <h4>Build grassroots power to reform the broken State House</h4>
+                <h3>{campaignProblemAndSolution[0].solution_title}:</h3>
+                <h4>{campaignProblemAndSolution[0].solution_main_text}</h4>
                 <ul>
                   <li>
-                  Recruit and organize District Teams in State House districts across the Commonwealth
+                  {campaignProblemAndSolution[0].first_solution}
                   </li>
                   <li>
-                  Meet with state legislators to request that they vote for state house reform when the new House and Joint Rules are written
+                  {campaignProblemAndSolution[0].second_solution}
                   </li>
                   <li>
-                  Escalate pressure alongside District Teans
+                  {campaignProblemAndSolution[0].third_solution}
                   </li>
                 </ul>
               </div>
             </div>
-          {/* change image */}
           <div className="campaign_ps_image_container cbox">
-            <img className="campaign_ps_image" src="https://d33wubrfki0l68.cloudfront.net/35ebe6a915c3cbb8337a5d629e6fe5df99eda82c/770cf/img/newcampaign1.jpg" alt="State House" width="500px"></img>
+            <img className="campaign_ps_image" src={campaignProblemAndSolution[0].problem_and_solution_image} alt="People holding signs" width="500px"></img>
           </div>
         </section>
         <section className="public_committee_votes dark">
           <div className="campaign_title_div">
-            <h2 className="campaign_title">Our 2023 priority: Public Committee Votes</h2>
+            <h2 className="campaign_title">{campaignPriorityMessage[0].priority_title}</h2>
           </div>
           <div className="campaign_info_boxes_containter cbox">
             <div className="info_box medium-blue">
-              <p>The Legislature starts every new session by writing their own rulebook. Every two years the legislature adopts anti-transparent rules that deliberately exclude the public from participating in the lawmaking process. Namely, the House and Joint rules do not require that votes taken in legislative committees be made public. This is disastrous for democracy--how can we hold our legislators accountable when we can't see how they're voting?</p>
-              {/* make below an accordian */}
-              <a href="https://actonmass.org/transparency/" style={{color: "black"}}>Read more about why making public committee votes is so crucial.</a>  
+              <p>{campaignPriorityMessage[0].priority_first_main_paragraph}</p>
+              {/* make below link an accordian in the future */}
+              <a href={campaignPriorityMessage[0].priority_href} style={{color: "black"}}>{campaignPriorityMessage[0].priority_second_main_paragraph}</a>  
             </div>
             <div className="info_box medium-blue">
-              <p>Our aim is the adoption of an amendment to make all committee votes public. This is an exceptionally popular piece of legislation: since 2020, our <span className="campaign_underline">non-binding ballot question </span> for public committee votes received an average of <span className="campaign_underline">87% approval among the electorate</span>
-              . Despite an overwhelming mandate for public committee votes, the legislature has, until now, refused to show us how they vote.</p>
+              <p>{campaignPriorityMessage[0].priority_third_main_paragraph}</p>
               <br />
-              <p>That's where you come in.</p>
+              <p>{campaignPriorityMessage[0].priority_fourth_main_paragraph}</p>
             </div>
           </div>
         </section>
         <section className="transparency_captain dark cbox">
           <div>
-            <h2 className="campaign_title">Become a Transparency Captain!</h2>
+            <h2 className="campaign_title">{campaignTransparencyMessage[0].transparency_title}</h2>
           </div>
           <div className="campaign_main_container">
             <div className="campaign_transparency_container two-blocks">
                 <div className="hero_box_a ">
-                  <p>Our strategy is to organize across the Commonwealth to hold as many grassroots lobby meetings with legislators as possible where their constituents ask them to support public committee votes when it comes to a vote in January. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip e</p>
+                  <p>{campaignTransparencyMessage[0].transparency_main_text}</p>
                 </div>
                 <div className="hero_box_b">
-                  <img className="campaign_transparency_image" src="https://d33wubrfki0l68.cloudfront.net/35ebe6a915c3cbb8337a5d629e6fe5df99eda82c/770cf/img/newcampaign1.jpg" alt="State House" width="500px"></img>
+                  <img className="campaign_transparency_image" src={campaignTransparencyMessage[0].transparency_image} alt="People smiling with protest signs" width="500px"></img>
                 </div>
             </div>
-            <a href="https://secure.everyaction.com/oITinRw4Ck-JRO3NetrRFA2" className="campaign_btn btn">
+            <a href={campaignTransparencyMessage[0].transparency_href} className="campaign_btn btn">
               Become a Transparency Captain
             </a>
           </div>
         </section>
         <section className="write_a_letter dark cbox">
           <div>
-            <h2 className="campaign_title">Write a Letter to the Editor!</h2>
+            <h2 className="campaign_title">{campaignLetterMessage[0].letter_title}</h2>
           </div>
           <div className="campaign_main_container">
             <div className="campaign_letter_container two-blocks rev">
               <div className="hero_box_a ">
-                <p>Our strategy is to organize across the Commonwealth to hold as many grassroots lobby meetings with legislators as possible where their constituents ask them to support public committee votes when it comes to a vote in January. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip e</p>
+                <p>{campaignLetterMessage[0].letter_main_text}</p>
               </div>
               <div className="hero_box_b">
-                <img className="campaign_transparency_image" src="https://d33wubrfki0l68.cloudfront.net/35ebe6a915c3cbb8337a5d629e6fe5df99eda82c/770cf/img/newcampaign1.jpg" alt="State House" width="500px"></img>
+                <img className="campaign_transparency_image" src={campaignLetterMessage[0].letter_image} alt="State House" width="500px"></img>
               </div>
             </div>
           </div>
-          <a href="https://actonmass.org/transparency/" className="campaign_btn btn">
+          <a href={campaignLetterMessage[0].letter_href} className="campaign_btn btn">
             Check out our LTE Toolkit
           </a>
         </section>
