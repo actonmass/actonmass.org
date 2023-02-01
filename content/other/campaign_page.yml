@@ -19,8 +19,8 @@ campaign_problem_and_solution:
       across the Commonwealth
     problem_href: https://actonmass.org/about-us
     solution_main_text: Build grassroots power to reform the broken State House
-    first_problem: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-      eiusmod tempor incididunt ut labore
+    first_problem: "TEST: Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+      sed do eiusmod tempor incididunt ut labore"
     third_solution: Escalate pressure alongside District Teans
     solution_title: Our Solution
     problem_main_text: A legislature that de-centers and devalues constituent voices
@@ -39,13 +39,12 @@ campaign_priority_message:
       accountable when we can't see how they're voting?
     priority_second_main_paragraph: Read more about why making public committee votes is so crucial.
     priority_fourth_main_paragraph: That's where you come in.
-    priority_third_main_paragraph: 'Our aim is the adoption of an amendment to make
+    priority_third_main_paragraph: "Our aim is the adoption of an amendment to make
       all committee votes public. This is an exceptionally popular piece of
-      legislation: since 2020, our non-binding ballot question for
-      public committee votes received an average of 87% approval among the
-      electorate. Despite an overwhelming mandate for
-      public committee votes, the legislature has, until now, refused to show us
-      how they vote.'
+      legislation: since 2020, our non-binding ballot question for public
+      committee votes received an average of 87% approval among the electorate.
+      Despite an overwhelming mandate for public committee votes, the
+      legislature has, until now, refused to show us how they vote."
     priority_href: https://actonmass.org/transparency/
 campaign_transparency_message:
   - transparency_title: Become a Transparency Captain!
