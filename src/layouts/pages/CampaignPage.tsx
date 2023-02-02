@@ -6,15 +6,16 @@ import { MDXProvider } from "@mdx-js/react";
 import BaseLayout from "../BaseLayout";
 import LegislatorSearch from "../../components/FindMyReps";
 import LegCircle from "../../components/LegCircle";
-import { campaign_message, campaign_problem_and_solution, campaign_priority_message, campaign_transparency_message, campaign_letter_message } from "../../../content/other/campaign_page.yml"
 import "./campaign.scss";
-
+import { campaign } from "../../content";
 // A little hacky... Ideally we should properly put this data in GQL
-const campaignMainMessage = campaign_message;
-const campaignProblemAndSolution = campaign_problem_and_solution;
-const campaignPriorityMessage = campaign_priority_message;
-const campaignTransparencyMessage = campaign_transparency_message;
-const campaignLetterMessage = campaign_letter_message;
+const {
+  campaign_message: campaignMainMessage,
+  campaign_problem_and_solution: campaignProblemAndSolution,
+  campaign_priority_message: campaignPriorityMessage,
+  campaign_transparency_message: campaignTransparencyMessage,
+  campaign_letter_message: campaignLetterMessage
+} = campaign;
 
 type Data = {
   page: {
