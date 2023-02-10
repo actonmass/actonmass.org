@@ -1,6 +1,6 @@
 ---
 title: Under new rules, House returns to in-person sessions
-author: Colin Young and Sam Doran, Commonwealth Magazine
+author: Colin Young and Sam Doran, State House News Service
 link: https://commonwealthmagazine.org/state-government/under-new-rules-house-returns-to-in-person-sessions/
 category: news
 date: 2023-02-02T21:29:17.631Z
