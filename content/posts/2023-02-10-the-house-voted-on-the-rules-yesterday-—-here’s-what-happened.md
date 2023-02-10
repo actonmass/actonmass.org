@@ -2,6 +2,7 @@
 layout: post
 title: The House voted on the rules yesterday — here’s what happened
 date: 2023-02-02T16:22:24.835Z
+image: /img/screen-shot-2023-02-10-at-11.27.00-am.png
 ---
 With two days of notice, and 24 hours to read over 200 pages of legislation, the House voted on the rules yesterday afternoon. There’s no sugar coating it: our amendments for public committee votes died. Worse, they died without a recorded vote. 
 
