@@ -17,6 +17,8 @@ summary:
     education
   - Promotes tribal self-determination by giving Native youth the opportunity to
     learn about their heritage and language
+orgs:
+  - title: NAICOB
 house_lead_sponsors:
   - nika-elugardo
 co_sponsors:
