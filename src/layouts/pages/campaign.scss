@@ -31,7 +31,13 @@
       }
 
     .campaign_title {
-      color: rgb(200, 228, 255);
+      color: var(--medium-blue);
+      font-weight: 400px;
+      text-align: center;
+    }
+
+    .campaign_title_dark {
+      color: var(--primary);
       font-weight: 400px;
       text-align: center;
     }

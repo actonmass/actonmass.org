@@ -96,7 +96,7 @@ our campaign for a healthy democracy.
 
 </Section>
 
-<Section color="light" width="1000">
+<!-- <Section color="light" width="1000"> -->
 
 <!-- Leaving as a comment in case this will be used later -->
 <!-- ## Media
@@ -134,4 +134,4 @@ our campaign for a healthy democracy.
 * ["Mass. is a participatory democracy in name only"](https://commonwealthmagazine.org/opinion/mass-is-a-participatory-democracy-in-name-only/)
   Erin Leahy & Ryan Daulton, Commonwealth Magazine, 11/15/2020 -->
 
-</Section>
+<!-- </Section> -->

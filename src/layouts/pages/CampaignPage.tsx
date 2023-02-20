@@ -117,9 +117,9 @@ export default function CampaignPage({ data }: PageProps<Data>) {
             </div>
           </div>
         </section>
-        <section className="transparency_captain dark cbox">
+        <section className="transparency_captain medium-blue cbox">
           <div>
-            <h2 className="campaign_title">{campaignTransparencyMessage[0].transparency_title}</h2>
+            <h2 className="campaign_title_dark">{campaignTransparencyMessage[0].transparency_title}</h2>
           </div>
           <div className="campaign_main_container">
             <div className="campaign_transparency_container two-blocks">
