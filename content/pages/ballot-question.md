@@ -5,7 +5,9 @@ layout: default
 ---
 # Question 6 Passed in all 20 Districts!
 
-**Question 6 for public committee votes passed overwhelmingly in all 20 districts. See below for official vote tallies.**
+![](/img/signal-2022-11-29-161738.jpeg)
+
+**Question 6 for public committee votes passed overwhelmingly in all 20 districts. See below for official vote tallies. Combined with results of the ballot question in 2020 (also below), support for public committee votes in Massachusetts totals 87% with over half a million voters in 36 districts across the Commonwealth voting YES.**
 
 As part of The People's House campaign for rules reform, we organized to put a non-binding policy question on 20 ballots across the Commonwealth. Our question asks voters if they support requiring legislators on Beacon Hill to make their committee votes public. 
 

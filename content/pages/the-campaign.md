@@ -20,6 +20,18 @@ Massachusetts. This partial victory is a huge step towards a State House that is
 accessible, and accountable to the people. But there is more work to be done! Join us as we continue
 our campaign for a healthy democracy.
 
+## The House voted on the Rules on July 7!
+
+<CenteredBlock>
+  <Button href="https://docs.google.com/spreadsheets/d/1YCSUxomsY8Lgq1FL0b0qbe3bt72K080RBLgJ0atqjQw/edit#gid=0" target="_blank">
+    See how your rep voted here
+  </Button>
+</CenteredBlock>
+
+</Section>
+
+<Section color="light-blue" width="1000">
+
 </Section>
 
 <LegislatorSearch theme="dark" mode="campaign" text="Where does your rep stand on public committee votes?" width="1000" hideSenator={true} />
