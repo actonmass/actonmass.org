@@ -65,8 +65,6 @@ I cannot express enough gratitude to all of you who voted YES for public committ
 
 ![]()
 
-
-
 ## Take Action
 
 **Act on Mass Fall Membership Meeting 11/29 7:00PM**\
@@ -89,4 +87,4 @@ Erin Leahy
 
 Executive Director, Act on Mass
 
-**Want Saturday Scoops sent straight to your inbox? Subscribe to the Scoop [here](https://secure.everyaction.com/1iWRboEfXUyjUvBt5HMoZw2).**
+***Want Saturday Scoops sent straight to your inbox? [Subscribe to the Scoop here](https://secure.everyaction.com/1iWRboEfXUyjUvBt5HMoZw2).***
