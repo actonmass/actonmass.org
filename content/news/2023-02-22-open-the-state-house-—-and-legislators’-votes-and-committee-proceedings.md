@@ -3,7 +3,7 @@ title: Open the State House — and legislators’ votes and committee proceedin
 author: Jonathan Hecht and Dan Winslow, Boston Globe
 link: https://www.bostonglobe.com/2023/01/25/opinion/open-state-house-legislators-votes-committee-proceedings/
 category: opinion
-date: 2023-02-22T18:50:11.847Z
+date: 2023-01-25T18:50:11.847Z
 extract: ...House leaders do not want committees and their members to be too
   influential in shaping legislation. In the time between when bills leave
   committee and when they hit the floor, they go behind closed doors where they
