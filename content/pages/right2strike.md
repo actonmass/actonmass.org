@@ -33,3 +33,4 @@ Our campaign is working with state representatives who have committed to file an
 * Malden Education Association 
 * Medford Teachers Association
 * Somerville Educators Union
+* Brookline Educators Union
