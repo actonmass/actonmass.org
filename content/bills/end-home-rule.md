@@ -20,8 +20,8 @@ summary:
     rent, property damage, etc.)
 orgs:
   - title: Mass Alliance of HUD Tenants
-    link: https://www.maht.org/2022_priority_bills
-    img: /img/244642792_227877849376781_5867340939073692798_n.jpg
+    link: https://www.saveourhomesnow.org/2023_priority_bills
+    img: null
   - title: Homes for all Massachusetts
     link: https://www.homesforallmass.org/
     img: /img/screen-shot-2022-04-12-at-3.49.55-pm.png
