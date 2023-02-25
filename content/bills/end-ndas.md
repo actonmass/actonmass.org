@@ -10,6 +10,7 @@ senate_link: https://malegislature.gov/Bills/192/S1020/
 committee: joint-judiciary
 issue: gender-equity
 img: /img/johannes-krupinski-bifm4itjnve-unsplash-1-.jpg
+hidden: true
 summary:
   - Prevents NDAs from being used to silence victims of sexual harassment
   - Allows for shielding the complainant’s identity & private information, but
