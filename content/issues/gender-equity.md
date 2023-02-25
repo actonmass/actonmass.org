@@ -13,10 +13,6 @@ failures:
     text: Massachusetts doesn't allow parents running for office to pay for
       childcare expenses with campaign funds, shutting out many parents
       especially mothers from running for office.
-  - title: Buying Silence
-    text: It's still all too common for companies to use non-disclosure agreements
-      to force survivors of sexual violence into silence. We must end this
-      practice
 references:
   - key: 1
     title: Ebbert, Stephanie, “In Massachusetts, no one wants to talk about sex ed”
