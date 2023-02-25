@@ -5,11 +5,10 @@ title: Labor
 subtitle: Stand up for Workers' Rights
 logo: fist-raised
 img: /img/blake-wisz-q3o_8mtefm0-unsplash.jpg
-catchphrase: Working people in Massachusetts deserve stronger protections.
 page_img: /img/blake-wisz-q3o_8mtefm0-unsplash.jpg
+catchphrase: Working people in Massachusetts deserve stronger protections.
 bills_to_support_title: Workers' rights
 highlighted_bills:
-  - fair-scheduling
   - stop-wage-theft
   - the-right-to-strike
 failures_block_title: MA isn't as strong on workers' rights as you might expect.
@@ -18,15 +17,6 @@ failures:
     text: Wage Theft is a huge problem in our country, outweighing all other types
       of theft by a wide margin. It's easy for bosses to withhold pay unfairly,
       and hard for workers to get restitution.
-  - title: Fair Scheduling
-    text: Retail and shift workers can be forced into shifts with late notice, or
-      forced to close one night and open the next morning, causing many workers
-      who may have children or other obligations to choose between their
-      unpredictable schedules and the rest of their lives. Mandating some
-      regularity and advance notice for shifts can make these jobs more
-      accessible to parents with children, workers who are taking care of a sick
-      family member, students, and others for who an unpredictable work schedule
-      would cause instability.
 questions:
   - title: Is wage theft really a problem?
     text: "**Yes**. Wage theft, which is money employers are obligated on paper to
