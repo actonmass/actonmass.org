@@ -10,6 +10,7 @@ senate_link: https://malegislature.gov/Bills/192/SD847
 committee: joint-health-care-financing
 issue: healthcare
 img: /img/arseny-togulev-de6ryp1naho-unsplash.jpg
+hidden: true
 summary:
   - Make it harder for hospitals or healthcare companies from closing essential
     services without an adequate notice period
