@@ -1,18 +1,9 @@
 ---
-aom_id: healthcare
 layout: issue
-title: Health Care
-subtitle: Health care is a human right
 logo: heartbeat
 img: /img/issue-healthcare.jpg
-page_img: /img/ani-kolleshi-7jjnj-qa9fy-unsplash.jpg
-catchphrase: Working families across the state are being crushed by the rising
-  cost of health care. It's time for Medicare for All.
-bills_to_support_title: Healthcare as a Human Right
 highlighted_bills:
   - medicare-for-all
-  - prevent-premature-shutdown-of-essential-health-services
-failures_block_title: We're failing to get people the healthcare they need
 failures:
   - title: Medicare for All
     text: State-level Medicare for All could save us money while making healthcare
@@ -26,28 +17,6 @@ failures:
       action, pharmaceutical companies will be able to further exploit
       prescription drug pricing for a greater and greater profit, at the expense
       of patients who need them.
-  - title: Essential Services
-    text: Healthcare companies have closed important services like maternity wards
-      in certain hospitals because they are costly to run. This puts residents
-      at risk when they have to drive farther to get the care they need. Our
-      for-profit health care system prioritizes services that are profitable
-      over services that patients need, effectively denying patients necessary
-      care.
-questions:
-  - title: Won't Single-payer Healthcare cost too much?
-    text: "**No**, in fact a Single-payer healthcare system will save up to $21
-      billion per year.  Much of that cost savings come from reduced insurance
-      company overhead.  Instead of paying premiums, co-pays, and a litany of
-      other confusing charges, you will pay a small tax -- smaller than what
-      you're already paying for healthcare."
-  - title: Will Medicare for All increase wait times and result in rationing care?
-    text: "**No.** Studies show that countries with universal single-payer health
-      care systems have on average lower wait times than the United States.
-      Patients are also no longer restricted to seeking care from providers that
-      are in their insurance network, so the range of options patients enjoy are
-      larger under a single-payer system. This enables providers to be able to
-      keep up with demand, instead of having to work around the artificial
-      limits that insurance companies place on patients and providers."
 references:
   - key: 1
     title: Klufts, Jamie “In Support of a Single Payer Healthcare System”, NASW-MA,
@@ -105,6 +74,29 @@ references:
       single payer benchmark study.
     link: https://malegislature.gov/Bills/190/H596
 permalink: /issues/healthcare/
+aom_id: healthcare
+title: Health Care
+subtitle: Health care is a human right
+page_img: /img/ani-kolleshi-7jjnj-qa9fy-unsplash.jpg
+catchphrase: Working families across the state are being crushed by the rising
+  cost of health care. It's time for Medicare for All.
+bills_to_support_title: Healthcare as a Human Right
+failures_block_title: We're failing to get people the healthcare they need
+questions:
+  - title: Won't Single-payer Healthcare cost too much?
+    text: "**No**, in fact a Single-payer healthcare system will save up to $21
+      billion per year.  Much of that cost savings come from reduced insurance
+      company overhead.  Instead of paying premiums, co-pays, and a litany of
+      other confusing charges, you will pay a small tax -- smaller than what
+      you're already paying for healthcare."
+  - title: Will Medicare for All increase wait times and result in rationing care?
+    text: "**No.** Studies show that countries with universal single-payer health
+      care systems have on average lower wait times than the United States.
+      Patients are also no longer restricted to seeking care from providers that
+      are in their insurance network, so the range of options patients enjoy are
+      larger under a single-payer system. This enables providers to be able to
+      keep up with demand, instead of having to work around the artificial
+      limits that insurance companies place on patients and providers."
 learn_more:
   - title: "Mass Care: Massachusetts Campaign for Single Payer Healthcare"
     img: null
