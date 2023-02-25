@@ -1,20 +1,81 @@
 ---
-aom_id: safe-communities-act
-title: Safe Communities Act
 full_title: An Act to Protect the Civil Rights and Safety of all MA Residents
-twitter_bill_name: Safe Communities Act
-article: the
-house_no: H.2418
-house_link: https://malegislature.gov/Bills/192/HD1165
-senate_no: S.1579
-senate_link: https://malegislature.gov/Bills/192/SD532
-committee: joint-public-safety-and-homeland-security
-issue: immigration
+house_no: HD.2459
+senate_link: https://malegislature.gov/Bills/193/SD1937
 img: /img/bills/sca_hero_img.png
 summary:
   - Prevents local law enforcement from cooperating with ICE
   - Prohibits police from asking questions about immigration status
   - Protects people of color from racial profiling by police
+scripts:
+  call_request: >-
+    Please support the Safe Communities Act.
+
+
+    Immigrant communities in Massachusetts should not be subjected to Trump's racist policies.
+  email_request:
+    subject: Please support the Safe Communities Act!
+timeline: []
+votes:
+  - legislator: william-straus
+    vote: unk
+  - legislator: paul-tucker
+    vote: unk
+  - legislator: dean-tran
+    vote: false
+  - legislator: steven-howitt
+    vote: false
+  - legislator: norman-orrall
+    vote: false
+  - legislator: david-decoste
+    vote: false
+  - legislator: adrian-madaro
+    vote: true
+  - legislator: lindsay-sabadosa
+    vote: true
+  - legislator: joseph-mcgonagle
+    vote: true
+  - legislator: jonathan-hecht
+    vote: true
+  - legislator: natalie-blais
+    vote: true
+  - legislator: daniel-donahue
+    vote: true
+  - legislator: peter-capano
+    vote: true
+  - legislator: daniel-ryan
+    vote: true
+  - legislator: eric-lesser
+    vote: true
+  - legislator: william-brownsberger
+    vote: true
+  - legislator: harriette-chandler
+    vote: true
+  - legislator: cindy-friedman
+    vote: true
+  - legislator: diana-dizoglio
+    vote: true
+  - legislator: joseph-boncore
+    vote: true
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - legislator: michael-rush
+aom_id: safe-communities-act
+title: Safe Communities Act
+twitter_bill_name: Safe Communities Act
+article: the
+house_link: https://malegislature.gov/Bills/193/HD2459
+senate_no: SD.1397
+committee: joint-public-safety-and-homeland-security
+issue: immigration
 orgs:
   - title: MIRA
     img: /img/mira_logo.svg
@@ -144,14 +205,6 @@ co_sponsors:
   - john-rogers
   - cindy-friedman
   - christina-minicucci
-scripts:
-  call_request: >-
-    Please support the Safe Communities Act.
-
-
-    Immigrant communities in Massachusetts should not be subjected to Trump's racist policies.
-  email_request:
-    subject: Please support the Safe Communities Act!
 scripts_com_vote:
   call_request: >
     Hi {leg.first_name} {leg.last_name},
@@ -193,57 +246,4 @@ history:
     description: Joint Committee Hearing scheduled
   - date: 2022-02-09
     description: Reporting date extended to May 4, 2022
-timeline: []
-votes:
-  - legislator: william-straus
-    vote: unk
-  - legislator: paul-tucker
-    vote: unk
-  - legislator: dean-tran
-    vote: false
-  - legislator: steven-howitt
-    vote: false
-  - legislator: norman-orrall
-    vote: false
-  - legislator: david-decoste
-    vote: false
-  - legislator: adrian-madaro
-    vote: true
-  - legislator: lindsay-sabadosa
-    vote: true
-  - legislator: joseph-mcgonagle
-    vote: true
-  - legislator: jonathan-hecht
-    vote: true
-  - legislator: natalie-blais
-    vote: true
-  - legislator: daniel-donahue
-    vote: true
-  - legislator: peter-capano
-    vote: true
-  - legislator: daniel-ryan
-    vote: true
-  - legislator: eric-lesser
-    vote: true
-  - legislator: william-brownsberger
-    vote: true
-  - legislator: harriette-chandler
-    vote: true
-  - legislator: cindy-friedman
-    vote: true
-  - legislator: diana-dizoglio
-    vote: true
-  - legislator: joseph-boncore
-    vote: true
-  - null
-  - null
-  - null
-  - null
-  - null
-  - null
-  - null
-  - null
-  - null
-  - null
-  - legislator: michael-rush
 ---
