@@ -3,10 +3,10 @@ aom_id: healthy-youth-act
 title: Healthy Youth Act
 full_title: An Act relative to healthy youth
 twitter_bill_name: Healthy Youth Act
-house_no: H.673
-house_link: https://malegislature.gov/Bills/192/HD3454
-senate_no: S.2495
-senate_link: https://malegislature.gov/Bills/192/S2495
+house_no: HD.3874
+house_link: https://malegislature.gov/Bills/193/HD3874
+senate_no: SD.2199
+senate_link: https://malegislature.gov/Bills/193/SD2199
 committee: joint-health-care-financing
 issue: lgbtq-rights
 img: /img/download-3-.jpeg
