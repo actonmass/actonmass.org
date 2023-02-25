@@ -10,6 +10,7 @@ senate_link: https://malegislature.gov/Bills/192/SD2235
 committee: joint-election-laws
 issue: voting-rights
 img: /img/download-4-.jpeg
+hidden: true
 summary:
   - Lowers the age requirement to register to vote to 16, extending the right to
     vote to 16 and 17 year olds
