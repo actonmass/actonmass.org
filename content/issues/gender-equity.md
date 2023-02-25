@@ -1,20 +1,9 @@
 ---
-aom_id: gender-equity
 layout: issue
-title: Gender Equity
-subtitle: Reproductive rights for all
 logo: transgender-alt
 img: /img/issue-gender.jpg
-page_img: /img/simon-maage-tximrx3gc-g-unsplash.jpg
-catchphrase: Massachusetts must do more to ensure healthcare access & gender equity
-text: Although the legislature passed a watered down version of the ROE Act in
-  2020, there is still much work to do and we've identified a few key bills that
-  are important for our legislature to pass.
-bills_to_support_title: Gender & Reproductive Justice
 highlighted_bills:
   - campaign-childcare
-  - end-ndas
-failures_block_title: Massachusetts has failed to enshrine basic equity into our laws
 failures:
   - title: Abortion Access
     text: There are still serious gaps in abortion access even in Massachusetts. We
@@ -50,6 +39,16 @@ references:
       Massachusetts, July 16, 2018"
     link: https://www.plannedparenthoodaction.org/planned-parenthood-advocacy-fund-massachusetts-inc/pressroom/poll-likely-massachusetts-voters-strongly-support-school-based-sex-education
 permalink: /issues/gender-equity/
+aom_id: gender-equity
+title: Gender Equity
+subtitle: Reproductive rights for all
+page_img: /img/simon-maage-tximrx3gc-g-unsplash.jpg
+catchphrase: Massachusetts must do more to ensure healthcare access & gender equity
+text: Although the legislature passed a watered down version of the ROE Act in
+  2020, there is still much work to do and we've identified a few key bills that
+  are important for our legislature to pass.
+bills_to_support_title: Gender & Reproductive Justice
+failures_block_title: Massachusetts has failed to enshrine basic equity into our laws
 learn_more:
   - title: Planned Parenthood Advocacy Fund of Massachusetts
     img: /img/pplm.jpg
