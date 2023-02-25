@@ -5,8 +5,10 @@ full_title: An Act providing for the creation of a permanent commission relative
   to the education of American Indian and Alaska Native residents of the
   Commonwealth
 twitter_bill_name: Support Native Students
-house_no: H.582
-house_link: https://malegislature.gov/Bills/192/H582
+house_no: HD.932
+house_link: https://malegislature.gov/Bills/193/HD932
+senate_no: SD.1286
+senate_link: https://malegislature.gov/Bills/193/SD1826
 committee: joint-education
 issue: indigenous-peoples-rights
 img: /img/pexels-emily-ranquist-1205651.jpg
