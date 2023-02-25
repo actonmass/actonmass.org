@@ -4,10 +4,10 @@ title: Ban Native American Mascots
 full_title: An Act Prohibiting the Use of Native American Mascots by Public
   Schools in the Commonwealth
 twitter_bill_name: Ban Native American Mascots
-house_no: H.581
-house_link: https://malegislature.gov/Bills/192/HD646
-senate_no: S.294
-senate_link: https://malegislature.gov/Bills/192/SD417
+house_no: HD.3026
+house_link: https://malegislature.gov/Bills/193/HD3026
+senate_no: SD.857
+senate_link: https://malegislature.gov/Bills/193/SD857
 committee: joint-education
 issue: indigenous-peoples-rights
 img: /img/pexels-tom-fisk-3448246.jpg
