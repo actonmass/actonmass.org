@@ -3,10 +3,10 @@ aom_id: indigenous-peoples-day
 title: Indigenous Peoples Day
 full_title: An Act establishing an Indigenous Peoples Day
 twitter_bill_name: Indigenous Peoples Day
-house_no: H.3191
-house_link: https://malegislature.gov/Bills/192/HD2422
-senate_no: S.2027
-senate_link: https://malegislature.gov/Bills/192/SD664
+house_no: HD.468
+house_link: https://malegislature.gov/Bills/193/HD468
+senate_no: SD.268
+senate_link: https://malegislature.gov/Bills/193/SD268
 committee: joint-state-administration-and-regulatory-oversight
 issue: indigenous-peoples-rights
 img: /img/indigenousdaypc08.webp
