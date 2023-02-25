@@ -10,6 +10,7 @@ senate_link: null
 committee: joint-judiciary
 issue: lgbtq-rights
 img: /img/united-states-constitution_800x.jpg
+hidden: true
 summary:
   - Repeals archaic unconstitutional laws still technically on the books in
     Massachusetts
