@@ -3,10 +3,10 @@ aom_id: campaign-childcare
 title: Campaign Childcare
 full_title: An Act Supporting Parents Running for Public Office
 twitter_bill_name: Campaign Childcare
-house_no: H.769
-house_link: https://malegislature.gov/Bills/192/HD1418
-senate_no: S.475
-senate_link: https://malegislature.gov/Bills/192/SD994
+house_no: HD.590
+house_link: https://malegislature.gov/Bills/193/HD590
+senate_no: SD.348
+senate_link: https://malegislature.gov/Bills/193/SD348
 committee: joint-election-laws
 issue: gender-equity
 img: /img/cropedkrakenimages-orouwawls-8-unsplash-1-.jpg
