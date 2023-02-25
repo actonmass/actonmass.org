@@ -5,8 +5,8 @@ full_title: An Act promoting equality and respect in the legislature
 twitter_bill_name: Independent Commission to Investigate Sexual Harassment in the Legislature
 house_no: null
 house_link: null
-senate_no: S.2102
-senate_link: https://malegislature.gov/Bills/192/SD1539
+senate_no: SD.376
+senate_link: https://malegislature.gov/Bills/193/SD376
 issue: gender-equity
 summary: []
 orgs:
