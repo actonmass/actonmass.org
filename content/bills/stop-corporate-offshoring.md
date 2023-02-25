@@ -4,10 +4,10 @@ title: Stop Corporate Offshoring
 full_title: "Close Corporate Loopholes and Create Progressive Revenue Act:
   Tackling the Corporate Tax Evasion Crisis"
 twitter_bill_name: Stop Corporate Offshoring
-house_no: H.2826
-house_link: https://malegislature.gov/Bills/192/HD452
-senate_no: S.1851
-senate_link: https://malegislature.gov/Bills/192/SD173
+house_no: HD.388
+house_link: https://malegislature.gov/Bills/193/HD388
+senate_no: SD.1541
+senate_link: https://malegislature.gov/Bills/193/SD1541
 committee: joint-revenue
 issue: revenue
 img: /img/offshore.jpg
