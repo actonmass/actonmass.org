@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "01/07/2023 Saturday Scoop: Scoop: New session, same bologna"
+title: "01/07/2023 Saturday Scoop: New session, same bologna"
 date: 2023-01-07T20:37:22.221Z
 redirect_from: []
 image: /img/saturday-scoop-logo.png
