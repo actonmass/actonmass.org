@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "01/14/2023 Saturday Scoop: Scoop: Mariano refuses to seat 2 Democrats
-  elected to House"
+title: "01/14/2023 Saturday Scoop: Mariano refuses to seat 2 Democrats elected
+  to House"
 date: 2023-01-14T20:45:21.125Z
 redirect_from: []
 image: /img/saturday-scoop-logo.png
