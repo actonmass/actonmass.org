@@ -21,8 +21,7 @@ summary:
     learn about their heritage and language
 orgs:
   - title: NAICOB
-house_lead_sponsors:
-  - nika-elugardo
+house_lead_sponsors: []
 co_sponsors:
   - nika-elugardo
   - lindsay-sabadosa
@@ -58,4 +57,16 @@ co_sponsors:
   - bradley-jones
   - elizabeth-malia
   - mike-connolly
+history:
+  - date: 2021-01-01
+    description: Introduced as H.582
+  - date: 2021-03-29
+    description: Referred to the House Committee on Education
+  - date: 2021-06-11
+    description: Hearing held by the Committee on Education
+  - date: 2022-03-31
+    description: Bill, re-drafted as H.4539, reported favorably and referred to
+      House Ways and Means
+  - date: 2023-01-03
+    description: No further action taken by House Ways and Means
 ---
