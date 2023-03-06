@@ -193,8 +193,17 @@ history:
   - date: 2021-03-29
     description: Referred to House Committee on Higher Education as H.1325
   - date: 2021-05-18
-    description: Hearing scheduled - Joint Committee on Higher Education
+    description: Hearing held by the Joint Committee on Higher Education
   - date: 2022-02-07
     description: Reporting date extended to April 4, 2022
+  - date: 2022-04-25
+    description: New draft reported favorably by the Joint Committee on Higher
+      Education as H.4694 and referred to the Rules Committee in each branch
+  - date: 2022-05-16
+    description: House Rules Committee reported favorably and referred to House Ways
+      and Means
+  - date: 2023-01-03
+    type: death
+    description: No further action taken by House Ways and Means
 timeline: []
 ---
