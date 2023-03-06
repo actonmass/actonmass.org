@@ -71,6 +71,16 @@ history:
   - date: 2021-03-29
     description: Referred to the Committee on the Judiciary
     type: null
+  - date: 2021-10-12
+    description: Hearing held by the Judiciary Committee
+    type: null
+  - date: 2022-02-03
+    description: Reporting date extended to April 15th, 2022
+  - date: 2022-04-19
+    description: Reporting date extended to June 30th, 2022
+  - date: 2022-10-27
+    description: "Sent to study (Study Order: H.5173)"
+    type: death
 timeline:
   - date: 2021-03-29
     description: Referred to the Committee on the Judiciary
