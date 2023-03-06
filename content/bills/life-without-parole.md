@@ -48,6 +48,19 @@ history:
   - date: 2020-02-07
     description: Sent to study, no record of the vote
     type: death
+  - date: 2021-01-01
+    description: Bill reintroduced as H.2503
+    type: null
+  - date: 2021-03-29
+    description: Referred to the committee on Public Safety and Homeland Security
+  - date: 2021-10-21
+    description: Hearing held
+  - date: 2022-02-09
+    description: Reporting date extended to May 4th, 2022
+  - date: 2022-05-05
+    description: Reporting date extended to May 18th, 2022
+  - description: "Sent to study (Study Order: H.5353)"
+    type: death
 timeline:
   - date: 2019-01-22
     description: Referred to the Judiciary Committee
