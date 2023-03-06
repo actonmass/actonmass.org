@@ -75,8 +75,8 @@ history:
     date: 2021-03-29
   - date: 2021-06-11
     description: Committee Hearing
-  - date: 2022-02-01
-    description: Sent to Study
+  - date: 2022-09-01
+    description: "Sent to Study (Study Order: H.5143)"
     type: death
 timeline: []
 ---
