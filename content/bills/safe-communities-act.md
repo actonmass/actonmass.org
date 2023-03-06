@@ -246,4 +246,13 @@ history:
     description: Joint Committee Hearing scheduled
   - date: 2022-02-09
     description: Reporting date extended to May 4, 2022
+  - date: 2022-05-05
+    description: Reporting date extendeed to June 1st, 2022
+  - date: 2022-06-02
+    description: Reporting date extended to June 24th, 2022
+  - date: 2022-06-28
+    description: Bill reported favorably and referred to the House Ways and Means Committee
+  - description: No further action taken
+    type: death
+    date: 2023-01-03
 ---
