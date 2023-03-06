@@ -79,6 +79,12 @@ history:
     description: Joint Committee hearing scheduled
   - date: 2022-02-07
     description: Reporting date extended to May 9, 2022
+  - date: 2022-05-12
+    description: Reporting date extended to July 31st, 2022
+    type: null
+  - date: 2022-09-01
+    description: "Sent to Study (Study Order: H.5204)"
+    type: death
 timeline:
   - description: Referred to the Committee on Housing
     date: 2021-03-29
