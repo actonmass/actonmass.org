@@ -154,11 +154,11 @@ history:
   - date: 2021-03-29
     description: Bill reintroduced as H.1267
   - date: 2021-10-26
-    description: Joint Committee Hearing scheduled (Health Care Financing)
-  - date: 2022-02-01
-    description: Reporting date extended
-  - date: 2022-06-02
-    description: Sent to study
+    description: Hearing held by the Joint Committee on Health Care Financing
+  - date: 2022-03-31
+    description: Reporting date extended to June 1st, 2022
+  - date: 2022-09-15
+    description: "Sent to study (Study Order: H.5222)"
     type: death
 timeline:
   - date: 2019-01-22
