@@ -126,6 +126,7 @@ history:
     date: 2019-06-04
   - date: 2020-01-01
     description: No further action taken
+    type: death
   - date: 2021-03-29
     description: "Bill reintroduced "
   - date: 2021-03-29
@@ -134,6 +135,7 @@ history:
     description: Reporting date extended to April 15, 2022
   - date: 2022-09-01
     description: "Sent to study by the Judiciary Committee (Study Order: H.5170)"
+    type: death
 timeline:
   - description: Referred to the committee on Environment, Natural Resources and Agriculture
     date: 2019-01-22
