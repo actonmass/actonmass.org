@@ -132,6 +132,8 @@ history:
     description: Referred to the committee on The Judiciary
   - date: 2022-02-01
     description: Reporting date extended to April 15, 2022
+  - date: 2022-09-01
+    description: "Sent to study by the Judiciary Committee (Study Order: H.5170)"
 timeline:
   - description: Referred to the committee on Environment, Natural Resources and Agriculture
     date: 2019-01-22
