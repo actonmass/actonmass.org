@@ -108,6 +108,9 @@ history:
     description: Referred committee on Education
   - description: Reported favorably and referred to Senate Ways and Means Committee
     date: 2021-07-21
+  - date: 2023-01-03
+    description: No further action taken by Senate Ways and Means
+    type: death
 timeline:
   - date: 2019-01-01
 ---
