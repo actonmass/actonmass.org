@@ -95,8 +95,8 @@ history:
     description: Referred to the committee on Education
   - date: 2021-09-20
     description: Hearing in Joint Committee on Education
-  - date: 2022-02-01
-    description: Sent to Study
+  - date: 2022-08-25
+    description: "Sent to study (Study Order: H.5074)"
     type: death
 timeline: []
 ---
