@@ -36,7 +36,9 @@ history:
   - date: 2021-03-01
     description: |
       Sent to State Admin and Regulatory Oversight Committee
-  - description: Sent to study
+  - date: 2021-09-22
+    description: Hearing held by the State Admin and Regulatory Oversight Committee
+  - description: "Sent to study (Study Order: S.2620)"
     type: death
-    date: 2022-01-03
+    date: 2022-01-24
 ---
