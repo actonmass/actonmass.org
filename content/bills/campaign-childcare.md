@@ -84,15 +84,6 @@ co_sponsors:
   - adam-hinds
   - susan-moran
 history:
-  - date: 2019-05-15
-    description: Committee Hearing (Election Laws)
-  - date: 2020-02-10
-    description: Sent to Study
-    type: death
-  - date: 2019-09-29
-    description: During debate on H.4087, House doesn't adopt this law as amendment,
-      but creates a commission to "study" the issue
-    type: death
   - date: 2017-01-20
     description: Bill introduced as H.2898
   - date: 2018-04-09
@@ -100,6 +91,27 @@ history:
   - date: 2018-12-31
     description: Bill dies after not being taken up by the House
     type: death
+  - date: 2019-05-15
+    description: Committee Hearing (Election Laws)
+  - date: 2019-09-29
+    description: During debate on H.4087, House doesn't adopt this law as amendment,
+      but creates a commission to "study" the issue
+    type: death
+  - date: 2020-02-10
+    description: Sent to Study
+    type: death
+  - date: 2021-01-01
+    description: Bill re-introduced as H.769
+  - date: 2021-03-29
+    description: Referred to the Committee on Election Laws
+  - date: 2021-09-15
+    description: Hearing held by the Committee on Election Laws
+  - date: 2022-03-14
+    description: Reporting date extended to April 15th, 2022
+  - date: 2022-04-14
+    description: Reporting date extended to June 10th, 2022
+  - date: 2022-10-03
+    description: Sent to Study (Study Order H.5307)
 timeline:
   - date: 2019-05-15
     description: Hearing (Election Laws)
