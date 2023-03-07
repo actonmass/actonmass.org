@@ -31,7 +31,6 @@ Another reason this budget is egregious: voters passed the Fair Share Amendment 
 * $600 child and family [tax credit](https://www.wbjournal.com/article/healey-plan-reopens-tax-debate-in-legislature?utm_medium=&emci=355770b6-cbba-ed11-a8e0-00224832e811&emdi=ea000000-0000-0000-0000-000000000001&ceid={{ContactsEmailID}}) for dependents under 13 and disabled adults. (An extra $600 per year for struggling families is woefully inadequate to address the skyrocketing cost of living in Massachusetts. Plus, families with children over the age of 12 receive no tax relief from this credit.)
 * Increases rental deduction cap from $3,000 to $4,000. (This means about [$50](https://www.wbjournal.com/article/healey-plan-reopens-tax-debate-in-legislature?utm_medium=&emci=355770b6-cbba-ed11-a8e0-00224832e811&emdi=ea000000-0000-0000-0000-000000000001&ceid={{ContactsEmailID}}) back in the pockets of renters, annually. Don’t spend it all in one place!)
 
-\
 **Boston City Council scapegoats the legislature for not passing rent control in Boston**
 
 Rent control is supported by a remarkable [two-thirds](https://media.wbur.org/wp/2021/04/Topline-2021-04-WBUR-Dot-Reporter-Wed-PM.pdf?utm_medium=&emci=355770b6-cbba-ed11-a8e0-00224832e811&emdi=ea000000-0000-0000-0000-000000000001&ceid={{ContactsEmailID}}) of Bostonians. It’s no wonder then that Boston Mayor Michelle Wu, who ran on a pro-rent control platform, won her historic election last year. Then again, the devil’s in the details; Mayor Wu’s rent stabilization plan was finally unveiled and debated among the city council last week, and received criticism from all sides of the issue.
@@ -47,12 +46,6 @@ The state house’s inaction on housing affordability, and their reticence to pa
 If you are a Boston resident, you can submit testimony in favor of passing a strong rent control measure [here](https://www.clvu.org/submit_testimony_bos?utm_medium=&emci=355770b6-cbba-ed11-a8e0-00224832e811&emdi=ea000000-0000-0000-0000-000000000001&ceid={{ContactsEmailID}}). 
 
 **[SUBMIT TESTIMONY FOR RENT CONTROL IN BOSTON >>](https://www.clvu.org/submit_testimony_bos?utm_medium=&emci=355770b6-cbba-ed11-a8e0-00224832e811&emdi=ea000000-0000-0000-0000-000000000001&ceid={{ContactsEmailID}})**
-
-![]()
-
-![]()
-
-![]()
 
 ## **Take Action**
 
