@@ -47,8 +47,10 @@ history:
   - date: 2021-01-04
     type: null
     description: Re-filed as H.1946
+  - date: 2021-03-29
+    description: Referred to the Committee on Labor and Workforce Development
   - date: 2021-07-31
-    description: Hearing in labor committee
+    description: Hearing held by the Labor and Workforce Development Committee
     type: null
   - date: 2022-09-06
     description: "Sent to study (Study Order: H.5023)"
