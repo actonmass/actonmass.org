@@ -147,7 +147,7 @@ history:
   - date: 2013-11-27
     description: Favorably reported from Education committee, referred to Ways & Means
   - date: 2014-07-31
-    description: dies in House Ways & Means (no action taken)
+    description: No further action taken by House Ways and Means
     type: death
   - date: 2015-01-22
     description: Filed again as H.448
@@ -155,16 +155,17 @@ history:
     description: Education favorably reports, sends to Health Care Financing committee
   - type: death
     date: 2016-09-26
-    description: sent to study
+    description: Sent to study
   - date: 2017-01-23
     description: Bill filed again as H.2053
   - date: 2017-05-19
-    description: Education committee favorably reports, sends to Health Care financing
+    description: Reported favorably by the Education Committee, sent to Committee on
+      Health Care Financing
   - date: 2018-06-07
-    description: Health Care Financing committee favorably reports, sends to House
-      Ways & Means
+    description: Reported favorably by Health Care Financing committee, sent to
+      House Ways & Means
   - date: 2018-07-31
-    description: House Ways & Means committee allows the bill to die (no action taken)
+    description: No further action taken by House Ways and Means
     type: death
   - date: 2019-01-22
     description: Bill filed again, as H.410
@@ -177,7 +178,26 @@ history:
   - date: 2021-09-23
     description: Passes in the Senate as S.2495, referred to House Ways & Means
   - date: 2022-07-31
-    description: Died in House Ways & Means
+    description: No further action taken by House Ways and Means
+    type: death
+  - date: 2021-01-01
+    description: Re-filed as H.673
+  - date: 2021-03-29
+    description: Referred to House Committee on Education
+  - date: 2021-05-20
+    description: Hearing held by Education Committee
+  - date: 2021-07-19
+    description: Re-drafted as S.2495, reported favorably by Education Committee and
+      referred to Senate Ways and Means
+  - date: 2021-09-20
+    description: Senate Ways and Means reported favorably with an amendment as
+      S.2534 and referred to Senate Rules Committee
+  - date: 2021-09-23
+    description: Senate adopts S.2541 38-1
+  - date: 2021-09-27
+    description: Referred to House Ways and Means
+  - date: 2023-01-03
+    description: No further action taken by House Ways and Means
     type: death
 timeline:
   - date: 2019-01-22
