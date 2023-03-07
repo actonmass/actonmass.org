@@ -29,25 +29,29 @@ co_sponsors:
   - jon-santiago
   - michelle-dubois
 history:
+  - date: 2017-01-06
+    description: Filed as H.2361
+    type: null
+  - date: 2017-01-21
+    description: Referred to the Committee on Labor and Workplace Development
+  - date: 2017-05-15
+    description: Discharged to the Committee on Public Service
+  - date: 2018-06-10
+    description: "Sent to study (Study Order: H.4654)"
+    type: death
   - date: 2019-07-09
     description: Labor committee hearing
   - date: 2020-02-12
     description: Sent to study
     type: death
-  - date: 2017-01-06
-    description: Filed as H.2361
-    type: null
-  - date: 2018-06-10
-    description: Sent to study
-    type: death
   - date: 2021-01-04
     type: null
-    description: Refiled as H.1946
+    description: Re-filed as H.1946
   - date: 2021-07-31
     description: Hearing in labor committee
     type: null
-  - date: 2022-01-03
-    description: Sent to study
+  - date: 2022-09-06
+    description: "Sent to study (Study Order: H.5023)"
     type: death
 timeline:
   - date: 2019-07-09
