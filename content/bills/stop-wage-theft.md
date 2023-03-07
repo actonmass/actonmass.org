@@ -189,21 +189,6 @@ co_sponsors:
   - michael-rush
   - cindy-friedman
 history:
-  - date: 2019-01-22
-    description: Sent to Labor committee
-  - date: 2019-05-14
-    description: Hearing held
-  - date: 2017-01-23
-    description: H.1033 (previous version) sent to Labor committee
-  - date: 2018-03-09
-    description: Favorably reported by Labor committee, sent to Senate Ways & Means
-  - date: 2018-06-07
-    description: "Favorable Report by Senate Ways & Means "
-  - date: 2018-06-21
-    description: Passed by Senate unanimously, 38-0
-  - date: 2018-07-31
-    description: Bill dies without any action in House Ways & Means
-    type: death
   - date: 2015-01-20
     description: Filed as H.1748
   - date: 2015-09-22
@@ -215,18 +200,46 @@ history:
   - date: 2016-07-13
     description: Passed the Senate 38-2
   - date: 2016-07-31
-    description: DIes in House Ways & Means committeee after no action
+    description: Dies in House Ways & Means committeee after no action
     type: death
+  - date: 2017-01-23
+    description: H.1033 (previous version) sent to Labor committee
+  - date: 2018-03-09
+    description: Favorably reported by Labor committee, sent to Senate Ways & Means
+  - date: 2018-06-07
+    description: "Favorable Report by Senate Ways & Means "
+  - date: 2018-06-21
+    description: Passed by Senate unanimously, 38-0
+  - date: 2018-07-31
+    description: Bill dies without any action in House Ways & Means
+    type: death
+  - date: 2019-01-22
+    description: Sent to Labor committee
+  - date: 2019-05-14
+    description: Hearing held
   - description: Reported favorably and referred to House Ways & Means
     date: 2020-10-29
     type: null
   - description: Bill left to die in Ways & Means
     type: death
-  - description: Bill filed as H.1959
+  - description: Bill re-filed as H.1959
     type: null
-  - description: Committee Hearing
+    date: 2021-01-01
+  - description: Hearing held by the Labor and Workforce Development Committee
     type: null
-  - description: Reported favorably by committee, referred to House Ways & Means
+    date: 2021-06-08
+  - date: 2021-03-29
+    description: Referred to the Committee Labor and Workforce Development
+  - date: 2021-06-08
+    description: Hearing held by Labor and Workforce Development Committee
+  - date: 2022-02-07
+    description: Reporting date extended to April 4th, 2022
+  - description: Redrafted as H.4681, reported favorably by committee, referred to
+      House Ways & Means
+    date: 2022-04-11
+  - date: 2023-01-03
+    description: No further action taken by House Ways and Means
+    type: death
 timeline:
   - description: Sent to the Labor and Workforce Committee
     date: 2019-01-22
