@@ -118,7 +118,14 @@ history:
   - date: 2021-03-29
     description: Referred to Joint Committee on Revenue
     type: null
-  - date: 2022-01-01
-    description: "Extended "
-    type: null
+  - date: 2021-12-22
+    description: Hearing held by Joint Revenue Committee
+  - date: 2022-04-04
+    description: Committee recommended the bill ought NOT to pass under Joint Rule 10
+  - date: 2022-04-04
+    description: Rules suspended; bill recommitted to the Joint Committee on Revenue
+  - date: 2022-05-23
+    description: Reporting date extended to July 31st, 2022
+  - date: 2022-10-06
+    description: "Sent to Study (Study Order: H.5279)"
 ---
