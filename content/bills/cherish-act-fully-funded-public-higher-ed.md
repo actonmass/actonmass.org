@@ -4,10 +4,10 @@ title: "The Cherish Act: Fully Funded Public Higher Ed"
 full_title: An Act committing to higher education the resources to insure a
   strong and healthy public higher education system
 twitter_bill_name: "The Cherish Act: Fully Funded Public Higher Ed"
-house_no: H.1325
-house_link: https://malegislature.gov/Bills/192/HD1224
-senate_no: S.824
-senate_link: https://malegislature.gov/Bills/192/SD410
+house_no: HD.2755
+house_link: https://malegislature.gov/Bills/193/HD2755
+senate_no: SD.2092
+senate_link: https://malegislature.gov/Bills/193/SD2092
 committee: joint-higher-education
 issue: education
 img: /img/vasily-koloda-8cqdvpuo_ki-unsplash.jpg
