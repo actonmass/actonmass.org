@@ -13,6 +13,15 @@ img: /img/indigenousdaypc08.webp
 hidden: false
 summary:
   - Replaces Columbus Day with Indigenous People's Day in Massachusetts Law
+text: This bill replaces Columbus Day with Indigenous Peoples Day in the
+  Massachusetts General Laws. Changing the 2nd Monday in October to Indigenous
+  People’s Day acknowledges the harmful impact of celebrating Columbus as a
+  hero. Historical accounts prove that wherever they went, Columbus and his men
+  murdered and enslaved Indigenous People. The repercussions continue to be
+  keenly felt even now. Indigenous Peoples Day replaces something negative with
+  something positive – an increased awareness of Indigenous Peoples and a
+  celebration of Indigenous resilience and survival, in MA as well as throughout
+  the Americas.
 orgs:
   - title: SURJ
     img: ""
