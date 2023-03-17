@@ -4,10 +4,11 @@ title: Environmental Justice
 full_title: An Act relative to environmental justice and toxics reduction in the
   Commonwealth
 twitter_bill_name: Environmental Justice
-house_no: HD.1581
-house_link: https://malegislature.gov/Bills/193/HD1581
-senate_no: SD.1079
-senate_link: https://malegislature.gov/Bills/193/SD1079
+house_no: H.1677
+house_link: https://malegislature.gov/Bills/193/H1677
+senate_no: S.953
+senate_link: https://malegislature.gov/Bills/193/S953/
+committee: joint-judiciary
 issue: climate
 img: /img/ella-ivanescu-jbfhnrpq_dw-unsplash.jpg
 summary:
@@ -136,6 +137,12 @@ history:
   - date: 2022-09-01
     description: "Sent to study by the Judiciary Committee (Study Order: H.5170)"
     type: death
+  - date: 2023-01-03
+    type: null
+    description: Bill re-filed as H.1677
+  - date: 2023-02-16
+    description: Referred to the Joint Committee on the Judiciary
+    type: null
 timeline:
   - description: Referred to the committee on Environment, Natural Resources and Agriculture
     date: 2019-01-22
