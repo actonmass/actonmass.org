@@ -21,14 +21,10 @@ summary:
 text: ""
 orgs:
   - title: MA Power Forward
-    img: ""
-    link: ""
-  - title: CWA
-    img: ""
-    link: ""
+    img: /img/masspowerforwardlogo.jpg
+    link: https://www.mapowerforward.com/
 house_lead_sponsors:
   - joan-meschino
-  - adrian-madaro
 senate_lead_sponsors:
   - sal-didomenico
 co_sponsors:
