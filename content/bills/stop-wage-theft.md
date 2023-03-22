@@ -220,8 +220,6 @@ history:
   - description: Reported favorably and referred to House Ways & Means
     date: 2020-10-29
     type: null
-  - description: Bill left to die in Ways & Means
-    type: death
   - description: Bill re-filed as H.1959
     type: null
     date: 2021-01-01
