@@ -177,9 +177,6 @@ history:
     type: null
   - date: 2021-09-23
     description: Passes in the Senate as S.2495, referred to House Ways & Means
-  - date: 2022-07-31
-    description: No further action taken by House Ways and Means
-    type: death
   - date: 2021-01-01
     description: Re-filed as H.673
   - date: 2021-03-29
