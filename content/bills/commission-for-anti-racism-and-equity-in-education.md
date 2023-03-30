@@ -1,12 +1,12 @@
 ---
 aom_id: "Exemple: antiracism-in-education"
 title: Commission for Anti-Racism in Education
-full_title: An Act relative to anti-racism, equity and justice in education
-twitter_bill_name: Commission for Anti-Racism and Equity in Education
-house_no: H.584
-house_link: https://malegislature.gov/Bills/192/H584
-senate_no: S.365
-senate_link: https://malegislature.gov/Bills/192/S365
+full_title: Act to Promote Racially Inclusive Curriculum in Schools
+twitter_bill_name: CARE Act
+house_no: H.542
+house_link: https://malegislature.gov/Bills/193/H542
+senate_no: S.288
+senate_link: https://malegislature.gov/Bills/193/S288
 committee: joint-education
 issue: education
 img: /img/pexels-mary-taylor-5896582.jpg
@@ -22,48 +22,28 @@ text: Students and staff of color are underrepresented and underserved in our
   social studies taught in our schools often exclude ethnic studies, center the
   history and narratives of white people, and uphold colonial frameworks.
 orgs:
-  - title: CARE
+  - title: CARE Coalition
     img: /img/care-long-logo_jan2022_edited.png
-    link: https://www.care4eduequity.org/our-biills
+    link: https://www.care4eduequity.org/
 house_lead_sponsors:
-  - nika-elugardo
-  - erika-uyterhoeven
-senate_lead_sponsors:
-  - jason-lewis
-co_sponsors:
-  - james-eldridge
-  - joanne-comerford
-  - jack-lewis
-  - jason-lewis
-  - tami-gouveia
-  - nika-elugardo
-  - erika-uyterhoeven
-  - lindsay-sabadosa
   - steven-ultrino
-  - steve-owens
-  - frank-moran
-  - elizabeth-malia
-  - david-leboeuf
-  - dan-sena
-  - natalie-higgins
-  - marcos-devers
-  - michelle-ciccolo
-  - carmine-gentile
-  - vanna-howard
-  - kenneth-gordon
-  - smitty-pignatelli
-  - james-arciero
-  - mike-connolly
-  - thomas-stanley
-  - mindy-domb
-  - brendan-crighton
+  - tram-nguyen
+senate_lead_sponsors:
+  - adam-gomez
+co_sponsors: []
 history:
   - description: Bill filed
     date: 2021-03-29
   - date: 2021-03-29
     description: Referred to the House Committee on Education
   - date: 2021-09-13
-    description: Hearing scheduled - Joint Committee on Education
-  - date: 2022-02-01
-    description: Advanced out of committee - Added to omnibus bill
+    description: Hearing held by the Joint Committee on Education
+  - date: 2022-03-31
+    description: "Consolidated away with several other bills; Bill reported
+      favorably by committee and referred to the committee on House Ways and
+      Means without any actual content of CARE included "
+    type: null
+  - date: 2023-01-03
+    description: No further action taken by House Ways & Means
+    type: death
 ---
