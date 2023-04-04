@@ -1,18 +1,16 @@
 ---
 aom_id: house-steering-policy-and-scheduling
-malegislature_url: https://malegislature.gov/Committees/Detail/H52
 title: House Committee on Steering, Policy and Scheduling
 chamber: house
 house_chair: kevin-honan
-house_vice_chair: tricia-farley-bouvier
+house_vice_chair: tram-nguyen
 house_members:
   - ann-margaret-ferrante
+  - jennifer-armini
   - steve-owens
-  - jacob-oliveira
-  - michelle-dubois
-  - kate-hogan
   - tommy-vitolo
-  - james-oday
-  - bradford-hill
-  - susan-gifford
+  - kay-khan
+  - jeffrey-turco
+  - lindsay-sabadosa
+malegislature_url: https://malegislature.gov/Committees/Detail/H52
 ---
