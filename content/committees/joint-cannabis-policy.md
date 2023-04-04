@@ -1,25 +1,25 @@
 ---
 aom_id: joint-cannabis-policy
-malegislature_url: https://malegislature.gov/Committees/Detail/J50
 title: Joint Committee on Cannabis Policy
 chamber: joint
-senate_chair: sonia-chang-diaz
-senate_vice_chair: nick-collins
-senate_members:
-  - diana-dizoglio
-  - adam-gomez
-  - susan-moran
-  - ryan-fattman
 house_chair: daniel-donahue
-house_vice_chair: paul-schmid
+house_vice_chair: rob-consalvo
+senate_chair: adam-gomez
+senate_vice_chair: robyn-kennedy
 house_members:
-  - peter-capano
-  - lindsay-sabadosa
-  - alan-silvia
+  - aaron-saunders
   - colleen-garry
-  - patrick-kearney
-  - patricia-duffy
+  - priscila-sousa
+  - dawne-shand
+  - peter-capano
   - vanna-howard
-  - paul-frost
+  - manny-cruz
+  - donald-berthiaume
   - michael-soter
+senate_members:
+  - james-eldridge
+  - susan-moran
+  - pavel-payano
+  - ryan-fattman
+malegislature_url: https://malegislature.gov/Committees/Detail/J50
 ---
