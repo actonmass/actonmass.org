@@ -1,25 +1,25 @@
 ---
 aom_id: joint-election-laws
-malegislature_url: https://malegislature.gov/Committees/Detail/J15
 title: Joint Committee on Election Laws
 chamber: joint
-senate_chair: barry-finegold
-senate_vice_chair: adam-gomez
-senate_members:
-  - michael-brady
-  - cynthia-creem
-  - james-eldridge
-  - ryan-fattman
 house_chair: daniel-ryan
 house_vice_chair: tommy-vitolo
+senate_chair: john-keenan
+senate_vice_chair: adam-gomez
 house_members:
-  - patrick-kearney
-  - alan-silvia
-  - daniel-carey
-  - meghan-kilcoyne
   - sally-kerans
   - jessica-giannino
+  - alan-silvia
+  - patrick-kearney
   - carol-doherty
-  - shawn-dooley
-  - marc-lombardo
+  - daniel-carey
+  - meghan-kilcoyne
+  - paul-frost
+  - bradley-jones
+senate_members:
+  - james-eldridge
+  - ryan-fattman
+  - cynthia-creem
+  - jacob-oliveira
+malegislature_url: https://malegislature.gov/Committees/Detail/J15
 ---
