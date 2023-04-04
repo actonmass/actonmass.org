@@ -1,18 +1,16 @@
 ---
 aom_id: house-post-audit-and-oversight
-malegislature_url: https://malegislature.gov/Committees/Detail/H46
 title: House Committee on Post Audit and Oversight
 chamber: house
 house_chair: john-mahoney
-house_vice_chair: gerard-cassidy
+house_vice_chair: daniel-carey
 house_members:
   - christopher-markey
   - kay-khan
+  - mike-connolly
+  - adrianne-ramons
+  - david-leboeuf
   - ann-margaret-ferrante
-  - adrian-madaro
-  - william-driscoll
-  - john-barrett
-  - christine-barber
-  - peter-durant
-  - alyson-sullivan
+  - jeffrey-turco
+malegislature_url: https://malegislature.gov/Committees/Detail/H46
 ---
