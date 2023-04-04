@@ -1,25 +1,25 @@
 ---
-aom_id: joint-covid-19-and-emergency-preparedness-and-management
+aom_id: joint-emergency-preparedness-and-management
 title: Joint Committee on Emergency Preparedness and Management
 chamber: joint
 house_chair: william-driscoll
-house_vice_chair: jon-santiago
-senate_chair: joanne-comerford
-senate_vice_chair: cindy-friedman
+house_vice_chair: steve-owens
+senate_chair: marc-pacheco
+senate_vice_chair: walter-timilty
 house_members:
-  - orlando-ramos
+  - shirley-arriaga
   - rob-consalvo
-  - elizabeth-malia
+  - francisco-paulino
   - chynah-tyler
-  - mindy-domb
-  - christina-minicucci
-  - carolyn-dykema
+  - james-arena-derosa
+  - margaret-scarsdale
+  - manny-cruz
   - paul-frost
   - david-vieira
 senate_members:
-  - john-cronin
-  - julian-cyr
-  - eric-lesser
-  - patrick-oconnor
+  - michael-brady
+  - jacob-oliveira
+  - rebecca-rausch
+  - ryan-fattman
 malegislature_url: https://malegislature.gov/Committees/Detail/J35
 ---
