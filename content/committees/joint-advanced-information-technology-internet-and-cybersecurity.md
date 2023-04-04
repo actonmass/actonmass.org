@@ -1,27 +1,26 @@
 ---
 aom_id: joint-advanced-information-technology-internet-and-cybersecurity
-malegislature_url: https://malegislature.gov/Committees/Detail/J33
-title:
-  Joint Committee on Advanced Information Technology, the Internet and
+title: Joint Committee on Advanced Information Technology, the Internet and
   Cybersecurity
 chamber: joint
-senate_chair: barry-finegold
-senate_vice_chair: susan-moran
+house_chair: tricia-farley-bouvier
+house_vice_chair: james-hawkins
+senate_chair: michael-moore
+senate_vice_chair: pavel-payano
+house_members:
+  - jeffrey-turco
+  - adrianne-ramons
+  - margaret-scarsdale
+  - dan-sena
+  - rita-mendes
+  - joan-meschino
+  - christopher-flanagan
+  - marc-lombardo
+  - nicholas-boldyga
 senate_members:
   - jason-lewis
-  - eric-lesser
-  - mark-montigny
-  - ryan-fattman
-house_chair: linda-campbell
-house_vice_chair: daniel-carey
-house_members:
-  - orlando-ramos
-  - tricia-farley-bouvier
-  - jessica-giannino
-  - dan-sena
-  - maria-robinson
-  - joan-meschino
-  - sally-kerans
-  - marc-lombardo
-  - peter-durant
+  - barry-finegold
+  - paul-mark
+  - bruce-tarr
+malegislature_url: https://malegislature.gov/Committees/Detail/J33
 ---
