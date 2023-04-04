@@ -1,25 +1,25 @@
 ---
 aom_id: joint-financial-services
-malegislature_url: https://malegislature.gov/Committees/Detail/J11
 title: Joint Committee on Financial Services
 chamber: joint
-senate_chair: brendan-crighton
-senate_vice_chair: michael-moore
-senate_members:
-  - joseph-boncore
-  - edward-kennedy
-  - susan-moran
-  - ryan-fattman
 house_chair: james-murphy
 house_vice_chair: bruce-ayers
+senate_chair: paul-feeney
+senate_vice_chair: michael-moore
 house_members:
-  - david-leboeuf
-  - richard-haggerty
+  - christopher-flanagan
   - kate-lipper-garabedian
+  - ryan-hamilton
   - smitty-pignatelli
-  - meghan-kilcoyne
   - sally-kerans
+  - simon-cataldo
   - steve-owens
-  - f-jay-barrows
+  - michael-soter
   - nicholas-boldyga
+senate_members:
+  - john-cronin
+  - jacob-oliveira
+  - susan-moran
+  - bruce-tarr
+malegislature_url: https://malegislature.gov/Committees/Detail/J11
 ---
