@@ -12,5 +12,8 @@ house_members:
   - francisco-paulino
   - kathleen-lanatra
   - simon-cataldo
+  - adam-gomez
+  - todd-smola
+  - peter-durant
 malegislature_url: https://malegislature.gov/Committees/Detail/H54
 ---
