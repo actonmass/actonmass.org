@@ -28,5 +28,14 @@ house_members:
   - james-hawkins
   - christine-barber
   - orlando-ramos
+  - alan-silvia
+  - todd-smola
+  - angelo-demilia
+  - mathew-muratore
+  - donald-berthiaume
+  - joseph-mckenna
+  - kelly-pease
+  - alyson-sullivan
+  - steven-xiarhos
 malegislature_url: https://malegislature.gov/Committees/Detail/H34
 ---
