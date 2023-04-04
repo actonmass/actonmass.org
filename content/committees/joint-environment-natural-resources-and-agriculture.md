@@ -1,5 +1,5 @@
 ---
-aom_id: joint-environment-natural-resources-and-agriculture
+aom_id: joint-agriculture
 title: Joint Committee on Agriculture
 chamber: joint
 house_chair: paul-schmid
