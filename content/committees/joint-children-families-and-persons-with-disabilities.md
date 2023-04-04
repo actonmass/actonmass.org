@@ -1,25 +1,25 @@
 ---
 aom_id: joint-children-families-and-persons-with-disabilities
-malegislature_url: https://malegislature.gov/Committees/Detail/J13
 title: Joint Committee on Children, Families and Persons with Disabilities
 chamber: joint
-senate_chair: adam-gomez
-senate_vice_chair: john-velis
-senate_members:
-  - brendan-crighton
-  - james-eldridge
-  - rebecca-rausch
-  - patrick-oconnor
-house_chair: michael-finn
-house_vice_chair: natalie-blais
+house_chair: jay-livingstone
+house_vice_chair: jessica-giannino
+senate_chair: robyn-kennedy
+senate_vice_chair: rebecca-rausch
 house_members:
-  - jack-lewis
-  - tami-gouveia
-  - david-leboeuf
+  - rita-mendes
   - michelle-ciccolo
-  - natalie-higgins
+  - adrianne-ramons
   - carol-doherty
-  - jacob-oliveira
+  - david-leboeuf
+  - dawne-shand
+  - natalie-higgins
   - donald-berthiaume
   - alyson-sullivan
+senate_members:
+  - lydia-edwards
+  - james-eldridge
+  - paul-mark
+  - patrick-oconnor
+malegislature_url: https://malegislature.gov/Committees/Detail/J13
 ---
