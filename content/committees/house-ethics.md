@@ -10,5 +10,9 @@ house_members:
   - ruth-balser
   - alice-peisch
   - danielle-gregoire
+  - f-jay-barrows
+  - steven-howitt
+  - hannah-kane
+  - marc-lombardo
 malegislature_url: https://malegislature.gov/Committees/Detail/H38
 ---
