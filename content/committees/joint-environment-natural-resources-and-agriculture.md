@@ -21,5 +21,5 @@ senate_members:
   - joan-lovely
   - robyn-kennedy
   - rebecca-rausch
-malegislature_url: https://malegislature.gov/Committees/Detail/J21
+malegislature_url: https://malegislature.gov/Committees/Detail/J38
 ---
