@@ -1,28 +1,28 @@
 ---
 aom_id: joint-health-care-financing
-malegislature_url: https://malegislature.gov/Committees/Detail/J24
 title: Joint Committee on Health Care Financing
 chamber: joint
+house_chair: john-lawn
+house_vice_chair: kathleen-lanatra
 senate_chair: cindy-friedman
-senate_vice_chair: harriette-chandler
+senate_vice_chair: john-cronin
+house_members:
+  - brian-murray
+  - steven-ultrino
+  - christine-barber
+  - lindsay-sabadosa
+  - patricia-duffy
+  - kip-diggs
+  - jack-lewis
+  - christopher-worrell
+  - hannah-kane
+  - mathew-muratore
+  - f-jay-barrows
 senate_members:
   - julian-cyr
   - paul-feeney
   - john-keenan
-  - eric-lesser
+  - jason-lewis
   - patrick-oconnor
-house_chair: john-lawn
-house_vice_chair: jay-livingstone
-house_members:
-  - lindsay-sabadosa
-  - christine-barber
-  - steven-ultrino
-  - brian-murray
-  - jon-santiago
-  - patricia-duffy
-  - kip-diggs
-  - thomas-golden
-  - hannah-kane
-  - mathew-muratore
-  - lenny-mirra
+malegislature_url: https://malegislature.gov/Committees/Detail/J24
 ---
