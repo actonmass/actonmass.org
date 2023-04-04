@@ -12,5 +12,9 @@ house_members:
   - priscila-sousa
   - richard-haggerty
   - tram-nguyen
+  - joseph-mckenna
+  - angelo-demilia
+  - susan-gifford
+  - marc-lombardo
 malegislature_url: https://malegislature.gov/Committees/Detail/H45
 ---
