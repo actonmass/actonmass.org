@@ -12,5 +12,7 @@ house_members:
   - david-leboeuf
   - ann-margaret-ferrante
   - jeffrey-turco
+  - peter-durant
+  - joseph-mckenna
 malegislature_url: https://malegislature.gov/Committees/Detail/H46
 ---
