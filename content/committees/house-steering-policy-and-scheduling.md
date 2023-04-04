@@ -12,5 +12,7 @@ house_members:
   - kay-khan
   - jeffrey-turco
   - lindsay-sabadosa
+  - susan-gifford
+  - steven-howitt
 malegislature_url: https://malegislature.gov/Committees/Detail/H52
 ---
