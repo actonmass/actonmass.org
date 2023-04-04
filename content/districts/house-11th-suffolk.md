@@ -1,8 +1,8 @@
 ---
 aom_id: house-11th-suffolk
-chamber: house
-lat: 42.3002589
-lng: -71.1406865
 name: 11th Suffolk
-van_id: '134'
+chamber: house
+van_id: "134"
+lat: 42.391606
+lng: -71.035726
 ---
