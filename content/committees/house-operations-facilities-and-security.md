@@ -12,5 +12,7 @@ house_members:
   - meghan-kilcoyne
   - danielle-gregoire
   - rodney-elliott
+  - marcus-vaughn
+  - david-decoste
 malegislature_url: https://malegislature.gov/Committees/Detail/H53
 ---
