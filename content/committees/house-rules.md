@@ -15,5 +15,8 @@ house_members:
   - michael-moran
   - sarah-peake
   - marjorie-decker
+  - donald-wong
+  - paul-frost
+  - david-muradian
 malegislature_url: https://malegislature.gov/Committees/Detail/H33
 ---
