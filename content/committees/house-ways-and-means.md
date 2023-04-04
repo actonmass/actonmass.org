@@ -18,7 +18,6 @@ house_members:
   - andres-vargas
   - dylan-fernandes
   - meghan-kilcoyne
-  - adrianne-ramons
   - patrick-kearney
   - kate-lipper-garabedian
   - chynah-tyler
@@ -28,5 +27,6 @@ house_members:
   - richard-haggerty
   - james-hawkins
   - christine-barber
+  - orlando-ramos
 malegislature_url: https://malegislature.gov/Committees/Detail/H34
 ---
