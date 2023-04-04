@@ -1,29 +1,28 @@
 ---
 aom_id: joint-bonding-capital-expenditures-and-state-assets
-malegislature_url: https://malegislature.gov/Committees/Detail/J32
 title: Joint Committee on Bonding, Capital Expenditures and State Assets
 chamber: joint
-senate_chair: paul-feeney
-senate_vice_chair: nick-collins
-senate_members:
-  - joseph-boncore
-  - diana-dizoglio
-  - marc-pacheco
-  - walter-timilty
-  - ryan-fattman
-  - bruce-tarr
-house_chair: danielle-gregoire
-house_vice_chair: patricia-haddad
+house_chair: michael-finn
+house_vice_chair: john-rogers
+senate_chair: edward-kennedy
+senate_vice_chair: paul-mark
 house_members:
-  - russell-holmes
-  - mike-connolly
-  - james-hawkins
-  - lindsay-sabadosa
   - carol-doherty
+  - russell-holmes
   - rob-consalvo
   - orlando-ramos
-  - adam-scanlon
+  - mike-connolly
+  - james-hawkins
+  - rita-mendes
+  - estela-reyes
   - david-vieira
   - norman-orrall
-  - kelly-pease
+  - nicholas-boldyga
+senate_members:
+  - nick-collins
+  - michael-moore
+  - pavel-payano
+  - walter-timilty
+  - ryan-fattman
+malegislature_url: https://malegislature.gov/Committees/Detail/J32
 ---
