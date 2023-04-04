@@ -12,5 +12,7 @@ house_members:
   - steve-owens
   - kristin-kassner
   - jennifer-armini
+  - kimberly-ferguson
+  - donald-berthiaume
 malegislature_url: https://malegislature.gov/Committees/Detail/H51
 ---
