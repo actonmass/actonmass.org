@@ -1,25 +1,25 @@
 ---
 aom_id: joint-municipalities-and-regional-government
-malegislature_url: https://malegislature.gov/Committees/Detail/J10
 title: Joint Committee on Municipalities and Regional Government
 chamber: joint
-senate_chair: john-cronin
-senate_vice_chair: diana-dizoglio
-senate_members:
-  - edward-kennedy
-  - susan-moran
-  - john-velis
-  - bruce-tarr
-house_chair: lori-ehrlich
-house_vice_chair: paul-tucker
+house_chair: carole-fiola
+house_vice_chair: lindsay-sabadosa
+senate_chair: jacob-oliveira
+senate_vice_chair: edward-kennedy
 house_members:
-  - michelle-dubois
-  - john-barrett
-  - christina-minicucci
-  - mike-connolly
-  - tami-gouveia
-  - tram-nguyen
   - ted-philips
-  - mathew-muratore
+  - mike-connolly
+  - michelle-dubois
+  - ryan-hamilton
+  - dawne-shand
+  - tram-nguyen
+  - margaret-scarsdale
   - norman-orrall
+  - mathew-muratore
+senate_members:
+  - bruce-tarr
+  - john-cronin
+  - lydia-edwards
+  - pavel-payano
+malegislature_url: https://malegislature.gov/Committees/Detail/J10
 ---
