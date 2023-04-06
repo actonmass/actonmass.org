@@ -1,9 +1,8 @@
 ---
 aom_id: senate-personnel-and-administration
-malegislature_url: https://malegislature.gov/Committees/Detail/S53
 title: Senate Committee on Personnel and Administration
 chamber: senate
-senate_chair: joseph-boncore
+senate_chair: michael-rush
 senate_vice_chair: brendan-crighton
 senate_members:
   - sal-didomenico
@@ -11,4 +10,5 @@ senate_members:
   - cindy-friedman
   - patrick-oconnor
   - bruce-tarr
+malegislature_url: https://malegislature.gov/Committees/Detail/S53
 ---
