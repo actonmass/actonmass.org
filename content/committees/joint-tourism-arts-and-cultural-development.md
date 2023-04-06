@@ -1,17 +1,11 @@
 ---
 aom_id: joint-tourism-arts-and-cultural-development
-malegislature_url: https://malegislature.gov/Committees/Detail/J30
 title: Joint Committee on Tourism, Arts and Cultural Development
 chamber: joint
-senate_chair: edward-kennedy
-senate_vice_chair: john-cronin
-senate_members:
-  - susan-moran
-  - walter-timilty
-  - john-velis
-  - ryan-fattman
-house_chair: carole-fiola
-house_vice_chair: dylan-fernandes
+house_chair: mindy-domb
+house_vice_chair: michael-kushmerek
+senate_chair: paul-mark
+senate_vice_chair: jacob-oliveira
 house_members:
   - tricia-farley-bouvier
   - mary-keefe
@@ -22,4 +16,10 @@ house_members:
   - kip-diggs
   - mathew-muratore
   - david-vieira
+senate_members:
+  - susan-moran
+  - ryan-fattman
+  - michael-barrett
+  - edward-kennedy
+malegislature_url: https://malegislature.gov/Committees/Detail/J30
 ---
