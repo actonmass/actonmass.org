@@ -1,61 +1,60 @@
 ---
 aom_id: joint-ways-and-means
-malegislature_url: https://malegislature.gov/Committees/Detail/J39
 title: Joint Committee on Ways and Means
 chamber: joint
+house_chair: aaron-michlewitz
+house_vice_chair: ann-margaret-ferrante
 senate_chair: michael-rodrigues
 senate_vice_chair: cindy-friedman
+house_members:
+  - patricia-haddad
+  - russell-holmes
+  - natalie-higgins
+  - sam-montano
+  - steven-ultrino
+  - alan-silvia
+  - vanna-howard
+  - carol-doherty
+  - patricia-duffy
+  - sally-kerans
+  - natalie-blais
+  - david-biele
+  - andres-vargas
+  - dylan-fernandes
+  - meghan-kilcoyne
+  - orlando-ramos
+  - patrick-kearney
+  - kate-lipper-garabedian
+  - chynah-tyler
+  - kathleen-lanatra
+  - bud-williams
+  - brian-murray
+  - richard-haggerty
+  - james-hawkins
+  - christine-barber
+  - angelo-demilia
+  - mathew-muratore
+  - donald-berthiaume
+  - joseph-mckenna
+  - kelly-pease
+  - alyson-sullivan
+  - steven-xiarhos
 senate_members:
-  - jason-lewis
-  - michael-barrett
-  - joseph-boncore
+  - joanne-comerford
   - michael-brady
+  - john-cronin
+  - lydia-edwards
   - paul-feeney
-  - barry-finegold
   - anne-gobi
-  - adam-hinds
+  - adam-gomez
   - patricia-jehlen
-  - eric-lesser
   - john-keenan
+  - jason-lewis
+  - liz-miranda
   - michael-moore
   - michael-rush
   - patrick-oconnor
   - ryan-fattman
   - bruce-tarr
-house_chair: aaron-michlewitz
-house_vice_chair: ann-margaret-ferrante
-house_members:
-  - paul-donato
-  - christine-barber
-  - david-biele
-  - natalie-blais
-  - john-barrett
-  - marcos-devers
-  - russell-holmes
-  - nika-elugardo
-  - dylan-fernandes
-  - natalie-higgins
-  - brian-murray
-  - christina-minicucci
-  - elizabeth-malia
-  - kathleen-lanatra
-  - james-hawkins
-  - jack-lewis
-  - patrick-kearney
-  - meghan-kilcoyne
-  - paul-schmid
-  - alan-silvia
-  - chynah-tyler
-  - paul-tucker
-  - bud-williams
-  - steven-ultrino
-  - andres-vargas
-  - todd-smola
-  - angelo-demilia
-  - donald-berthiaume
-  - peter-durant
-  - james-kelcourse
-  - joseph-mckenna
-  - mathew-muratore
-  - timothy-whelan
+malegislature_url: https://malegislature.gov/Committees/Detail/J39
 ---
