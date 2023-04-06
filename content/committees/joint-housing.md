@@ -1,25 +1,25 @@
 ---
 aom_id: joint-housing
-malegislature_url: https://malegislature.gov/Committees/Detail/J28
 title: Joint Committee on Housing
 chamber: joint
-senate_chair: john-keenan
-senate_vice_chair: patricia-jehlen
-senate_members:
-  - michael-barrett
-  - harriette-chandler
-  - joan-lovely
-  - patrick-oconnor
 house_chair: james-arciero
-house_vice_chair: john-rogers
+house_vice_chair: meghan-kilcoyne
+senate_chair: lydia-edwards
+senate_vice_chair: john-keenan
 house_members:
-  - christopher-hendricks
-  - patrick-kearney
   - mike-connolly
-  - david-leboeuf
-  - rob-consalvo
-  - nika-elugardo
+  - shirley-arriaga
   - kip-diggs
+  - christopher-hendricks
+  - rob-consalvo
+  - patrick-kearney
+  - david-leboeuf
   - david-decoste
   - david-muradian
+senate_members:
+  - michael-barrett
+  - patrick-oconnor
+  - julian-cyr
+  - john-velis
+malegislature_url: https://malegislature.gov/Committees/Detail/J28
 ---
