@@ -7,14 +7,14 @@ house_vice_chair: michael-kushmerek
 senate_chair: paul-mark
 senate_vice_chair: jacob-oliveira
 house_members:
-  - tricia-farley-bouvier
-  - mary-keefe
-  - natalie-blais
-  - tommy-vitolo
   - smitty-pignatelli
-  - john-rogers
+  - christopher-worrell
+  - mary-keefe
+  - adrianne-ramons
+  - tommy-vitolo
   - kip-diggs
-  - mathew-muratore
+  - natalie-blais
+  - donald-wong
   - david-vieira
 senate_members:
   - susan-moran
