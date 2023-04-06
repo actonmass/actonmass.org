@@ -1,25 +1,25 @@
 ---
 aom_id: joint-public-health
-malegislature_url: https://malegislature.gov/Committees/Detail/J16
 title: Joint Committee on Public Health
 chamber: joint
-senate_chair: joanne-comerford
-senate_vice_chair: susan-moran
-senate_members:
-  - harriette-chandler
-  - rebecca-rausch
-  - julian-cyr
-  - patrick-oconnor
 house_chair: marjorie-decker
-house_vice_chair: brian-murray
+house_vice_chair: sally-kerans
+senate_chair: julian-cyr
+senate_vice_chair: jacob-oliveira
 house_members:
-  - paul-schmid
-  - jack-lewis
-  - andres-vargas
-  - jon-santiago
-  - brian-ashe
-  - kay-khan
   - vanna-howard
+  - james-arena-derosa
+  - brian-ashe
+  - kristin-kassner
+  - judith-garcia
+  - andres-vargas
+  - kay-khan
   - hannah-kane
-  - shawn-dooley
+  - marc-lombardo
+senate_members:
+  - patrick-oconnor
+  - john-keenan
+  - robyn-kennedy
+  - pavel-payano
+malegislature_url: https://malegislature.gov/Committees/Detail/J16
 ---
