@@ -1,13 +1,14 @@
 ---
 aom_id: senate-intergovernmental-affairs
-malegislature_url: https://malegislature.gov/Committees/Detail/S55
 title: Senate Committee on Intergovernmental Affairs
 chamber: senate
-senate_chair: michael-rush
-senate_vice_chair: adam-hinds
+house_vice_chair: ""
+senate_chair: mark-montigny
+senate_vice_chair: barry-finegold
 senate_members:
-  - mark-montigny
-  - brendan-crighton
-  - michael-moore
   - patrick-oconnor
+  - michael-barrett
+  - sal-didomenico
+  - walter-timilty
+malegislature_url: https://malegislature.gov/Committees/Detail/S55
 ---
