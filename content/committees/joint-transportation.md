@@ -1,28 +1,28 @@
 ---
 aom_id: joint-transportation
-malegislature_url: https://malegislature.gov/Committees/Detail/J27
 title: Joint Committee on Transportation
 chamber: joint
-senate_chair: joseph-boncore
-senate_vice_chair: john-keenan
-senate_members:
-  - harriette-chandler
-  - eric-lesser
-  - susan-moran
-  - michael-rush
-  - patrick-oconnor
 house_chair: william-straus
-house_vice_chair: marcos-devers
+house_vice_chair: brian-murray
+senate_chair: brendan-crighton
+senate_vice_chair: paul-mark
 house_members:
-  - paul-tucker
+  - sally-kerans
   - natalie-blais
+  - manny-cruz
+  - susannah-whipps
   - peter-capano
   - lindsay-sabadosa
-  - susannah-whipps
   - brandy-fluker-oakley
-  - sally-kerans
   - rady-mom
   - steven-howitt
   - norman-orrall
   - david-decoste
+senate_members:
+  - john-keenan
+  - robyn-kennedy
+  - susan-moran
+  - walter-timilty
+  - patrick-oconnor
+malegislature_url: https://malegislature.gov/Committees/Detail/J27
 ---
