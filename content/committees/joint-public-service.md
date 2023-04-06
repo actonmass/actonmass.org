@@ -1,25 +1,25 @@
 ---
 aom_id: joint-public-service
-malegislature_url: https://malegislature.gov/Committees/Detail/J23
 title: Joint Committee on Public Service
 chamber: joint
-senate_chair: michael-brady
-senate_vice_chair: barry-finegold
-senate_members:
-  - nick-collins
-  - diana-dizoglio
-  - james-eldridge
-  - ryan-fattman
 house_chair: kenneth-gordon
 house_vice_chair: natalie-higgins
+senate_chair: michael-brady
+senate_vice_chair: patricia-jehlen
 house_members:
-  - bruce-ayers
   - david-linsky
-  - kate-lipper-garabedian
-  - paul-mark
-  - frank-moran
+  - aaron-saunders
+  - kate-donaghue
+  - judith-garcia
   - erika-uyterhoeven
   - michael-kushmerek
-  - timothy-whelan
+  - bruce-ayers
   - david-decoste
+  - todd-smola
+senate_members:
+  - nick-collins
+  - james-eldridge
+  - pavel-payano
+  - ryan-fattman
+malegislature_url: https://malegislature.gov/Committees/Detail/J23
 ---
