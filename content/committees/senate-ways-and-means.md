@@ -1,25 +1,25 @@
 ---
 aom_id: senate-ways-and-means
-malegislature_url: https://malegislature.gov/Committees/Detail/S30
 title: Senate Committee on Ways and Means
 chamber: senate
 senate_chair: michael-rodrigues
 senate_vice_chair: cindy-friedman
 senate_members:
-  - jason-lewis
-  - michael-barrett
-  - joseph-boncore
+  - joanne-comerford
   - michael-brady
+  - john-cronin
+  - lydia-edwards
   - paul-feeney
-  - barry-finegold
   - anne-gobi
-  - adam-hinds
+  - adam-gomez
   - patricia-jehlen
-  - eric-lesser
   - john-keenan
+  - jason-lewis
+  - liz-miranda
   - michael-moore
   - michael-rush
   - patrick-oconnor
   - ryan-fattman
   - bruce-tarr
+malegislature_url: https://malegislature.gov/Committees/Detail/S30
 ---
