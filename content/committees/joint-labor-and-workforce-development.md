@@ -1,25 +1,25 @@
 ---
 aom_id: joint-labor-and-workforce-development
-malegislature_url: https://malegislature.gov/Committees/Detail/J43
 title: Joint Committee on Labor and Workforce Development
 chamber: joint
+house_chair: josh-cutler
+house_vice_chair: kip-diggs
 senate_chair: patricia-jehlen
-senate_vice_chair: walter-timilty
+senate_vice_chair: jack-lewis
+house_members:
+  - aaron-saunders
+  - colleen-garry
+  - john-rogers
+  - jonathan-zlotnik
+  - christopher-flanagan
+  - david-robertson
+  - simon-cataldo
+  - donald-wong
+  - michael-soter
 senate_members:
   - sal-didomenico
   - paul-feeney
-  - jason-lewis
   - patrick-oconnor
-house_chair: josh-cutler
-house_vice_chair: tram-nguyen
-house_members:
-  - elizabeth-malia
-  - steven-ultrino
-  - james-hawkins
-  - david-robertson
-  - john-rogers
-  - jonathan-zlotnik
-  - gerard-cassidy
-  - donald-wong
-  - todd-smola
+  - john-cronin
+malegislature_url: https://malegislature.gov/Committees/Detail/J43
 ---
