@@ -30,6 +30,12 @@ text: >-
 
 
   In order to provide a safe environment where Indigenous students can thrive, Massachusetts must end the practice of Native American logos and mascots.
+
+
+  To learn more, read the [bill fact sheet](http://maindigenousagenda.org/wp-content/uploads/2021/06/2021-Bill-info-sheet.pdf), and this study on the [psychosocial effects of Native American mascots](https://drive.google.com/file/d/1KCs5k1bdjKrsx2N53GPpmweWBeQA2B6T/view?usp=sharing). 
+
+
+  [Email your rep](https://actionnetwork.org/letters/2023-2024-cosponsor-drive-for-mass-indigenous-legislative-agenda)
 orgs:
   - title: Massachusetts Indigenous Legislative Agenda
     link: http://maindigenousagenda.org/native-mascots/
@@ -102,6 +108,12 @@ history:
   - date: 2023-01-03
     description: No further action taken by Senate Ways and Means
     type: death
+  - date: 2023-01-04
+    description: Bill re-introduced as H.477
+    type: null
+  - date: 2023-02-16
+    description: Referred to the Joint Committee on Education
+    type: null
 timeline:
   - date: 2019-01-01
 ---
