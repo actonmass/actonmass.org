@@ -3,21 +3,32 @@ aom_id: campaign-childcare
 title: Campaign Childcare
 full_title: An Act Supporting Parents Running for Public Office
 twitter_bill_name: Campaign Childcare
-house_no: HD.590
-house_link: https://malegislature.gov/Bills/193/HD590
-senate_no: SD.348
-senate_link: https://malegislature.gov/Bills/193/SD348
+house_no: H.669
+house_link: https://malegislature.gov/Bills/193/H669
+senate_no: S.422
+senate_link: https://malegislature.gov/Bills/193/S422
 committee: joint-election-laws
-issue: gender-equity
+issue: ""
 img: /img/cropedkrakenimages-orouwawls-8-unsplash-1-.jpg
 summary:
   - Allows candidates for office to pay for necessary child care expenses from
     campaign funds
   - Catches MA up to states like Texas, Alabama, and Wisconsin
+text: Currently, childcare costs incurred during campaign events and activities
+  are considered personal expenses and therefore not eligible for reimbursement
+  under MA law. This bill would allow state and local candidates to use their
+  campaign funds to pay for campaign-related childcare expenses. Childcare
+  should be treated like other allowable expenses, such as printing literature
+  and purchasing tuxedos for campaign events. This bill would eliminate a major
+  barrier for parents seeking public office in their communities and advance
+  equitable political representation throughout the Commonwealth.
 orgs:
-  - link: https://lwvma.org/advocacy/league-supported-legislation-2/
-    title: League of Woman Voters Massachusetts
-    img: /img/lwvma.png
+  - title: MA Caucus of Women Legislators
+    img: /img/ma-caucus-of-women.jpg
+    link: https://www.mawomenscaucus.com/legislative-priorities-
+  - title: Massachusetts Commission on the Status of Women
+    img: /img/mcswlogo_color.jpg
+    link: https://www.mass.gov/service-details/2021-2022-legislative-priorities
 house_lead_sponsors:
   - mike-connolly
   - joan-meschino
@@ -27,62 +38,39 @@ co_sponsors:
   - mike-connolly
   - joan-meschino
   - patricia-jehlen
-  - marcos-devers
-  - steve-owens
-  - david-leboeuf
-  - lindsay-sabadosa
   - mindy-domb
-  - erika-uyterhoeven
-  - patrick-kearney
-  - harriette-chandler
-  - elizabeth-malia
+  - lindsay-sabadosa
   - jack-lewis
-  - david-robertson
-  - christopher-hendricks
-  - tami-gouveia
-  - hannah-kane
-  - tram-nguyen
-  - jon-santiago
-  - thomas-stanley
-  - steven-ultrino
-  - dylan-fernandes
-  - liz-miranda
-  - ruth-balser
-  - david-vieira
-  - kimberly-ferguson
-  - patrick-oconnor
-  - christine-barber
-  - carolyn-dykema
-  - andres-vargas
-  - maria-robinson
-  - daniel-donahue
-  - kenneth-gordon
-  - dan-sena
-  - tricia-farley-bouvier
-  - jay-livingstone
-  - mathew-muratore
-  - tommy-vitolo
-  - kate-lipper-garabedian
-  - patricia-jehlen
-  - mike-connolly
-  - joan-meschino
-  - jack-lewis
-  - harriette-chandler
-  - jason-lewis
-  - john-cronin
-  - sal-didomenico
-  - joanne-comerford
-  - michael-moore
-  - joan-lovely
-  - david-rogers
-  - christina-minicucci
-  - kevin-honan
-  - natalie-higgins
-  - nika-elugardo
-  - paul-donato
   - rebecca-rausch
-  - adam-hinds
-  - susan-moran
+  - tram-nguyen
+  - james-hawkins
+  - carol-doherty
+  - david-leboeuf
+  - vanna-howard
+  - jennifer-armini
+  - patrick-oconnor
+  - tricia-farley-bouvier
+  - christine-barber
+  - james-arena-derosa
+  - patrick-kearney
+  - james-eldridge
+  - erika-uyterhoeven
+  - sam-montano
+  - thomas-stanley
+  - manny-cruz
+  - natalie-higgins
+  - michelle-ciccolo
+  - tackey-chan
+  - david-robertson
+  - carole-fiola
+  - dawne-shand
+  - sal-didomenico
+  - hannah-kane
+  - joanne-comerford
+  - jason-lewis
+  - anne-gobi
+  - adam-gomez
+  - paul-feeney
 history:
   - date: 2017-01-20
     description: Bill introduced as H.2898
