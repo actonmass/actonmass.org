@@ -100,6 +100,11 @@ history:
     description: Reporting date extended to June 10th, 2022
   - date: 2022-10-03
     description: Sent to Study (Study Order H.5307)
+  - date: 2023-01-04
+    description: Bill re-introduced as H.669
+  - date: 2023-02-16
+    description: Referred to the Joint Committee on Election Laws
+    type: null
 timeline:
   - date: 2019-05-15
     description: Hearing (Election Laws)
