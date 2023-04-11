@@ -30,13 +30,7 @@ export default function CampaignPage({ data }: PageProps<Data>) {
     <BaseLayout title={page.title}>
       <main className="base_page">
         <MDXProvider components={components}>
-          <MDXRenderer
-            scope={{
-              legs: data.allLegislator.nodes[0].last_name,
-            }}
-          >
-            {page.parent.body}
-          </MDXRenderer>
+          <MDXRenderer>{page.parent.body}</MDXRenderer>
         </MDXProvider>
       </main>
     </BaseLayout>
@@ -58,7 +52,7 @@ const SupportingReps = ({ reps }) => (
 );
 
 export const query = graphql`
-  query($id: String) {
+  query ($id: String) {
     page(id: { eq: $id }) {
       title
       parent {
