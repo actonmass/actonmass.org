@@ -4,10 +4,10 @@ title: Ban Native American Mascots
 full_title: An Act Prohibiting the Use of Native American Mascots by Public
   Schools in the Commonwealth
 twitter_bill_name: Ban Native American Mascots
-house_no: HD.3026
-house_link: https://malegislature.gov/Bills/193/HD3026
-senate_no: SD.857
-senate_link: https://malegislature.gov/Bills/193/SD857
+house_no: H.477
+house_link: https://malegislature.gov/Bills/193/H477
+senate_no: S.245
+senate_link: https://malegislature.gov/Bills/193/S245
 committee: joint-education
 issue: indigenous-peoples-rights
 img: /img/pexels-tom-fisk-3448246.jpg
@@ -33,65 +33,56 @@ text: >-
 orgs:
   - title: Massachusetts Indigenous Legislative Agenda
     link: http://maindigenousagenda.org/native-mascots/
+    img: /img/not-a-mascot-v1_square-300x300.jpg
+  - title: NASW-MA
+    img: /img/naswma_logo.png
+    link: https://www.votervoice.net/NASWMA/BlogPosts/4140
 house_lead_sponsors:
-  - nika-elugardo
-  - tami-gouveia
+  - brandy-fluker-oakley
 senate_lead_sponsors:
   - joanne-comerford
 co_sponsors:
-  - nika-elugardo
-  - tami-gouveia
-  - joanne-comerford
-  - sonia-chang-diaz
-  - jack-lewis
-  - lindsay-sabadosa
-  - rebecca-rausch
   - brandy-fluker-oakley
-  - james-eldridge
-  - christina-minicucci
-  - christine-barber
-  - carlos-gonzalez
-  - antonio-cabral
-  - michael-day
-  - david-rogers
-  - david-leboeuf
-  - vanna-howard
-  - erika-uyterhoeven
-  - chynah-tyler
-  - ruth-balser
-  - mike-connolly
-  - thomas-stanley
-  - dan-sena
-  - michelle-ciccolo
-  - tram-nguyen
-  - alice-peisch
-  - peter-capano
+  - lindsay-sabadosa
+  - bud-williams
+  - jack-lewis
+  - sam-montano
   - steve-owens
-  - tommy-vitolo
-  - carmine-gentile
-  - mary-keefe
-  - natalie-higgins
-  - jay-livingstone
-  - patrick-oconnor
-  - kevin-honan
-  - david-linsky
-  - kate-lipper-garabedian
+  - russell-holmes
+  - david-leboeuf
+  - tram-nguyen
+  - vanna-howard
+  - sally-kerans
+  - patricia-duffy
+  - tackey-chan
+  - erika-uyterhoeven
+  - david-rogers
+  - ruth-balser
+  - rebecca-rausch
   - adrian-madaro
-  - jason-lewis
-  - julian-cyr
-  - marcos-devers
+  - james-oday
+  - michelle-dubois
+  - carmine-gentile
+  - james-eldridge
+  - james-arena-derosa
   - natalie-blais
-  - kay-khan
-  - kip-diggs
-  - steven-ultrino
-  - adam-hinds
-  - sal-didomenico
-  - michael-barrett
+  - natalie-higgins
+  - david-linsky
   - mindy-domb
-  - john-keenan
-  - patricia-jehlen
+  - kate-lipper-garabedian
+  - christine-barber
+  - manny-cruz
   - daniel-carey
-  - elizabeth-malia
+  - michael-kushmerek
+  - thomas-stanley
+  - tommy-vitolo
+  - kay-khan
+  - joanne-comerford
+  - patricia-jehlen
+  - michael-barrett
+  - jason-lewis
+  - john-keenan
+  - sal-didomenico
 history:
   - date: 2019-01-01
     description: "Introduced "
