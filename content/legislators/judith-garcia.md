@@ -16,4 +16,5 @@ square_picture: https://malegislature.gov/Legislators/Profile/170/JAG2.jpg
 start_date: 2023-01-03
 malegislature_url: https://malegislature.gov/Legislators/Profile/JAG2
 twitter: GarciaJudithMA
+ocd_id: ocd-person/6f15f647-07f5-4739-a340-497798a474e7
 ---

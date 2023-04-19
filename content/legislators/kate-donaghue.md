@@ -18,4 +18,5 @@ malegislature_url: https://malegislature.gov/Legislators/Profile/K_D1
 website: https://www.katedonaghue.org/
 facebook: https://www.facebook.com/KateDonaghueForRep
 twitter: KateDonaghue
+ocd_id: ocd-person/e2aa2c0f-d6e6-49d7-8483-d595a3a1eb3a
 ---

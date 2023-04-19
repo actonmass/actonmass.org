@@ -16,4 +16,5 @@ malegislature_url: https://malegislature.gov/Legislators/Profile/WJD1
 website: https://www.billdriscolljr.com/
 facebook: https://www.facebook.com/BillDriscollJr/
 twitter: billdriscolljr
+ocd_id: ocd-person/1b7d1710-da71-46cd-9ee3-fc891556f3a9
 ---

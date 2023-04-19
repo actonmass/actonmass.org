@@ -15,4 +15,5 @@ square_picture: https://malegislature.gov/Legislators/Profile/CRF1
 malegislature_url: https://malegislature.gov/Legislators/Profile/CRF1
 website: https://christopherflanagan.org/
 facebook: https://www.facebook.com/ChrisFlanaganforStateRep/
+ocd_id: ocd-person/c30f76b4-73d6-4795-be75-c46973d17f59
 ---

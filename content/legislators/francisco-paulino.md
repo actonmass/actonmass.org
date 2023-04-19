@@ -16,4 +16,5 @@ start_date: 2023-01-03
 malegislature_url: https://malegislature.gov/Legislators/Profile/FEP1
 website: https://www.paulino4staterepresentative.com/
 facebook: https://www.facebook.com/franciscopaulino16th
+ocd_id: ocd-person/99109961-27e8-4e58-8269-3a1deb29f228
 ---

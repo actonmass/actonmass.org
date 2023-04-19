@@ -18,4 +18,5 @@ malegislature_url: https://malegislature.gov/Legislators/Profile/SBA1
 website: https://www.shirley4chicopee.com/
 facebook: http://facebook.com/ShirleyChicopee
 twitter: ShirleyChicopee
+ocd_id: ocd-person/ff433cf6-2895-4e01-b143-26747500f8a4
 ---

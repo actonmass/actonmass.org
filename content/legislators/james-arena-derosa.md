@@ -16,4 +16,5 @@ start_date: 2023-01-03
 malegislature_url: https://malegislature.gov/Legislators/Profile/JCD1
 website: https://www.jamesforstaterep.com/
 facebook: https://www.facebook.com/jamesforstaterep
+ocd_id: ocd-person/47ffc61b-0cae-4386-ae68-12b20eadd83f
 ---

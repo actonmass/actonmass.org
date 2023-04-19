@@ -17,4 +17,5 @@ malegislature_url: https://malegislature.gov/Legislators/Profile/MSV1
 website: https://www.vaughn4staterep.com/
 facebook: https://www.facebook.com/VoteVaughn
 twitter: ""
+ocd_id: ocd-person/2dd65a68-0ea5-4c15-b5fe-bcde086eb357
 ---

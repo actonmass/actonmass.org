@@ -18,4 +18,5 @@ malegislature_url: https://malegislature.gov/Legislators/Profile/M_C3
 website: https://www.mannycruz.org/
 facebook: https://www.facebook.com/mannycruzforrep
 twitter: MannyCruz_MA
+ocd_id: ocd-person/5ae88c49-8938-4472-8de2-1c0f0bc0e2f0
 ---

@@ -18,4 +18,5 @@ malegislature_url: https://malegislature.gov/Legislators/Profile/KAD1
 website: https://www.kipdiggs.com/
 facebook: https://www.facebook.com/kipdiggs4u/
 twitter: RepKipDiggs
+ocd_id: ocd-person/df1a3cfc-1555-4a05-8a5c-03a7e53932aa
 ---

@@ -16,4 +16,5 @@ start_date: 2023-01-03
 malegislature_url: https://malegislature.gov/Legislators/Profile/APR1
 website: https://www.vote4ramos.com/
 facebook: https://www.facebook.com/StateRepAdrianneRamos/?show_switched_toast=0&show_invite_to_follow=0&show_switched_tooltip=0&show_podcast_settings=0&show_community_review_changes=0&show_community_rollback=0&show_follower_visibility_disclosure=0
+ocd_id: ocd-person/300d40b3-9479-43c0-99d3-18f94e1110cc
 ---

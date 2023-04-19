@@ -16,4 +16,5 @@ malegislature_url: https://malegislature.gov/Legislators/Profile/MJR0
 website: https://www.senatorrodrigues.com/
 facebook: https://www.facebook.com/senrodrigues/
 twitter: SenRodrigues
+ocd_id: ocd-person/af0d6647-3a7b-48d0-971c-bde55a75e78c
 ---

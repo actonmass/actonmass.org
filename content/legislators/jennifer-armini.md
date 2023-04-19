@@ -17,4 +17,5 @@ malegislature_url: https://malegislature.gov/Legislators/Profile/JBA1
 website: https://www.arminifor8.com/
 facebook: https://www.facebook.com/JennyForEssex8
 twitter: jennyarmini
+ocd_id: ocd-person/eab9b69f-0434-4307-972c-6acce9deb370
 ---

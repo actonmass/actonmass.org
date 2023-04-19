@@ -16,4 +16,5 @@ square_picture: https://malegislature.gov/Legislators/Profile/170/O_R1.jpg
 website: https://voteorlandoramos.com/
 facebook: https://www.facebook.com/RepresentativeOrlandoRamos
 twitter: orlando_ramos
+ocd_id: ocd-person/a1a94ad4-7b75-46be-896e-548c86b23d0c
 ---

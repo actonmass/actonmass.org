@@ -15,4 +15,5 @@ square_picture: https://malegislature.gov/Legislators/Profile/170/RME1.jpg
 malegislature_url: https://malegislature.gov/Legislators/Profile/RME1
 website: https://rodneyelliott.com/`
 facebook: https://www.facebook.com/rodneyelliottcitycouncil
+ocd_id: ocd-person/49816a0c-b8e5-4586-859b-8a8f1ae9b6ab
 ---

@@ -17,4 +17,5 @@ malegislature_url: https://malegislature.gov/Legislators/Profile/RMH2
 website: https://hamilton4rep.com/
 facebook: https://www.facebook.com/VoteRyanHamilton
 twitter: Hamiltonstate
+ocd_id: ocd-person/799d49f3-28e5-46a1-bcc8-6370e9fbf44a
 ---

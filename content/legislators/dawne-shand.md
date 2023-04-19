@@ -17,4 +17,5 @@ malegislature_url: https://malegislature.gov/Legislators/Profile/D_S1
 website: https://www.dawneshand.com/
 facebook: https://www.facebook.com/101436975969517
 twitter: dfshand
+ocd_id: ocd-person/6c49bb2c-7c53-4f22-bfb9-04af813b95b0
 ---

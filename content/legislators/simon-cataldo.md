@@ -17,4 +17,5 @@ start_date: 2023-01-03
 malegislature_url: https://malegislature.gov/Legislators/Profile/S_C1
 website: https://simoncataldo.com/
 facebook: https://www.facebook.com/Simon-Cataldo-for-State-Rep
+ocd_id: ocd-person/f43366ee-ff27-43ac-aa55-629be715b4a9
 ---

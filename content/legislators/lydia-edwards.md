@@ -17,4 +17,5 @@ malegislature_url: https://malegislature.gov/Legislators/Profile/LME0
 website: https://www.lydiaedwards.org/
 facebook: https://www.facebook.com/TeamEdwardsforSenate/?ref=page_internal
 twitter: LydiaMEdwards
+ocd_id: ocd-person/5278711f-55ec-4a67-acc9-edd1db1c4e8c
 ---

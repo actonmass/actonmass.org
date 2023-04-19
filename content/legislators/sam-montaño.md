@@ -18,4 +18,5 @@ malegislature_url: https://malegislature.gov/Legislators/Profile/S_M1
 website: https://www.samforboston.com/
 facebook: https://www.facebook.com/movewithmontano
 twitter: SamvMontano
+ocd_id: ocd-person/668db267-f9e1-4839-918d-c092741f96f9
 ---

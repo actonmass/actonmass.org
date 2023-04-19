@@ -18,4 +18,5 @@ malegislature_url: https://malegislature.gov/Legislators/Profile/RKK0
 website: https://www.kennedy4senate.com/
 facebook: https://www.facebook.com/Robyn4Senate
 twitter: robyn4senate
+ocd_id: ocd-person/2fb1c0e0-edaa-4b55-9bbb-b6fe6b3e5dcc
 ---

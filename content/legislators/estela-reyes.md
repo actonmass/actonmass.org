@@ -17,4 +17,5 @@ malegislature_url: https://malegislature.gov/Legislators/Profile/EAR1
 website: https://www.estelareyesforstaterep.com/
 facebook: https://www.facebook.com/fourthessex
 twitter: ReyesStateRep
+ocd_id: ocd-person/824532f7-8dc9-4a1a-a7b3-16b2d0e78941
 ---

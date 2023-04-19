@@ -14,4 +14,5 @@ email: Priscila.Sousa@mahouse.gov
 hometown: Framingham
 square_picture: https://malegislature.gov/Legislators/Profile/170/PSS1.jpg
 start_date: 2023-01-03
+ocd_id: ocd-person/a148ff77-2e73-4e42-a525-20e8d1ed569a
 ---

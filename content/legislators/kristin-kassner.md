@@ -17,4 +17,5 @@ malegislature_url: https://malegislature.gov/Legislators/Profile/K_K2
 website: https://www.kristinkassner.org/
 facebook: https://www.facebook.com/ElectKristinKassner
 twitter: Elect_KKassner
+ocd_id: ocd-person/1129a0d9-c280-4bf0-af34-20879293a2b5
 ---

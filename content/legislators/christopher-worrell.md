@@ -17,4 +17,5 @@ start_date: 2023-01-03
 malegislature_url: https://malegislature.gov/Legislators/Profile/CJW1
 website: https://votechristopherworrell.com/
 facebook: https://www.facebook.com/christopher.worrell.35
+ocd_id: ocd-person/59539448-5c3b-4d4d-8e96-48fabb01b10f
 ---

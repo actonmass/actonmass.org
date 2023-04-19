@@ -16,4 +16,5 @@ square_picture: https://malegislature.gov/Legislators/Profile/170/DFD1.jpg
 start_date: 2015-01-06
 malegislature_url: https://malegislature.gov/Legislators/Profile/DFD1
 website: https://www.citizensfordecoste.com/about
+ocd_id: ocd-person/cf295962-4f8d-427a-84e9-c7615ff94c8c
 ---
