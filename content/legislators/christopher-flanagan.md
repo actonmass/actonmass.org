@@ -11,7 +11,7 @@ pledge: false
 party: D
 phone: (617) 722-2000 x6319
 email: Christopher.Flanagan@mahouse.gov
-square_picture: https://malegislature.gov/Legislators/Profile/CRF1
+square_picture: https://malegislature.gov/Legislators/Profile/170/CRF1.jpg
 malegislature_url: https://malegislature.gov/Legislators/Profile/CRF1
 website: https://christopherflanagan.org/
 facebook: https://www.facebook.com/ChrisFlanaganforStateRep/
