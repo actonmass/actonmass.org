@@ -1,8 +1,15 @@
-import React from "react";
-import ReactDOMServer from "react-dom/server";
-import { MapContainer, TileLayer, Marker, Popup } from "react-leaflet";
-import "leaflet/dist/leaflet.css";
-import { Link } from "gatsby";
+import 'leaflet/dist/leaflet.css';
+
+import React from 'react';
+
+import { Link } from 'gatsby';
+import ReactDOMServer from 'react-dom/server';
+import {
+  MapContainer,
+  Marker,
+  Popup,
+  TileLayer,
+} from 'react-leaflet';
 
 const defaultZoom = 11;
 const tileURL =
@@ -31,10 +38,10 @@ const LegIcon = ({ leg, size }) => {
   return (
     <img
       src={leg.img ?? "/img/person-icon.png"}
-      alt="Avatar"
+      alt={`Photo of ${leg.first_name} ${leg.last_name}`}
       width={`${40 * size}px`}
       height={`${40 * size}px`}
-      style={{ borderWidth: 4 * size }}
+      style={{ borderWidth: 4 * size, objectFit: "cover", objectPosition: "50% 0%" }}
     />
   );
 };

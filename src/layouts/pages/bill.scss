@@ -246,7 +246,7 @@
       .senators,
       .reps {
         .members {
-          grid-template-columns: auto auto auto;
+          grid-template-columns: 1fr 1fr 1fr;
         }
       }
       @media (min-width: 700px) {
@@ -262,7 +262,7 @@
         }
 
         .reps .members {
-          grid-template-columns: auto auto auto auto;
+          grid-template-columns: 1fr 1fr 1fr 1fr;
         }
       }
     }
