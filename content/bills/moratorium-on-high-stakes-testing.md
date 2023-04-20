@@ -10,6 +10,7 @@ senate_link: https://malegislature.gov/Bills/193/SD2067
 committee: joint-education
 issue: education
 img: /img/tim-gouw-1k9t5yiz2wu-unsplash.jpg
+hidden: true
 summary:
   - Establishes a moratorium on standardized testing being a requirement for
     high school graduation
