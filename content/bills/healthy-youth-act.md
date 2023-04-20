@@ -3,11 +3,11 @@ aom_id: healthy-youth-act
 title: Healthy Youth Act
 full_title: An Act relative to healthy youth
 twitter_bill_name: Healthy Youth Act
-house_no: HD.3874
-house_link: https://malegislature.gov/Bills/193/HD3874
-senate_no: SD.2199
-senate_link: https://malegislature.gov/Bills/193/SD2199
-committee: joint-health-care-financing
+house_no: H.544
+house_link: https://malegislature.gov/Bills/193/H544
+senate_no: S.268
+senate_link: https://malegislature.gov/Bills/193/S268
+committee: joint-education
 issue: lgbtq-rights
 img: /img/download-3-.jpeg
 summary:
@@ -16,12 +16,20 @@ summary:
   - Mandates education about consent, healthy relationships, and gender
     affirmation in sexual education curricula
 orgs:
-  - title: RAINN
-    img: ""
-    link: ""
   - title: Planned Parenthood Advocacy Fund of Massachusetts
     img: /img/pplm.jpg
     link: https://www.plannedparenthoodaction.org/planned-parenthood-advocacy-fund-massachusetts-inc/
+  - title: Healthy Youth Act Coalition
+    img: /img/healthyyouthact-840-137-s.png
+    link: https://www.healthyyouthact.org/coalition-partners.html
+  - title: Massachusetts Healthy Youth Consortium
+    link: https://www.mahyc.net/
+  - title: MassEquality
+    img: /img/mass-equality-logo.png
+    link: https://massequality.org/legislative-agenda/healthy-youth-act/
+  - title: NASW MA
+    img: /img/naswma_logo.png
+    link: https://www.votervoice.net/NASWMA/BlogPosts/4140
 house_lead_sponsors:
   - james-oday
   - vanna-howard
