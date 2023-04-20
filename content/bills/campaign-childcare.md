@@ -71,6 +71,7 @@ co_sponsors:
   - anne-gobi
   - adam-gomez
   - paul-feeney
+  - joan-lovely
 history:
   - date: 2017-01-20
     description: Bill introduced as H.2898
