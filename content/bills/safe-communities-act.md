@@ -1,7 +1,7 @@
 ---
-full_title: An Act to Protect the Civil Rights and Safety of all MA Residents
-house_no: HD.2459
-senate_link: https://malegislature.gov/Bills/193/SD1937
+full_title: An Act to Protect the Civil Rights and Safety of all Massachusetts Residents
+house_no: H.2288
+senate_link: https://malegislature.gov/Bills/193/S1510
 img: /img/bills/sca_hero_img.png
 summary:
   - Prevents local law enforcement from cooperating with ICE
@@ -71,140 +71,25 @@ votes:
 aom_id: safe-communities-act
 title: Safe Communities Act
 twitter_bill_name: Safe Communities Act
-article: the
-house_link: https://malegislature.gov/Bills/193/HD2459
-senate_no: SD.1397
+article: ""
+house_link: https://malegislature.gov/Bills/193/H2288
+senate_no: S.1510
 committee: joint-public-safety-and-homeland-security
 issue: immigration
+text: For nearly 20 years, the federal government has leveraged our public
+  safety resources to identify and deport immigrants. This bill would end state
+  and local involvement in civil immigration enforcement, increasing immigrant
+  access to court and police protection.
 orgs:
   - title: MIRA
     img: /img/mira_logo.svg
-    link: https://miracoalition.org/our-work/safe-communities/
+    link: https://miracoalition.org/our-work/miras-state-legislative-priorities-2023-2024/
 house_lead_sponsors:
   - ruth-balser
   - liz-miranda
 senate_lead_sponsors:
   - james-eldridge
-co_sponsors:
-  - ruth-balser
-  - liz-miranda
-  - james-eldridge
-  - christina-minicucci
-  - jack-lewis
-  - tram-nguyen
-  - steve-owens
-  - mike-connolly
-  - lindsay-sabadosa
-  - dan-sena
-  - patricia-duffy
-  - peter-capano
-  - frank-moran
-  - natalie-blais
-  - steven-ultrino
-  - kay-khan
-  - mindy-domb
-  - tommy-vitolo
-  - david-linsky
-  - carolyn-dykema
-  - thomas-stanley
-  - tami-gouveia
-  - adrian-madaro
-  - sal-didomenico
-  - carmine-gentile
-  - jay-livingstone
-  - michelle-ciccolo
-  - antonio-cabral
-  - joseph-boncore
-  - dylan-fernandes
-  - john-lawn
-  - jon-santiago
-  - vanna-howard
-  - sean-garballey
-  - daniel-carey
-  - maria-robinson
-  - brendan-crighton
-  - erika-uyterhoeven
-  - rebecca-rausch
-  - brandy-fluker-oakley
-  - christine-barber
-  - paul-tucker
-  - kevin-honan
-  - jason-lewis
-  - ted-philips
-  - kip-diggs
-  - sally-kerans
-  - michael-moran
-  - sarah-peake
-  - michael-barrett
-  - james-oday
-  - john-mahoney
-  - david-rogers
-  - harriette-chandler
-  - elizabeth-malia
-  - michael-kushmerek
-  - natalie-higgins
-  - marjorie-decker
-  - kenneth-gordon
-  - william-galvin
-  - carlos-gonzalez
-  - david-leboeuf
-  - tricia-farley-bouvier
-  - lori-ehrlich
-  - rady-mom
-  - james-arciero
-  - michelle-dubois
-  - orlando-ramos
-  - andres-vargas
-  - daniel-donahue
-  - kate-lipper-garabedian
-  - paul-mark
-  - daniel-hunt
-  - daniel-cahill
-  - joan-meschino
-  - nika-elugardo
-  - alice-peisch
-  - marcos-devers
-  - patricia-jehlen
-  - mary-keefe
-  - daniel-ryan
-  - julian-cyr
-  - john-rogers
-  - james-eldridge
-  - ruth-balser
-  - liz-miranda
-  - jack-lewis
-  - joanne-comerford
-  - kay-khan
-  - sal-didomenico
-  - sonia-chang-diaz
-  - tami-gouveia
-  - carmine-gentile
-  - adam-hinds
-  - antonio-cabral
-  - joseph-boncore
-  - susan-moran
-  - mike-connolly
-  - maria-robinson
-  - brendan-crighton
-  - rebecca-rausch
-  - vanna-howard
-  - jason-lewis
-  - steve-owens
-  - michael-barrett
-  - harriette-chandler
-  - elizabeth-malia
-  - david-leboeuf
-  - erika-uyterhoeven
-  - patricia-jehlen
-  - edward-kennedy
-  - joan-lovely
-  - dan-sena
-  - adam-gomez
-  - eric-lesser
-  - julian-cyr
-  - john-rogers
-  - cindy-friedman
-  - christina-minicucci
+co_sponsors: []
 scripts_com_vote:
   call_request: >
     Hi {leg.first_name} {leg.last_name},
@@ -255,4 +140,8 @@ history:
   - description: No further action taken
     type: death
     date: 2023-01-03
+  - date: 2023-01-04
+    description: Bill re-filed as H.2288/S.1510
+  - date: 2023-02-16
+    description: Referred to the Joint Committee on Public Safety and Homeland Security
 ---
