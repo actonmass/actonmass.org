@@ -102,6 +102,10 @@ history:
   - date: 2022-09-06
     description: "Sent to study (Study Order: H.5023)"
     type: death
+  - date: 2023-01-04
+    description: Bill re-filed as H.1845/S.1217
+  - date: 2023-02-16
+    description: Referred to the Joint Committee on Labor and Workforce Development
 timeline:
   - date: 2019-07-09
     description: Hearing
