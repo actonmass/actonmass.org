@@ -26,14 +26,13 @@ text: >-
   resources to implement these standards. 
 
 
-
-
   What This Bill Would Do: In 2021, the Department of Elementary and Secondary Education (DESE) provided guidance and recommended resources to reflect the importance of race, racism, and culturally inclusive teaching. This bill establishes academic standards in DESE’s curriculum frameworks that incorporate the study of histories and narratives of underrepresented racial and ethnic groups into instruction in all public schools. A separate trust fund will be established to provide grant-based support for school districts to implement such curriculum. 
 
 
-
-
   Why This Bill Matters: In a multicultural and multiethnic society, it is vital that students receive an education that includes accurate histories, stories, and perspectives of all people. Our currently divided democracy would benefit if future generations gain a comprehensive and accurate education that includes the teaching of writings, contributions, and cultural heritage of historically marginalized groups, as well as the study of policies and practices, and social and economic impacts on these groups and society. Students will learn to understand the experiences of others, see their own identities and experiences reflected, treat others with empathy and respect, and build stronger connections. Additionally, an accurate teaching of our nation’s history will bolster our state’s efforts to attract and retain educators from underrepresented backgrounds. Future generations will be more equipped with the skills and understanding needed to be productive in the workplace and to participate as residents in our culturally rich Commonwealth and as global citizens
+
+
+  [Email your rep](https://actionnetwork.org/letters/an-act-to-promote-racially-inclusive-curriculum-in-schools?clear_id=true)
 orgs:
   - title: CARE Coalition
     img: /img/care-long-logo_jan2022_edited.png
