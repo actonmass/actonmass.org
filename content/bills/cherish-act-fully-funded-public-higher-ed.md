@@ -4,10 +4,10 @@ title: "The Cherish Act: Fully Funded Public Higher Ed"
 full_title: An Act committing to higher education the resources to insure a
   strong and healthy public higher education system
 twitter_bill_name: "The Cherish Act: Fully Funded Public Higher Ed"
-house_no: HD.2755
-house_link: https://malegislature.gov/Bills/193/HD2755
-senate_no: SD.2092
-senate_link: https://malegislature.gov/Bills/193/SD2092
+house_no: H.1260
+house_link: https://malegislature.gov/Bills/193/H1260
+senate_no: S.816
+senate_link: https://malegislature.gov/Bills/193/S816
 committee: joint-higher-education
 issue: education
 img: /img/vasily-koloda-8cqdvpuo_ki-unsplash.jpg
@@ -30,151 +30,15 @@ orgs:
   - title: Fund our Future
     img: /img/fin_fundourfuture_coalition_logo_small_yellow_web-1.png
     link: https://fundourfuturema.org/higher-ed/
-house_lead_sponsors:
-  - sean-garballey
-  - paul-mark
-senate_lead_sponsors:
-  - joanne-comerford
-co_sponsors:
-  - sean-garballey
-  - paul-mark
-  - mindy-domb
-  - tram-nguyen
-  - lindsay-sabadosa
-  - james-murphy
-  - adam-scanlon
-  - peter-capano
-  - patricia-duffy
-  - jack-lewis
-  - adrian-madaro
-  - harriette-chandler
-  - elizabeth-malia
-  - angelo-puppolo
-  - carmine-gentile
-  - michael-barrett
-  - james-oday
-  - vanna-howard
-  - antonio-cabral
-  - natalie-higgins
-  - erika-uyterhoeven
-  - diana-dizoglio
-  - david-leboeuf
-  - tricia-farley-bouvier
-  - steve-owens
-  - carol-doherty
-  - jon-santiago
-  - daniel-carey
-  - michelle-ciccolo
-  - tommy-vitolo
-  - david-robertson
-  - thomas-stanley
-  - david-linsky
-  - tackey-chan
-  - michael-soter
-  - daniel-cahill
-  - tami-gouveia
-  - christina-minicucci
-  - michael-kushmerek
-  - kathleen-lanatra
-  - brian-murray
-  - john-rogers
-  - dylan-fernandes
-  - dan-sena
-  - paul-tucker
-  - natalie-blais
-  - michael-day
-  - mike-connolly
-  - christine-barber
-  - patricia-jehlen
-  - jason-lewis
-  - marcos-devers
-  - jay-livingstone
-  - brandy-fluker-oakley
-  - daniel-donahue
-  - maria-robinson
-  - lori-ehrlich
-  - jessica-giannino
-  - patrick-oconnor
-  - walter-timilty
-  - andres-vargas
-  - edward-coppinger
-  - joanne-comerford
-  - mary-keefe
-  - david-biele
-  - joanne-comerford
-  - james-murphy
-  - adam-scanlon
-  - patricia-duffy
-  - jack-lewis
-  - harriette-chandler
-  - angelo-puppolo
-  - carmine-gentile
-  - michael-barrett
-  - vanna-howard
-  - erika-uyterhoeven
-  - diana-dizoglio
-  - carol-doherty
-  - brendan-crighton
-  - john-keenan
-  - james-oday
-  - michael-moore
-  - paul-tucker
-  - john-rogers
-  - brian-murray
-  - kathleen-lanatra
-  - anne-gobi
-  - nick-collins
-  - eric-lesser
-  - elizabeth-malia
-  - patricia-jehlen
-  - christina-minicucci
-  - sal-didomenico
-  - marcos-devers
-  - walter-timilty
-  - patrick-oconnor
-  - lori-ehrlich
-  - maria-robinson
-  - adam-hinds
-  - mary-keefe
-  - brian-ashe
-  - marc-pacheco
-  - james-hawkins
-  - susannah-whipps
-  - steven-ultrino
-  - rebecca-rausch
-  - james-eldridge
-  - christopher-hendricks
-  - michelle-dubois
-  - carlos-gonzalez
-  - richard-haggerty
-  - paul-mcmurtry
-  - james-arciero
-  - jacob-oliveira
-  - ruth-balser
-  - meghan-kilcoyne
-  - patrick-kearney
-  - ted-philips
-  - orlando-ramos
-  - paul-donato
-  - william-galvin
-  - alan-silvia
-  - liz-miranda
-  - nika-elugardo
-  - gerard-cassidy
-  - sally-kerans
-  - mathew-muratore
-  - john-barrett
-  - joan-meschino
-  - kevin-honan
-  - michael-rush
-  - joan-lovely
-  - john-velis
-  - adam-gomez
-  - julian-cyr
-  - paul-feeney
-  - edward-kennedy
-  - michael-brady
-  - claire-cronin
+  - title: MTA
+    img: /img/mta_logo_new_color.png
+    link: https://massteacher.org/current-initiatives/legislative-action
+  - title: AFT MA
+    img: /img/aft-ma-logo.png
+    link: http://ma.aft.org/news/aft-massachusetts-legislative-priorities-2023-2024
+house_lead_sponsors: []
+senate_lead_sponsors: []
+co_sponsors: []
 history:
   - date: 2019-01-16
     description: Bill filed
