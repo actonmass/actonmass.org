@@ -15,6 +15,17 @@ summary:
     schools
   - Mandates education about consent, healthy relationships, and gender
     affirmation in sexual education curricula
+text: >-
+  The Healthy Youth Act is a common sense bill that reflects the consensus of
+  the vast majority of MA residents. The bill's core provision is simple: it
+  will require any public school that already chooses to teach sex ed to provide
+  medically accurate, age-appropriate, comprehensive sexual health education. It
+  rests on three key pillars:
+
+
+  1. **Sex ed should be accurate and age-appropriate.** In every other subject, we require that our schools teach students factual information that matches their grade level. We don't expect kindergarteners to learn calculus - and we certainly don't teach them that one and one add up to three. Sex education should be no different.
+
+  2. **Sex ed should be consent-based.** Given what we know about the rates of domestic violence and sexual assault among teenagers, it's critical we teach them the skills to advocate for themselves and recognize unhealthy patterns. When the first time a student learns about consent is college, we're reaching them far too late to prevent the epidemic of sexual assault on college campuses. That's why the bill requires that courses cover the "relationship and communication skills" necessary to "form healthy, respectful relationships free of violence, coercion, and intimidation and to make healthy decisions about relationships and sexuality, including, but not limited to, affirmative, conscious and voluntary consent."
 orgs:
   - title: Planned Parenthood Advocacy Fund of Massachusetts
     img: /img/pplm.jpg
@@ -204,6 +215,11 @@ history:
   - date: 2023-01-03
     description: No further action taken by House Ways and Means
     type: death
+  - date: 2023-01-04
+    description: Bill reintroduced as H.544/S.268
+    type: null
+  - date: 2023-02-16
+    description: Referred to the Joint Committee on Education
 timeline:
   - date: 2019-01-22
     description: Referred to the Education Committee
