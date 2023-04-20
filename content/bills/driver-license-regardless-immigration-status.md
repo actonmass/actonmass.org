@@ -1,14 +1,7 @@
 ---
-aom_id: driver-license-regardless-immigration-status
-title: Work & Family Mobility Act
 full_title: The Work and Family Mobility Act
-twitter_bill_name: Work & Family Mobility Act
 house_no: H.3456
-house_link: https://malegislature.gov/Bills/192/HD448
-senate_no: S.2289
 senate_link: https://malegislature.gov/Bills/192/SD273
-committee: joint-transportation
-issue: immigration
 img: /img/nabeel-syed-jk3-uhdwjcs-unsplash.jpg
 summary:
   - Allows undocumented immigrants to receive drivers’ licenses, so everyone can
@@ -16,6 +9,58 @@ summary:
   - Information collected about the applicant in applying for a license will not
     be disclosed to the public
   - The type of driver’s license an individual has will not be public information
+timeline:
+  - date: 2021-01-29
+    description: Bill re-filed as HD.448
+votes:
+  - legislator: william-straus
+    vote: unk
+  - legislator: paul-tucker
+    vote: unk
+  - legislator: dean-tran
+    vote: false
+  - legislator: steven-howitt
+    vote: false
+  - legislator: norman-orrall
+    vote: false
+  - legislator: david-decoste
+    vote: false
+  - legislator: adrian-madaro
+    vote: true
+  - legislator: lindsay-sabadosa
+    vote: true
+  - legislator: joseph-mcgonagle
+    vote: true
+  - legislator: jonathan-hecht
+    vote: true
+  - legislator: natalie-blais
+    vote: true
+  - legislator: daniel-donahue
+    vote: true
+  - legislator: peter-capano
+    vote: true
+  - legislator: daniel-ryan
+    vote: true
+  - legislator: eric-lesser
+    vote: true
+  - legislator: william-brownsberger
+    vote: true
+  - legislator: harriette-chandler
+    vote: true
+  - legislator: cindy-friedman
+    vote: true
+  - legislator: diana-dizoglio
+    vote: true
+  - legislator: joseph-boncore
+    vote: true
+aom_id: driver-license-regardless-immigration-status
+title: Work & Family Mobility Act
+twitter_bill_name: Work & Family Mobility Act
+house_link: https://malegislature.gov/Bills/192/HD448
+senate_no: S.2289
+committee: joint-transportation
+issue: immigration
+hidden: true
 orgs:
   - title: MIRA
     img: /img/mira_logo.svg
@@ -156,50 +201,6 @@ co_sponsors:
   - eric-lesser
   - julian-cyr
   - mary-keefe
-timeline:
-  - date: 2021-01-29
-    description: Bill re-filed as HD.448
-votes:
-  - legislator: william-straus
-    vote: unk
-  - legislator: paul-tucker
-    vote: unk
-  - legislator: dean-tran
-    vote: false
-  - legislator: steven-howitt
-    vote: false
-  - legislator: norman-orrall
-    vote: false
-  - legislator: david-decoste
-    vote: false
-  - legislator: adrian-madaro
-    vote: true
-  - legislator: lindsay-sabadosa
-    vote: true
-  - legislator: joseph-mcgonagle
-    vote: true
-  - legislator: jonathan-hecht
-    vote: true
-  - legislator: natalie-blais
-    vote: true
-  - legislator: daniel-donahue
-    vote: true
-  - legislator: peter-capano
-    vote: true
-  - legislator: daniel-ryan
-    vote: true
-  - legislator: eric-lesser
-    vote: true
-  - legislator: william-brownsberger
-    vote: true
-  - legislator: harriette-chandler
-    vote: true
-  - legislator: cindy-friedman
-    vote: true
-  - legislator: diana-dizoglio
-    vote: true
-  - legislator: joseph-boncore
-    vote: true
 history:
   - description: Assigned to Transportation Committee
     date: 2019-01-22
