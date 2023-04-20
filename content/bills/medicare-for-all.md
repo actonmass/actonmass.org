@@ -26,47 +26,36 @@ text: >-
   provide $34 billion of savings in the first year alone.
 
 
-  * Employers and employees would no longer pay private companies for health care coverage\
-    Instead, employees would pay a 2.5% tax,\
-    excluding the first $20,000 of earnings;\
-    employers would pay an 8% payroll tax\
-    • Children, students, the unemployed, and\
-    retirees would not be taxed\
-    • The bottom 90% of Massachusetts residents\
-    would save compared to what they spend now;\
-    only the top 10% would pay more\
-    What’s covered under Medicare for All?\
-    • All healthcare services would be covered,\
-    including hospital care, outpatient care,\
-    reproductive care including abortion, dental,\
-    and long-term care – from cradle to grave\
-    • No premiums, co-pays, or out-of-pocket costs\
-    • Every Massachusetts resident would be\
-    enrolled - regardless of employment,\
+  * Employers and employees would no longer pay private companies for health care coverage
+
+  * Instead, employees would pay a 2.5% tax, excluding the first $20,000 of earnings; employers would pay an 8% payroll tax
+
+  * Children, students, the unemployed, and retirees would not be taxed
+
+  * The bottom 90% of Massachusetts residents would save compared to what they spend now; only the top 10% would pay more
+
+
+  **What’s covered under Medicare for All?**
+
+
+  * All healthcare services would be covered, including hospital care, outpatient care, reproductive care including abortion, dental, and long-term care – from cradle to grave
+
+  * No premiums, co-pays, or out-of-pocket costs
+
+  * Every Massachusetts resident would be enrolled - regardless of employment,\
     citizenship status, age, or income
-  *
 
-  *
-
-  *
-
-  *
-
-  *
-
-  *
-
-  *
-
-  *
-
-  *
-
-  *
+  Learn more [here](https://docs.google.com/document/d/1yqtRlVjxXtYkgvmIpyQSD_hZGExWqNNmzS1JgX9tby4/edit).
 orgs:
   - title: MassCare
-    link: https://masscare.org/
+    link: https://masscare.org/action-guide/
     img: /img/masscare-copy.png
+  - title: Healthcare-NOW
+    link: https://www.healthcare-now.org/#
+    img: /img/healthcarenow.gif
+  - title: AFT-MA
+    img: /img/aft-ma-logo.png
+    link: http://ma.aft.org/news/aft-massachusetts-legislative-priorities-2023-2024
 house_lead_sponsors:
   - denise-garlick
   - lindsay-sabadosa
