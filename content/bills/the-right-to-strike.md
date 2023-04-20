@@ -1,17 +1,40 @@
 ---
 aom_id: the-right-to-strike
 title: Right to Strike
-full_title: An Act protecting the right to strike
+full_title: An Act uplifting families and securing the right to strike for
+  certain public employees
 twitter_bill_name: Right to Strike
-house_no: HD.588
-house_link: https://malegislature.gov/Bills/193/HD588
-senate_no: SD.317
-senate_link: https://malegislature.gov/Bills/193/SD317
+house_no: H.1845
+house_link: https://malegislature.gov/Bills/193/H1845
+senate_no: S.1317
+senate_link: https://malegislature.gov/Bills/193/S1317
 committee: joint-labor-and-workforce-development
 issue: labor
 img: /img/photo1-dedham-education-association-cropped.jpg
 summary:
-  - Abolishes the prohibition on public employees striking (including teachers)
+  - Abolishes the prohibition on certain public employees striking, namely
+    teachers
+text: >-
+  Massachusetts public employees, including educators, are currently prohibited
+  by state law from engaging in a strike, regardless of their working
+  conditions, their students’ learning conditions, or whether their employer may
+  have committed unfair labor practices. This outright ban on public employees
+  striking is deeply unjust, prevents educators from bargaining on a level
+  playing field with their employers, and unfairly restricts the ability of
+  educators to take collective action in support of themselves and their
+  families, their students and\
+
+  the communities they serve.
+
+
+  An Act uplifting families and securing the right to strike for certain public employees would\
+
+  address this injustice by:
+
+
+  * Allowing educators and other public employees, except for public safety personnel, to legally strike after six months of failed negotiations with their employer.
+
+  * Ensuring that the right to free speech is no longer restricted for public employees and their unions as it relates to discussing or supporting a strike.
 orgs:
   - title: Mass Teachers
     img: ""
