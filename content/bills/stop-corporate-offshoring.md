@@ -76,7 +76,7 @@ history:
   - date: 2022-10-06
     description: "Sent to Study (Study Order: H.5279)"
   - date: 2023-01-04
-    description: Bill re-filed as H.2708/S.1158
+    description: Bill re-filed as H.2708/S.1925
   - date: 2023-02-16
     description: Referred to the Joint Committee on Revenue
 ---
