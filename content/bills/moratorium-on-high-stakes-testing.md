@@ -29,6 +29,7 @@ text: >-
   receiverships, which are inherently undemocratic, do not work.
 
 
+  [Email your rep](https://actionnetwork.org/letters/urge-your-legislators-to-support-mtas-2023-2024-legislative-agenda)
 
 
   **This bill would address these issues by:**
@@ -39,6 +40,9 @@ text: >-
   * Eliminating state receiverships and reinstating democratic control to communities and school committees.
 
   * Establishing a commission to create a new, whole-child system of assessing our schools, building on important experiments in our state and nation, which can be implemented in coming years.
+
+
+  [Read more here](https://massteacher.org/-/media/massteacher/files/initiatives/legislation/bills-23-24/thrive-act-fact-sheet.pdf?la=en&hash=DE13F4291CD2E07FFC9E6C2A9C302FDBB38D5EF6).
 orgs:
   - title: MTA
     img: /img/mta_logo_new_color.png
