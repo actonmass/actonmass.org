@@ -195,6 +195,10 @@ history:
   - date: 2022-09-15
     description: "Sent to study (Study Order: H.5222)"
     type: death
+  - date: 2023-01-04
+    description: Bill re-introduced as H.1239/S.744
+  - date: 2023-02-16
+    description: Referred to the Joint Committee on Health Care Financing
 timeline:
   - date: 2019-01-22
     description: Referred to the Committee on Health Care Financing
