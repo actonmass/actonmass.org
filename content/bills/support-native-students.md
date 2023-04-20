@@ -5,10 +5,10 @@ full_title: An Act providing for the creation of a permanent commission relative
   to the education of American Indian and Alaska Native residents of the
   Commonwealth
 twitter_bill_name: Support Native Students
-house_no: HD.932
-house_link: https://malegislature.gov/Bills/193/HD932
-senate_no: SD.1286
-senate_link: https://malegislature.gov/Bills/193/SD1826
+house_no: H.536
+house_link: https://malegislature.gov/Bills/193/H536
+senate_no: S.318
+senate_link: https://malegislature.gov/Bills/193/S318
 committee: joint-education
 issue: indigenous-peoples-rights
 img: /img/pexels-emily-ranquist-1205651.jpg
@@ -19,44 +19,42 @@ summary:
     education
   - Promotes tribal self-determination by giving Native youth the opportunity to
     learn about their heritage and language
+text: Proposing a permanent commission towards improving educational outcomes
+  and opportunities for American Indian and Alaska Native students. Broader
+  impacts of the commission are the promotion of tribal self-determination by
+  providing students with the opportunity to learn their heritage, languages and
+  histories while preparing them for higher education.
 orgs:
-  - title: NAICOB
-house_lead_sponsors: []
+  - title: MA Indigenous Legislative Agenda
+    link: http://maindigenousagenda.org/educate-native-youth/
+house_lead_sponsors:
+  - sam-montano
+senate_lead_sponsors:
+  - liz-miranda
 co_sponsors:
-  - nika-elugardo
-  - lindsay-sabadosa
+  - sam-montano
   - joanne-comerford
-  - tram-nguyen
-  - jack-lewis
-  - jason-lewis
-  - carlos-gonzalez
-  - vanna-howard
-  - brian-murray
-  - kenneth-gordon
-  - tami-gouveia
-  - steve-owens
-  - alice-peisch
-  - dan-sena
-  - christina-minicucci
-  - peter-capano
-  - erika-uyterhoeven
-  - tommy-vitolo
-  - natalie-higgins
-  - patrick-oconnor
-  - kevin-honan
-  - sal-didomenico
-  - michelle-ciccolo
-  - adam-hinds
-  - adrian-madaro
-  - julian-cyr
+  - lindsay-sabadosa
   - david-leboeuf
-  - marcos-devers
-  - mindy-domb
-  - natalie-blais
+  - patricia-duffy
+  - manny-cruz
+  - jack-lewis
+  - vanna-howard
+  - james-oday
+  - ruth-balser
+  - erika-uyterhoeven
+  - carmine-gentile
+  - james-arena-derosa
+  - james-eldridge
+  - natalie-higgins
+  - david-linsky
   - kay-khan
-  - bradley-jones
-  - elizabeth-malia
-  - mike-connolly
+  - patrick-oconnor
+  - kenneth-gordon
+  - liz-miranda
+  - lydia-edwards
+  - john-keenan
+  - paul-mark
 history:
   - date: 2021-01-01
     description: Introduced as H.582
