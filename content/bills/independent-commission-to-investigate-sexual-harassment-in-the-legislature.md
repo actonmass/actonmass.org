@@ -8,6 +8,7 @@ house_link: null
 senate_no: SD.376
 senate_link: https://malegislature.gov/Bills/193/SD376
 issue: gender-equity
+hidden: true
 summary: []
 orgs:
   - title: League of Woman Voters Massachusetts
