@@ -9,6 +9,7 @@ senate_no: S.485
 senate_link: https://malegislature.gov/Bills/192/SD241
 committee: joint-election-laws
 issue: voting-rights
+hidden: true
 summary:
   - Establishes a ranked-choice voting system for all elections in Massachusetts
 orgs:
