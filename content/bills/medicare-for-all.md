@@ -3,10 +3,10 @@ aom_id: medicare-for-all
 title: Medicare for All
 full_title: An Act Establishing Medicare for all in Massachusetts
 twitter_bill_name: Medicare for All
-house_no: HD.1584
-house_link: https://malegislature.gov/Bills/193/HD1584
-senate_no: SD.2182
-senate_link: https://malegislature.gov/Bills/193/SD2182
+house_no: H.1239
+house_link: https://malegislature.gov/Bills/193/H1239
+senate_no: S.744
+senate_link: https://malegislature.gov/Bills/193/S744
 committee: joint-health-care-financing
 issue: healthcare
 img: /img/javier-matheu-ahdeiqdic7q-unsplash.jpg
@@ -17,6 +17,52 @@ summary:
     deductibles
   - Bans private insurance coverage for services already covered by the
     single-payer system
+text: >-
+  Massachusetts spends more on healthcare than nearly every state in the nation.
+  Under Medicare for All,\
+
+  money currently spent on profits, marketing, and administration would go to actual healthcare, and also\
+
+  provide $34 billion of savings in the first year alone.
+
+
+  * Employers and employees would no longer pay private companies for health care coverage\
+    Instead, employees would pay a 2.5% tax,\
+    excluding the first $20,000 of earnings;\
+    employers would pay an 8% payroll tax\
+    • Children, students, the unemployed, and\
+    retirees would not be taxed\
+    • The bottom 90% of Massachusetts residents\
+    would save compared to what they spend now;\
+    only the top 10% would pay more\
+    What’s covered under Medicare for All?\
+    • All healthcare services would be covered,\
+    including hospital care, outpatient care,\
+    reproductive care including abortion, dental,\
+    and long-term care – from cradle to grave\
+    • No premiums, co-pays, or out-of-pocket costs\
+    • Every Massachusetts resident would be\
+    enrolled - regardless of employment,\
+    citizenship status, age, or income
+  *
+
+  *
+
+  *
+
+  *
+
+  *
+
+  *
+
+  *
+
+  *
+
+  *
+
+  *
 orgs:
   - title: MassCare
     link: https://masscare.org/
