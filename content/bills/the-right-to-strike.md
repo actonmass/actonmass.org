@@ -36,9 +36,12 @@ text: >-
 
   * Ensuring that the right to free speech is no longer restricted for public employees and their unions as it relates to discussing or supporting a strike.
 orgs:
-  - title: Mass Teachers
-    img: ""
-    link: ""
+  - title: MTA
+    img: /img/mta_logo_new_color.png
+    link: https://massteacher.org/-/media/massteacher/files/initiatives/legislation/bills-23-24/an-act-uplifting-families-and-securing-the-right-to-strike-for-certain-public-employees.pdf?la=en&hash=ACE54855488FD10CEA1F863ECD0B997B26027BB9
+  - title: AFT-MA
+    img: /img/aft-ma-logo.png
+    link: http://ma.aft.org/news/aft-massachusetts-legislative-priorities-2023-2024
 house_lead_sponsors:
   - mike-connolly
   - erika-uyterhoeven
