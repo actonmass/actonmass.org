@@ -25,7 +25,7 @@ text: >-
   can ill afford them.
 
 
-  The Commission on Public Higher Education Finance issued a report in 2014 outlining this chronic underfunding, but our legislature hasn't taken major action. Every year, tiny increases in the state budget barely keep up for inflation, meanwhile students and educators pay the costs.
+  The Commission on Public Higher Education Finance issued a report in 2014 outlining this chronic underfunding, but our legislature hasn't taken major action. Every year, tiny increases in the state budget barely keep up for inflation, meanwhile students and educators pay the costs. [Read more here](https://massteacher.org/-/media/massteacher/files/initiatives/legislation/bills-23-24/the-cherish-act.pdf?la=en&hash=0C4D5238FD65DC3234CFFBFCCBC595A89645FF93).
 orgs:
   - title: Fund our Future
     img: /img/fin_fundourfuture_coalition_logo_small_yellow_web-1.png
