@@ -3,23 +3,42 @@ aom_id: moratorium-on-high-stakes-testing
 title: Moratorium on High Stakes Testing
 full_title: An Act to place a moratorium on high stakes testing
 twitter_bill_name: Moratorium on High Stakes Testing
-house_no: HD.3162
-house_link: https://malegislature.gov/Bills/193/HD3162
-senate_no: SD.2067
-senate_link: https://malegislature.gov/Bills/193/SD2067
+house_no: H.495
+house_link: https://malegislature.gov/Bills/193/H495
+senate_no: S.246
+senate_link: https://malegislature.gov/Bills/193/S246
 committee: joint-education
 issue: education
 img: /img/tim-gouw-1k9t5yiz2wu-unsplash.jpg
-hidden: true
+hidden: false
 summary:
   - Establishes a moratorium on standardized testing being a requirement for
     high school graduation
   - Creates a grant program for school districts to establish task forces to
     develop alternative assessment models
-text: Standardized testing might sound like a good idea on the surface. But
-  testing shows a racial bias and advantages students from wealthier
-  backgrounds. And the results of these tests are used by privatizers who hope
-  to convert our public education system into a private one.
+text: >-
+  High-stakes testing and the associated accountability measures have undermined
+  our public education system for far too long. Massachusetts is only one of
+  eight states in the country that ties its standardized test to graduation and
+  there is no correlation between having a standardized graduation exam
+  requirement and academic achievement. The punitive aspects of the MCAS regime
+  are especially detrimental to students with Individualized Education Plans,
+  students learning English as a second language, students of color and students
+  from groups that have been historically marginalized from an equitable and
+  supportive education. Recent studies have also demonstrated that state
+  receiverships, which are inherently undemocratic, do not work.
+
+
+
+
+  **This bill would address these issues by:**
+
+
+  * Replacing the MCAS graduation requirement with one that allows students’ districts to certify that they have satisfactorily completed coursework showing mastery of the skills, competencies and knowledge required by the state standards.
+
+  * Eliminating state receiverships and reinstating democratic control to communities and school committees.
+
+  * Establishing a commission to create a new, whole-child system of assessing our schools, building on important experiments in our state and nation, which can be implemented in coming years.
 orgs:
   - title: MTA
     img: /img/mta_logo_new_color.png
@@ -27,61 +46,90 @@ orgs:
   - link: https://massedjustice.org/highstakes-testing
     title: MEJA
     img: /img/meja-logo-final.png
+  - title: AFT-MA
+    img: /img/aft-ma-logo.png
+    link: http://ma.aft.org/news/aft-massachusetts-president-beth-kontos-get-ready-big-push-major-education-bill
 house_lead_sponsors:
   - james-hawkins
+  - sam-montano
 senate_lead_sponsors:
   - joanne-comerford
 co_sponsors:
   - james-hawkins
-  - adam-scanlon
-  - peter-capano
-  - patricia-duffy
-  - lindsay-sabadosa
-  - jack-lewis
-  - carmine-gentile
-  - carlos-gonzalez
-  - natalie-higgins
+  - sam-montano
   - david-leboeuf
-  - tricia-farley-bouvier
-  - erika-uyterhoeven
-  - carol-doherty
-  - michael-brady
-  - tackey-chan
-  - christina-minicucci
-  - james-oday
-  - angelo-puppolo
-  - tram-nguyen
-  - christine-barber
-  - sean-garballey
-  - tommy-vitolo
-  - steve-owens
-  - patrick-oconnor
-  - walter-timilty
-  - maria-robinson
-  - mary-keefe
-  - joanne-comerford
-  - joanne-comerford
-  - christina-minicucci
-  - adam-scanlon
-  - patricia-duffy
   - jack-lewis
+  - rodney-elliott
+  - james-arena-derosa
+  - lindsay-sabadosa
+  - patricia-duffy
+  - brian-murray
+  - christine-barber
   - carmine-gentile
+  - ryan-hamilton
   - erika-uyterhoeven
+  - vanna-howard
+  - tackey-chan
+  - steve-owens
+  - paul-mcmurtry
+  - mike-connolly
+  - carlos-gonzalez
   - carol-doherty
+  - margaret-scarsdale
+  - peter-capano
+  - william-galvin
+  - mary-keefe
+  - rebecca-rausch
   - michael-brady
+  - patrick-oconnor
+  - adrian-madaro
+  - natalie-blais
+  - tricia-farley-bouvier
+  - james-eldridge
+  - smitty-pignatelli
+  - natalie-higgins
+  - denise-garlick
+  - alan-silvia
   - james-oday
+  - tram-nguyen
+  - christopher-flanagan
+  - kate-donaghue
+  - josh-cutler
+  - kathleen-lanatra
+  - joan-meschino
+  - patrick-kearney
   - angelo-puppolo
-  - michael-moore
-  - anne-gobi
-  - susan-moran
+  - adam-scanlon
+  - michelle-ciccolo
+  - aaron-saunders
+  - michael-kushmerek
+  - antonio-cabral
+  - joanne-comerford
+  - lydia-edwards
+  - tommy-vitolo
+  - brian-ashe
+  - rady-mom
+  - kay-khan
+  - dawne-shand
+  - bud-williams
+  - james-murphy
+  - jacob-oliveira
+  - marc-pacheco
+  - daniel-donahue
+  - estela-reyes
+  - david-robertson
+  - liz-miranda
+  - adam-gomez
+  - paul-mark
+  - edward-kennedy
   - patricia-jehlen
   - sal-didomenico
-  - patrick-oconnor
-  - walter-timilty
-  - maria-robinson
-  - mary-keefe
-  - mike-connolly
-  - diana-dizoglio
+  - julian-cyr
+  - anne-gobi
+  - mindy-domb
+  - paul-feeney
+  - brendan-crighton
+  - robyn-kennedy
 history:
   - date: 2019-01-22
     description: Bill filed
