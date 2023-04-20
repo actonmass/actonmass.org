@@ -72,6 +72,7 @@ co_sponsors:
   - adam-gomez
   - paul-feeney
   - joan-lovely
+  - adrianne-ramons
 history:
   - date: 2017-01-20
     description: Bill introduced as H.2898
