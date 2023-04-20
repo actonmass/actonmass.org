@@ -17,15 +17,19 @@ summary:
     affirmation in sexual education curricula
 text: >-
   The Healthy Youth Act is a common sense bill that reflects the consensus of
-  the vast majority of MA residents. The bill's core provision is simple: it
-  will require any public school that already chooses to teach sex ed to provide
-  medically accurate, age-appropriate, comprehensive sexual health education. It
-  rests on three key pillars:
+  the [vast majority of MA
+  residents.](https://drive.google.com/file/d/12X_XRc1LejfZyRCRBBM0NYJoB5R1brdu/view?usp=sharing)
+  The bill's core provision is simple: it will require any public school that
+  already chooses to teach sex ed to provide medically accurate,
+  age-appropriate, comprehensive sexual health education. It rests on three key
+  pillars:
 
 
   1. **Sex ed should be accurate and age-appropriate.** In every other subject, we require that our schools teach students factual information that matches their grade level. We don't expect kindergarteners to learn calculus - and we certainly don't teach them that one and one add up to three. Sex education should be no different.
 
   2. **Sex ed should be consent-based.** Given what we know about the rates of domestic violence and sexual assault among teenagers, it's critical we teach them the skills to advocate for themselves and recognize unhealthy patterns. When the first time a student learns about consent is college, we're reaching them far too late to prevent the epidemic of sexual assault on college campuses. That's why the bill requires that courses cover the "relationship and communication skills" necessary to "form healthy, respectful relationships free of violence, coercion, and intimidation and to make healthy decisions about relationships and sexuality, including, but not limited to, affirmative, conscious and voluntary consent."
+
+  3. **Sex ed should be LGBTQ+ inclusive.**  When 81% of LGBTQ+ students in our state report that their schools' health classes did not cover the tools and information that they need to stay safe and healthy as LGBTQ+ people, we have to face the reality that we are simply failing these teens.  At best, most LGBTQ+ youth can expect health classes that teach them irrelevant information about the health risks or body parts involved in sex and overlook forms of protection they deserve to know about.  At worst, these students are often taught misleading, stigmatizing information about LGBTQ+ topics that can negatively impact both their mental and sexual health. That's why the bill will require health classes to cover "age-appropriate information about gender identity and sexual orientation for all students, including affirmative education that people have different sexual orientations, gender identities and gender expressions", as well as to provide students with information about LGBTQ+-friendly resources and support services.
 orgs:
   - title: Planned Parenthood Advocacy Fund of Massachusetts
     img: /img/pplm.jpg
