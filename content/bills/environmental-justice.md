@@ -1,8 +1,7 @@
 ---
 aom_id: environmental-justice
 title: Environmental Justice
-full_title: An Act relative to environmental justice and toxics reduction in the
-  Commonwealth
+full_title: An Act to Create Access to Justice
 twitter_bill_name: Environmental Justice
 house_no: H.1677
 house_link: https://malegislature.gov/Bills/193/H1677
@@ -11,6 +10,7 @@ senate_link: https://malegislature.gov/Bills/193/S953/
 committee: joint-judiciary
 issue: climate
 img: /img/ella-ivanescu-jbfhnrpq_dw-unsplash.jpg
+hidden: true
 summary:
   - Mandates the creation of an Environmental Justice Advisory Council, which
     would study issues related to environmental justice in the state and provide
