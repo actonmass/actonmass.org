@@ -160,5 +160,9 @@ history:
   - date: 2023-01-03
     type: death
     description: No further action taken by House Ways and Means
+  - date: 2023-01-04
+    description: Bill re-introduced as H.1260/S.816
+  - date: 2023-02-16
+    description: Referred to the Joint Committee on Higher Education
 timeline: []
 ---
