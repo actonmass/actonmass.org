@@ -3,17 +3,18 @@ aom_id: indigenous-peoples-day
 title: Indigenous Peoples Day
 full_title: An Act establishing an Indigenous Peoples Day
 twitter_bill_name: Indigenous Peoples Day
-house_no: HD.468
-house_link: https://malegislature.gov/Bills/193/HD468
-senate_no: SD.268
-senate_link: https://malegislature.gov/Bills/193/SD268
+house_no: H.2989
+house_link: https://malegislature.gov/Bills/193/H2989
+senate_no: S.1976
+senate_link: https://malegislature.gov/Bills/193/S1976
 committee: joint-state-administration-and-regulatory-oversight
 issue: indigenous-peoples-rights
 img: /img/indigenousdaypc08.webp
 hidden: false
 summary:
   - Replaces Columbus Day with Indigenous People's Day in Massachusetts Law
-text: This bill replaces Columbus Day with Indigenous Peoples Day in the
+text: >-
+  This bill replaces Columbus Day with Indigenous Peoples Day in the
   Massachusetts General Laws. Changing the 2nd Monday in October to Indigenous
   People’s Day acknowledges the harmful impact of celebrating Columbus as a
   hero. Historical accounts prove that wherever they went, Columbus and his men
@@ -21,48 +22,48 @@ text: This bill replaces Columbus Day with Indigenous Peoples Day in the
   keenly felt even now. Indigenous Peoples Day replaces something negative with
   something positive – an increased awareness of Indigenous Peoples and a
   celebration of Indigenous resilience and survival, in MA as well as throughout
-  the Americas.
+  the Americas. To learn more, you can watch a recording of the [Indigenous
+  People's Day Teach
+  In](https://actionnetwork.org/letters/2023-2024-cosponsor-drive-for-mass-indigenous-legislative-agenda)
+  hosted by our friends at United American Indians of New England. 
+
+
+  [Email your rep](https://actionnetwork.org/letters/2023-2024-cosponsor-drive-for-mass-indigenous-legislative-agenda)
 orgs:
-  - title: SURJ
-    img: ""
-    link: ""
+  - title: MA Indigenous Legislative Agenda
+    link: http://maindigenousagenda.org/indigenous-peoples-day/
 house_lead_sponsors:
-  - jack-lewis
-  - brandy-fluker-oakley
+  - christine-barber
 senate_lead_sponsors:
   - joanne-comerford
 co_sponsors:
-  - lindsay-sabadosa
-  - david-rogers
   - christine-barber
-  - michelle-ciccolo
-  - carmine-gentile
-  - jay-livingstone
-  - dan-sena
-  - kenneth-gordon
-  - natalie-higgins
-  - mary-keefe
-  - joan-meschino
-  - steve-owens
-  - erika-uyterhoeven
-  - elizabeth-malia
-  - nika-elugardo
-  - mindy-domb
-  - marjorie-decker
-  - brandy-fluker-oakley
-  - jack-lewis
-  - joanne-comerford
-  - jason-lewis
-  - kay-khan
+  - sam-montano
+  - lindsay-sabadosa
   - rebecca-rausch
   - david-leboeuf
-  - patricia-jehlen
-  - tami-gouveia
-  - cindy-friedman
+  - christopher-markey
+  - steve-owens
+  - vanna-howard
+  - patricia-duffy
+  - erika-uyterhoeven
+  - jack-lewis
+  - michelle-dubois
+  - tricia-farley-bouvier
+  - jennifer-armini
+  - colleen-garry
+  - james-eldridge
+  - natalie-higgins
+  - mindy-domb
+  - david-linsky
+  - kay-khan
+  - kenneth-gordon
+  - manny-cruz
+  - joanne-comerford
   - michael-barrett
-  - adam-hinds
+  - jason-lewis
+  - patricia-jehlen
   - julian-cyr
-  - mike-connolly
 history:
   - date: 2019-01-01
     description: Introduced as H.3665
@@ -92,4 +93,10 @@ history:
     description: No further action taken by the House Committee on Steering, Policy,
       and Scheduling
     type: death
+  - date: 2023-01-04
+    description: Bill re-introduced as H.2989/S.1976
+    type: null
+  - date: 2023-02-16
+    description: Referred to the Joint Committee on State Administration and
+      Regulator Oversight
 ---
