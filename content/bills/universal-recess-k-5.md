@@ -10,6 +10,7 @@ senate_link: https://malegislature.gov/Bills/193/SD1252
 committee: joint-education
 issue: education
 img: /img/jason-sung-4ycqdagemyk-unsplash-1-.jpg
+hidden: true
 summary:
   - Mandates at least 20 minutes of safe, unstructured recess time per day for
     children in grades K-5
