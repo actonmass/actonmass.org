@@ -86,10 +86,52 @@ orgs:
     link: https://miracoalition.org/our-work/miras-state-legislative-priorities-2023-2024/
 house_lead_sponsors:
   - ruth-balser
-  - liz-miranda
 senate_lead_sponsors:
   - james-eldridge
-co_sponsors: []
+co_sponsors:
+  - ruth-balser
+  - manny-cruz
+  - mindy-domb
+  - jack-lewis
+  - james-eldridge
+  - lindsay-sabadosa
+  - frank-moran
+  - joanne-comerford
+  - james-hawkins
+  - sean-garballey
+  - steve-owens
+  - sal-didomenico
+  - david-leboeuf
+  - vanna-howard
+  - daniel-cahill
+  - andres-vargas
+  - dylan-fernandes
+  - rebecca-rausch
+  - adrian-madaro
+  - jason-lewis
+  - kay-khan
+  - carmine-gentile
+  - david-rogers
+  - erika-uyterhoeven
+  - james-arena-derosa
+  - tram-nguyen
+  - sam-montano
+  - carol-doherty
+  - simon-cataldo
+  - carlos-gonzalez
+  - natalie-higgins
+  - brandy-fluker-oakley
+  - tommy-vitolo
+  - lydia-edwards
+  - dan-sena
+  - liz-miranda
+  - jacob-oliveira
+  - michael-barrett
+  - julian-cyr
+  - adam-gomez
+  - patricia-jehlen
+  - thomas-stanley
+  - brendan-crighton
 scripts_com_vote:
   call_request: >
     Hi {leg.first_name} {leg.last_name},
