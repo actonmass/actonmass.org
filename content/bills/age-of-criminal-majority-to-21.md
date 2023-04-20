@@ -64,7 +64,7 @@ history:
     description: "Sent to study (Study Order: H.5173)"
     type: death
   - date: 2023-01-04
-    description: Bill re-introduced as H.1599
+    description: Bill re-introduced as H.1710
     type: null
   - date: 2023-02-16
     description: Referred to the Joint Committee on Education
