@@ -36,9 +36,100 @@ orgs:
   - title: AFT MA
     img: /img/aft-ma-logo.png
     link: http://ma.aft.org/news/aft-massachusetts-legislative-priorities-2023-2024
-house_lead_sponsors: []
-senate_lead_sponsors: []
-co_sponsors: []
+house_lead_sponsors:
+  - sean-garballey
+  - patricia-duffy
+senate_lead_sponsors:
+  - joanne-comerford
+co_sponsors:
+  - sean-garballey
+  - patricia-duffy
+  - david-leboeuf
+  - steve-owens
+  - manny-cruz
+  - jack-lewis
+  - angelo-puppolo
+  - rodney-elliott
+  - james-arena-derosa
+  - lindsay-sabadosa
+  - susannah-whipps
+  - brian-murray
+  - steven-ultrino
+  - sam-montano
+  - christine-barber
+  - josh-cutler
+  - frank-moran
+  - paul-donato
+  - jessica-giannino
+  - james-hawkins
+  - carmine-gentile
+  - vanna-howard
+  - margaret-scarsdale
+  - ryan-hamilton
+  - erika-uyterhoeven
+  - tackey-chan
+  - paul-mcmurtry
+  - mike-connolly
+  - thomas-stanley
+  - carol-doherty
+  - adrian-madaro
+  - william-galvin
+  - rebecca-rausch
+  - michael-brady
+  - patrick-oconnor
+  - mary-keefe
+  - christopher-worrell
+  - natalie-blais
+  - tricia-farley-bouvier
+  - james-eldridge
+  - natalie-higgins
+  - james-arciero
+  - denise-garlick
+  - simon-cataldo
+  - joanne-comerford
+  - james-oday
+  - daniel-cahill
+  - christopher-flanagan
+  - mindy-domb
+  - daniel-carey
+  - adam-scanlon
+  - michelle-ciccolo
+  - michael-kushmerek
+  - kathleen-lanatra
+  - bruce-ayers
+  - brandy-fluker-oakley
+  - tommy-vitolo
+  - joan-meschino
+  - brian-ashe
+  - rady-mom
+  - patrick-kearney
+  - russell-holmes
+  - kay-khan
+  - bud-williams
+  - adrianne-ramons
+  - david-decoste
+  - orlando-ramos
+  - peter-capano
+  - alan-silvia
+  - tram-nguyen
+  - jacob-oliveira
+  - marc-pacheco
+  - estela-reyes
+  - david-robertson
+  - paul-mark
+  - sal-didomenico
+  - patricia-jehlen
+  - robyn-kennedy
+  - john-cronin
+  - michael-barrett
+  - jason-lewis
+  - john-velis
+  - julian-cyr
+  - liz-miranda
+  - lydia-edwards
+  - adam-gomez
+  - brendan-crighton
+  - paul-feeney
 history:
   - date: 2019-01-16
     description: Bill filed
