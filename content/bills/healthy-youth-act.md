@@ -51,114 +51,75 @@ house_lead_sponsors:
 senate_lead_sponsors:
   - sal-didomenico
 co_sponsors:
-  - james-oday
-  - vanna-howard
-  - james-arciero
-  - ruth-balser
-  - christine-barber
-  - john-barrett
-  - natalie-blais
-  - daniel-cahill
-  - peter-capano
-  - gerard-cassidy
-  - michelle-ciccolo
-  - josh-cutler
-  - michael-day
   - mindy-domb
-  - daniel-donahue
-  - michelle-dubois
-  - patricia-duffy
-  - lori-ehrlich
-  - nika-elugardo
-  - tricia-farley-bouvier
-  - dylan-fernandes
   - sean-garballey
-  - carmine-gentile
-  - kenneth-gordon
-  - tami-gouveia
-  - danielle-gregoire
-  - richard-haggerty
-  - james-hawkins
-  - christopher-hendricks
-  - natalie-higgins
-  - kevin-honan
-  - daniel-hunt
-  - patrick-kearney
-  - mary-keefe
-  - kay-khan
-  - david-leboeuf
   - jack-lewis
-  - david-linsky
-  - kate-lipper-garabedian
-  - jay-livingstone
-  - adrian-madaro
-  - elizabeth-malia
-  - paul-mark
-  - christina-minicucci
-  - michael-moran
-  - tram-nguyen
-  - steve-owens
-  - sarah-peake
-  - ted-philips
-  - maria-robinson
-  - david-rogers
-  - jeffrey-roy
   - lindsay-sabadosa
-  - jon-santiago
-  - dan-sena
-  - thomas-stanley
+  - rebecca-rausch
+  - kenneth-gordon
+  - patricia-duffy
+  - daniel-donahue
+  - susannah-whipps
   - steven-ultrino
+  - sal-didomenico
+  - sam-montano
+  - steve-owens
+  - frank-moran
+  - ted-philips
+  - jay-livingstone
+  - tram-nguyen
+  - michael-barrett
+  - david-leboeuf
+  - christine-barber
+  - margaret-scarsdale
+  - ryan-hamilton
+  - jason-lewis
+  - david-linsky
   - erika-uyterhoeven
+  - mike-connolly
+  - antonio-cabral
   - andres-vargas
-  - tommy-vitolo
-  - jonathan-zlotnik
-  - michael-barrett
-  - harriette-chandler
-  - sal-didomenico
-  - james-eldridge
-  - paul-feeney
-  - jason-lewis
-  - patricia-haddad
-  - paul-tucker
+  - kevin-honan
+  - thomas-stanley
   - joanne-comerford
-  - rebecca-rausch
-  - julian-cyr
-  - smitty-pignatelli
-  - mike-connolly
-  - carolyn-dykema
-  - sal-didomenico
-  - christina-minicucci
-  - vanna-howard
-  - jack-lewis
-  - michael-barrett
-  - jason-lewis
-  - joanne-comerford
-  - joan-lovely
-  - harriette-chandler
+  - christopher-markey
+  - james-arena-derosa
+  - ruth-balser
+  - adrian-madaro
+  - mary-keefe
+  - james-hawkins
+  - michelle-dubois
+  - natalie-blais
+  - tricia-farley-bouvier
+  - kay-khan
+  - john-barrett
   - james-eldridge
+  - dylan-fernandes
+  - priscila-sousa
+  - kate-donaghue
+  - rob-consalvo
+  - patrick-kearney
+  - kate-lipper-garabedian
+  - christopher-flanagan
+  - natalie-higgins
+  - shirley-arriaga
+  - russell-holmes
   - paul-feeney
-  - paul-tucker
-  - brendan-crighton
-  - cindy-friedman
-  - erika-uyterhoeven
-  - james-oday
-  - michael-moore
-  - john-keenan
-  - rebecca-rausch
-  - eric-lesser
-  - joseph-boncore
-  - john-cronin
-  - julian-cyr
-  - patricia-jehlen
-  - mike-connolly
-  - adam-gomez
-  - sonia-chang-diaz
-  - mathew-muratore
-  - edward-kennedy
+  - daniel-cahill
   - brandy-fluker-oakley
-  - marcos-devers
-  - michael-kushmerek
-  - diana-dizoglio
+  - manny-cruz
+  - tommy-vitolo
+  - robyn-kennedy
+  - patricia-jehlen
+  - vanna-howard
+  - pavel-payano
+  - james-oday
+  - john-keenan
+  - michael-moore
+  - cindy-friedman
+  - brendan-crighton
+  - lydia-edwards
+  - joan-lovely
 history:
   - date: 2011-01-05
     description: Bill filed as H.1063
