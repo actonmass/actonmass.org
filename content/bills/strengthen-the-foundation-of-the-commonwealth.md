@@ -11,6 +11,7 @@ senate_link: null
 committee: joint-revenue
 issue: revenue
 img: /img/tax-_picture.jpg
+hidden: true
 summary:
   - "Raises the tax rate on interest, dividends, and long-term capital gains
     from 5.0% to 8.95% "
