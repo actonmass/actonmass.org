@@ -19,11 +19,16 @@ summary:
     education
   - Promotes tribal self-determination by giving Native youth the opportunity to
     learn about their heritage and language
-text: Proposing a permanent commission towards improving educational outcomes
-  and opportunities for American Indian and Alaska Native students. Broader
-  impacts of the commission are the promotion of tribal self-determination by
-  providing students with the opportunity to learn their heritage, languages and
-  histories while preparing them for higher education.
+text: >-
+  Proposing a permanent commission towards improving educational outcomes and
+  opportunities for American Indian and Alaska Native students. Broader impacts
+  of the commission are the promotion of tribal self-determination by providing
+  students with the opportunity to learn their heritage, languages and histories
+  while preparing them for higher education. [Learn more
+  here](https://www.youtube.com/watch?v=YGf4zY7JBy4). 
+
+
+  [Email your rep](https://actionnetwork.org/letters/2023-2024-cosponsor-drive-for-mass-indigenous-legislative-agenda).
 orgs:
   - title: MA Indigenous Legislative Agenda
     link: http://maindigenousagenda.org/educate-native-youth/
@@ -67,4 +72,8 @@ history:
       House Ways and Means
   - date: 2023-01-03
     description: No further action taken by House Ways and Means
+  - date: 2023-01-04
+    description: Bill re-filed as H.536/S.318
+  - date: 2023-02-16
+    description: Referred to the Joint Committee on Education
 ---
