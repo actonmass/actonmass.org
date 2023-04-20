@@ -45,15 +45,36 @@ orgs:
 house_lead_sponsors:
   - mike-connolly
   - erika-uyterhoeven
-senate_lead_sponsors: []
+senate_lead_sponsors:
+  - rebecca-rausch
 co_sponsors:
   - mike-connolly
   - erika-uyterhoeven
-  - patrick-kearney
+  - rebecca-rausch
+  - david-leboeuf
+  - rodney-elliott
+  - james-arena-derosa
+  - sam-montano
+  - james-hawkins
+  - margaret-scarsdale
+  - vanna-howard
+  - michael-brady
+  - mary-keefe
   - lindsay-sabadosa
-  - diana-dizoglio
-  - jon-santiago
-  - michelle-dubois
+  - jack-lewis
+  - james-eldridge
+  - natalie-higgins
+  - denise-garlick
+  - dan-sena
+  - james-oday
+  - paul-feeney
+  - lydia-edwards
+  - ryan-hamilton
+  - bud-williams
+  - carol-doherty
+  - marc-pacheco
+  - estela-reyes
+  - pavel-payano
 history:
   - date: 2017-01-06
     description: Filed as H.2361
