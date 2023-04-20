@@ -23,7 +23,34 @@ house_lead_sponsors:
   - erika-uyterhoeven
 senate_lead_sponsors:
   - rebecca-rausch
-co_sponsors: []
+co_sponsors:
+  - christine-barber
+  - erika-uyterhoeven
+  - lindsay-sabadosa
+  - rebecca-rausch
+  - james-hawkins
+  - james-arena-derosa
+  - david-leboeuf
+  - vanna-howard
+  - steve-owens
+  - michael-brady
+  - sam-montano
+  - mike-connolly
+  - antonio-cabral
+  - steven-ultrino
+  - carmine-gentile
+  - michelle-dubois
+  - james-eldridge
+  - tram-nguyen
+  - rodney-elliott
+  - natalie-higgins
+  - rita-mendes
+  - sal-didomenico
+  - jason-lewis
+  - michael-barrett
+  - julian-cyr
+  - liz-miranda
+  - patricia-jehlen
 history:
   - description: "Bill filed for the first time "
     date: 2020-07-02
