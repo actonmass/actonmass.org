@@ -4,10 +4,10 @@ title: Stop Wage Theft
 full_title: An Act to prevent wage theft, promote employer accountability, and
   enhance public enforcement
 twitter_bill_name: Stop Wage Theft
-house_no: HD.2895
-house_link: https://malegislature.gov/Bills/193/HD2895
-senate_no: SD.1087
-senate_link: https://malegislature.gov/Bills/193/SD1087
+house_no: H.1868
+house_link: https://malegislature.gov/Bills/193/H1868
+senate_no: S.1158
+senate_link: https://malegislature.gov/Bills/193/S1158
 committee: joint-labor-and-workforce-development
 issue: labor
 img: /img/neonbrand-aojguijkobc-unsplash.jpg
@@ -20,10 +20,45 @@ summary:
   - Protects workers against retaliation from their employer for reporting
     violations, and increases the power of the Attorney General's office to
     enforce wage theft laws
+text: >-
+  Nearly $700 million in wages are stolen from about 350,000 low-wage workers
+  each year in\
+
+  Massachusetts. 
+
+
+  Wage theft covers a variety of infractions that occur when workers do not receive their legally required or promised wages. Common forms of wage theft are:
+
+
+  * Non-payment of overtime
+
+  * Not giving workers their last paycheck after a worker leaves a job
+
+  * Not paying for all the hours worked
+
+
+  In today’s economy, where employers increasingly subcontract or outsource core parts of their business to other companies, wage theft has overwhelmed the capacity of our existing labor laws and enforcement mechanics.
+
+
+  This bill would: 
+
+
+  * Increase Responsibility: Holds “lead contractors” accountable for the wage theft violations of their\
+    subcontractors.
+  * Protects Wage Rights: Protects workers from wage theft violations such as failure to make wage payments; failure to abide by minimum wage, prevailing wage and overtime laws; and independent contractor misclassification.
+
+  * Protect Workers against retaliation for reporting wage violations.
+
+  * Improve Government Enforcement: Streamlines the enforcement power of the Attorney General’s office by allowing it to bring wage theft cases directly to court and seek damages on behalf of workers.
+
+  * Allow a Stop Work Order: In cases where there has been a determination of a wage theft violation, the AG will have the power to issue a “Stop Work Order,” which temporarily halts work until the violation is corrected.
+
+
+  [Read more here](http://stopmasswagetheft.org/wp-content/uploads/2019/05/wage-theft-fact-sheet-feb-19.pdf).
 orgs:
   - title: AFL-CIO
-    img: ""
-    link: ""
+    img: /img/aflcio-logo.png
+    link: http://stopmasswagetheft.org/
 house_lead_sponsors:
   - daniel-donahue
 senate_lead_sponsors:
@@ -238,6 +273,10 @@ history:
   - date: 2023-01-03
     description: No further action taken by House Ways and Means
     type: death
+  - date: 2023-01-04
+    description: Bill re-filed as H.1868/S.1158
+  - date: 2023-02-16
+    description: Referred to the Joint Committee on Labor and Workforce Development
 timeline:
   - description: Sent to the Labor and Workforce Committee
     date: 2019-01-22
