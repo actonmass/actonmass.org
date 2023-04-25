@@ -66,16 +66,14 @@ campaign_transparency_message:
       intend to use every second of the next two years to build our movement.
       Sign up now to learn more about becoming a Transparency Captain and get
       plugged into the organizing and base-building we’re doing in your area!
-    transparency_image: /img/newcampaign2.png
+    transparency_image: /img/signal-2022-11-29-161738-1-.jpeg
     transparency_href: https://secure.everyaction.com/oITinRw4Ck-JRO3NetrRFA2
 campaign_letter_message:
   - letter_title: Write a Letter to the Editor!
-    letter_main_text: Our strategy is to organize across the Commonwealth to hold as
-      many grassroots lobby meetings with legislators as possible where their
-      constituents ask them to support public committee votes when it comes to a
-      vote in January. Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-      sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-      ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-      e
-    letter_href: https://actonmass.org/transparency/
-    letter_image: /img/newcampaign2.png
+    letter_main_text: Writing an op-ed or a letter to the editor in your local paper
+      is a powerful way to spread the word and let your community know about why
+      you’re committed to fighting for transparency. It’s also a great way to
+      let your Rep know what’s important to you, since reps and their staffers
+      keep track of what’s going on in the district through local media!
+    letter_href: https://docs.google.com/document/d/1Zugwp8YVzqw0rLIwUJFbmhc-nUsHJ4-U2YZacqBmqNo/edit
+    letter_image: /img/gabriel-mireles-by-kate-espenshade.jpg
