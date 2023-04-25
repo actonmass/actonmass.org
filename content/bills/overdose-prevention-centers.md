@@ -107,4 +107,55 @@ co_sponsors:
   - patricia-jehlen
   - jason-lewis
   - brendan-crighton
+history:
+  - date: 2019-01-03
+    description: Bill filed as S.1134
+  - date: 2019-01-22
+    description: Referred to the Joint Committee on Mental Health, Substance Use and
+      Recovery
+  - date: 2019-10-01
+    description: Hearing held
+  - date: 2020-02-05
+    description: Reporting date extended to 4/15/2020
+  - date: 2020-04-23
+    description: Reporting date extended to 5/15/2020
+  - date: 2020-05-21
+    description: Accompanied a new draft, S.2717. The original bill text was more of
+      a study, the new draft elevated it to a pilot program. Bill reported
+      favorably by the Joint Committee on Mental Health, Substance Use and
+      Recovery, and referred to the Joint Committee on Health Care Financing
+  - date: 2020-06-22
+    description: Reporting date extended to 12/31/2020
+  - date: 2020-06-25
+    description: Senate recommended ought NOT to pass under Joint Rule 10. Rules
+      suspended, read and referred to Senate Ways and Means
+  - date: 2021-01-05
+    description: No further action taken by Senate Ways and Means
+    type: death
+  - date: 2021-03-03
+    description: Bill re-filed as S.1258 to study OPCs
+  - date: 2021-03-29
+    description: Referred to the Joint Committee on Mental Health, Substance Use and
+      Recovery
+  - date: 2021-09-27
+    description: Hearing held
+  - date: 2022-02-09
+    description: Reporting date extended to 5/9/2022
+  - date: 2022-05-12
+    description: Reporting date extended to 6/2/2022
+  - date: 2022-06-23
+    description: Accompanied a new draft, S.1272. The original bill text was more of
+      a study, the new draft elevated it to a pilot program, similarly to the
+      previous session. Bill reported favorably by the Joint Committee on Mental
+      Health, Substance Use and Recovery and referred to the Senate Committee on
+      Health Care Financing.
+  - date: 2022-07-25
+    description: "Sent to study by Senate Health Care Financing Committee (Study
+      Order: S.3051)"
+    type: death
+  - date: 2023-01-04
+    description: Bill re-filed as H.1981/S.1242 (pilot program)
+  - date: 2023-02-16
+    description: Referred to the Joint Committee on Mental Health, Substance Use and
+      Recovery
 ---
