@@ -21,6 +21,13 @@ text: >-
 
 
   While abortion is legal in Massachusetts, it is not without restriction. This bill would further remove medically unnecessary barriers to abortion that often delay and/or stigmatize abortion care including several TRAP policies like unnecessary waiting periods for health-related information, ultrasounds inconsistent with the standard of care and review, and medically unnecessary regulations on facilities. It would also require the Department of Public Health to publicize information on where residents can find legitimate reproductive health care providers and invest in public education efforts to combat mis- and dis-information from anti-abortion organizations targeting pregnant people.
+orgs:
+  - title: Planned Parenthood Advocacy Fund
+    img: /img/pplm.jpg
+    link: https://www.plannedparenthoodaction.org/planned-parenthood-advocacy-fund-massachusetts-inc/issues/leg-agenda
+  - title: Reproductive Equity Now
+    img: /img/repro-equity-now-logo.jpg
+    link: https://reproequitynow.org/legislative-and-budget-agenda
 house_lead_sponsors:
   - sally-kerans
 senate_lead_sponsors:
