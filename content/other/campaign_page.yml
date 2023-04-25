@@ -2,30 +2,37 @@ campaign_message:
   - title: The People's House Campaign
     main_text: The MA State House is broken, and we need your help to fix it.
     first_main_paragraph: The Massachusetts State House is one of the least
-      transparent in the country. When decisions about what bills will pass are
-      made in backroom deals with a small handful of people, that’s not
-      democracy. Bay Staters deserve a government that centers their voices -
-      not one that bends over backwards to keep them out.
+      transparent in the country. From backroom deals, to private votes, and an
+      ever-increasing concentration of power, our democracy is in crisis. Bay
+      Staters deserve a government that centers their voices - not one that
+      bends over backwards to keep them out.
     second_main_paragraph: Together, we can make the State House the People’s House. Will you join us?
     main_image: /img/newcampaign1.jpg
     first_href: https://secure.everyaction.com/oITinRw4Ck-JRO3NetrRFA2
     second_href: https://actonmass.org/transparency/
 campaign_problem_and_solution:
-  - second_solution: Meet with state legislators to request that they vote for state
-      house reform when the new House and Joint Rules are written
-    third_problem: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-      eiusmod tempor incididunt ut labore
-    first_solution: Recruit and organize District Teams in State House districts
-      across the Commonwealth
-    problem_href: https://actonmass.org/about-us
-    solution_main_text: Build grassroots power to reform the broken State House
-    first_problem: "TEST: Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-      sed do eiusmod tempor incididunt ut labore"
-    third_solution: Escalate pressure alongside District Teans
+  - second_solution: "Step two: Provide every District Team of constituents the
+      skills and resources they need to effectively lobby their legislators to
+      support these pro-democracy state house reforms."
+    third_problem: Instead, our government, time and time again, prioritizes the
+      agendas of corporate lobbyists and special interests.
+    first_solution: "Step one: Organize thousands of everyday people across the
+      commonwealth to demand their legislator support pro-democracy amendments
+      to the House and Joint Rules."
+    problem_href: https://actonmass.org/transparency/
+    solution_main_text: Build grassroots power to fix the broken Rules
+    first_problem: Year after year, widely popular legislation that would improve
+      the lives of millions is delayed in the State House, made less ambitious,
+      or killed behind closed doors.
+    third_solution: "Step three: Escalate pressure alongside the District Teams to
+      ensure this issue is one that the state house leadership can’t ignore.
+      After all, our democracy is on the line."
     solution_title: Our Solution
     problem_main_text: A legislature that de-centers and devalues constituent voices
-    second_problem: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-      eiusmod tempor incididunt ut labore
+    second_problem: With the least competitive elections in the country, an immense
+      concentration of power into the hands of legislative leadership, and one
+      of the least transparent state houses in the country, Beacon Hill has
+      become unaccountable to the people
     problem_title: The Problem
     problem_and_solution_image: /img/newcampaign2.png
 campaign_priority_message:
@@ -35,7 +42,7 @@ campaign_priority_message:
       anti-transparent rules that deliberately exclude the public from
       participating in the lawmaking process. Namely, the House and Joint rules
       do not require that votes taken in legislative committees be made public.
-      This is disastrous for democracy--how can we hold our legislators
+      This is disastrous for democracy; how can we hold our legislators
       accountable when we can't see how they're voting?
     priority_second_main_paragraph: Read more about why making public committee votes is so crucial.
     priority_fourth_main_paragraph: That's where you come in.
@@ -49,12 +56,16 @@ campaign_priority_message:
 campaign_transparency_message:
   - transparency_title: Become a Transparency Captain!
     transparency_main_text: Our strategy is to organize across the Commonwealth to
-      hold as many grassroots lobby meetings with legislators as possible where
-      their constituents ask them to support public committee votes when it
-      comes to a vote in January. Lorem ipsum dolor sit amet, consectetur
-      adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-      magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-      laboris nisi ut aliquip e
+      hold as many grassroots lobby meetings with legislators as possible, but
+      we can’t do it alone; we need leaders in every corner of the state to take
+      point on organizing the campaign in their hometown. Transparency Captains
+      work closely with Act on Mass staff to lead and grow the campaign team in
+      their district. This is a low-commitment high reward leadership role for
+      anyone looking to make a big difference for democracy in their own
+      backyard. The next Rules vote will likely be in January of 2025, and we
+      intend to use every second of the next two years to build our movement.
+      Sign up now to learn more about becoming a Transparency Captain and get
+      plugged into the organizing and base-building we’re doing in your area!
     transparency_image: /img/newcampaign2.png
     transparency_href: https://secure.everyaction.com/oITinRw4Ck-JRO3NetrRFA2
 campaign_letter_message:
