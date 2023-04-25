@@ -4,7 +4,6 @@ logo: pen
 img: /img/issue-education.jpg
 highlighted_bills:
   - moratorium-on-high-stakes-testing
-  - universal-recess-k-5
   - cherish-act-fully-funded-public-higher-ed
 failures:
   - title: Public K-12 Education
