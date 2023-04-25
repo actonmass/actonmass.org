@@ -49,4 +49,9 @@ co_sponsors:
   - jack-lewis
   - manny-cruz
   - kevin-honan
+history:
+  - date: 2023-01-04
+    description: Bill introduced as H.1599/S.1114
+  - date: 2023-02-16
+    description: Referred to the Joint Committee on the Judiciary
 ---
