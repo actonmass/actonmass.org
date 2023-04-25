@@ -66,4 +66,10 @@ co_sponsors:
   - tommy-vitolo
   - william-driscoll
   - tackey-chan
+history:
+  - date: 2023-01-04
+    description: Bill filed as H.3016
+  - date: 2023-02-16
+    description: Referred to the Joint Committee on State Administration and
+      Regulatory Oversight
 ---
