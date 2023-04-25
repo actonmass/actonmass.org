@@ -4,6 +4,8 @@ logo: heartbeat
 img: /img/issue-healthcare.jpg
 highlighted_bills:
   - medicare-for-all
+  - abortion-access
+  - overdose-prevention
 failures:
   - title: Medicare for All
     text: State-level Medicare for All could save us money while making healthcare
