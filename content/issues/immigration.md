@@ -1,18 +1,9 @@
 ---
-aom_id: immigration
 layout: issue
-title: Immigration
-subtitle: Ending cooperation with ICE
 logo: random
 img: /img/issue-immigration.jpg
-page_img: /img/bills/sca_hero_img.png
-catchphrase: Immigrant communities across the Commonwealth are at risk - and the
-  Legislature hasn't taken action.
-bills_to_support_title: Immigration Reform
 highlighted_bills:
   - safe-communities-act
-  - driver-license-regardless-immigration-status
-failures_block_title: Massachusetts has failed to protect vulnerable immigrants.
 failures:
   - title: Years of Inaction
     text: For the last few years, we heard horror stories about families ripped
@@ -21,27 +12,6 @@ failures:
       registry[3](#reference-3). Massachusetts could have acted during the Trump
       administration to stand up against federal abuse, but our state government
       dropped the ball.
-  - title: Drivers Licenses
-    text: A far too common occurence over recent years has been families torn apart
-      because an undocumented person was pulled over for a routine traffic stop.
-      A drivers' license would allow these routine traffic stops to just be
-      routine traffic stops, and contribute to road safety to boot. That's why
-      many states including most recently Virginia, have passed laws allowing
-      immigrants to get licenses regardless of immigration status. Not
-      Massachusetts.
-questions:
-  - title: Will dangerous criminals be released without punishment because of SCA?
-    text: No. The Act merely provides some due process protections for all
-      residents. Those who are deemed a threat to public safety will not be
-      released, just like under current law. Law enforcement will still be able
-      to work with ICE to make arrests and detain people, as long as a judge
-      issues a warrant. The Act was carefully crafted to allow law enforcement
-      to go after criminals, while still respecting the civil rights of
-      everyone.
-  - title: Will SCA cause an increase in crime?
-    text: Absolutely not! There are already plenty of sanctuary jurisdictions across
-      the nation, and studies have found that sanctuary jurisdictions are
-      actually safer than comparable non-sanctuary jurisdictions.
 references:
   - key: "1"
     title: Cramer, Maria, “ICE arrested 7 people as they sought permanent status in
@@ -81,6 +51,27 @@ references:
       Amendment,” WBUR, May 24, 2018
     link: https://www.wbur.org/news/2018/05/24/mass-senate-safe-communities-amendment
 permalink: /issues/immigration/
+aom_id: immigration
+title: Immigration
+subtitle: Ending cooperation with ICE
+page_img: /img/bills/sca_hero_img.png
+catchphrase: Immigrant communities across the Commonwealth are at risk - and the
+  Legislature hasn't taken action.
+bills_to_support_title: Immigration Reform
+failures_block_title: Massachusetts has failed to protect vulnerable immigrants.
+questions:
+  - title: Will dangerous criminals be released without punishment because of SCA?
+    text: No. The Act merely provides some due process protections for all
+      residents. Those who are deemed a threat to public safety will not be
+      released, just like under current law. Law enforcement will still be able
+      to work with ICE to make arrests and detain people, as long as a judge
+      issues a warrant. The Act was carefully crafted to allow law enforcement
+      to go after criminals, while still respecting the civil rights of
+      everyone.
+  - title: Will SCA cause an increase in crime?
+    text: Absolutely not! There are already plenty of sanctuary jurisdictions across
+      the nation, and studies have found that sanctuary jurisdictions are
+      actually safer than comparable non-sanctuary jurisdictions.
 learn_more:
   - title: ACLU Massachusetts
     img: /img/orgs/aclu.png
