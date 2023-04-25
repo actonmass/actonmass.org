@@ -25,4 +25,9 @@ co_sponsors:
   - rebecca-rausch
   - smitty-pignatelli
   - liz-miranda
+history:
+  - date: 2023-01-04
+    description: Bill filed as S.1963
+  - date: 2023-02-16
+    description: Referred to the Joint Committee on Rules
 ---
