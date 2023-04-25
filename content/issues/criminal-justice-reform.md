@@ -1,33 +1,10 @@
 ---
-aom_id: criminal-justice-reform
 layout: issue
-title: Criminal Justice Reform
-subtitle: End mandatory minimum sentencing
 logo: balance-scale
 img: /img/issue-crime.jpeg
-page_img: /img/emiliano-bar-pakhbttdqt0-unsplash.jpg
-catchphrase: Mass incarceration and a racist, unaccountable police system put
-  communities in danger.
-text: >-
-  #### MASS INCARCERATION
-
-
-  Massachusetts has a relatively low incarceration rate compared to the rest of the country, but the number goes up when considering racial disparities. According to statewide sentencing data, Black and Latinx residents make up just 23 percent of the state’s population, but more than double the percentage of incarcerated people. We've had decades to address the impact of mass incarceration, and the epidemic of COVID cases occurring in prisons only increases the urgency. Incarceration is not a substitute for accessible health care, jobs programs, or mental health services. After years of delay, the Legislature passed a criminal justice reform bill in 2018 which included some important reforms, but didn’t go far enough. Reformers hoped to see a broad ability for juvenile expungement to prevent youth criminal records from haunting them the rest of their lives, but only limited expungement was included. And instead of eliminating all mandatory minimum sentences, the bill created new ones.
-
-
-
-
-  #### POLICE REFORM
-
-
-  Massachusetts is just a handful of states without certification for police officers, meaning that a police officer who’s fired by one town for misbehavior can get a job down the road in the next town. Police officers routinely violate constitutional law and rarely receive accountability, since there is very little stopping someone who has committed an act of violence from continuing to commit violence on the job elsewhere. This lack of consequences puts the entire community at risk. Municipalities across the state have already made clear the need for certification and accountability. Springfield’s police department is so bad that even the Trump administration took notice and began an investigation into unconstitutional policing and systemic misconduct. A system of certification and ending qualified immunity would prevent disgraced officers in Springfield from moving a few towns over and resuming police work unchanged. These reforms are not a substitute for defunding police budgets, which are clearly bloated and take away vital funding from needed public services. They do, however, establish a standard to which officers will have to adhere to in order to remain employed as police.
-bills_to_support_title: Criminal Justice Reform
 highlighted_bills:
-  - life-without-parole
   - age-of-criminal-majority-to-21
   - "Exemple: prison-moratorium"
-failures_block_title: Despite recent victories, our criminal justice system
-  still has a long way to go....
 failures:
   - title: Ending Mandatory Minimum Sentencing
     text: "**In 2018, after years of delay, the Legislature passed a criminal
@@ -74,6 +51,51 @@ failures:
       the final police reform bill passed last session, due to fierce opposition
       by the police unions, the Legislature has another opportunity to take
       meaningful action and end qualified immunity.
+references:
+  - key: "1"
+    title: Wikipedia.  February 6, 2019.
+    link: https://en.wikipedia.org/wiki/List_of_countries_by_incarceration_rate.
+  - key: "2"
+    title: Prison Policy Initiative.  December 28, 2018.
+    link: https://www.prisonpolicy.org/blog/2018/12/28/dataviz2018/
+  - key: "3"
+    title: The Sentencing Project.  February 6, 2019.
+    link: https://www.sentencingproject.org/the-facts/#rankings?dataset-option=BWR.
+  - key: "4"
+    title: The Sentencing Project.  February 6, 2019.
+    link: https://www.sentencingproject.org/the-facts/#rankings?dataset-option=HWR.
+  - key: "5"
+    title: Brownsberger, William.  March 24, 2019.
+    link: https://willbrownsberger.com/mandatory-minimums-for-drug-crimes-in-the-senate-criminal-justice-package/
+  - key: "6"
+    title: Brownsberger, William.  March 24, 2019.
+    link: https://willbrownsberger.com/mandatory-minimums-for-drug-crimes-in-the-senate-criminal-justice-package/
+  - key: "7"
+    title: Enwemeka, Zeninjor.  WBUR, June 10, 2015.
+    link: https://www.wbur.org/news/2015/06/10/mandatory-minimum-sentences-primer.
+permalink: /issues/criminal-justice-reform/
+aom_id: criminal-justice-reform
+title: Criminal Justice Reform
+subtitle: End mandatory minimum sentencing
+page_img: /img/emiliano-bar-pakhbttdqt0-unsplash.jpg
+catchphrase: Mass incarceration and a racist, unaccountable police system put
+  communities in danger.
+text: >-
+  #### MASS INCARCERATION
+
+
+  Massachusetts has a relatively low incarceration rate compared to the rest of the country, but the number goes up when considering racial disparities. According to statewide sentencing data, Black and Latinx residents make up just 23 percent of the state’s population, but more than double the percentage of incarcerated people. We've had decades to address the impact of mass incarceration, and the epidemic of COVID cases occurring in prisons only increases the urgency. Incarceration is not a substitute for accessible health care, jobs programs, or mental health services. After years of delay, the Legislature passed a criminal justice reform bill in 2018 which included some important reforms, but didn’t go far enough. Reformers hoped to see a broad ability for juvenile expungement to prevent youth criminal records from haunting them the rest of their lives, but only limited expungement was included. And instead of eliminating all mandatory minimum sentences, the bill created new ones.
+
+
+
+
+  #### POLICE REFORM
+
+
+  Massachusetts is just a handful of states without certification for police officers, meaning that a police officer who’s fired by one town for misbehavior can get a job down the road in the next town. Police officers routinely violate constitutional law and rarely receive accountability, since there is very little stopping someone who has committed an act of violence from continuing to commit violence on the job elsewhere. This lack of consequences puts the entire community at risk. Municipalities across the state have already made clear the need for certification and accountability. Springfield’s police department is so bad that even the Trump administration took notice and began an investigation into unconstitutional policing and systemic misconduct. A system of certification and ending qualified immunity would prevent disgraced officers in Springfield from moving a few towns over and resuming police work unchanged. These reforms are not a substitute for defunding police budgets, which are clearly bloated and take away vital funding from needed public services. They do, however, establish a standard to which officers will have to adhere to in order to remain employed as police.
+bills_to_support_title: Criminal Justice Reform
+failures_block_title: Despite recent victories, our criminal justice system
+  still has a long way to go....
 questions:
   - title: Isn’t Massachusetts really progressive on criminal justice?
     text: >-
@@ -101,29 +123,6 @@ questions:
 
 
       And here’s the thing: inequities in our justice system typically follow other injustices in society.  Our legislature has been mostly silent on the things that would make sentencing reform most effective: housing, health care, and education.
-references:
-  - key: "1"
-    title: Wikipedia.  February 6, 2019.
-    link: https://en.wikipedia.org/wiki/List_of_countries_by_incarceration_rate.
-  - key: "2"
-    title: Prison Policy Initiative.  December 28, 2018.
-    link: https://www.prisonpolicy.org/blog/2018/12/28/dataviz2018/
-  - key: "3"
-    title: The Sentencing Project.  February 6, 2019.
-    link: https://www.sentencingproject.org/the-facts/#rankings?dataset-option=BWR.
-  - key: "4"
-    title: The Sentencing Project.  February 6, 2019.
-    link: https://www.sentencingproject.org/the-facts/#rankings?dataset-option=HWR.
-  - key: "5"
-    title: Brownsberger, William.  March 24, 2019.
-    link: https://willbrownsberger.com/mandatory-minimums-for-drug-crimes-in-the-senate-criminal-justice-package/
-  - key: "6"
-    title: Brownsberger, William.  March 24, 2019.
-    link: https://willbrownsberger.com/mandatory-minimums-for-drug-crimes-in-the-senate-criminal-justice-package/
-  - key: "7"
-    title: Enwemeka, Zeninjor.  WBUR, June 10, 2015.
-    link: https://www.wbur.org/news/2015/06/10/mandatory-minimum-sentences-primer.
-permalink: /issues/criminal-justice-reform/
 learn_more:
   - img: /img/aclu_ma.png
     title: ACLU Massachusetts
