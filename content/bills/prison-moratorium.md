@@ -12,7 +12,28 @@ issue: criminal-justice-reform
 img: /img/pexels-rodnae-productions-6064890.jpg
 hidden: false
 summary:
-  - Establishes a moratorium on building new prisons or jails for five years
+  - Establishes a 5-year pause on building new prisons or jails so we can focus
+    on releasing and resourcing communities
+  - The moratorium does not prevent essential repairs
+text: >-
+  MA is planning to build a $50 million women’s prison. Incarcerated and
+  formerly incarcerated women oppose this project, and want elected officials to
+  use their power to release women and resource communities rather than build
+  jails and prisons. This includes decriminalization of drugs and sex work,
+  diversion, community-based sentencing, parole, expanding medical parole,
+  establishing elder parole, and clemency.
+
+
+  MA has the lowest rate of incarceration in the United States. From 2014-2019, the incarcerated population in MA decreased by more than 20%. During that same time, spending on jails and prisons increased by 18%. It currently costs $235,000 per year to incarcerate one woman in Framingham. We invest $1.7 billion of public resources every year in a system that only causes further harm. Now is the moment to create what different looks like and make MA a model for the rest of the country. We must start by passing the Prison Moratorium, maximizing pathways to release, and investing in what communities need to thrive: housing, healing, treatment, transportation, education, childcare, and economic development.
+
+
+  200 women are incarcerated at Framingham. About 20% are pre-trial detainees from Middlesex County, many held on bail they can’t afford. Incarcerated women are overwhelmingly survivors of violence and trauma. The vast majority of women in MCI-Framingham are mothers separated from their children. There are 7 women in their 70s and 10 women in their 60s in Framingham. Women are suffering from a range of significant illnesses and receiving inadequate healthcare from Wellpath. Women express a need for mental health care and treatment that cannot happen inside prison. Incarcerated women have hopes, plans, and so much to give. Women deserve better than prison.
+
+
+  It is possible to close MCI-Framingham without rebuilding or replacing it, if we focus on pathways to release, alternatives to incarceration, and reinvesting in communities. Formerly incarcerated women are clear: there is no such thing as a safe or trauma-informed prison. DOC was cited by the Department of Justice for failure to provide adequate mental healthcare and conditions that violate the 8th amendment of the Constitution. DOC has failed to implement many changes required by the Criminal Justice Reform Act of 2018. A 2022 Prisoners’ Legal Services report documents incarcerated women’s experiences of rampant sexual abuse, violence, and dehumanization. A different building does not change the culture of DOC. A prime example of that is Souza-Baronowski. When it was newly built, Souza was touted as state of the art, yet is now the site of some of the worst abuses by DOC.
+
+
+  Families for Justice as Healing and The National Council conducted years of participatory research with formerly incarcerated women about what they needed and dreamed about for their families and communities. Not a single woman said a new prison. The question in MA is not “do we want an old women’s prison or a new women’s prison” the question is “what else is possible beyond prison?”
 orgs:
   - title: Massachusetts Peace Action
     img: ""
