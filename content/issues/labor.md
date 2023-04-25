@@ -11,6 +11,7 @@ bills_to_support_title: Workers' rights
 highlighted_bills:
   - stop-wage-theft
   - the-right-to-strike
+  - rideshare-union
 failures_block_title: MA isn't as strong on workers' rights as you might expect.
 failures:
   - title: Out of control Wage Theft
