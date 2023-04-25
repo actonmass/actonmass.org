@@ -11,4 +11,5 @@ highlighted_bills:
   - state-house-union
 failures_block_title: Massachusetts ranks at or near the bottom in several
   transparency and good governance ratings
+order: 100
 ---
