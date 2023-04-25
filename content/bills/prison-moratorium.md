@@ -34,6 +34,9 @@ text: >-
 
 
   Families for Justice as Healing and The National Council conducted years of participatory research with formerly incarcerated women about what they needed and dreamed about for their families and communities. Not a single woman said a new prison. The question in MA is not “do we want an old women’s prison or a new women’s prison” the question is “what else is possible beyond prison?”
+
+
+  [Read more here](https://docs.google.com/document/d/e/2PACX-1vTHOt5n41_eiKRyRIUpM9v5JJo7VMdrbk8raJEkoq7Py32tAnclLoJ2D1S1z_8y0x_HaRld90jUfq__/pub?urp=gmail_link).
 orgs:
   - title: Massachusetts Peace Action
     img: ""
