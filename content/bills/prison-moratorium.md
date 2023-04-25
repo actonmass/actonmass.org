@@ -3,75 +3,67 @@ aom_id: "Exemple: prison-moratorium"
 title: Prison Moratorium
 full_title: An Act establishing a jail and prison construction moratorium
 twitter_bill_name: An Act establishing a jail and prison construction moratorium
-house_no: H.1905
-house_link: https://malegislature.gov/Bills/192/H1905
-senate_no: S.2030
-senate_link: https://malegislature.gov/Bills/192/S2030
-committee: joint-state-administration-and-regulatory-oversight
+house_no: H.1795
+house_link: https://malegislature.gov/Bills/193/H1795
+senate_no: S.1979
+senate_link: https://malegislature.gov/Bills/193/S1979
+committee: joint-judiciary
 issue: criminal-justice-reform
 img: /img/pexels-rodnae-productions-6064890.jpg
 hidden: false
 summary:
   - Establishes a moratorium on building new prisons or jails for five years
 orgs:
-  - title: SURJ
-    img: ""
-    link: ""
   - title: Massachusetts Peace Action
     img: ""
-    link: ""
+    link: https://masspeaceaction.org/mapa-endorses-state-bills/
   - title: Families for Justice as Healing
     img: ""
-    link: ""
+    link: https://www.justiceashealing.org/
+  - title: NASW-MA
+    img: /img/naswma_logo.png
+    link: https://www.votervoice.net/NASWMA/BlogPosts/4140
+  - title: National Council
+    img: /img/national-council.png
+    link: https://www.nationalcouncil.us/
 house_lead_sponsors:
   - chynah-tyler
 senate_lead_sponsors:
   - joanne-comerford
 co_sponsors:
-  - lindsay-sabadosa
+  - chynah-tyler
   - david-leboeuf
-  - patrick-kearney
-  - jack-lewis
-  - orlando-ramos
-  - erika-uyterhoeven
-  - bud-williams
-  - christine-barber
-  - ruth-balser
-  - sean-garballey
-  - mary-keefe
-  - tommy-vitolo
-  - david-rogers
-  - patricia-duffy
-  - jay-livingstone
   - steve-owens
-  - michelle-dubois
+  - lindsay-sabadosa
+  - jack-lewis
   - mike-connolly
-  - joanne-comerford
-  - joseph-boncore
-  - dan-sena
-  - mindy-domb
-  - brandy-fluker-oakley
-  - paul-mark
-  - michelle-ciccolo
-  - kevin-honan
-  - natalie-higgins
-  - john-barrett
-  - elizabeth-malia
-  - patricia-jehlen
-  - jason-lewis
-  - cindy-friedman
-  - sal-didomenico
-  - sonia-chang-diaz
-  - kay-khan
-  - adam-hinds
-  - tami-gouveia
-  - maria-robinson
-  - adam-gomez
-  - william-driscoll
-  - diana-dizoglio
+  - christine-barber
+  - sam-montano
   - rebecca-rausch
-  - james-eldridge
-  - liz-miranda
+  - adrian-madaro
+  - michelle-dubois
+  - kay-khan
+  - vanna-howard
+  - patrick-kearney
+  - david-rogers
+  - margaret-scarsdale
+  - rob-consalvo
+  - jay-livingstone
+  - jason-lewis
+  - joanne-comerford
   - carmine-gentile
-  - marjorie-decker
+  - tommy-vitolo
+  - natalie-higgins
+  - james-arena-derosa
+  - brandy-fluker-oakley
+  - dan-sena
+  - sean-garballey
+  - erika-uyterhoeven
+  - michael-barrett
+  - sal-didomenico
+  - patricia-jehlen
+  - liz-miranda
+  - james-eldridge
+  - cindy-friedman
+  - lydia-edwards
 ---
