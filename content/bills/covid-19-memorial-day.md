@@ -7,6 +7,10 @@ house_no: H.3016
 house_link: https://malegislature.gov/Bills/193/H3016/
 committee: joint-state-administration-and-regulatory-oversight
 hidden: false
+orgs:
+  - title: Marked by COVID MA
+    img: /img/marked-by-covid-ma-logo.png
+    link: https://www.facebook.com/groups/markedbycovid.ma/
 house_lead_sponsors:
   - mindy-domb
   - natalie-blais
