@@ -12,10 +12,8 @@ catchphrase: "Massachusetts residents overwhelmingly support eliminating the tax
   economy. "
 bills_to_support_title: progressive revenue
 highlighted_bills:
-  - fair-share-amendment
-  - strengthen-commonwealth
   - stop-corporate-offshoring
-failures_block_title: "TAX POLICY IS DIRECTLY RESPONSIBLE FOR RUNAWAY INEQUALITY  "
+failures_block_title: "Tax policy is directly responsible for runaway inequality "
 failures:
   - title: "A crumbling and upside down tax system "
     text: In recent decades, state and local tax rates in Massachusetts have fallen
