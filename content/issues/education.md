@@ -5,6 +5,7 @@ img: /img/issue-education.jpg
 highlighted_bills:
   - moratorium-on-high-stakes-testing
   - cherish-act-fully-funded-public-higher-ed
+  - racially-inclusive-education
 failures:
   - title: Public K-12 Education
     text: Since 1993, MA hasn't been spending enough money on public K-12 education,
