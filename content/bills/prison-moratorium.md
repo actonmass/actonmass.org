@@ -66,4 +66,22 @@ co_sponsors:
   - james-eldridge
   - cindy-friedman
   - lydia-edwards
+history:
+  - date: 2021-03-03
+    description: Bill filed as H/1905/S.2030
+  - date: 2021-03-29
+    description: Referred to the Joint Committee on the Judiciary
+  - date: 2021-10-05
+    description: Hearing held
+  - date: 2022-02-03
+    description: Reporting date extended to 4/15/22
+  - date: 2022-04-19
+    description: Reporting date extended to 6/30/22
+  - date: 2022-10-27
+    description: Accompanied a study order, H.5173
+    type: death
+  - date: 2023-01-04
+    description: Bill re-filed as H.1795/S.1979 with an emergency preamble
+  - date: 2023-02-16
+    description: Referred to the Joint Committee on the Judiciary
 ---
