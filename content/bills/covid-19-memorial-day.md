@@ -7,6 +7,9 @@ house_no: H.3016
 house_link: https://malegislature.gov/Bills/193/H3016/
 committee: joint-state-administration-and-regulatory-oversight
 hidden: false
+text: "[Read more
+  here](https://docs.google.com/document/d/10L9Cl-9EQ_N8VJsA_dl9BqnWE6rs0Apn8a4\
+  xMS59yyo/edit)."
 orgs:
   - title: Marked by COVID MA
     img: /img/marked-by-covid-ma-logo.png
