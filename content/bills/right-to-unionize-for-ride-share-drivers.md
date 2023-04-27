@@ -44,10 +44,6 @@ co_sponsors:
   - sal-didomenico
   - brendan-crighton
 history:
-  - date: 2023-01-04
-    description: Bill re-filed as H.1099/S.666
-  - date: 2023-02-16
-    description: Referred to the Joint Committee on Financial Services
   - date: 2017-01-23
     description: Bill filed as S.1022
   - date: 2017-01-23
