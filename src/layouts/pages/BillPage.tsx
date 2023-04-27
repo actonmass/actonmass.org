@@ -50,7 +50,7 @@ export default function BillPage({ bill }: Props) {
               </div>
               <div className="billpg_hero_a">{bill.img && <HeroImage img={bill.img} alt="" />}</div>
               <ul className="billpg_hero_b">
-                {bill.summary.map((point) => (
+                {bill.summary?.map((point) => (
                   <li key={point}>
                     <h4 className="fRaleway fWhite fRegular">{point}</h4>
                   </li>

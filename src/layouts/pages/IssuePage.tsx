@@ -84,7 +84,7 @@ export default function IssuePage({ issue }: Props) {
                       </h4>
                       <div className="rect_underline"></div>
                       <ul className="issues_bills_bullets">
-                        {bill.summary.map((point) => (
+                        {bill.summary?.map((point) => (
                           <li key={point}>
                             <p className="fRoboto fRegular">{point}</p>
                           </li>
