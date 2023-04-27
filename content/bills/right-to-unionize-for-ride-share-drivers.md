@@ -13,7 +13,8 @@ committee: joint-financial-services
 issue: labor
 hidden: false
 summary:
-  - enables rideshare drivers, such as those working for Uber or Lyft to unionize
+  - enables rideshare drivers, such as those working for Uber or Lyft, to
+    unionize
 house_lead_sponsors:
   - frank-moran
 senate_lead_sponsors:
