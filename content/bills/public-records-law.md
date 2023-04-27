@@ -9,6 +9,9 @@ committee: joint-state-administration-and-regulatory-oversight
 issue: State House Reform
 img: /img/prl.jpg
 hidden: false
+summary:
+  - Subjects the legislature and governor's office to Public Records Law,
+    bringing MA up to standard with the majority of other states
 senate_lead_sponsors:
   - rebecca-rausch
 co_sponsors:
