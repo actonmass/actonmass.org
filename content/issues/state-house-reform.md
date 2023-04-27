@@ -1,5 +1,5 @@
 ---
-aom_id: State House Reform
+aom_id: State-House-Reform
 layout: issue
 title: State House Reform
 logo: landmark
