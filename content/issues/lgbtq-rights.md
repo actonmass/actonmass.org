@@ -42,6 +42,19 @@ page_img: /img/mercedes-mehling-7j7x8hlxqka-unsplash.jpg
 catchphrase: MA was the first state to recognize same-sex marriage, but only
   because of a court ruling. Our legislature is still moving too slowly on civil
   rights issues
+text: Massachusetts General Law Chapter 76 section 5 explicitly states “No
+  person shall be excluded from or discriminated against in admission to a
+  public school of any town, or in obtaining the advantages, privileges and
+  courses of study of such public school on account of race, color, sex, gender
+  identity, religion, national origin or sexual orientation.” Yet, even within
+  this state, we must acknowledge that there is an rise of anti-LGBTQ activity
+  of people targeting the civil rights of children, youth, and families,
+  including proposed book bans, protests at drag story hours, and bomb threats
+  against Boston Children's Hospital for providing gender-affirming care. By
+  ignoring these attacks, legislators are sending a poignant message to our
+  youth that – while those in power know of their suffering – there is little
+  care and attention to the necessary work to protect the health, safety, and
+  well-being of queer youth in this state.
 bills_to_support_title: LGBTQ+ Rights
 failures_block_title: MA has been slow to expand protections for LGBTQ+ people
 questions:
