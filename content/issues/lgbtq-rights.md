@@ -12,6 +12,27 @@ failures:
   - title: Sex Education
     text: Comprehensive, gender-affirming sex education is still not available to
       all K-12 public school students in the Commonwealth
+  - title: Mental Health
+    text: >-
+      LGBTQ youth report alarmingly high levels of depression, anxiety,
+      suicidality, and trauma, yet most who wanted mental healthcare did not
+      receive it. According to [analysis of the 2021 Massachusetts Youth Risk
+      Behavior
+      Survey](https://www.mass.gov/doc/mclgbtqy-annual-recommendations-fy-2024-0/download)
+      (MYRBS), LGBTQ youth in our state endure significant discrepancies in
+      mental health support.   
+
+
+      * LGBTQ youth are about **three times more likely to skip school** in the last 30 days because they felt they would be unsafe at school or on their way to or from school
+
+      * LGBTQ youth are about **twice as likely to be bullied in school**:8.7% of cis-het youth and 18.7% of LGBTQ youth reported being bullied. The gap widens when accounting for electronic bullying, which 25.9% of LGBTQ youth report experiencing, compared to 10.4% of cis-het youth 
+
+      * LGBTQ youth are about **three times more likely to report self-harm**, with 49.5% of LGBTQ youth, and 11.3% of cis-het youth reporting hurting themselves
+
+      * LGBTQ youth are nearly **four times more likely to consider or attempt suicide**.
+
+
+      This data demonstrates a mental health crisis among LGBTQ youth that the Commonwealth has yet to act upon.
 references:
   - key: 1
     title: "Cahill, Sean, Geffen, Sophia, Vance, Anise, Wang, Timothy, Barrera,
