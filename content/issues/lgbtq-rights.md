@@ -31,6 +31,9 @@ references:
       School-Based Sex Education” Planned Parenthood Advocacy Fund of
       Massachusetts, July 16, 2018"
     link: https://www.plannedparenthoodaction.org/planned-parenthood-advocacy-fund-massachusetts-inc/pressroom/poll-likely-massachusetts-voters-strongly-support-school-based-sex-education
+  - link: https://www.mass.gov/doc/mclgbtqy-annual-recommendations-fy-2024-0/download
+    key: "5"
+    title: Report & Recommendations from the MA Commission on LGBTQ Youth, FY24
 permalink: /issues/lgbtq-rights/
 aom_id: lgbtq-rights
 title: LGBTQ+ Rights
@@ -51,6 +54,24 @@ questions:
       based on science and research has shown to lower STD rates among young
       people, reduced risks of unwanted pregnancy, and reduced rates
       nonconsensual sex and sexual assault."
+  - title: "Is comprehensive sex education popular? "
+    text: "**Yes.** An overwhelming majority of likely Massachusetts voters want sex
+      education to be taught in schools and believe this education should cover
+      a range of topics about safer sex and healthy relationships, [according to
+      a 2018
+      study](https://www.plannedparenthoodaction.org/uploads/filer_public/6d/d3\
+      /6dd3bdd9-8a72-4395-97e9-8278116a84b3/polling_memo_sex_ed_july_2018.pdf)
+      by EMC Research. Overall, 76 percent of likely Massachusetts voters
+      believe middle school students have a right to receive sex education. This
+      support jumps even higher—to 91 percent—when respondents were asked about
+      high school students’ right to sex education. Not only do likely
+      Massachusetts voters support school-based sex education, they strongly
+      agree that sex education curricula should include a comprehensive range of
+      topics. A total of 93 percent of likely Massachusetts voters believe sex
+      education should teach young people how to care for their sexual health,
+      as well as how to build healthy, respectful relationships and understand
+      consent. This support is strong among voters of all political parties and
+      in every region of the state."
 learn_more:
   - title: Equality Massachusetts
     link: http://www.massequality.org/content/it%E2%80%99s-time-pass-healthy-youth-act%E2%80%94contact-your-rep-today-0
