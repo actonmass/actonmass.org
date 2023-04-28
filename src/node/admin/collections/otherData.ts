@@ -135,6 +135,230 @@ export default {
       ],
     },
     {
+      label: "The Campaign",
+      name: "campaign_page",
+      file: "content/other/campaign_page.yml",
+      fields: [
+        {
+          label: "The main message",
+          name: "campaign_message",
+          widget: "list",
+          collapsed: false,
+          fields: [
+            {
+              label: "Title",
+              name: "title",
+              widget: "string",
+            },
+            {
+              label: "Main text",
+              name: "main_text",
+              widget: "string",
+            },
+            {
+              label: "First main paragraph",
+              name: "first_main_paragraph",
+              widget: "string",
+            },
+            {
+              label: "Second main paragraph",
+              name: "second_main_paragraph",
+              widget: "string",
+            },
+            {
+              label: "Main Image",
+              name: "main_image",
+              widget: "image",
+              media_folder: "/static/img/",
+              public_folder: "/img/",
+            },
+            {
+              label: "First Link",
+              name: "first_href",
+              widget: "string",
+              hint: "JOIN THE CAMPAIGN.",
+            },
+            {
+              label: "Second Link",
+              name: "second_href",
+              widget: "string",
+              hint: "LEARN MORE ABOUT STATE HOUSE REFORM.",
+            },
+          ],
+        },
+        {
+          label: "The problem and solution",
+          name: "campaign_problem_and_solution",
+          widget: "list",
+          collapsed: false,
+          fields: [
+            {
+              label: "Problem Title",
+              name: "problem_title",
+              widget: "string",
+            },
+            {
+              label: "problem main text",
+              name: "problem_main_text",
+              widget: "string",
+            },
+            {
+              label: "First problem bullet point",
+              name: "first_problem",
+              widget: "string",
+            },
+            {
+              label: "Second problem bullet point",
+              name: "second_problem",
+              widget: "string",
+            },            {
+              label: "Third problem bullet point",
+              name: "third_problem",
+              widget: "string",
+            },
+            {
+              label: "Problem Link",
+              name: "problem_href",
+              widget: "string",
+              hint: "Learn more about the need for State House reform.",
+            },
+            {
+              label: "Solution Title",
+              name: "solution_title",
+              widget: "string",
+            },
+            {
+              label: "Solution main text",
+              name: "solution_main_text",
+              widget: "string",
+            },
+            {
+              label: "First solution bullet point",
+              name: "first_solution",
+              widget: "string",
+            },
+            {
+              label: "Second solution bullet point",
+              name: "second_solution",
+              widget: "string",
+            },            {
+              label: "Third solution bullet point",
+              name: "third_solution",
+              widget: "string",
+            },
+            {
+              label: "Problem and Solution Image",
+              name: "problem_and_solution_image",
+              widget: "image",
+              media_folder: "/static/img/",
+              public_folder: "/img/",
+            },
+          ],
+        },
+        {
+          label: "The priority message",
+          name: "campaign_priority_message",
+          widget: "list",
+          collapsed: false,
+          fields: [
+            {
+              label: "Priority Title",
+              name: "priority_title",
+              widget: "string",
+            },
+            {
+              label: "Priority first main paragraph",
+              name: "priority_first_main_paragraph",
+              widget: "string",
+            },
+            {
+              label: "Priority second main paragraph",
+              name: "priority_second_main_paragraph",
+              widget: "string",
+            },
+            {
+              label: "Priority Link",
+              name: "priority_href",
+              widget: "string",
+              hint: "Read more about why making public committee votes is so crucial",
+            },
+            {
+              label: "Priority third main paragraph",
+              name: "priority_third_main_paragraph",
+              widget: "string",
+            },
+            {
+              label: "Priority fourth main paragraph",
+              name: "priority_fourth_main_paragraph",
+              widget: "string",
+            },
+          ],
+        },
+        {
+          label: "The transparency message",
+          name: "campaign_transparency_message",
+          widget: "list",
+          collapsed: false,
+          fields: [
+            {
+              label: "Transparency Title",
+              name: "transparency_title",
+              widget: "string",
+            },
+            {
+              label: "Transparency Main text",
+              name: "transparency_main_text",
+              widget: "string",
+            },
+            {
+              label: "Transparency Image",
+              name: "transparency_image",
+              widget: "image",
+              media_folder: "/static/img/",
+              public_folder: "/img/",
+            },
+            {
+              label: "Transparency Link",
+              name: "transparency_href",
+              widget: "string",
+              hint: "Become a Transparency Captain",
+            },
+          ],
+        },
+        {
+          label: "The letter message",
+          name: "campaign_letter_message",
+          widget: "list",
+          collapsed: false,
+          fields: [
+            {
+              label: "Letter Title",
+              name: "letter_title",
+              widget: "string",
+            },
+            {
+              label: "Letter Main text",
+              name: "letter_main_text",
+              widget: "string",
+            },
+            {
+              label: "Letter Image",
+              name: "letter_image",
+              widget: "image",
+              media_folder: "/static/img/",
+              public_folder: "/img/",
+            },
+            {
+              label: "Letter Link",
+              name: "letter_href",
+              widget: "string",
+              hint: "Check out or LTE Toolkit",
+            },
+          ],
+        },
+      ],
+    },
+    {
       ...script,
       label: "Pledge scripts",
       name: "pledge_scripts",

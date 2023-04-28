@@ -1,140 +1,8 @@
 ---
 permalink: /the-campaign/
-title: The People's House
+title: The People's House Campaign
 layout: campaign
 ---
-<Section color="dark" width="1000">
-  <CenteredBlock>
-    # The People's House
-  </CenteredBlock>
-
-### A Campaign for Rules Reform by Act on Mass, Sunrise Boston, Mijente Boston Asamblea, Indivisible Mass Coalition, Our Climate & Mass-Care
-
-<TwoSidedBlock>
-
-  <CenteredBlock>
-    <YoutubeVideo src="https://www.youtube.com/embed/VW_Q_9BUWd8" />
-  </CenteredBlock>
-
-  <Block>
-
-The Massachusetts State House is one of the least transparent in the country. When decisions about
-what bills will pass are made in backroom deals with a small handful of people, that’s not
-democracy. Bay Staters deserve a government that centers their voices - not one that bends over
-backwards to keep them out.
-
-We’re fighting to change the broken, anti-democratic rules. Together, we can make the State House
-the People’s House. Will you join us?
-
-  <CenteredBlock>
-    <Button href="https://secure.everyaction.com/oITinRw4Ck-JRO3NetrRFA2">
-      Join the campaign!
-    </Button>
-  </CenteredBlock>
-
-  </Block>
-
-</TwoSidedBlock>
-
-</Section>
-
-<Section color="light-blue" width="1000">
-
-## Ballot question 6 for Public Committee Votes passed in all 20 districts across the state! See [full results here](https://actonmass.org/ballot-question/).
-
-</Section>
-
-<Section color="medium-blue" width="1000">
-
-## Join the Campaign
-
-Sign up here to join your District Team and get plugged into the organizing happening in your area.
-
-<CenteredBlock>
-  <CenteredImage img="/img/newcampaign2.png" alt="Protesters" width="500"/>
-  <ModalForm title="Join the Campaign" formId="https://secure.everyaction.com/oITinRw4Ck-JRO3NetrRFA2" />
-</CenteredBlock>
-
-</Section>
-
-<Section color="medium-blue" width="1000">
-
-## The Massachusetts State House is Broken
-
-<TwoSidedBlock>
-
-<Block>
-
-As Massachusetts residents, we know that our state house is not working for us. Year after year,
-policies that the **majority of people in this state support** and need in order to thrive are voted
-down without a public vote, or stalled indefinitely. This is true of vital legislation such as
-[immigrant protections](https://actonmass.org/issues/immigration/),
-[Medicare for All](https://actonmass.org/bills/medicare-for-all/),
-[increasing voting access](https://actonmass.org/issues/voting-rights/),
-[ending wage theft](https://actonmass.org/bills/stop-wage-theft/), and so much more.
-
-Why is it that, despite a Democratic supermajority, the State House fails to pass widely popular and
-desperately needed legislation?
-
-</Block>
-
-<CenteredImage img="/img/newcampaign1.jpg" alt="State House" width="500"/>
-
-</TwoSidedBlock>
-</Section>
-
-<Section color="light-blue" width="1000">
-
-## The Problem: The People Have Been Locked Out
-
-<TwoSidedBlock>
-<CenteredImage img="/img/campaign-locked-out.png" alt="" width="500"/>
-<Block>
-
-We elect representatives to represent our interests, but the truth is, most of the time **we don’t
-even know how they vote on our behalf.** In fact, Massachusetts has
-[one of the least transparent state houses in the country](https://ballotpedia.org/Open_States%27_Legislative_Data_Report_Card).
-For ordinary residents, this means that:
-
-* It's difficult to know what's going on in the State House, and advocate for the bills we care
-  about.
-* Our representatives are more accountable to corporate lobbyists and the Speaker of the House than
-  to their districts.
-
-  Democracy only works if everyday people are able to access and influence their government.
-
-</Block>
-</TwoSidedBlock>
-</Section>
-
-<Section color="medium-blue" width="1000">
-
-## The Solution: Build Constituent Power to Change the Broken Rules
-
-<TwoSidedBlock>
-
-<Block>
-
-**Constituents are united behind the need for a more transparent and accessible State House.** By
-activating this support to call for transparency, accountability and shared power in the State House
-rulebook, we can win a State House that truly works for all of us.
-
-Our strategy is to model the representative democracy we’d like to see in our state by empowering
-thousands of constituents to organize their communities, meet with their representatives, and lobby
-for changes to the House Rules. Together, we’re calling for three common sense reforms that will
-allow constituents to have a voice in the government that shapes our daily lives:
-
-</Block>
-
-<CenteredImage
-  img="/img/newcampaign3.png"
-  alt="3 rules we are suggesting: Make all committees vote public, ensure all bills are public 72 hours before a vote, reinstate term limits for the speaker"
-  width="800"
-/>
-
-</TwoSidedBlock>
-</Section>
-
 <Section color="light-blue" width="1000">
 
 ## History behind the campaign
@@ -166,9 +34,10 @@ our campaign for a healthy democracy.
 
 </Section>
 
-<LegislatorSearch theme="dark" mode="campaign" text="Did your Rep commit?" width="1000" hideSenator={true} />
+<LegislatorSearch theme="dark" mode="campaign" text="Where does your rep stand on public committee votes?" width="1000" hideSenator={true} />
 
-<Section color="medium-blue" width="1000">
+<!-- Leaving as a comment in case this will be used later -->
+<!-- <Section color="medium-blue" width="1000">
 
 ## Reps supporting the campaign
 
@@ -183,7 +52,7 @@ our campaign for a healthy democracy.
 
 <SupportingReps />
 
-</Section>
+</Section> -->
 
 <Section color="light-blue" width="1000">
 
@@ -239,9 +108,10 @@ our campaign for a healthy democracy.
 
 </Section>
 
-<Section color="light" width="1000">
+<!-- <Section color="light" width="1000"> -->
 
-## Media
+<!-- Leaving as a comment in case this will be used later -->
+<!-- ## Media
 
 * [“Should you get to see how Statehouse members vote? Boston City Council, U.S. Rep. Seth Moulton say yes"](https://www.berkshireeagle.com/news/state/should-you-get-to-see-how-statehouse-members-vote-boston-city-council-u-s-rep/article_157eb62a-ea59-11eb-b2b3-bb50974a5ca3.html)
   Danny Jin, Berkshire Eagle, 7/21/2021
@@ -274,6 +144,6 @@ our campaign for a healthy democracy.
 * ["Retiring rep, rep-elect share insights on State House opacity"](https://commonwealthmagazine.org/state-government/retiring-rep-rep-elect-share-insights-on-state-house-opacity/)
   Bruce Mohl, Commonwealth Magazine, 11/23/2020
 * ["Mass. is a participatory democracy in name only"](https://commonwealthmagazine.org/opinion/mass-is-a-participatory-democracy-in-name-only/)
-  Erin Leahy & Ryan Daulton, Commonwealth Magazine, 11/15/2020
+  Erin Leahy & Ryan Daulton, Commonwealth Magazine, 11/15/2020 -->
 
-</Section>
+<!-- </Section> -->
