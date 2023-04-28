@@ -75,5 +75,12 @@ questions:
 learn_more:
   - title: Equality Massachusetts
     link: http://www.massequality.org/content/it%E2%80%99s-time-pass-healthy-youth-act%E2%80%94contact-your-rep-today-0
+    img: /img/mass-equality-logo.png
+  - title: Planned Parenthood Advocacy Fund
+    img: /img/pplm.jpg
+    link: https://www.plannedparenthoodaction.org/planned-parenthood-advocacy-fund-massachusetts-inc/issues/healthy-youth-act
+  - title: Healthy Youth Act Coalition
+    link: https://www.healthyyouthact.org/
+    img: /img/healthy-youth-act-coalition-logo.png
 order: 60
 ---
