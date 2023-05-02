@@ -11,6 +11,7 @@ senate_no: S.1242
 senate_link: https://malegislature.gov/Bills/193/S1242/
 committee: joint-mental-health-substance-use-and-recovery
 issue: healthcare
+img: /img/overdose-prevention.jpg
 hidden: false
 summary:
   - Several communities across the state are interested in opening overdose
