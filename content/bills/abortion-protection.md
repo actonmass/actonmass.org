@@ -9,6 +9,7 @@ senate_no: S.1114
 senate_link: https://malegislature.gov/Bills/193/S1114/Cosponsor
 committee: joint-judiciary
 issue: healthcare
+img: /img/abortion-access.jpg
 hidden: false
 text: >-
   The [ROE Act](https://malegislature.gov/Bills/191/SD109) codifies the right to
