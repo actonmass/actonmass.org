@@ -10,6 +10,7 @@ house_link: https://malegislature.gov/Bills/193/H872
 senate_no: S.481
 senate_link: https://malegislature.gov/Bills/193/S481
 committee: joint-environment-natural-resources
+img: /img/climate-superfund.jpg
 hidden: false
 summary:
   - In partnership with 350 Mass and Mass Power Forward, Better Future Project
