@@ -11,6 +11,7 @@ senate_no: S.666
 senate_link: https://malegislature.gov/Bills/193/S666/
 committee: joint-financial-services
 issue: labor
+img: /img/uber-union.jpg
 hidden: false
 summary:
   - enables rideshare drivers, such as those working for Uber or Lyft, to
