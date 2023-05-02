@@ -46,4 +46,42 @@ orgs:
   - title: Better Future Project
     img: /img/better-future-project-logo.png
     link: https://www.betterfutureproject.org/
+house_lead_sponsors:
+  - steve-owens
+senate_lead_sponsors:
+  - james-eldridge
+co_sponsors:
+  - steve-owens
+  - lindsay-sabadosa
+  - david-leboeuf
+  - sam-montano
+  - mike-connolly
+  - jack-lewis
+  - jason-lewis
+  - david-rogers
+  - david-robertson
+  - james-arena-derosa
+  - frank-moran
+  - margaret-scarsdale
+  - carmine-gentile
+  - james-eldridge
+  - natalie-higgins
+  - simon-cataldo
+  - kay-khan
+  - tommy-vitolo
+  - rodney-elliott
+  - brian-murray
+  - erika-uyterhoeven
+  - william-driscoll
+  - vanna-howard
+  - joanne-comerford
+  - patricia-jehlen
+  - sal-didomenico
+  - michael-moore
+  - liz-miranda
+history:
+  - date: 2023-01-04
+    description: " Bill introduced as H.872/S.481"
+  - date: 2023-02-16
+    description: Referred to the Joint Committee on Environment and Natural Resources
 ---
