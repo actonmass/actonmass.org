@@ -16,6 +16,27 @@ hidden: false
 summary:
   - enables rideshare drivers, such as those working for Uber or Lyft, to
     unionize
+  - "reaffirms the status of drivers for Transportation Networked Companies
+    (TNC) and Delivery Networked Companies (DNC) as employees. "
+text: >-
+  This bill reaffirms the status of drivers for Transportation Networked
+  Companies (TNC) and Delivery Networked Companies (DNC), such as rideshare
+  drivers, as employees.It would determine minimum wage guarantees and benefit
+  entitlements and provide drivers with new rights and protections on the job,
+  including the ability to fight improper deactivation, failure to assign work,
+  and improper payments.
+
+
+  By misclassifying drivers as independent contractors, Uber and Lyft are denying their drivers basic protections under the Massachusetts Wage and Hour Laws. Many drivers are not even guaranteed the state minimum wage or overtime because the companies don’t pay them for time spent between rides or reimburse them for necessary business expenses such as fuel, vehicle maintenance, and insurance. 
+
+
+  The bill would grant the Department of Public Utilities broad oversight authority to set rates and establishes service quality metrics. 
+
+
+  Finally, it would provide drivers all the protections afforded to workers under existing state employment laws as well as the federal Fair Labor Standards Act (FLSA) and the National Labor Relations Act (NLRA). 
+
+
+  The Commonwealth has been engaged in ongoing litigation suing Uber and Lyft for misclassifying their employees as independent conotractors. The lawsuit has brought to light national implications, and Massachusetts can be a model for proper labor protections for drivers.
 house_lead_sponsors:
   - andres-vargas
 senate_lead_sponsors:
