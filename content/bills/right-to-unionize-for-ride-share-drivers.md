@@ -6,9 +6,9 @@ full_title: An Act establishing a transportation network driver bill of
 twitter_bill_name: An Act establishing a transportation network driver bill of
   rights/An Act establishing collective bargaining rights for TNC drivers
 house_no: H.1099
-house_link: https://malegislature.gov/Bills/193/H1099/
-senate_no: S.666
-senate_link: https://malegislature.gov/Bills/193/S666/
+house_link: https://malegislature.gov/Bills/193/H1158/
+senate_no: S.627
+senate_link: https://malegislature.gov/Bills/193/S627/
 committee: joint-financial-services
 issue: labor
 img: /img/uber-union.jpg
@@ -17,34 +17,52 @@ summary:
   - enables rideshare drivers, such as those working for Uber or Lyft, to
     unionize
 house_lead_sponsors:
-  - frank-moran
+  - andres-vargas
 senate_lead_sponsors:
-  - jason-lewis
+  - lydia-edwards
 co_sponsors:
-  - frank-moran
-  - carlos-gonzalez
-  - james-hawkins
-  - pavel-payano
-  - david-robertson
-  - estela-reyes
-  - christine-barber
+  - andres-vargas
+  - peter-capano
   - james-arena-derosa
-  - rodney-elliott
-  - tricia-farley-bouvier
-  - jason-lewis
-  - patricia-duffy
-  - sam-montano
-  - marc-pacheco
-  - john-cronin
-  - christopher-worrell
-  - john-keenan
   - lindsay-sabadosa
+  - steve-owens
+  - david-linsky
+  - christopher-hendricks
+  - william-galvin
+  - christopher-worrell
+  - james-hawkins
+  - patricia-duffy
+  - jessica-giannino
+  - jack-lewis
+  - thomas-stanley
+  - vanna-howard
+  - david-leboeuf
+  - tram-nguyen
+  - james-oday
+  - margaret-scarsdale
   - james-eldridge
-  - rebecca-rausch
-  - rita-mendes
+  - michelle-dubois
+  - ryan-hamilton
+  - priscila-sousa
+  - sam-montano
+  - kate-donaghue
+  - rodney-elliott
+  - russell-holmes
+  - manny-cruz
+  - kevin-honan
   - daniel-donahue
-  - liz-miranda
-  - joanne-comerford
+  - natalie-higgins
+  - carmine-gentile
+  - tommy-vitolo
+  - john-cronin
+  - rita-mendes
+  - smitty-pignatelli
+  - mike-connolly
+  - paul-mark
+  - michael-brady
+  - marc-pacheco
+  - john-keenan
+  - nick-collins
   - sal-didomenico
   - brendan-crighton
 history:
