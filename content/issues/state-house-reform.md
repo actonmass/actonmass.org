@@ -1,8 +1,9 @@
 ---
-aom_id: state-house-reform
+aom_id: sunlight-agenda
 layout: issue
-title: State House Reform
+title: Sunlight Agenda
 logo: landmark
+img: /img/newcampaign1.jpg
 catchphrase: Bay Staters deserve a government that centers their voices — not
   one that bends over backwards to keep them out
 bills_to_support_title: a more democratic State House
