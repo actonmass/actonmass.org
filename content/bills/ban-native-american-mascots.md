@@ -89,6 +89,7 @@ co_sponsors:
   - jason-lewis
   - john-keenan
   - sal-didomenico
+  - mike-connolly
 history:
   - date: 2019-01-01
     description: "Introduced "
