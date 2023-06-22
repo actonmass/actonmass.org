@@ -1,8 +1,9 @@
 ---
-aom_id: moratorium-on-high-stakes-testing
-title: Moratorium on High Stakes Testing
-full_title: An Act to place a moratorium on high stakes testing
-twitter_bill_name: Moratorium on High Stakes Testing
+aom_id: THRIVE-act
+title: The THRIVE Act
+full_title: An Act empowering students and schools to thrive
+twitter_bill_name: THRIVE Act
+article: The
 house_no: H.495
 house_link: https://malegislature.gov/Bills/193/H495
 senate_no: S.246
