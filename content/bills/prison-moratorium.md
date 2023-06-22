@@ -7,7 +7,7 @@ house_no: H.1795
 house_link: https://malegislature.gov/Bills/193/H1795
 senate_no: S.1979
 senate_link: https://malegislature.gov/Bills/193/S1979
-committee: joint-judiciary
+committee: joint-state-administration-and-regulatory-oversight
 issue: criminal-justice-reform
 img: /img/pexels-rodnae-productions-6064890.jpg
 hidden: false
