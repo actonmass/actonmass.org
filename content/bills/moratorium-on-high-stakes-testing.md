@@ -121,7 +121,6 @@ co_sponsors:
   - jacob-oliveira
   - marc-pacheco
   - daniel-donahue
-  - estela-reyes
   - david-robertson
   - liz-miranda
   - adam-gomez
@@ -135,6 +134,14 @@ co_sponsors:
   - paul-feeney
   - brendan-crighton
   - robyn-kennedy
+  - adrianne-ramons
+  - christopher-hendricks
+  - jennifer-armini
+  - dan-sena
+  - priscila-sousa
+  - daniel-cahill
+  - thomas-stanley
+  - kenneth-gordon
 history:
   - date: 2019-01-22
     description: Bill filed
