@@ -102,6 +102,10 @@ co_sponsors:
   - mike-connolly
   - jennifer-armini
   - christopher-hendricks
+  - ruth-balser
+  - john-mahoney
+  - james-arena-derosa
+  - michael-barrett
   - julian-cyr
   - jacob-oliveira
   - sal-didomenico
