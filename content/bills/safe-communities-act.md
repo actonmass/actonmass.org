@@ -1,12 +1,80 @@
 ---
+aom_id: safe-communities-act
+title: Safe Communities Act
 full_title: An Act to Protect the Civil Rights and Safety of all Massachusetts Residents
+twitter_bill_name: Safe Communities Act
+article: ""
 house_no: H.2288
+house_link: https://malegislature.gov/Bills/193/H2288
+senate_no: S.1510
 senate_link: https://malegislature.gov/Bills/193/S1510
+committee: joint-public-safety-and-homeland-security
+issue: immigration
 img: /img/bills/sca_hero_img.png
 summary:
   - Prevents local law enforcement from cooperating with ICE
   - Prohibits police from asking questions about immigration status
   - Protects people of color from racial profiling by police
+text: For nearly 20 years, the federal government has leveraged our public
+  safety resources to identify and deport immigrants. This bill would end state
+  and local involvement in civil immigration enforcement, increasing immigrant
+  access to court and police protection.
+orgs:
+  - title: MIRA
+    img: /img/mira_logo.svg
+    link: https://miracoalition.org/our-work/miras-state-legislative-priorities-2023-2024/
+house_lead_sponsors:
+  - ruth-balser
+senate_lead_sponsors:
+  - james-eldridge
+co_sponsors:
+  - ruth-balser
+  - manny-cruz
+  - mindy-domb
+  - jack-lewis
+  - james-eldridge
+  - lindsay-sabadosa
+  - frank-moran
+  - joanne-comerford
+  - james-hawkins
+  - sean-garballey
+  - steve-owens
+  - sal-didomenico
+  - david-leboeuf
+  - vanna-howard
+  - daniel-cahill
+  - andres-vargas
+  - dylan-fernandes
+  - rebecca-rausch
+  - adrian-madaro
+  - jason-lewis
+  - kay-khan
+  - carmine-gentile
+  - david-rogers
+  - erika-uyterhoeven
+  - james-arena-derosa
+  - tram-nguyen
+  - sam-montano
+  - carol-doherty
+  - simon-cataldo
+  - carlos-gonzalez
+  - natalie-higgins
+  - brandy-fluker-oakley
+  - tommy-vitolo
+  - lydia-edwards
+  - dan-sena
+  - liz-miranda
+  - jacob-oliveira
+  - michael-barrett
+  - julian-cyr
+  - adam-gomez
+  - patricia-jehlen
+  - thomas-stanley
+  - brendan-crighton
+  - russell-holmes
+  - david-linsky
+  - john-mahoney
+  - mike-connolly
 scripts:
   call_request: >-
     Please support the Safe Communities Act.
@@ -68,70 +136,6 @@ votes:
   - null
   - null
   - legislator: michael-rush
-aom_id: safe-communities-act
-title: Safe Communities Act
-twitter_bill_name: Safe Communities Act
-article: ""
-house_link: https://malegislature.gov/Bills/193/H2288
-senate_no: S.1510
-committee: joint-public-safety-and-homeland-security
-issue: immigration
-text: For nearly 20 years, the federal government has leveraged our public
-  safety resources to identify and deport immigrants. This bill would end state
-  and local involvement in civil immigration enforcement, increasing immigrant
-  access to court and police protection.
-orgs:
-  - title: MIRA
-    img: /img/mira_logo.svg
-    link: https://miracoalition.org/our-work/miras-state-legislative-priorities-2023-2024/
-house_lead_sponsors:
-  - ruth-balser
-senate_lead_sponsors:
-  - james-eldridge
-co_sponsors:
-  - ruth-balser
-  - manny-cruz
-  - mindy-domb
-  - jack-lewis
-  - james-eldridge
-  - lindsay-sabadosa
-  - frank-moran
-  - joanne-comerford
-  - james-hawkins
-  - sean-garballey
-  - steve-owens
-  - sal-didomenico
-  - david-leboeuf
-  - vanna-howard
-  - daniel-cahill
-  - andres-vargas
-  - dylan-fernandes
-  - rebecca-rausch
-  - adrian-madaro
-  - jason-lewis
-  - kay-khan
-  - carmine-gentile
-  - david-rogers
-  - erika-uyterhoeven
-  - james-arena-derosa
-  - tram-nguyen
-  - sam-montano
-  - carol-doherty
-  - simon-cataldo
-  - carlos-gonzalez
-  - natalie-higgins
-  - brandy-fluker-oakley
-  - tommy-vitolo
-  - lydia-edwards
-  - dan-sena
-  - liz-miranda
-  - jacob-oliveira
-  - michael-barrett
-  - julian-cyr
-  - adam-gomez
-  - patricia-jehlen
-  - thomas-stanley
-  - brendan-crighton
 scripts_com_vote:
   call_request: >
     Hi {leg.first_name} {leg.last_name},
