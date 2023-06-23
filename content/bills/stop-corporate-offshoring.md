@@ -51,6 +51,33 @@ co_sponsors:
   - julian-cyr
   - liz-miranda
   - patricia-jehlen
+  - marc-pacheco
+  - jacob-oliveira
+  - jessica-giannino
+  - paul-mark
+  - walter-timilty
+  - thomas-stanley
+  - mathew-muratore
+  - mark-montigny
+  - lydia-edwards
+  - adam-gomez
+  - joanne-comerford
+  - anne-gobi
+  - dan-sena
+  - kathleen-lanatra
+  - bruce-ayers
+  - paul-feeney
+  - john-cronin
+  - susan-moran
+  - michael-moore
+  - paul-frost
+  - john-velis
+  - nick-collins
+  - brendan-crighton
+  - joan-lovely
+  - john-keenan
+  - robyn-kennedy
+  - patrick-oconnor
 history:
   - description: "Bill filed for the first time "
     date: 2020-07-02
