@@ -62,6 +62,7 @@ co_sponsors:
   - jack-lewis
   - mike-connolly
   - christine-barber
+  - ruth-balser
   - sam-montano
   - rebecca-rausch
   - adrian-madaro
@@ -89,6 +90,8 @@ co_sponsors:
   - liz-miranda
   - james-eldridge
   - cindy-friedman
+  - lydia-edwards
+  - mary-keefe
 history:
   - date: 2021-03-03
     description: Bill filed as H/1905/S.2030
