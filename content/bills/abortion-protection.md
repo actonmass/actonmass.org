@@ -50,6 +50,12 @@ co_sponsors:
   - jack-lewis
   - manny-cruz
   - kevin-honan
+  - marjorie-decker
+  - tommy-vitolo
+  - michelle-ciccolo
+  - mike-connolly
+  - simon-cataldo
+  - james-arena-derosa
 history:
   - date: 2023-01-04
     description: Bill introduced as H.1599/S.1114
