@@ -34,34 +34,21 @@ house_lead_sponsors:
 senate_lead_sponsors: []
 co_sponsors:
   - mike-connolly
-  - nika-elugardo
-  - jack-lewis
-  - christopher-hendricks
   - lindsay-sabadosa
-  - liz-miranda
-  - david-rogers
-  - christine-barber
+  - sam-montano
+  - patricia-jehlen
+  - dan-sena
+  - david-leboeuf
+  - vanna-howard
   - steve-owens
   - erika-uyterhoeven
-  - vanna-howard
+  - christine-barber
   - james-eldridge
+  - lydia-edwards
   - sal-didomenico
-  - patricia-jehlen
-  - david-leboeuf
-  - marcos-devers
-  - james-hawkins
-  - jon-santiago
-  - dan-sena
-  - peter-capano
-  - tami-gouveia
-  - natalie-higgins
-  - kevin-honan
-  - carmine-gentile
+  - liz-miranda
   - adam-gomez
-  - russell-holmes
   - carlos-gonzalez
-  - brandy-fluker-oakley
-  - adam-hinds
   - adrian-madaro
 history:
   - date: 2020-01-14
