@@ -45,6 +45,8 @@ co_sponsors:
   - joanne-comerford
   - bud-williams
   - dylan-fernandes
+  - erika-uyterhoeven
+  - russell-holmes
   - brendan-crighton
   - cynthia-creem
   - sal-didomenico
