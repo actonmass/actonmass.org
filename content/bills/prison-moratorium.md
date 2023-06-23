@@ -89,7 +89,6 @@ co_sponsors:
   - liz-miranda
   - james-eldridge
   - cindy-friedman
-  - lydia-edwards
 history:
   - date: 2021-03-03
     description: Bill filed as H/1905/S.2030
