@@ -51,6 +51,7 @@ house_lead_sponsors:
 senate_lead_sponsors:
   - sal-didomenico
 co_sponsors:
+  - james-oday
   - mindy-domb
   - sean-garballey
   - jack-lewis
@@ -113,7 +114,6 @@ co_sponsors:
   - patricia-jehlen
   - vanna-howard
   - pavel-payano
-  - james-oday
   - john-keenan
   - michael-moore
   - cindy-friedman
