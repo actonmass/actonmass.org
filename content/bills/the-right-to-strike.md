@@ -74,7 +74,8 @@ co_sponsors:
   - carol-doherty
   - marc-pacheco
   - estela-reyes
-  - pavel-payano
+  - carmine-gentile
+  - patrick-oconnor
 history:
   - date: 2017-01-06
     description: Filed as H.2361
