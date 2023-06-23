@@ -55,6 +55,13 @@ co_sponsors:
   - erika-uyterhoeven
   - steve-owens
   - adam-gomez
+  - rodney-elliott
+  - vanna-howard
+  - james-arena-derosa
+  - mike-connolly
+  - michelle-ciccolo
+  - margaret-scarsdale
+  - edward-kennedy
 history:
   - description: Bill filed
     date: 2021-03-29
