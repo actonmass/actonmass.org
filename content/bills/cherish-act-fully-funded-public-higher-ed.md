@@ -130,6 +130,15 @@ co_sponsors:
   - adam-gomez
   - brendan-crighton
   - paul-feeney
+  - andres-vargas
+  - christopher-hendricks
+  - marjorie-decker
+  - dylan-fernandes
+  - jennifer-armini
+  - james-murphy
+  - joan-lovely
+  - edward-kennedy
+  - pavel-payano
 history:
   - date: 2019-01-16
     description: Bill filed
