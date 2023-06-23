@@ -103,6 +103,12 @@ co_sponsors:
   - tommy-vitolo
   - orlando-ramos
   - carlos-gonzalez
+  - marjorie-decker
+  - michael-brady
+  - shirley-arriaga
+  - rita-mendes
+  - brian-ashe
+  - david-linsky
   - adam-gomez
   - vanna-howard
   - jacob-oliveira
@@ -110,6 +116,9 @@ co_sponsors:
   - cynthia-creem
   - liz-miranda
   - lydia-edwards
+  - julian-cyr
+  - john-keenan
+  - rebecca-rausch
 history:
   - date: 2011-01-24
     description: Bill filed (as H338)
