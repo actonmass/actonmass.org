@@ -24,24 +24,15 @@ house_lead_sponsors:
 senate_lead_sponsors:
   - cynthia-creem
 co_sponsors:
-  - liz-miranda
-  - andres-vargas
   - lindsay-sabadosa
-  - mindy-domb
-  - tram-nguyen
-  - kay-khan
-  - michelle-ciccolo
-  - chynah-tyler
-  - nika-elugardo
-  - elizabeth-malia
   - bud-williams
-  - cynthia-creem
-  - joanne-comerford
-  - jack-lewis
-  - tami-gouveia
-  - marjorie-decker
-  - mary-keefe
-  - mike-connolly
+  - erika-uyterhoeven
+  - sam-montano
+  - michelle-ciccolo
+  - natalie-higgins
+  - kay-khan
+  - carmine-gentile
+  - liz-miranda
 history:
   - date: 2019-01-22
     description: Sent to the Judiciary Committee
