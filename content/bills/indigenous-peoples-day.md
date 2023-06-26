@@ -48,17 +48,21 @@ co_sponsors:
   - patricia-duffy
   - erika-uyterhoeven
   - jack-lewis
+  - james-oday
   - michelle-dubois
   - tricia-farley-bouvier
   - jennifer-armini
   - colleen-garry
   - james-eldridge
   - natalie-higgins
+  - kay-khan
   - mindy-domb
   - david-linsky
-  - kay-khan
   - kenneth-gordon
   - manny-cruz
+  - joan-meschino
+  - sally-kerans
+  - mike-connolly
   - joanne-comerford
   - michael-barrett
   - jason-lewis
