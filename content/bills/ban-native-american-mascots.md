@@ -83,6 +83,7 @@ co_sponsors:
   - thomas-stanley
   - tommy-vitolo
   - kay-khan
+  - josh-cutler
   - joanne-comerford
   - patricia-jehlen
   - michael-barrett
