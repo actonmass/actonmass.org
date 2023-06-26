@@ -60,6 +60,8 @@ co_sponsors:
   - lydia-edwards
   - john-keenan
   - paul-mark
+  - mike-connolly
+  - sal-didomenico
 history:
   - date: 2021-01-01
     description: Introduced as H.582
