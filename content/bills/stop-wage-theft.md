@@ -127,6 +127,7 @@ co_sponsors:
   - natalie-higgins
   - dan-sena
   - michael-kushmerek
+  - dylan-fernandes
   - kathleen-lanatra
   - jonathan-zlotnik
   - bruce-ayers
@@ -144,6 +145,30 @@ co_sponsors:
   - joan-lovely
   - david-rogers
   - jeffrey-turco
+  - john-mahoney
+  - patrick-oconnor
+  - marjorie-decker
+  - paul-schmid
+  - tricia-farley-bouvier
+  - mike-connolly
+  - orlando-ramos
+  - aaron-saunders
+  - jason-lewis
+  - paul-mark
+  - walter-timilty
+  - mark-montigny
+  - lydia-edwards
+  - adam-gomez
+  - joanne-comerford
+  - anne-gobi
+  - john-cronin
+  - susan-moran
+  - michael-moore
+  - john-velis
+  - nick-collins
+  - brendan-crighton
+  - john-keenan
+  - robyn-kennedy
 history:
   - date: 2015-01-20
     description: Filed as H.1748
