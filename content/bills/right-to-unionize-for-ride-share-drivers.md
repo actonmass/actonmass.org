@@ -79,6 +79,7 @@ co_sponsors:
   - rita-mendes
   - smitty-pignatelli
   - mike-connolly
+  - lydia-edwards
   - paul-mark
   - michael-brady
   - marc-pacheco
