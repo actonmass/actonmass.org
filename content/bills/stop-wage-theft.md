@@ -169,6 +169,7 @@ co_sponsors:
   - brendan-crighton
   - john-keenan
   - robyn-kennedy
+  - patrick-kearney
 history:
   - date: 2015-01-20
     description: Filed as H.1748
