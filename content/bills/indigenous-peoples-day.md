@@ -55,14 +55,15 @@ co_sponsors:
   - colleen-garry
   - james-eldridge
   - natalie-higgins
-  - kay-khan
-  - mindy-domb
   - david-linsky
+  - mindy-domb
+  - kay-khan
   - kenneth-gordon
   - manny-cruz
   - joan-meschino
   - sally-kerans
   - mike-connolly
+  - carol-doherty
   - joanne-comerford
   - michael-barrett
   - jason-lewis
