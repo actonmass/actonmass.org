@@ -25,6 +25,7 @@ co_sponsors:
   - rebecca-rausch
   - smitty-pignatelli
   - liz-miranda
+  - patricia-jehlen
 history:
   - date: 2023-01-04
     description: Bill filed as S.1963
