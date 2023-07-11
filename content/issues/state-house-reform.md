@@ -12,6 +12,7 @@ highlighted_bills:
   - sunlight-act
   - public-records
   - state-house-union
+  - open-meeting-law
 failures_block_title: Massachusetts ranks at or near the bottom in several
   transparency and good governance ratings
 order: 100
