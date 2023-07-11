@@ -78,6 +78,7 @@ co_sponsors:
   - john-keenan
   - robyn-kennedy
   - patrick-oconnor
+  - patrick-kearney
 history:
   - description: "Bill filed for the first time "
     date: 2020-07-02
