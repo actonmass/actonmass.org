@@ -2,7 +2,7 @@
 aom_id: sunlight-agenda
 layout: issue
 title: Sunlight Agenda
-logo: landmark
+logo: https://fontawesome.com/icons/landmark?f=classic&s=solid
 img: /img/newcampaign1.jpg
 page_img: /img/ma-state-house.jpg
 catchphrase: Bay Staters deserve a government that centers their voices — not
