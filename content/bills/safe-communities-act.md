@@ -63,6 +63,9 @@ co_sponsors:
   - tommy-vitolo
   - lydia-edwards
   - dan-sena
+  - russell-holmes
+  - david-linsky
+  - john-mahoney
   - liz-miranda
   - jacob-oliveira
   - michael-barrett
@@ -71,9 +74,6 @@ co_sponsors:
   - patricia-jehlen
   - thomas-stanley
   - brendan-crighton
-  - russell-holmes
-  - david-linsky
-  - john-mahoney
   - mike-connolly
 scripts:
   call_request: >-
