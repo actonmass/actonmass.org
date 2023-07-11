@@ -48,8 +48,6 @@ co_sponsors:
   - sal-didomenico
   - liz-miranda
   - adam-gomez
-  - carlos-gonzalez
-  - adrian-madaro
 history:
   - date: 2020-01-14
     description: Hearing in Housing Committee
