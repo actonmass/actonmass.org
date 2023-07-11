@@ -116,6 +116,13 @@ co_sponsors:
   - marc-pacheco
   - estela-reyes
   - david-robertson
+  - andres-vargas
+  - christopher-hendricks
+  - marjorie-decker
+  - dylan-fernandes
+  - jennifer-armini
+  - james-murphy
+  - joan-lovely
   - paul-mark
   - sal-didomenico
   - patricia-jehlen
@@ -130,13 +137,6 @@ co_sponsors:
   - adam-gomez
   - brendan-crighton
   - paul-feeney
-  - andres-vargas
-  - christopher-hendricks
-  - marjorie-decker
-  - dylan-fernandes
-  - jennifer-armini
-  - james-murphy
-  - joan-lovely
   - edward-kennedy
   - pavel-payano
 history:
