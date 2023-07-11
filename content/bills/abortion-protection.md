@@ -56,6 +56,8 @@ co_sponsors:
   - mike-connolly
   - simon-cataldo
   - james-arena-derosa
+  - sam-montano
+  - robyn-kennedy
 history:
   - date: 2023-01-04
     description: Bill introduced as H.1599/S.1114
