@@ -120,6 +120,12 @@ co_sponsors:
   - brendan-crighton
   - lydia-edwards
   - joan-lovely
+  - julian-cyr
+  - susan-moran
+  - dawne-shand
+  - carmine-gentile
+  - jacob-oliveira
+  - liz-miranda
 history:
   - date: 2011-01-05
     description: Bill filed as H.1063
