@@ -6,7 +6,7 @@ twitter_bill_name: An Act extending the public records law to the Governor and t
 senate_no: S.2064
 senate_link: https://malegislature.gov/Bills/193/S2064
 committee: joint-state-administration-and-regulatory-oversight
-issue: State House Reform
+issue: sunlight-agenda
 img: /img/prl.jpg
 hidden: false
 summary:
