@@ -6,7 +6,7 @@ twitter_bill_name: An Act relative to collective bargaining rights for legislati
 senate_no: S.2014
 senate_link: https://malegislature.gov/Bills/193/S2014/BillHistory
 committee: joint-state-administration-and-regulatory-oversight
-issue: State House Reform
+issue: sunlight-agenda
 img: /img/state-house-union.jpg
 hidden: false
 summary:
