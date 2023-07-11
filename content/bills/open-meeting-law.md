@@ -10,11 +10,10 @@ issue: sunlight-agenda
 img: /img/oml.jpg
 hidden: false
 summary:
-  - "* Under existing OML provisions, the public is permitted to attend meetings
-    of public bodies besides the Legislature, namely all 351 municipal
-    governments."
-  - "* This bill would extend that democratic privilege to constituents wishing
-    to monitor legislative proceedings of the State House."
+  - Under existing OML provisions, the public is permitted to attend meetings of
+    public bodies besides the Legislature, namely all 351 municipal governments.
+  - This bill would extend that democratic privilege to constituents wishing to
+    monitor legislative proceedings of the State House.
 text: Open Meeting Law (OML) is a policy already in place for the vast majority
   of governing bodies in the state. OML promotes transparency across a number of
   state-level meetings and to include the general public in the decision-making
