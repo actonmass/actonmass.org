@@ -4,6 +4,7 @@ layout: issue
 title: Sunlight Agenda
 logo: landmark
 img: /img/newcampaign1.jpg
+page_img: /img/ma-state-house.jpg
 catchphrase: Bay Staters deserve a government that centers their voices — not
   one that bends over backwards to keep them out
 bills_to_support_title: a more democratic State House
