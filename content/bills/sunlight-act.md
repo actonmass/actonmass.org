@@ -7,7 +7,7 @@ house_link: ""
 senate_no: S.1963
 senate_link: https://malegislature.gov/Bills/193/S1963/BillHistory
 committee: joint-rules
-issue: State House Reform
+issue: sunlight-agenda
 img: /img/sunshine-act.jpg
 hidden: false
 summary:
