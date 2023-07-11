@@ -62,6 +62,12 @@ co_sponsors:
   - michelle-ciccolo
   - margaret-scarsdale
   - edward-kennedy
+  - judith-garcia
+  - dan-sena
+  - natalie-blais
+  - rebecca-rausch
+  - patricia-jehlen
+  - sal-didomenico
 history:
   - description: Bill filed
     date: 2021-03-29
