@@ -23,10 +23,11 @@ house_lead_sponsors:
   - erika-uyterhoeven
 co_sponsors:
   - sam-montano
-timeline:
+history:
   - date: 2023-01-04
     description: " Bill introduced as H.3121"
-  - date: 2023-02-16
-    description: " Referred to the committee on State Administration and Regulatory
+  - description: " Referred to the committee on State Administration and Regulatory
       Oversight "
+    date: 2023-02-16
+timeline: []
 ---
