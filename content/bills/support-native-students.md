@@ -56,11 +56,13 @@ co_sponsors:
   - kay-khan
   - patrick-oconnor
   - kenneth-gordon
+  - rebecca-rausch
+  - mike-connolly
+  - tommy-vitolo
   - liz-miranda
   - lydia-edwards
   - john-keenan
   - paul-mark
-  - mike-connolly
   - sal-didomenico
 history:
   - date: 2021-01-01
