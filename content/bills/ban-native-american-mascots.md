@@ -84,13 +84,14 @@ co_sponsors:
   - tommy-vitolo
   - kay-khan
   - josh-cutler
+  - mike-connolly
+  - carol-doherty
   - joanne-comerford
   - patricia-jehlen
   - michael-barrett
   - jason-lewis
   - john-keenan
   - sal-didomenico
-  - mike-connolly
 history:
   - date: 2019-01-01
     description: "Introduced "
