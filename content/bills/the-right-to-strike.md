@@ -6,8 +6,8 @@ full_title: An Act uplifting families and securing the right to strike for
 twitter_bill_name: Right to Strike
 house_no: H.1845
 house_link: https://malegislature.gov/Bills/193/H1845
-senate_no: S.1317
-senate_link: https://malegislature.gov/Bills/193/S1317
+senate_no: S.1217
+senate_link: https://malegislature.gov/Bills/193/S1217
 committee: joint-labor-and-workforce-development
 issue: labor
 img: /img/photo1-dedham-education-association-cropped.jpg
