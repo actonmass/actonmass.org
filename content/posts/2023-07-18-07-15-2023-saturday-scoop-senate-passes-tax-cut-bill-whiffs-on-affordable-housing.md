@@ -1,7 +1,6 @@
 ---
 layout: post
-title: "07/15/2023 Saturday Scoop: Senate passes tax cut bill, whiffs on
-  affordable housing"
+title: "07/15/2023 Saturday Scoop: I’m here for the t-shirt"
 date: 2023-07-15T18:31:46.041Z
 redirect_from: []
 image: /img/saturday-scoop-logo.png
