@@ -31,7 +31,8 @@ Despite the tight turnaround, a handful of reps were able to file amendments. Na
 
 It bears repeating: at every turn, House leadership made it intentionally difficult to give input or dissent. For one, this bill didn’t have a hearing. In addition to giving less than 24 hour notice before the vote, the Speaker gave the reps just 17 minutes to read the new consolidated amendment before voting on it. We, as Massachusetts residents, each have one representative in the House tasked with representing our interests. How are they supposed to advocate for us in a piece of legislation they did not get to participate in crafting? Hell, that they hardly got to read?
 
-\
+
+
 **Bill highlight: The CHERISH Act**
 
 In 2014, the Higher Education Finance Commission released a [bombshell report](https://www.mass.edu/bhe/lib/documents/HigherEducationFinanceCommission-FinalReport10-2014.pdf?utm_medium=&emci=59f8c2da-a422-ee11-a9bb-00224832eb73&emdi=ea000000-0000-0000-0000-000000000001&ceid={{ContactsEmailID}}) showing that public higher education in Massachusetts has been critically underfunded, and is actively being *defunded*; funding had dropped an astounding 30% since 2001 even as enrollment was rising. This has resulted in higher tuition, staff layoffs, increased “adjunctification” of staff, and a backlog of needed building repairs. 
@@ -56,7 +57,7 @@ WE DID IT. We raised $5,249 from our end-of-fiscal year fundraiser throughout th
 
 **Submit Public Comment for the Healthy Youth Act**
 
-24 years after the last time our sex ed curriculum was updated, and 11 years since the [Healthy Youth Act](https://actonmass.org/bills/healthy-youth-act/?utm_medium=&emci=59f8c2da-a422-ee11-a9bb-00224832eb73&emdi=ea000000-0000-0000-0000-000000000001&ceid={{ContactsEmailID}}), a commonsense bill that would require sex ed to be medically accurate, consent-based, and LGBTQ+ inclusive was introduced, the Massachusetts Board of Elementary and Secondary Education (BESE) has introduced a new draft sex ed curriculum that is largely in line with its provisions.  BESE has now opened up a 60-day public comment period, which means **we have until Monday, August 28th to submit comments for improvements to the draft and advocate for approval of the new framework[](https://docs.google.com/document/d/1HrPo6triUMe7c4DOcG7RCDr02kD8bKpeTKurlcBj2V8/edit?utm_medium=&emci=59f8c2da-a422-ee11-a9bb-00224832eb73&emdi=ea000000-0000-0000-0000-000000000001&ceid={{ContactsEmailID}})**:
+24 years after the last time our sex ed curriculum was updated, and 11 years since the [Healthy Youth Act](https://actonmass.org/bills/healthy-youth-act/?utm_medium=&emci=59f8c2da-a422-ee11-a9bb-00224832eb73&emdi=ea000000-0000-0000-0000-000000000001&ceid={{ContactsEmailID}}), a commonsense bill that would require sex ed to be medically accurate, consent-based, and LGBTQ+ inclusive was introduced, the Massachusetts Board of Elementary and Secondary Education (BESE) has introduced a new draft sex ed curriculum that is largely in line with its provisions.  BESE has now opened up a 60-day public comment period, which means **we have until Monday, August 28th to submit comments for improvements to the draft and advocate for approval of the new framework**[](https://docs.google.com/document/d/1HrPo6triUMe7c4DOcG7RCDr02kD8bKpeTKurlcBj2V8/edit?utm_medium=&emci=59f8c2da-a422-ee11-a9bb-00224832eb73&emdi=ea000000-0000-0000-0000-000000000001&ceid={{ContactsEmailID}}):
 
 **[READ THE PUBLIC COMMENT TOOLKIT >>](https://docs.google.com/document/d/1HrPo6triUMe7c4DOcG7RCDr02kD8bKpeTKurlcBj2V8/edit?utm_medium=&emci=59f8c2da-a422-ee11-a9bb-00224832eb73&emdi=ea000000-0000-0000-0000-000000000001&ceid={{ContactsEmailID}})**
 
