@@ -26,28 +26,15 @@ summary:
     that require approval by local boards of health
 text: >-
   Overdose prevention centers, sometimes called safe consumption sites, are
-  evidence-\
-
-  based, legally sanctioned harm reduction facilities where people who use drugs can\
-
-  safely consume pre-obtained drugs under supervision of trained healthcare workers. In\
-
-  addition to preventing lethal overdoses, such facilities are designed to reduce the\
-
-  transmission of infectious diseases like HIV and hepatitis, and connect patients with\
-
-  social services, including drug treatment and recovery services.
+  evidence- based, legally sanctioned harm reduction facilities where people who
+  use drugs can safely consume pre-obtained drugs under supervision of trained
+  healthcare workers. In addition to preventing lethal overdoses, such
+  facilities are designed to reduce the transmission of infectious diseases like
+  HIV and hepatitis, and connect patients with social services, including drug
+  treatment and recovery services.
 
 
-  Leading medical and public health advocacy stakeholder groups strongly support the\
-
-  piloting of OPCs including the Massachusetts Medical Society and Massachusetts Public\
-
-  Health Association, major Massachusetts hospitals and providers such as Boston Medical\
-
-  Center, Mass General Brigham and Fenway Health, and non-profits RIZE Massachusetts\
-
-  Foundation and the Massachusetts Organization for Addiction Recovery (MOAR).
+  Leading medical and public health advocacy stakeholder groups strongly support the piloting of OPCs including the Massachusetts Medical Society and Massachusetts Public Health Association, major Massachusetts hospitals and providers such as Boston Medical Center, Mass General Brigham and Fenway Health, and nonprofits RIZE Massachusetts Foundation and the Massachusetts Organization for Addiction Recovery (MOAR). ([Source](https://www.aclum.org/sites/default/files/ma4opc_fact_sheet_03.23.23.pdf))
 orgs:
   - title: Massachusetts for Overdose Prevention Centers
     img: /img/massachusetts-for-overdose-prevention-centers-logopng.png
