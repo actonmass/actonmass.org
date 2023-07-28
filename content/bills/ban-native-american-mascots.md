@@ -92,6 +92,9 @@ co_sponsors:
   - jason-lewis
   - john-keenan
   - sal-didomenico
+  - chynah-tyler
+  - michelle-ciccolo
+  - estela-reyes
 history:
   - date: 2019-01-01
     description: "Introduced "
