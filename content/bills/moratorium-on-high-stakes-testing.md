@@ -142,6 +142,9 @@ co_sponsors:
   - daniel-cahill
   - thomas-stanley
   - kenneth-gordon
+  - paul-donato
+  - james-arciero
+  - john-keenan
 history:
   - date: 2019-01-22
     description: Bill filed
