@@ -51,6 +51,7 @@ co_sponsors:
   - cynthia-creem
   - sal-didomenico
   - liz-miranda
+  - thomas-stanley
 history:
   - date: 2021-03-29
     description: Referred to the Committee on the Judiciary
