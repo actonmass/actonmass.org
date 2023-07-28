@@ -1,4 +1,4 @@
-import collections from './collections';
+import collections from "./collections";
 
 export default function onCreateNode({ node, createContentDigest, getNode, actions }) {
   const { createNode } = actions;
@@ -14,12 +14,11 @@ export default function onCreateNode({ node, createContentDigest, getNode, actio
     const collection = collections[collectionPath];
     const fields = node.frontmatter;
     const baseName = fileName.replace(/\.md$/, "");
-    const aom_id = fields.aom_id ?? baseName;
     const rawItem = {
       ...fields,
-      id: aom_id,
+      id: fields.aom_id ?? baseName,
       fileName: baseName,
-      href: `/${collectionPath}/${aom_id}/`,
+      href: `/${collectionPath}/${baseName}/`,
       parent: node.id,
       children: [],
       internal: {
