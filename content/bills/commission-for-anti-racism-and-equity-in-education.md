@@ -68,6 +68,7 @@ co_sponsors:
   - rebecca-rausch
   - patricia-jehlen
   - sal-didomenico
+  - chynah-tyler
 history:
   - description: Bill filed
     date: 2021-03-29
