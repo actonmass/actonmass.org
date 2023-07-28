@@ -75,7 +75,8 @@ co_sponsors:
   - marc-pacheco
   - estela-reyes
   - carmine-gentile
-  - patrick-oconnor
+  - pavel-payano
+  - edward-kennedy
 history:
   - date: 2017-01-06
     description: Filed as H.2361
