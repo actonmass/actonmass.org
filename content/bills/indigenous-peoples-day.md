@@ -69,6 +69,8 @@ co_sponsors:
   - jason-lewis
   - patricia-jehlen
   - julian-cyr
+  - chynah-tyler
+  - michelle-ciccolo
 history:
   - date: 2019-01-01
     description: Introduced as H.3665
