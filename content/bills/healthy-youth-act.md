@@ -126,6 +126,7 @@ co_sponsors:
   - carmine-gentile
   - jacob-oliveira
   - liz-miranda
+  - judith-garcia
 history:
   - date: 2011-01-05
     description: Bill filed as H.1063
