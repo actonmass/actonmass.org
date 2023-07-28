@@ -58,7 +58,7 @@ co_sponsors:
   - sam-montano
   - christine-barber
   - josh-cutler
-  - frank-moran
+  - michael-moran
   - paul-donato
   - jessica-giannino
   - james-hawkins
@@ -139,6 +139,14 @@ co_sponsors:
   - paul-feeney
   - edward-kennedy
   - pavel-payano
+  - daniel-donahue
+  - antonio-cabral
+  - ruth-balser
+  - dan-sena
+  - shirley-arriaga
+  - michelle-dubois
+  - susan-moran
+  - john-keenan
 history:
   - date: 2019-01-16
     description: Bill filed
