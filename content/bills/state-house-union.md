@@ -25,6 +25,7 @@ co_sponsors:
   - paul-mark
   - patrick-oconnor
   - marc-pacheco
+  - patricia-jehlen
 history:
   - date: 2022-04-04
     description: Senate staffers announce their intent to organize a union
