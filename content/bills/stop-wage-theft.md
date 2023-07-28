@@ -170,6 +170,10 @@ co_sponsors:
   - john-keenan
   - robyn-kennedy
   - patrick-kearney
+  - sally-kerans
+  - jennifer-armini
+  - david-robertson
+  - priscila-sousa
 history:
   - date: 2015-01-20
     description: Filed as H.1748
