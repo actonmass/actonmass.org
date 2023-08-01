@@ -102,12 +102,13 @@ questions:
 learn_more:
   - title: "Mass Care: Massachusetts Campaign for Single Payer Healthcare"
     img: /img/masscare-copy.png
-    link: https://www.masscare.org/single-payer
+    link: https://www.masscare.org
   - title: Western Mass Medicare for All
     img: null
     link: https://www.wmmedicareforall.org/
   - title: Healthcare-Now! (National Medicare for All)
     img: null
     link: https://www.healthcare-now.org/
+  - title: MA Beyond ROE
 order: 50
 ---
