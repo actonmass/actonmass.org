@@ -101,7 +101,7 @@ questions:
       limits that insurance companies place on patients and providers."
 learn_more:
   - title: "Mass Care: Massachusetts Campaign for Single Payer Healthcare"
-    img: null
+    img: /img/masscare-copy.png
     link: https://www.masscare.org/single-payer
   - title: Western Mass Medicare for All
     img: null
