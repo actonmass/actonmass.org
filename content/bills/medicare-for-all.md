@@ -19,11 +19,9 @@ summary:
     single-payer system
 text: >-
   Massachusetts spends more on healthcare than nearly every state in the nation.
-  Under Medicare for All,\
-
-  money currently spent on profits, marketing, and administration would go to actual healthcare, and also\
-
-  provide $34 billion of savings in the first year alone.
+  Under Medicare for All, money currently spent on profits, marketing, and
+  administration would go to actual healthcare, and also provide $34 billion of
+  savings in the first year alone.
 
 
   * Employers and employees would no longer pay private companies for health care coverage
@@ -35,7 +33,7 @@ text: >-
   * The bottom 90% of Massachusetts residents would save compared to what they spend now; only the top 10% would pay more
 
 
-  **What’s covered under Medicare for All?**
+  What’s covered under Medicare for All?
 
 
   * All healthcare services would be covered, including hospital care, outpatient care, reproductive care including abortion, dental, and long-term care – from cradle to grave
