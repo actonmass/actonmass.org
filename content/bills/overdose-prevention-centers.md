@@ -14,16 +14,13 @@ issue: healthcare
 img: /img/overdose-prevention.jpg
 hidden: false
 summary:
-  - Several communities across the state are interested in opening overdose
-    prevention sites, including Somerville and other cities, but legislation is
-    needed to establish the legal and regulatory framework for them to operate
-    successfully.
-  - Municipalities need to know the state will not stand in the way of local,
-    evidence-based public health efforts. Providers need to know working at a
-    center will not jeopardize their professional license. Clients need to know
-    they will not face legal consequences for utilizing a site.
-  - This bill establishes a 10 year pilot program of overdose prevention centers
+  - Establishes a 10 year pilot program of overdose prevention centers (OPCs)
     that require approval by local boards of health
+  - Establishes legal and regulatory framework to operate OPCs successfully
+  - Makes legality of OPCs explicit, including civil and criminal protection for
+    municipalities, providers, and clients
+  - Requires data collection to prevent overdose deaths and guide public health
+    efforts
 text: >-
   Overdose prevention centers, sometimes called safe consumption sites, are
   evidence- based, legally sanctioned harm reduction facilities where people who
@@ -35,6 +32,9 @@ text: >-
 
 
   Leading medical and public health advocacy stakeholder groups strongly support the piloting of OPCs including the Massachusetts Medical Society and Massachusetts Public Health Association, major Massachusetts hospitals and providers such as Boston Medical Center, Mass General Brigham and Fenway Health, and nonprofits RIZE Massachusetts Foundation and the Massachusetts Organization for Addiction Recovery (MOAR). ([Source](https://www.aclum.org/sites/default/files/ma4opc_fact_sheet_03.23.23.pdf))
+
+
+  *Excerpted from ALCU Mass’s Massachusetts for Overdose Prevention Centers [Fact Sheet](https://www.aclum.org/sites/default/files/ma4opc_fact_sheet_03.23.23.pdf)*
 orgs:
   - title: Massachusetts for Overdose Prevention Centers
     img: /img/massachusetts-for-overdose-prevention-centers-logopng.png
