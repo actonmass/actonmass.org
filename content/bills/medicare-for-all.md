@@ -117,6 +117,9 @@ co_sponsors:
   - julian-cyr
   - john-keenan
   - rebecca-rausch
+  - sean-garballey
+  - brendan-crighton
+  - jason-lewis
 history:
   - date: 2011-01-24
     description: Bill filed (as H338)
