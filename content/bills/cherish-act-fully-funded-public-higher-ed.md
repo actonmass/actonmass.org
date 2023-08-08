@@ -147,6 +147,7 @@ co_sponsors:
   - michelle-dubois
   - susan-moran
   - john-keenan
+  - aaron-saunders
 history:
   - date: 2019-01-16
     description: Bill filed
