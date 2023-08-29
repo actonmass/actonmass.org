@@ -3,6 +3,8 @@ aom_id: state-house-union
 title: State House Union
 full_title: An Act relative to collective bargaining rights for legislative employees
 twitter_bill_name: An Act relative to collective bargaining rights for legislative employees
+house_no: H.3069
+house_link: https://malegislature.gov/Bills/193/H3069
 senate_no: S.2014
 senate_link: https://malegislature.gov/Bills/193/S2014/BillHistory
 committee: joint-state-administration-and-regulatory-oversight
@@ -26,6 +28,22 @@ co_sponsors:
   - patrick-oconnor
   - marc-pacheco
   - patricia-jehlen
+  - patrick-kearney
+  - sam-montano
+  - david-leboeuf
+  - alyson-sullivan
+  - erika-uyterhoeven
+  - rodney-elliott
+  - christopher-flanagan
+  - david-decoste
+  - james-hawkins
+  - james-arena-derosa
+  - margaret-scarsdale
+  - russell-holmes
+  - mike-connolly
+  - peter-capano
+  - carmine-gentile
+  - ryan-hamilton
 history:
   - date: 2022-04-04
     description: Senate staffers announce their intent to organize a union
