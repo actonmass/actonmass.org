@@ -11,8 +11,6 @@ Enter: The Sunlight Agenda!
 
 The Sunlight Agenda is Act on Mass' legislative agenda to restore democratic integrity on Beacon Hill. We have compiled a package of four bills put forward this session that would address our democracy crisis and improve transparency, accountability, and fairness on Beacon Hill. **[Email your legislator today](https://secure.everyaction.com/F_UoOFh69EeHYBOQfO4uew2) to ask them to cosponsor these good governance reforms.**
 
-
-
 ## [S. 1963:](https://malegislature.gov/Bills/193/S1963/) An Act to provide sunlight to state government
 
 **Sponsor: Senator James Eldridge**
@@ -31,12 +29,10 @@ Similarly to S. 1963, S. 2064 would bring Massachusetts in line with the majorit
 
 Open Meeting Law (OML) is a policy already in place for the vast majority of governing bodies in the state. Designed to promote transparency across a number of state-level meetings and to include the general public in the decision-making processes, the legislature has historically exempted itself from OML. Under existing OML provisions, the public is permitted to attend meetings of public bodies besides the Legislature, namely all 351 municipal governments. This bill would extend that democratic privilege to constituents wishing to monitor legislative proceedings of the State House. 
 
-## [S. 2014:](https://malegislature.gov/Bills/193/S2014/) An Act relative to collective bargaining rights for legislative employees
+## [S. 2014](https://malegislature.gov/Bills/193/S2014)/[H. 3069](https://malegislature.gov/Bills/193/H3069): An Act relative to collective bargaining rights for legislative employees
 
 **Sponsor: Senator John Keenan**
 
 Last year, Senate staffers announced they had successfully formed a union and asked Senate President Spilka to voluntarily recognize them. Months later, the Senate refused to recognize the union, claiming that the hurdles to formal recognition are too high. With [reports](https://www.bostonglobe.com/2022/03/03/metro/state-senate-hires-pay-consultant-wake-report-that-says-staff-pay-breaks-with-best-practice/?et_rid=1767637600&s_campaign=todaysheadlines:newsletter) of [underpayment](https://www.wbur.org/news/2021/05/25/massachusetts-legislative-staff-pay-survey) and unequal payment, long hours, racial and gender discrimination, lack of access to health care, and more, State House staff deserve the right to collectively bargain for better work conditions. We owe it to those who keep the State House running to be paid and treated fairly.
-
-
 
 ### **[Ask your legislators to cosponsor the Sunlight Agenda here >>](https://secure.everyaction.com/F_UoOFh69EeHYBOQfO4uew2)**
