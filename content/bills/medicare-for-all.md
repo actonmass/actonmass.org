@@ -120,6 +120,9 @@ co_sponsors:
   - sean-garballey
   - brendan-crighton
   - jason-lewis
+  - tram-nguyen
+  - michael-moran
+  - jennifer-armini
 history:
   - date: 2011-01-24
     description: Bill filed (as H338)
