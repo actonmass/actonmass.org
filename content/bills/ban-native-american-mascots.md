@@ -95,6 +95,9 @@ co_sponsors:
   - chynah-tyler
   - michelle-ciccolo
   - estela-reyes
+  - priscila-sousa
+  - dan-sena
+  - christopher-worrell
 history:
   - date: 2019-01-01
     description: "Introduced "
