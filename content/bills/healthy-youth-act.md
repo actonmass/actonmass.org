@@ -127,6 +127,8 @@ co_sponsors:
   - jacob-oliveira
   - liz-miranda
   - judith-garcia
+  - michael-moran
+  - dan-sena
 history:
   - date: 2011-01-05
     description: Bill filed as H.1063
