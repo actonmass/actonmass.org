@@ -26,6 +26,7 @@ co_sponsors:
   - smitty-pignatelli
   - liz-miranda
   - patricia-jehlen
+  - lindsay-sabadosa
 history:
   - date: 2023-01-04
     description: Bill filed as S.1963
