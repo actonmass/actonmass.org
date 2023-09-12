@@ -174,6 +174,7 @@ co_sponsors:
   - jennifer-armini
   - david-robertson
   - priscila-sousa
+  - patricia-jehlen
 history:
   - date: 2015-01-20
     description: Filed as H.1748
