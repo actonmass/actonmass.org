@@ -52,6 +52,8 @@ co_sponsors:
   - sal-didomenico
   - liz-miranda
   - thomas-stanley
+  - tommy-vitolo
+  - john-keenan
 history:
   - date: 2021-03-29
     description: Referred to the Committee on the Judiciary
