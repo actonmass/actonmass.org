@@ -146,6 +146,7 @@ co_sponsors:
   - james-arciero
   - john-keenan
   - sean-garballey
+  - michelle-dubois
 history:
   - date: 2019-01-22
     description: Bill filed
