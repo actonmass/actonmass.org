@@ -78,6 +78,12 @@ co_sponsors:
   - sam-montano
   - robyn-kennedy
   - susan-moran
+  - dylan-fernandes
+  - patricia-duffy
+  - thomas-stanley
+  - christine-barber
+  - michael-moran
+  - brendan-crighton
 history:
   - date: 2023-01-04
     description: Bill introduced as H.1599/S.1114
