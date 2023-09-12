@@ -71,6 +71,7 @@ co_sponsors:
   - julian-cyr
   - chynah-tyler
   - michelle-ciccolo
+  - dan-sena
 history:
   - date: 2019-01-01
     description: Introduced as H.3665
