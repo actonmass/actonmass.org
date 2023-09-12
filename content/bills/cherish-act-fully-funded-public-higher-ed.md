@@ -148,6 +148,7 @@ co_sponsors:
   - susan-moran
   - john-keenan
   - aaron-saunders
+  - michael-moore
 history:
   - date: 2019-01-16
     description: Bill filed
