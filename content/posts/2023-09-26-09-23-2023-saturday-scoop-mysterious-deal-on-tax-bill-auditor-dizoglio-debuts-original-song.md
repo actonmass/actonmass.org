@@ -3,6 +3,7 @@ layout: post
 title: "09/23/2023 Saturday Scoop: Mysterious deal on tax bill + Auditor
   DiZoglio debuts original song"
 date: 2023-09-26T14:23:58.963Z
+image: /img/saturday-scoop-logo.png
 ---
 Friend,
 
