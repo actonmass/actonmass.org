@@ -3,6 +3,7 @@ layout: post
 title: "09/16/2023: Saturday Scoop: Sunlight Agenda hearing next week, MA
   legislature ranked least effective"
 date: 2023-09-26T14:28:20.283Z
+image: /img/saturday-scoop-logo.png
 ---
 Did you miss us, friend?
 
