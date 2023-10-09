@@ -2,7 +2,7 @@
 aom_id: joint-education
 title: Joint Committee on Education
 chamber: joint
-house_chair: alice-peisch
+house_chair: denise-garlick
 house_vice_chair: steven-ultrino
 senate_chair: jason-lewis
 senate_vice_chair: sal-didomenico
