@@ -58,6 +58,15 @@ references:
     title: Larkin, Max, “What You Need To Know About The Failed Education Funding
       Bills,” WBUR, August 03, 2018
     link: https://www.wbur.org/edify/2018/08/03/fact-check-education-funding
+  - link: https://massteacher.org/current-initiatives/legislative-action
+    key: "10"
+    title: Massachusetts Teachers Association Legislative Agenda
+  - key: "11"
+    link: "https://www.bostonglobe.com/2020/12/11/opinion/massachusetts-public-scho\
+      ols-are-highly-segregated-its-time-we-treated-that-like-crisis-it-is/?eve\
+      nt=event12 "
+    title: Massachusetts’ public schools are highly segregated. It’s time we treated
+      that like the crisis it is
 permalink: /issues/education/
 aom_id: education
 title: Education
@@ -65,7 +74,18 @@ subtitle: Real investment in quality public education for all
 page_img: /img/neonbrand-zfso6bnzjtw-unsplash.jpg
 catchphrase: We must equitably fund our public schools so that a child's zip
   code doesn't determine their right to a great public education.
-text: ""
+text: Problems within the Massachusetts education system are continuously
+  harming children’s ability to learn. There are mass disparities in the
+  educational outcomes of different socioeconomic groups throughout the state,
+  as students in low-income areas don’t have access to the high-quality
+  education other districts are receiving. The Massachusetts Standardized
+  Testing System better known as the ‘MCAS’ is a form of inadequate testing that
+  doesn’t account for the disparities and educational inequities communities
+  face. Communities that are facing these inequities are receiving significantly
+  less funding than those that hold higher socioeconomic status and higher MCAS
+  score averages. The Legislature has the power to make investments in public
+  pre-K-12 and higher education through the Cherish Act and has the authority to
+  end the high-stakes testing regime through the Thrive Act.
 failures_block_title: Massachusetts is failing to fund public education
 questions:
   - title: Don't we already spend a lot of money on public education?
@@ -90,6 +110,26 @@ questions:
 
 
       The Foundation Budget Review Commission (“FBRC”) has already researched what a reasonable budget would be for a public school. The FBRC was a bipartisan group; their findings should not have been controversial. The problem is not a lack of research; the problem is a lack of political will on Beacon Hill to fund education.
+  - title: Why are Massachusetts PreK-12 schools still facing segregation and
+      disparities?
+    text: Due to Massachusetts’s long history of deep-rooted racial injustice and
+      inequality, the state’s public PreK-12 schools have been facing
+      socioeconomic and racial segregation for a very long time. Most commonly
+      through socioeconomic disparities, schools in districts that have higher
+      property value and taxes receive the highest levels of education funding,
+      resources, opportunities, and test scores. While those in lower-income
+      communities receive fewer resources to provide quality education and
+      continue widening the achievement gap within the state.
+  - title: Why should we get rid of the MCAS graduation requirement?
+    text: The MCAS graduation requirement is very harmful to students in numerous
+      ways. The test is not equitable for all students as those who are in
+      underfunded schools and lower-income districts don’t have the same
+      resources and preparation opportunities as those in higher-income
+      communities and schools. The Massachusetts Teachers Association has long
+      supported the elimination of the requirement as they believe that forcing
+      students to pass the test reduces educational learning and limits what
+      subjects teachers can teach while reducing creativity and producing stress
+      within the classroom.
 learn_more:
   - title: Massachusetts Education Justice Alliance (MEJA)
     img: /img/orgs/MEJA.png
@@ -101,5 +141,5 @@ learn_more:
       Help All Our Children Thrive (Massachusetts Budget and Policy Center)"
     img: /img/massbudget.png
     link: http://www.massbudget.org/report_window.php?loc=Building-an-Education-System-that-Works-for-Everyone.html
-order: 10
+order: 11
 ---
