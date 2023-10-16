@@ -56,16 +56,26 @@ scripts:
     cosponsorship of this important bill.
 
 
+
+
     This legislature has been a leader in labor rights and protections, and the vast majority of members openly support workers, equal pay, and a living wage. However, that commitment to labor rights seems to disappear for the workers within these walls. It is high time the Massachusetts legislature afforded the same rights to their own staff that they have fought for in the private sector. 
+
+
 
 
     The Massachusetts State House Employee Union is asking for basic, commonsense measures that could be achieved through a union contract: a livable starting annual salary with clear and comprehensive vacation, personal, sick, and compensatory time, minimal annual cost-of-living raises, and protections from mental and sexual abuse, and unsafe workplace conditions to name a few. It should deeply concern everyone in the Commonwealth that these basic needs are not currently being met.
 
 
-     A 2021 survey of over 200 legislative staffers found that 90% of staff feel they are not paid fairly for their work. 89% live with family or rely on other income to be able to afford to work in the Legislature. 68% report feeling a high level of anxiety about their finances, and nearly one in five staff report being food insecure during their employment in the MA State House. While this treatment is unacceptable for any workplace, it is especially shameful for our government — the very body that sets the standards for workplaces in the Commonwealth.
+
+
+    A 2021 survey of over 200 legislative staffers found that 90% of staff feel they are not paid fairly for their work. 89% live with family or rely on other income to be able to afford to work in the Legislature. 68% report feeling a high level of anxiety about their finances, and nearly one in five staff report being food insecure during their employment in the MA State House. While this treatment is unacceptable for any workplace, it is especially shameful for our government — the very body that sets the standards for workplaces in the Commonwealth.
+
+
 
 
     Current state law does not explicitly allow legislative staff to collectively bargain. S.2014/H.3069 would eliminate any doubt by explicitly affirming the right of State House staffers to form a union. Those who keep the State House running must be paid and treated fairly. 
+
+
 
 
     For these reasons, I strongly encourage you to sign on to this bill as a cosponsor. Thank you for your time and consideration.
@@ -79,16 +89,26 @@ scripts:
       cosponsorship of this important bill.
 
 
+
+
       This legislature has been a leader in labor rights and protections, and the vast majority of members openly support workers, equal pay, and a living wage. However, that commitment to labor rights seems to disappear for the workers within these walls. It is high time the Massachusetts legislature afforded the same rights to their own staff that they have fought for in the private sector. 
+
+
 
 
       The Massachusetts State House Employee Union is asking for basic, commonsense measures that could be achieved through a union contract: a livable starting annual salary with clear and comprehensive vacation, personal, sick, and compensatory time, minimal annual cost-of-living raises, and protections from mental and sexual abuse, and unsafe workplace conditions to name a few. It should deeply concern everyone in the Commonwealth that these basic needs are not currently being met.
 
 
-       A 2021 survey of over 200 legislative staffers found that 90% of staff feel they are not paid fairly for their work. 89% live with family or rely on other income to be able to afford to work in the Legislature. 68% report feeling a high level of anxiety about their finances, and nearly one in five staff report being food insecure during their employment in the MA State House. While this treatment is unacceptable for any workplace, it is especially shameful for our government — the very body that sets the standards for workplaces in the Commonwealth.
+
+
+      A 2021 survey of over 200 legislative staffers found that 90% of staff feel they are not paid fairly for their work. 89% live with family or rely on other income to be able to afford to work in the Legislature. 68% report feeling a high level of anxiety about their finances, and nearly one in five staff report being food insecure during their employment in the MA State House. While this treatment is unacceptable for any workplace, it is especially shameful for our government — the very body that sets the standards for workplaces in the Commonwealth.
+
+
 
 
       Current state law does not explicitly allow legislative staff to collectively bargain. S.2014/H.3069 would eliminate any doubt by explicitly affirming the right of State House staffers to form a union. Those who keep the State House running must be paid and treated fairly. 
+
+
 
 
       For these reasons, I strongly encourage you to sign on to this bill as a cosponsor. Thank you for your time and consideration.
@@ -105,16 +125,26 @@ scripts_com_vote:
     collective bargaining rights for legislative employees.
 
 
+
+
     This legislature has been a leader in labor rights and protections, and the vast majority of members openly support workers, equal pay, and a living wage. However, that commitment to labor rights seems to disappear for the workers within these walls. It is high time the Massachusetts legislature afforded the same rights to their own staff that they have fought for in the private sector. 
+
+
 
 
     The Massachusetts State House Employee Union is asking for basic, commonsense measures that could be achieved through a union contract: a livable starting annual salary with clear and comprehensive vacation, personal, sick, and compensatory time, minimal annual cost-of-living raises, and protections from mental and sexual abuse, and unsafe workplace conditions to name a few. It should deeply concern everyone in the Commonwealth that these basic needs are not currently being met.
 
 
+
+
     A 2021 survey of over 200 legislative staffers found that 90% of staff feel they are not paid fairly for their work. 89% live with family or rely on other income to be able to afford to work in the Legislature. 68% report feeling a high level of anxiety about their finances, and nearly one in five staff report being food insecure during their employment in the MA State House. While this treatment is unacceptable for any workplace, it is especially shameful for our government — the very body that sets the standards for workplaces in the Commonwealth.
 
 
+
+
     Current state law does not explicitly allow legislative staff to collectively bargain. S.2014/H.3069 would eliminate any doubt by explicitly affirming the right of State House staffers to form a union. Those who keep the State House running must be paid and treated fairly. 
+
+
 
 
     For these reasons, I strongly encourage the Committee to take favorable action on this bill. Thank you for your time and consideration.
