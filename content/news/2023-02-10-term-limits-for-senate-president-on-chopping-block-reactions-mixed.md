@@ -10,5 +10,5 @@ extract: >-
   government transparency group.
 
 
-  “To see the Senate backslide on this critical issue of democracy and power-sharing is deeply troubling. The senate president has nearly unfettered control over the passage of legislation in that chamber. Allowing someone to hold this position indefinitely enables them to further concentrate that power and pass the torch to a hand-picked successor,” Erin Leahy, executive director of anti-corruption group [Act on Mass](https://actonmass.org/), told the Herald.
+  “To see the Senate backslide on this critical issue of democracy and power-sharing is deeply troubling. The senate president has nearly unfettered control over the passage of legislation in that chamber. Allowing someone to hold this position indefinitely enables them to further concentrate that power and pass the torch to a hand-picked successor,” Erin Leahy, executive director of anti-corruption group Act on Mass, told the Herald.
 ---
