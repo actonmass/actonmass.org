@@ -10,8 +10,5 @@ extract: "**Massachusetts ranked among the bottom 10 state legislatures** for
   percent of bills filed at the State House eventually became law — the fourth
   lowest rate nationally behind Minnesota, New Jersey and Missouri. Bay State
   senators and representatives this year introduced 6,691 bills — 80 percent
-  fewer than in the last session, [a recent study
-  found](https://fiscalnote-marketing.s3.amazonaws.com/FN091422-Most_Effective_\
-  States_2022_v3.pdf?mkt_tok=MTA5LUlMTC05ODkAAAGNSm5H8pboITNwjXVv8qs4f2XKjuxbQk\
-  MlJ6a2xzaWSb7mklt1hic-HUBNoaigEk3brroDRxJrImuZblcWJkPyW35LMNVy8UV8gnxgwoM)."
+  fewer than in the last session, a recent study found."
 ---
