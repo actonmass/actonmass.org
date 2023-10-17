@@ -13,10 +13,6 @@ Act on Mass
 
 Dorchester Center, MA 02124
 
-
-
-
-
 Donations made by cash or check can be mailed to:
 
 Act on Mass c/o Ryan Daulton
@@ -24,3 +20,7 @@ Act on Mass c/o Ryan Daulton
 34 Springfield St, Apt. 1
 
 Somerville, MA 02143
+
+
+
+Checks can be made out to: Act on Mass, Inc.
