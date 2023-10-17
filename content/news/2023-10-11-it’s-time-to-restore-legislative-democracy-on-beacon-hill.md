@@ -10,8 +10,6 @@ extract: " The usual State House acoustic is the sound of silence — and that
   the night — as legislators debated, the marble halls are now empty. These
   days, virtually everything by way of policy comes from the top down. Power is
   essentially vested in four offices: that of the Senate president, House
-  speaker, and the two [Ways and Means
-  Committee ](https://ballotpedia.org/Ways_and_Means_Committee,_Massachusetts_H\
-  ouse_of_Representatives)chairmen or chairwomen, who essentially function as
-  the political and policy enforcers in each chamber."
+  speaker, and the two Ways and Means Committee chairmen or chairwomen, who
+  essentially function as the political and policy enforcers in each chamber."
 ---
