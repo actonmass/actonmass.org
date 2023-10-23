@@ -5,7 +5,7 @@ chamber: joint
 house_chair: josh-cutler
 house_vice_chair: kip-diggs
 senate_chair: patricia-jehlen
-senate_vice_chair: jack-lewis
+senate_vice_chair: jason-lewis
 house_members:
   - aaron-saunders
   - colleen-garry
