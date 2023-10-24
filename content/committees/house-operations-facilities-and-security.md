@@ -14,5 +14,6 @@ house_members:
   - rodney-elliott
   - marcus-vaughn
   - david-decoste
+  - william-macgregor
 malegislature_url: https://malegislature.gov/Committees/Detail/H53
 ---
