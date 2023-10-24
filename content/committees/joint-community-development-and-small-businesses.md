@@ -16,6 +16,7 @@ house_members:
   - ted-philips
   - marcus-vaughn
   - mathew-muratore
+  - william-macgregor
 senate_members:
   - anne-gobi
   - adam-gomez
