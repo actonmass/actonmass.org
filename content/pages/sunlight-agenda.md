@@ -44,3 +44,42 @@ Last year, Senate staffers announced they had successfully formed a union and as
 ![](/img/s.2014_h.3069_-an-act-relative-to-collective-bargaining-rights-for-legislative-employees.png)
 
 ### **[Ask your legislators to cosponsor the Sunlight Agenda here >>](https://secure.everyaction.com/F_UoOFh69EeHYBOQfO4uew2)**
+
+
+
+</Section> -->
+
+<Section color="light-blue" width="1000">
+
+## Endorsements
+
+### Organizations
+
+<div className="logo-list">
+
+  <img src="/img/campaign-endorsements/mass-peace-action.png" alt="Mass Peace Action" />
+  <img src="/img/campaign-endorsements/MassCare.png" alt="MassCare" />
+  <img src="/img/campaign-endorsements/NOFA.png" alt="NOFA" />
+  <img src="/img/campaign-endorsements/Indivisible-Acton-Area.png" alt="Indivisible Acton Area" />
+  <img src="/img/campaign-endorsements/FCCPR.jpg" alt="FCCPR" />
+  <img src="/img/campaign-endorsements/end-workplace-abuse.png" alt="End Workplace Abuse" /> 
+
+
+</div>
+
+### Democratic Town Committees
+
+<div className="logo-list">
+
+  <CenteredBlock>Acton Democratic Town Committee</CenteredBlock>
+  <CenteredBlock>Martha's Vineyard Democratic Town Committee</CenteredBlock>
+  <CenteredBlock>Braintree Democratic Town Committee</CenteredBlock>
+
+  <CenteredBlock>Holden Democratic Town Committee</CenteredBlock>
+
+
+</div>
+
+</Section>
+
+<!-- <Section color="light" width="1000"> -->
