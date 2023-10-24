@@ -15,5 +15,6 @@ house_members:
   - adam-gomez
   - todd-smola
   - peter-durant
+  - william-macgregor
 malegislature_url: https://malegislature.gov/Committees/Detail/H54
 ---
