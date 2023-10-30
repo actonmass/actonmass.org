@@ -147,4 +147,22 @@ references:
   - key: "1"
     title: New England Board of Higher Education
     link: https://nebhe.org/journal/native-tribal-scholars-building-an-academic-community-for-massachusetts/
+  - key: "2"
+    title: Tribal Government of the Nipmuc Nation
+    link: https://www.nipmucnation.org/
+  - key: "3"
+    title: NPR
+    link: https://www.npr.org/2021/10/11/1044823626/indigenous-peoples-day-native-americans-columbus
+  - key: "4"
+    title: "American Psychological Association "
+    link: https://www.apa.org/pi/oema/resources/indian-mascots#:~:text=According%20to%20Stephanie%20Fryberg%2C%20PhD,in%20which%20others%20see%20them
+  - key: "5"
+    title: "Salem Historical Society "
+    link: https://www.salemhistorical.org/massachusetts-indigenous-community-resources
+  - key: "6"
+    link: https://www.mcnaa.org/
+    title: "Massachusetts Center for Native American Awareness  "
+  - key: "7"
+    link: http://www.naicob.org/
+    title: "North American Indian Center of Boston "
 ---
