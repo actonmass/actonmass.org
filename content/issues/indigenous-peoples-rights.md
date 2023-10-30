@@ -39,6 +39,13 @@ failures:
       underfunded, and Native students face numerous additional barriers to
       academic success and opportunities that are not being addressed through
       legislation.
+  - title: Indigenous Peoples Day
+    text: Indigenous Peoples Day is a holiday that is recognized by many, yet
+      Massachusetts general law still fails to acknowledge the holiday in
+      replacement of Columbus. The importance of establishing this holiday would
+      not only positively impact the acknowledgment of cultures, languages, and
+      history of the Indigenous people but also would acknowledge and replace
+      the holiday honoring a genocidal colonizer.
 learn_more:
   - title: MA Indigenous Legislative Agenda
     link: http://maindigenousagenda.org/
