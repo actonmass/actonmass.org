@@ -118,7 +118,7 @@ questions:
 
 
       Towns that have adopted Indigenous Peoples Day: Amherst, Aquinnah, Arlington, Bedford, Belmont, Boston,  Brookline, Cambridge, Easthampton, Falmouth, Grafton, Great Barrington, Harvard, Holyoke, Marblehead, Mashpee, Maynard, Melrose, Newton, Northampton, Provincetown, Salem, Somerville, Stow, and Wellesley
-  - title: Terminology
+  - title: What terminology should I use?
     text: >-
       The terminology used to describe American Indian people has changed over
       the years, as have the people that are recognized by state and federal
