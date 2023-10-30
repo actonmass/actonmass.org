@@ -8,6 +8,17 @@ img: /img/pexels-nicole-seidl-9745198.jpg
 page_img: /img/5c48256e-ee3b-45ed-904d-23faafa28fa7.jpg
 catchphrase: The 50,000 Native Americans in Massachusetts deserve opportunity,
   civil rights, and self-determination.
+text: Massachusetts has a long history of disregarding the rights and concerns
+  of its Indigenous population since the state’s colonization. One of the many
+  long-standing issues the Indigenous people have faced is their ability to keep
+  the land that is rightfully theirs. Along with the protection and preservation
+  of their cultures, sacred languages, and heritage sites by the government. The
+  Indigenous people have been underfunded and overlooked by the government for
+  an extensive time, which has contributed to unequal educational opportunities,
+  healthcare disparities, and environmental concerns. The Legislature has the
+  power to enact an Act to protect Native American heritage and an act to
+  establish Indigenous People’s Day in Massachusetts Law, two major steps in
+  Massachusetts that would contribute to the conservation of Indigenous culture.
 highlighted_bills:
   - indigenous-peoples-day
   - mascots
