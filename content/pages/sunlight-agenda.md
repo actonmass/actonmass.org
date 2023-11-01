@@ -45,10 +45,6 @@ Last year, Senate staffers announced they had successfully formed a union and as
 
 ### **[Ask your legislators to cosponsor the Sunlight Agenda here >>](https://secure.everyaction.com/F_UoOFh69EeHYBOQfO4uew2)**
 
-
-
-</Section>
-
 <Section color="light-blue" width="1000">
 
 ## Endorsements
