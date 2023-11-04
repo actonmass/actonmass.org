@@ -69,10 +69,6 @@ Pretty good, right? But remember: this is far from a done deal. First, it has to
 
 *\--*
 
-
-
-\--
-
 ## Take Action
 
 **LAST PUSH: Matching Fall Fundraiser**
@@ -90,8 +86,6 @@ We’ve come such a long way since October 1st! Thank you to everyone who has do
 That's all for now! I've gotta get back to crafting my costume for tomorrow. I'll let you do the same.
 
 Yours, spookily,
-
-Until next time,
 
 Erin Leahy
 
