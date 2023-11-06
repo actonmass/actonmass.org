@@ -33,6 +33,16 @@ failures:
 
       * Catches MA up to states like Texas, Alabama, and Wisconsin
     title: Childcare equity
+  - text: Same-day voter registration is important in Massachusetts because it
+      allows all eligible voters to register and vote on the same day of the
+      election, providing a fair and equal opportunity to the public. In most
+      cases, it’s often younger generations, lower-income individuals, and
+      people who come from marginalized communities who aren’t given the same
+      opportunity to vote as those who are before election day. When same-day
+      registration is accessible to the public it increases voter turnout along
+      with providing convenience to voters as some may be inclined to register
+      to vote more efficiently.
+    title: Same-Day Voter Registration
 learn_more:
   - link: https://www.commoncause.org/massachusetts/our-work/expand-voting-rights-election-integrity/election-day-registration/
     title: Common Cause
