@@ -43,6 +43,17 @@ failures:
       with providing convenience to voters as some may be inclined to register
       to vote more efficiently.
     title: Same-Day Voter Registration
+  - title: Restoring the right to vote for incarcerated people
+    text: Restoring the right to vote for incarcerated people in Massachusetts is
+      essential to the upholding of democracy and promoting reintegration and
+      representation in our state. Allowing incarcerated individuals to vote is
+      a huge step for providing reintegration into society as the right to vote
+      is a fundamental right for all Americans. Restoring the right to vote for
+      incarcerated individuals would uphold democratic beliefs that all citizens
+      should have an equal opportunity to be represented. Guaranteeing
+      representation for those who are incarcerated would help create a more
+      inclusive and equitable society that doesn’t exclude those who have made
+      mistakes in their past.
 learn_more:
   - link: https://www.commoncause.org/massachusetts/our-work/expand-voting-rights-election-integrity/election-day-registration/
     title: Common Cause
