@@ -8,9 +8,9 @@ catchphrase: "Crucial voting reforms that have succeeded elsewhere in making the
   political process more open and democratic, such as ranked choice voting and
   same-day voter registration, have been held up by the Legislature for years.
   Here's where we're at now:"
-text: "**In Massachusetts, the issue of election reform presents serious
-  problems that demand immediate attention and effective resolution. Introducing
-  and expanding processes such as same-day voter registration and ranked-choice
+text: In Massachusetts, the issue of election reform presents serious problems
+  that demand immediate attention and effective resolution. Introducing and
+  expanding processes such as same-day voter registration and ranked-choice
   voting will continue the fight against voting insecurity and voter suppression
   that are actively harming our democracy. Through these processes, there will
   be a more fair, inclusive, and democratic process which would increase
@@ -18,7 +18,7 @@ text: "**In Massachusetts, the issue of election reform presents serious
   has the power to enact two bills that are relative to voting rights
   restoration which would help restore voting rights to incarcerated people
   along with continuing the fight to restore the right to vote for the general
-  public.**"
+  public.
 bills_to_support_title: Election Reform and increase voter participation
 highlighted_bills:
   - campaign-childcare
