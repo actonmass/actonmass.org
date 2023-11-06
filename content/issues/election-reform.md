@@ -54,6 +54,41 @@ failures:
       representation for those who are incarcerated would help create a more
       inclusive and equitable society that doesn’t exclude those who have made
       mistakes in their past.
+questions:
+  - title: Incarnated people used to have the right to vote - Why did that change?
+    text: In Massachusetts, incarcerated people once had the right to vote, yet that
+      changed in 2000 when a state law revoked the right to vote for all
+      individuals in prison. This unjust law was put in place after a house bill
+      was passed to prohibit people incarcerated for felonies in state prison
+      from voting. In Massachusetts, incarcerated individuals originally voted
+      in large numbers and some of the public and policymakers thought that by
+      allowing prisoners to vote they could potentially skew electoral outcomes
+      specifically in criminal justice issues. There was also a common belief
+      that voting should be seen as a privilege and that losing the right to
+      vote was part of the punishment for being incarcerated. While this
+      happened 23 years ago, much of the Massachusetts youth is in support of
+      restoring the right to vote for incarcerated people. According to a [2023
+      poll](https://www.masslive.com/politics/2023/09/should-formerly-incarcerated-people-get-the-right-to-vote-mass-pols-weigh-in.html)
+      by the University of Massachusetts Amherst, 70% of voters aged 18 to 29 in
+      the Commonwealth support the right to vote for incarcerated individuals
+      which is great news in the fight to restore voting rights.
+  - title: Why should campaign funds be used for childcare?
+    text: In Massachusetts, the lack of access to childcare is a barrier for
+      candidates running for office. Running for public office is a demanding
+      and time-consuming process and many parents, especially women, face
+      significant challenges balancing their responsibilities between their
+      campaign and children. In Massachusetts, you can use campaign funds to
+      rent a tuxedo but not for childcare which isn’t fair to parents running
+      for public office. When allowing campaign funds to be used for childcare
+      it can help create a more diverse and representative system that makes it
+      easier for parents to participate in politics.
+  - title: Is same-day voter registration the cure?
+    text: Same-day voter registration isn’t the full cure for restoring the right to
+      vote in Massachusetts but it’s one of the crucial steps our state needs to
+      take to restore voting rights. Same-day voter registration benefits
+      democracy as it increases voter turnout, increases the representation of
+      diverse age groups and marginalized communities, and creates an easier and
+      more accessible way to demonstrate our fundamental right to vote.
 learn_more:
   - link: https://www.commoncause.org/massachusetts/our-work/expand-voting-rights-election-integrity/election-day-registration/
     title: Common Cause
