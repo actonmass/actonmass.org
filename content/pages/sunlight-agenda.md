@@ -49,8 +49,6 @@ Last year, Senate staffers announced they had successfully formed a union and as
 
 ## Endorsements
 
-### Organizations
-
 <div className="logo-list">
 
   <img src="/img/campaign-endorsements/mass-peace-action.png" alt="Mass Peace Action" />
@@ -60,6 +58,7 @@ Last year, Senate staffers announced they had successfully formed a union and as
   <img src="/img/campaign-endorsements/FCCPR.jpg" alt="FCCPR" />
   <img src="/img/campaign-endorsements/end-workplace-abuse.png" alt="End Workplace Abuse" /> 
 
+![](/img/ci_logo.vert.png)
 
 </div>
 
@@ -72,7 +71,6 @@ Last year, Senate staffers announced they had successfully formed a union and as
   <CenteredBlock>Braintree Democratic Town Committee</CenteredBlock>
 
   <CenteredBlock>Holden Democratic Town Committee</CenteredBlock>
-
 
 </div>
 
