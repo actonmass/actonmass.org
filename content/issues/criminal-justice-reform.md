@@ -5,6 +5,7 @@ img: /img/issue-crime.jpeg
 highlighted_bills:
   - age-of-criminal-majority-to-21
   - "Exemple: prison-moratorium"
+  - "Exemple: safe-communities-act"
 failures:
   - title: Ending Mandatory Minimum Sentencing
     text: "**In 2018, after years of delay, the Legislature passed a criminal
