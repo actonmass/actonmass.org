@@ -22,6 +22,7 @@ text: In Massachusetts, the issue of election reform presents serious problems
 bills_to_support_title: Election Reform and increase voter participation
 highlighted_bills:
   - campaign-childcare
+  - "Exemple: safe-communities-act"
 failures:
   - text: >-
       Massachusetts doesn't allow parents running for office to pay for
