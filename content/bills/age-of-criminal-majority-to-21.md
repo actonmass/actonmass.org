@@ -20,6 +20,9 @@ orgs:
   - title: NASW
     img: /img/naswma_logo.png
     link: https://www.votervoice.net/NASWMA/BlogPosts/4140
+  - title: Citizens for Juvenile Justice
+    img: /img/cfjj-logo-transparent.png
+    link: https://www.cfjj.org/
 house_lead_sponsors:
   - james-oday
   - manny-cruz
