@@ -16,6 +16,21 @@ summary:
   - Ensure that young people who are incarcerated are able to participate in
     impactful rehabilitative programs that are not available in the adult
     correctional system
+text: In Massachusetts, the civil age of majority is 18 years of age, this means
+  that any individuals who are 18 years of age and older are treated as adults
+  in the criminal justice system. Raising the age of criminal majority to 21
+  years of age would recognize the potential for measures that would help
+  support the individuals which would establish educational and rehabilitative
+  measures rather than punitive ones. This would begin to tackle mass
+  incarceration in the state and dismantle the school-to-prison pipeline.
+  According to Citizens for Juvenile Justice (CFJJ), Black teenage boys in
+  America are 12.4 times more likely to be incarcerated in adult corrections
+  than those who are white. This exacerbates racial and economic disparities in
+  our communities by systematically stripping young Black boys of educational
+  and economic opportunities. The legislature has the power to enact an act to
+  Promote Public Safety and Better Outcomes for Young Adults which would ensure
+  that young people who are incarcerated can participate in rehabilitation and
+  educational programs that aren’t accessible in the adult correctional system.
 orgs:
   - title: NASW
     img: /img/naswma_logo.png
