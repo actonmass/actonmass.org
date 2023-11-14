@@ -58,6 +58,8 @@ Last year, Senate staffers announced they had successfully formed a union and as
   <img src="/img/campaign-endorsements/FCCPR.jpg" alt="FCCPR" />
   <img src="/img/campaign-endorsements/end-workplace-abuse.png" alt="End Workplace Abuse" /> 
 
+![](/img/indivisible-lab.jpg)
+
 ![](/img/ci_logo.vert.png)
 
 </div>
