@@ -15,4 +15,12 @@ house_lead_sponsors:
   - erika-uyterhoeven
 senate_lead_sponsors:
   - liz-miranda
+co_sponsors:
+  - david-leboeuf
+  - lindsay-sabadosa
+  - mike-connolly
+  - sam-montano
+  - james-eldridge
+  - mary-keefe
+  - carlos-gonzalez
 ---
