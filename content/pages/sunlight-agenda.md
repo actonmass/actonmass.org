@@ -74,6 +74,8 @@ Last year, Senate staffers announced they had successfully formed a union and as
 
   <CenteredBlock>Holden Democratic Town Committee</CenteredBlock>
 
+<CenteredBlock>Billerica Democratic Town Committee</CenteredBlock>
+
 </div>
 
 </Section>
