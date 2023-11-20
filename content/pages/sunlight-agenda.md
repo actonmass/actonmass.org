@@ -60,6 +60,8 @@ Last year, Senate staffers announced they had successfully formed a union and as
 
 ![](/img/indivisible-lab.jpg)
 
+![](/img/in-slwm-logo.png)
+
 ![](/img/ci_logo.vert.png)
 
 </div>
