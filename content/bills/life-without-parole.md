@@ -3,10 +3,10 @@ aom_id: life-without-parole
 title: Life without Parole
 full_title: An Act repealing mandatory life without parole
 twitter_bill_name: Life without Parole
-house_no: HD.1984
-house_link: https://malegislature.gov/Bills/193/HD1984
-senate_no: SD.1048
-senate_link: https://malegislature.gov/Bills/193/SD1048
+house_no: H.2398
+house_link: https://malegislature.gov/Bills/193/H2398
+senate_no: S.1544
+senate_link: https://malegislature.gov/Bills/193/S1544
 committee: joint-judiciary
 issue: criminal-justice-reform
 img: /img/emiliano-bar-pakhbttdqt0-unsplash.jpg
@@ -52,6 +52,11 @@ history:
     description: Reporting date extended to May 18th, 2022
   - description: "Sent to study (Study Order: H.5353)"
     type: death
+    date: 2022-10-11
+  - date: 2023-01-04
+    description: Bill reintroduced as H.2398/S.1544
+  - date: 2023-02-16
+    description: Sent to the Joint Committee on Public Safety and Homeland Security
 timeline:
   - date: 2019-01-22
     description: Referred to the Judiciary Committee
