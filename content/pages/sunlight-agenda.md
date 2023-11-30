@@ -80,6 +80,8 @@ Last year, Senate staffers announced they had successfully formed a union and as
 
 <CenteredBlock>Harvard Democratic Town Committee</CenteredBlock>
 
+<CenteredBlock>Boxborough Democratic Town Committee</CenteredBlock>
+
 </div>
 
 </Section>
