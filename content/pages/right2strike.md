@@ -19,11 +19,11 @@ The right to strike is a basic human right that has become customary in internat
 
 **Campaign Strategy**
 
-The Right to Strike campaign has a clear objective: to remove Section 9A from Massachusetts General Law by passing **[H.1946, An Act Protecting the Right to Strike](https://malegislature.gov/Bills/192/H1946/BillHistory)**. As part of the Commonwealth’s supplemental budget process in the fall of 2021, state representatives will file amendments to the budget. Those amendments will range in substance from earmarks for local parks to complete pieces of legislation, such as the bill removing the ban on public sector strikes.
+The Right to Strike campaign has a clear objective: to remove Section 9A from Massachusetts General Law by passing **[H.1845](https://malegislature.gov/Bills/193/H1845)/[S.1217](https://malegislature.gov/Bills/193/S1217) An Act uplifting families and securing the right to strike for certain public employees[](https://malegislature.gov/Bills/192/H1946/BillHistory)**. As part of the Commonwealth’s supplemental budget process in the fall of 2021, state representatives will file amendments to the budget. Those amendments will range in substance from earmarks for local parks to complete pieces of legislation, such as the bill removing the ban on public sector strikes.
 
-Our campaign is working with state representatives who have committed to file an amendment removing Section 9A from law during the supplemental budget debate this fall. Our job as a campaign is to build pressure on enough representatives to pass the amendment. Public employees and allies across the state are organizing a statewide campaign in state representative districts to ask our representatives to stand with public employees.
+Our job as a campaign is to build pressure on enough representatives to pass this bill. Public employees and allies across the state are organizing a statewide campaign in state representative districts to ask our representatives to stand with public employees.
 
-**Endorsing Union Locals (to Date)** 
+**Endorsing Union Locals** 
 
 * AFT Amesbury
 * Billerica Federation of Teachers
