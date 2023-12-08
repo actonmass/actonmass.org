@@ -66,6 +66,8 @@ Last year, Senate staffers announced they had successfully formed a union and as
 
 ![](/img/mass-spring-logo.png)
 
+![](/img/climate-action-now-western-mass-can-logo.jpg)
+
 </div>
 
 ### Democratic Town Committees
