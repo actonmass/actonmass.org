@@ -194,6 +194,8 @@ history:
     type: null
   - date: 2023-02-16
     description: Referred to the Joint Committee on Education
+  - description: Passes in the Senate as S.2459, 33-2
+    date: 2020-01-16
 timeline:
   - date: 2019-01-22
     description: Referred to the Education Committee
