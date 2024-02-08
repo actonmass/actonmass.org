@@ -92,6 +92,8 @@ Last year, Senate staffers announced they had successfully formed a union and as
 
 <CenteredBlock>Maynard Democratic Town Committee</CenteredBlock>
 
+<CenteredBlock>Littleton Democratic Town Committee</CenteredBlock>
+
 </div>
 
 </Section>
