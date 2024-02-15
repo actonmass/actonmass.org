@@ -4,6 +4,8 @@ title: "Nobody's favorite public transit: What went wrong with the MBTA"
 date: 2024-02-15T22:24:08.839Z
 image: /img/subway-286873.jpg
 ---
+![](/img/subway-286873.jpg)
+
 There’s no question that the T is infamous for running late, being closed for any number of reasons, or just being an overall inconvenience at times. Where the question does lie, however, is in the why; why has the MBTA had such a hard time? 
 
 These safety issues did not begin at an exact moment in time, but a major source of trouble began in the same year that the hit show Survivor debuted, the landmark case Bush v. Gore was decided, and Eminem broke records with his hit rap album, The Marshall Mathers LP. 
