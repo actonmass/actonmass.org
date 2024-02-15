@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Nobody's favorite public transit: What went wrong with the MBTA"
+title: The MBTA’s failing funding structure and its origins
 date: 2024-02-15T22:24:08.839Z
 image: /img/subway-286873.jpg
 ---
