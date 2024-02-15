@@ -18,7 +18,7 @@ Once 2000 rolled around, then-Governor Paul Celucci changed the funding structur
 
 The sales tax has shown itself to be an unreliable and unsustainable source of annual revenue in the wake of national and global crises such as 9/11, the 2008 financial crisis, the COVID-19 pandemic, and other dips in the economy that have stifled the projected growth in ridership and revenues that the MBTA and state legislature were counting on.
 
-##### Destined for Decrepitude: Big Dig Debt and the Demise of the MBTA
+**Destined for Decrepitude: Big Dig Debt and the Demise of the MBTA**
 
 “But why did the state transfer their debts to the MBTA?”  Great question! Have you ever heard of the Big Dig? 
 
@@ -32,7 +32,7 @@ According to the MBTA’s CFO Mary Ann O’Hara, as of 2024, “the projected MB
 
 These deficits can be tied back to the MBTA’s budget switch to “forward funding”  back in 2000. This change in funding structure has cost the MBTA a lot of money due to the continual failure of sales tax revenue to make up the difference between money owed and money made by the MBTA each year. The sales tax revenue is not only “falling below expectations,” but is “growing at less than half at the expected rate,” [with O’Hara estimating](https://www.wcvb.com/article/mbta-fiscal-cliff-revenue-debt-expenses-budget-predicament/46455526#) “a loss of up to $15.5 billion in expected revenue”. 
 
-##### A Series of Unfortunate Incidents: The MBTA’s Safety Issues
+**A series of unfortunate incidents: the MBTA's safety issues**
 
 The decrease in ridership and revenue on top of the 2000 funding restructure has only exacerbated the transit system’s inability to run both efficiently and safely. 
 
@@ -67,7 +67,7 @@ The FTA’s involvement in MBTA safety measures did not end here. In September, 
 
 The implementation of new projects to address the safety issues outlined in the FTA’s reports has increased the demand for adequate funding, but given the current MBTA funding structure, this task won’t be easy.   
 
-##### Where we’re at now: The MBTA’s operating budget 
+**Where we're at now: The MBTA's operating budget**
 
 As of June 2023, the approved FY2024 operating budget for the MBTA was [$2.72 billion](https://www.mbta.com/news/2023-06-08/mbta-board-directors-approves-27-billion-fy24-budget#) “that will sustain levels of service while making strategic investments in safety, staffing, and hiring, key capital investments including station and accessibility needs, and design work required for a future connection of the Red and Blue lines… The T’s FY24 budget also includes $68 million to support the T’s response to the Federal Transit Administration’s Safety and Management Inspection report.”
 
@@ -90,7 +90,7 @@ Per an audit conducted on June 20, 2022, it was determined “if the MBTA did no
 
 Healey’s proposed budget still [needs legislative approval](https://www.bostonglobe.com/2024/01/24/metro/maura-healey-state-budget-proposal-mbta-millionaires-tax/?event=event12) to be put into effect and actually given to the MBTA. 
 
-##### What can the MBTA do to try to make up for their lack of funding? 
+**What can the MBTA do to try to make up for their lack of funding?**
 
 The MBTA has plans to try and increase their revenue, including cutting fares for low-income riders, implementing a simplified fares system, and — you guessed it — promoting increased ridership. 
 
@@ -103,7 +103,7 @@ The MBTA also approved [a new Capital Investment Plan](https://www.mbta.com/fina
 1. Improve safety and reliability and modernize existing assets 
 2. Expand the transportation network to increase capacity or provide riders with more options across transit modes 
 
-##### What about federal receivership?
+**What about federal receivership?**
 
 Federal receivership would put the control of a local asset (the MBTA) into the hands of a federal entity (the FTA). 
 
