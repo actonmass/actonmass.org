@@ -8,7 +8,7 @@ house_link: https://malegislature.gov/Bills/192/HD3217
 senate_no: S.448
 senate_link: https://malegislature.gov/Bills/192/SD2235
 committee: joint-election-laws
-issue: voting-rights
+issue: election-reform
 img: /img/download-4-.jpeg
 hidden: true
 summary:
