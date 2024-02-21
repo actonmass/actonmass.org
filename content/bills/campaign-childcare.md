@@ -8,7 +8,7 @@ house_link: https://malegislature.gov/Bills/193/H669
 senate_no: S.422
 senate_link: https://malegislature.gov/Bills/193/S422
 committee: joint-election-laws
-issue: ""
+issue: election-reform
 img: /img/cropedkrakenimages-orouwawls-8-unsplash-1-.jpg
 summary:
   - Allows candidates for office to pay for necessary child care expenses from
