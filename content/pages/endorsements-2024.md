@@ -3,7 +3,7 @@ permalink: /endorsements-2024
 title: 2024 State Legislative Endorsements
 layout: default
 ---
-![](/img/act-on-mass-legislative-endorsements.png)
+![](/img/act-on-mass-legislative-endorsements-1-.png)
 
 
 
