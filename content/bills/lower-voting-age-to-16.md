@@ -3,10 +3,10 @@ aom_id: lower-voting-age-to-16
 title: Lower Voting Age to 16
 full_title: An Act ensuring municipal participation of the widest eligible range
 twitter_bill_name: Lower Voting Age to 16
-house_no: H.843
-house_link: https://malegislature.gov/Bills/192/HD3217
-senate_no: S.448
-senate_link: https://malegislature.gov/Bills/192/SD2235
+house_no: H.725
+house_link: https://malegislature.gov/Bills/193/H725
+senate_no: ""
+senate_link: ""
 committee: joint-election-laws
 issue: election-reform
 img: /img/download-4-.jpeg
