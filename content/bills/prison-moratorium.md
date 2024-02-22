@@ -59,7 +59,6 @@ co_sponsors:
   - david-leboeuf
   - steve-owens
   - lindsay-sabadosa
-  - jack-lewis
   - mike-connolly
   - christine-barber
   - ruth-balser
@@ -74,7 +73,6 @@ co_sponsors:
   - margaret-scarsdale
   - rob-consalvo
   - jay-livingstone
-  - jason-lewis
   - joanne-comerford
   - carmine-gentile
   - tommy-vitolo
@@ -93,6 +91,7 @@ co_sponsors:
   - lydia-edwards
   - mary-keefe
   - mindy-domb
+  - manny-cruz
 history:
   - date: 2021-03-03
     description: Bill filed as H/1905/S.2030
@@ -110,5 +109,8 @@ history:
   - date: 2023-01-04
     description: Bill re-filed as H.1795/S.1979 with an emergency preamble
   - date: 2023-02-16
-    description: Referred to the Joint Committee on the Judiciary
+    description: Referred to the Joint Committee on State Administration and
+      Regulatory Oversight
+  - date: 2024-02-12
+    description: Reporting date extended to Monday July 1, 2024
 ---
