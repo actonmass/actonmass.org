@@ -1,6 +1,6 @@
 ---
 permalink: /endorsements-2024
-title: 2024 State Legislative Endorsements
+title: 2024 Endorsements
 layout: default
 ---
 ![](/img/2024-endorsement-graphics-email-header-1-.png)
