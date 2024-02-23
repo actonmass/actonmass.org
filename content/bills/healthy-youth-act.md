@@ -179,6 +179,8 @@ history:
   - date: 2021-07-19
     description: Re-drafted as S.2495, reported favorably by Education Committee and
       referred to Senate Ways and Means
+  - description: Passes in the Senate as S.2459, 33-2
+    date: 2020-01-16
   - date: 2021-09-20
     description: Senate Ways and Means reported favorably with an amendment as
       S.2534 and referred to Senate Rules Committee
@@ -194,8 +196,14 @@ history:
     type: null
   - date: 2023-02-16
     description: Referred to the Joint Committee on Education
-  - description: Passes in the Senate as S.2459, 33-2
-    date: 2020-01-16
+  - description: " Hearing held by the Joint Committee on Education"
+    date: 2023-10-11
+  - date: 2024-02-08
+    description: " Bill reported favorably by committee and referred to the
+      committee on Senate Ways and Means "
+  - date: 2024-02-22
+    description: Redrafted as S.2686 and reported favorably by Senate Ways and Means
+      Committee; Senate schedules a vote for 2/29/24
 timeline:
   - date: 2019-01-22
     description: Referred to the Education Committee
