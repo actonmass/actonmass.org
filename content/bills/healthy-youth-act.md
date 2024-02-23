@@ -129,6 +129,12 @@ co_sponsors:
   - judith-garcia
   - michael-moran
   - dan-sena
+  - adam-gomez
+  - paul-mark
+  - simon-cataldo
+  - michelle-ciccolo
+  - sally-kerans
+  - patricia-haddad
 history:
   - date: 2011-01-05
     description: Bill filed as H.1063
