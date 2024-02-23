@@ -1,5 +1,5 @@
 ---
-permalink: /Letter-to-the-editor
+permalink: /letter-to-the-editor
 title: "Take Action: Write a Letter to the Editor"
 layout: default
 ---
