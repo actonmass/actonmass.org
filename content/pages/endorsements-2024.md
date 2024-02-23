@@ -3,13 +3,9 @@ permalink: /endorsements-2024
 title: 2024 State Legislative Endorsements
 layout: default
 ---
-![](/img/act-on-mass-legislative-endorsements-2-.png)
-
-
+![](/img/2024-endorsement-graphics-email-header-.png)
 
 Act on Mass has opened applications for endorsement for the 2024 state legislative election cycle! And for the first time, we will be endorsing in both state representative and state senate races. (Both House and Senate candidates may complete the same questionnaire.)
-
-
 
 ### **Application instructions for candidates**
 
