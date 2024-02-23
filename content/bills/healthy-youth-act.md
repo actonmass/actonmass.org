@@ -7,7 +7,7 @@ house_no: H.544
 house_link: https://malegislature.gov/Bills/193/H544
 senate_no: S.268
 senate_link: https://malegislature.gov/Bills/193/S268
-committee: joint-education
+committee: senate-ways-and-means
 issue: lgbtq-rights
 img: /img/download-3-.jpeg
 summary:
