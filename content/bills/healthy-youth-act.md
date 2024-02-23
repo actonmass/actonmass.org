@@ -209,7 +209,7 @@ history:
       committee on Senate Ways and Means "
   - date: 2024-02-22
     description: Redrafted as S.2686 and reported favorably by Senate Ways and Means
-      Committee; Senate schedules a vote for 2/29/24
+      Committee; Senate schedules a vote for 2/29/2024
 timeline:
   - date: 2019-01-22
     description: Referred to the Education Committee
