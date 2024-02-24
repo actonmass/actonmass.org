@@ -48,9 +48,9 @@ export default function PostPage({
             </div>
             <ul className="pager">
               <li>
-                {pageContext.next && (
-                  <Link to={pageContext.next.url} title={pageContext.next.title}>
-                    &larr; Next Post
+                {pageContext.previous && (
+                  <Link to={pageContext.previous.url} title={pageContext.previous.title}>
+                    &larr; Previous Post
                   </Link>
                 )}
               </li>
@@ -58,9 +58,9 @@ export default function PostPage({
                 <Link to="/blog">All posts</Link>
               </li>
               <li>
-                {pageContext.previous && (
-                  <Link to={pageContext.previous.url} title={pageContext.previous.title}>
-                    Previous Post &rarr;
+                {pageContext.next && (
+                  <Link to={pageContext.next.url} title={pageContext.next.title}>
+                    Next Post &rarr;
                   </Link>
                 )}
               </li>
