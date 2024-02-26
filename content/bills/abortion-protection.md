@@ -84,9 +84,26 @@ co_sponsors:
   - christine-barber
   - michael-moran
   - brendan-crighton
+  - erika-uyterhoeven
+  - estela-reyes
+  - margaret-scarsdale
+  - jay-livingstone
+  - sal-didomenico
+  - joanne-comerford
+  - sean-garballey
+  - adrianne-ramons
 history:
   - date: 2023-01-04
     description: Bill introduced as H.1599/S.1114
   - date: 2023-02-16
     description: Referred to the Joint Committee on the Judiciary
+timeline:
+  - description: Reporting date extended to Tuesday April 30, 2024, pending concurrence
+    date: 2024-02-05
+  - description: Hearing scheduled for 11/21/2023
+    date: 2023-11-15
+  - description: Referred to the committee on The Judiciary
+    date: 2023-02-16
+  - date: 2023-02-16
+    description: House and Senate concurred
 ---
