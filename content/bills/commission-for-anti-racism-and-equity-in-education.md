@@ -69,6 +69,13 @@ co_sponsors:
   - patricia-jehlen
   - sal-didomenico
   - chynah-tyler
+  - manny-cruz
+  - brendan-crighton
+  - tommy-vitolo
+  - sam-montano
+  - kenneth-gordon
+  - simon-cataldo
+  - marjorie-decker
 history:
   - description: Bill filed
     date: 2021-03-29
