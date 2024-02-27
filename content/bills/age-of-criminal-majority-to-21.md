@@ -110,7 +110,7 @@ history:
     type: null
   - date: 2023-02-16
     description: Referred to the Joint Committee on Education
-  - description: Hearing held by the Judiciary Committee
+  - description: Hearing held by the committee Judiciary Committee
     date: 2023-09-26
   - date: 2024-02-05
     description: Reporting date extended to Tuesday April 30, 2024, pending concurrence
