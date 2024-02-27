@@ -149,6 +149,10 @@ co_sponsors:
   - john-keenan
   - aaron-saunders
   - michael-moore
+  - nick-collins
+  - ted-philips
+  - priscila-sousa
+  - patricia-haddad
 history:
   - date: 2019-01-16
     description: Bill filed
@@ -183,5 +187,9 @@ history:
     description: Bill re-introduced as H.1260/S.816
   - date: 2023-02-16
     description: Referred to the Joint Committee on Higher Education
+  - description: Hearing held by the Joint Committee on Higher Education
+    date: 2023-09-08
+  - date: 2024-02-08
+    description: Reporting date extended to March 1, 2024
 timeline: []
 ---
