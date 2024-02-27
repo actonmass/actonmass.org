@@ -1,7 +1,7 @@
 ---
 permalink: /LTE/
 title: Letter to the Editor
-layout: default
+layout: base
 ---
 ```
 <link rel='preload' href='https://static.everyaction.com/ea-actiontag/at.js' as='script' crossorigin='anonymous'>
