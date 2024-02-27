@@ -10,7 +10,7 @@ senate_link: ""
 committee: joint-telecommunications-utilities-and-energy
 issue: climate
 img: /img/nicholas-doherty-ponbhdyofom-unsplash.jpg
-hidden: true
+hidden: false
 summary:
   - All energy needs met with renewables by 2045 (electricity by 2035)
   - Improve energy efficiency to reduce consumption
