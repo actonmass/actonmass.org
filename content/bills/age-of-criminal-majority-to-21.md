@@ -113,7 +113,7 @@ history:
   - description: Hearing held by the committee Judiciary Committee
     date: 2023-09-26
   - date: 2024-02-05
-    description: Reporting date extended to Tuesday April 30, 2024, pending concurrence
+    description: Reporting date extended to Tuesday April 30, 2024
 timeline:
   - date: 2021-03-29
     description: Referred to the Committee on the Judiciary
