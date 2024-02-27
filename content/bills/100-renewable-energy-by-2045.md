@@ -149,7 +149,7 @@ history:
   - date: 2023-03-30
     description: Bill referred to the committee on Telecommunications, Utilities and Energy
   - date: 2023-07-11
-    description: "Hearing scheduled for 07/13/2023 "
+    description: "Joint Hearing scheduled for 07/13/2023 "
   - date: 2024-02-12
     description: Reporting date extended to April 7, 2024, pending concurrence
 timeline:
