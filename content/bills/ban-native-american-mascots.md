@@ -98,6 +98,7 @@ co_sponsors:
   - priscila-sousa
   - dan-sena
   - christopher-worrell
+  - marjorie-decker
 history:
   - date: 2019-01-01
     description: "Introduced "
