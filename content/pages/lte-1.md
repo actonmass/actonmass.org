@@ -3,7 +3,7 @@ permalink: /LTE
 title: Letters to the Editor
 layout: default
 ---
-![](/img/lte-webpage-header-image.svg)
+
 
 ```
 <link rel='preload' href='https://static.everyaction.com/ea-actiontag/at.js' as='script' crossorigin='anonymous'>
