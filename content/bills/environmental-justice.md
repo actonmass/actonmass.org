@@ -10,7 +10,7 @@ senate_link: https://malegislature.gov/Bills/193/S953/
 committee: joint-judiciary
 issue: climate
 img: /img/ella-ivanescu-jbfhnrpq_dw-unsplash.jpg
-hidden: true
+hidden: false
 summary:
   - Mandates the creation of an Environmental Justice Advisory Council, which
     would study issues related to environmental justice in the state and provide
