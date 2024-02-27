@@ -84,4 +84,10 @@ history:
   - date: 2023-01-03
     description: No further action taken by House Ways & Means
     type: death
+  - date: 2023-02-16
+    description: Referred to the Joint Committee on Education
+  - date: 2023-10-11
+    description: Hearing held by the Joint Committee on Education
+  - date: 2024-02-08
+    description: Reporting date extended to March 15, 2024
 ---
