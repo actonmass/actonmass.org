@@ -108,8 +108,6 @@ history:
   - date: 2023-01-04
     description: Bill re-introduced as H.1710
     type: null
-  - date: 2023-02-16
-    description: Referred to the Joint Committee on Education
   - description: Hearing held by the committee Judiciary Committee
     date: 2023-09-26
   - date: 2024-02-05
