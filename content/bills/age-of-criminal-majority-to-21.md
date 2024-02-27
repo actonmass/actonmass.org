@@ -72,6 +72,25 @@ co_sponsors:
   - thomas-stanley
   - tommy-vitolo
   - john-keenan
+  - adam-gomez
+  - patricia-jehlen
+  - pavel-payano
+  - estela-reyes
+  - ryan-hamilton
+  - mindy-domb
+  - adrian-madaro
+  - sean-garballey
+  - dan-sena
+  - shirley-arriaga
+  - chynah-tyler
+  - andres-vargas
+  - marjorie-decker
+  - christopher-worrell
+  - judith-garcia
+  - sally-kerans
+  - orlando-ramos
+  - francisco-paulino
+  - natalie-higgins
 history:
   - date: 2021-03-29
     description: Referred to the Committee on the Judiciary
@@ -91,6 +110,9 @@ history:
     type: null
   - date: 2023-02-16
     description: Referred to the Joint Committee on Education
+  - description: Hearing held by the Judiciary Committee
+  - date: 2024-02-05
+    description: Reporting date extended to Tuesday April 30, 2024, pending concurrence
 timeline:
   - date: 2021-03-29
     description: Referred to the Committee on the Judiciary
