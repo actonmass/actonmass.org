@@ -35,44 +35,58 @@ house_lead_sponsors:
 senate_lead_sponsors:
   - patricia-jehlen
 co_sponsors:
-  - mike-connolly
-  - joan-meschino
   - patricia-jehlen
-  - mindy-domb
-  - lindsay-sabadosa
+  - joan-meschino
+  - mike-connolly
   - jack-lewis
   - rebecca-rausch
-  - tram-nguyen
+  - vanna-howard
+  - sal-didomenico
+  - patrick-kearney
   - james-hawkins
+  - hannah-kane
+  - joanne-comerford
+  - jason-lewis
+  - james-eldridge
+  - anne-gobi
+  - thomas-stanley
+  - manny-cruz
+  - adam-gomez
+  - paul-feeney
+  - patrick-oconnor
+  - joan-lovely
+  - jacob-oliveira
+  - sean-garballey
+  - michael-moore
+  - david-vieira
+  - pavel-payano
+  - mindy-domb
+  - lindsay-sabadosa
+  - tram-nguyen
   - carol-doherty
   - david-leboeuf
-  - vanna-howard
   - jennifer-armini
-  - patrick-oconnor
   - tricia-farley-bouvier
   - christine-barber
   - james-arena-derosa
-  - patrick-kearney
-  - james-eldridge
   - erika-uyterhoeven
   - sam-montano
-  - thomas-stanley
-  - manny-cruz
   - natalie-higgins
   - michelle-ciccolo
   - tackey-chan
   - david-robertson
   - carole-fiola
   - dawne-shand
-  - sal-didomenico
-  - hannah-kane
-  - joanne-comerford
-  - jason-lewis
-  - anne-gobi
-  - adam-gomez
-  - paul-feeney
-  - joan-lovely
   - adrianne-ramons
+  - simon-cataldo
+  - margaret-scarsdale
+  - kristin-kassner
+  - adrian-madaro
+  - christopher-hendricks
+  - steven-ultrino
+  - steve-owens
+  - bud-williams
+  - orlando-ramos
 history:
   - date: 2017-01-20
     description: Bill introduced as H.2898
@@ -107,6 +121,8 @@ history:
   - date: 2023-02-16
     description: Referred to the Joint Committee on Election Laws
     type: null
+  - date: 2024-02-12
+    description: Reporting date extended to May 28, 2024
 timeline:
   - date: 2019-05-15
     description: Hearing (Election Laws)
