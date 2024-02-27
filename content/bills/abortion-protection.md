@@ -97,13 +97,9 @@ history:
     description: Bill introduced as H.1599/S.1114
   - date: 2023-02-16
     description: Referred to the Joint Committee on the Judiciary
-timeline:
+  - date: 2023-11-15
+    description: Hearing scheduled for 11/21/2023
   - description: Reporting date extended to Tuesday April 30, 2024, pending concurrence
     date: 2024-02-05
-  - description: Hearing scheduled for 11/21/2023
-    date: 2023-11-15
-  - description: Referred to the committee on The Judiciary
-    date: 2023-02-16
-  - description: Bill introduced as H.1599/S.1114
-    date: 2023-01-01
+timeline: []
 ---
