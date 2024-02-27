@@ -105,4 +105,5 @@ timeline:
   - description: Referred to the committee on The Judiciary
     date: 2023-02-16
   - description: Bill introduced as H.1599/S.1114
+    date: 2023-01-01
 ---
