@@ -34,12 +34,9 @@ co_sponsors:
   - danielle-gregoire
   - daniel-carey
   - jack-lewis
-  - tami-gouveia
   - christine-barber
-  - paul-tucker
   - tram-nguyen
   - jay-livingstone
-  - maria-robinson
   - jason-lewis
   - kenneth-gordon
   - david-linsky
@@ -61,13 +58,10 @@ co_sponsors:
   - tommy-vitolo
   - james-arciero
   - kate-lipper-garabedian
-  - lori-ehrlich
   - brian-murray
-  - nika-elugardo
   - vanna-howard
   - ruth-balser
   - adrian-madaro
-  - edward-coppinger
   - tricia-farley-bouvier
   - dylan-fernandes
   - richard-haggerty
@@ -77,7 +71,6 @@ co_sponsors:
   - thomas-stanley
   - steven-ultrino
   - kathleen-lanatra
-  - marcos-devers
   - john-rogers
   - frank-moran
   - mike-connolly
@@ -89,8 +82,6 @@ co_sponsors:
   - andres-vargas
   - joanne-comerford
   - daniel-donahue
-  - jon-santiago
-  - joseph-boncore
   - jack-lewis
   - joanne-comerford
   - jason-lewis
@@ -102,11 +93,9 @@ co_sponsors:
   - mary-keefe
   - brendan-crighton
   - sal-didomenico
-  - harriette-chandler
   - james-eldridge
   - patrick-oconnor
   - christopher-hendricks
-  - christina-minicucci
   - john-barrett
   - michael-barrett
   - julian-cyr
@@ -114,8 +103,16 @@ co_sponsors:
   - patricia-duffy
   - paul-mcmurtry
   - jacob-oliveira
-  - linda-campbell
   - tackey-chan
+  - patricia-jehlen
+  - john-keenan
+  - william-driscoll
+  - simon-cataldo
+  - sam-montano
+  - lydia-edwards
+  - jennifer-armini
+  - paul-donato
+  - susan-moran
 scripts:
   tweet_thanks: ""
   tweet_after_thanks_call: ""
@@ -140,6 +137,21 @@ history:
     description: Joint Hearing scheduled for December 14, 2021
   - date: 2022-02-09
     description: Reporting date extended to May 2, 2022
+  - date: 2022-05-02
+    description: Reporting date extended to June 2, 2022
+  - description: Reporting date extended to June 30, 2022
+  - description: No further action taken by the committee on Telecommunications,
+      Utilities and Energy
+    date: 2023-01-03
+    type: death
+  - description: Bill reintroduced as Bill H.3689
+    date: 2023-03-30
+  - date: 2023-03-30
+    description: Bill referred to the committee on Telecommunications, Utilities and Energy
+  - date: 2023-07-11
+    description: "Hearing scheduled for 07/13/2023 "
+  - date: 2024-02-12
+    description: Reporting date extended to April 7, 2024, pending concurrence
 timeline:
   - date: 2019-01-22
     description: Bill referred to TUE Committee
