@@ -1,5 +1,5 @@
 ---
-permalink: LTE
+permalink: /LTE
 title: Letters to the Editor
 layout: default
 ---
