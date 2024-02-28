@@ -33,6 +33,10 @@ co_sponsors:
   - kay-khan
   - carmine-gentile
   - liz-miranda
+  - estela-reyes
+  - steve-owens
+  - mike-connolly
+  - marjorie-decker
 history:
   - date: 2019-01-22
     description: Sent to the Judiciary Committee
@@ -57,6 +61,9 @@ history:
     description: Bill reintroduced as H.2398/S.1544
   - date: 2023-02-16
     description: Sent to the Joint Committee on Public Safety and Homeland Security
+  - description: Joint committee hearing held
+    date: 2024-01-23
+  - description: Reporting date extended to April 8, 2024
 timeline:
   - date: 2019-01-22
     description: Referred to the Judiciary Committee
