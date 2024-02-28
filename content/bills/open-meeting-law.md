@@ -22,6 +22,7 @@ house_lead_sponsors:
   - erika-uyterhoeven
 co_sponsors:
   - sam-montano
+  - mike-connolly
 scripts:
   call_request: >-
     I am calling today in support of An Act relative to the open meeting law,
@@ -130,5 +131,8 @@ history:
   - description: " Referred to the committee on State Administration and Regulatory
       Oversight "
     date: 2023-02-16
+  - date: 2023-07-26
+    description: Joint committee hearing held
+  - description: Reporting date extended to July 1, 2024
 timeline: []
 ---
