@@ -139,6 +139,13 @@ history:
   - date: 2023-02-16
     description: Referred to the Joint Committee on the Judiciary
     type: null
+  - date: 2023-11-28
+    description: Hearing scheduled
+  - description: Accompanied a study order, S2612
+    date: 2024-02-08
+  - date: 2024-02-12
+    description: Order reported favorably by committee and discharged to the Senate
+      Committee on Rules
 timeline:
   - description: Referred to the committee on Environment, Natural Resources and Agriculture
     date: 2019-01-22
