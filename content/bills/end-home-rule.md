@@ -31,7 +31,8 @@ orgs:
 house_lead_sponsors:
   - mike-connolly
   - nika-elugardo
-senate_lead_sponsors: []
+senate_lead_sponsors:
+  - james-eldridge
 co_sponsors:
   - mike-connolly
   - lindsay-sabadosa
