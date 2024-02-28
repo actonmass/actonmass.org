@@ -19,6 +19,7 @@ co_sponsors:
   - david-leboeuf
   - james-eldridge
   - erika-uyterhoeven
+  - mike-connolly
 scripts:
   call_request: >-
     I am calling today to share my support of S. 2064: An Act extending the
@@ -133,4 +134,6 @@ history:
   - date: 2023-02-16
     description: Referred to the Joint Committee on State Administration and
       Regulatory Oversight
+  - description: Joint committee hearing held
+    date: 2023-07-26
 ---
