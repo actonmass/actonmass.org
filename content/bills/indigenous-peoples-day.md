@@ -48,7 +48,7 @@ co_sponsors:
   - patricia-duffy
   - erika-uyterhoeven
   - jack-lewis
-  - james-oday
+  - jason-lewis
   - michelle-dubois
   - tricia-farley-bouvier
   - jennifer-armini
@@ -64,14 +64,20 @@ co_sponsors:
   - sally-kerans
   - mike-connolly
   - carol-doherty
-  - joanne-comerford
-  - michael-barrett
-  - jason-lewis
-  - patricia-jehlen
-  - julian-cyr
   - chynah-tyler
   - michelle-ciccolo
   - dan-sena
+  - natalie-blais
+  - david-rogers
+  - marjorie-decker
+  - carmine-gentile
+  - joanne-comerford
+  - michael-barrett
+  - patricia-jehlen
+  - julian-cyr
+  - liz-miranda
+  - susan-moran
+  - james-oday
 history:
   - date: 2019-01-01
     description: Introduced as H.3665
@@ -107,4 +113,9 @@ history:
   - date: 2023-02-16
     description: Referred to the Joint Committee on State Administration and
       Regulator Oversight
+  - date: 2023-10-03
+    description: Hearing held by Joint Committee on State Administration and
+      Regulatory Oversight
+  - date: 2024-02-12
+    description: Reporting date extended to July 1, 2024
 ---
