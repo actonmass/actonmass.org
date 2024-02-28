@@ -28,94 +28,93 @@ house_lead_sponsors:
 senate_lead_sponsors:
   - sal-didomenico
 co_sponsors:
+  - joan-meschino
+  - lindsay-sabadosa
+  - david-leboeuf
+  - sal-didomenico
+  - liz-miranda
+  - john-rogers
+  - jack-lewis
+  - michelle-dubois
+  - vanna-howard
+  - james-eldridge
+  - patricia-jehlen
+  - sam-montano
+  - adrian-madaro
+  - erika-uyterhoeven
+  - natalie-higgins
+  - margaret-scarsdale
+  - patrick-kearney
+  - kenneth-gordon
+  - carmine-gentile
+  - kay-khan
+  - rebecca-rausch
+  - patrick-oconnor
+  - john-mahoney
+  - mary-keefe
+  - james-hawkins
+  - priscila-sousa
   - marjorie-decker
   - sean-garballey
   - mindy-domb
   - danielle-gregoire
   - daniel-carey
-  - jack-lewis
-  - tami-gouveia
   - christine-barber
-  - paul-tucker
   - tram-nguyen
   - jay-livingstone
-  - maria-robinson
   - jason-lewis
-  - kenneth-gordon
   - david-linsky
   - james-oday
   - william-galvin
   - jessica-giannino
   - kevin-honan
   - natalie-blais
-  - lindsay-sabadosa
   - carlos-gonzalez
   - dan-sena
   - ted-philips
   - david-rogers
   - steve-owens
-  - david-leboeuf
   - michelle-ciccolo
   - peter-capano
   - carol-doherty
   - tommy-vitolo
   - james-arciero
   - kate-lipper-garabedian
-  - lori-ehrlich
   - brian-murray
-  - nika-elugardo
-  - vanna-howard
   - ruth-balser
-  - adrian-madaro
-  - edward-coppinger
   - tricia-farley-bouvier
   - dylan-fernandes
   - richard-haggerty
   - john-lawn
-  - john-mahoney
   - alice-peisch
   - thomas-stanley
   - steven-ultrino
   - kathleen-lanatra
-  - marcos-devers
-  - john-rogers
   - frank-moran
   - mike-connolly
   - michael-kushmerek
   - daniel-ryan
   - mary-keefe
   - david-biele
-  - natalie-higgins
   - andres-vargas
   - joanne-comerford
   - daniel-donahue
-  - jon-santiago
-  - joseph-boncore
   - jack-lewis
   - joanne-comerford
   - jason-lewis
-  - carmine-gentile
   - thomas-stanley
-  - rebecca-rausch
   - john-rogers
   - nick-collins
-  - mary-keefe
   - brendan-crighton
-  - sal-didomenico
-  - harriette-chandler
-  - james-eldridge
-  - patrick-oconnor
   - christopher-hendricks
-  - christina-minicucci
   - john-barrett
   - michael-barrett
   - julian-cyr
-  - kay-khan
   - patricia-duffy
   - paul-mcmurtry
   - jacob-oliveira
-  - linda-campbell
   - tackey-chan
+  - lydia-edwards
 history:
   - date: 2019-01-22
     description: Referred to the committee on Environment, Natural Resources and Agriculture
