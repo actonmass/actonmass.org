@@ -27,9 +27,14 @@ co_sponsors:
   - liz-miranda
   - patricia-jehlen
   - lindsay-sabadosa
+  - jason-lewis
+  - joan-lovely
 history:
   - date: 2023-01-04
     description: Bill filed as S.1963
   - date: 2023-02-16
     description: Referred to the Joint Committee on Rules
+  - date: 2024-01-25
+    description: Bill reported favorably by committee and referred to the committee
+      on Senate Ways and Means
 ---
