@@ -59,11 +59,22 @@ co_sponsors:
   - rebecca-rausch
   - mike-connolly
   - tommy-vitolo
+  - michelle-ciccolo
+  - dan-sena
+  - natalie-blais
+  - steve-owens
+  - sean-garballey
+  - marjorie-decker
+  - paul-mcmurtry
   - liz-miranda
   - lydia-edwards
   - john-keenan
   - paul-mark
   - sal-didomenico
+  - jason-lewis
+  - brendan-crighton
+  - paul-feeney
+  - robyn-kennedy
 history:
   - date: 2021-01-01
     description: Introduced as H.582
@@ -80,4 +91,8 @@ history:
     description: Bill re-filed as H.536/S.318
   - date: 2023-02-16
     description: Referred to the Joint Committee on Education
+  - date: 2023-10-11
+    description: Joint committee hearing held
+  - date: 2024-02-08
+    description: Reporting date extended to March 15, 2024
 ---
