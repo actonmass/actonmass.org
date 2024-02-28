@@ -87,6 +87,7 @@ co_sponsors:
   - nick-collins
   - sal-didomenico
   - brendan-crighton
+  - patricia-jehlen
 history:
   - date: 2017-01-23
     description: Bill filed as S.1022
@@ -132,4 +133,8 @@ history:
     description: Bill re-filed as H.1099/S.666
   - description: Referred to the Joint Committee on Financial Services
     date: 2023-02-16
+  - date: 2023-11-06
+    description: Joint committee hearing held
+  - date: 2024-02-08
+    description: Reporting date extended to July 31, 2024
 ---
