@@ -28,6 +28,7 @@ co_sponsors:
   - patrick-oconnor
   - marc-pacheco
   - patricia-jehlen
+  - estela-reyes
   - patrick-kearney
   - sam-montano
   - david-leboeuf
@@ -46,6 +47,8 @@ co_sponsors:
   - ryan-hamilton
   - lindsay-sabadosa
   - carol-doherty
+  - steve-owens
+  - dan-sena
 scripts:
   call_request: >-
     My name is \[YOUR NAME], I live in \[TOWN/CITY], and I am the
@@ -184,4 +187,8 @@ history:
   - date: 2023-02-16
     description: Bill referred to the Joint Committee on State Administration and
       Regulatory Oversight
+  - date: 2023-09-20
+    description: Joint committee hearing held
+  - date: 2024-02-12
+    description: Reporting date extended to July 1, 2024
 ---
