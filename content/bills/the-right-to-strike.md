@@ -77,6 +77,7 @@ co_sponsors:
   - carmine-gentile
   - pavel-payano
   - edward-kennedy
+  - robyn-kennedy
 history:
   - date: 2017-01-06
     description: Filed as H.2361
@@ -108,6 +109,13 @@ history:
     description: Bill re-filed as H.1845/S.1217
   - date: 2023-02-16
     description: Referred to the Joint Committee on Labor and Workforce Development
+  - date: 2023-10-24
+    description: Joint committee hearing held
+  - description: Accompanied a study order, S2633
+  - description: Reported favorably by committee and referred to the senate
+      committee on Rules
+  - date: 2024-02-15
+    description: Discharged to the committee on Senate Rules
 timeline:
   - date: 2019-07-09
     description: Hearing
