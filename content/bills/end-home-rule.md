@@ -70,6 +70,14 @@ history:
   - date: 2022-09-01
     description: "Sent to Study (Study Order: H.5204)"
     type: death
+  - date: 2023-02-16
+    description: "Bill reintroduced as H.1304 "
+  - date: 2023-02-16
+    description: Referred to the Joint Committee on Housing
+  - date: 2023-11-06
+    description: Joint committee hearing scheduled
+  - description: Reporting date extended to April 18, 2024
+    date: 2024-02-08
 timeline:
   - description: Referred to the Committee on Housing
     date: 2021-03-29
