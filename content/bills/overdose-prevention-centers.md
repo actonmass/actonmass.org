@@ -99,6 +99,21 @@ co_sponsors:
   - patricia-jehlen
   - jason-lewis
   - brendan-crighton
+  - dan-sena
+  - margaret-scarsdale
+  - kenneth-gordon
+  - daniel-donahue
+  - bud-williams
+  - estela-reyes
+  - peter-capano
+  - judith-garcia
+  - jeffrey-roy
+  - adam-scanlon
+  - mary-keefe
+  - priscila-sousa
+  - adam-gomez
+  - rebecca-rausch
+  - edward-kennedy
 history:
   - date: 2019-01-03
     description: Bill filed as S.1134
@@ -150,4 +165,6 @@ history:
   - date: 2023-02-16
     description: Referred to the Joint Committee on Mental Health, Substance Use and
       Recovery
+  - date: 2023-10-23
+    description: Joint committee hearing held
 ---
