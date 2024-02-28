@@ -75,6 +75,9 @@ co_sponsors:
   - thomas-stanley
   - brendan-crighton
   - mike-connolly
+  - pavel-payano
+  - shirley-arriaga
+  - priscila-sousa
 scripts:
   call_request: >-
     Please support the Safe Communities Act.
@@ -83,59 +86,6 @@ scripts:
     Immigrant communities in Massachusetts should not be subjected to Trump's racist policies.
   email_request:
     subject: Please support the Safe Communities Act!
-timeline: []
-votes:
-  - legislator: william-straus
-    vote: unk
-  - legislator: paul-tucker
-    vote: unk
-  - legislator: dean-tran
-    vote: false
-  - legislator: steven-howitt
-    vote: false
-  - legislator: norman-orrall
-    vote: false
-  - legislator: david-decoste
-    vote: false
-  - legislator: adrian-madaro
-    vote: true
-  - legislator: lindsay-sabadosa
-    vote: true
-  - legislator: joseph-mcgonagle
-    vote: true
-  - legislator: jonathan-hecht
-    vote: true
-  - legislator: natalie-blais
-    vote: true
-  - legislator: daniel-donahue
-    vote: true
-  - legislator: peter-capano
-    vote: true
-  - legislator: daniel-ryan
-    vote: true
-  - legislator: eric-lesser
-    vote: true
-  - legislator: william-brownsberger
-    vote: true
-  - legislator: harriette-chandler
-    vote: true
-  - legislator: cindy-friedman
-    vote: true
-  - legislator: diana-dizoglio
-    vote: true
-  - legislator: joseph-boncore
-    vote: true
-  - null
-  - null
-  - null
-  - null
-  - null
-  - null
-  - null
-  - null
-  - null
-  - null
-  - legislator: michael-rush
 scripts_com_vote:
   call_request: >
     Hi {leg.first_name} {leg.last_name},
@@ -190,4 +140,61 @@ history:
     description: Bill re-filed as H.2288/S.1510
   - date: 2023-02-16
     description: Referred to the Joint Committee on Public Safety and Homeland Security
+  - description: Joint committee hearing held
+    date: 2024-01-22
+  - date: 2024-02-12
+    description: Reporting date extended to April 8, 2024
+timeline: []
+votes:
+  - legislator: william-straus
+    vote: unk
+  - legislator: paul-tucker
+    vote: unk
+  - legislator: dean-tran
+    vote: false
+  - legislator: steven-howitt
+    vote: false
+  - legislator: norman-orrall
+    vote: false
+  - legislator: david-decoste
+    vote: false
+  - legislator: adrian-madaro
+    vote: true
+  - legislator: lindsay-sabadosa
+    vote: true
+  - legislator: joseph-mcgonagle
+    vote: true
+  - legislator: jonathan-hecht
+    vote: true
+  - legislator: natalie-blais
+    vote: true
+  - legislator: daniel-donahue
+    vote: true
+  - legislator: peter-capano
+    vote: true
+  - legislator: daniel-ryan
+    vote: true
+  - legislator: eric-lesser
+    vote: true
+  - legislator: william-brownsberger
+    vote: true
+  - legislator: harriette-chandler
+    vote: true
+  - legislator: cindy-friedman
+    vote: true
+  - legislator: diana-dizoglio
+    vote: true
+  - legislator: joseph-boncore
+    vote: true
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - legislator: michael-rush
 ---
