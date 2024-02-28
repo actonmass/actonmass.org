@@ -147,6 +147,9 @@ co_sponsors:
   - john-keenan
   - sean-garballey
   - michelle-dubois
+  - john-barrett
+  - russell-holmes
+  - susan-moran
 history:
   - date: 2019-01-22
     description: Bill filed
@@ -168,5 +171,9 @@ history:
     description: Bill re-introduced as H.495/S.744
   - date: 2023-02-16
     description: Referred to the Joint Committee on Education
+  - description: Joint committee hearing held
+    date: 2023-10-04
+  - date: 2024-02-08
+    description: Reporting date extended to June 30, 2024
 timeline: []
 ---
