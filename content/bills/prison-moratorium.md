@@ -92,6 +92,8 @@ co_sponsors:
   - mary-keefe
   - mindy-domb
   - manny-cruz
+  - jack-lewis
+  - jason-lewis
 history:
   - date: 2021-03-03
     description: Bill filed as H/1905/S.2030
