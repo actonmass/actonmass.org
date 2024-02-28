@@ -107,22 +107,32 @@ co_sponsors:
   - rita-mendes
   - brian-ashe
   - david-linsky
-  - adam-gomez
+  - rebecca-rausch
+  - sean-garballey
+  - tram-nguyen
+  - michael-moran
+  - jennifer-armini
   - vanna-howard
   - jacob-oliveira
   - paul-mark
   - cynthia-creem
+  - patricia-jehlen
+  - adam-gomez
   - liz-miranda
   - lydia-edwards
   - julian-cyr
   - john-keenan
-  - rebecca-rausch
-  - sean-garballey
   - brendan-crighton
   - jason-lewis
-  - tram-nguyen
-  - michael-moran
-  - jennifer-armini
+  - russell-holmes
+  - judith-garcia
+  - kevin-honan
+  - manny-cruz
+  - antonio-cabral
+  - michelle-ciccolo
+  - daniel-donahue
+  - michael-kushmerek
+  - estela-reyes
 history:
   - date: 2011-01-24
     description: Bill filed (as H338)
@@ -172,6 +182,8 @@ history:
     description: Bill re-introduced as H.1239/S.744
   - date: 2023-02-16
     description: Referred to the Joint Committee on Health Care Financing
+  - date: 2023-11-14
+    description: Joint committee hearing held
 timeline:
   - date: 2019-01-22
     description: Referred to the Committee on Health Care Financing
