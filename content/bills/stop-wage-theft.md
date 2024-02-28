@@ -175,6 +175,14 @@ co_sponsors:
   - david-robertson
   - priscila-sousa
   - patricia-jehlen
+  - william-macgregor
+  - richard-haggerty
+  - meghan-kilcoyne
+  - manny-cruz
+  - simon-cataldo
+  - judith-garcia
+  - marcus-vaughn
+  - pavel-payano
 history:
   - date: 2015-01-20
     description: Filed as H.1748
@@ -229,6 +237,10 @@ history:
     description: Bill re-filed as H.1868/S.1158
   - date: 2023-02-16
     description: Referred to the Joint Committee on Labor and Workforce Development
+  - date: 2023-09-19
+    description: Joint committee hearing held
+  - date: 2024-02-08
+    description: Reporting date extended to April 10, 2024
 timeline:
   - description: Sent to the Labor and Workforce Committee
     date: 2019-01-22
