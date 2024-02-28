@@ -79,6 +79,7 @@ co_sponsors:
   - robyn-kennedy
   - patrick-oconnor
   - patrick-kearney
+  - manny-cruz
 history:
   - description: "Bill filed for the first time "
     date: 2020-07-02
@@ -107,4 +108,6 @@ history:
     description: Bill re-filed as H.2708/S.1925
   - date: 2023-02-16
     description: Referred to the Joint Committee on Revenue
+  - date: 2023-05-16
+    description: Joint committee hearing held
 ---
