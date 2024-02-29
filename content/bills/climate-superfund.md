@@ -74,15 +74,47 @@ co_sponsors:
   - brian-murray
   - erika-uyterhoeven
   - william-driscoll
+  - marjorie-decker
+  - dylan-fernandes
+  - marc-pacheco
+  - kate-donaghue
+  - david-linsky
+  - michelle-ciccolo
+  - manny-cruz
+  - ted-philips
+  - john-mahoney
+  - russell-holmes
+  - jennifer-armini
+  - christine-barber
+  - mary-keefe
+  - judith-garcia
+  - peter-capano
+  - kristin-kassner
+  - sean-garballey
+  - james-hawkins
   - vanna-howard
   - joanne-comerford
   - patricia-jehlen
   - sal-didomenico
   - michael-moore
+  - adam-gomez
   - liz-miranda
+  - brendan-crighton
+  - edward-kennedy
+  - joan-lovely
+  - pavel-payano
 history:
   - date: 2023-01-04
     description: " Bill introduced as H.872/S.481"
   - date: 2023-02-16
     description: Referred to the Joint Committee on Environment and Natural Resources
+  - date: 2023-05-17
+    description: Joint committee hearing held
+  - date: 2024-02-15
+    description: Accompanied a study order, S2649
+  - date: 2024-02-15
+    description: Order reported favorably by committee and referred to the Joint
+      Committee on Rules
+  - date: 2024-02-20
+    description: Discharged to the committee on Senate Rules
 ---
