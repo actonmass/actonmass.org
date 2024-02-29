@@ -56,7 +56,7 @@ co_sponsors:
   - michael-moore
   - michael-brady
   - vanna-howard
-  - aaron-michlewitz
+  - jack-lewis
   - lydia-edwards
   - sam-montano
   - sean-garballey
@@ -69,10 +69,14 @@ co_sponsors:
   - tommy-vitolo
   - william-driscoll
   - tackey-chan
+  - kip-diggs
+  - rebecca-rausch
 history:
   - date: 2023-01-04
     description: Bill filed as H.3016
   - date: 2023-02-16
     description: Referred to the Joint Committee on State Administration and
       Regulatory Oversight
+  - date: 2023-10-04
+    description: Joint committee hearing held
 ---
