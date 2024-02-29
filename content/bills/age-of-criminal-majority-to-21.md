@@ -108,7 +108,7 @@ history:
   - date: 2023-01-04
     description: Bill re-introduced as H.1710
     type: null
-  - description: Hearing held by the committee Judiciary Committee
+  - description: Hearing held by the Judiciary Committee
     date: 2023-09-26
   - date: 2024-02-05
     description: Reporting date extended to Tuesday April 30, 2024
