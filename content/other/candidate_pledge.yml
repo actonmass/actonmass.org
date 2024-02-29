@@ -1,1 +1,7 @@
-candidates: []
+candidates:
+  - first_name: Bill
+    last_name: Humphrey
+    party: D
+    district_name: 12th Middlesex
+    chamber: house
+    square_picture: /img/legislators/candidates/bill-humphrey-headshot-february-2024-1000x1000.jpg
