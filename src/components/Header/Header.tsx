@@ -28,7 +28,7 @@ export default function Header() {
               <DropdownMenu title="Initiatives" items={generalSettings.initiatives_menu} />
             </li>
             <li>
-              <DropdownMenu title="Learn More" items={generalSettings.learn_more_menu} />
+              <DropdownMenu title="Resources" items={generalSettings.learn_more_menu} />
             </li>
             <li>
               <a
