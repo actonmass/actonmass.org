@@ -3,8 +3,8 @@ aom_id: 100-renewable-energy-by-2045
 title: 100% Renewable Energy by 2045
 full_title: An Act re-powering Massachusetts with 100 percent renewable energy
 twitter_bill_name: 100% Renewable Energy by 2045
-house_no: HD.3348
-house_link: https://malegislature.gov/Bills/193/HD3348
+house_no: H.3689
+house_link: https://malegislature.gov/Bills/193/H3689
 senate_no: ""
 senate_link: ""
 committee: joint-telecommunications-utilities-and-energy
@@ -151,7 +151,7 @@ history:
   - date: 2023-07-11
     description: "Joint Hearing scheduled for 07/13/2023 "
   - date: 2024-02-12
-    description: Reporting date extended to April 7, 2024
+    description: " Reporting date extended to April 7, 2024"
 timeline:
   - date: 2019-01-22
     description: Bill referred to TUE Committee
