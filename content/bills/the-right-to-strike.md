@@ -112,10 +112,8 @@ history:
   - date: 2023-10-24
     description: Joint committee hearing held
   - description: Accompanied a study order, S2633
-  - description: Reported favorably by committee and referred to the senate
-      committee on Rules
-  - date: 2024-02-15
-    description: Discharged to the committee on Senate Rules
+    date: 2024-02-12
+    type: death
 timeline:
   - date: 2019-07-09
     description: Hearing
