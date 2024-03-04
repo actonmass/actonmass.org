@@ -134,5 +134,6 @@ history:
   - date: 2023-07-26
     description: Joint committee hearing held
   - description: Reporting date extended to July 1, 2024
+    date: 2024-02-12
 timeline: []
 ---
