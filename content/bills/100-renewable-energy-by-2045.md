@@ -152,6 +152,7 @@ history:
     description: "Joint Hearing scheduled for 07/13/2023 "
   - date: 2024-02-12
     description: " Reporting date extended to April 7, 2024"
+    type: null
 timeline:
   - date: 2019-01-22
     description: Bill referred to TUE Committee
