@@ -140,6 +140,7 @@ history:
   - date: 2022-05-02
     description: Reporting date extended to June 2, 2022
   - description: Reporting date extended to June 30, 2022
+    date: 2022-06-08
   - description: No further action taken by the committee on Telecommunications,
       Utilities and Energy
     date: 2023-01-03
