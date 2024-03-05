@@ -135,6 +135,7 @@ co_sponsors:
   - michelle-ciccolo
   - sally-kerans
   - patricia-haddad
+  - adrianne-ramons
 history:
   - date: 2011-01-05
     description: Bill filed as H.1063
