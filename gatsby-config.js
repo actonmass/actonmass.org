@@ -1,4 +1,5 @@
 module.exports = {
+  graphqlTypegen: true,
   siteMetadata: {
     title: "Act On Mass",
   },
@@ -39,12 +40,6 @@ module.exports = {
       },
     },
     "gatsby-transformer-remark",
-    {
-      resolve: `gatsby-plugin-typegen`,
-      options: {
-        outputPath: `src/types/__generated__/gatsby-types.ts`,
-      },
-    },
     "gatsby-plugin-react-leaflet",
     "gatsby-plugin-meta-redirect",
     {
