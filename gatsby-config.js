@@ -51,7 +51,6 @@ module.exports = {
       // Useful for redirects, but we don't want their caching policy.
       resolve: `gatsby-plugin-netlify`,
       options: {
-        mergeLinkHeaders: false,
         mergeCachingHeaders: false,
       },
     },
