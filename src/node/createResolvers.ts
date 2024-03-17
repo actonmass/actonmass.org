@@ -4,7 +4,7 @@ export default function ({ createResolvers }) {
       cosponsored_bills: {
         type: ["Bill"],
         resolve: async (leg, args, context, info) => {
-          const bills = await context.nodeModel.runQuery({
+          const { entries: bills } = await context.nodeModel.findAll({
             query: {
               filter: { co_sponsors: { elemMatch: { id: { eq: leg.id } } } },
             },
@@ -79,7 +79,7 @@ export default function ({ createResolvers }) {
       bills: {
         type: ["Bill"],
         resolve: async (issue, args, context, info) => {
-          const bills = await context.nodeModel.runQuery({
+          const { entries: bills } = await context.nodeModel.findAll({
             query: {
               filter: { issue: { id: { eq: issue.id } } },
             },
