@@ -25,7 +25,7 @@ These aren't Massachusetts values. We need to take a stand to protect the people
 
 **You can take three easy steps today:**
 
-1.  **Send an email testifying in support of H.4652 to the judiciary committee**, which is holding a hearing on Tuesday. You won't be able to testify in person, only over email sent to: <Claire.Cronin@mahouse.gov> and <James.Eldridge@masenate.gov>. Write "Testimony in Favor of H.4652" as the subject line. Deadline is Tuesday at 5PM.
+1.  **Send an email testifying in support of H.4652 to the judiciary committee**, which is holding a hearing on Tuesday. You won't be able to testify in person, only over email sent to: Claire.Cronin@mahouse.gov and James.Eldridge@masenate.gov. Write "Testimony in Favor of H.4652" as the subject line. Deadline is Tuesday at 5PM.
 
 2.  Ask your Rep & Senator to co-sponsor this bill: You can look up their contact info [here](https://malegislature.gov/Search/FindMyLegislator?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-8tvvKIJWztvg8ii2dXl9r_2H6cVCuWnH9gsaYP5RdhjK8iwwhg9MIqPkAd5mx4b7A47cPU). You can simply forward your testimony to your legislators with a note at the top asking them to co-sponsor the bill.
 

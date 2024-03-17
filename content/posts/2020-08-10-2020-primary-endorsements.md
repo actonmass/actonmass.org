@@ -24,7 +24,7 @@ We believe some of the candidates for office this year will help build on that m
 
 Dr. Marianela Rivera is an education justice advocate from Lawrence. One of her key issues is fighting for equity in education funding, and ensuring that the education funding passed last year isn’t delayed or reduced.
 
-Learn more: <https://www.riveraforstaterep.com/>\
+Learn more: https://www.riveraforstaterep.com
 17th Essex District (Lawrence, Andover, Methuen)
 
 ![Damali Vidot](/img/vidotsm.jpg "Damali Vidot")
@@ -33,7 +33,7 @@ Learn more: <https://www.riveraforstaterep.com/>\
 
 Damali Vidot is currently a city councilor from Chelsea, a community hit disproportionately hard by Covid-19. But the lack of investment in communities like Chelsea goes back decades. Our state must do more, and Damali will help make sure that happens.
 
-Learn more: <https://www.votedamali.org/>
+Learn more: [https://www.votedamali.org](https://www.votedamali.org)
 
 2nd Suffolk District (Chelsea & Charlestown)
 
@@ -43,7 +43,7 @@ Learn more: <https://www.votedamali.org/>
 
 Ceylan Rowe was one of the first candidates to sign our transparency pledge, and has made transparency a hallmark of her campaign. There has never been a Muslim-American elected to the MA State House, but Ceylan could be the first.
 
-Learn more: <https://www.roweforrep.com/>
+Learn more: [https://www.roweforrep.com](https://www.roweforrep.com)
 
 12th Worcester District (Berlin, Boylston, Clinton, Lancaster, Northborough and Sterling)
 
@@ -53,7 +53,7 @@ Learn more: <https://www.roweforrep.com/>
 
 Jordan Meehan is a housing and climate activist in Allston-Brighton. He’s running on a Green New Deal for Massachusetts and has made housing justice a cornerstone of his campaign, fighting for rent control and tenant protections to curb the displacement that is decimating Allston-Brighton.
 
-Learn more: <https://www.jordanforma.com/>
+Learn more: [https://www.jordanforma.com](https://www.jordanforma.com)
 
 17th Suffolk District (Boston, Allston-Brighton)
 
@@ -63,7 +63,7 @@ Learn more: <https://www.jordanforma.com/>
 
 Joe Gravellese has a ton of experience working in state and local government, and we’re glad he’s decided to run for office. Joe is an advocate for working people and will fight for legislation like the bill to crack down on Wage Theft. Despite supermajorities of our legislature saying they support the bill, it hasn’t been passed in four years.
 
-Learn more: <https://www.joegrav.com/>
+Learn more: [https://www.joegrav.com](https://www.joegrav.com)
 
 16th Suffolk District (Revere, Chelsea, Saugus)
 
@@ -73,7 +73,7 @@ Learn more: <https://www.joegrav.com/>
 
 As a transportation expert and longtime activist, Steve Owens is running to fill the seat left by Jonathan Hecht, one of the Reps who has been fighting for transparency reforms in the House longer than anyone. Steve will ably continue that legacy, and we need him in the State House.
 
-Learn more: <https://votesteveowens.com/>[](https://www.riveraforstaterep.com/)\
+Learn more: https://votesteveowens.com, https://www.riveraforstaterep.com
 29th Middlesex District (Watertown & Cambridge)
 
 ![Andrew Flowers](/img/flowerssm.jpg "Andrew Flowers")

@@ -10,6 +10,7 @@ export default async function createPostPages(graphql, createPage, createRedirec
             id
             title
             href
+            path
             redirect_from
             parent {
               ... on Mdx {
@@ -25,7 +26,7 @@ export default async function createPostPages(graphql, createPage, createRedirec
       throw result.errors;
     }
 
-    const component = path.resolve(`src/layouts/pages/PostPage.tsx`);
+    const layout = path.resolve(`src/layouts/pages/PostPage.tsx`);
 
     result.data.allPost.nodes.forEach((post, idx) => {
       const prevPost = result.data.allPost.nodes[idx - 1];
@@ -39,7 +40,7 @@ export default async function createPostPages(graphql, createPage, createRedirec
 
       createPage({
         path: post.href,
-        component,
+        component: `${layout}?__contentFilePath=${post.path}`,
         context,
       });
 

@@ -14,7 +14,7 @@ Tuesday, State Rep Mike Connolly introduced an amendment to the budget that woul
 
 ![](/img/11-13-19taxf5.png)
 
-Source: "Substantial Income of Wealthy Households Escapes Annual Taxation or Enjoys Special Tax Breaks," Center for Budget and Policy Priorities, <https://www.cbpp.org/research/federal-tax/substantial-income-of-wealthy-households-escapes-annual-taxation-or-enjoys>
+Source: "Substantial Income of Wealthy Households Escapes Annual Taxation or Enjoys Special Tax Breaks," Center for Budget and Policy Priorities, https://www.cbpp.org/research/federal-tax/substantial-income-of-wealthy-households-escapes-annual-taxation-or-enjoys
 
 # [](https://www.cbpp.org/research/federal-tax/substantial-income-of-wealthy-households-escapes-annual-taxation-or-enjoys)How did your Rep Vote
 

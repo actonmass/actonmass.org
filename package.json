@@ -8,7 +8,7 @@
     "gatsby"
   ],
   "scripts": {
-    "develop": "gatsby develop",
+    "develop": "NODE_OPTIONS=\"--max-old-space-size=8192\" gatsby develop",
     "dev": "netlify dev",
     "start": "gatsby develop",
     "build": "GATSBY_EXPERIMENTAL_PAGE_BUILD_ON_DATA_CHANGES=true gatsby build --log-pages",

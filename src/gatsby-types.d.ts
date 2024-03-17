@@ -4882,6 +4882,7 @@ type Post = Node & {
   readonly image: Maybe<Scalars['String']>;
   readonly internal: Internal;
   readonly parent: Maybe<Node>;
+  readonly path: Maybe<Scalars['String']>;
   readonly redirect_from: Maybe<ReadonlyArray<Maybe<Scalars['String']>>>;
   readonly title: Maybe<Scalars['String']>;
 };
@@ -4940,6 +4941,7 @@ type PostFieldSelector = {
   readonly image: InputMaybe<FieldSelectorEnum>;
   readonly internal: InputMaybe<InternalFieldSelector>;
   readonly parent: InputMaybe<NodeFieldSelector>;
+  readonly path: InputMaybe<FieldSelectorEnum>;
   readonly redirect_from: InputMaybe<FieldSelectorEnum>;
   readonly title: InputMaybe<FieldSelectorEnum>;
 };
@@ -4953,6 +4955,7 @@ type PostFilterInput = {
   readonly image: InputMaybe<StringQueryOperatorInput>;
   readonly internal: InputMaybe<InternalFilterInput>;
   readonly parent: InputMaybe<NodeFilterInput>;
+  readonly path: InputMaybe<StringQueryOperatorInput>;
   readonly redirect_from: InputMaybe<StringQueryOperatorInput>;
   readonly title: InputMaybe<StringQueryOperatorInput>;
 };
@@ -5007,6 +5010,7 @@ type PostSortInput = {
   readonly image: InputMaybe<SortOrderEnum>;
   readonly internal: InputMaybe<InternalSortInput>;
   readonly parent: InputMaybe<NodeSortInput>;
+  readonly path: InputMaybe<SortOrderEnum>;
   readonly redirect_from: InputMaybe<SortOrderEnum>;
   readonly title: InputMaybe<SortOrderEnum>;
 };
@@ -5555,6 +5559,7 @@ type Query_postArgs = {
   image: InputMaybe<StringQueryOperatorInput>;
   internal: InputMaybe<InternalFilterInput>;
   parent: InputMaybe<NodeFilterInput>;
+  path: InputMaybe<StringQueryOperatorInput>;
   redirect_from: InputMaybe<StringQueryOperatorInput>;
   title: InputMaybe<StringQueryOperatorInput>;
 };

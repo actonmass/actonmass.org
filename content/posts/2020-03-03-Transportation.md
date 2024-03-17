@@ -100,7 +100,7 @@ That's a very real way in which debate and discussion are squelched in the House
 -   **✅SUPPORT #72 - Free & Reduced fairs **- Dedicates the $9M-11M in revenue saved through amendment #70 to be used to give residents reduced or free fairs on MBTA, commuter rail, and regional transportation systems. The amendment prioritizes Environmental Justice & low income communities.
 -   **✅SUPPORT #60 - Free bus fares (Boston & Regional Bus Networks) **- This amendment dedicates a fifth of the gas tax revenue to providing free bus service to people using the MBTA, and another fifth of the gas tax revenue to providing free bus service to riders of RTAs in different regions of the state outside Boston.  This helps low income people & the environment.  It's win win!
 
-You can look up your State Rep here: <https://malegislature.gov/Search/FindMyLegislator>
+You can look up your State Rep here: https://malegislature.gov/Search/FindMyLegislator
 
 ***Sample Script:***
 

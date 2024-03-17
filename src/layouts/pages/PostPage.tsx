@@ -1,6 +1,5 @@
 import React from "react";
 import { PageProps, Link, graphql } from "gatsby";
-import { MDXRenderer } from "gatsby-plugin-mdx";
 import moment from "moment";
 
 import { BreadCrum } from "../../components";
@@ -26,6 +25,7 @@ type Data = {
 export default function PostPage({
   pageContext,
   data: { post: page },
+  children,
 }: PageProps<Data, PageContext>) {
   return (
     <BaseLayout title={page.title} image={page.image}>
@@ -41,9 +41,7 @@ export default function PostPage({
                 <p className="post-date fLight">Posted on {formatDate(page.date)}</p>
               </div>
               <div className="post-content">
-                <div>
-                  <MDXRenderer>{page.parent.body}</MDXRenderer>
-                </div>
+                <div>{children}</div>
               </div>
             </div>
             <ul className="pager">
@@ -77,16 +75,11 @@ function formatDate(date: string) {
 }
 
 export const query = graphql`
-  query($id: String) {
+  query ($id: String) {
     post(id: { eq: $id }) {
       title
       date
       image
-      parent {
-        ... on Mdx {
-          body
-        }
-      }
     }
   }
 `;
