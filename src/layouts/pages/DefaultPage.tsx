@@ -33,11 +33,6 @@ export const query = graphql`
   query ($id: String) {
     page(id: { eq: $id }) {
       title
-      parent {
-        ... on Mdx {
-          body
-        }
-      }
     }
   }
 `;
