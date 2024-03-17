@@ -175,7 +175,7 @@ export default function Home({ data }) {
 
 export const query = graphql`
   {
-    allIssue(sort: { fields: order }) {
+    allIssue(sort: { order: ASC }) {
       nodes {
         aom_id
         href

@@ -91,8 +91,8 @@ export default function NewsPage({ data, pageContext }: PageProps<DataProps, Pag
 }
 
 export const query = graphql`
-  query($skip: Int!, $limit: Int!) {
-    allNews(sort: { fields: [date], order: DESC }, skip: $skip, limit: $limit) {
+  query ($skip: Int!, $limit: Int!) {
+    allNews(sort: { date: DESC }, skip: $skip, limit: $limit) {
       nodes {
         title
         author

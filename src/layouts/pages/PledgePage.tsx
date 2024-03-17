@@ -145,7 +145,7 @@ export const query = graphql`
         }
       }
     }
-    legs: allLegislator(filter: { pledge: { eq: true } }, sort: { fields: last_name }) {
+    legs: allLegislator(filter: { pledge: { eq: true } }, sort: { last_name: ASC }) {
       nodes {
         square_picture
         last_name

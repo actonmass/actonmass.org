@@ -73,8 +73,8 @@ export default function BlogPage({ data, pageContext }: PageProps<DataProps, Pag
 }
 
 export const query = graphql`
-  query($skip: Int!, $limit: Int!) {
-    allPost(sort: { fields: [date], order: DESC }, skip: $skip, limit: $limit) {
+  query ($skip: Int!, $limit: Int!) {
+    allPost(sort: { date: DESC }, skip: $skip, limit: $limit) {
       nodes {
         date
         image

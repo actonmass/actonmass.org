@@ -76,7 +76,7 @@ export default function AboutUsPage({ data }: PageProps<QueryProps>) {
 
 export const query = graphql`
   query {
-    allTeamMember(sort: { fields: order }, filter: { hidden: { eq: false } }) {
+    allTeamMember(sort: { order: ASC }, filter: { hidden: { eq: false } }) {
       nodes {
         name
         body

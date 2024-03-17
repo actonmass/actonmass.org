@@ -62,12 +62,11 @@ export default function BillsPage({ data }: PageProps<QueryProps, { title?: stri
 }
 
 export const query = graphql`
-  query($id: String) {
+  query ($id: String) {
     page(id: { eq: $id }) {
       title
     }
-
-    allIssue(sort: { fields: order }) {
+    allIssue(sort: { order: ASC }) {
       nodes {
         title
         logo

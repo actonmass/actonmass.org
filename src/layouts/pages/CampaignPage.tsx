@@ -185,8 +185,7 @@ export const query = graphql`
         }
       }
     }
-
-    allLegislator(sort: { fields: last_name }, filter: { supports_the_campaign: { eq: true } }) {
+    allLegislator(sort: { last_name: ASC }, filter: { supports_the_campaign: { eq: true } }) {
       nodes {
         href
         first_name
