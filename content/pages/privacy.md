@@ -17,7 +17,9 @@ Membership has a number of benefits:
 
 
 To join, simply fill out the [membership application form](/#sign-up-form).
-<!-- And find an event near you to attend and learn more! -->
+
+
+{/* And find an event near you to attend and learn more!  */}
 
 You can find more detailed legalese [here](/membership).
 ​

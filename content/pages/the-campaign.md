@@ -36,6 +36,8 @@ our campaign for a healthy democracy.
 
 <LegislatorSearch theme="dark" mode="campaign" text="Where does your rep stand on public committee votes?" width="1000" hideSenator={true} />
 
+{/* 
+
 <!-- Leaving as a comment in case this will be used later -->
 <!-- <Section color="medium-blue" width="1000">
 
@@ -53,6 +55,7 @@ our campaign for a healthy democracy.
 <SupportingReps />
 
 </Section> -->
+*/}
 
 <Section color="light-blue" width="1000">
 
@@ -108,6 +111,7 @@ our campaign for a healthy democracy.
 
 </Section>
 
+{/* 
 <!-- <Section color="light" width="1000"> -->
 
 <!-- Leaving as a comment in case this will be used later -->
@@ -147,3 +151,4 @@ our campaign for a healthy democracy.
   Erin Leahy & Ryan Daulton, Commonwealth Magazine, 11/15/2020 -->
 
 <!-- </Section> -->
+*/}

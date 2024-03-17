@@ -9,6 +9,7 @@ export default async function createPagePages(graphql, createPage) {
             id
             layout
             permalink
+            path
           }
         }
       }
@@ -42,7 +43,7 @@ export default async function createPagePages(graphql, createPage) {
       }
       createPage({
         path: page.permalink,
-        component: layout,
+        component: `${layout}?__contentFilePath=${page.path}`,
         context: {
           id: page.id,
         },

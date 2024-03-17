@@ -203,6 +203,7 @@ type Page implements Node @dontInfer {
   permalink: String
   title: String
   layout: String
+  path: String
 }
 
 type Post implements Node @dontInfer {

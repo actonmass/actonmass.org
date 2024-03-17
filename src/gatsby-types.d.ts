@@ -4739,6 +4739,7 @@ type Page = Node & {
   readonly internal: Internal;
   readonly layout: Maybe<Scalars['String']>;
   readonly parent: Maybe<Node>;
+  readonly path: Maybe<Scalars['String']>;
   readonly permalink: Maybe<Scalars['String']>;
   readonly title: Maybe<Scalars['String']>;
 };
@@ -4794,6 +4795,7 @@ type PageFieldSelector = {
   readonly internal: InputMaybe<InternalFieldSelector>;
   readonly layout: InputMaybe<FieldSelectorEnum>;
   readonly parent: InputMaybe<NodeFieldSelector>;
+  readonly path: InputMaybe<FieldSelectorEnum>;
   readonly permalink: InputMaybe<FieldSelectorEnum>;
   readonly title: InputMaybe<FieldSelectorEnum>;
 };
@@ -4804,6 +4806,7 @@ type PageFilterInput = {
   readonly internal: InputMaybe<InternalFilterInput>;
   readonly layout: InputMaybe<StringQueryOperatorInput>;
   readonly parent: InputMaybe<NodeFilterInput>;
+  readonly path: InputMaybe<StringQueryOperatorInput>;
   readonly permalink: InputMaybe<StringQueryOperatorInput>;
   readonly title: InputMaybe<StringQueryOperatorInput>;
 };
@@ -4865,6 +4868,7 @@ type PageSortInput = {
   readonly internal: InputMaybe<InternalSortInput>;
   readonly layout: InputMaybe<SortOrderEnum>;
   readonly parent: InputMaybe<NodeSortInput>;
+  readonly path: InputMaybe<SortOrderEnum>;
   readonly permalink: InputMaybe<SortOrderEnum>;
   readonly title: InputMaybe<SortOrderEnum>;
 };
@@ -5536,6 +5540,7 @@ type Query_pageArgs = {
   internal: InputMaybe<InternalFilterInput>;
   layout: InputMaybe<StringQueryOperatorInput>;
   parent: InputMaybe<NodeFilterInput>;
+  path: InputMaybe<StringQueryOperatorInput>;
   permalink: InputMaybe<StringQueryOperatorInput>;
   title: InputMaybe<StringQueryOperatorInput>;
 };
