@@ -1,12 +1,13 @@
-import React from "react";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faAngleDown } from "@fortawesome/free-solid-svg-icons";
+import "./header.scss";
+
 import { faFacebookF, faInstagram, faTwitter } from "@fortawesome/free-brands-svg-icons";
+import { faAngleDown } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { Link } from "gatsby";
+import React from "react";
 
 import { generalSettings } from "../../content";
-
-import "./header.scss";
+import ModalForm from "../ModalForm";
 
 export default function Header() {
   return (
@@ -43,6 +44,18 @@ export default function Header() {
               >
                 donate
               </a>
+            </li>
+            <li>
+              <ModalForm
+                title="Volunteer"
+                btnClass="btn btn_header fDark fRoboto fBold fUppercase"
+                formId="https://secure.everyaction.com/v1/Forms/YJB5NHfk7UKJGZYYfBv9dw2"
+              />
+              <ModalForm
+                title="Volunteer"
+                btnClass="nav_text fRoboto fLight fDark fUppercase mobile-only"
+                formId="https://secure.everyaction.com/v1/Forms/YJB5NHfk7UKJGZYYfBv9dw2"
+              />
             </li>
             <li>
               <a href="https://www.facebook.com/act.on.massachusetts/" target="_blank">

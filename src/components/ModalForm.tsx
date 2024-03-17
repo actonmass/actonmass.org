@@ -1,7 +1,7 @@
+import { faTimes } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
 import Modal from "react-modal";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faTimes } from "@fortawesome/free-solid-svg-icons";
 
 import NGPVanForm from "./NGPVanForm";
 
@@ -10,9 +10,10 @@ Modal.setAppElement("body");
 type Props = {
   formId: string;
   title: string;
+  btnClass?: string;
 };
 
-export default function SignupForm({ formId, title }: Props) {
+export default function ModalForm({ formId, title, btnClass }: Props) {
   const [modalIsOpen, setIsOpen] = React.useState(false);
 
   const closeModal = () => {
@@ -33,7 +34,7 @@ export default function SignupForm({ formId, title }: Props) {
 
   return (
     <div className="btn-container">
-      <a className="btn" onClick={() => openAndLoad()}>
+      <a className={btnClass ?? "btn"} onClick={() => openAndLoad()}>
         {title}
       </a>
       <Modal
