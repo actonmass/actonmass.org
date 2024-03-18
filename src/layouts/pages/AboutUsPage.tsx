@@ -3,7 +3,6 @@ import { graphql, PageProps } from "gatsby";
 import _ from "lodash";
 import ReactMarkdown from "react-markdown";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { MDXRenderer } from "gatsby-plugin-mdx";
 
 import { BreadCrum, YoutubeVideo } from "../../components";
 
@@ -40,7 +39,7 @@ export default function AboutUsPage({ data }: PageProps<QueryProps>) {
                     <h3 className="fWhite fRegular fUppercase">{section.title}</h3>
                     <div className="about_rect1"></div>
                     <div className="fWhite fLight fRoboto">
-                      <ReactMarkdown source={section.description} />
+                      <ReactMarkdown>{section.description} </ReactMarkdown>
                     </div>
                   </div>
                 </div>
@@ -62,7 +61,7 @@ export default function AboutUsPage({ data }: PageProps<QueryProps>) {
                   <img src={person.photo} alt={person.name} />
                   <p className="fRoboto fBold fUppercase">{person.name}</p>
                   <p className="fRoboto fLight">
-                    <MDXRenderer>{person.body}</MDXRenderer>
+                    <ReactMarkdown>{person.body}</ReactMarkdown>
                   </p>
                 </div>
               ))}
