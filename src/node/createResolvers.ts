@@ -16,42 +16,42 @@ export default function ({ createResolvers }) {
       committees: {
         type: ["LegislatorCommittee"],
         resolve: async (leg, args, context, info) => {
-          const comWhereHouseChair = await context.nodeModel.runQuery({
+          const { entries: comWhereHouseChair } = await context.nodeModel.findAll({
             query: {
               filter: { house_chair: { id: { eq: leg.id } } },
             },
             type: "Committee",
           });
 
-          const comWhereSenateChair = await context.nodeModel.runQuery({
+          const { entries: comWhereSenateChair } = await context.nodeModel.findAll({
             query: {
               filter: { senate_chair: { id: { eq: leg.id } } },
             },
             type: "Committee",
           });
 
-          const comWhereHouseViceChair = await context.nodeModel.runQuery({
+          const { entries: comWhereHouseViceChair } = await context.nodeModel.findAll({
             query: {
               filter: { house_vice_chair: { id: { eq: leg.id } } },
             },
             type: "Committee",
           });
 
-          const comWhereSenateViceChair = await context.nodeModel.runQuery({
+          const { entries: comWhereSenateViceChair } = await context.nodeModel.findAll({
             query: {
               filter: { senate_vice_chair: { id: { eq: leg.id } } },
             },
             type: "Committee",
           });
 
-          const comWhereHouseMember = await context.nodeModel.runQuery({
+          const { entries: comWhereHouseMember } = await context.nodeModel.findAll({
             query: {
               filter: { house_members: { elemMatch: { id: { eq: leg.id } } } },
             },
             type: "Committee",
           });
 
-          const comWhereSenateMember = await context.nodeModel.runQuery({
+          const { entries: comWhereSenateMember } = await context.nodeModel.findAll({
             query: {
               filter: { senate_members: { elemMatch: { id: { eq: leg.id } } } },
             },
