@@ -3,7 +3,6 @@ import { graphql, PageProps } from "gatsby";
 import _ from "lodash";
 import ReactMarkdown from "react-markdown";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { MDXRenderer } from "gatsby-plugin-mdx";
 
 import { BreadCrum, YoutubeVideo } from "../../components";
 
@@ -62,7 +61,7 @@ export default function AboutUsPage({ data }: PageProps<QueryProps>) {
                   <img src={person.photo} alt={person.name} />
                   <p className="fRoboto fBold fUppercase">{person.name}</p>
                   <p className="fRoboto fLight">
-                    <MDXRenderer>{person.body}</MDXRenderer>
+                    <ReactMarkdown>{person.bio}</ReactMarkdown>
                   </p>
                 </div>
               ))}
@@ -79,9 +78,9 @@ export const query = graphql`
     allTeamMember(sort: { order: ASC }, filter: { hidden: { eq: false } }) {
       nodes {
         name
-        body
         photo
         link
+        bio
       }
     }
     page(id: { eq: "/about-us/" }) {

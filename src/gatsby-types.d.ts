@@ -2784,6 +2784,7 @@ type MarkdownRemarkFrontmatter = {
   readonly author: Maybe<Scalars['String']>;
   readonly bill: Maybe<Scalars['String']>;
   readonly bills_to_support_title: Maybe<Scalars['String']>;
+  readonly bio: Maybe<Scalars['String']>;
   readonly catchphrase: Maybe<Scalars['String']>;
   readonly category: Maybe<Scalars['String']>;
   readonly chamber: Maybe<Scalars['String']>;
@@ -2941,6 +2942,7 @@ type MarkdownRemarkFrontmatterFieldSelector = {
   readonly author: InputMaybe<FieldSelectorEnum>;
   readonly bill: InputMaybe<FieldSelectorEnum>;
   readonly bills_to_support_title: InputMaybe<FieldSelectorEnum>;
+  readonly bio: InputMaybe<FieldSelectorEnum>;
   readonly catchphrase: InputMaybe<FieldSelectorEnum>;
   readonly category: InputMaybe<FieldSelectorEnum>;
   readonly chamber: InputMaybe<FieldSelectorEnum>;
@@ -3034,6 +3036,7 @@ type MarkdownRemarkFrontmatterFilterInput = {
   readonly author: InputMaybe<StringQueryOperatorInput>;
   readonly bill: InputMaybe<StringQueryOperatorInput>;
   readonly bills_to_support_title: InputMaybe<StringQueryOperatorInput>;
+  readonly bio: InputMaybe<StringQueryOperatorInput>;
   readonly catchphrase: InputMaybe<StringQueryOperatorInput>;
   readonly category: InputMaybe<StringQueryOperatorInput>;
   readonly chamber: InputMaybe<StringQueryOperatorInput>;
@@ -3387,6 +3390,7 @@ type MarkdownRemarkFrontmatterSortInput = {
   readonly author: InputMaybe<SortOrderEnum>;
   readonly bill: InputMaybe<SortOrderEnum>;
   readonly bills_to_support_title: InputMaybe<SortOrderEnum>;
+  readonly bio: InputMaybe<SortOrderEnum>;
   readonly catchphrase: InputMaybe<SortOrderEnum>;
   readonly category: InputMaybe<SortOrderEnum>;
   readonly chamber: InputMaybe<SortOrderEnum>;
@@ -3731,6 +3735,7 @@ type MdxFrontmatter = {
   readonly author: Maybe<Scalars['String']>;
   readonly bill: Maybe<Scalars['String']>;
   readonly bills_to_support_title: Maybe<Scalars['String']>;
+  readonly bio: Maybe<Scalars['String']>;
   readonly catchphrase: Maybe<Scalars['String']>;
   readonly category: Maybe<Scalars['String']>;
   readonly chamber: Maybe<Scalars['String']>;
@@ -3888,6 +3893,7 @@ type MdxFrontmatterFieldSelector = {
   readonly author: InputMaybe<FieldSelectorEnum>;
   readonly bill: InputMaybe<FieldSelectorEnum>;
   readonly bills_to_support_title: InputMaybe<FieldSelectorEnum>;
+  readonly bio: InputMaybe<FieldSelectorEnum>;
   readonly catchphrase: InputMaybe<FieldSelectorEnum>;
   readonly category: InputMaybe<FieldSelectorEnum>;
   readonly chamber: InputMaybe<FieldSelectorEnum>;
@@ -3981,6 +3987,7 @@ type MdxFrontmatterFilterInput = {
   readonly author: InputMaybe<StringQueryOperatorInput>;
   readonly bill: InputMaybe<StringQueryOperatorInput>;
   readonly bills_to_support_title: InputMaybe<StringQueryOperatorInput>;
+  readonly bio: InputMaybe<StringQueryOperatorInput>;
   readonly catchphrase: InputMaybe<StringQueryOperatorInput>;
   readonly category: InputMaybe<StringQueryOperatorInput>;
   readonly chamber: InputMaybe<StringQueryOperatorInput>;
@@ -4334,6 +4341,7 @@ type MdxFrontmatterSortInput = {
   readonly author: InputMaybe<SortOrderEnum>;
   readonly bill: InputMaybe<SortOrderEnum>;
   readonly bills_to_support_title: InputMaybe<SortOrderEnum>;
+  readonly bio: InputMaybe<SortOrderEnum>;
   readonly catchphrase: InputMaybe<SortOrderEnum>;
   readonly category: InputMaybe<SortOrderEnum>;
   readonly chamber: InputMaybe<SortOrderEnum>;
@@ -5639,7 +5647,7 @@ type Query_sitePluginArgs = {
 
 
 type Query_teamMemberArgs = {
-  body: InputMaybe<StringQueryOperatorInput>;
+  bio: InputMaybe<StringQueryOperatorInput>;
   children: InputMaybe<NodeFilterListInput>;
   fileName: InputMaybe<StringQueryOperatorInput>;
   hidden: InputMaybe<BooleanQueryOperatorInput>;
@@ -6481,6 +6489,7 @@ type StringQueryOperatorInput = {
 };
 
 type TeamMember = Node & {
+  readonly bio: Maybe<Scalars['String']>;
   readonly body: Maybe<Scalars['String']>;
   readonly children: ReadonlyArray<Node>;
   readonly fileName: Scalars['String'];
@@ -6541,7 +6550,7 @@ type TeamMemberEdge = {
 };
 
 type TeamMemberFieldSelector = {
-  readonly body: InputMaybe<FieldSelectorEnum>;
+  readonly bio: InputMaybe<FieldSelectorEnum>;
   readonly children: InputMaybe<NodeFieldSelector>;
   readonly fileName: InputMaybe<FieldSelectorEnum>;
   readonly hidden: InputMaybe<FieldSelectorEnum>;
@@ -6556,7 +6565,7 @@ type TeamMemberFieldSelector = {
 };
 
 type TeamMemberFilterInput = {
-  readonly body: InputMaybe<StringQueryOperatorInput>;
+  readonly bio: InputMaybe<StringQueryOperatorInput>;
   readonly children: InputMaybe<NodeFilterListInput>;
   readonly fileName: InputMaybe<StringQueryOperatorInput>;
   readonly hidden: InputMaybe<BooleanQueryOperatorInput>;
@@ -6612,7 +6621,7 @@ type TeamMemberGroupConnection_sumArgs = {
 };
 
 type TeamMemberSortInput = {
-  readonly body: InputMaybe<SortOrderEnum>;
+  readonly bio: InputMaybe<SortOrderEnum>;
   readonly children: InputMaybe<NodeSortInput>;
   readonly fileName: InputMaybe<SortOrderEnum>;
   readonly hidden: InputMaybe<SortOrderEnum>;

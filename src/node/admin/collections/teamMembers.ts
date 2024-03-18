@@ -36,7 +36,7 @@ export default {
     },
     {
       label: "Bio",
-      name: "body",
+      name: "bio",
       widget: "markdown",
     },
     {

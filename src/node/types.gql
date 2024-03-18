@@ -224,7 +224,7 @@ type TeamMember implements Node @dontInfer {
   link: String
   hidden: Boolean
   order: Int
-  body: String
+  bio: String
 
   # Common calculated
   fileName: String!
