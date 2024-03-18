@@ -13,7 +13,7 @@ Modal.setAppElement("body");
 type Props = {
   txt: string;
   style?: string;
-  leg: GatsbyTypes.Legislator;
+  leg: Queries.Legislator;
   scripts: Scripts;
   isThanks?: boolean;
 };

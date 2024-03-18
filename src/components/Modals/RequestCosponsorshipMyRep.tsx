@@ -6,7 +6,7 @@ import useSessionLegs from "../FindMyReps/useSessionLegs";
 import { RequestCosponsorship } from "./RequestCosponsorship";
 
 type Props = {
-  bill: GatsbyTypes.Bill;
+  bill: Queries.Bill;
 };
 
 export function RequestCosponsorshipMyRep({ bill }: Props) {

@@ -3,7 +3,7 @@ import _ from "lodash";
 
 import BillHistory from "./BillHistory";
 
-export default function HistoryWrapper({ bill }: { bill: GatsbyTypes.Bill }) {
+export default function HistoryWrapper({ bill }: { bill: Queries.Bill }) {
   const events = bill.history.map((event) => {
     if (event.bill_event == null) {
       return event;

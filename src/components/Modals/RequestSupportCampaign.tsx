@@ -7,7 +7,7 @@ import { ContactLegModal } from "./ContactLegModal";
 import { evalScripts } from "./evalScripts";
 
 type Props = {
-  leg: GatsbyTypes.Legislator;
+  leg: Queries.Legislator;
   txt?: string;
 };
 

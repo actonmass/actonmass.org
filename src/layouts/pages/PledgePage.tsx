@@ -11,8 +11,8 @@ import { candidates } from "../../../content/other/candidate_pledge.yml";
 import "./pledge.scss";
 
 type QueryProps = {
-  page: GatsbyTypes.Page;
-  legs: { nodes: GatsbyTypes.Legislator[] };
+  page: Queries.Page;
+  legs: { nodes: Queries.Legislator[] };
 };
 
 // A little hacky... Ideally we should properly put this data in GQL

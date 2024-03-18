@@ -21,7 +21,7 @@ type Data = {
     title: string;
     parent: { body: any };
   };
-  allLegislator: { nodes: GatsbyTypes.Legislator[] };
+  allLegislator: { nodes: Queries.Legislator[] };
 };
 
 export default function CampaignPage({ data, children }: PageProps<Data>) {

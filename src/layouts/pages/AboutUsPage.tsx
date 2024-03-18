@@ -11,8 +11,8 @@ import { BaseLayout } from "..";
 import "./about.scss";
 
 type QueryProps = {
-  page: GatsbyTypes.Page;
-  allTeamMember: { nodes: GatsbyTypes.TeamMember[] };
+  page: Queries.Page;
+  allTeamMember: { nodes: Queries.TeamMember[] };
 };
 
 export default function AboutUsPage({ data }: PageProps<QueryProps>) {

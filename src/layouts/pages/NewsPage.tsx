@@ -7,7 +7,7 @@ import { BreadCrum } from "../../components";
 import "./news.scss";
 
 type DataProps = {
-  allNews: { nodes: GatsbyTypes.News[] };
+  allNews: { nodes: Queries.News[] };
 };
 
 type PageContext = {

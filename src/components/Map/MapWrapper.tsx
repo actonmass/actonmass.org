@@ -5,11 +5,11 @@ import useLegislators from "../useAllCurrentLegislators";
 import LegislatorMap from "./Map";
 
 type Props = {
-  bill: GatsbyTypes.Bill;
+  bill: Queries.Bill;
 };
 
 export default function MapWrapper({ bill }: Props) {
-  const legs = useLegislators() as GatsbyTypes.Legislator[];
+  const legs = useLegislators() as Queries.Legislator[];
   const co_sponsors = new Set((bill.co_sponsors ?? []).map((leg) => leg.id));
   const data = legs.map((leg) => ({
     ...leg,

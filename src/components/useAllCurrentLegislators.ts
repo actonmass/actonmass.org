@@ -8,7 +8,7 @@ type Leg = {
 };
 
 export default function useAllCurrentLegislators(): Leg[] {
-  return useStaticQuery<GatsbyTypes.allLegislatorQuery>(graphql`
+  return useStaticQuery<Queries.allLegislatorQuery>(graphql`
     query allLegislator {
       allLegislator(filter: { end_date: { eq: null } }) {
         nodes {

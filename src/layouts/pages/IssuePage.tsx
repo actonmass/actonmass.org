@@ -12,7 +12,7 @@ import BaseLayout from "../BaseLayout";
 import "./issue.scss";
 
 type Props = {
-  issue: GatsbyTypes.Issue;
+  issue: Queries.Issue;
 };
 
 export default function IssuePage({ issue }: Props) {

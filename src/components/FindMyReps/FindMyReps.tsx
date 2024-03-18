@@ -17,7 +17,7 @@ export type Props = {
   theme?: string;
   allowSelect?: boolean;
   showResultIfEmpty?: boolean;
-  bill?: GatsbyTypes.Bill;
+  bill?: Queries.Bill;
   mode?: "pledge" | "campaign" | "bill";
   width?: string;
   hideSenator?: boolean;

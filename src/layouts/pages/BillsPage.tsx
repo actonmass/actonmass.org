@@ -9,7 +9,7 @@ import { BaseLayout } from "..";
 import "./bills.scss";
 
 type QueryProps = {
-  allIssue: { nodes: GatsbyTypes.Issue[] };
+  allIssue: { nodes: Queries.Issue[] };
   page: { title: string };
 };
 

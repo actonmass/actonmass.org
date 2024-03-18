@@ -14,8 +14,8 @@ import { RequestCosponsorship } from "../../components/Modals/RequestCosponsorsh
 import "./legislator.scss";
 
 type Props = {
-  leg: GatsbyTypes.Legislator;
-  issues: GatsbyTypes.Issue[];
+  leg: Queries.Legislator;
+  issues: Queries.Issue[];
 };
 
 export default function LegislatorPage({ leg, issues }: Props) {

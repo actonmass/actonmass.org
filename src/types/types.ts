@@ -16,7 +16,7 @@ export type EmailScript = {
   body: string;
 };
 
-export function enrichLeg(leg: GatsbyTypes.Legislator) {
+export function enrichLeg(leg: Queries.Legislator) {
   const title = leg.chamber == "house" ? "rep" : "sen";
   return {
     ...leg,

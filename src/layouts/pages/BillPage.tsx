@@ -11,7 +11,7 @@ import BaseLayout from "../BaseLayout";
 import "./bill.scss";
 
 type Props = {
-  bill: GatsbyTypes.Bill;
+  bill: Queries.Bill;
 };
 
 export default function BillPage({ bill }: Props) {

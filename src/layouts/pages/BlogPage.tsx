@@ -8,7 +8,7 @@ import { BreadCrum } from "../../components";
 import "./blog.scss";
 
 type DataProps = {
-  allPost: { nodes: GatsbyTypes.Post[] };
+  allPost: { nodes: Queries.Post[] };
 };
 
 type PageContext = {

@@ -10,9 +10,9 @@ import { RequestSignPledge } from "../Modals/RequestSignPledge";
 import { RequestCosponsorship } from "../Modals/RequestCosponsorship";
 
 type Props = {
-  leg: GatsbyTypes.Legislator;
+  leg: Queries.Legislator;
   chamber: "house" | "senate";
-  bill?: GatsbyTypes.Bill;
+  bill?: Queries.Bill;
   mode?: "pledge" | "campaign" | "bill";
 };
 
