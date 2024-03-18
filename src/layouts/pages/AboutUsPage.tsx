@@ -39,7 +39,7 @@ export default function AboutUsPage({ data }: PageProps<QueryProps>) {
                     <h3 className="fWhite fRegular fUppercase">{section.title}</h3>
                     <div className="about_rect1"></div>
                     <div className="fWhite fLight fRoboto">
-                      <ReactMarkdown>{section.description} </ReactMarkdown>
+                      <ReactMarkdown source={section.description} />
                     </div>
                   </div>
                 </div>

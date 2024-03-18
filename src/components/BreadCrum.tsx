@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "gatsby";
 
 type Props = {
-  title: string;
+  title?: string;
   links?: {
     text: string;
     href: string;
@@ -27,7 +27,7 @@ export default function BreadCrum({ title, links }: Props) {
           </li>
         ))}
 
-      <li>{title.toUpperCase()}</li>
+      <li>{(title ?? "").toUpperCase()}</li>
     </ul>
   );
 }

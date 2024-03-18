@@ -10,7 +10,7 @@ import "./bills.scss";
 
 type QueryProps = {
   allIssue: { nodes: Queries.Issue[] };
-  page: { title: string };
+  page: Queries.Page;
 };
 
 export default function BillsPage({ data }: PageProps<QueryProps, { title?: string }>) {

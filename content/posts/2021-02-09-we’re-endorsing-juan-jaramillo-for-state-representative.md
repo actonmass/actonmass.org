@@ -5,7 +5,7 @@ date: 2021-02-09T19:31:07.843Z
 image: /img/juan-graphic.png
 ---
 
-<img src="/img/juan-graphic.png" alt="Juan Jaramillo" style="width:500px;"/>
+<img src="/img/juan-graphic.png" alt="Juan Jaramillo" style={{width: "500px"}}/>
 
 If you’ve followed our coverage of the State House, you’ve seen how the inertia and complacency of the State House is keeping us from solving the crises of our time. Important bills sit for months with no action and legislation is frequently killed without a public vote while decisions are made in secret.
 
