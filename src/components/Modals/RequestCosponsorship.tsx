@@ -8,8 +8,8 @@ import { evalScripts, merge } from "./evalScripts";
 import { default_bill_scripts } from "../../content";
 
 type Props = {
-  leg: GatsbyTypes.Legislator;
-  bill: GatsbyTypes.Bill;
+  leg: Queries.Legislator;
+  bill: Queries.Bill;
   style?: string;
   txt?: string;
 };

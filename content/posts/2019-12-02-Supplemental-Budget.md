@@ -6,7 +6,6 @@ title: Why can’t Massachusetts pass a budget on time?
 Why can’t Massachusetts pass a budget on time?
 
 The Massachusetts State Legislature keeps passing budgets late.  Very late.  In 2018 & 2019, Massachusetts was the [last state](https://www.bostonherald.com/2019/07/18/massachusetts-late-budget-embarrassing-watchdog-says/) in the country to finalize a budget to keep the state functioning.  Nine budgets in a row have been late.
-<!--more-->
 
 And now, the legislature failed to pass a year-end closeout supplemental budget before legislators broke for holiday vacation.  Headlines like “[Lawmakers botch budget bill negotiations](https://commonwealthmagazine.org/politics/lawmakers-botch-budget-bill-negotiations/)” certainly aren’t encouraging.
 

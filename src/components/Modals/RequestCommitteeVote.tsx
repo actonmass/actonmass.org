@@ -10,13 +10,10 @@ import { ContactLegModal } from "./ContactLegModal";
 import { evalScripts, merge } from "./evalScripts";
 
 type Props = {
-  bill: GatsbyTypes.Bill;
+  bill: Queries.Bill;
 };
 
-function isOnCommittee(
-  committee: GatsbyTypes.Committee,
-  leg: GatsbyTypes.Legislator | null | undefined
-) {
+function isOnCommittee(committee: Queries.Committee, leg: Queries.Legislator | null | undefined) {
   if (leg == null) {
     return false;
   }

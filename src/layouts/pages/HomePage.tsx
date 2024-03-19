@@ -9,7 +9,7 @@ import HeroContainer from "../../components/HeroImage/HeroContainer";
 import "./home.scss";
 import ModalForm from "../../components/ModalForm";
 
-type Issue = GatsbyTypes.Issue;
+type Issue = Queries.Issue;
 
 export default function Home({ data }) {
   const issues = data.allIssue.nodes as Issue[];
@@ -175,7 +175,7 @@ export default function Home({ data }) {
 
 export const query = graphql`
   {
-    allIssue(sort: { fields: order }) {
+    allIssue(sort: { order: ASC }) {
       nodes {
         aom_id
         href

@@ -18,7 +18,7 @@ Floor votes are not recorded in the Massachusetts House of Representatives unles
 
 (In the chart below, Massachusetts is ranked behind 3 other states who also require 16 Reps in normal circumstances, because state house rules require a set percentage of elected representatives while these other states require a percentage of present representatives. Reps are not always present in session every time a vote is recorded, so in circumstances where several Reps aren't present, there would be fewer reps required to stand for roll call.)
 
-<img src="/img/rollcallchart2.JPG" alt="MA has a higher threshold than 40 other states" style="width:600px;"/>
+<img src="/img/rollcallchart2.JPG" alt="MA has a higher threshold than 40 other states" style={{width: "600px"}}/>
 
 ## Why does this matter?
 

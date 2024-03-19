@@ -5,8 +5,8 @@ import { graphql, PageProps } from "gatsby";
 import LegislatorPageComponent from "../../layouts/pages/LegislatorPage";
 
 type QueryProps = {
-  legislator: GatsbyTypes.Legislator;
-  allIssue: { nodes: GatsbyTypes.Issue[] };
+  legislator: Queries.Legislator;
+  allIssue: { nodes: Queries.Issue[] };
 };
 
 export default function LegislatorPage({ data }: PageProps<QueryProps>) {
@@ -14,7 +14,7 @@ export default function LegislatorPage({ data }: PageProps<QueryProps>) {
 }
 
 export const query = graphql`
-  query($id: String) {
+  query ($id: String) {
     legislator(id: { eq: $id }) {
       last_name
       first_name
@@ -38,8 +38,7 @@ export const query = graphql`
         id
       }
     }
-
-    allIssue(sort: { fields: order }) {
+    allIssue(sort: { order: ASC }) {
       nodes {
         title
         bills {

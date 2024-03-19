@@ -12,6 +12,7 @@ export default function onCreateNode({ node, createContentDigest, getNode, actio
 
   if (collectionPath in collections) {
     const collection = collections[collectionPath];
+    const contentFilePath = node.internal.contentFilePath;
     const fields = node.frontmatter;
     const baseName = fileName.replace(/\.md$/, "");
     const rawItem = {
@@ -21,6 +22,7 @@ export default function onCreateNode({ node, createContentDigest, getNode, actio
       href: `/${collectionPath}/${baseName}/`,
       parent: node.id,
       children: [],
+      path: contentFilePath,
       internal: {
         type: collection.name,
         contentDigest: createContentDigest(fields),

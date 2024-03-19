@@ -1,6 +1,5 @@
 import React from "react";
 import { PageProps, graphql } from "gatsby";
-import { MDXRenderer } from "gatsby-plugin-mdx";
 
 import BaseLayout from "../BaseLayout";
 
@@ -13,26 +12,19 @@ type Data = {
   };
 };
 
-export default function BasePage({ data }: PageProps<Data>) {
+export default function BasePage({ data, children }: PageProps<Data>) {
   const page = data.page;
   return (
     <BaseLayout title={page.title}>
-      <main className="base_page">
-        <MDXRenderer>{page.parent.body}</MDXRenderer>
-      </main>
+      <main className="base_page">{children}</main>
     </BaseLayout>
   );
 }
 
 export const query = graphql`
-  query($id: String) {
+  query ($id: String) {
     page(id: { eq: $id }) {
       title
-      parent {
-        ... on Mdx {
-          body
-        }
-      }
     }
   }
 `;

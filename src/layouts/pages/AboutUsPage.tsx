@@ -3,7 +3,6 @@ import { graphql, PageProps } from "gatsby";
 import _ from "lodash";
 import ReactMarkdown from "react-markdown";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { MDXRenderer } from "gatsby-plugin-mdx";
 
 import { BreadCrum, YoutubeVideo } from "../../components";
 
@@ -12,8 +11,8 @@ import { BaseLayout } from "..";
 import "./about.scss";
 
 type QueryProps = {
-  page: GatsbyTypes.Page;
-  allTeamMember: { nodes: GatsbyTypes.TeamMember[] };
+  page: Queries.Page;
+  allTeamMember: { nodes: Queries.TeamMember[] };
 };
 
 export default function AboutUsPage({ data }: PageProps<QueryProps>) {
@@ -62,7 +61,7 @@ export default function AboutUsPage({ data }: PageProps<QueryProps>) {
                   <img src={person.photo} alt={person.name} />
                   <p className="fRoboto fBold fUppercase">{person.name}</p>
                   <p className="fRoboto fLight">
-                    <MDXRenderer>{person.body}</MDXRenderer>
+                    <ReactMarkdown>{person.body}</ReactMarkdown>
                   </p>
                 </div>
               ))}
@@ -76,7 +75,7 @@ export default function AboutUsPage({ data }: PageProps<QueryProps>) {
 
 export const query = graphql`
   query {
-    allTeamMember(sort: { fields: order }, filter: { hidden: { eq: false } }) {
+    allTeamMember(sort: { order: ASC }, filter: { hidden: { eq: false } }) {
       nodes {
         name
         body

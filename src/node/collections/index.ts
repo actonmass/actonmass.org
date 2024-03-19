@@ -86,5 +86,5 @@ function getPostDate(post) {
     return post.date;
   }
   const [year, month, day, ...titleBits] = post.fileName.split("-");
-  return [year, month, day].join("-");
+  return new Date(year, month, day);
 }

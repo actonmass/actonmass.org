@@ -203,6 +203,7 @@ type Page implements Node @dontInfer {
   permalink: String
   title: String
   layout: String
+  path: String
 }
 
 type Post implements Node @dontInfer {
@@ -210,6 +211,7 @@ type Post implements Node @dontInfer {
   date: Date
   image: String
   redirect_from: [String]
+  path: String
 
   # Common calculated
   fileName: String!

@@ -1,6 +1,5 @@
 import React from "react";
 import { PageProps, graphql } from "gatsby";
-import { MDXRenderer } from "gatsby-plugin-mdx";
 
 import { BreadCrum } from "../../components";
 import BaseLayout from "../BaseLayout";
@@ -14,7 +13,7 @@ type Data = {
   };
 };
 
-export default function DefaultPage({ data }: PageProps<Data>) {
+export default function DefaultPage({ data, children }: PageProps<Data>) {
   const page = data.page;
   return (
     <BaseLayout title={page.title}>
@@ -23,9 +22,7 @@ export default function DefaultPage({ data }: PageProps<Data>) {
           <BreadCrum title={page.title} links={[]} />
         </div>
         <div className="w1200 cbox">
-          <div className="w1000 content">
-            <MDXRenderer>{page.parent.body}</MDXRenderer>
-          </div>
+          <div className="w1000 content">{children}</div>
         </div>
       </main>
     </BaseLayout>
@@ -33,14 +30,9 @@ export default function DefaultPage({ data }: PageProps<Data>) {
 }
 
 export const query = graphql`
-  query($id: String) {
+  query ($id: String) {
     page(id: { eq: $id }) {
       title
-      parent {
-        ... on Mdx {
-          body
-        }
-      }
     }
   }
 `;

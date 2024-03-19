@@ -3,7 +3,7 @@ import { Link } from "gatsby";
 import { startCase } from "lodash";
 
 type Props = {
-  rep: GatsbyTypes.Legislator;
+  rep: Queries.Legislator;
   status: "ok" | "ko";
   size?: string;
   msg?: string;

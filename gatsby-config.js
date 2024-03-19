@@ -1,4 +1,5 @@
 module.exports = {
+  graphqlTypegen: true,
   siteMetadata: {
     title: "Act On Mass",
   },
@@ -39,19 +40,12 @@ module.exports = {
       },
     },
     "gatsby-transformer-remark",
-    {
-      resolve: `gatsby-plugin-typegen`,
-      options: {
-        outputPath: `src/types/__generated__/gatsby-types.ts`,
-      },
-    },
     "gatsby-plugin-react-leaflet",
     "gatsby-plugin-meta-redirect",
     {
       // Useful for redirects, but we don't want their caching policy.
       resolve: `gatsby-plugin-netlify`,
       options: {
-        mergeLinkHeaders: false,
         mergeCachingHeaders: false,
       },
     },

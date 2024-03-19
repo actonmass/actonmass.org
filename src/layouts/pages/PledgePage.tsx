@@ -11,8 +11,8 @@ import { candidates } from "../../../content/other/candidate_pledge.yml";
 import "./pledge.scss";
 
 type QueryProps = {
-  page: GatsbyTypes.Page;
-  legs: { nodes: GatsbyTypes.Legislator[] };
+  page: Queries.Page;
+  legs: { nodes: Queries.Legislator[] };
 };
 
 // A little hacky... Ideally we should properly put this data in GQL
@@ -145,7 +145,7 @@ export const query = graphql`
         }
       }
     }
-    legs: allLegislator(filter: { pledge: { eq: true } }, sort: { fields: last_name }) {
+    legs: allLegislator(filter: { pledge: { eq: true } }, sort: { last_name: ASC }) {
       nodes {
         square_picture
         last_name

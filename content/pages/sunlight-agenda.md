@@ -97,5 +97,3 @@ Last year, Senate staffers announced they had successfully formed a union and as
 </div>
 
 </Section>
-
-<!-- <Section color="light" width="1000"> -->
