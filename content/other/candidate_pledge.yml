@@ -5,3 +5,9 @@ candidates:
     district_name: 12th Middlesex
     chamber: house
     square_picture: /img/legislators/candidates/bill-humphrey-headshot-february-2024-1000x1000.jpg
+  - first_name: Nichole
+    last_name: Mossalam
+    party: D
+    district_name: 35th Middlesex
+    chamber: house
+    square_picture: /img/legislators/candidates/nichole-mossalam.png
