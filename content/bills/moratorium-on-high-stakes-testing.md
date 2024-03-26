@@ -48,9 +48,9 @@ orgs:
   - title: MTA
     img: /img/mta_logo_new_color.png
     link: https://massteacher.org/current-initiatives/high-stakes-testing
-  - link: https://massedjustice.org/highstakes-testing
+  - link: https://www.massedjustice.org/thriveact
     title: MEJA
-    img: /img/meja-logo-final.png
+    img: /img/meja_by_fulllogo.png
   - title: AFT-MA
     img: /img/aft-ma-logo.png
     link: http://ma.aft.org/news/aft-massachusetts-president-beth-kontos-get-ready-big-push-major-education-bill
