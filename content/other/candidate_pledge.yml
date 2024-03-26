@@ -11,3 +11,9 @@ candidates:
     district_name: 35th Middlesex
     chamber: house
     square_picture: /img/legislators/candidates/nichole-mossalam.png
+  - first_name: Evan
+    last_name: MacKay
+    party: D
+    district_name: 25th Middlesex
+    chamber: house
+    square_picture: /img/legislators/candidates/untitled-design-2-.png
