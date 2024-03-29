@@ -1,3 +1,5 @@
+const remarkGfm = require("remark-gfm");
+
 module.exports = {
   graphqlTypegen: true,
   siteMetadata: {
@@ -18,6 +20,9 @@ module.exports = {
       resolve: "gatsby-plugin-mdx",
       options: {
         extensions: [".mdx", ".md"],
+        mdxOptions: {
+          remarkPlugins: [remarkGfm],
+        },
       },
     },
 

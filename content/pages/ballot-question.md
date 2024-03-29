@@ -17,7 +17,7 @@ Because this is a non-binding question, it doesn't become law if passed, but rat
 
 **An average of 84% of voters across 20 districts voted YES to instruct their legislators to vote to make committee votes public.** 
 
-| District       | Representative        | Yes     | Yes%   | No    | No%    | T﻿otal |
+| District       | Representative        | Yes     | Yes%   | No    | No%    | Total  |
 | -------------- | --------------------- | ------- | ------ | ----- | ------ | ------ |
 | 25th Middlesex | Marjorie Decker       | 10,854  | 94.24% | 663   | 5.76%  | 11,517 |
 | 15th Suffolk   | Sam Montaño           | 11,715  | 93.52% | 812   | 6.48%  | 12,527 |
@@ -41,7 +41,7 @@ Because this is a non-binding question, it doesn't become law if passed, but rat
 | 8th Hampden    | Shirley Arriaga       | 8,673   | 74.64% | 2,947 | 25.36% | 11,620 |
 | TOTAL          |                       | 233,400 | 84.25% | 43637 | 15.75% | 277,03 |
 
-![]()
+<br/>
 
 # Ballot Question 4, 2020
 
@@ -49,9 +49,8 @@ Act on Mass ran a similar ballot question in 16 districts in 2020, which passed 
 
 2020 Ballot Question Language: "Shall the representative for this district be instructed to vote in favor of changes to the applicable House of Representative rules to make the results of all the votes in that body's Legislative committees publicly available on the Legislature's website?"
 
-|                |                       |           |          |       |       |                                              |
-| -------------- | --------------------- | --------- | -------- | ----- | ----- | -------------------------------------------- |
 | District       | Rep                   | Votes Yes | Votes No | % Yes | % No  | Rep's vote on public committee votes in 2021 |
+| -------------- | --------------------- | --------- | -------- | ----- | ----- | -------------------------------------------- |
 | 5th Essex      | Ann-Margaret Ferrante | 19338     | 3264     | 85.6% | 14.4% | NO                                           |
 | 1st Franklin   | Natalie Blais         | 21539     | 2762     | 88.6% | 11.4% | NO                                           |
 | 2nd Hampshire  | Daniel Carey          | 20212     | 2982     | 87.1% | 12.9% | NO                                           |
@@ -68,5 +67,4 @@ Act on Mass ran a similar ballot question in 16 districts in 2020, which passed 
 | 17th Suffolk   | Kevin Honan           | 13991     | 996      | 93.4% | 6.6%  | NO                                           |
 | 18th Suffolk   | Michael Moran         | 11557     | 903      | 92.8% | 7.2%  | NO                                           |
 | 19th Suffolk   | Jeffrey Turco         | 11796     | 2418     | 83.0% | 17.0% | NO                                           |
-|                |                       |           |          |       |       |                                              |
 |                | TOTAL                 | 278284    | 31679    | 90%   | 10.0% |                                              |
