@@ -16,7 +16,7 @@ layout: default
 ### Evan Mackay, 25th Middlesex
 
 <div class="endorsement">
-<img src="/img/raul_fernandez.png" class="endorsement-card" alt="Headshot of Evan MacKay with text: &quot;Act on Mass proudly endorses Evan MacKay - State Representative, 25th Middlesex&quot;"/>
+<img src="/static/img/mackay-endorsement-graphic.png" class="endorsement-card" alt="Headshot of Evan MacKay with text: &quot;Act on Mass proudly endorses Evan MacKay - State Representative, 25th Middlesex&quot;"/>
 
 <div class="endorsement-text">
 
