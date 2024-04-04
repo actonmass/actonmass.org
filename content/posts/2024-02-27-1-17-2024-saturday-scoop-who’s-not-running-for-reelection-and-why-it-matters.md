@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "1/17/2024 Saturday Scoop: Who’s not running for reelection and why it matters"
+title: "2/17/2024 Saturday Scoop: Who’s not running for reelection and why it matters"
 date: 2024-02-27T17:55:29.383Z
 image: /img/saturday-scoop-logo.png
 ---
