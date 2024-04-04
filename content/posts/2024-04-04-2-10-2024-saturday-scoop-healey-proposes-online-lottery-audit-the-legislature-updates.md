@@ -1,7 +1,6 @@
 ---
 layout: post
-title: "2/10/2024 Saturday Scoop: Healey proposes online lottery + audit the
-  Legislature updates "
+title: "2/10/2024 Saturday Scoop: Analysis of Joint Rule 10 Day and Healey’s budget"
 date: 2024-02-10T23:39:58.229Z
 image: /img/saturday-scoop-logo.png
 ---
