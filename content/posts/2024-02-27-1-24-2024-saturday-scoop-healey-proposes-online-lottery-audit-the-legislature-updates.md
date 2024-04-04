@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "1/24/2024 Saturday Scoop: Healey proposes online lottery + audit the
+title: "2/24/2024 Saturday Scoop: Healey proposes online lottery + audit the
   Legislature updates "
 date: 2024-02-27T18:04:33.731Z
 image: /img/saturday-scoop-logo.png
