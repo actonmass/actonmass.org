@@ -27,6 +27,20 @@ layout: default
 </div>
 </div>
 
+### Tara Hong, 18th Middlesex
+
+<div class="endorsement">
+<img src="/img/mackay-endorsement-graphic.png" class="endorsement-card" alt="Headshot of Tara Hong with text: &quot;Act on Mass proudly endorses Tara Hong - State Representative, 18th Middlesex&quot;"/>
+
+<div class="endorsement-text">
+
+<p class="endorsement-quote">I am honored to have my candidacy for 18th Middlesex Representative endorsed by Act on Mass. The current representative’s vote against legislative transparency is one of the reasons I decided to run. I am committed to increasing transparency, to prioritizing constituent services, and to bringing the voices of those I represent with me on the job every day.</p>
+
+<div class="btn-container"><a class="btn" href="https://www.tarahong.com/">Website</a> <a class="btn" href="https://www.tarahong.com/join-our-team">Volunteer</a></div>
+
+</div>
+</div>
+
 ### **Application instructions for candidates**
 
 Act on Mass has opened applications for endorsement for the 2024 state legislative election cycle! And for the first time, we will be endorsing in both state representative and state senate races. (Both House and Senate candidates may complete the same questionnaire.) Applications will be reviewed and endorsements made on a rolling basis. **[You can find our endorsement questionnaire here](https://docs.google.com/document/d/1rIkXugrUD8x1EvPYyJrnTavuvFvQ7ZJyI8arW2w0yeY/edit?usp=sharing)**. Please make a copy in Google Docs, and send your completed questionnaire to info@actonmass.org. If you have an opponent in your race, upon receipt of your application we will invite them to apply with a 1-week deadline to ensure a fair process. Select applicants will advance to the second and final round of the endorsement process consisting of a virtual interview with Act on Mass staff and/or Board members. Further instructions can be found in the questionnaire document.
