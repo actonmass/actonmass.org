@@ -30,7 +30,7 @@ layout: default
 ### Tara Hong, 18th Middlesex
 
 <div class="endorsement">
-<img src="/img/mackay-endorsement-graphic.png" class="endorsement-card" alt="Headshot of Tara Hong with text: &quot;Act on Mass proudly endorses Tara Hong - State Representative, 18th Middlesex&quot;"/>
+<img src="/img/tara-hong-endorsement.png" class="endorsement-card" alt="Headshot of Tara Hong with text: &quot;Act on Mass proudly endorses Tara Hong - State Representative, 18th Middlesex&quot;"/>
 
 <div class="endorsement-text">
 
