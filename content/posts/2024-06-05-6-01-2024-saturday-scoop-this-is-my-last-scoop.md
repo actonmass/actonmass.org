@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "6/01/2024 Saturday Scoop: This is my last Scoop"
-date: 2024-06-01T19:06:09.910Z
+date: 2024-06-11T16:23:10.826Z
 image: /img/saturday-scoop-logo.png
 ---
 
