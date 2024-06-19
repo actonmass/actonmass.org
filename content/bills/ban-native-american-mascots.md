@@ -124,6 +124,8 @@ history:
   - date: 2023-02-16
     description: Referred to the Joint Committee on Education
     type: null
+  - date: 2024-03-28
+    description: Reported favorably and referred to the committee on Senate Ways and Means
 timeline:
   - date: 2019-01-01
 ---
