@@ -110,4 +110,7 @@ history:
     description: Referred to the Joint Committee on Revenue
   - date: 2023-05-16
     description: Joint committee hearing held
+  - type: death
+    description: Accompanied a study order
+    date: 2024-06-12
 ---
