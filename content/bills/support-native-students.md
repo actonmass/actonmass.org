@@ -95,4 +95,7 @@ history:
     description: Joint committee hearing held
   - date: 2024-02-08
     description: Reporting date extended to March 15, 2024
+  - date: 2024-04-08
+    description: Accompanied new drafts, reported favorably and referred to the
+      committee on Senate Ways and Means
 ---
