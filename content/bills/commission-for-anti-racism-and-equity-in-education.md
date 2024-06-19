@@ -97,4 +97,10 @@ history:
     description: Hearing held by the Joint Committee on Education
   - date: 2024-02-08
     description: Reporting date extended to March 15, 2024
+  - date: 2024-06-01
+    description: Accompanied new drafts; S.2709 and H.4519
+    type: null
+  - date: 2024-06-08
+    description: Reported favorably to the House Ways and Means and Senate Ways and
+      Means committees
 ---
