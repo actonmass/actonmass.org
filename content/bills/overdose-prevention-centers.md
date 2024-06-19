@@ -167,4 +167,13 @@ history:
       Recovery
   - date: 2023-10-23
     description: Joint committee hearing held
+  - description: Reported favorably by committee and referred to the committee on
+      House Ways and Means
+    date: 2024-03-04
+  - date: 2024-03-07
+    description: Reported favorably and referred to the committee on Health Care Financing
+  - date: 2024-04-18
+    description: Health Care Financing Committee recommended ought to pass
+  - date: 2024-04-20
+    description: Referred to the committee on Senate Ways and Means
 ---
