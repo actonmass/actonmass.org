@@ -123,6 +123,8 @@ history:
     type: null
   - date: 2024-02-12
     description: Reporting date extended to May 28, 2024
+  - date: 2024-05-30
+    description: Reported favorably and referred to the committee on Senate Ways and Means
 timeline:
   - date: 2019-05-15
     description: Hearing (Election Laws)
