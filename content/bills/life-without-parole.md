@@ -69,6 +69,7 @@ history:
     date: 2024-04-11
   - date: 2024-05-13
     description: Accompanied a study order; S.2773
+    type: death
 timeline:
   - date: 2019-01-22
     description: Referred to the Judiciary Committee
