@@ -184,6 +184,9 @@ history:
     description: Referred to the Joint Committee on Health Care Financing
   - date: 2023-11-14
     description: Joint committee hearing held
+  - date: 2024-05-09
+    description: Accompanied a study order; H.4634
+    type: death
 timeline:
   - date: 2019-01-22
     description: Referred to the Committee on Health Care Financing
