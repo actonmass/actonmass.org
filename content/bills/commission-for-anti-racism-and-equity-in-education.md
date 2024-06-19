@@ -101,6 +101,6 @@ history:
     description: Accompanied new drafts; S.2709 and H.4519
     type: null
   - date: 2024-06-08
-    description: Reported favorably to the House Ways and Means and Senate Ways and
-      Means committees
+    description: Reported favorably and referred to the House Ways and Means and
+      Senate Ways and Means committees
 ---
