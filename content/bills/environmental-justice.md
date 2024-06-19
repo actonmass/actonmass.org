@@ -145,6 +145,10 @@ history:
   - date: 2024-02-12
     description: Order reported favorably by committee and discharged to the Senate
       Committee on Rules
+  - date: 2024-06-05
+    description: "Accompanied a study order, H.1677 "
+  - description: Reported favorably and discharged to the committee on House Rules
+    date: 2024-06-05
 timeline:
   - description: Referred to the committee on Environment, Natural Resources and Agriculture
     date: 2019-01-22
