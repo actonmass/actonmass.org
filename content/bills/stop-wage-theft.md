@@ -241,6 +241,8 @@ history:
     description: Joint committee hearing held
   - date: 2024-02-08
     description: Reporting date extended to April 10, 2024
+  - date: 2024-04-11
+    description: Reporting date extended to July 31, 2024
 timeline:
   - description: Sent to the Labor and Workforce Committee
     date: 2019-01-22
