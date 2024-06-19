@@ -3,9 +3,9 @@ aom_id: end-home-rule
 title: Lift the Ban on Local Tenant Protections
 full_title: An Act enabling local options for tenant protections
 twitter_bill_name: End Home Rule
-house_no: HD.3922
+house_no: H.3922
 house_link: https://malegislature.gov/Bills/193/HD3922
-senate_no: SD.2368
+senate_no: S.2368
 senate_link: https://malegislature.gov/Bills/193/SD2368
 committee: joint-housing
 issue: housing
@@ -79,6 +79,8 @@ history:
     description: Joint committee hearing scheduled
   - description: Reporting date extended to April 18, 2024
     date: 2024-02-08
+  - description: Reporting date extended to July 10, 2024
+    date: 2024-04-16
 timeline:
   - description: Referred to the Committee on Housing
     date: 2021-03-29
