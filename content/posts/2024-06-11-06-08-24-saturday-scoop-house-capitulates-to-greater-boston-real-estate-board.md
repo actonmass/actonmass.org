@@ -2,7 +2,7 @@
 layout: post
 title: "06/08/24 Saturday Scoop: House capitulates to Greater Boston Real Estate
   Board"
-date: 2024-06-11T15:48:16.211Z
+date: 2024-06-08T19:36:40.901Z
 image: /img/saturday-scoop-logo.png
 ---
 Well friend, there’s less than two months left of formal legislative session and I wish I were writing to you about how our legislators have taken bold action on the climate crisis and our housing crisis, are raising progressive revenue to adequately fund the MBTA and higher education, or are doing really anything worth celebrating. Alas, it’s June and there’s just not much good happening on Beacon Hill. 
