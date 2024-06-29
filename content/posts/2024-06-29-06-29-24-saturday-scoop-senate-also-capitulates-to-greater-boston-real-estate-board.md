@@ -103,8 +103,6 @@ Until next time,
 
 Brenna
 
-
-
 Brenna Ransden (she/her)
 
 Acting Executive Director, Act on Mass
