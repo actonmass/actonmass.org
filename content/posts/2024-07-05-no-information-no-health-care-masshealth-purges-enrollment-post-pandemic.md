@@ -6,17 +6,11 @@ image: /img/pexels-pixabay-236380.jpg
 ---
 Between April 2023 and 2024, nearly [400,000 people](https://www.mass.gov/doc/may-2024-dashboard-key-takeaways/download) lost their MassHealth insurance coverage in a post-pandemic enrollment purge. Of these people, two-thirds lost their coverage due to providing “[insufficient information](https://www.mass.gov/doc/may-2024-dashboard-key-takeaways/download).” But what prompted this stark decrease in enrollment in the state’s Medicaid program, also known as MassHealth? 
 
-
-
 **A bit of background: Pandemic-era policies for healthcare coverage**
 
 The COVID-19 pandemic marked a major turning point in the operations of many government agencies. Health care services like Medicaid were no exception to the changes, including the introduction of new services such as telehealth appointments and pushes for better access to healthcare for all. The federal government focused on a specific mandate for the duration of the COVID-19 Public Health Emergency (PHE) from March 2020 to April 2023 — continuous eligibility for all MassHealth members — which would result in increased federal funding for states that upheld this policy. Continuous eligibility, or continuous coverage, allowed for MassHealth members to maintain their coverage [“regardless of most changes that would otherwise affect eligibility.”](https://www.mass.gov/doc/continuous-eligibility-0/download) In the case of the COVID-19 PHE, these changes included a lack of updates to information and failures to renew enrollment. For the three years that the PHE lasted, people receiving MassHealth coverage didn’t have to think twice about their access to healthcare. 
 
-
-
 The [Families First Coronavirus Response Act (FFCRA)](https://oig.hhs.gov/reports-and-publications/workplan/summary/wp-summary-0000726.asp), which was enacted at the beginning of the pandemic and included the aforementioned provisions for continuous enrollment, gave states a 6.2% increase in their Federal Medical Assistance Percentages (FMAPs). For Massachusetts, this amounted to [$3,260,000,000](https://www.kff.org/medicaid/issue-brief/fiscal-implications-for-medicaid-of-enhanced-federal-funding-and-continuous-enrollment/) in federal enhanced funding between January 2020 and March 2023. [FMAPs](https://aspe.hhs.gov/federal-medical-assistance-percentages-or-federal-financial-participation-state-assistance) are used to determine how the federal government can match state governments’ expenditures in areas that include healthcare and medical insurance. With an increase in funding for state medicare programs, MassHealth — our state’s Medicaid and Children's Health Insurance Program (CHIP) — adopted continuous coverage until the end of the PHE. [The Consolidated Appropriations Act](https://www.medicaid.gov/resources-for-states/coronavirus-disease-2019-covid-19/unwinding-and-returning-regular-operations-after-covid-19/index.html) officially ended this policy March 31, 2023, and, lacking monetary incentives, MassHealth promptly began their year-long purge of enrollees on April 1, 2023. 
-
-
 
 In past years, MassHealth has gotten the largest chunk of money in the state’s budgets, but with the promise of at least a 50% return from the federal government on all MassHealth-related expenditures. During the PHE, with the increase in federal funds and the pressure to ensure access to healthcare for the greatest number of people possible, MassHealth enrollment increased from 1.8 million at the end of 2019 and going into 2020, to 2.4 million by 2023. In this time, the state budget for MassHealth increased from [$16.7 billion](https://massbudget.org/reports/pdf/MassHealth_2019.pdf) in the FY2019 budget to [$19.81 billion](https://malegislature.gov/PressRoom/Detail?pressReleaseId=44) in FY2024. In the FY2025 budget, this number is projected to remain around the same area as FY2024’s, but federal reimbursement for state spending has already decreased and will no longer be at enhanced levels.  
 
@@ -24,42 +18,28 @@ In past years, MassHealth has gotten the largest chunk of money in the state’s
 
 MassHealth also began a redetermination process following the start of the purges, which allowed about [130,000](https://www.mass.gov/doc/may-2024-dashboard-key-takeaways/download) of the people who were disenrolled from their healthcare to reapply for MassHealth insurance. [Over 90,000](https://www.masstaxpayers.org/sites/default/files/publications/2024-03/03-21%20MassHealth%20Redetermination%20Brief%20FINAL.pdf) others who were ineligible for MassHealth enrollment were turned toward the [Massachusetts Health Connector’s](https://www.masstaxpayers.org/sites/default/files/publications/2024-03/03-21%20MassHealth%20Redetermination%20Brief%20FINAL.pdf) program called ConnectorCare. With the amount of disenrolled Bay Staters coming from MassHealth, ConnectorCare changed its enrollment requirements between 2023 and 2024 to include families [up to 500%](https://www.mahealthconnector.org/learn/plan-information/connectorcare-plans) of the Federal Poverty Level rather than its original 300%. In other words, [“the income limit for individuals increases from $43,470 in 2023 to $72,900 in 2024, and $90,000 in 2023 to $150,000 in 2024 for a family of four.”](https://www.mahealthconnector.org/learn/plan-information/connectorcare-plans) 
 
-
-
 However, ConnectorCare and MassHealth are [not simply the same program](https://www.mahealthconnector.org/help-center-answers/eligibility/whats-the-difference-between-the-health-connector-and-masshealth) with different names. ConnectorCare is specifically meant for people who do not receive healthcare coverage through their jobs and still has to be paid for by the person who is buying the healthcare. MassHealth looks at a person’s income or medical history to determine whether or not they qualify for cost-effective or, at times, free healthcare. 
 
-
-
 Some legislators, including the Senate budget chief, Michael Rodrigues, have said in budget discussions that this decrease in enrollees would decrease the amount of state funding needed to support MassHealth that is no longer being paid for by the federal government. But many of the people who have been talking about the decrease in enrollees often forget that these are people, not just numbers in a formula to calculate costs in the yearly budget. 
-
-
 
 **Who is most affected and why**
 
 Some groups of Bay Staters have been more affected by the enrollment purges than others. Those who were at increased risks of losing their MassHealth coverage include [“people who have moved, immigrants and people with limited English proficiency (LEP), people with disabilities, and older adults.”](https://www.kff.org/medicaid/issue-brief/10-things-to-know-about-the-unwinding-of-the-medicaid-continuous-enrollment-provision/) Regardless of whether they were still eligible for enrollment, many individuals lost their coverage because of “insufficient information”, but how is that fair if people don’t have access to the skills or resources necessary to keep their information up to date? And regardless, their need for healthcare has certainly not changed.
 
-
-
 A combined lack of knowledge of the enrollment process and lack of knowledge and access to technology create an increased risk of failing to enroll. Enrolling in health insurance is a cumbersome and confusing task for any person in the United States, regardless of whether it is private or government health insurance. As technology is being used more by government programs like Medicaid, people who may not be as tech-savvy as others may be left behind in their attempts to get healthcare coverage. And while anyone can be at risk for disenrollment for these reasons alone, there are some groups that face an even higher risk based on other factors. 
-
-
 
 Many websites for state Medicaid programs, including Massachusetts’, have translated homepages in languages other than English, but very few include translated PDF applications beyond English and Spanish. Groups such as refugees and immigrants, who may not have access to resources to aid in translating the applications in the first place, remain at a greater risk of losing their access to healthcare because of this.
 
-
-
 Regardless of the reasons, many people were disenrolled from MassHealth for the blanket reasoning of “insufficient information,” which disproportionately affects individuals who don’t have access to sufficient resources to renew enrollment without support. 
 
-
-
 MassHealth and other Massachusetts-based health care programs attempted to address these shortcomings through outreach efforts during and following the disenrollment and redetermination processes. With $5.1 million used specifically for outreach and communication in the FY2024 budget, MassHealth, the Health Connector, and other organizations worked to alert members of impending enrollment terminations. However, these efforts were largely ineffective, with only about [15% of members](https://hcfama.org/statement-health-care-for-all-applauds-5-million-for-masshealth-redetermination-and-vaccination-outreach-campaign-in-arpa-spending/) responding to renewal notices during the first year of the pandemic.
-
-
 
 **The impact of mass disenrollment**
 
 A lasting impact of these redetermination efforts could be an increase in uninsured populations within the state, but as of right now there is still insufficient information on the actual number of uninsured Bay Staters. There is still an increasing amount of individuals facing redetermination processes, which will require increasing amounts of money and time to address. This time and money can affect the state’s fiscal budget for FY2025, [as well as the insurance market in the state](https://www.masstaxpayers.org/sites/default/files/publications/2024-03/03-21%20MassHealth%20Redetermination%20Brief%20FINAL.pdf). 
 
-
-
 The delay in healthcare coverage for Massachusetts residents facing redetermination or looking for new coverage can also contribute to a decline in the overall health and wellbeing of individuals, with people potentially putting off medical visits until coverage is available. Despite the outreach efforts, communities across the state face more challenges in attaining health care coverage following the MassHealth enrollment purges.
+
+
+
+**Blog post by Sydney Mascoll, Act on Mass Policy Fellow Summer 2024**
