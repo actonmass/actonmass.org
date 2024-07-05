@@ -6,6 +6,8 @@ image: /img/pexels-pixabay-236380.jpg
 ---
 Between April 2023 and 2024, nearly [400,000 people](https://www.mass.gov/doc/may-2024-dashboard-key-takeaways/download) lost their MassHealth insurance coverage in a post-pandemic enrollment purge. Of these people, two-thirds lost their coverage due to providing “[insufficient information](https://www.mass.gov/doc/may-2024-dashboard-key-takeaways/download).” But what prompted this stark decrease in enrollment in the state’s Medicaid program, also known as MassHealth? 
 
+
+
 **A bit of background: Pandemic-era policies for healthcare coverage**
 
 The COVID-19 pandemic marked a major turning point in the operations of many government agencies. Health care services like Medicaid were no exception to the changes, including the introduction of new services such as telehealth appointments and pushes for better access to healthcare for all. The federal government focused on a specific mandate for the duration of the COVID-19 Public Health Emergency (PHE) from March 2020 to April 2023 — continuous eligibility for all MassHealth members — which would result in increased federal funding for states that upheld this policy. Continuous eligibility, or continuous coverage, allowed for MassHealth members to maintain their coverage [“regardless of most changes that would otherwise affect eligibility.”](https://www.mass.gov/doc/continuous-eligibility-0/download) In the case of the COVID-19 PHE, these changes included a lack of updates to information and failures to renew enrollment. For the three years that the PHE lasted, people receiving MassHealth coverage didn’t have to think twice about their access to healthcare. 
@@ -14,6 +16,8 @@ The [Families First Coronavirus Response Act (FFCRA)](https://oig.hhs.gov/report
 
 In past years, MassHealth has gotten the largest chunk of money in the state’s budgets, but with the promise of at least a 50% return from the federal government on all MassHealth-related expenditures. During the PHE, with the increase in federal funds and the pressure to ensure access to healthcare for the greatest number of people possible, MassHealth enrollment increased from 1.8 million at the end of 2019 and going into 2020, to 2.4 million by 2023. In this time, the state budget for MassHealth increased from [$16.7 billion](https://massbudget.org/reports/pdf/MassHealth_2019.pdf) in the FY2019 budget to [$19.81 billion](https://malegislature.gov/PressRoom/Detail?pressReleaseId=44) in FY2024. In the FY2025 budget, this number is projected to remain around the same area as FY2024’s, but federal reimbursement for state spending has already decreased and will no longer be at enhanced levels.  
 
+
+
 **The redetermination process + mass disenrollment**
 
 MassHealth also began a redetermination process following the start of the purges, which allowed about [130,000](https://www.mass.gov/doc/may-2024-dashboard-key-takeaways/download) of the people who were disenrolled from their healthcare to reapply for MassHealth insurance. [Over 90,000](https://www.masstaxpayers.org/sites/default/files/publications/2024-03/03-21%20MassHealth%20Redetermination%20Brief%20FINAL.pdf) others who were ineligible for MassHealth enrollment were turned toward the [Massachusetts Health Connector’s](https://www.masstaxpayers.org/sites/default/files/publications/2024-03/03-21%20MassHealth%20Redetermination%20Brief%20FINAL.pdf) program called ConnectorCare. With the amount of disenrolled Bay Staters coming from MassHealth, ConnectorCare changed its enrollment requirements between 2023 and 2024 to include families [up to 500%](https://www.mahealthconnector.org/learn/plan-information/connectorcare-plans) of the Federal Poverty Level rather than its original 300%. In other words, [“the income limit for individuals increases from $43,470 in 2023 to $72,900 in 2024, and $90,000 in 2023 to $150,000 in 2024 for a family of four.”](https://www.mahealthconnector.org/learn/plan-information/connectorcare-plans) 
@@ -21,6 +25,8 @@ MassHealth also began a redetermination process following the start of the purge
 However, ConnectorCare and MassHealth are [not simply the same program](https://www.mahealthconnector.org/help-center-answers/eligibility/whats-the-difference-between-the-health-connector-and-masshealth) with different names. ConnectorCare is specifically meant for people who do not receive healthcare coverage through their jobs and still has to be paid for by the person who is buying the healthcare. MassHealth looks at a person’s income or medical history to determine whether or not they qualify for cost-effective or, at times, free healthcare. 
 
 Some legislators, including the Senate budget chief, Michael Rodrigues, have said in budget discussions that this decrease in enrollees would decrease the amount of state funding needed to support MassHealth that is no longer being paid for by the federal government. But many of the people who have been talking about the decrease in enrollees often forget that these are people, not just numbers in a formula to calculate costs in the yearly budget. 
+
+
 
 **Who is most affected and why**
 
@@ -33,6 +39,8 @@ Many websites for state Medicaid programs, including Massachusetts’, have tran
 Regardless of the reasons, many people were disenrolled from MassHealth for the blanket reasoning of “insufficient information,” which disproportionately affects individuals who don’t have access to sufficient resources to renew enrollment without support. 
 
 MassHealth and other Massachusetts-based health care programs attempted to address these shortcomings through outreach efforts during and following the disenrollment and redetermination processes. With $5.1 million used specifically for outreach and communication in the FY2024 budget, MassHealth, the Health Connector, and other organizations worked to alert members of impending enrollment terminations. However, these efforts were largely ineffective, with only about [15% of members](https://hcfama.org/statement-health-care-for-all-applauds-5-million-for-masshealth-redetermination-and-vaccination-outreach-campaign-in-arpa-spending/) responding to renewal notices during the first year of the pandemic.
+
+
 
 **The impact of mass disenrollment**
 
