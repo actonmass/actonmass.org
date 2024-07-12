@@ -17,7 +17,7 @@ In less goofy news, it looks like we’re on track to go into the new fiscal yea
 
 Not to mention, it’s almost the end of the legislative session, which means we have just four weeks left to get crucial policies passed by lawmakers before they go on recess for the rest of the summer. 
 
-And with that, I would be remiss not to ask you, {{FirstName or "Friend"}}, to contact your Senator in support of the Sunlight Act:
+And with that, I would be remiss not to ask you, friend, to contact your Senator in support of the Sunlight Act:
 
 **[EMAIL YOUR SENATOR >>](https://secure.everyaction.com/Y-7oq9zG20CaIEhOZYChLA2)**
 
