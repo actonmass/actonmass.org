@@ -41,6 +41,24 @@ layout: default
 </div>
 </div>
 
+### Heather May, 9th Middlesex
+
+<div class="endorsement">
+<img src="/img/
+
+![](/img/heather-may.png)
+
+" class="endorsement-card" alt="Headshot of Tara Hong with text: &quot;Act on Mass proudly endorses Heather May - State Representative, 9th Middlesex&quot;"/>
+
+<div class="endorsement-text">
+
+<p class="endorsement-quote">Act On Mass and I share a vision of democracy in Massachusetts that is fully inclusive of all legislators, citizens, and advocacy organizations. A democratic process that centers on transparency and accountability for all elected officials. I am continually grateful for the work that they do, and feel honored to have their endorsement.</p>
+
+<div class="btn-container"><a class="btn" href="https://www.heatherforwaltham.com/">Website</a> <a class="btn" href="https://www.heatherforwaltham.com/get-involved">Volunteer</a></div>
+
+</div>
+</div>
+
 ### **Application instructions for candidates**
 
 Act on Mass has opened applications for endorsement for the 2024 state legislative election cycle! And for the first time, we will be endorsing in both state representative and state senate races. (Both House and Senate candidates may complete the same questionnaire.) Applications will be reviewed and endorsements made on a rolling basis. **[You can find our endorsement questionnaire here](https://docs.google.com/document/d/1rIkXugrUD8x1EvPYyJrnTavuvFvQ7ZJyI8arW2w0yeY/edit?usp=sharing)**. Please make a copy in Google Docs, and send your completed questionnaire to info@actonmass.org. If you have an opponent in your race, upon receipt of your application we will invite them to apply with a 1-week deadline to ensure a fair process. Select applicants will advance to the second and final round of the endorsement process consisting of a virtual interview with Act on Mass staff and/or Board members. Further instructions can be found in the questionnaire document.
