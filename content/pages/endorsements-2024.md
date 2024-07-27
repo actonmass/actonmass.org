@@ -44,7 +44,7 @@ layout: default
 ### Heather May, 9th Middlesex
 
 <div class="endorsement">
-<<img src="/img/heather-may.png"" alt="Headshot of Tara Hong with text: &quot;Act on Mass proudly endorses Heather May - State Representative, 9th Middlesex&quot;"/>
+<img src="/img/heather-may.png" class="endorsement-card" alt="Headshot of Heather May with text: &quot;Act on Mass proudly endorses Heather May - State Representative, 9th Middlesex&quot;"/>
 
 <div class="endorsement-text">
 
