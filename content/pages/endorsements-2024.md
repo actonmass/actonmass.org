@@ -41,21 +41,19 @@ layout: default
 </div>
 </div>
 
-### Evan MacKay, 25th Middlesex
+### Heather May, 9th Middlesex
 
 <div class="endorsement">
-<img src="/img/mackay-endorsement-graphic.png" class="endorsement-card" alt="Headshot of Evan MacKay with text: &quot;Act on Mass proudly endorses Evan MacKay - State Representative, 25th Middlesex&quot;"/>
+<<img src="/img/heather-may.png"" alt="Headshot of Tara Hong with text: &quot;Act on Mass proudly endorses Heather May - State Representative, 9th Middlesex&quot;"/>
 
 <div class="endorsement-text">
 
-<p class="endorsement-quote">Act on Mass is a terrific organization helping everyday people decipher the opaque inner workings of the state house. Many people in my community are astounded by what they learn about our state house through Act on Mass’s educational videos, blog, and website. I am proud to receive their endorsement and very much look forward to working together.</p>
+<p class="endorsement-quote">Act On Mass and I share a vision of democracy in Massachusetts that is fully inclusive of all legislators, citizens, and advocacy organizations. A democratic process that centers on transparency and accountability for all elected officials. I am continually grateful for the work that they do, and feel honored to have their endorsement.</p>
 
-<div class="btn-container"><a class="btn" href="https://www.evanforcambridge.com/">Website</a> <a class="btn" href="https://actionnetwork.org/forms/volunteer-with-evan-for-cambridge/">Volunteer</a></div>
+<div class="btn-container"><a class="btn" href="https://www.heatherforwaltham.com/">Website</a> <a class="btn" href="https://www.heatherforwaltham.com/get-involved">Volunteer</a></div>
 
 </div>
 </div>
-
-
 
 ### **Application instructions for candidates**
 
