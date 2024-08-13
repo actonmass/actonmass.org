@@ -59,4 +59,54 @@ Tell Governor Healey to repeal the shelter stay limits: **(617) 725-4005**
 
 *\--*
 
-**Syd's Sprinkles: Examining the Climate Bill**
+**Syd's Sprinkles: Analysis on the final, signed Housing Bond Bill**
+
+*Welcome to Syd’s Sprinkles! A Scoop section where I, Sydney the Act on Mass Policy Fellow, tell you everything you need to know (or wish you didn’t) about the status of key issues before the Legislature.*
+
+The long-awaited [Housing Bond bill](https://www.msn.com/en-us/money/realestate/51b-bond-bill-largest-housing-investment-in-mass-history-is-signed-into-law/ar-AA1olpez?utm_medium=&emci=27c1bb4a-1757-ef11-991a-6045bddbfc4b&emdi=ea000000-0000-0000-0000-000000000001&ceid={{ContactsEmailID}}) finally made it out of the legislature and was signed by Healey this past week, with the final draft of the bill amounting to about $5 billion instead of the original $6.5 billion. With all of the changes that have been made to the bill, some believe that the force behind it has faded. The “historic” piece of legislation has left many activists and residents of Massachusetts disillusioned.
+
+**What made the final cut?**
+
+In addition to the 30% increase in spending on housing in the fiscal budget, the bill includes: 
+
+* Just over $2 billion toward the public housing system
+* The right to build accessory dwelling units up to 900 square feet
+* New tax credits for housing conversion projects
+* Eviction records sealing for evictions due to specific reasons
+* Bans on limiting the right of buyers to home inspections
+* Expansions to seasonal communities designation
+
+This all seems great, but these policies alone do little to impact the state’s ever-worsening housing crisis. And critically, there are still several key policies that were left out of the final bill.
+
+**What was left out?**
+
+While lead negotiator [Senator William Brownsberger](https://www.wbur.org/news/2024/08/07/housing-bond-bill-advocates-disappointed?utm_medium=&emci=27c1bb4a-1757-ef11-991a-6045bddbfc4b&emdi=ea000000-0000-0000-0000-000000000001&ceid={{ContactsEmailID}}) downplayed what was left out after negotiations — saying  “lots of minor stuff is not in there” — the final version of the housing bond bill is deeply disappointing. 
+
+Several key proposals were [left out of the final bill](https://massterlist.com/2024/08/06/wins-and-losses-within-healeys-housing-bill/?utm_medium=&emci=27c1bb4a-1757-ef11-991a-6045bddbfc4b&emdi=ea000000-0000-0000-0000-000000000001&ceid={{ContactsEmailID}}), which advocate and activist groups feel weakened the bill. The left-out proposals included:
+
+* local options for transfer fees
+* methods for easier passage of inclusionary zoning laws
+* improving procurement measures for public transportation
+* public housing redevelopment exemptions from certain requirements
+* removal of home rule petition requirements for regionalization
+* expansion of Massachusetts Water Resources Authority
+* grants for rural and suburban housing
+* requiring landlords to pay a broker's fee instead of residents
+
+[Housing Secretary Ed Augustus](https://www.wbur.org/news/2024/08/07/housing-bond-bill-advocates-disappointed?utm_medium=&emci=27c1bb4a-1757-ef11-991a-6045bddbfc4b&emdi=ea000000-0000-0000-0000-000000000001&ceid={{ContactsEmailID}}) told reporters earlier this week that this legislation could create over 45,000 new units and preserve up to 27,000. However, the state is on track to have a shortage of over 220,000 housing units by 2030.
+
+The so-called “minor stuff” that was left out of the final negotiations between the House and Senate could’ve prompted more impactful changes in housing to address the dire situation that the state and its residents are in. 
+
+**Who’s to blame?**
+
+Beholden to the real estate lobby and paralyzed by inactivity, the Democratic-supermajority state legislature has passed a housing bond bill that is frankly disappointing. Since lawmakers are waiting until the end of the session to negotiate bills that have just been sitting on their desks, there is little time to really investigate certain policies and their projected impact or to hear from constituents about what would make a real difference in their day-to-day lives.
+
+This disconnect in communication between and within the chambers in the State House has prevented deliberation and debate that could’ve saved major bills from losing key policies.
+
+**\--**
+
+**In case you missed it: New blog post!**
+
+Between April 2023 and April 2024, nearly [400,000 people](https://www.mass.gov/doc/may-2024-dashboard-key-takeaways/download) lost their MassHealth insurance coverage in a post-pandemic enrollment purge. Of these people, two-thirds lost their coverage due to providing “[insufficient information](https://www.mass.gov/doc/may-2024-dashboard-key-takeaways/download)”. But what prompted this stark decrease in enrollment in the state’s Medicaid program, also known as MassHealth? 
+
+*[READ THE BLOG POST >>](https://actonmass.org/post/2024/07/05/no-information-no-health-care-masshealth-purges-enrollment-post-pandemic/)*
