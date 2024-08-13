@@ -53,6 +53,10 @@ In committees, it's extremely common to "poll" members via email with a 15 minut
 
 This is not democracy in any meaningful sense.
 
+
+
+
+
 ### 2. Limited Information on the Website
 
 In theory, the state legislature’s website should be easy to navigate for constituents to find important information about the bills in session, the changes they’ve gone through, and who has supported them. But in practice, much of that information seems to be lost in the interface. This makes for a website that doesn’t promote a whole lot of transparency. 
@@ -68,6 +72,10 @@ Even the links to amendments do not give a lot of information. You can’t see b
 Not to mention that looking for old drafts of the bill that have been sent to study multiple sessions are not very easy to find on the website. Especially when the “[Search the Legislature…](http://v/)” search box tends to be finicky when deciding when it will or won’t work. 
 
 While the Healthy Youth Act is just one example of the subpar status of the legislature’s website, there are countless other idiosyncrasies that prevent constituents from easily accessing information on the happenings within the State House. Without access to the necessary information to assess whether a representative or senator is truly carrying out the will of the people who elected them into office, transparency is lacking on the legislature’s website along with the other areas on this list and beyond. 
+
+
+
+
 
 ### 3. “Sent to Study” is a euphemism for killing a bill
 
@@ -157,7 +165,11 @@ In Jan 2019, Jonathan Hecht attempted to pass a new rule in the House that Reps 
 
 Not only do Reps not know what they are voting on – constituents don’t have the time to look into and speak on behalf of legislation with such short notice. That’s why Act on Mass helped to create the [People’s House Campaign](https://actonmass.org/the-campaign/) to reform our legislature. In 2021, we presented two amendments to the House Rules that would have required at least 48 hours, or at least 72 hours to review legislation before coming to a vote. The former was unsuccessful, receiving a mere [39 votes in favor](https://docs.google.com/spreadsheets/d/1YCSUxomsY8Lgq1FL0b0qbe3bt72K080RBLgJ0atqjQw/edit?gid=0#gid=0). The amendment for 72 hours never came to a vote and was killed by leadership.
 
- 7. Vanishing Amendments
+
+
+
+
+###  **7. Vanishing Amendments**
 
 Because bills are often killed in committee, it's a necessity for our legislators to try to advance bills via amendment to other bills, oftentimes through the budget, one of the only laws the legislature is legally required to pass each session. The Senate attempted to pass part of the Safe Communities Act through a budget amendment, for example.
 
@@ -181,6 +193,10 @@ Let’s consider this example: the summary of consolidated amendment A says it c
 
  Consolidated amendments only get one vote, meaning that it can be an “all or nothing” result. They  are typically seen as pre-approved by leadership, and therefore are expected to be voted on favorably, despite often lacking key issues. In practice, consolidated amendments usually pass unanimously or near-unanimously.
 
+
+
+
+
 ### 8. Vanishing Committee Assignments
 
 Above, we outlined that bills mostly die in committee. The committee chair enforces what leadership wants and won't let meaningful bills come up for a vote.But what happens if a committee chair decides to advance a bill that leadership doesn't support?
@@ -194,6 +210,10 @@ Think this sounds far-fetched? It's not.
 In 2017, [Rep Russell Holmes was stripped of his committee vice chairmanship](https://www.bostonglobe.com/news/politics/2017/07/17/lawmaker-says-was-demoted-after-commenting-speaker-succession/PxLlFRucTDEbnLdgfiGK7L/story.html) after making public comments mildly critical of the Speaker (which is definitely not a coincidence). 
 
 By standing up to leadership in ways that align with the wishes of their constituents, legislators run the risk of not only losing the little influence they have over legislation, but risk losing large portions of their salaries that are already pretty low.   
+
+
+
+
 
 ### 9. Follow the Leader
 
