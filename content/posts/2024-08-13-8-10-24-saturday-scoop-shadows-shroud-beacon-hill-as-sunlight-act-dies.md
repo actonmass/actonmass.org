@@ -110,3 +110,36 @@ This disconnect in communication between and within the chambers in the State Ho
 Between April 2023 and April 2024, nearly [400,000 people](https://www.mass.gov/doc/may-2024-dashboard-key-takeaways/download) lost their MassHealth insurance coverage in a post-pandemic enrollment purge. Of these people, two-thirds lost their coverage due to providing “[insufficient information](https://www.mass.gov/doc/may-2024-dashboard-key-takeaways/download)”. But what prompted this stark decrease in enrollment in the state’s Medicaid program, also known as MassHealth? 
 
 *[READ THE BLOG POST >>](https://actonmass.org/post/2024/07/05/no-information-no-health-care-masshealth-purges-enrollment-post-pandemic/)*
+
+***\--***
+
+## Take Action
+
+**Support our endorsed candidates!**
+
+![](/img/2024-endorsement-graphics-email-header-.jpg)
+
+Our endorsed candidates need our help to reach as many voters as possible ahead of the September primary election. Sign up to get involved with their campaigns by knocking doors and making phone calls!
+
+***[Volunteer with Tara in Lowell >>](https://www.tarahong.com/join-our-team)***
+
+***[Volunteer with Evan in Cambridge >>](https://www.evanforcambridge.com/campaign-events)***
+
+***[Volunteer with Heather in Waltham >>](https://www.heatherforwaltham.com/get-involved)***
+
+**Save the Date: State House 101 at 6PM on 8/20**
+
+Save the date for our next workshop: State House 101, with Evan MacKay! On Tuesday, August 20th from 6-7:30PM, we'll be meeting virtually to give a workshop on all things Beacon Hill. We'll discuss the impacts of consolidating power, democratic dysfunction, and the lack of transparency on issues that matter most to Cambridge residents and Bay Staters at large: housing, public transit, climate change, and more.
+
+Keep an eye out next week for the link to RSVP!
+
+\--
+
+Wooof. If you're feeling despair, rage, or hopelessness, you are not alone my friend. But that rage can also fuel your power: rant to a friend about something you read about today! Call Governor Healey (617-725-4005) and tell her to lift the shelter stay limits! Find the groups in your community that are working to support your neighbors experiencing housing insecurity and volunteer or donate!
+
+Oh my cod, it's brutal out there. But our job is to dream of a better world, and then make it that way.So by golly, let's go make it that way.
+
+\- Brenna
+
+Brenna Ransden (she/her)\
+Acting Executive Director, Act on Mass
