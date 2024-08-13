@@ -123,7 +123,7 @@ Or do they?
 
 According to a study conducted by [The Climate and Development Lab at the Institute at Brown for Environment and Society](https://drive.google.com/file/d/1R5dHIafiFoH0nybo6YSRggS-av_rcb1q/view), this is not always that case. In fact, many important bills that are considered by committees actually result in decisions that go directly against popular testimony from the public.  
 
-
+![](/img/screenshot-2024-08-13-at-10.18.44 am.png)
 
 In this study, figure 2 shows the amount of support that climate-friendly bills get during public testimony. Individual testimony coming from constituents is 9-to-1 in favor of environmentalist legislation and makes up the majority of testimony that is delivered. The opposition for these bills is comparatively miniscule, so it would only make sense for clean energy and climate legislation to be passed by legislators. However, this is not the case.   
 
@@ -134,6 +134,8 @@ That same study found that the utilities lobby (think Eversource and National Gr
 Furthermore, all of the votes on climate and clean energy happened via voice vote, so at no step of the process was any individual senator’s or representative’s position on a bill recorded.
 
 The committee votes that determine the bulk of legislative outcomes in the state, beyond occuring in secret, also happen under tight control by legislative leadership. The House Speaker determines who is on each committee, along with the budgeting process, party campaign funds, and the flow of information. As one interviewee put it, “It does seem that the House is a dictatorship and not a democracy.”​
+
+
 
 
 
