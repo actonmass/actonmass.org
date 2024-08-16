@@ -47,7 +47,7 @@ But it only gets more disgusting from here. Along with these new policies comes 
 
 While our Democratic supermajority government continues to underfund our shelter system and evict people from homeless shelters, a [new report](https://www.bostonindicators.org/-/media/indicators/boston-indicators-reports/report-files/homelessness-in-greater-boston-8524-pdf.pdf?utm_medium=&emci=27c1bb4a-1757-ef11-991a-6045bddbfc4b&emdi=ea000000-0000-0000-0000-000000000001&ceid={{ContactsEmailID}}) has been released showing that the Greater Boston area has the 2nd highest homelessness rate in the country, growing by 27% between 2022 and 2023. 
 
-The report also found that racial disparities exist in the extremes when it comes to the unhoused population: the rate of unhoused Black people is 11 times higher than that of white people. The majority of people experiencing housing insecurity in Greater Boston are families. And by age group, the highest rate of homelessness experienced by children under 18. 
+The report also found that racial disparities exist in the extremes when it comes to the unhoused population: the rate of unhoused Black people is 11 times higher than that of white people. The majority of people experiencing housing insecurity in Greater Boston are families. And by age group, the highest rate of homelessness is experienced by children under 18. 
 
 The new 5-day limit is a cruel, despicable, and deliberate policy choice by Maura Healey that is hurting the most vulnerable of our neighbors. And yet the Democratic Governor continues to send them eviction notices, to the streets, or with a one-way ticket out of Massachusetts. 
 
