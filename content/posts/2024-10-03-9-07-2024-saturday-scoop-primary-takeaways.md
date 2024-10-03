@@ -4,7 +4,7 @@ title: "9/07/2024 Saturday Scoop: Primary Takeaways!"
 date: 2024-10-03T20:21:14.354Z
 image: /img/saturday-scoop-logo.png
 ---
-The time has come {{FirstName or "friend"}}:
+The time has come, friend:
 
  It’s the week we’ve all been waiting for! And, no, I don’t mean sweet Labor Day BBQs and the resulting even sweeter 4-day work week: in case you missed it, the state primary elections were held on Tuesday
 
