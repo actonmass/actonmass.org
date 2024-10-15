@@ -69,6 +69,28 @@ export default function Home({ data }) {
 
         <section className="accountability light-blue">
           <div className="rect rect1"></div>
+          <h2 className="account_title fUppercase">Saturday Scoop</h2>
+          <div className="pledge_left">
+            <HeroImage img="/img/saturday-scoop-logo.png" alt="Saturday scoop ice cream" />
+          </div>
+          <div className="account_text">
+            {/* <h3 className="account_text1 fUppercase fExbold">A Campaign for Democracy</h3> */}
+            <h4 className="account_text2 fRoboto fLight">
+              Sign up for the Saturday Scoop: the weekly newsletter with our breakdown & analysis
+              what's happening on Beacon Hill, and how to take action.
+            </h4>
+            <ModalForm
+              formId="https://secure.everyaction.com/v1/Forms/1iWRboEfXUyjUvBt5HMoZw2"
+              title="Sign up"
+            />
+            {/* <button to="/the-campaign" className="fRoboto fExbold fUppercase btn btn_pledge">
+              Sign up for the scoop
+            </button> */}
+          </div>
+        </section>
+        <FindMyReps theme="dark" mode="campaign" allowSelect={true} />
+        <section className="accountability light-blue">
+          <div className="rect rect1"></div>
           <h2 className="account_title fUppercase">The People's House</h2>
           <div className="pledge_left">
             <HeroImage
@@ -104,28 +126,6 @@ export default function Home({ data }) {
             <Link to="/pledge" className="fRoboto fExbold fUppercase btn btn_pledge">
               the pledge
             </Link>
-          </div>
-        </section>
-
-        <section className="accountability light-blue">
-          <div className="rect rect1"></div>
-          <h2 className="account_title fUppercase">Saturday Scoop</h2>
-          <div className="pledge_left">
-            <HeroImage img="/img/saturday-scoop-logo.png" alt="Saturday scoop ice cream" />
-          </div>
-          <div className="account_text">
-            {/* <h3 className="account_text1 fUppercase fExbold">A Campaign for Democracy</h3> */}
-            <h4 className="account_text2 fRoboto fLight">
-              Sign up for the Saturday Scoop: the weekly newsletter with our breakdown & analysis
-              what's happening on Beacon Hill, and how to take action.
-            </h4>
-            <ModalForm
-              formId="https://secure.everyaction.com/v1/Forms/1iWRboEfXUyjUvBt5HMoZw2"
-              title="Sign up"
-            />
-            {/* <button to="/the-campaign" className="fRoboto fExbold fUppercase btn btn_pledge">
-              Sign up for the scoop
-            </button> */}
           </div>
         </section>
 
@@ -167,7 +167,6 @@ export default function Home({ data }) {
             </Link>
           </div>
         </section>
-        <FindMyReps theme="dark" mode="campaign" allowSelect={true} />
       </main>
     </BaseLayout>
   );
