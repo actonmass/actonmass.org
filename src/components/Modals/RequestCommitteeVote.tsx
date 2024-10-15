@@ -14,15 +14,15 @@ type Props = {
 };
 
 function isOnCommittee(committee: Queries.Committee, leg: Queries.Legislator | null | undefined) {
-  if (leg == null) {
+  if (leg == null || committee == null) {
     return false;
   }
   const legId = leg.aom_id;
   return [
-    committee.house_chair.id,
-    committee.house_vice_chair.id,
-    committee.senate_chair.id,
-    committee.senate_vice_chair.id,
+    committee.house_chair?.id,
+    committee.house_vice_chair?.id,
+    committee.senate_chair?.id,
+    committee.senate_vice_chair?.id,
     ...(_.map(committee.senate_members, "id") ?? []),
     ...(_.map(committee.house_members, "id") ?? []),
   ].includes(legId);
