@@ -64,6 +64,29 @@ export default function CampaignPage({ data, children }: PageProps<Data>) {
             </div>
           </div>
         </section>
+        <section className="write_a_letter light-blue cbox">
+          <div>
+            <h2 className="campaign_title">{campaignLetterMessage[0].letter_title}</h2>
+          </div>
+          <div className="campaign_main_container">
+            <div className="campaign_letter_container two-blocks rev">
+              <div className="hero_box_a ">
+                <p>{campaignLetterMessage[0].letter_main_text}</p>
+              </div>
+              <div className="hero_box_b">
+                <img
+                  className="campaign_transparency_image"
+                  src={campaignLetterMessage[0].letter_image}
+                  alt="State House"
+                  width="500px"
+                ></img>
+              </div>
+            </div>
+          </div>
+          <a href={campaignLetterMessage[0].letter_href} className="campaign_btn btn">
+            Check out our LTE Toolkit
+          </a>
+        </section>
         <section className="problem_and_solution medium-blue">
           <div className="campaign_blocks hbox">
             <div className="campaign_ps dark">
@@ -141,29 +164,7 @@ export default function CampaignPage({ data, children }: PageProps<Data>) {
             </a>
           </div>
         </section>
-        <section className="write_a_letter dark cbox">
-          <div>
-            <h2 className="campaign_title">{campaignLetterMessage[0].letter_title}</h2>
-          </div>
-          <div className="campaign_main_container">
-            <div className="campaign_letter_container two-blocks rev">
-              <div className="hero_box_a ">
-                <p>{campaignLetterMessage[0].letter_main_text}</p>
-              </div>
-              <div className="hero_box_b">
-                <img
-                  className="campaign_transparency_image"
-                  src={campaignLetterMessage[0].letter_image}
-                  alt="State House"
-                  width="500px"
-                ></img>
-              </div>
-            </div>
-          </div>
-          <a href={campaignLetterMessage[0].letter_href} className="campaign_btn btn">
-            Check out our LTE Toolkit
-          </a>
-        </section>
+
         <MDXProvider components={components}>{children}</MDXProvider>
       </main>
     </BaseLayout>
