@@ -55,7 +55,7 @@ export default function NewsPage({ data, pageContext }: PageProps<DataProps, Pag
                       <div className="byline fDark small">
                         <span>{article.author}</span> |{" "}
                         <span>
-                          {new Date(article.date).toLocaleDateString("en-US", {
+                          {new Date(Number(article.date)).toLocaleDateString("en-US", {
                             year: "numeric",
                             month: "short",
                             day: "numeric",
