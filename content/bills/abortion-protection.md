@@ -92,6 +92,7 @@ co_sponsors:
   - joanne-comerford
   - sean-garballey
   - adrianne-ramons
+  - paul-mark
 history:
   - date: 2023-01-04
     description: Bill introduced as H.1599/S.1114
@@ -103,5 +104,9 @@ history:
     date: 2024-02-05
   - date: 2024-05-20
     description: Reporting date extended to June 30, 2024
+  - date: 2025-07-01
+    description: Reporting date extended to July 31, 2024
+  - description: '"Sent to study", S2926'
+  - description: '"Sent to study", H5032'
 timeline: []
 ---
