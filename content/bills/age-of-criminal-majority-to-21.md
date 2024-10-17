@@ -91,6 +91,13 @@ co_sponsors:
   - orlando-ramos
   - francisco-paulino
   - natalie-higgins
+  - ruth-balser
+  - patricia-duffy
+  - brian-ashe
+  - steven-ultrino
+  - jay-livingstone
+  - carmine-gentile
+  - frank-moran
 history:
   - date: 2021-03-29
     description: Referred to the Committee on the Judiciary
@@ -114,6 +121,11 @@ history:
     description: Reporting date extended to Tuesday April 30, 2024
   - date: 2024-05-02
     description: Reporting date extended to June 30, 2024
+  - date: ""
+    description: Reporting date extended to July 31, 2024
+  - date: ""
+    description: '"Sent to study", S2926'
+  - description: '"Sent to study", H5032'
 timeline:
   - date: 2021-03-29
     description: Referred to the Committee on the Judiciary
