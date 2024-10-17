@@ -97,7 +97,6 @@ co_sponsors:
   - steven-ultrino
   - jay-livingstone
   - carmine-gentile
-  - frank-moran
 history:
   - date: 2021-03-29
     description: Referred to the Committee on the Judiciary
