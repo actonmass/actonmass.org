@@ -42,7 +42,7 @@ export default function Home({ data }) {
           </div>
         </section>
 
-        <section className="take_action hbox" id="sign-up-form">
+        {/* <section className="take_action hbox" id="sign-up-form">
           <div className="learn vbox action">
             <h3 className="take_action_txt fExbold">What We Do</h3>
             <h4 className="take_action_txt fRoboto fLight">
@@ -65,7 +65,7 @@ export default function Home({ data }) {
               </Link>
             </div>
           </div>
-        </section>
+        </section> */}
 
         <section className="accountability light-blue">
           <div className="rect rect1"></div>
