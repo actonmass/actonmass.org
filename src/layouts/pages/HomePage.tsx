@@ -67,7 +67,7 @@ export default function Home({ data }) {
           </div>
         </section> */}
 
-        <section className="accountability light-blue">
+        <section className="accountability medium-blue">
           <div className="rect rect1"></div>
           <h2 className="account_title fUppercase">Saturday Scoop</h2>
           <div className="pledge_left">
@@ -90,7 +90,7 @@ export default function Home({ data }) {
         </section>
         <FindMyReps theme="dark" mode="campaign" allowSelect={true} />
 
-        <section className="pledge accountability dark">
+        <section className="pledge accountability light-blue">
           <div className="rect rect1"></div>
           <h2 className="account_title fUppercase">the transparency pledge:</h2>
           <div className="pledge_left">
