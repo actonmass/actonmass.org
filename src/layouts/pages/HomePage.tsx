@@ -89,27 +89,6 @@ export default function Home({ data }) {
           </div>
         </section>
         <FindMyReps theme="dark" mode="campaign" allowSelect={true} />
-        <section className="accountability light-blue">
-          <div className="rect rect1"></div>
-          <h2 className="account_title fUppercase">The People's House</h2>
-          <div className="pledge_left">
-            <HeroImage
-              img="/img/the-campaign.jpg"
-              alt="Protesters in front of the Massachusetts State House"
-            />
-          </div>
-          <div className="account_text">
-            <h3 className="account_text1 fUppercase fExbold">A Campaign for Democracy</h3>
-            <h4 className="account_text2 fRoboto fLight">
-              This July, the State House will be writing its own rulebook. Join your district team
-              to demand that our legislators change the broken, anti-democratic rules in the State
-              House.
-            </h4>
-            <Link to="/the-campaign" className="fRoboto fExbold fUppercase btn btn_pledge">
-              the campaign
-            </Link>
-          </div>
-        </section>
 
         <section className="pledge accountability dark">
           <div className="rect rect1"></div>
