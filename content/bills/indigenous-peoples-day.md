@@ -31,7 +31,9 @@ text: >-
   [Email your rep](https://actionnetwork.org/letters/2023-2024-cosponsor-drive-for-mass-indigenous-legislative-agenda)
 orgs:
   - title: MA Indigenous Legislative Agenda
-    link: http://maindigenousagenda.org/indigenous-peoples-day/
+    link: https://actionnetwork.org/letters/2023-2024-cosponsor-drive-for-mass-indigenous-legislative-agenda
+  - link: http://www.indigenouspeoplesdayma.org/about/
+    title: Indigenous Peoples Day MA
 house_lead_sponsors:
   - christine-barber
 senate_lead_sponsors:
@@ -118,4 +120,10 @@ history:
       Regulatory Oversight
   - date: 2024-02-12
     description: Reporting date extended to July 1, 2024
+  - description: Reported favorably by committee and referred to the committee on
+      House Steering, Policy and Scheduling
+    date: 2024-06-24
+    type: null
+  - date: 2024-07-29
+    description: Waiting for a second reading
 ---
