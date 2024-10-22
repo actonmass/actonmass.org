@@ -28,7 +28,7 @@ orgs:
     link: https://www.mawomenscaucus.com/legislative-priorities-
   - title: Massachusetts Commission on the Status of Women
     img: /img/mcswlogo_color.jpg
-    link: https://www.mass.gov/service-details/2021-2022-legislative-priorities
+    link: https://masscsw.org/about/legislative-agenda/2023-2024/
 house_lead_sponsors:
   - mike-connolly
   - joan-meschino
