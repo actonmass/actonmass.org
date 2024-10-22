@@ -32,7 +32,7 @@ text: >-
   In order to provide a safe environment where Indigenous students can thrive, Massachusetts must end the practice of Native American logos and mascots.
 
 
-  To learn more, read the [bill fact sheet](http://maindigenousagenda.org/wp-content/uploads/2021/06/2021-Bill-info-sheet.pdf), and this study on the [psychosocial effects of Native American mascots](https://drive.google.com/file/d/1KCs5k1bdjKrsx2N53GPpmweWBeQA2B6T/view?usp=sharing). 
+  To learn more, read the [bill info sheet](http://maindigenousagenda.org/wp-content/uploads/2023/04/2023-mascots-bill-info-sheet-3-21-23.pdf)[](https://drive.google.com/file/d/1KCs5k1bdjKrsx2N53GPpmweWBeQA2B6T/view?usp=sharing), and this study on the [psychosocial effects of Native American mascots](https://drive.google.com/file/d/1KCs5k1bdjKrsx2N53GPpmweWBeQA2B6T/view?usp=sharing). 
 
 
   [Email your rep](https://actionnetwork.org/letters/2023-2024-cosponsor-drive-for-mass-indigenous-legislative-agenda)
@@ -57,7 +57,6 @@ co_sponsors:
   - russell-holmes
   - david-leboeuf
   - tram-nguyen
-  - vanna-howard
   - sally-kerans
   - patricia-duffy
   - tackey-chan
@@ -86,11 +85,6 @@ co_sponsors:
   - josh-cutler
   - mike-connolly
   - carol-doherty
-  - joanne-comerford
-  - patricia-jehlen
-  - michael-barrett
-  - jason-lewis
-  - john-keenan
   - sal-didomenico
   - chynah-tyler
   - michelle-ciccolo
@@ -99,6 +93,12 @@ co_sponsors:
   - dan-sena
   - christopher-worrell
   - marjorie-decker
+  - joanne-comerford
+  - jason-lewis
+  - patricia-jehlen
+  - michael-barrett
+  - vanna-howard
+  - john-keenan
 history:
   - date: 2019-01-01
     description: "Introduced "
