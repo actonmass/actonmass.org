@@ -106,7 +106,6 @@ history:
     description: Reporting date extended to June 30, 2024
   - date: 2025-07-01
     description: Reporting date extended to July 31, 2024
-  - description: '"Sent to study", S2926'
-  - description: '"Sent to study", H5032'
+  - description: '"Sent to study"; S2926,H5032'
 timeline: []
 ---
