@@ -123,8 +123,7 @@ history:
   - date: ""
     description: Reporting date extended to July 31, 2024
   - date: ""
-    description: '"Sent to study", S2926'
-  - description: '"Sent to study", H5032'
+    description: '"Sent to study"; S2926, H5032'
 timeline:
   - date: 2021-03-29
     description: Referred to the Committee on the Judiciary
