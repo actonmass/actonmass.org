@@ -40,44 +40,29 @@ co_sponsors:
   - mike-connolly
   - jack-lewis
   - rebecca-rausch
-  - vanna-howard
-  - sal-didomenico
-  - patrick-kearney
-  - james-hawkins
-  - hannah-kane
-  - joanne-comerford
-  - jason-lewis
-  - james-eldridge
-  - anne-gobi
-  - thomas-stanley
-  - manny-cruz
-  - adam-gomez
-  - paul-feeney
-  - patrick-oconnor
-  - joan-lovely
-  - jacob-oliveira
-  - sean-garballey
-  - michael-moore
-  - david-vieira
-  - pavel-payano
-  - mindy-domb
-  - lindsay-sabadosa
   - tram-nguyen
+  - james-hawkins
   - carol-doherty
   - david-leboeuf
+  - vanna-howard
   - jennifer-armini
+  - patrick-oconnor
   - tricia-farley-bouvier
   - christine-barber
   - james-arena-derosa
+  - patrick-kearney
+  - james-eldridge
   - erika-uyterhoeven
   - sam-montano
+  - thomas-stanley
+  - manny-cruz
   - natalie-higgins
   - michelle-ciccolo
   - tackey-chan
   - david-robertson
   - carole-fiola
   - dawne-shand
-  - adrianne-ramons
+  - joan-lovely
   - simon-cataldo
   - margaret-scarsdale
   - kristin-kassner
@@ -85,7 +70,22 @@ co_sponsors:
   - christopher-hendricks
   - steven-ultrino
   - steve-owens
+  - david-vieira
+  - sal-didomenico
+  - hannah-kane
+  - joanne-comerford
+  - jason-lewis
+  - anne-gobi
+  - adam-gomez
+  - paul-feeney
+  - jacob-oliveira
   - bud-williams
+  - adrianne-ramons
+  - sean-garballey
+  - michael-moore
+  - pavel-payano
+  - mindy-domb
+  - lindsay-sabadosa
   - orlando-ramos
 history:
   - date: 2017-01-20
