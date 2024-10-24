@@ -107,5 +107,6 @@ history:
   - date: 2025-07-01
     description: Reporting date extended to July 31, 2024
   - description: '"Sent to study"; S2926,H5032'
+    type: death
 timeline: []
 ---
