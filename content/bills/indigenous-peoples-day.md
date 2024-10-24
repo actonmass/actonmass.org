@@ -125,5 +125,5 @@ history:
     date: 2024-06-24
     type: null
   - date: 2024-07-29
-    description: Waiting for a second reading
+    description: Awaiting a second reading
 ---
