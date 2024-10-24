@@ -1,7 +1,7 @@
 ---
 aom_id: life-without-parole
 title: Life without Parole
-full_title: An Act repealing mandatory life without parole
+full_title: An Act to promote equitable access to parole
 twitter_bill_name: Life without Parole
 house_no: H.2398
 house_link: https://malegislature.gov/Bills/193/H2398
@@ -19,10 +19,8 @@ summary:
     punishment and toward rehabilitation
 orgs: []
 house_lead_sponsors:
-  - liz-miranda
-  - andres-vargas
-senate_lead_sponsors:
-  - cynthia-creem
+  - lindsay-sabadosa
+senate_lead_sponsors: []
 co_sponsors:
   - lindsay-sabadosa
   - bud-williams
@@ -68,8 +66,10 @@ history:
   - description: Reporting date extended to May 8, 2024
     date: 2024-04-11
   - date: 2024-05-13
-    description: Accompanied a study order; S.2773
+    description: '"Sent to study", S2773'
     type: death
+  - date: 2024-08-15
+    description: '"Sent to study", H4877'
 timeline:
   - date: 2019-01-22
     description: Referred to the Judiciary Committee
