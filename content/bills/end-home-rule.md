@@ -83,6 +83,7 @@ history:
     date: 2024-04-16
   - description: '"Sent to study", H5035'
     date: 2024-09-09
+    type: death
 timeline:
   - description: Referred to the Committee on Housing
     date: 2021-03-29
