@@ -70,6 +70,7 @@ history:
     type: death
   - date: 2024-08-15
     description: '"Sent to study", H4877'
+    type: death
 timeline:
   - date: 2019-01-22
     description: Referred to the Judiciary Committee
