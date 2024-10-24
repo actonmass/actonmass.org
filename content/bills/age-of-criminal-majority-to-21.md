@@ -124,6 +124,7 @@ history:
     description: Reporting date extended to July 31, 2024
   - date: ""
     description: '"Sent to study"; S2926, H5032'
+    type: death
 timeline:
   - date: 2021-03-29
     description: Referred to the Committee on the Judiciary
