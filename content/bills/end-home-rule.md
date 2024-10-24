@@ -3,9 +3,9 @@ aom_id: end-home-rule
 title: Lift the Ban on Local Tenant Protections
 full_title: An Act enabling local options for tenant protections
 twitter_bill_name: End Home Rule
-house_no: H.3922
+house_no: H.1304
 house_link: https://malegislature.gov/Bills/193/HD3922
-senate_no: S.2368
+senate_no: S.872
 senate_link: https://malegislature.gov/Bills/193/SD2368
 committee: joint-housing
 issue: housing
@@ -20,7 +20,7 @@ summary:
     rent, property damage, etc.)
 orgs:
   - title: Mass Alliance of HUD Tenants
-    link: https://www.saveourhomesnow.org/2023_priority_bills
+    link: https://assets.nationbuilder.com/saveourhomesusa/pages/432/attachments/original/1676486825/HD3922_SD2368_Tenant_Protection_Act_fact_sheet_Jan._27th_2023-2.pdf?1676486825
     img: null
   - title: Homes for all Massachusetts
     link: https://www.homesforallmass.org/
@@ -81,6 +81,8 @@ history:
     date: 2024-02-08
   - description: Reporting date extended to July 10, 2024
     date: 2024-04-16
+  - description: '"Sent to study", H5035'
+    date: 2024-09-09
 timeline:
   - description: Referred to the Committee on Housing
     date: 2021-03-29
