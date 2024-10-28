@@ -53,7 +53,7 @@ orgs:
     img: /img/meja_by_fulllogo.png
   - title: AFT-MA
     img: /img/aft-ma-logo.png
-    link: http://ma.aft.org/news/aft-massachusetts-president-beth-kontos-get-ready-big-push-major-education-bill
+    link: https://ma.aft.org/sites/default/files/media/documents/2023/Summary%20of%20Thrive%20Act_FINAL%20UPDATED_September%202023%5B39%5D.pdf
 house_lead_sponsors:
   - james-hawkins
   - sam-montano
