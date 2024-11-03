@@ -175,5 +175,8 @@ history:
     date: 2023-10-04
   - date: 2024-02-08
     description: Reporting date extended to June 30, 2024
+  - date: 2024-08-22
+    description: '"Sent to study"; H.5011, S.2841'
+    type: death
 timeline: []
 ---
