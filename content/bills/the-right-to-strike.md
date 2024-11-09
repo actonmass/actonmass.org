@@ -22,9 +22,7 @@ text: >-
   striking is deeply unjust, prevents educators from bargaining on a level
   playing field with their employers, and unfairly restricts the ability of
   educators to take collective action in support of themselves and their
-  families, their students and\
-
-  the communities they serve.
+  families, their students and the communities they serve.
 
 
   An Act uplifting families and securing the right to strike for certain public employees would\
