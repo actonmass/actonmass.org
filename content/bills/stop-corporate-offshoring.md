@@ -111,6 +111,6 @@ history:
   - date: 2023-05-16
     description: Joint committee hearing held
   - type: death
-    description: Accompanied a study order
+    description: Sent to study; H.4720
     date: 2024-06-12
 ---
