@@ -96,6 +96,7 @@ history:
   - date: 2024-02-08
     description: Reporting date extended to March 15, 2024
   - date: 2024-04-08
-    description: Accompanied new drafts, reported favorably and referred to the
-      committee on Senate Ways and Means
+    description: Accompanied new drafts; H.4519, S.2709
+  - description: Reported favorably and referred to House Ways and Means and Senate
+      Ways and Means
 ---
