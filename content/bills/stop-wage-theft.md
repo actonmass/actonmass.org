@@ -243,6 +243,8 @@ history:
     description: Reporting date extended to April 10, 2024
   - date: 2024-04-11
     description: Reporting date extended to July 31, 2024
+  - description: Reporting date extended to December 31, 2024
+    date: 2024-08-05
 timeline:
   - description: Sent to the Labor and Workforce Committee
     date: 2019-01-22
