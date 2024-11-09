@@ -111,11 +111,12 @@ history:
     description: Referred to the Joint Committee on Labor and Workforce Development
   - date: 2023-10-24
     description: Joint committee hearing held
-  - description: Accompanied a study order, S2633
+  - description: '"Sent to study"; S2633'
     date: 2024-02-12
     type: death
   - date: 2024-05-15
-    description: Accompanied a study order; H.4570
+    description: '"Sent to study"; H.4570'
+    type: death
 timeline:
   - date: 2019-07-09
     description: Hearing
