@@ -6,7 +6,7 @@ full_title: An Act establishing a transportation network driver bill of
 twitter_bill_name: An Act establishing a transportation network driver bill of
   rights/An Act establishing collective bargaining rights for TNC drivers
 house_no: H.1099
-house_link: https://malegislature.gov/Bills/193/H1158/
+house_link: https://malegislature.gov/Bills/193/H1099/
 senate_no: S.627
 senate_link: https://malegislature.gov/Bills/193/S627/
 committee: joint-financial-services
