@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "11/2/2024 Saturday Scoop: Defend Question 1! And other outtakes from
+title: "11/16/2024 Saturday Scoop: Defend Question 1! And other outtakes from
   lame-duck session"
 date: 2024-11-20T15:33:53.946Z
 image: /img/saturday-scoop-logo.png
