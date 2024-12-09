@@ -1,12 +1,11 @@
 url: https://actonmass.org
 donate_button_url: https://secure.everyaction.com/_SjkDwX4y0uDuoc24BFq4w2
-description:
-  Act on Mass is a non-profit organization that tracks what happens in the Massachusetts State House
-  and the issues that matter to you.
+description: Act on Mass is a non-profit organization that tracks what happens
+  in the Massachusetts State House and the issues that matter to you.
 cta:
-  active: false
-  title: "Tell your Senator: Bring the Sunlight Act to a vote!"
-  href: https://secure.everyaction.com/Y-7oq9zG20CaIEhOZYChLA2
+  active: true
+  title: Donate to our End of Year Fundraiser
+  href: https://secure.everyaction.com/EjW0I4nUIU2FiIMF5mt3tw2
 menu:
   - href: /about-us
     title: About Us
