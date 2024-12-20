@@ -5,7 +5,7 @@ title: "11/16/2024 Saturday Scoop: Defend Question 1! And other outtakes from
 date: 2024-11-20T15:33:53.946Z
 image: /img/saturday-scoop-logo.png
 ---
-It’s been a busy week, {{FirstName or "friend"}}.
+It’s been a busy week, friend.
 
 The House met in a rare late-November formal session Thursday to pass some final outstanding priorities, namely the massive economic development bill and the climate bill. Our reps also took the opportunity to make a [last-minute alteration to the House rules](https://www.wbur.org/news/2024/11/15/state-house-dizoglio-alternative-legislative-audit?utm_medium=&emci=8d89afd4-48a4-ef11-88d0-6045bdd62db6&emdi=ea000000-0000-0000-0000-000000000001&ceid={{ContactsEmailID}}) which seems to have some serious implications for Question 1 on the ballot to allow the state auditor to audit the legislature. 
 
