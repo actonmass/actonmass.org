@@ -2,6 +2,7 @@
 layout: post
 title: Act on Mass’s Requests for Trump’s First 100 Days
 date: 2024-12-20T14:27:52.955Z
+image: /img/boston-111239_1280.jpg
 ---
 ## **Act on Mass’s Requests for Trump’s First 100 Days**
 
