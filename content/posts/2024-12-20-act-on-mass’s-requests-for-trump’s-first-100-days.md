@@ -99,3 +99,7 @@ In a similar vein to the CARE Act, the Cherish Act would have allowed more persp
 The state legislature needs to be held accountable and motivated to enact protections like the ones to protect students, educators, immigrants, and all residents of Massachusetts as we enter unprecedented times. The threat of Trump’s administration is not one that should be taken lightly, and while the federal government may not reflect the needs and values of the people it claims to represent, our state government can if necessary actions are taken by passing protections in favor of the people, rather than of corporations and the rich. 
 
 **Act on Mass is calling for the passing and signing of the THRIVE Act, the CARE Act, and the Cherish Act within the first 100 days of Trump’s presidency, so that our state’s schools are protected from the legislation that Trump has threatened to impose to harm education systems.**
+
+
+
+Blog post by Sydney Mascoll, Act on Mass Policy Fellow Fall 2024
