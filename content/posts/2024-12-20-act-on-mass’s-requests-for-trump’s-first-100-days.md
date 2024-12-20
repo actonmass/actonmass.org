@@ -3,6 +3,8 @@ layout: post
 title: Act on Mass’s Requests for Trump’s First 100 Days
 date: 2024-12-20T14:27:52.955Z
 ---
+## **Act on Mass’s Requests for Trump’s First 100 Days**
+
 With Donald Trump's recent reelection, local action to protect progressive values and the safety of our communities is more important than ever. Without a competent or representative federal government that operates in ways that actually benefit the average American rather than members of the elite, vulnerable and marginalized groups will increasingly face the brunt of the effects of harmful legislation and suffer from the lack of proactive, protective legislation. 
 
 The uncertain and terrifying times that we are quickly heading into are only exacerbated by the current state of the House and Senate at the Federal Government. The national government now has the ability to pass legislation that has the potential to affect all Americans negatively and the conservative majority in the Supreme Court means that even laws that seem to cover basic rights are at stake of being torn down. Without a democratic caucus large enough to stop MAGA republicans, the US Congress is threatening legislation that will stifle the rights and protections that are currently in place for U.S. residents – especially for the country’s most marginalized groups. 
@@ -23,8 +25,6 @@ With so much power in the hands of House and Senate leadership, any legislator w
 
 Even when bills are brought to the House or Senate floor for a vote, legislators are expected to vote in accordance with leadership, regardless of any previous indication of support. The [“Switch ‘em, Mikey”](https://drive.google.com/file/d/1LkDKkoOcjD25G8ERPh7JuSSNcVsPm7xU/view?usp=sharing) video shows an example of this reality in action. 
 
-
-
 ![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdorwICJxCCm1LXGuv2Bi98y53YmQJmDs3PeXVwweUS5C3IHPAdA_oI9XphwcmkSlNoGA94lxJ34TgleCpoUltnf_01endSfd5xf4wbVr1tnT6Jjf7Y56VTxJB8NiwIC8NLzzfAaA?key=QFghAnpS3AXqLEjJk1SD8Pnx)
 
 The State House only passes a small fraction of the bills that are filed each session, coming in last place in productivity last session. Bills that seem like they should be passed easily and that are cosponsored by large numbers of the House and Senate are “sent to study”, a.k.a. the bills are being killed behind closed doors, without any public access to the vote.  
@@ -40,8 +40,6 @@ Our democratic supermajorities within the state have done little to enact legisl
 Just as Trump and other presidents have laid out their goals for the first 100 days of their administrations, we at Act on Mass have ideas for what legislation and protections we want to see enacted in the first 100 days of his administration so that we can resist the archaic and harmful moves made at the federal level. 
 
 There are many areas that Trump has promised to attack in his administration, but some have consistently been in headlines since his first campaign back in 2016 and are particularly pressing in Massachusetts.  
-
-
 
 **To Protect Our Communities**
 
@@ -68,8 +66,6 @@ While this is a city ordinance in Boston, this is not law for other places in Ma
 By failing to pass the Safe Communities act, the state government is allowing for the federal patchwork of varying protections for immigrants to reflect in the varying protections across Massachusetts itself. 
 
 Enacting protections at the state level is vital to protect communities in Massachusetts, especially given how many sanctuary cities we already have that are in need of more consistent laws. 
-
-
 
 **To Protect Our Education System**
 
