@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "11/25/2024 Saturday Scoop: Processing econ dev & the disappearence of
+title: "11/23/2024 Saturday Scoop: Processing econ dev & the disappearence of
   the standalone bill in MA"
-date: 2024-11-20T15:33:53.946Z
+date: 2024-11-27T15:33:53.946Z
 image: /img/saturday-scoop-logo.png
 ---
 Happy Saturday, 
