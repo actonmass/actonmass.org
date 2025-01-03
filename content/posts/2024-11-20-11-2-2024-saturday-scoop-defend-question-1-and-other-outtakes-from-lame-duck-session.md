@@ -103,17 +103,13 @@ We hope that this Thanksgiving you take the time to recognize the continued marg
 
 ## Take Action
 
-**Reminder: our member meeting is this Thursday 11/21!**
+**Take action to Defend Question 1!**
 
-We’re gathering this Thursday at 6 p.m!
+![](/img/signal-2024-11-15-140641_002-2.png)
 
-**[JOIN OUR MEMBER MEETING>>](https://secure.everyaction.com/sSkvYWtPjk2MEJ3Ryxl4Ug2?utm_medium=&nvep=&hmac=&emci=46cb09cd-9f9e-ef11-88ce-000d3a98fa6b&emdi=ea000000-0000-0000-0000-000000000001&ceid=9414711&&{{{EngagementData}}})**
+Last week, legislators approved a rules change that seems intended to serve as a watered-down version of Question 1, which voters approved by a margin of 72%-28%. Leadership described this rules change, which would give the auditor the ability to appoint the private firm who completes the legislature's financial audits, as an attempt to "acknowledge" the will of the voters. We need all hands on deck to protect the People's Audit from this backsliding. Tell your rep: no acknowledgement but compliance. We demand a full legislative audit. 
 
-![]()
-
-Join us for a discussion with special guests Evan McKay and representative-elect Tara Hong, both Act on Mass-endorsed candidates this year who ran tight primary battles that centered the issue of transparency and legislative dysfunction. Tara Hong was the only candidate in the state to win a Democratic primary against an incumbent this year! We’re excited to debrief the election with these two and talk about how we’ll continue working together going forward. 
-
-We’ll also announce our next steps as an organization, and introduce some opportunities to get plugged in, or to take our movement to a community near you. Looking forward to seeing you all there!
+**[DEFEND THE PEOPLE'S AUDIT>>](https://secure.everyaction.com/YzGbmDkJ8k2j3Ltc25tI7g2?utm_medium=&emci=9dd28b6f-26a9-ef11-88d0-6045bdd62db6&emdi=ea000000-0000-0000-0000-000000000001&ceid={{ContactsEmailID}})**
 
 **Reminder: End of Year Fundraiser ongoing!**
 
@@ -127,11 +123,11 @@ A little goes a long way for a small organization like ours and we so appreciate
 
 **\---**
 
-That's all for today folks. Please take some time this weekend reach out to your legislators to Defend Question 1. It's times like these that we all need to band together as democracy defenders– ever the more reason why I'm looking forward to seeing many of you at our member meeting on Thursday!
+Thanks for reading, folks, I hope you're feeling as fired-up as I am to make some serious change to our broken system. In the meantime, enjoy your Saturday!
 
-Have a great weekend,
+In solidarity, 
 
-\-Scotia
+Scotia
 
 Scotia Hille (she/her)
 
