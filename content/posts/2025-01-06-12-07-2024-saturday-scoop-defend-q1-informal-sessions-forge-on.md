@@ -5,7 +5,7 @@ title: "12/14/2024 Saturday Scoop: Progressives call for action from state
 date: 2024-12-16T18:27:05.340Z
 image: /img/saturday-scoop-logo.png
 ---
-Good morning Scotia, 
+Good morning, 
 
 Despite the limited amount of daylight these days, I’m still basking in the glow of our Transparency Bash this past Sunday!
 
