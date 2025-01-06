@@ -1,6 +1,7 @@
 ---
 layout: post
-title: "12/14/2024 Saturday Scoop: Defend Q1 & informal sessions forge on"
+title: "12/14/2024 Saturday Scoop: Progressives call for action from state
+  leaders ahead of Jan 20"
 date: 2024-12-16T18:27:05.340Z
 image: /img/saturday-scoop-logo.png
 ---
