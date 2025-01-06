@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "11/2/2024 Saturday Scoop: Audit the legislature is on your Tuesday ballot"
-date: 2024-11-20T15:23:56.747Z
+date: 2024-11-04T15:23:56.747Z
 image: /img/saturday-scoop-logo.png
 ---
 Happy Saturday,
