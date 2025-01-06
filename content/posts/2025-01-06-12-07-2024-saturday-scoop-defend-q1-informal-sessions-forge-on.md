@@ -71,8 +71,6 @@ Meanwhile, Boston homeowners will see a large tax hike next year– and have no 
 
 **Call on state leaders to take action before Trump 2.0!**
 
-![]()
-
 Lend your voice to the movement of progressives calling on state leaders to take immediate, proactive steps to protect MA residents– especially our most vulnerable neighbors– from the policies set to emerge at the federal level come January 20. 
 
 Click here to personalize an email to Governor Healey: 
