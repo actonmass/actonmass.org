@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "12/07/2024 Saturday Scoop: Defend Q1 & informal sessions forge on"
-date: 2024-12-09T18:27:05.340Z
+title: "12/14/2024 Saturday Scoop: Defend Q1 & informal sessions forge on"
+date: 2024-12-16T18:27:05.340Z
 image: /img/saturday-scoop-logo.png
 ---
 Good morning Scotia, 
