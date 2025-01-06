@@ -4,7 +4,7 @@ title: "12/07/2024 Saturday Scoop: Defend Q1 & informal sessions forge on"
 date: 2024-12-09T18:27:05.340Z
 image: /img/saturday-scoop-logo.png
 ---
-Good morning Scotia, 
+Good morning, 
 
 Brrrrrr. It’s getting chilly out there! Believe it or not, this is actually the kind of MA day that I missed in my years living elsewhere. When you’re all bundled up, there’s something satisfying about cold air in the lungs. 
 
