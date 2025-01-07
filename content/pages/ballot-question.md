@@ -51,20 +51,20 @@ Act on Mass ran a similar ballot question in 16 districts in 2020, which passed 
 
 | District       | Rep                   | Votes Yes | Votes No | % Yes | % No  | Rep's vote on public committee votes in 2021 |
 | -------------- | --------------------- | --------- | -------- | ----- | ----- | -------------------------------------------- |
-| 5th Essex      | Ann-Margaret Ferrante | 19338     | 3264     | 85.6% | 14.4% | NO                                           |
-| 1st Franklin   | Natalie Blais         | 21539     | 2762     | 88.6% | 11.4% | NO                                           |
-| 2nd Hampshire  | Daniel Carey          | 20212     | 2982     | 87.1% | 12.9% | NO                                           |
+| 27th Middlesex | Erika Uyterhoeven     | 20704     | 1250     | 94.3% | 5.7%  | YES                                          |
+| 17th Suffolk   | Kevin Honan           | 13991     | 996      | 93.4% | 6.6%  | NO                                           |
+| 15th Norfolk   | Tommy Vitolo          | 17287     | 1258     | 93.2% | 6.8%  | NO                                           |
 | 3rd Hampshire  | Mindy Domb            | 12402     | 919      | 93.1% | 6.9%  | NO                                           |
+| 18th Suffolk   | Michael Moran         | 11557     | 903      | 92.8% | 7.2%  | NO                                           |
+| 15th Suffolk   | Nika Elugardo         | 15688     | 1294     | 92.4% | 7.6%  | YES                                          |
+| 29th Middlesex | Steve Owens           | 20458     | 1707     | 92.3% | 7.7%  | YES                                          |
 | 11th Middlesex | Kay Khan              | 19170     | 1790     | 91.5% | 8.5%  | NO                                           |
 | 12th Middlesex | Ruth Balser           | 18368     | 1746     | 91.3% | 8.7%  | NO                                           |
-| 21st Middlesex | Kenneth Gordon        | 19530     | 3569     | 84.5% | 15.5% | NO                                           |
-| 27th Middlesex | Erika Uyterhoeven     | 20704     | 1250     | 94.3% | 5.7%  | YES                                          |
-| 29th Middlesex | Steve Owens           | 20458     | 1707     | 92.3% | 7.7%  | YES                                          |
-| 11th Norfolk   | Paul McMurtry         | 20296     | 3139     | 86.6% | 13.4% | NO                                           |
-| 15th Norfolk   | Tommy Vitolo          | 17287     | 1258     | 93.2% | 6.8%  | NO                                           |
 | 11th Suffolk   | Liz Malia             | 15948     | 1682     | 90.5% | 9.5%  | NO                                           |
-| 15th Suffolk   | Nika Elugardo         | 15688     | 1294     | 92.4% | 7.6%  | YES                                          |
-| 17th Suffolk   | Kevin Honan           | 13991     | 996      | 93.4% | 6.6%  | NO                                           |
-| 18th Suffolk   | Michael Moran         | 11557     | 903      | 92.8% | 7.2%  | NO                                           |
+| 1st Franklin   | Natalie Blais         | 21539     | 2762     | 88.6% | 11.4% | NO                                           |
+| 2nd Hampshire  | Daniel Carey          | 20212     | 2982     | 87.1% | 12.9% | NO                                           |
+| 11th Norfolk   | Paul McMurtry         | 20296     | 3139     | 86.6% | 13.4% | NO                                           |
+| 5th Essex      | Ann-Margaret Ferrante | 19338     | 3264     | 85.6% | 14.4% | NO                                           |
+| 21st Middlesex | Kenneth Gordon        | 19530     | 3569     | 84.5% | 15.5% | NO                                           |
 | 19th Suffolk   | Jeffrey Turco         | 11796     | 2418     | 83.0% | 17.0% | NO                                           |
-|                | TOTAL                 | 278284    | 31679    | 90%   | 10.0% |                                              |
+| TOTAL          |                       | 278284    | 31679    | 90%   | 10.0% |                                              |
