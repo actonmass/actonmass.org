@@ -3,7 +3,7 @@ permalink: /ballot-question/
 title: Ballot Question 6 for Public Committee Votes
 layout: default
 ---
-# 36 Districts voted for Public Committee Votes!
+# 87% of Bay Staters support public committee votes
 
 ![](/img/signal-2022-11-29-161738.jpeg)
 
