@@ -175,8 +175,12 @@ history:
     date: 2023-10-04
   - date: 2024-02-08
     description: Reporting date extended to June 30, 2024
-  - date: 2024-08-22
+  - date: 2024-08-29
     description: '"Sent to study"; H.5011, S.2841'
     type: death
+  - description: Nearly 2 million people vote yes on Question 2 to remove MCAS tests
+      as high school graduation requirement, passing a crucial aspect of THRIVE
+      via the ballot
+    date: 2024-11-05
 timeline: []
 ---
