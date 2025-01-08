@@ -176,4 +176,7 @@ history:
     description: Health Care Financing Committee recommended ought to pass
   - date: 2024-04-20
     description: Referred to the committee on Senate Ways and Means
+  - date: 2024-12-31
+    description: No further action taken by House Ways + Means or Senate Ways + Means
+    type: death
 ---
