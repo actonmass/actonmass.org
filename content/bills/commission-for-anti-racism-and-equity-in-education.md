@@ -95,8 +95,6 @@ history:
     description: Referred to the Joint Committee on Education
   - date: 2023-10-11
     description: Hearing held by the Joint Committee on Education
-  - date: 2024-02-08
-    description: Reporting date extended to March 15, 2024
   - date: 2024-06-01
     description: "Consolidated away with several other bills; Bill reported
       favorably by committee and referred to the committee on House Ways and
