@@ -116,5 +116,12 @@ history:
   - date: 2024-02-12
     description: Reporting date extended to Monday July 1, 2024
   - date: 2024-06-05
-    description: Accompanied a study order; H.4517
+    description: House bill sent to study; H.4517
+    type: death
+  - date: 2024-06-21
+    description: Senate bill amended as S.2821, reported favorably and sent to
+      Senate Ways + Means
+  - date: 2024-12-31
+    description: No further action taken by Senate Ways + Means
+    type: death
 ---
