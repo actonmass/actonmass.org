@@ -120,9 +120,9 @@ history:
     description: Reporting date extended to Tuesday April 30, 2024
   - date: 2024-05-02
     description: Reporting date extended to June 30, 2024
-  - date: ""
+  - date: 2024-07-01
     description: Reporting date extended to July 31, 2024
-  - date: ""
+  - date: 2024-09-03
     description: '"Sent to study"; S2926, H5032'
     type: death
 timeline:
