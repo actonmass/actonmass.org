@@ -125,6 +125,9 @@ history:
     description: Reporting date extended to May 28, 2024
   - date: 2024-05-30
     description: Reported favorably and referred to the committee on Senate Ways and Means
+  - date: 2024-12-31
+    description: No further action taken by Senate Ways + Means
+    type: death
 timeline:
   - date: 2019-05-15
     description: Hearing (Election Laws)
