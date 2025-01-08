@@ -98,9 +98,11 @@ history:
   - date: 2024-02-08
     description: Reporting date extended to March 15, 2024
   - date: 2024-06-01
-    description: Accompanied new drafts; S.2709 and H.4519
+    description: "Consolidated away with several other bills; Bill reported
+      favorably by committee and referred to the committee on House Ways and
+      Means without any actual content of CARE included "
     type: null
-  - date: 2024-06-08
-    description: Reported favorably and referred to the House Ways and Means and
-      Senate Ways and Means committees
+  - date: 2024-12-31
+    description: No further action taken by House Ways + Means
+    type: death
 ---
