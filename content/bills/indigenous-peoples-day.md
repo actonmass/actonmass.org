@@ -125,5 +125,10 @@ history:
     date: 2024-06-24
     type: null
   - date: 2024-07-29
-    description: Awaiting a second reading
+    description: "Placed in the Orders of the Day for the next sitting (under the
+      last sentence of Rule 7A, requiring a bill be considered if no action was
+      taken by the committee on Steering, Policy and Scheduling for 30 days) "
+  - date: 2024-12-31
+    description: No further action taken
+    type: death
 ---
