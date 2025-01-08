@@ -23,4 +23,14 @@ co_sponsors:
   - james-eldridge
   - mary-keefe
   - carlos-gonzalez
+history:
+  - date: 2024-01-09
+    description: Bill introduced as H.724/S.428
+  - date: 2024-02-16
+    description: "Referred to the committee on Election Laws "
+  - date: 2024-09-13
+    description: Hearing held
+  - date: 2024-08-23
+    description: Sent to study, H.4923
+    type: death
 ---
