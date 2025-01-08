@@ -189,11 +189,10 @@ history:
     description: Referred to the Joint Committee on Higher Education
   - description: Hearing held by the Joint Committee on Higher Education
     date: 2023-09-08
-  - date: 2024-02-08
-    description: Reporting date extended to March 1, 2024
   - date: 2024-02-29
     description: Amendment adopted
   - date: 2024-09-05
     description: "Ought not to pass under Joint Rule 10 "
+    type: death
 timeline: []
 ---
