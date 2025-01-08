@@ -239,12 +239,9 @@ history:
     description: Referred to the Joint Committee on Labor and Workforce Development
   - date: 2023-09-19
     description: Joint committee hearing held
-  - date: 2024-02-08
-    description: Reporting date extended to April 10, 2024
-  - date: 2024-04-11
-    description: Reporting date extended to July 31, 2024
-  - description: Reporting date extended to December 31, 2024
-    date: 2024-08-05
+  - date: 2024-12-31
+    description: No further action taken by Committee on Labor and Workforce Development
+    type: death
 timeline:
   - description: Sent to the Labor and Workforce Committee
     date: 2019-01-22
