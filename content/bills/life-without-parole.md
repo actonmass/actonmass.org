@@ -61,10 +61,6 @@ history:
     description: Sent to the Joint Committee on Public Safety and Homeland Security
   - description: Joint committee hearing held
     date: 2024-01-23
-  - description: Reporting date extended to April 8, 2024
-    date: 2024-02-12
-  - description: Reporting date extended to May 8, 2024
-    date: 2024-04-11
   - date: 2024-05-13
     description: '"Sent to study", S2773'
     type: death
