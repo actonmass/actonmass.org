@@ -126,6 +126,9 @@ history:
     type: null
   - date: 2024-03-28
     description: Reported favorably and referred to the committee on Senate Ways and Means
+  - date: 2024-12-31
+    type: death
+    description: No further action taken by Senate Ways + Means
 timeline:
   - date: 2019-01-01
 ---
