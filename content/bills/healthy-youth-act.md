@@ -212,7 +212,7 @@ history:
     description: Redrafted as S.2686 with minor changes and reported favorably by
       Senate Ways and Means Committee
   - date: 2024-02-29
-    description: Amended at S.2694, Senate adopts the bill on a voice vote and sends
+    description: Amended as S.2694, Senate adopts the bill on a voice vote and sends
       it to House Ways + Means
   - date: 2024-12-31
     description: No further action taken by House Ways + Means
