@@ -137,4 +137,11 @@ history:
     description: Joint committee hearing held
   - date: 2024-02-08
     description: Reporting date extended to July 31, 2024
+  - date: 2024-09-16
+    description: Sent to study, H.5047
+    type: death
+  - date: 2024-11-05
+    description: 1.7 million voters approve of question 3 to allow drivers for Uber
+      and Lyft to unionize and collectively bargain, passing the goals of the
+      bill at the ballot box
 ---
