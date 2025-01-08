@@ -2,11 +2,8 @@
 aom_id: safe-communities-act
 title: Safe Communities Act
 full_title: An Act to Protect the Civil Rights and Safety of all Massachusetts Residents
-twitter_bill_name: Safe Communities Act
-article: ""
 house_no: H.2288
 house_link: https://malegislature.gov/Bills/193/H2288
-senate_no: S.1510
 senate_link: https://malegislature.gov/Bills/193/S1510
 committee: joint-public-safety-and-homeland-security
 issue: immigration
@@ -15,6 +12,81 @@ summary:
   - Prevents local law enforcement from cooperating with ICE
   - Prohibits police from asking questions about immigration status
   - Protects people of color from racial profiling by police
+house_lead_sponsors:
+  - ruth-balser
+scripts:
+  call_request: >-
+    Please support the Safe Communities Act.
+
+
+    Immigrant communities in Massachusetts should not be subjected to Trump's racist policies.
+  email_request:
+    subject: Please support the Safe Communities Act!
+scripts_com_vote:
+  call_request: >
+    Hi {leg.first_name} {leg.last_name},
+
+
+    The Joint Committee on Public Safety and Homeland Security has been studying the Safe Communities Act since last year, we need action now!
+
+
+    Can you make sure the committee votes on this bill next time you meet?
+timeline: []
+votes:
+  - legislator: william-straus
+    vote: unk
+  - legislator: paul-tucker
+    vote: unk
+  - legislator: dean-tran
+    vote: false
+  - legislator: steven-howitt
+    vote: false
+  - legislator: norman-orrall
+    vote: false
+  - legislator: david-decoste
+    vote: false
+  - legislator: adrian-madaro
+    vote: true
+  - legislator: lindsay-sabadosa
+    vote: true
+  - legislator: joseph-mcgonagle
+    vote: true
+  - legislator: jonathan-hecht
+    vote: true
+  - legislator: natalie-blais
+    vote: true
+  - legislator: daniel-donahue
+    vote: true
+  - legislator: peter-capano
+    vote: true
+  - legislator: daniel-ryan
+    vote: true
+  - legislator: eric-lesser
+    vote: true
+  - legislator: william-brownsberger
+    vote: true
+  - legislator: harriette-chandler
+    vote: true
+  - legislator: cindy-friedman
+    vote: true
+  - legislator: diana-dizoglio
+    vote: true
+  - legislator: joseph-boncore
+    vote: true
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - legislator: michael-rush
+twitter_bill_name: Safe Communities Act
+article: ""
+senate_no: S.1510
 text: For nearly 20 years, the federal government has leveraged our public
   safety resources to identify and deport immigrants. This bill would end state
   and local involvement in civil immigration enforcement, increasing immigrant
@@ -23,8 +95,6 @@ orgs:
   - title: MIRA
     img: /img/mira_logo.svg
     link: https://miracoalition.org/our-work/miras-state-legislative-priorities-2023-2024/
-house_lead_sponsors:
-  - ruth-balser
 senate_lead_sponsors:
   - james-eldridge
 co_sponsors:
@@ -78,23 +148,6 @@ co_sponsors:
   - pavel-payano
   - shirley-arriaga
   - priscila-sousa
-scripts:
-  call_request: >-
-    Please support the Safe Communities Act.
-
-
-    Immigrant communities in Massachusetts should not be subjected to Trump's racist policies.
-  email_request:
-    subject: Please support the Safe Communities Act!
-scripts_com_vote:
-  call_request: >
-    Hi {leg.first_name} {leg.last_name},
-
-
-    The Joint Committee on Public Safety and Homeland Security has been studying the Safe Communities Act since last year, we need action now!
-
-
-    Can you make sure the committee votes on this bill next time you meet?
 history:
   - date: 2019-01
     description: Filed as Safe Communities Act - H3573
@@ -149,61 +202,10 @@ history:
   - date: 2024-05-15
     description: Reported favorably by committee and referred to the committee on
       House Ways and Means
-  - description: Reporting date extended to Wednesday, July 17th, 2024
-    date: 2024-07-15
-  - description: Sent to study; S.2876
+  - description: Senate bill sent to study; S.2876
     date: 2024-07-19
-timeline: []
-votes:
-  - legislator: william-straus
-    vote: unk
-  - legislator: paul-tucker
-    vote: unk
-  - legislator: dean-tran
-    vote: false
-  - legislator: steven-howitt
-    vote: false
-  - legislator: norman-orrall
-    vote: false
-  - legislator: david-decoste
-    vote: false
-  - legislator: adrian-madaro
-    vote: true
-  - legislator: lindsay-sabadosa
-    vote: true
-  - legislator: joseph-mcgonagle
-    vote: true
-  - legislator: jonathan-hecht
-    vote: true
-  - legislator: natalie-blais
-    vote: true
-  - legislator: daniel-donahue
-    vote: true
-  - legislator: peter-capano
-    vote: true
-  - legislator: daniel-ryan
-    vote: true
-  - legislator: eric-lesser
-    vote: true
-  - legislator: william-brownsberger
-    vote: true
-  - legislator: harriette-chandler
-    vote: true
-  - legislator: cindy-friedman
-    vote: true
-  - legislator: diana-dizoglio
-    vote: true
-  - legislator: joseph-boncore
-    vote: true
-  - null
-  - null
-  - null
-  - null
-  - null
-  - null
-  - null
-  - null
-  - null
-  - null
-  - legislator: michael-rush
+    type: death
+  - date: 2024-12-31
+    type: death
+    description: No further action taken by House Ways + Means
 ---
