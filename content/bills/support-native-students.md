@@ -95,8 +95,12 @@ history:
     description: Joint committee hearing held
   - date: 2024-02-08
     description: Reporting date extended to March 15, 2024
-  - date: 2024-04-08
-    description: Accompanied new drafts; H.4519, S.2709
-  - description: Reported favorably and referred to House Ways and Means and Senate
-      Ways and Means
+  - description: "Consolidated away with several other bills as H.4519/S.2709
+      without any actual content of the initial bill included; Bill reported
+      favorably and referred to the House and Senate Ways + Means committees "
+    date: 2024-04-08
+    type: death
+  - date: 2024-12-31
+    description: "No further action taken by House or Senate Ways + Means "
+    type: death
 ---
