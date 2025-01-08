@@ -77,10 +77,6 @@ history:
     description: Referred to the Joint Committee on Housing
   - date: 2023-11-06
     description: Joint committee hearing scheduled
-  - description: Reporting date extended to April 18, 2024
-    date: 2024-02-08
-  - description: Reporting date extended to July 10, 2024
-    date: 2024-04-16
   - description: '"Sent to study", H5035'
     date: 2024-09-09
     type: death
