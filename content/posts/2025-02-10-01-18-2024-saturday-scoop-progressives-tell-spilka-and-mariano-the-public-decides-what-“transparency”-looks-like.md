@@ -2,7 +2,7 @@
 layout: post
 title: "01/18/2024 Saturday Scoop: Progressives tell Spilka and Mariano - the
   public decides what “transparency” looks like"
-date: 2025-02-10T14:51:48.877Z
+date: 2025-01-20T14:51:48.877Z
 image: /img/saturday-scoop-logo.png
 ---
 Good morning, 
