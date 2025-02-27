@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "02/22/2024 Saturday Scoop: the Senate's rules are set– how transparent
-  are they?"
+title: "02/22/2024 Saturday Scoop: House rules proposal– will we finally see
+  public committee votes?"
 date: 2025-02-24T16:29:13.433Z
 image: /img/saturday-scoop-logo.png
 ---
