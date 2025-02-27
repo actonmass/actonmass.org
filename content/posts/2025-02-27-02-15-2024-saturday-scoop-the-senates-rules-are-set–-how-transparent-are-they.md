@@ -65,9 +65,9 @@ If you missed last week’s Scoop, I had a [bit of a rant](https://click.every
 
 This week’s most egregious offender? Lucky winner House Speaker Ron Mariano, who was asked this week about the dangers of a federal funding freeze to Massachusetts. Here’s the quote, from [Channel 5 news reporting](https://click.everyaction.com/k/102205218/528418337/29544412?utm_medium=&nvep=ew0KICAiVGVuYW50VXJpIjogIm5ncHZhbjovL3Zhbi9FQS9FQTAwNy8xLzkwMTUxIiwNCiAgIkRpc3RyaWJ1dGlvblVuaXF1ZUlkIjogIjQ1Y2YyMjlhLWVjZWItZWYxMS05MGNiLTAwMjI0ODJhOTRmNCIsDQogICJFbWFpbEFkZHJlc3MiOiAic2NvdGlhQGFjdG9ubWFzcy5vcmciDQp9&hmac=SeXVpQ9kRlO86vQA0r84aBeNialaq7MrCXGheU18gmE=&emci=9c68982b-55ea-ef11-90cb-0022482a94f4&emdi=45cf229a-eceb-ef11-90cb-0022482a94f4&ceid=34858207): 
 
-“‘The loss of federal funds will be significant to all segments of the budget,’ Mariano said.
-
-When asked how he would prepare for it, Mariano said, **‘There’s not much you can do.’”** 
+> “‘The loss of federal funds will be significant to all segments of the budget,’ Mariano said.
+>
+> When asked how he would prepare for it, Mariano said, **‘There’s not much you can do.’”** 
 
 Gee, if only there were someone around here with control over our state's $62 billion budget!
 
@@ -81,7 +81,7 @@ The Boston Globe's editorial board published a great piece on the Senate rules, 
 
 *\--*
 
-## Syd's Sprinkles 
+## Syd's Sprinkles
 
 **Syd’s Sprinkles: Trump’s climate and environmental attacks**
 
