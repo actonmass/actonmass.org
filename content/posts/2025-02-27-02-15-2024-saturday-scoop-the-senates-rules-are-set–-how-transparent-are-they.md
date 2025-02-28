@@ -5,7 +5,7 @@ title: "02/15/2024 Saturday Scoop: the Senate's rules are set– how transparent
 date: 2025-02-17T18:50:19.701Z
 image: /img/saturday-scoop-logo.png
 ---
-Good evening Scotia, 
+Good evening, 
 
 Remember the last time you started a new job? The nervousness of choosing an outfit for the first day, not knowing where the coffee maker is, gradually getting a grasp of the office social dynamics... Really makes you grateful for those extra two months they give you at the beginning before actually starting work, just to get acclimated. 
 
