@@ -1,7 +1,7 @@
 ---
 aom_id: scotia-hille
 name: Scotia Hille
-photo: /img/team/squre.jpg
+photo: /img/team/hille-headshot.jpeg
 hidden: false
 order: 15
 ---
