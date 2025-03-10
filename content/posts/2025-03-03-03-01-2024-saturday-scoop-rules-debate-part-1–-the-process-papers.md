@@ -151,6 +151,20 @@ In the meantime, stay tuned for the May 1st deadline to hear about where Mass Sa
 
 ## Take Action
 
+**Tell the Joint Rules Conference Committee: Pass Joint Rules!** 
+
+Take action to ensure that we get a joint rules agreement this year that maximizes public participation and accountability. Email your representative: 
+
+**[TAKE ACTION FOR JOINT RULES>>](https://click.everyaction.com/k/103501617/532365925/-9394368?tab=t.0&utm_medium=&nvep=ew0KICAiVGVuYW50VXJpIjogIm5ncHZhbjovL3Zhbi9FQS9FQTAwNy8xLzkwMTUxIiwNCiAgIkRpc3RyaWJ1dGlvblVuaXF1ZUlkIjogIjYwMjFjNjI4LTVhZmMtZWYxMS05MGNkLTAwMjI0ODJhOWZiNyIsDQogICJFbWFpbEFkZHJlc3MiOiAic2NvdGlhQGFjdG9ubWFzcy5vcmciDQp9&hmac=pBqPEReN36AotHE0NoiQX6D_Y27Hy--tR3HaLwApTwg=&emci=499942c1-d3fa-ef11-90cd-0022482a9fb7&emdi=6021c628-5afc-ef11-90cd-0022482a9fb7&ceid=34858207)**
+
+**Tell your rep: cut corporate profits, not Mass Save!** 
+
+![](/img/utility_profiteering.jpeg)
+
+Our friends at the campaign to "Protect People from Utility Profiteering" have put together a great action guide to demand that our elected representatives take action on high utility bills & corporate profits. Click to take action! 
+
+**[STOP UTILITY PRICE GOUGING>>](https://click.everyaction.com/k/103501619/532365927/519274597?usp=sharing&utm_medium=&nvep=ew0KICAiVGVuYW50VXJpIjogIm5ncHZhbjovL3Zhbi9FQS9FQTAwNy8xLzkwMTUxIiwNCiAgIkRpc3RyaWJ1dGlvblVuaXF1ZUlkIjogIjYwMjFjNjI4LTVhZmMtZWYxMS05MGNkLTAwMjI0ODJhOWZiNyIsDQogICJFbWFpbEFkZHJlc3MiOiAic2NvdGlhQGFjdG9ubWFzcy5vcmciDQp9&hmac=pBqPEReN36AotHE0NoiQX6D_Y27Hy--tR3HaLwApTwg=&emci=499942c1-d3fa-ef11-90cd-0022482a9fb7&emdi=6021c628-5afc-ef11-90cd-0022482a9fb7&ceid=34858207)**
+
 **Mass Alliance Grassroots Campaign Training**
 
 ![](/img/unnamed-2.jpg)
@@ -161,7 +175,7 @@ Fed up with federal uncertainty and the lack of leadership from state officials?
 
 **\---**
 
-Phew, that's all we've got this week. Please enjoy your weekend– especially those extra rays of sunlight just starting to burst out of Beacon Hill's dome. 
+That's a wrap! Thanks for reading and thanks for taking action. Proud of this movement and what we've accomplished so far– and everything yet to come!  
 
 In solidarity,
 
