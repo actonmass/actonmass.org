@@ -2,7 +2,7 @@
 layout: post
 title: '03/08/2024 Saturday Scoop: Rules "Debate" Part 2– House language deep
   dive + committee assignment'
-date: 2025-03-14T17:15:07.025Z
+date: 2025-03-10T17:15:07.025Z
 image: /img/saturday-scoop-logo.png
 ---
 Happy Saturday, 
