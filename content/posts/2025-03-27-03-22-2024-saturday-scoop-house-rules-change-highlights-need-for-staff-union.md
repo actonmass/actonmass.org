@@ -24,8 +24,6 @@ I hope to see many of you on April 6th and would like to extend my sincere thank
 
 ## State House Scoop
 
-**House rules deep dive: public committee votes + more!**
-
 **New report highlights sexual misconduct in state legislatures nationwide, while MA legislature backslides** 
 
 Last week saw the release of a [new report](https://click.everyaction.com/k/104307667/534953274/-1688563463?utm_medium=&nvep=ew0KICAiVGVuYW50VXJpIjogIm5ncHZhbjovL3Zhbi9FQS9FQTAwNy8xLzkwMTUxIiwNCiAgIkRpc3RyaWJ1dGlvblVuaXF1ZUlkIjogImZmNmRjYjdjLTIwMDctZjAxMS05MGNkLTAwMjI0ODJhOWZiNyIsDQogICJFbWFpbEFkZHJlc3MiOiAic2NvdGlhQGFjdG9ubWFzcy5vcmciDQp9&hmac=mUOxYGkZmB3HT7w9nu44Hnz8taAUEQJi53pQssX6KPM=&emci=a7523990-9d06-f011-90cd-0022482a9fb7&emdi=ff6dcb7c-2007-f011-90cd-0022482a9fb7&ceid=34858207) by the nonpartisan National Women’s Defense League (NWDL) exposing the problem of sexual harassment in state legislatures. A survey conducted by NWDL of legislatures nationwide found that 1 in 3 state lawmakers report having experienced or witnessed harassment in their statehouse and 1 in 5 have experienced it directly. The report catalogues incidents of harassment against staff and fellow lawmakers. 
