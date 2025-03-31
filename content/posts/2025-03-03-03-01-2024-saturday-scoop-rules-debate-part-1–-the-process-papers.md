@@ -4,7 +4,7 @@ title: '03/01/2024 Saturday Scoop: Rules "Debate" Part 1– the Process Papers'
 date: 2025-03-03T14:39:37.712Z
 image: /img/saturday-scoop-logo.png
 ---
-What a week, Scotia! 
+What a week! 
 
 House members voted to approve their Rules packages on Tuesday and– duty done– finally received committee assignments Thursday, kicking off the official start to the lawmaking session… about [two months late](https://click.everyaction.com/k/103038904/531014796/1959498953?utm_medium=&nvep=ew0KICAiVGVuYW50VXJpIjogIm5ncHZhbjovL3Zhbi9FQS9FQTAwNy8xLzkwMTUxIiwNCiAgIkRpc3RyaWJ1dGlvblVuaXF1ZUlkIjogIjI0MzM4N2VlLWMyZjYtZWYxMS05MGNiLTAwMjI0ODJhOTNiNSIsDQogICJFbWFpbEFkZHJlc3MiOiAic2NvdGlhQGFjdG9ubWFzcy5vcmciDQp9&hmac=9JISuSRTX0Lo0uh3NTqWiyVqUwO1qwwPF1ql-j6V_Ck=&emci=0afecc68-aff6-ef11-90cb-0022482a93b5&emdi=243387ee-c2f6-ef11-90cb-0022482a93b5&ceid=34858207). 
 
