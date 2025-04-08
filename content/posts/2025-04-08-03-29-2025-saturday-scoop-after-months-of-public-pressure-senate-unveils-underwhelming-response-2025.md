@@ -1,6 +1,6 @@
 ---
 layout: post
-title: '03/29/2025 Saturday Scoop: After months of public pressure, Senate
+title: '04/05/2025 Saturday Scoop: After months of public pressure, Senate
   unveils underwhelming "Response 2025"'
 date: 2025-04-08T17:27:25.468Z
 image: /img/saturday-scoop-logo.png
