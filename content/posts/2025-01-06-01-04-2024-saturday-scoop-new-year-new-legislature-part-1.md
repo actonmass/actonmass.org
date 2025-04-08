@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "01/04/2024 Saturday Scoop: New Year, New Legislature (Part 1)"
+title: "01/04/2025 Saturday Scoop: New Year, New Legislature (Part 1)"
 date: 2025-01-06T19:07:35.411Z
 image: /img/saturday-scoop-logo.png
 ---
