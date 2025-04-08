@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "02/15/2024 Saturday Scoop: the Senate's rules are set– how transparent
+title: "02/15/2025 Saturday Scoop: the Senate's rules are set– how transparent
   are they?"
 date: 2025-02-17T18:50:19.701Z
 image: /img/saturday-scoop-logo.png
