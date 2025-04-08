@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "01/18/2024 Saturday Scoop: Healey proposes ending right-to-shelter in
+title: "01/18/2025 Saturday Scoop: Healey proposes ending right-to-shelter in
   middle of winter"
 date: 2025-01-20T16:03:23.926Z
 image: /img/saturday-scoop-logo.png
