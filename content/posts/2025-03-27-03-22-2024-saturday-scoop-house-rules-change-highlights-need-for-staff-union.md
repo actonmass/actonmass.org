@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "03/22/2024 Saturday Scoop: House rules change highlights need for staff union"
+title: "03/22/2025 Saturday Scoop: House rules change highlights need for staff union"
 date: 2025-03-24T16:02:35.752Z
 image: /img/saturday-scoop-logo.png
 ---
