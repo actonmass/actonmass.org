@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "03/29/2024 Saturday Scoop: As Trump policies strike fear across MA,
+title: "03/29/2025 Saturday Scoop: As Trump policies strike fear across MA,
   legislature wraps up 3rd month of inaction"
 date: 2025-03-31T14:20:10.081Z
 image: /img/saturday-scoop-logo.png
