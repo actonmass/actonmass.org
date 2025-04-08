@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "02/08/2024 Saturday Scoop: MA leaders' Trump response leaves much to be
+title: "02/08/2025 Saturday Scoop: MA leaders' Trump response leaves much to be
   desired"
 date: 2025-02-10T15:05:15.147Z
 image: /img/saturday-scoop-logo.png
