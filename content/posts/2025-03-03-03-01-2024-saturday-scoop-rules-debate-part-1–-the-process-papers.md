@@ -1,6 +1,6 @@
 ---
 layout: post
-title: '03/01/2024 Saturday Scoop: Rules "Debate" Part 1– the Process Papers'
+title: '03/01/2025 Saturday Scoop: Rules "Debate" Part 1– the Process Papers'
 date: 2025-03-03T14:39:37.712Z
 image: /img/saturday-scoop-logo.png
 ---
