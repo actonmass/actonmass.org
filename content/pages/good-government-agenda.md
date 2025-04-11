@@ -21,7 +21,7 @@ This bill would target one of the major levers of power that the House Speaker a
 
 ![](/img/s.3212_-an-act-relative-to-open-meeting-law-2-.png)
 
-## H.2970 / S.919: An Act relative to collective bargaining rights for legislative employees
+## [H.2970 / S.919: An Act relative to collective bargaining rights for legislative employees](https://malegislature.gov/Bills/194/S1343)
 
 **Sponsor: Senator John Keenan and Representative Carol Doherty**
 
