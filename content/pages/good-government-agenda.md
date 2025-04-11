@@ -5,7 +5,7 @@ layout: default
 ---
 ![](/img/sunlight-agenda-final.png)
 
-Coming off some potential wins in the House and Senate rules this session, we are keeping up the pressure and expanding our reach with the **Good Government Agenda!** This slate of three bills will target our top two issues in the state legislature: the lack of transparency and the concentration of power in leadership, which combine to prevent progress and keep the public uninformed and disempowered. 
+With federal policy undermining our values as a Commonwealth and creating uncertainty for Bay Staters, having a strong and accountable state government is more important than ever. Coming off some potential wins in the House and Senate rules this session, we are keeping up the pressure and expanding our reach with the **Good Government Agenda!** This slate of three bills will target our top two issues in the state legislature: the lack of transparency and the concentration of power in leadership, which combine to prevent progress and keep the public uninformed and disempowered. 
 
 ## [S.2099 An Act to provide sunlight to state government](https://malegislature.gov/Bills/194/S2099)
 
