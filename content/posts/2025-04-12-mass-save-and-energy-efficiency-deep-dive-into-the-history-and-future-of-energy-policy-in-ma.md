@@ -116,4 +116,4 @@ With that being said, affordable housing and climate activists have agreed that 
 
 The Commonwealth has a responsibility to help fund initiatives that work toward its common goals, which in this case are reduced greenhouse gas emissions and better renewable energy. Supplementary funding that is not coming directly out of ratepayers’ paychecks is crucial to both bolster the program and reduce financial burdens.
 
-Blog post by Sydney Mascoll, Act on Mass Policy Fellow Spring 2025
+*Blog post by Sydney Mascoll, Act on Mass Policy Fellow Spring 2025*
