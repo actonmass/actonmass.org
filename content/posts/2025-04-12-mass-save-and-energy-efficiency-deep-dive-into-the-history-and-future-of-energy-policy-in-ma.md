@@ -115,3 +115,5 @@ According to the Healey-Driscoll administration, the projected savings over the 
 With that being said, affordable housing and climate activists have agreed that costs of living are too high, but that cuts in costs should not be coming from programs like Mass Save and other clean energy initiatives. [High costs of living will only be heightened](https://www.bostonglobe.com/2025/04/08/metro/trump-tariffs-low-income-price-increase/) by Trump’s recent tariffs, but clean energy and climate initiatives should not and cannot be jeopardized in exchange, especially when the Trump administration has condemned and ignored said initiatives at the federal level. 
 
 The Commonwealth has a responsibility to help fund initiatives that work toward its common goals, which in this case are reduced greenhouse gas emissions and better renewable energy. Supplementary funding that is not coming directly out of ratepayers’ paychecks is crucial to both bolster the program and reduce financial burdens.
+
+Blog post by Sydney Mascoll, Act on Mass Policy Fellow Spring 2025
