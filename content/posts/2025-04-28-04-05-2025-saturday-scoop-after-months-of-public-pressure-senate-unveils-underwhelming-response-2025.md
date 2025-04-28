@@ -1,7 +1,7 @@
 ---
 layout: post
-title: '04/05/2025 Saturday Scoop: After months of public pressure, Senate
-  unveils underwhelming "Response 2025"'
+title: "04/19/2025 Saturday Scoop: Big announcement + State House Dems refuse to
+  stand up for transgender rights"
 date: 2025-04-28T13:23:41.243Z
 image: /img/saturday-scoop-logo.png
 ---
