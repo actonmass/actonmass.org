@@ -1,7 +1,7 @@
 ---
 layout: post
 title: What can Beacon Hill do about federal funding cuts? To start, not nothing
-date: 2025-05-03T14:19:05.027Z
+date: 2025-05-02T14:19:05.027Z
 image: /img/boston-111239_1280.jpg
 ---
 Less than four months into the administration, federal funding cuts are starting to hit Massachusetts. Already, the Trump administration has announced a series of funding cuts significantly impacting folks across the state. A [$12 million program](https://www.wbur.org/news/2025/03/12/federal-cuts-local-school-food-program) helping Massachusetts schools partner with local farms for cafeteria food has been slashed. The UMass Chan Medical School has [instated a hiring freeze and rescinded PhD offers](https://www.wbur.org/news/2025/03/13/umass-biomedical-school-phd-program-federal-funds) amid NIH funding cuts. 
