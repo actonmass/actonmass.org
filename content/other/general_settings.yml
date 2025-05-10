@@ -3,13 +3,15 @@ donate_button_url: https://secure.everyaction.com/_SjkDwX4y0uDuoc24BFq4w2
 description: Act on Mass is a non-profit organization that tracks what happens
   in the Massachusetts State House and the issues that matter to you.
 cta:
-  active: false
-  title: Donate to our End of Year Fundraiser
-  href: https://secure.everyaction.com/EjW0I4nUIU2FiIMF5mt3tw2
+  active: true
+  title: Come to our Transparency on Tour Collaborative Launch! May 26th
+  href: https://secure.everyaction.com/i7AQ8Yz8c0u659qdSnsKug2
 menu:
   - href: /about-us
     title: About Us
 initiatives_menu:
+  - href: /good-government-agenda
+    title: Good Government Agenda
   - href: /sunlight-agenda
     title: Sunlight Agenda
   - href: /the-campaign
