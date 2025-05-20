@@ -5,7 +5,7 @@ title: "05/10/2025 Saturday Scoop: Supplemental season - Speaker sneaks in $25
 date: 2025-05-12T18:39:38.954Z
 image: /img/saturday-scoop-logo.png
 ---
-Howdy Scotia, 
+Howdy, 
 
 As we careen towards summer, I'm getting more and more excited about launching **[Transparency on Tour](https://click.everyaction.com/k/107471397/544783065/1194020395?utm_medium=&nvep=ew0KICAiVGVuYW50VXJpIjogIm5ncHZhbjovL3Zhbi9FQS9FQTAwNy8xLzkwMTUxIiwNCiAgIkRpc3RyaWJ1dGlvblVuaXF1ZUlkIjogIjUzZjY0NmQ4LWVmMmQtZjAxMS04YjNkLTYwNDViZGVkOGNjYSIsDQogICJFbWFpbEFkZHJlc3MiOiAic2NvdGlhLmhpbGxlQGdtYWlsLmNvbSINCn0%3D&hmac=xLCN5AhZFGp5cDjulQ7d22bH4sdQmj4JAThlXdZWquk=&emci=7e4de384-1c2d-f011-8b3d-6045bded8cca&emdi=53f646d8-ef2d-f011-8b3d-6045bded8cca&ceid=15186377)**! One of my favorite things about my job is getting to meet people from different corners of the Commonwealth and hear about the issues that impact their communities– their own stake in our state democracy. I'm excited to get to do that all summer long, and looking forward to having some of you join us. 
 
