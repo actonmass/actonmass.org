@@ -29,7 +29,7 @@ Never one to do today what can be left for tomorrow, House Ways & Means waited u
 
 Although the Senate held a 9-minute informal session on Monday, they elected to adjourn until Thursday, ensuring that the agency would miss its deadline for funding. President Spilka’s [statement](https://click.everyaction.com/k/107857515/546060232/-249157071?utm_medium=&nvep=ew0KICAiVGVuYW50VXJpIjogIm5ncHZhbjovL3Zhbi9FQS9FQTAwNy8xLzkwMTUxIiwNCiAgIkRpc3RyaWJ1dGlvblVuaXF1ZUlkIjogIjExYzhlYzUxLTFjMzMtZjAxMS1hNWYxLTYwNDViZGE5ZDk2YiIsDQogICJFbWFpbEFkZHJlc3MiOiAic2NvdGlhLmhpbGxlQGdtYWlsLmNvbSINCn0%3D&hmac=4pMpfsp-5zAIgU45qRqFyC-6LipTxI2LX85PppTu9zc=&emci=b114e34e-6a32-f011-a5f1-6045bda9d96b&emdi=11c8ec51-1c33-f011-a5f1-6045bda9d96b&ceid=15186377) took obvious aim at House procrastination: “We are glad that the House decided to take action on this bill, which was filed five weeks ago on April 2. The Senate looks forward to taking up the legislation in three days, at our next session on Thursday.” Spicy! 
 
-The Senate ultimately took up the bill Thursday and passed it; it was signed by the Governor hours later. Still: though the House and Senate’s feud can be entertaining, they are gambling with the needs of Bay Staters when they prioritize procrastination and political spats over policy expediency. Unfortunately, that’s a theme for the year. 
+The Senate ultimately took up the bill Thursday and passed it; it was signed by the Governor hours later. Still: though the House and Senate’s feud can be entertaining, they are gambling with the needs of Bay Staters when they prioritize procrastination and political spats over policy expediency. Unfortunately, that’s a theme for the week. 
 
 **Without written joint rules, Senate and House animosities take center stage** 
 
