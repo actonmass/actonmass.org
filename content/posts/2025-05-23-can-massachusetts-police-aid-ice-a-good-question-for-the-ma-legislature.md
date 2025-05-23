@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Can Massachusetts police aid ICE? A good question for the MA legislature
+title: Can Massachusetts police aid ICE? A question for the MA legislature
 date: 2025-05-24T14:53:00.000Z
 image: /img/lyons-1920x1280.jpg
 ---
