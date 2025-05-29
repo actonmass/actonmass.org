@@ -5,7 +5,7 @@ description: Act on Mass is a non-profit organization that tracks what happens
 cta:
   active: true
   title: Join us on the road this summer with Transparency on Tour!
-  href: bit.ly/transparency-on-tour
+  href: https://docs.google.com/forms/d/e/1FAIpQLSeZCgzKp7bQjuH3bTOpW1ZuUqg2-S4MmezogSBo_8x5MSgDRA/viewform
 menu:
   - href: /about-us
     title: About Us
