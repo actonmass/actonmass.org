@@ -11,7 +11,7 @@ This summer, [Act on Mass](https://actonmass.org/) has set the ambitious goal to
 
 **Important links:** 
 
-* [RSVP for our Collaborative Launch on May 26th, 7 pm](https://secure.everyaction.com/i7AQ8Yz8c0u659qdSnsKug2)
+* We need lots of volunteer help this summer! Join us for a table, help us fill out "Accountability Cards," drive a carpool of other volunteers– fill out [this form](https://docs.google.com/forms/d/e/1FAIpQLSeZCgzKp7bQjuH3bTOpW1ZuUqg2-S4MmezogSBo_8x5MSgDRA/viewform?usp=dialog) to see upcoming opportunities and get plugged in! 
 * Help us find a place to table in your district with [this form](https://docs.google.com/forms/d/e/1FAIpQLSc0QTGcoLPT_j96J9rSAVu-5CqNSwPHAg-ofuFj4mIIugNwVg/viewform) 
 
 **Why Transparency on Tour?**
