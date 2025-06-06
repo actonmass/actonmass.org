@@ -2,7 +2,7 @@
 layout: post
 title: "05/31/2025 Special Scoop: Come join us for Transparency on Tour!"
 date: 2025-06-02T16:40:31.868Z
-image: /img/saturday-scoop-logo.png
+image: /img/copy-of-copy-of-saturday-scoop-logo-2.png
 ---
 Good morning,
 
