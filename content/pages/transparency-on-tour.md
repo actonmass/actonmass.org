@@ -17,7 +17,7 @@ This summer, [Act on Mass](https://actonmass.org/) has set the ambitious goal to
 
 **Track our progress:** 
 
-![](/img/transparency-on-tour-progress-4.png)
+![](/img/transparency-on-tour-progress-5.png)
 
 **Why Transparency on Tour?**
 
