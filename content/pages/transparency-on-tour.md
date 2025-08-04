@@ -12,12 +12,12 @@ This summer, [Act on Mass](https://actonmass.org/) has set the ambitious goal to
 **Important links:** 
 
 * We need lots of volunteer help this summer! Join us for a table, help us fill out "Accountability Cards," drive a carpool of other volunteers– fill out [this form](https://docs.google.com/forms/d/e/1FAIpQLSeZCgzKp7bQjuH3bTOpW1ZuUqg2-S4MmezogSBo_8x5MSgDRA/viewform?usp=dialog) to see upcoming opportunities and get plugged in! 
-* New members - join us for a State House 101 Workshop [August 4th, 6:30 - 7:30 pm](https://secure.everyaction.com/eCdvNHPDFEWsHMs9b25nPw2) 
+* New members - join us for a State House 101 Workshop [August 14th, 6:30 - 7:30 pm](https://secure.everyaction.com/2qtbWUk3IkmNd7Ul3UG9rw2) 
 * Help us find a place to table in your district with [this form](https://docs.google.com/forms/d/e/1FAIpQLSc0QTGcoLPT_j96J9rSAVu-5CqNSwPHAg-ofuFj4mIIugNwVg/viewform) 
 
 **Track our progress:** 
 
-![](/img/transparency-on-tour-progress-11.png)
+![](/img/transparency-on-tour-progress-13.png)
 
 **Why Transparency on Tour?**
 
