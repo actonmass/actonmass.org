@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "The MBTA Communities Act: Did Legislative Dysfunction Court Controversy? "
-date: 2025-05-24T14:53:00.000Z
+date: 2025-09-13T14:53:00.000Z
 image: /img/centralsq_aerial_kyleklein_kkp12371.jpg
 ---
 With affordable housing – and affordability in general – [appearing in headlines more often](https://www.abundanthousingma.org/resources/2025-polling-results/?utm_medium=&emci=83b3a4a7-5f75-f011-8dc9-6045bda9d96b&emdi=81acb6a2-6275-f011-8dc9-6045bda9d96b&ceid=32609417) than not, questions of what will be done to address these issues have been a leading concern for residents of Massachusetts. 
