@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "**5 years in, when will Massachusetts update qualified immunity laws?**"
+title: 5 years in, when will Massachusetts update qualified immunity laws?
 date: 2025-09-19T21:01:57.872Z
 image: /img/qualified-immunity.jpg
 ---
