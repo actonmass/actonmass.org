@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "09/20/2025 Saturday Scoop: Just how historical is this historically slow
-  session?"
+title: "09/20/2025 Saturday Scoop: Lawmaker trip draws attention to MA's ethics
+  disclosure law"
 date: 2025-09-29T16:37:35.245Z
 image: /img/saturday-scoop-logo.png
 ---
