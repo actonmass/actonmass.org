@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "11/15/2025 Saturday Scoop: Election takeaways show wins for transparency
-  + taking on Trump!"
+title: "11/15/2025 Saturday Scoop: Reps vote to roll back MA's climate laws in
+  classic tale of Beacon Hill corruption"
 date: 2025-11-17T17:04:13.344Z
 image: /img/saturday-scoop-logo.png
 ---
