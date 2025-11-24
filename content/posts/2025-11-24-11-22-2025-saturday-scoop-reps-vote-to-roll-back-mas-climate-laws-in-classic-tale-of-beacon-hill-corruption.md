@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "11/22/2025 Saturday Scoop: Reps vote to roll back MA's climate laws in
-  classic tale of Beacon Hill corruption"
+title: "11/22/2025 Saturday Scoop: Beacon Hill heads to winter recess with
+  little to show for it (+ a guest feature!)"
 date: 2025-11-24T18:27:50.578Z
 image: /img/saturday-scoop-logo.png
 ---
