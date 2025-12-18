@@ -2,7 +2,7 @@
 layout: post
 title: "12/13/2025 Saturday Scoop: As temperatures drop, high energy costs are
   the price of Beacon Hill inaction"
-date: 2025-12-18T22:24:51.480Z
+date: 2025-12-15T22:24:51.480Z
 image: /img/saturday-scoop-logo.png
 ---
 As 2026 approaches, I am reflecting with much appreciation on what a year it’s been for Act on Mass. 
