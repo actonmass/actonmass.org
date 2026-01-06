@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "The MBTA Communities Act: Did Legislative Dysfunction Court Controversy? 2"
+title: "The MBTA Communities Act: Did Legislative Dysfunction Court Controversy?"
 date: 2025-09-13T15:24:09.541Z
 image: /img/centralsq_aerial_kyleklein_kkp12371.jpg
 ---
