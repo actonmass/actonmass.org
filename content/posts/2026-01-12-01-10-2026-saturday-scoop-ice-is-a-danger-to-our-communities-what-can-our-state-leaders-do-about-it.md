@@ -113,6 +113,14 @@ Some other stories from local and regional news: 
 
 ## **Take Action**
 
+**"We keep us safe": save LUCE hotline to report ICE sightings in your neighborhood**
+
+![](/img/english.png)
+
+Help keep your own neighborhood safe by keeping an eye out for ICE vehicles and reporting sightings to the LUCE hotline. LUCE can also connect you to groups doing ICE watch in your area for training. Check out their website today! 
+
+**[WE PROTECT US: EXPLORE LUCE RESOURCES>>](https://click.everyaction.com/k/123119992/594418465/-780870421?utm_medium=&nvep=ew0KICAiVGVuYW50VXJpIjogIm5ncHZhbjovL3Zhbi9FQS9FQTAwNy8xLzkwMTUxIiwNCiAgIkRpc3RyaWJ1dGlvblVuaXF1ZUlkIjogIjU4YjIwY2UwLWY5ZWUtZjAxMS04MTk0LTAwMGQzYTExZjkwMyIsDQogICJFbWFpbEFkZHJlc3MiOiAiYWRtaW5AYWN0b25tYXNzLm9yZyINCn0%3D&hmac=wuXWak9RM4X96O_GXZqXLmjJDNhgyusiawQAQoStzOc=&emci=5853283e-f8ee-f011-8194-000d3a11f903&emdi=58b20ce0-f9ee-f011-8194-000d3a11f903&ceid=35598742)**
+
 **Tell your legislators: take action to protect Massachusetts' tax code from Trump cuts!**
 
 ![](/img/google_form_headers.png)
