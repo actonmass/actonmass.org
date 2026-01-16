@@ -5,6 +5,8 @@ title: "High Costs of State-Level Inaction: How Proposition 2 ½ Is Impacting
 date: 2026-01-17T23:51:37.031Z
 image: /img/centralsq_aerial_kyleklein_kkp12371.jpg
 ---
+**High Costs of State-Level Inaction: How Proposition 2 ½ Is Impacting Municipalities**
+
 Inaction in the State Legislature here in Massachusetts does not only prevent things from getting done at the state level. Municipalities across the state have had to navigate keeping communities afloat as Beacon Hill has become increasingly inactive over the years. 
 
 For years now, the Legislature has been causing local standstills through inaction. As unrestricted state aid to local governments has declined, municipalities have been increasingly unable to collect sufficient property tax revenue to compensate.  
@@ -40,9 +42,11 @@ While Proposition 2 ½ may be called “successful” in its ability to slow rap
 
 Increasing economic uncertainty for municipalities, especially in recent years, had led to increasing opposition to Proposition 2 ½. 
 
+Last year, [41 towns](https://dls-gw.dor.state.ma.us/reports/rdPage.aspx?rdReport=Votes.Prop2_5.OverrideUnderride) across the state voted on overrides to fund projects. The increasing attempts to circumvent the restrictions created by Proposition 2 ½ have told advocates and constituents that the law is not working in favor of municipalities. 
+
 According to the [Massachusetts Municipal Association’s](https://www.mma.org/) (MMA) report from this past fall, [“the constraints \[of Proposition 2 ½] may be too restrictive”](https://www.mma.org/wp-content/uploads/2025/10/MMA-APerfectStorm-HistoricFiscalPressures-report-10.9.25.pdf#page=[3]). Additionally, compared to the Legislature’s spending, Massachusetts municipalities have seen a minimal increase in total spending over the past decade. 
 
-While the state budget has had an average increase of 2.8% in annual growth between 2010 and 2022, [municipal budgets have averaged 0.6%](https://www.mma.org/wp-content/uploads/2025/10/MMA-APerfectStorm-HistoricFiscalPressures-report-10.9.25.pdf#page=[3]) – an amount that is less than the average growth of municipalities across the United States as a whole. In other words, municipalities are unable to keep up with inflation that is consistently higher than what Proposition 2 ½ allows, but the Legislature is not prioritizing giving local aid to municipalities in its high spending budgets. 
+While the state budget has had an average increase of 2.8% in annual growth between 2010 and 2022, [Massachusetts’ municipalities have averaged 0.6%](https://www.mma.org/wp-content/uploads/2025/10/MMA-APerfectStorm-HistoricFiscalPressures-report-10.9.25.pdf#page=[3]) – an amount that is less than the average growth of municipalities across the United States as a whole. In other words, municipalities are unable to keep up with inflation that is consistently higher than what Proposition 2 ½ allows, but the Legislature is not prioritizing giving local aid to municipalities in its high spending budgets. 
 
 As costs are rapidly increasing, and state aid to local governments is decreasing overall, municipalities are being left in a situation where [routine infrastructure projects, education, and even public safety are at risk](https://commonwealthbeacon.org/the-codcast/municipal-budgets-at-the-breaking-point/). Adhering to the increasingly tight budgets that limit growth in spending as overall inflation increases is becoming increasingly impractical. Fiscal instability means that communities are unable to address their needs, especially when it comes to less affluent communities in the state. Additionally, the ability to plan for long-term projects is diminishing. 
 
@@ -53,6 +57,16 @@ Additionally, [municipalities have a good record of spending tax revenues wisely
 So, while the answer to the issue of Proposition 2 ½ is still up in the air, one thing that can – and should – be continuously addressed is the lack of transparency in the Massachusetts State House. When more transparency is promoted in government, more efficiency will follow. 
 
 In other words, having a functioning State Legislature is part of the solution to underfunded municipalities. 
+
+Unfortunately, there are plenty of other examples of the lack of state-level transparency and the resulting inaction having negative consequences in municipalities. 
+
+Recently, [CommonWealth Beacon published an article](https://commonwealthbeacon.org/gateway-cities/no-way-in-and-no-way-out-beacon-hill-hasnt-kept-track-of-which-communities-qualify-for-gateway-city-status/) highlighting how the Legislature’s failure to keep track of Gateway Cities is impacting municipalities’ ability to receive adequate funding. As a result of not updating the list of Gateway Cities for about 13 years, some municipalities have missed an opportunity to receive funding for redevelopment. 
+
+The Legislature’s inaction has also negatively impacted municipalities in Massachusetts by using outdated formulas to calculate state aid for building projects, which has led to [lower-income school districts losing out on funding opportunities](https://commonwealthbeacon.org/education/state-school-building-program-favors-wealthier-districts-leaving-lower-income-urban-students-in-aging-dilapidated-buildings-according-to-new-study/). 
+
+The urgent needs of municipalities are continuously being pushed to the side as a result of the Massachusetts Legislature’s inaction. 
+
+So long as the few members of leadership in the State House continue to hold disproportionate power over the allocation of funding – particularly through their distribution of local aid via earmarks in state budgets – communities across the state will be unable to fund the projects that constituents both need and want. 
 
 **So what now?**
 
@@ -68,6 +82,6 @@ The state does not necessarily need a complete overhaul of Proposition 2 ½ to a
 
 Without fair elections, local aid that is given out by the state will remain in the hands of those in leadership positions in the Massachusetts State House who decide on what is included in budgets session after session. 
 
-As Evan Horowitz – Executive Director of Tufts University's Center for State Policy Analysis – has said on Proposition 2 ½, [“We have a mechanism… that’s what voting is for. You don’t need a mechanical law for this when you have functioning elections.” ](https://www.wbur.org/upnext/2025/10/21/prop-property-tax-cities-massachusetts)
+As Evan Horowitz – Executive Director of Tufts University's Center for State Policy Analysis – has said on Proposition 2 ½, [“We have a mechanism… that’s what voting is for. You don’t need a mechanical law for this when you have functioning elections.”](https://www.wbur.org/upnext/2025/10/21/prop-property-tax-cities-massachusetts)
 
 *Blog post by Sydney Mascoll, Act on Mass Policy Fellow, Fall 2025*
