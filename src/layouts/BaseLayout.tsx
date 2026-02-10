@@ -34,6 +34,7 @@ export default function BaseLayout({ children, title, image }: Props) {
           content={`${generalSettings.url}${image ?? "/img/fb-thumbnail.png"}`}
         />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="referrer" content="strict-origin-when-cross-origin"></meta>
         <link rel="shortcut icon" href="/img/favicon.png" type="image/png" />
         <script
           defer
