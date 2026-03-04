@@ -21,6 +21,8 @@ initiatives_menu:
     title: The People's House Campaign
   - href: /pledge
     title: Voters Deserve To Know Pledge
+  - href: /ballot-question
+    title: Transparency Ballot Question 2020 & 2022
 learn_more_menu:
   - href: /bills
     title: Bills
@@ -34,8 +36,6 @@ learn_more_menu:
     title: Writing a Letter to the Editor
   - href: /transparency
     title: Transparency in the State House
-  - href: /ballot-question
-    title: Transparency Ballot Question 2020 & 2022
 footer:
   - title: FAQs
     href: /faq
