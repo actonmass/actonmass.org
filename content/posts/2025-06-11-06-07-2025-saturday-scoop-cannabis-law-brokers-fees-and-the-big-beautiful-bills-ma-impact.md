@@ -79,7 +79,7 @@ For me, it was an unfortunate reminder that when the state house delays critical
 
 \---
 
-## **Syd's Sprinkles: A review of MA law on immigration enforcement** 
+## **Syd's Sprinkles: Seeing double...** 
 
 While Act on Mass focuses on the lack of transparency in Massachusetts’ Legislature, transparency is a major issue (to varying degrees) in all levels of government. And having been a part of the AoM team for over a year now, I have developed a keen eye for opaque behaviors in all kinds of scenarios. 
 
