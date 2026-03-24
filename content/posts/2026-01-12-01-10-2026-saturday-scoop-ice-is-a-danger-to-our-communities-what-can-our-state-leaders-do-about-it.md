@@ -73,7 +73,7 @@ While the Trump administration tries to divide us, we are strongest when we stan
 
 **\---**
 
-## **Syd's Sprinkles: What can Massachusetts do about ICE?**
+## **Syd's Sprinkles: Massachusetts’ abundance of ballot questions**
 
 Massachusetts is advancing a record-breaking 11 ballot questions and 1 referendum to the ballot for the state’s 2026 election. Advocates and voters have a multitude of concerns surrounding such a hefty ballot. [These questions cover issues including](https://click.everyaction.com/k/123119965/594418434/931500909?utm_medium=&nvep=ew0KICAiVGVuYW50VXJpIjogIm5ncHZhbjovL3Zhbi9FQS9FQTAwNy8xLzkwMTUxIiwNCiAgIkRpc3RyaWJ1dGlvblVuaXF1ZUlkIjogIjU4YjIwY2UwLWY5ZWUtZjAxMS04MTk0LTAwMGQzYTExZjkwMyIsDQogICJFbWFpbEFkZHJlc3MiOiAiYWRtaW5AYWN0b25tYXNzLm9yZyINCn0%3D&hmac=wuXWak9RM4X96O_GXZqXLmjJDNhgyusiawQAQoStzOc=&emci=5853283e-f8ee-f011-8194-000d3a11f903&emdi=58b20ce0-f9ee-f011-8194-000d3a11f903&ceid=35598742) government transparency, rent control, same-day voter registration, and stipend reform – which we have worked on here at Act on Mass along with allies. 
 
