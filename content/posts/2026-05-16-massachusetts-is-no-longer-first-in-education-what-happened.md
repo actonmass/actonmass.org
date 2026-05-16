@@ -42,4 +42,4 @@ Many solutions have been proposed to address the fiscal crisis and worsening out
 
 You might think that knowing the importance of funding on student outcomes, facing worsening rankings, and worsening achievement gaps across all categories, the legislature would address this, and pass at least ONE of the many solutions that advocates propose. But, in character for [the least productive legislature in the country](https://thisweekinworcester.com/mass-legislature-least-efficient-2023/), they have been sitting on their hands and letting the issue compound, letting Massachusetts fall behind NEW YORK on a ranking that defines why many families move here. Did Eli Manning pick up a career in lobbying that I don’t know about??
 
-*Blog post by Oscar Gillette, Act on Mass Digital Media Intern, Spring 2026*
+*Blog post by Oscar Gillette, Act on Mass Digital Media Intern, Spring 2026. Oscar's interest in local politics began in School Committee campaigns and education budget fights in his hometown of Andover. He studies history and political science at American University, and he loves the show Survivor.*
