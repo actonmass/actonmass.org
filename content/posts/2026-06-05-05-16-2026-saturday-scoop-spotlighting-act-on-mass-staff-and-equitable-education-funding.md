@@ -2,7 +2,7 @@
 layout: post
 title: "05/16/2026 Saturday Scoop: Spotlighting Act on Mass staff! (and
   equitable education funding!)"
-date: 2026-06-05T15:43:19.512Z
+date: 2026-05-18T15:43:19.512Z
 image: /img/saturday-scoop-logo.png
 ---
 Friend, I have some very exciting news! 
