@@ -5,7 +5,7 @@ title: "05/30/2026 Saturday Scoop: After years of stonewalling, Senate will hand
 date: 2026-06-01T19:38:04.346Z
 image: /img/saturday-scoop-logo.png
 ---
-Election season is in full swing, Patricia!
+Election season is in full swing!
 
 The Democratic convention is taking place today in Worcester. You can find Act on Mass at a table there, talking to convention attendees about our legislature’s appalling lack of action against Trump and gathering signatures for the public records law ballot question. 
 
