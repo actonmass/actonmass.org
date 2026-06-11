@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "06/06/2026 Saturday Scoop: After years of stonewalling, Senate will hand
-  over (some) audit documents"
+title: '06/06/2026 Saturday Scoop: After years of claiming "unconstitutional,"
+  why are reps so determined to avoid SJC ruling on audit?'
 date: 2026-06-08T15:23:15.274Z
 image: /img/saturday-scoop-logo.png
 ---
