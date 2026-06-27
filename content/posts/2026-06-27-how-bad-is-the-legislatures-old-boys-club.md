@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "How bad is the legislature's \"Old Boy's Club\"? "
+title: "The legislature is an \"Old Boy's Club.\" How bad is it really? "
 date: 2026-06-27T07:09:07.140Z
 image: /img/vm65irihj3mldvsvvdx23euigm.jpg
 ---
