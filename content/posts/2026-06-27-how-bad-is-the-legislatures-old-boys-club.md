@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "The legislature is an \"Old Boy's Club.\" How bad is it really? "
-date: 2026-06-27T07:09:07.140Z
+date: 2026-06-26T07:09:07.140Z
 image: /img/vm65irihj3mldvsvvdx23euigm.jpg
 ---
 It would be a truism to say that the Massachusetts General Court is an [“Old Boys Club”](https://www.wgbh.org/original-old-boys-club) of mostly White men. But what does that mean? Does the demographic makeup of our legislature actually matter? 
